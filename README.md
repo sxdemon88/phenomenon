@@ -1,2 +1,2 @@
 # phenomenon
-phenomenon
+Глобальный мод Феномен для АТОМ
