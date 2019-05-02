@@ -1,0 +1,536 @@
+{ 
+   "states" : { 
+      "89e73491-2f58-4f79-a52e-56f7286b2ecb" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101583", 
+            "y" : "-100597"
+         }, 
+         "child" : [ 
+            "3d35b8e2-081b-4ae1-b5d3-7fa8303a8238"
+         ]
+      }, 
+      "3d35b8e2-081b-4ae1-b5d3-7fa8303a8238" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-101482", 
+            "y" : "-100453"
+         }, 
+         "child" : [ 
+            "17013e24-5955-4621-9a4c-ef4e87d628d9", 
+            "ee7958ca-15b2-4e5e-893f-ab8a46d29f69"
+         ]
+      }, 
+      "17013e24-5955-4621-9a4c-ef4e87d628d9" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101711", 
+            "y" : "-100262", 
+            "comment" : "4-6"
+         }, 
+         "child" : [ 
+            "1f8373f5-6d97-4930-a5e4-62de60521b95", 
+            "679d3423-b095-49ad-b558-6a900b0e745c", 
+            "b923b2b9-b5ba-4231-90fa-0bb2ddd13550", 
+            "425e152c-c62f-42c7-b8c3-9394ed004923", 
+            "17045878-135e-4abf-8b3d-515ca5298aab"
+         ]
+      }, 
+      "1f8373f5-6d97-4930-a5e4-62de60521b95" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101896", 
+            "y" : "-100111"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.1", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Stag", 
+            "character" : "Stag", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "679d3423-b095-49ad-b558-6a900b0e745c" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101767", 
+            "y" : "-100115"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.2", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Stag", 
+            "character" : "Stag", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "b923b2b9-b5ba-4231-90fa-0bb2ddd13550" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101636", 
+            "y" : "-100115"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.3", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Stag", 
+            "character" : "Stag", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "425e152c-c62f-42c7-b8c3-9394ed004923" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101507", 
+            "y" : "-100113"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.4", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Stag", 
+            "character" : "Stag", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "17045878-135e-4abf-8b3d-515ca5298aab" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-101283", 
+            "y" : "-100172"
+         }, 
+         "child" : [ 
+            "c0aacd2d-b4cd-4cb0-97c4-2740bdf035e5", 
+            "2a7ed83a-12f1-4366-ba1f-ac3a1d16ffd1", 
+            "8414c81f-10a3-4cf4-8493-3ece62a3157a"
+         ]
+      }, 
+      "c0aacd2d-b4cd-4cb0-97c4-2740bdf035e5" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101500", 
+            "y" : "-99827"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "2a7ed83a-12f1-4366-ba1f-ac3a1d16ffd1" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-101141", 
+            "y" : "-99997"
+         }, 
+         "child" : [ 
+            "8e6e893a-2dca-4475-8ebc-a2ce207c5ef5"
+         ], 
+         "objectName" : "Spawn.Enemy.3", 
+         "pos" : [ 
+            "20.03", 
+            "0", 
+            "12"
+         ]
+      }, 
+      "8e6e893a-2dca-4475-8ebc-a2ce207c5ef5" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101159", 
+            "y" : "-99892"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.3", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Rabbit", 
+            "character" : "Rabbit", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "8414c81f-10a3-4cf4-8493-3ece62a3157a" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101002", 
+            "y" : "-100108"
+         }, 
+         "child" : [ 
+            "2a7ed83a-12f1-4366-ba1f-ac3a1d16ffd1", 
+            "0dad230a-e6ec-417f-a992-905f0c64a4b5"
+         ]
+      }, 
+      "0dad230a-e6ec-417f-a992-905f0c64a4b5" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-101011", 
+            "y" : "-99998"
+         }, 
+         "child" : [ 
+            "2cd44b02-59f3-4e0e-bfa4-00ac486a10fe"
+         ], 
+         "objectName" : "Spawn.Enemy.4", 
+         "pos" : [ 
+            "30.03", 
+            "0", 
+            "8"
+         ]
+      }, 
+      "2cd44b02-59f3-4e0e-bfa4-00ac486a10fe" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101016", 
+            "y" : "-99892"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.4", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Rabbit", 
+            "character" : "Rabbit", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "ee7958ca-15b2-4e5e-893f-ab8a46d29f69" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100830", 
+            "y" : "-100360", 
+            "comment" : "6-10"
+         }, 
+         "child" : [ 
+            "17013e24-5955-4621-9a4c-ef4e87d628d9", 
+            "0cc559ed-18e7-4d1d-a00f-9602d43485b3"
+         ]
+      }, 
+      "0cc559ed-18e7-4d1d-a00f-9602d43485b3" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-100621", 
+            "y" : "-100314"
+         }, 
+         "child" : [ 
+            "ee8d6b7d-ca4d-437b-b884-2d73ce29ff73", 
+            "250f32b1-221c-4313-ad7f-bb19bd037087", 
+            "a1009c31-bc05-40ae-9f79-d06888a759de", 
+            "a745783c-c811-4f5e-bd7c-cf8511383d9d"
+         ]
+      }, 
+      "ee8d6b7d-ca4d-437b-b884-2d73ce29ff73" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100767", 
+            "y" : "-100146"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.5", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Stag", 
+            "character" : "Stag", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "250f32b1-221c-4313-ad7f-bb19bd037087" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100641", 
+            "y" : "-100186"
+         }, 
+         "child" : [ 
+            "ee8d6b7d-ca4d-437b-b884-2d73ce29ff73", 
+            "34a6fcae-a6c5-4e91-9dc5-43ac8c6e7bea"
+         ]
+      }, 
+      "34a6fcae-a6c5-4e91-9dc5-43ac8c6e7bea" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100581", 
+            "y" : "-100126"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.6", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Stag", 
+            "character" : "Stag", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "a1009c31-bc05-40ae-9f79-d06888a759de" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100477", 
+            "y" : "-100240"
+         }, 
+         "child" : [ 
+            "ee8d6b7d-ca4d-437b-b884-2d73ce29ff73", 
+            "34a6fcae-a6c5-4e91-9dc5-43ac8c6e7bea", 
+            "2ea44f9c-725d-4fd5-99d2-ddb11c982b8c"
+         ]
+      }, 
+      "2ea44f9c-725d-4fd5-99d2-ddb11c982b8c" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100434", 
+            "y" : "-100125"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.7", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Rabbit", 
+            "character" : "Rabbit", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "a745783c-c811-4f5e-bd7c-cf8511383d9d" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100301", 
+            "y" : "-100245"
+         }, 
+         "child" : [ 
+            "ee8d6b7d-ca4d-437b-b884-2d73ce29ff73", 
+            "34a6fcae-a6c5-4e91-9dc5-43ac8c6e7bea", 
+            "2ea44f9c-725d-4fd5-99d2-ddb11c982b8c", 
+            "a09471da-3220-41bb-ad00-e9defaf0dabc"
+         ]
+      }, 
+      "a09471da-3220-41bb-ad00-e9defaf0dabc" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100275", 
+            "y" : "-100121"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.8", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "stag", 
+            "character" : "stag", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }
+   }, 
+   "entry" : "89e73491-2f58-4f79-a52e-56f7286b2ecb"
+}

@@ -2537,6 +2537,7 @@
             "f6d32d26-619f-4676-805d-d5e64475f242", 
             "32eb9f52-93dd-4f2c-a9cf-c59fb0ac16e0", 
             "170e8431-67a3-4efb-bd67-662d59c015b6", 
+            "53841092-6d20-4b85-a229-cedd5e7ec8e8", 
             "4f35503b-2d75-4c27-a136-fcdd0b5fcd98", 
             "b8a0cf47-4e20-4e32-a05e-8976ce9a72a2", 
             "9d5c8004-57e0-4430-8695-2fa68ad2a847"
@@ -7178,6 +7179,27 @@
          "child" : [ 
          ], 
          "script" : "Entities/Behavior/z_z_wolfsnights"
+      }, 
+      "53841092-6d20-4b85-a229-cedd5e7ec8e8" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-97117", 
+            "y" : "-101411"
+         }, 
+         "child" : [ 
+            "83830e41-e5d4-41fa-9f84-7378543bb2fd"
+         ], 
+         "encType" : "Hunt_stag"
+      }, 
+      "83830e41-e5d4-41fa-9f84-7378543bb2fd" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-97157", 
+            "y" : "-101327"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/Z_Z_Hunt_stag"
       }, 
       "4f35503b-2d75-4c27-a136-fcdd0b5fcd98" : { 
          "class" : "EncounterTypeNode", 
