@@ -16,7 +16,7 @@ MonoBehaviour:
     path: Entities/Consumable/Petrol
   m_Localization: consumable.petrol
   Takeable: 1
-  Cost: 489
+  Cost: 214
   Weight: 1056
   Collectable: 1
   Modifiers: []

@@ -760,8 +760,8 @@
       "370385de-beb0-432c-938c-f5133c8fc879" : { 
          "class" : "RandomNode", 
          "desc" : { 
-            "x" : "-102314", 
-            "y" : "-99236", 
+            "x" : "-102466", 
+            "y" : "-99221", 
             "comment" : "team2"
          }, 
          "child" : [ 
@@ -895,8 +895,8 @@
       "cfefed25-c4a5-47b0-a282-5f8841020c07" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-102676", 
-            "y" : "-98999"
+            "x" : "-102678", 
+            "y" : "-98997"
          }, 
          "child" : [ 
             "4bad0602-2bd0-48a9-86a3-fe8ce36eeee6"
@@ -1099,8 +1099,8 @@
       "63145727-ff15-4684-86d2-9b85c7bac5b6" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-102446", 
-            "y" : "-98467"
+            "x" : "-102410", 
+            "y" : "-98403"
          }, 
          "child" : [ 
          ], 
@@ -2171,8 +2171,8 @@
       "7dff89d3-034b-46cc-89cc-a69cd25d7c6b" : { 
          "class" : "AddKeywordNode", 
          "desc" : { 
-            "x" : "-101550", 
-            "y" : "-101000"
+            "x" : "-101450", 
+            "y" : "-101029"
          }, 
          "child" : [ 
             "69ad242e-ecab-49d8-afa2-27b82eaaac87", 
@@ -2183,8 +2183,8 @@
       "69ad242e-ecab-49d8-afa2-27b82eaaac87" : { 
          "class" : "ActiveObjectNode", 
          "desc" : { 
-            "x" : "-101624", 
-            "y" : "-100922"
+            "x" : "-101653", 
+            "y" : "-100920"
          }, 
          "child" : [ 
          ], 
@@ -2194,8 +2194,8 @@
       "b9222787-9b49-4cb7-84ea-6827dbb8f405" : { 
          "class" : "ActiveObjectNode", 
          "desc" : { 
-            "x" : "-101456", 
-            "y" : "-100941"
+            "x" : "-101391", 
+            "y" : "-100928"
          }, 
          "child" : [ 
          ], 
@@ -2219,8 +2219,8 @@
       "9d6b4c6c-d2fd-432f-97e2-acd7656ed9dd" : { 
          "class" : "ObjectCheckNode", 
          "desc" : { 
-            "x" : "-100522", 
-            "y" : "-101449"
+            "x" : "-100517", 
+            "y" : "-101500"
          }, 
          "child" : [ 
             "9f64fdd6-2651-40e6-a50f-56e85db3b43b", 
@@ -2540,7 +2540,8 @@
             "53841092-6d20-4b85-a229-cedd5e7ec8e8", 
             "4f35503b-2d75-4c27-a136-fcdd0b5fcd98", 
             "b8a0cf47-4e20-4e32-a05e-8976ce9a72a2", 
-            "9d5c8004-57e0-4430-8695-2fa68ad2a847"
+            "9d5c8004-57e0-4430-8695-2fa68ad2a847", 
+            "7db3474c-4cd1-4fb4-aac5-b175c027e432"
          ]
       }, 
       "1d39fdb0-e88c-4614-9fc1-01673172a09c" : { 
@@ -4268,8 +4269,8 @@
       "fa2661ac-af68-491b-9712-c2b19576cbfb" : { 
          "class" : "RandomNode", 
          "desc" : { 
-            "x" : "-103424", 
-            "y" : "-99230", 
+            "x" : "-102858", 
+            "y" : "-99208", 
             "comment" : "team1"
          }, 
          "child" : [ 
@@ -5938,8 +5939,8 @@
       "ac66bf06-6fef-4032-8300-dd6d5d08efdf" : { 
          "class" : "EncounterTypeNode", 
          "desc" : { 
-            "x" : "-101667", 
-            "y" : "-101056"
+            "x" : "-101603", 
+            "y" : "-101106"
          }, 
          "child" : [ 
             "a7f35679-48b8-453c-b8f4-da3ef2f56faa", 
@@ -7336,6 +7337,27 @@
          "child" : [ 
          ], 
          "script" : "entities/behavior/z_z_drug"
+      }, 
+      "7db3474c-4cd1-4fb4-aac5-b175c027e432" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-96848", 
+            "y" : "-101418"
+         }, 
+         "child" : [ 
+            "1000ff9c-aca8-4e6f-9978-ceecac998c99"
+         ], 
+         "encType" : "fight_1"
+      }, 
+      "1000ff9c-aca8-4e6f-9978-ceecac998c99" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-96902", 
+            "y" : "-101319"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/Z_Z_fight_1"
       }, 
       "a313f832-e9a0-401c-a845-c9b916e15c6c" : { 
          "class" : "ObjectCheckNode", 
