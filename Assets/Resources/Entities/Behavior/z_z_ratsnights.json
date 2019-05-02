@@ -1,0 +1,1098 @@
+{ 
+   "states" : { 
+      "d1f15558-3d0a-4817-bb24-1f69a5f0116e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101602", 
+            "y" : "-101512"
+         }, 
+         "child" : [ 
+            "a4a614e1-5397-4512-aa20-b33d2e1de4fc"
+         ]
+      }, 
+      "a4a614e1-5397-4512-aa20-b33d2e1de4fc" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-101407", 
+            "y" : "-101358"
+         }, 
+         "child" : [ 
+            "e75d4c97-0cdc-4ffb-bd86-ecf2b9be0720", 
+            "ce0eefa7-8379-45e1-aee2-4942ac7c2753"
+         ]
+      }, 
+      "e75d4c97-0cdc-4ffb-bd86-ecf2b9be0720" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102280", 
+            "y" : "-101382"
+         }, 
+         "child" : [ 
+            "ce0eefa7-8379-45e1-aee2-4942ac7c2753", 
+            "c29bd5d9-de93-4c00-a9b6-e86fa29b0937", 
+            "58e6d763-831b-4d32-9d61-e1736bf96b68", 
+            "7e56c089-a5cf-4676-8f8f-64b982c04d4e", 
+            "5c4f0dfc-3366-4354-a130-17d2abfa4659"
+         ]
+      }, 
+      "ce0eefa7-8379-45e1-aee2-4942ac7c2753" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102481", 
+            "y" : "-100911"
+         }, 
+         "child" : [ 
+            "8a61972d-ec83-47cc-b6fe-54d6a879fb72", 
+            "744af579-6f32-44c8-bc91-b847229b8bb3", 
+            "9b8dd242-dcb2-4ef4-88cf-b587168a7104", 
+            "2de5eb61-4d4a-4383-a038-4a58fac0c5bb", 
+            "5cb6b052-258e-4547-9b03-b876e55f7f3d", 
+            "13e501b6-9bd4-40f4-b4af-cfb83daaf90e", 
+            "2245d2d4-f313-45f9-b4f7-384e9bc70572"
+         ]
+      }, 
+      "8a61972d-ec83-47cc-b6fe-54d6a879fb72" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102221", 
+            "y" : "-100793"
+         }, 
+         "child" : [ 
+            "15455233-bb94-434a-8259-eb3fc35c43d3"
+         ], 
+         "spawnPoint" : "Spawn.Enemy.1", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Rat", 
+            "character" : "Rat_Crazy", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "15455233-bb94-434a-8259-eb3fc35c43d3" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-102224", 
+            "y" : "-100665"
+         }, 
+         "child" : [ 
+            "ef43d1d6-9954-45a4-9458-3f33180e58c8"
+         ], 
+         "objectName" : "Spawn.Enemy.1", 
+         "pos" : [ 
+            "14", 
+            "0", 
+            "3"
+         ]
+      }, 
+      "ef43d1d6-9954-45a4-9458-3f33180e58c8" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102218", 
+            "y" : "-100557"
+         }, 
+         "child" : [ 
+            "5cb2ce9a-4c3c-499a-a7ac-097a9ef5d9c3"
+         ], 
+         "spawnPoint" : "Spawn.Enemy.1", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Rat", 
+            "character" : "Rat_Crazy", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "5cb2ce9a-4c3c-499a-a7ac-097a9ef5d9c3" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-101232", 
+            "y" : "-99988"
+         }, 
+         "child" : [ 
+            "b87096cc-f8d1-4c70-ab5e-0b9fc3200eaf"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "Spawn.Enemy.1"
+      }, 
+      "b87096cc-f8d1-4c70-ab5e-0b9fc3200eaf" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-101111", 
+            "y" : "-99879"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/Z_Z_Disease1"
+      }, 
+      "744af579-6f32-44c8-bc91-b847229b8bb3" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102064", 
+            "y" : "-100812"
+         }, 
+         "child" : [ 
+            "42fd4201-ecce-4152-b26f-c77f74d31340"
+         ], 
+         "spawnPoint" : "Spawn.Enemy.2", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Rat", 
+            "character" : "Rat_Crazy", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "42fd4201-ecce-4152-b26f-c77f74d31340" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-102061", 
+            "y" : "-100680"
+         }, 
+         "child" : [ 
+            "19684c85-09b9-4449-bc6f-4efbcf05806a"
+         ], 
+         "objectName" : "Spawn.Enemy.2", 
+         "pos" : [ 
+            "11", 
+            "0", 
+            "5"
+         ]
+      }, 
+      "19684c85-09b9-4449-bc6f-4efbcf05806a" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102059", 
+            "y" : "-100562"
+         }, 
+         "child" : [ 
+            "e9f84194-d5be-4674-8bfe-ecacde8aa342"
+         ], 
+         "spawnPoint" : "Spawn.Enemy.2", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Rat", 
+            "character" : "Rat_Crazy", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "e9f84194-d5be-4674-8bfe-ecacde8aa342" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-100972", 
+            "y" : "-99990"
+         }, 
+         "child" : [ 
+            "b87096cc-f8d1-4c70-ab5e-0b9fc3200eaf"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "Spawn.Enemy.2"
+      }, 
+      "9b8dd242-dcb2-4ef4-88cf-b587168a7104" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101923", 
+            "y" : "-100811"
+         }, 
+         "child" : [ 
+            "c9def9d1-9b1b-4a91-905e-38463a3d4b51"
+         ], 
+         "spawnPoint" : "Spawn.Enemy.3", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Rat", 
+            "character" : "Rat_Crazy", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "c9def9d1-9b1b-4a91-905e-38463a3d4b51" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-101925", 
+            "y" : "-100680"
+         }, 
+         "child" : [ 
+            "0c7d30bd-c83d-4e51-8537-f00f37ff7d26"
+         ], 
+         "objectName" : "Spawn.Enemy.3", 
+         "pos" : [ 
+            "10", 
+            "0", 
+            "11"
+         ]
+      }, 
+      "0c7d30bd-c83d-4e51-8537-f00f37ff7d26" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101929", 
+            "y" : "-100555"
+         }, 
+         "child" : [ 
+            "4f0451a9-0267-48a0-92bb-c79862eae537"
+         ], 
+         "spawnPoint" : "Spawn.Enemy.3", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Rat", 
+            "character" : "Rat_Crazy", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "4f0451a9-0267-48a0-92bb-c79862eae537" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-100722", 
+            "y" : "-99992"
+         }, 
+         "child" : [ 
+            "b87096cc-f8d1-4c70-ab5e-0b9fc3200eaf"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "Spawn.Enemy.3"
+      }, 
+      "2de5eb61-4d4a-4383-a038-4a58fac0c5bb" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101793", 
+            "y" : "-100808"
+         }, 
+         "child" : [ 
+            "caf5e7a3-c912-4253-8a8e-cfa396cad4a4"
+         ], 
+         "spawnPoint" : "Spawn.Enemy.4", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Rat", 
+            "character" : "Rat_Crazy", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "caf5e7a3-c912-4253-8a8e-cfa396cad4a4" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-101800", 
+            "y" : "-100678"
+         }, 
+         "child" : [ 
+            "84f55b02-fe97-4772-8991-8288ebd7d5aa"
+         ], 
+         "objectName" : "Spawn.Enemy.4", 
+         "pos" : [ 
+            "14", 
+            "0", 
+            "14"
+         ]
+      }, 
+      "84f55b02-fe97-4772-8991-8288ebd7d5aa" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101804", 
+            "y" : "-100553"
+         }, 
+         "child" : [ 
+            "b6932b05-6c83-4c60-9b92-971b39905f8d"
+         ], 
+         "spawnPoint" : "Spawn.Enemy.4", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Rat", 
+            "character" : "Rat_Crazy", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "b6932b05-6c83-4c60-9b92-971b39905f8d" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-100479", 
+            "y" : "-99993"
+         }, 
+         "child" : [ 
+            "b87096cc-f8d1-4c70-ab5e-0b9fc3200eaf"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "Spawn.Enemy.4"
+      }, 
+      "5cb6b052-258e-4547-9b03-b876e55f7f3d" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101663", 
+            "y" : "-100807"
+         }, 
+         "child" : [ 
+            "e666c97c-eeb0-44f2-bc12-b343a4948701"
+         ], 
+         "spawnPoint" : "Spawn.Enemy.5", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Rat", 
+            "character" : "Rat_Crazy", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "e666c97c-eeb0-44f2-bc12-b343a4948701" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-101667", 
+            "y" : "-100674"
+         }, 
+         "child" : [ 
+            "13f6e0ec-9d60-4d90-b220-3e2b3651d3c9"
+         ], 
+         "objectName" : "Spawn.Enemy.5", 
+         "pos" : [ 
+            "8", 
+            "0", 
+            "22"
+         ]
+      }, 
+      "13f6e0ec-9d60-4d90-b220-3e2b3651d3c9" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101671", 
+            "y" : "-100552"
+         }, 
+         "child" : [ 
+            "af2575c1-eac0-4a18-a5d6-9f2f8fc22e16"
+         ], 
+         "spawnPoint" : "Spawn.Enemy.5", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Rat", 
+            "character" : "Rat_Crazy", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "af2575c1-eac0-4a18-a5d6-9f2f8fc22e16" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-102246", 
+            "y" : "-99974"
+         }, 
+         "child" : [ 
+            "b87096cc-f8d1-4c70-ab5e-0b9fc3200eaf"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "Spawn.Enemy.5"
+      }, 
+      "13e501b6-9bd4-40f4-b4af-cfb83daaf90e" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101532", 
+            "y" : "-100810"
+         }, 
+         "child" : [ 
+            "e1c01acf-d913-450e-8582-73b1e8a2889e"
+         ], 
+         "spawnPoint" : "Spawn.Enemy.6", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Rat", 
+            "character" : "Rat_Crazy", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "e1c01acf-d913-450e-8582-73b1e8a2889e" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-101529", 
+            "y" : "-100671"
+         }, 
+         "child" : [ 
+            "de038f15-bcfb-4dd9-9e43-38809b9f2141"
+         ], 
+         "objectName" : "Spawn.Enemy.6", 
+         "pos" : [ 
+            "10", 
+            "0", 
+            "13"
+         ]
+      }, 
+      "de038f15-bcfb-4dd9-9e43-38809b9f2141" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101525", 
+            "y" : "-100548"
+         }, 
+         "child" : [ 
+            "9fd9c183-bcea-440d-b743-815777b99a11"
+         ], 
+         "spawnPoint" : "Spawn.Enemy.6", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Rat", 
+            "character" : "Rat_Crazy", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "9fd9c183-bcea-440d-b743-815777b99a11" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-101986", 
+            "y" : "-99976"
+         }, 
+         "child" : [ 
+            "b87096cc-f8d1-4c70-ab5e-0b9fc3200eaf"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "Spawn.Enemy.6"
+      }, 
+      "2245d2d4-f313-45f9-b4f7-384e9bc70572" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101388", 
+            "y" : "-100920"
+         }, 
+         "child" : [ 
+            "e9de4277-43fa-4895-87ba-b394fa0824a3", 
+            "42d8e379-336f-483a-8a26-1548f2c4a9dd", 
+            "fab7b505-df71-4446-9dc3-bb29314a18c9", 
+            "abf7ff51-9aa4-4044-b648-aa6c8dcac267"
+         ]
+      }, 
+      "e9de4277-43fa-4895-87ba-b394fa0824a3" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101375", 
+            "y" : "-100717"
+         }, 
+         "child" : [ 
+            "79ee773a-5b93-4cc2-9fc1-8a7c44285c9c"
+         ], 
+         "spawnPoint" : "Spawn.Enemy.7", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GiantRat", 
+            "character" : "GiantRat", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "79ee773a-5b93-4cc2-9fc1-8a7c44285c9c" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-101736", 
+            "y" : "-99978"
+         }, 
+         "child" : [ 
+            "b87096cc-f8d1-4c70-ab5e-0b9fc3200eaf"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "Spawn.Enemy.7"
+      }, 
+      "42d8e379-336f-483a-8a26-1548f2c4a9dd" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-101221", 
+            "y" : "-100729"
+         }, 
+         "child" : [ 
+            "69e27d71-d4b9-4f31-846c-aa57faa661fd"
+         ], 
+         "objectName" : "Spawn.Enemy.7", 
+         "pos" : [ 
+            "10", 
+            "0", 
+            "5"
+         ]
+      }, 
+      "69e27d71-d4b9-4f31-846c-aa57faa661fd" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101221", 
+            "y" : "-100648"
+         }, 
+         "child" : [ 
+            "79ee773a-5b93-4cc2-9fc1-8a7c44285c9c"
+         ], 
+         "spawnPoint" : "Spawn.Enemy.7", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GiantRat", 
+            "character" : "GiantRat", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "fab7b505-df71-4446-9dc3-bb29314a18c9" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-101029", 
+            "y" : "-100783"
+         }, 
+         "child" : [ 
+            "de5149d3-6157-459e-96a7-d54e928415d2"
+         ], 
+         "objectName" : "Spawn.Enemy.1", 
+         "pos" : [ 
+            "14", 
+            "0", 
+            "9"
+         ]
+      }, 
+      "de5149d3-6157-459e-96a7-d54e928415d2" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101018", 
+            "y" : "-100640"
+         }, 
+         "child" : [ 
+            "79ee773a-5b93-4cc2-9fc1-8a7c44285c9c"
+         ], 
+         "spawnPoint" : "Spawn.Enemy.1", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GiantRat", 
+            "character" : "GiantRat", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "abf7ff51-9aa4-4044-b648-aa6c8dcac267" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-100653", 
+            "y" : "-100856"
+         }, 
+         "child" : [ 
+            "c6de5778-1503-4729-a21c-9311eedbce4e", 
+            "da5d97d9-9ed4-46d7-9b9a-9b564f047e4b"
+         ]
+      }, 
+      "c6de5778-1503-4729-a21c-9311eedbce4e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100807", 
+            "y" : "-100719"
+         }, 
+         "child" : [ 
+            "fab7b505-df71-4446-9dc3-bb29314a18c9", 
+            "42d8e379-336f-483a-8a26-1548f2c4a9dd"
+         ]
+      }, 
+      "da5d97d9-9ed4-46d7-9b9a-9b564f047e4b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100620", 
+            "y" : "-100717"
+         }, 
+         "child" : [ 
+            "42d8e379-336f-483a-8a26-1548f2c4a9dd"
+         ]
+      }, 
+      "c29bd5d9-de93-4c00-a9b6-e86fa29b0937" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-102142", 
+            "y" : "-101215"
+         }, 
+         "child" : [ 
+            "6c00f8db-e366-4a26-ac2d-76a92b30b7ea"
+         ], 
+         "objectName" : "Spawn.Enemy.1", 
+         "pos" : [ 
+            "10", 
+            "0", 
+            "3"
+         ]
+      }, 
+      "6c00f8db-e366-4a26-ac2d-76a92b30b7ea" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102113", 
+            "y" : "-101089"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.1", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Rat", 
+            "character" : "Rat_Crazy", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "58e6d763-831b-4d32-9d61-e1736bf96b68" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-102001", 
+            "y" : "-101212"
+         }, 
+         "child" : [ 
+            "2e356f17-1ede-4940-af13-ad49ea237336"
+         ], 
+         "objectName" : "Spawn.Enemy.3", 
+         "pos" : [ 
+            "12", 
+            "0", 
+            "4"
+         ]
+      }, 
+      "2e356f17-1ede-4940-af13-ad49ea237336" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101971", 
+            "y" : "-101087"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.3", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Rat", 
+            "character" : "Rat_Crazy", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "7e56c089-a5cf-4676-8f8f-64b982c04d4e" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-101854", 
+            "y" : "-101205"
+         }, 
+         "child" : [ 
+            "5f550f23-7265-4575-a55b-dae5e8866195"
+         ], 
+         "objectName" : "Spawn.Enemy.6", 
+         "pos" : [ 
+            "13", 
+            "0", 
+            "5"
+         ]
+      }, 
+      "5f550f23-7265-4575-a55b-dae5e8866195" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101841", 
+            "y" : "-101088"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.6", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Rat", 
+            "character" : "Rat_Crazy", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "5c4f0dfc-3366-4354-a130-17d2abfa4659" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-101720", 
+            "y" : "-101208"
+         }, 
+         "child" : [ 
+            "32d59053-acdd-47fd-97c3-6abfa669c563"
+         ], 
+         "objectName" : "Spawn.Enemy.5", 
+         "pos" : [ 
+            "10", 
+            "0", 
+            "6"
+         ]
+      }, 
+      "32d59053-acdd-47fd-97c3-6abfa669c563" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101705", 
+            "y" : "-101087"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.5", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Rat", 
+            "character" : "Rat_Crazy", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "10fac971-cafa-4e94-beca-d8d1f6d45584" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-101493", 
+            "y" : "-99979"
+         }, 
+         "child" : [ 
+            "b87096cc-f8d1-4c70-ab5e-0b9fc3200eaf"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "Spawn.Enemy.8"
+      }
+   }, 
+   "entry" : "d1f15558-3d0a-4817-bb24-1f69a5f0116e"
+}
