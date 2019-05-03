@@ -2538,8 +2538,11 @@
             "32eb9f52-93dd-4f2c-a9cf-c59fb0ac16e0", 
             "170e8431-67a3-4efb-bd67-662d59c015b6", 
             "53841092-6d20-4b85-a229-cedd5e7ec8e8", 
+            "3375dc56-33d2-4536-b382-8c5e649ca96a", 
             "4f35503b-2d75-4c27-a136-fcdd0b5fcd98", 
             "b8a0cf47-4e20-4e32-a05e-8976ce9a72a2", 
+            "7b54b204-ccc3-4c51-bea6-5d0b5471f103", 
+            "a6a4ada0-bd39-424d-ae58-583eea5e4b83", 
             "9d5c8004-57e0-4430-8695-2fa68ad2a847", 
             "7db3474c-4cd1-4fb4-aac5-b175c027e432"
          ]
@@ -6256,8 +6259,8 @@
       "8462b568-3cb6-4ba5-896d-ee77fd69b47d" : { 
          "class" : "EncounterTypeNode", 
          "desc" : { 
-            "x" : "-98590", 
-            "y" : "-101355"
+            "x" : "-98268", 
+            "y" : "-101393"
          }, 
          "child" : [ 
             "5dae2ee9-2469-4601-888d-a5d1b3a65382"
@@ -6267,8 +6270,8 @@
       "5dae2ee9-2469-4601-888d-a5d1b3a65382" : { 
          "class" : "PlayStateNode", 
          "desc" : { 
-            "x" : "-98633", 
-            "y" : "-101279"
+            "x" : "-98311", 
+            "y" : "-101317"
          }, 
          "child" : [ 
          ], 
@@ -6277,8 +6280,8 @@
       "0dd93793-f4d7-4184-b0ab-6e730614262f" : { 
          "class" : "EncounterTypeNode", 
          "desc" : { 
-            "x" : "-98356", 
-            "y" : "-101389"
+            "x" : "-98092", 
+            "y" : "-101464"
          }, 
          "child" : [ 
             "4b3b57c9-7100-48c7-8702-39e4f19cd081"
@@ -6288,8 +6291,8 @@
       "4b3b57c9-7100-48c7-8702-39e4f19cd081" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-98353", 
-            "y" : "-101323"
+            "x" : "-98089", 
+            "y" : "-101398"
          }, 
          "child" : [ 
             "36f63489-4c6b-4b3c-a5c7-ccba55dfdcd6"
@@ -6298,8 +6301,8 @@
       "36f63489-4c6b-4b3c-a5c7-ccba55dfdcd6" : { 
          "class" : "PlayStateNode", 
          "desc" : { 
-            "x" : "-98384", 
-            "y" : "-101243"
+            "x" : "-98120", 
+            "y" : "-101318"
          }, 
          "child" : [ 
          ], 
@@ -7101,8 +7104,8 @@
       "f6d32d26-619f-4676-805d-d5e64475f242" : { 
          "class" : "EncounterTypeNode", 
          "desc" : { 
-            "x" : "-98115", 
-            "y" : "-101378"
+            "x" : "-97921", 
+            "y" : "-101456"
          }, 
          "child" : [ 
             "2d0d402c-1db4-49a6-a1bd-66ce2c42de88"
@@ -7112,8 +7115,8 @@
       "2d0d402c-1db4-49a6-a1bd-66ce2c42de88" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-98101", 
-            "y" : "-101304"
+            "x" : "-97907", 
+            "y" : "-101382"
          }, 
          "child" : [ 
             "565b485e-abaa-4872-bad2-830197001a73"
@@ -7122,8 +7125,8 @@
       "565b485e-abaa-4872-bad2-830197001a73" : { 
          "class" : "PlayStateNode", 
          "desc" : { 
-            "x" : "-98149", 
-            "y" : "-101240"
+            "x" : "-97955", 
+            "y" : "-101318"
          }, 
          "child" : [ 
          ], 
@@ -7132,8 +7135,8 @@
       "32eb9f52-93dd-4f2c-a9cf-c59fb0ac16e0" : { 
          "class" : "EncounterTypeNode", 
          "desc" : { 
-            "x" : "-97628", 
-            "y" : "-101387"
+            "x" : "-97414", 
+            "y" : "-101418"
          }, 
          "child" : [ 
             "1df4fa9c-76fd-4e6b-8c56-190d56a7a3c2"
@@ -7143,8 +7146,8 @@
       "1df4fa9c-76fd-4e6b-8c56-190d56a7a3c2" : { 
          "class" : "PlayStateNode", 
          "desc" : { 
-            "x" : "-97672", 
-            "y" : "-101311"
+            "x" : "-97539", 
+            "y" : "-101316"
          }, 
          "child" : [ 
          ], 
@@ -7153,8 +7156,8 @@
       "170e8431-67a3-4efb-bd67-662d59c015b6" : { 
          "class" : "EncounterTypeNode", 
          "desc" : { 
-            "x" : "-97859", 
-            "y" : "-101377"
+            "x" : "-97716", 
+            "y" : "-101457"
          }, 
          "child" : [ 
             "bdebb671-2db7-4d15-83f1-860ddfcdaa7d"
@@ -7164,8 +7167,8 @@
       "bdebb671-2db7-4d15-83f1-860ddfcdaa7d" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-97845", 
-            "y" : "-101303"
+            "x" : "-97702", 
+            "y" : "-101383"
          }, 
          "child" : [ 
             "48d35b7d-0c3d-4bdc-8be0-844e17079452"
@@ -7174,8 +7177,8 @@
       "48d35b7d-0c3d-4bdc-8be0-844e17079452" : { 
          "class" : "PlayStateNode", 
          "desc" : { 
-            "x" : "-97893", 
-            "y" : "-101239"
+            "x" : "-97750", 
+            "y" : "-101319"
          }, 
          "child" : [ 
          ], 
@@ -7184,8 +7187,8 @@
       "53841092-6d20-4b85-a229-cedd5e7ec8e8" : { 
          "class" : "EncounterTypeNode", 
          "desc" : { 
-            "x" : "-97117", 
-            "y" : "-101411"
+            "x" : "-96958", 
+            "y" : "-101414"
          }, 
          "child" : [ 
             "83830e41-e5d4-41fa-9f84-7378543bb2fd"
@@ -7195,18 +7198,39 @@
       "83830e41-e5d4-41fa-9f84-7378543bb2fd" : { 
          "class" : "PlayStateNode", 
          "desc" : { 
-            "x" : "-97157", 
-            "y" : "-101327"
+            "x" : "-97111", 
+            "y" : "-101317"
          }, 
          "child" : [ 
          ], 
          "script" : "Entities/Behavior/Z_Z_Hunt_stag"
       }, 
+      "3375dc56-33d2-4536-b382-8c5e649ca96a" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-96498", 
+            "y" : "-101420"
+         }, 
+         "child" : [ 
+            "c0bd66c7-022a-430e-b071-e78a28bad2c2"
+         ], 
+         "encType" : "fight_3"
+      }, 
+      "c0bd66c7-022a-430e-b071-e78a28bad2c2" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-96516", 
+            "y" : "-101320"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/Z_Z_fight_3"
+      }, 
       "4f35503b-2d75-4c27-a136-fcdd0b5fcd98" : { 
          "class" : "EncounterTypeNode", 
          "desc" : { 
-            "x" : "-97374", 
-            "y" : "-101399"
+            "x" : "-97238", 
+            "y" : "-101420"
          }, 
          "child" : [ 
             "e411b009-5164-47a4-8c9f-fb86812039a5"
@@ -7216,8 +7240,8 @@
       "e411b009-5164-47a4-8c9f-fb86812039a5" : { 
          "class" : "PlayStateNode", 
          "desc" : { 
-            "x" : "-97414", 
-            "y" : "-101315"
+            "x" : "-97322", 
+            "y" : "-101316"
          }, 
          "child" : [ 
          ], 
@@ -7316,6 +7340,48 @@
             "c89843d1-84b7-4242-8c2e-acdeded80730"
          ], 
          "encType" : "Ment_Bandits_4"
+      }, 
+      "7b54b204-ccc3-4c51-bea6-5d0b5471f103" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-98271", 
+            "y" : "-101228"
+         }, 
+         "child" : [ 
+            "986f1c47-7797-4545-85dd-65eb7847de37"
+         ], 
+         "encType" : "fight_4"
+      }, 
+      "986f1c47-7797-4545-85dd-65eb7847de37" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-98289", 
+            "y" : "-101128"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/Z_Z_fight_4"
+      }, 
+      "a6a4ada0-bd39-424d-ae58-583eea5e4b83" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-96728", 
+            "y" : "-101420"
+         }, 
+         "child" : [ 
+            "945a7378-a919-47e3-af78-45f92f073bbe"
+         ], 
+         "encType" : "fight_2"
+      }, 
+      "945a7378-a919-47e3-af78-45f92f073bbe" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-96710", 
+            "y" : "-101320"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/Z_Z_fight_2"
       }, 
       "9d5c8004-57e0-4430-8695-2fa68ad2a847" : { 
          "class" : "EncounterTypeNode", 

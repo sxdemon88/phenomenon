@@ -1979,7 +1979,7 @@ MonoBehaviour:
         _value: 0
     _requirements: []
     _requirementsEx: []
-  - _chance: 300
+  - _chance: 30
     _type: fight_1
     _period: 0
     _trigger: 
@@ -1989,6 +1989,90 @@ MonoBehaviour:
     _canAttack: 1
     _once: 0
     _icon: {fileID: 21300000, guid: a8ea91c65163e5940b8329ac8f08be17, type: 3}
+    _desc: encounter.raid
+    _enter: encounter.enter_raid
+    _showIntro: 0
+    _levels:
+    - Z_7
+    - Z_1
+    - Z_2
+    - Z_3
+    - Z_4
+    - Z_5
+    - Z_6
+    - Z_10
+    - Z_1_Cave
+    - Z_1_Mine
+    - Z_1_Bunker
+    chances: []
+    _requirements: []
+    _requirementsEx: []
+  - _chance: 30
+    _type: fight_2
+    _period: 0
+    _trigger: 
+    _triggerInvert: 0
+    _triggerReset: 0
+    _canSkip: 1
+    _canAttack: 1
+    _once: 0
+    _icon: {fileID: 21300000, guid: 8d2b5a46ded6b904a9ce15a4bb4835c8, type: 3}
+    _desc: encounter.raid
+    _enter: encounter.enter_raid
+    _showIntro: 0
+    _levels:
+    - Z_7
+    - Z_1
+    - Z_2
+    - Z_3
+    - Z_4
+    - Z_5
+    - Z_6
+    - Z_10
+    - Z_1_Cave
+    - Z_1_Mine
+    - Z_1_Bunker
+    chances: []
+    _requirements: []
+    _requirementsEx: []
+  - _chance: 30
+    _type: fight_3
+    _period: 0
+    _trigger: 
+    _triggerInvert: 0
+    _triggerReset: 0
+    _canSkip: 1
+    _canAttack: 1
+    _once: 0
+    _icon: {fileID: 21300000, guid: c9eeb00fedd14014e85d987a3e6edd40, type: 3}
+    _desc: encounter.raid
+    _enter: encounter.enter_raid
+    _showIntro: 0
+    _levels:
+    - Z_7
+    - Z_1
+    - Z_2
+    - Z_3
+    - Z_4
+    - Z_5
+    - Z_6
+    - Z_10
+    - Z_1_Cave
+    - Z_1_Mine
+    - Z_1_Bunker
+    chances: []
+    _requirements: []
+    _requirementsEx: []
+  - _chance: 300
+    _type: fight_4
+    _period: 0
+    _trigger: 
+    _triggerInvert: 0
+    _triggerReset: 0
+    _canSkip: 1
+    _canAttack: 1
+    _once: 0
+    _icon: {fileID: 21300000, guid: eebe40c0dd2fb5a49888be7fd346b60c, type: 3}
     _desc: encounter.raid
     _enter: encounter.enter_raid
     _showIntro: 0
