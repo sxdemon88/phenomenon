@@ -2543,6 +2543,7 @@
             "b8a0cf47-4e20-4e32-a05e-8976ce9a72a2", 
             "7b54b204-ccc3-4c51-bea6-5d0b5471f103", 
             "a6a4ada0-bd39-424d-ae58-583eea5e4b83", 
+            "fa7a5a32-4a34-49dd-abef-806dcc198f2d", 
             "9d5c8004-57e0-4430-8695-2fa68ad2a847", 
             "7db3474c-4cd1-4fb4-aac5-b175c027e432"
          ]
@@ -7382,6 +7383,27 @@
          "child" : [ 
          ], 
          "script" : "Entities/Behavior/Z_Z_fight_2"
+      }, 
+      "fa7a5a32-4a34-49dd-abef-806dcc198f2d" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-98046", 
+            "y" : "-101231"
+         }, 
+         "child" : [ 
+            "c69dbfee-4c56-4ddc-9539-01c6dbe95f5f"
+         ], 
+         "encType" : "fight_5"
+      }, 
+      "c69dbfee-4c56-4ddc-9539-01c6dbe95f5f" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-98064", 
+            "y" : "-101131"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/Z_Z_fight_5"
       }, 
       "9d5c8004-57e0-4430-8695-2fa68ad2a847" : { 
          "class" : "EncounterTypeNode", 

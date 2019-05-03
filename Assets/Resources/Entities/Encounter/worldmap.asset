@@ -2063,7 +2063,7 @@ MonoBehaviour:
     chances: []
     _requirements: []
     _requirementsEx: []
-  - _chance: 300
+  - _chance: 30
     _type: fight_4
     _period: 0
     _trigger: 
@@ -2073,6 +2073,34 @@ MonoBehaviour:
     _canAttack: 1
     _once: 0
     _icon: {fileID: 21300000, guid: eebe40c0dd2fb5a49888be7fd346b60c, type: 3}
+    _desc: encounter.raid
+    _enter: encounter.enter_raid
+    _showIntro: 0
+    _levels:
+    - Z_7
+    - Z_1
+    - Z_2
+    - Z_3
+    - Z_4
+    - Z_5
+    - Z_6
+    - Z_10
+    - Z_1_Cave
+    - Z_1_Mine
+    - Z_1_Bunker
+    chances: []
+    _requirements: []
+    _requirementsEx: []
+  - _chance: 300
+    _type: fight_5
+    _period: 0
+    _trigger: 
+    _triggerInvert: 0
+    _triggerReset: 0
+    _canSkip: 1
+    _canAttack: 1
+    _once: 0
+    _icon: {fileID: 21300000, guid: fe2dee5dcb76fa448a638e75154fb0d7, type: 3}
     _desc: encounter.raid
     _enter: encounter.enter_raid
     _showIntro: 0
