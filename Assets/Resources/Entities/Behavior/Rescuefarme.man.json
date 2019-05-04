@@ -318,7 +318,7 @@
          "child" : [ 
             "99ca728d-e0e1-4899-905d-359abd7dac12"
          ], 
-         "text" : "О нет, это ловушка!", 
+         "text" : "О нет, мы в ловушке!", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -546,7 +546,7 @@
          "class" : "InventorySetNode", 
          "desc" : { 
             "x" : "1457", 
-            "y" : "120"
+            "y" : "121"
          }, 
          "child" : [ 
             "ef01874b-bf4e-4de6-a429-0cd56d451065"

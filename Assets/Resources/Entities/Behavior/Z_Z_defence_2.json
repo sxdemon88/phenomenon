@@ -26,8 +26,8 @@
       "7793be1f-ba18-414f-94a0-1488fc57d8e2" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-101993", 
-            "y" : "-100188"
+            "x" : "-101720", 
+            "y" : "-100202"
          }, 
          "child" : [ 
             "1f8373f5-6d97-4930-a5e4-62de60521b95", 
@@ -42,8 +42,8 @@
       "1f8373f5-6d97-4930-a5e4-62de60521b95" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-102173", 
-            "y" : "-100262"
+            "x" : "-102020", 
+            "y" : "-100099"
          }, 
          "child" : [ 
          ], 
@@ -559,8 +559,8 @@
       "609035fd-a2d8-4af7-a6a7-2ab9eaeca36f" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-101451", 
-            "y" : "-100215"
+            "x" : "-101499", 
+            "y" : "-100202"
          }, 
          "child" : [ 
             "7793be1f-ba18-414f-94a0-1488fc57d8e2", 
@@ -571,8 +571,8 @@
       "53a2a7cc-0b7d-4b6c-a287-131d42353fef" : { 
          "class" : "RandomNode", 
          "desc" : { 
-            "x" : "-101273", 
-            "y" : "-100154"
+            "x" : "-101223", 
+            "y" : "-100119"
          }, 
          "child" : [ 
             "01292adb-62cf-4a0b-b25e-c5a2c753849b", 
@@ -890,8 +890,8 @@
       "5761a4fc-8990-4bbb-b51c-64621c19ef0f" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-100834", 
-            "y" : "-100174"
+            "x" : "-100830", 
+            "y" : "-100169"
          }, 
          "child" : [ 
          ], 
@@ -948,7 +948,7 @@
       "7e3405db-f8a0-4d44-80b5-20ad6ddab640" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-100712", 
+            "x" : "-100713", 
             "y" : "-100171"
          }, 
          "child" : [ 
@@ -1139,9 +1139,9 @@
             "item1" : { 
                "class" : "Weapon", 
                "count" : "1", 
-               "proto" : "pipe_rifle", 
+               "proto" : "Pipe_Rifle", 
                "ammo" : { 
-                  "count" : "5", 
+                  "count" : "1", 
                   "proto" : "BB_AP"
                }
             }, 
@@ -1179,7 +1179,7 @@
       "3de70b85-a0f1-4e92-bf59-1b21ea77a8bb" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-100229", 
+            "x" : "-100228", 
             "y" : "-100170"
          }, 
          "child" : [ 
@@ -1259,9 +1259,9 @@
             "item1" : { 
                "class" : "Weapon", 
                "count" : "1", 
-               "proto" : "pipe_pistol", 
+               "proto" : "Pipe_Pistol", 
                "ammo" : { 
-                  "count" : "5", 
+                  "count" : "1", 
                   "proto" : "BB_AP"
                }
             }, 
@@ -1392,8 +1392,8 @@
       "66b4387c-28f8-4808-9123-a2ffd5120f90" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100505", 
-            "y" : "-100586", 
+            "x" : "-100476", 
+            "y" : "-100590", 
             "comment" : "5"
          }, 
          "child" : [ 
@@ -1424,8 +1424,8 @@
       "264100d3-a1fa-4f1b-82ae-5a8ef1c810ac" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100341", 
-            "y" : "-100584", 
+            "x" : "-100311", 
+            "y" : "-100588", 
             "comment" : "6"
          }, 
          "child" : [ 
