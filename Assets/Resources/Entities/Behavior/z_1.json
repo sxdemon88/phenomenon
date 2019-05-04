@@ -760,8 +760,8 @@
       "370385de-beb0-432c-938c-f5133c8fc879" : { 
          "class" : "RandomNode", 
          "desc" : { 
-            "x" : "-102466", 
-            "y" : "-99221", 
+            "x" : "-102283", 
+            "y" : "-99295", 
             "comment" : "team2"
          }, 
          "child" : [ 
@@ -1099,8 +1099,8 @@
       "63145727-ff15-4684-86d2-9b85c7bac5b6" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-102410", 
-            "y" : "-98403"
+            "x" : "-102443", 
+            "y" : "-98316"
          }, 
          "child" : [ 
          ], 
@@ -1359,8 +1359,8 @@
       "a1577441-83fb-4963-8a33-b1dc8d4e1de8" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-102748", 
-            "y" : "-98452"
+            "x" : "-102735", 
+            "y" : "-98349"
          }, 
          "child" : [ 
          ], 
@@ -1503,8 +1503,8 @@
       "08d8c6c6-94a0-41d4-be1d-5034e784c6ea" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-102661", 
-            "y" : "-98589"
+            "x" : "-102644", 
+            "y" : "-98549"
          }, 
          "child" : [ 
             "a1577441-83fb-4963-8a33-b1dc8d4e1de8"
@@ -1603,8 +1603,8 @@
       "39ca08ef-bfaa-4003-954b-7839b8f841dc" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-102061", 
-            "y" : "-98520"
+            "x" : "-102068", 
+            "y" : "-98371"
          }, 
          "child" : [ 
          ], 
@@ -1656,8 +1656,8 @@
       "50d71ba6-381f-4228-8613-048731354030" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-102066", 
-            "y" : "-98611"
+            "x" : "-102061", 
+            "y" : "-98566"
          }, 
          "child" : [ 
             "39ca08ef-bfaa-4003-954b-7839b8f841dc"
@@ -2541,6 +2541,7 @@
             "3375dc56-33d2-4536-b382-8c5e649ca96a", 
             "4f35503b-2d75-4c27-a136-fcdd0b5fcd98", 
             "b8a0cf47-4e20-4e32-a05e-8976ce9a72a2", 
+            "ccc8a189-fe4b-446a-bffe-079528cce916", 
             "7b54b204-ccc3-4c51-bea6-5d0b5471f103", 
             "a6a4ada0-bd39-424d-ae58-583eea5e4b83", 
             "fa7a5a32-4a34-49dd-abef-806dcc198f2d", 
@@ -2702,8 +2703,8 @@
       "175b0d70-dcc9-4112-91cb-9524efd82bcd" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-101362", 
-            "y" : "-98050"
+            "x" : "-101409", 
+            "y" : "-98051"
          }, 
          "child" : [ 
             "264712d6-8837-4634-b722-a9692a9a8c46"
@@ -2802,8 +2803,8 @@
       "518a02f7-4df4-491b-8920-afccd6b4eca4" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100343", 
-            "y" : "-98533"
+            "x" : "-100472", 
+            "y" : "-98643"
          }, 
          "child" : [ 
             "ee86d7a0-ab06-45e7-adb0-78062e12ea09", 
@@ -2814,8 +2815,8 @@
       "ee86d7a0-ab06-45e7-adb0-78062e12ea09" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100198", 
-            "y" : "-98270"
+            "x" : "-100435", 
+            "y" : "-98300"
          }, 
          "child" : [ 
             "22dfcc04-af8e-4de0-9a65-f2649ed9466f"
@@ -2829,7 +2830,7 @@
          }, 
          "child" : [ 
          ], 
-         "script" : "Entities/Behavior/Z_Z_Trade_1"
+         "script" : "entities/behavior/z_z_trade_1"
       }, 
       "48484fbc-f903-4a18-9eeb-3681dceb3832" : { 
          "class" : "DummyNode", 
@@ -2844,8 +2845,8 @@
       "cf6aff94-ae19-427d-a535-c8e38398e41d" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100153", 
-            "y" : "-98494"
+            "x" : "-99649", 
+            "y" : "-98580"
          }, 
          "child" : [ 
             "48484fbc-f903-4a18-9eeb-3681dceb3832"
@@ -2854,8 +2855,8 @@
       "94696c7b-05e2-4600-8fed-8696b6230298" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-101232", 
-            "y" : "-98052"
+            "x" : "-101251", 
+            "y" : "-98050"
          }, 
          "child" : [ 
             "264712d6-8837-4634-b722-a9692a9a8c46"
@@ -3324,8 +3325,8 @@
       "318a9c04-dfbb-4163-a38a-206ce654a00d" : { 
          "class" : "FractionSetRelationshipNode", 
          "desc" : { 
-            "x" : "-100710", 
-            "y" : "-99245"
+            "x" : "-100738", 
+            "y" : "-99261"
          }, 
          "child" : [ 
             "746e47ec-afd0-4440-b5c4-0681a3631fac"
@@ -3349,8 +3350,8 @@
       "2e7fdffb-020b-4712-bfc2-a6c6a484150e" : { 
          "class" : "SpawnEntityNode", 
          "desc" : { 
-            "x" : "-100836", 
-            "y" : "-99065"
+            "x" : "-100910", 
+            "y" : "-99041"
          }, 
          "child" : [ 
          ], 
@@ -3375,8 +3376,8 @@
       "9f361f10-04da-40dd-a48e-edf6cfb74833" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-100758", 
-            "y" : "-99015"
+            "x" : "-100694", 
+            "y" : "-99025"
          }, 
          "child" : [ 
          ], 
@@ -3420,8 +3421,8 @@
       "f2a21f51-b01e-4c38-a965-51feb1fdfecf" : { 
          "class" : "PlayStateNode", 
          "desc" : { 
-            "x" : "-99897.45", 
-            "y" : "-99023.22"
+            "x" : "-99890", 
+            "y" : "-99005"
          }, 
          "child" : [ 
          ], 
@@ -3445,8 +3446,8 @@
       "3aa36975-2fee-4745-b6e3-68e0d1a27552" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-100798", 
-            "y" : "-98877"
+            "x" : "-100837", 
+            "y" : "-98888"
          }, 
          "child" : [ 
             "518a02f7-4df4-491b-8920-afccd6b4eca4"
@@ -3491,8 +3492,8 @@
       "2c8cfe2b-2e97-47ca-848a-f79b66ace68c" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-100668", 
-            "y" : "-98878"
+            "x" : "-100682", 
+            "y" : "-98881"
          }, 
          "child" : [ 
             "518a02f7-4df4-491b-8920-afccd6b4eca4"
@@ -3546,8 +3547,8 @@
       "f1606ede-8986-43d2-8f73-d876b5ab6d8e" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-100544", 
-            "y" : "-98882"
+            "x" : "-100550", 
+            "y" : "-98878"
          }, 
          "child" : [ 
             "518a02f7-4df4-491b-8920-afccd6b4eca4"
@@ -3595,8 +3596,8 @@
       "9b23ae88-1285-495a-8220-3389f25b7615" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-100421", 
-            "y" : "-98881"
+            "x" : "-100395", 
+            "y" : "-98878"
          }, 
          "child" : [ 
             "518a02f7-4df4-491b-8920-afccd6b4eca4"
@@ -3639,8 +3640,8 @@
       "e0043bf4-fd04-4d0b-b028-7323c1583b0c" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-100295", 
-            "y" : "-98879"
+            "x" : "-100236", 
+            "y" : "-98881"
          }, 
          "child" : [ 
             "518a02f7-4df4-491b-8920-afccd6b4eca4"
@@ -3685,8 +3686,8 @@
       "4a8357fb-9cb8-4c94-8926-0e223cf39692" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-100163", 
-            "y" : "-98876"
+            "x" : "-100060", 
+            "y" : "-98878"
          }, 
          "child" : [ 
             "518a02f7-4df4-491b-8920-afccd6b4eca4"
@@ -4234,13 +4235,13 @@
          }, 
          "child" : [ 
          ], 
-         "script" : "Entities/Behavior/Z_Z_Scavenger"
+         "script" : "entities/behavior/z_z_scavenger"
       }, 
       "61254006-381f-48d6-b043-3f012f3082c0" : { 
          "class" : "EncounterTypeNode", 
          "desc" : { 
-            "x" : "-101634", 
-            "y" : "-100042"
+            "x" : "-101748", 
+            "y" : "-99898"
          }, 
          "child" : [ 
             "05cc8649-e303-493a-a598-4a964c4f150e"
@@ -4250,8 +4251,8 @@
       "05cc8649-e303-493a-a598-4a964c4f150e" : { 
          "class" : "RandomNode", 
          "desc" : { 
-            "x" : "-101552", 
-            "y" : "-99758"
+            "x" : "-101464", 
+            "y" : "-99752"
          }, 
          "child" : [ 
             "1376057e-06c1-4ac2-aa5c-344badc3133d", 
@@ -4310,8 +4311,8 @@
       "3e46c7fa-310c-451e-8fbb-ed1777d2e658" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-103776", 
-            "y" : "-98896"
+            "x" : "-103961", 
+            "y" : "-98850"
          }, 
          "child" : [ 
             "da28e8c1-3d93-40b7-b0d1-d8117f1b745a"
@@ -4360,8 +4361,8 @@
       "da28e8c1-3d93-40b7-b0d1-d8117f1b745a" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-103715", 
-            "y" : "-98780"
+            "x" : "-103670", 
+            "y" : "-98735"
          }, 
          "child" : [ 
          ], 
@@ -5619,8 +5620,8 @@
       "b1cd9d21-6646-4137-abc7-9aafc9688192" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100602", 
-            "y" : "-99712", 
+            "x" : "-100669", 
+            "y" : "-99595", 
             "comment" : "Налет Караван"
          }, 
          "child" : [ 
@@ -5631,8 +5632,8 @@
       "aa597538-94d8-4959-90b8-9fbc7ee35851" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100521", 
-            "y" : "-99634"
+            "x" : "-100358", 
+            "y" : "-99357"
          }, 
          "child" : [ 
             "370385de-beb0-432c-938c-f5133c8fc879"
@@ -6344,8 +6345,8 @@
       "d0552034-ea5f-401f-a4ca-cfa9ddc0176c" : { 
          "class" : "FractionSetRelationshipNode", 
          "desc" : { 
-            "x" : "-98798", 
-            "y" : "-100123"
+            "x" : "-98713", 
+            "y" : "-100116"
          }, 
          "child" : [ 
             "1c87c224-7dd1-4c86-a5e4-0f023a70b61d"
@@ -6356,8 +6357,8 @@
       "1c87c224-7dd1-4c86-a5e4-0f023a70b61d" : { 
          "class" : "RandomNode", 
          "desc" : { 
-            "x" : "-98856", 
-            "y" : "-100052"
+            "x" : "-98825", 
+            "y" : "-100042"
          }, 
          "child" : [ 
             "ae8ee46e-0a1e-4b6a-bca7-bf0ea38c6ac7", 
@@ -6369,8 +6370,8 @@
       "ae8ee46e-0a1e-4b6a-bca7-bf0ea38c6ac7" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-98989", 
-            "y" : "-100020"
+            "x" : "-98981", 
+            "y" : "-100012"
          }, 
          "child" : [ 
             "ddd307e0-5d07-4bfa-b94e-a5eba3ebb2d3", 
@@ -7025,8 +7026,8 @@
       "fa0ffa10-bcd3-4ab2-8afb-c44023cc9457" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-98616", 
-            "y" : "-99863"
+            "x" : "-98572", 
+            "y" : "-99836"
          }, 
          "child" : [ 
          ], 
@@ -7094,8 +7095,8 @@
       "a875250e-5a55-41e8-b2d6-2788baeb6ea6" : { 
          "class" : "EncounterTypeNode", 
          "desc" : { 
-            "x" : "-100635", 
-            "y" : "-100088"
+            "x" : "-100617", 
+            "y" : "-100080"
          }, 
          "child" : [ 
             "dfa805a4-db08-4e56-bda2-fd71822475c3"
@@ -7341,6 +7342,27 @@
             "c89843d1-84b7-4242-8c2e-acdeded80730"
          ], 
          "encType" : "Ment_Bandits_4"
+      }, 
+      "ccc8a189-fe4b-446a-bffe-079528cce916" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-97818", 
+            "y" : "-101227"
+         }, 
+         "child" : [ 
+            "e12602e0-ed4d-4648-8f63-3205aa9cdd66"
+         ], 
+         "encType" : "defence_1"
+      }, 
+      "e12602e0-ed4d-4648-8f63-3205aa9cdd66" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-97836", 
+            "y" : "-101127"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/Z_Z_defence_1"
       }, 
       "7b54b204-ccc3-4c51-bea6-5d0b5471f103" : { 
          "class" : "EncounterTypeNode", 

@@ -6,9 +6,9 @@
       }
    }, 
    "character" : { 
-      "mynpc" : { 
-         "short" : "Персонаж", 
-         "full" : "Персонаж"
+      "farmer1" : { 
+         "short" : "Фермер", 
+         "full" : "Фермер"
       }
    }, 
    "weapon" : { 

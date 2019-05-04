@@ -1,0 +1,576 @@
+{ 
+   "states" : { 
+      "7a91e538-4a60-4839-90c4-03ed8f8f5bcb" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "608", 
+            "y" : "-256"
+         }, 
+         "child" : [ 
+            "52eb9ad1-a529-442f-9c8d-34cd142eee9f", 
+            "ed2efe3e-e840-4907-8037-1a48d4cc1d73"
+         ]
+      }, 
+      "52eb9ad1-a529-442f-9c8d-34cd142eee9f" : { 
+         "class" : "CharacterInBattleNode", 
+         "desc" : { 
+            "x" : "296", 
+            "y" : "173"
+         }, 
+         "child" : [ 
+            "bed2b994-99cb-41d8-82ce-1a0be52d1d76", 
+            "58a64820-889c-4d3c-b170-0490dd36e595"
+         ]
+      }, 
+      "bed2b994-99cb-41d8-82ce-1a0be52d1d76" : { 
+         "class" : "WaitRandomNode", 
+         "desc" : { 
+            "x" : "117", 
+            "y" : "474"
+         }, 
+         "child" : [ 
+            "15862803-7989-48fc-bb8d-0f7785429caf"
+         ], 
+         "waitTimeMin" : "15", 
+         "waitTimeMax" : "30"
+      }, 
+      "15862803-7989-48fc-bb8d-0f7785429caf" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "286", 
+            "y" : "548"
+         }, 
+         "child" : [ 
+            "0161d390-5fab-4cbb-b613-383aa20646cd", 
+            "fc51f10a-e678-4ccd-a971-3b303be6b3f7"
+         ]
+      }, 
+      "0161d390-5fab-4cbb-b613-383aa20646cd" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-2", 
+            "y" : "816"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "fc51f10a-e678-4ccd-a971-3b303be6b3f7" : { 
+         "class" : "CharacterInBattleNode", 
+         "desc" : { 
+            "x" : "444", 
+            "y" : "667"
+         }, 
+         "child" : [ 
+            "e661f560-127f-45b6-a86f-270ab30f7087", 
+            "57587d37-43d5-401c-a125-134a893ec92f"
+         ]
+      }, 
+      "e661f560-127f-45b6-a86f-270ab30f7087" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "620", 
+            "y" : "810"
+         }, 
+         "child" : [ 
+            "75d29600-3841-4c54-a3e7-6b99502cbee4", 
+            "e1d47512-0e1b-4a7d-ae16-fa07c61d9cab", 
+            "6e47262b-250d-4274-a304-8c8fb884c6db", 
+            "d02e5eb0-712f-4b53-ac88-0bebcd3ca9f0", 
+            "ad4428c2-68d2-48c2-bde9-e03f75f57ed3", 
+            "6a4f1a7a-aeb4-44d0-a538-3fd4aac403e1", 
+            "be085f6d-b1c1-4c0e-98d6-ce085895e351", 
+            "c51a29f7-854b-4193-8c10-6235fe1ac071", 
+            "f10bf40a-3078-471f-a0a1-a6a535e71fca", 
+            "8be4d256-696c-43a6-baf4-d7df9ff2edff", 
+            "628dfa0c-da84-40d1-8e84-d190df7a0a28", 
+            "748adf6d-1236-4751-ab49-73197658310c", 
+            "16a0076e-2a3f-456f-8ba1-25b101049930", 
+            "b9a3a764-e454-4b73-8d02-09d0747d2ae5", 
+            "fc0d5b10-41ee-4cb0-95f4-cef65d9bb99c", 
+            "0344bdf5-d13a-4d00-82e2-d6cf8d4aba4f", 
+            "46ffe2ac-9725-4306-8058-4b7307b4d144"
+         ]
+      }, 
+      "75d29600-3841-4c54-a3e7-6b99502cbee4" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "353", 
+            "y" : "909"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "Спасите!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "99ca728d-e0e1-4899-905d-359abd7dac12" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-236", 
+            "y" : "1434"
+         }, 
+         "child" : [ 
+            "52eb9ad1-a529-442f-9c8d-34cd142eee9f"
+         ]
+      }, 
+      "e1d47512-0e1b-4a7d-ae16-fa07c61d9cab" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "348", 
+            "y" : "967"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "Помогите!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "6e47262b-250d-4274-a304-8c8fb884c6db" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "572", 
+            "y" : "915"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "Они убьют же нас! ", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "d02e5eb0-712f-4b53-ac88-0bebcd3ca9f0" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "796", 
+            "y" : "972"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "О Боже, нет!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "ad4428c2-68d2-48c2-bde9-e03f75f57ed3" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "796", 
+            "y" : "912"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "[Громко рыдает] Нет, умоляю.", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "6a4f1a7a-aeb4-44d0-a538-3fd4aac403e1" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "351", 
+            "y" : "1021"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "Мамочка...", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "be085f6d-b1c1-4c0e-98d6-ce085895e351" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "572", 
+            "y" : "964"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "Прочь!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "c51a29f7-854b-4193-8c10-6235fe1ac071" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "575", 
+            "y" : "1018"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "Надо бежать!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "f10bf40a-3078-471f-a0a1-a6a535e71fca" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "19", 
+            "y" : "1156"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "О нет, боже!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "8be4d256-696c-43a6-baf4-d7df9ff2edff" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "231", 
+            "y" : "1155"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "О чёрт, сколько же их!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "628dfa0c-da84-40d1-8e84-d190df7a0a28" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "445", 
+            "y" : "1150"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "Как их много...", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "748adf6d-1236-4751-ab49-73197658310c" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "661", 
+            "y" : "1148"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "Нам не убежать", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "16a0076e-2a3f-456f-8ba1-25b101049930" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "1091", 
+            "y" : "1148"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "Почему я?", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "b9a3a764-e454-4b73-8d02-09d0747d2ae5" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "874", 
+            "y" : "1148"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "Они нас всех убьют!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "fc0d5b10-41ee-4cb0-95f4-cef65d9bb99c" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "264", 
+            "y" : "1293"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "Откуда они взялись?", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "0344bdf5-d13a-4d00-82e2-d6cf8d4aba4f" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "721", 
+            "y" : "1296"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "Я жить хочу!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "46ffe2ac-9725-4306-8058-4b7307b4d144" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "490", 
+            "y" : "1297"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "О нет, это ловушка!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "57587d37-43d5-401c-a125-134a893ec92f" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "1079", 
+            "y" : "422"
+         }, 
+         "child" : [ 
+            "3ba06972-f0ed-45a6-b645-c220e418b062", 
+            "c7776b7b-7254-49c4-a31c-5038ab831c65", 
+            "f41e317f-19d5-43f2-ba22-7dde17ad3421", 
+            "f8571115-c09e-450a-9608-b8911589db24"
+         ]
+      }, 
+      "3ba06972-f0ed-45a6-b645-c220e418b062" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "770", 
+            "y" : "498"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "Мы спасены! Благодарим Вас!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "c7776b7b-7254-49c4-a31c-5038ab831c65" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "995", 
+            "y" : "503"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "О боги, всё закончилось! Спасибо Вам!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "f41e317f-19d5-43f2-ba22-7dde17ad3421" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "1218", 
+            "y" : "506"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "Спасибо Вам большое! Вы спасли нас!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "f8571115-c09e-450a-9608-b8911589db24" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "1444", 
+            "y" : "503"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "[Громко плачет] Спасибо...Спасибо...Спасибо!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "58a64820-889c-4d3c-b170-0490dd36e595" : { 
+         "class" : "WaitRandomNode", 
+         "desc" : { 
+            "x" : "471", 
+            "y" : "283"
+         }, 
+         "child" : [ 
+            "aed54973-6683-461c-812c-05a0d3c7a353"
+         ], 
+         "waitTimeMin" : "15", 
+         "waitTimeMax" : "30"
+      }, 
+      "aed54973-6683-461c-812c-05a0d3c7a353" : { 
+         "class" : "CharacterInBattleNode", 
+         "desc" : { 
+            "x" : "672", 
+            "y" : "380"
+         }, 
+         "child" : [ 
+            "bed2b994-99cb-41d8-82ce-1a0be52d1d76", 
+            "57587d37-43d5-401c-a125-134a893ec92f"
+         ]
+      }, 
+      "ed2efe3e-e840-4907-8037-1a48d4cc1d73" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "900", 
+            "y" : "-90"
+         }, 
+         "child" : [ 
+            "ef01874b-bf4e-4de6-a429-0cd56d451065", 
+            "054dc3d5-3fdb-4e8f-a02b-e6af2d8778c7"
+         ], 
+         "key" : "INIT1"
+      }, 
+      "ef01874b-bf4e-4de6-a429-0cd56d451065" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "897", 
+            "y" : "249"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "054dc3d5-3fdb-4e8f-a02b-e6af2d8778c7" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "1169", 
+            "y" : "-11"
+         }, 
+         "child" : [ 
+            "7959b229-49a8-4207-b91a-2d394e9ff607"
+         ], 
+         "key" : "INIT1"
+      }, 
+      "7959b229-49a8-4207-b91a-2d394e9ff607" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "1171", 
+            "y" : "51"
+         }, 
+         "child" : [ 
+            "d025bc7c-2d6c-4ba8-8f6a-233042266a0f", 
+            "ceebfa1f-3b2a-4331-928b-8ea87059e66b", 
+            "a8f76cef-1109-4a9a-ba00-6d1ae53f514e", 
+            "c508d840-d92a-4fa5-84e4-b93e8a0a6cca"
+         ]
+      }, 
+      "d025bc7c-2d6c-4ba8-8f6a-233042266a0f" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "1069", 
+            "y" : "123"
+         }, 
+         "child" : [ 
+            "ef01874b-bf4e-4de6-a429-0cd56d451065"
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "Apple"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Bottle_Empty"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Bottle_Empty2"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "ceebfa1f-3b2a-4331-928b-8ea87059e66b" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "1193", 
+            "y" : "121"
+         }, 
+         "child" : [ 
+            "ef01874b-bf4e-4de6-a429-0cd56d451065"
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "Apple"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "Beetroot"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "AmanitaEat"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "a8f76cef-1109-4a9a-ba00-6d1ae53f514e" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "1331", 
+            "y" : "120"
+         }, 
+         "child" : [ 
+            "ef01874b-bf4e-4de6-a429-0cd56d451065"
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "Cabbage"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "Carrot"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Stew_Empty"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "c508d840-d92a-4fa5-84e4-b93e8a0a6cca" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "1457", 
+            "y" : "120"
+         }, 
+         "child" : [ 
+            "ef01874b-bf4e-4de6-a429-0cd56d451065"
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Kosinka"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Money"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Bottle_Empty"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }
+   }, 
+   "entry" : "7a91e538-4a60-4839-90c4-03ed8f8f5bcb"
+}
