@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 395181009, guid: ba80931603c2dbc40ab113c533efa2ed, type: 3}
+  m_Name: devourer
+  m_EditorClassIdentifier: 
+  Icon:
+    path: 
+  m_Localization: character.devourer
+  Takeable: 1
+  aiBehavior: 0
+  Dialog:
+    path: 
+  OnPocket:
+    path: entities/behavior/meat_med.onpocket
+  TalkAddDist: 0
+  BackToPosition: 0
+  StoreStats: 0
+  Summon: 1
+  SummonAddDist: 40
+  SummonCheckVisibility: 1
+  BattleAddDist: 0
+  Shiftable: 0
+  SpecTreeView:
+    path: 
+  AcceptingRestriction: 3
+  specialtyMask: 0
+  Stats:
+    _modifiers:
+    - _type: 32
+      _value: 14
+    - _type: 29
+      _value: 25
+    Level: 10
+    ExperiencePoints: 200
+    Strength: 10
+    Perception: 8
+    Endurance: 10
+    Charisma: 1
+    Intelligence: 1
+    Agility: 10
+    Luck: 5
+    skillsBonus:
+      SmallGuns: 28
+      BigGuns: 28
+      AutomaticFirearms: 28
+      Unarmed: 21
+      MeleeWeapons: 21
+      Throwing: 21
+      FirstAid: 21
+      Crafting: 0
+      Sneak: 0
+      Lockpick: 0
+      Steal: 0
+      Alertness: -30
+      Science: 0
+      Speech: 0
+      Barter: 0
+      Gambling: 0
+      Outdoorsman: 21
+    Perks: 65000000
+    FreeSkillPoints: 0
+    FreeStatPoints: 0
+    FreeSpecPoints: 0
+    SpecLevel: 1

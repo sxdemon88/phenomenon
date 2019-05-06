@@ -1,0 +1,215 @@
+{ 
+   "states" : { 
+      "b9f4acce-47d8-482e-b30a-b4a81aabf940" : { 
+         "class" : "InteractiveBeginNode", 
+         "desc" : { 
+            "x" : "-100881", 
+            "y" : "-100753"
+         }, 
+         "child" : [ 
+            "e43656f1-7726-46bf-ac54-e8cb8cea01ab"
+         ]
+      }, 
+      "e43656f1-7726-46bf-ac54-e8cb8cea01ab" : { 
+         "class" : "InteractiveUseNode", 
+         "desc" : { 
+            "x" : "-100961", 
+            "y" : "-100600"
+         }, 
+         "child" : [ 
+            "b1c24c36-f235-46be-975f-43d0e27baf78"
+         ]
+      }, 
+      "b1c24c36-f235-46be-975f-43d0e27baf78" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101116", 
+            "y" : "-100451"
+         }, 
+         "child" : [ 
+            "5e64275b-96e4-4c2f-a70a-01227c2c6fc6"
+         ]
+      }, 
+      "5e64275b-96e4-4c2f-a70a-01227c2c6fc6" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-101507", 
+            "y" : "-100354"
+         }, 
+         "child" : [ 
+            "23f98191-c0cc-4d4d-9359-f01fc2aa81ef", 
+            "4feb3375-1aa9-4ed2-bd8e-4d5b0646514f"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Flask_Empty"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "23f98191-c0cc-4d4d-9359-f01fc2aa81ef" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-101712", 
+            "y" : "-100176"
+         }, 
+         "child" : [ 
+            "2e7f882a-18d2-4d91-a21f-0513d5069d18"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Flask_Watter"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "2e7f882a-18d2-4d91-a21f-0513d5069d18" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-101724", 
+            "y" : "-99800"
+         }, 
+         "child" : [ 
+            "7618abed-acdd-45c9-846f-5c64969647f0"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Flask_Empty"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "7618abed-acdd-45c9-846f-5c64969647f0" : { 
+         "class" : "LogNode", 
+         "desc" : { 
+            "x" : "-101659", 
+            "y" : "-99556"
+         }, 
+         "child" : [ 
+            "85abd398-5ae5-4ee3-859c-0533ec811638"
+         ], 
+         "text" : "#Village.WaterSink.7618abed-acdd-45c9-846f-5c64969647f0"
+      }, 
+      "85abd398-5ae5-4ee3-859c-0533ec811638" : { 
+         "class" : "PlaySoundNode", 
+         "desc" : { 
+            "x" : "-101608", 
+            "y" : "-99474"
+         }, 
+         "child" : [ 
+         ], 
+         "sound" : "Sounds/SFX/Misc/faucet_water", 
+         "playOnObject" : "false", 
+         "saveStateOnSaveAndLoad" : "false"
+      }, 
+      "4feb3375-1aa9-4ed2-bd8e-4d5b0646514f" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-101312", 
+            "y" : "-100225"
+         }, 
+         "child" : [ 
+            "01a5f0a6-81d2-4bcf-99a0-fb07d8fd015a", 
+            "89b96338-f0c0-4168-854f-41c35870fef5"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Bottle_Empty2"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "01a5f0a6-81d2-4bcf-99a0-fb07d8fd015a" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-101501", 
+            "y" : "-100047"
+         }, 
+         "child" : [ 
+            "010eed4e-2cc5-4c00-8bc1-81bf6dfa9969"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Bottle_Water2"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "010eed4e-2cc5-4c00-8bc1-81bf6dfa9969" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-101513", 
+            "y" : "-99800"
+         }, 
+         "child" : [ 
+            "7618abed-acdd-45c9-846f-5c64969647f0"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Bottle_Empty2"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "89b96338-f0c0-4168-854f-41c35870fef5" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-101053", 
+            "y" : "-100084"
+         }, 
+         "child" : [ 
+            "f96dce1d-5879-4b09-b77e-1145a215da45", 
+            "de5996b0-cf33-42ee-ae38-69b5842c6a6e"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Bottle_Empty"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "f96dce1d-5879-4b09-b77e-1145a215da45" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-101252", 
+            "y" : "-99975"
+         }, 
+         "child" : [ 
+            "d672c06c-7289-4697-a398-9c235691fead"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Bottle_Watter"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "d672c06c-7289-4697-a398-9c235691fead" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-101264", 
+            "y" : "-99804"
+         }, 
+         "child" : [ 
+            "7618abed-acdd-45c9-846f-5c64969647f0"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Bottle_Empty"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "de5996b0-cf33-42ee-ae38-69b5842c6a6e" : { 
+         "class" : "LogNode", 
+         "desc" : { 
+            "x" : "-100885", 
+            "y" : "-99818"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "#Village.WaterSink.de5996b0-cf33-42ee-ae38-69b5842c6a6e"
+      }
+   }, 
+   "entry" : "b9f4acce-47d8-482e-b30a-b4a81aabf940"
+}

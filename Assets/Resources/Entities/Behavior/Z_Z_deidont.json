@@ -1,0 +1,174 @@
+{ 
+   "states" : { 
+      "89e73491-2f58-4f79-a52e-56f7286b2ecb" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101155", 
+            "y" : "-100534"
+         }, 
+         "child" : [ 
+            "e9c03229-3ae1-4424-9814-92ab3c2ef9b6"
+         ]
+      }, 
+      "e9c03229-3ae1-4424-9814-92ab3c2ef9b6" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-101467", 
+            "y" : "-100345"
+         }, 
+         "child" : [ 
+            "b0665fd8-9213-48c3-8af9-a9305cfd6dc0", 
+            "78e59e72-18d9-4cd1-9a9d-a0ed020920eb", 
+            "3674622d-2e99-4153-882d-b7564e5fb5a8"
+         ]
+      }, 
+      "b0665fd8-9213-48c3-8af9-a9305cfd6dc0" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101718", 
+            "y" : "-100135", 
+            "comment" : "1"
+         }, 
+         "child" : [ 
+            "62d229d3-67d3-44f3-a23e-af0c863f302b"
+         ]
+      }, 
+      "62d229d3-67d3-44f3-a23e-af0c863f302b" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101740", 
+            "y" : "-99979"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.1", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "deinodonte", 
+            "character" : "deinodonte", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "78e59e72-18d9-4cd1-9a9d-a0ed020920eb" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101467", 
+            "y" : "-100126", 
+            "comment" : "2"
+         }, 
+         "child" : [ 
+            "62d229d3-67d3-44f3-a23e-af0c863f302b", 
+            "9ff4f91c-bf89-4857-b2dc-6d781ffcafa8"
+         ]
+      }, 
+      "9ff4f91c-bf89-4857-b2dc-6d781ffcafa8" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101465", 
+            "y" : "-99975"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.2", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Deinodonte", 
+            "character" : "Deinodonte", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "3674622d-2e99-4153-882d-b7564e5fb5a8" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101231", 
+            "y" : "-100132", 
+            "comment" : "3"
+         }, 
+         "child" : [ 
+            "62d229d3-67d3-44f3-a23e-af0c863f302b", 
+            "9ff4f91c-bf89-4857-b2dc-6d781ffcafa8", 
+            "fb77822c-ad8b-4237-83d9-525553cf3ac4"
+         ]
+      }, 
+      "fb77822c-ad8b-4237-83d9-525553cf3ac4" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101215", 
+            "y" : "-99969"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.3", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Deinodonte", 
+            "character" : "Deinodonte", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }
+   }, 
+   "entry" : "89e73491-2f58-4f79-a52e-56f7286b2ecb"
+}

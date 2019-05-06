@@ -1706,8 +1706,8 @@
       "b8a7b201-c999-4f0f-95be-9e6d0c18921d" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-101935", 
-            "y" : "-98614"
+            "x" : "-101934", 
+            "y" : "-98618"
          }, 
          "child" : [ 
             "39ca08ef-bfaa-4003-954b-7839b8f841dc"
@@ -2544,7 +2544,10 @@
             "ccc8a189-fe4b-446a-bffe-079528cce916", 
             "7b54b204-ccc3-4c51-bea6-5d0b5471f103", 
             "a6a4ada0-bd39-424d-ae58-583eea5e4b83", 
+            "b1a186ff-9c34-48fa-95c8-e23195978a15", 
             "fa7a5a32-4a34-49dd-abef-806dcc198f2d", 
+            "3d20c6df-24bd-45a6-be56-256514083a3c", 
+            "f587e48d-bf9c-41af-8313-cf6ff9f9ea1f", 
             "9d5c8004-57e0-4430-8695-2fa68ad2a847", 
             "7db3474c-4cd1-4fb4-aac5-b175c027e432"
          ]
@@ -7406,6 +7409,27 @@
          ], 
          "script" : "Entities/Behavior/Z_Z_fight_2"
       }, 
+      "b1a186ff-9c34-48fa-95c8-e23195978a15" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-97061", 
+            "y" : "-101214"
+         }, 
+         "child" : [ 
+            "ba3b9ec0-334a-4b67-83b0-80e139ea7161"
+         ], 
+         "encType" : "devourer"
+      }, 
+      "ba3b9ec0-334a-4b67-83b0-80e139ea7161" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-97079", 
+            "y" : "-101114"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/Z_Z_devourer"
+      }, 
       "fa7a5a32-4a34-49dd-abef-806dcc198f2d" : { 
          "class" : "EncounterTypeNode", 
          "desc" : { 
@@ -7426,6 +7450,48 @@
          "child" : [ 
          ], 
          "script" : "Entities/Behavior/Z_Z_fight_5"
+      }, 
+      "3d20c6df-24bd-45a6-be56-256514083a3c" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-97562", 
+            "y" : "-101222"
+         }, 
+         "child" : [ 
+            "9a87ecb5-56ba-48c5-9978-be4092fe2bc2"
+         ], 
+         "encType" : "fight_6"
+      }, 
+      "9a87ecb5-56ba-48c5-9978-be4092fe2bc2" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-97580", 
+            "y" : "-101122"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/Z_Z_fight_6"
+      }, 
+      "f587e48d-bf9c-41af-8313-cf6ff9f9ea1f" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-97316", 
+            "y" : "-101216"
+         }, 
+         "child" : [ 
+            "97dc334a-7dc3-4489-89a5-93a4571cf408"
+         ], 
+         "encType" : "deidont"
+      }, 
+      "97dc334a-7dc3-4489-89a5-93a4571cf408" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-97334", 
+            "y" : "-101116"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/Z_Z_deidont"
       }, 
       "9d5c8004-57e0-4430-8695-2fa68ad2a847" : { 
          "class" : "EncounterTypeNode", 

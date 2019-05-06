@@ -107,8 +107,8 @@
       "99ca728d-e0e1-4899-905d-359abd7dac12" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-236", 
-            "y" : "1434"
+            "x" : "1566", 
+            "y" : "932"
          }, 
          "child" : [ 
             "52eb9ad1-a529-442f-9c8d-34cd142eee9f"
@@ -332,14 +332,17 @@
             "3ba06972-f0ed-45a6-b645-c220e418b062", 
             "c7776b7b-7254-49c4-a31c-5038ab831c65", 
             "f41e317f-19d5-43f2-ba22-7dde17ad3421", 
-            "f8571115-c09e-450a-9608-b8911589db24"
+            "f8571115-c09e-450a-9608-b8911589db24", 
+            "719b8434-7a34-4d2c-b8e1-466cdb34cbf6", 
+            "4e299a0b-b396-46a7-972c-f4a4d000ce3c", 
+            "68f48564-e8c7-4415-8967-5bce645122cc"
          ]
       }, 
       "3ba06972-f0ed-45a6-b645-c220e418b062" : { 
          "class" : "WhoopNode", 
          "desc" : { 
-            "x" : "770", 
-            "y" : "498"
+            "x" : "778", 
+            "y" : "508"
          }, 
          "child" : [ 
             "99ca728d-e0e1-4899-905d-359abd7dac12"
@@ -351,8 +354,8 @@
       "c7776b7b-7254-49c4-a31c-5038ab831c65" : { 
          "class" : "WhoopNode", 
          "desc" : { 
-            "x" : "995", 
-            "y" : "503"
+            "x" : "996", 
+            "y" : "509"
          }, 
          "child" : [ 
             "99ca728d-e0e1-4899-905d-359abd7dac12"
@@ -377,13 +380,49 @@
       "f8571115-c09e-450a-9608-b8911589db24" : { 
          "class" : "WhoopNode", 
          "desc" : { 
-            "x" : "1444", 
+            "x" : "1443", 
             "y" : "503"
          }, 
          "child" : [ 
             "99ca728d-e0e1-4899-905d-359abd7dac12"
          ], 
          "text" : "[Громко плачет] Спасибо...Спасибо...Спасибо!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "719b8434-7a34-4d2c-b8e1-466cdb34cbf6" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "1662", 
+            "y" : "504"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Спасибо Вам!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "4e299a0b-b396-46a7-972c-f4a4d000ce3c" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "1875", 
+            "y" : "505"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "[Слёзы радости]Вы спасли нас, благодарю.", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "68f48564-e8c7-4415-8967-5bce645122cc" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "2091", 
+            "y" : "506"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Спасибо за спасение!", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -516,8 +555,8 @@
       "a8f76cef-1109-4a9a-ba00-6d1ae53f514e" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "1331", 
-            "y" : "120"
+            "x" : "1325", 
+            "y" : "125"
          }, 
          "child" : [ 
             "ef01874b-bf4e-4de6-a429-0cd56d451065"

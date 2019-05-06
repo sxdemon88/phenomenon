@@ -199,8 +199,8 @@
       "c0aacd2d-b4cd-4cb0-97c4-2740bdf035e5" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-101500", 
-            "y" : "-99827"
+            "x" : "-101476", 
+            "y" : "-99889"
          }, 
          "child" : [ 
          ]
@@ -350,8 +350,8 @@
       "ee8d6b7d-ca4d-437b-b884-2d73ce29ff73" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-100767", 
-            "y" : "-100146"
+            "x" : "-100772", 
+            "y" : "-100040"
          }, 
          "child" : [ 
          ], 
@@ -387,8 +387,8 @@
       "250f32b1-221c-4313-ad7f-bb19bd037087" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100641", 
-            "y" : "-100186"
+            "x" : "-100692", 
+            "y" : "-100224"
          }, 
          "child" : [ 
             "ee8d6b7d-ca4d-437b-b884-2d73ce29ff73", 
@@ -435,8 +435,8 @@
       "a1009c31-bc05-40ae-9f79-d06888a759de" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100477", 
-            "y" : "-100240"
+            "x" : "-100475", 
+            "y" : "-100243"
          }, 
          "child" : [ 
             "ee8d6b7d-ca4d-437b-b884-2d73ce29ff73", 
@@ -484,8 +484,8 @@
       "a745783c-c811-4f5e-bd7c-cf8511383d9d" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100301", 
-            "y" : "-100245"
+            "x" : "-100299", 
+            "y" : "-100224"
          }, 
          "child" : [ 
             "ee8d6b7d-ca4d-437b-b884-2d73ce29ff73", 
@@ -505,8 +505,8 @@
          "spawnPoint" : "Spawn.Enemy.8", 
          "item" : { 
             "class" : "Character", 
-            "proto" : "stag", 
-            "character" : "stag", 
+            "proto" : "Stag", 
+            "character" : "Stag", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
