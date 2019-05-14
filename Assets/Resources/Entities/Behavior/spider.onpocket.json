@@ -1,0 +1,320 @@
+{ 
+   "states" : { 
+      "7cbe8496-63a7-48df-922c-8e2dd05ca7bc" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100339", 
+            "y" : "-100382"
+         }, 
+         "child" : [ 
+            "bec47427-de21-4e1c-83bb-0980f8f02bd9"
+         ]
+      }, 
+      "bec47427-de21-4e1c-83bb-0980f8f02bd9" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-100367", 
+            "y" : "-100320"
+         }, 
+         "child" : [ 
+            "4b25007a-425d-483c-aab5-65f088ea5583", 
+            "d7e613d7-9e3e-4b6b-b978-6ae93affa7b9"
+         ]
+      }, 
+      "4b25007a-425d-483c-aab5-65f088ea5583" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100387", 
+            "y" : "-100207"
+         }, 
+         "child" : [ 
+            "033bac8b-95ef-4969-994b-09c632e830c7", 
+            "19254ad6-26d7-4595-b79c-4878a8719d69"
+         ], 
+         "key" : "LOOTED"
+      }, 
+      "033bac8b-95ef-4969-994b-09c632e830c7" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100266", 
+            "y" : "-100016"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "19254ad6-26d7-4595-b79c-4878a8719d69" : { 
+         "class" : "HasPlayerPerkNode", 
+         "desc" : { 
+            "x" : "-100542", 
+            "y" : "-100108"
+         }, 
+         "child" : [ 
+            "c37cf2b1-882b-4a7c-a9d7-c99e807b5748", 
+            "033bac8b-95ef-4969-994b-09c632e830c7"
+         ], 
+         "perk" : "Entomologist"
+      }, 
+      "c37cf2b1-882b-4a7c-a9d7-c99e807b5748" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-100491", 
+            "y" : "-99993"
+         }, 
+         "child" : [ 
+            "c8e92bd1-4884-445c-9398-e63b2ea0e068", 
+            "e501996c-4a50-4d1f-a5e1-edb711bb6ded"
+         ], 
+         "key" : "LOOTED"
+      }, 
+      "c8e92bd1-4884-445c-9398-e63b2ea0e068" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100820", 
+            "y" : "-99785"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "SpiderBrain"
+         }
+      }, 
+      "e501996c-4a50-4d1f-a5e1-edb711bb6ded" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-100409", 
+            "y" : "-99846"
+         }, 
+         "child" : [ 
+            "2a0f7ca1-59ef-40e8-a758-76fdfb7ef4d9", 
+            "e6695380-a264-4f1b-aaa7-c0da21c4a62a"
+         ], 
+         "value" : "180", 
+         "modifier" : "Outdoorsman"
+      }, 
+      "2a0f7ca1-59ef-40e8-a758-76fdfb7ef4d9" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100346", 
+            "y" : "-99119"
+         }, 
+         "child" : [ 
+            "7101cd39-6bf9-49d9-9a44-249a3c5fd46e"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "3", 
+            "proto" : "SpiderBrain"
+         }
+      }, 
+      "7101cd39-6bf9-49d9-9a44-249a3c5fd46e" : { 
+         "class" : "LogNode", 
+         "desc" : { 
+            "x" : "-100556", 
+            "y" : "-98908"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Вы отлично обработали добычу."
+      }, 
+      "e6695380-a264-4f1b-aaa7-c0da21c4a62a" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-100196", 
+            "y" : "-99724"
+         }, 
+         "child" : [ 
+            "11e77310-3efa-46a9-bcf0-9341c52a297e", 
+            "805974aa-ac85-4c20-b2f7-09575bc0ffc6"
+         ], 
+         "value" : "160", 
+         "modifier" : "Outdoorsman"
+      }, 
+      "11e77310-3efa-46a9-bcf0-9341c52a297e" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-100259", 
+            "y" : "-99561"
+         }, 
+         "child" : [ 
+            "2a0f7ca1-59ef-40e8-a758-76fdfb7ef4d9", 
+            "38d69e06-6031-4e87-af55-9bdea01f9d9d"
+         ]
+      }, 
+      "38d69e06-6031-4e87-af55-9bdea01f9d9d" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100222", 
+            "y" : "-99118"
+         }, 
+         "child" : [ 
+            "04d94bab-a456-47a6-a4cd-81210dba4db2"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "2", 
+            "proto" : "SpiderBrain"
+         }
+      }, 
+      "04d94bab-a456-47a6-a4cd-81210dba4db2" : { 
+         "class" : "LogNode", 
+         "desc" : { 
+            "x" : "-100297", 
+            "y" : "-98905"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Вы хорошо обработали добычу."
+      }, 
+      "805974aa-ac85-4c20-b2f7-09575bc0ffc6" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-99966", 
+            "y" : "-99588"
+         }, 
+         "child" : [ 
+            "e4fc3178-dddf-4d8a-9dc5-cbcb9aa57fd6", 
+            "4ca1c7a1-9390-4484-8e88-81eb030bc350"
+         ], 
+         "value" : "140", 
+         "modifier" : "Outdoorsman"
+      }, 
+      "e4fc3178-dddf-4d8a-9dc5-cbcb9aa57fd6" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-100068", 
+            "y" : "-99398"
+         }, 
+         "child" : [ 
+            "2a0f7ca1-59ef-40e8-a758-76fdfb7ef4d9", 
+            "38d69e06-6031-4e87-af55-9bdea01f9d9d", 
+            "5de3e313-9fd5-4574-9e04-83c3d895ec45"
+         ]
+      }, 
+      "5de3e313-9fd5-4574-9e04-83c3d895ec45" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100096", 
+            "y" : "-99120"
+         }, 
+         "child" : [ 
+            "31d2d68a-dfb2-4995-a984-208c986cf8e6"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "SpiderBrain"
+         }
+      }, 
+      "31d2d68a-dfb2-4995-a984-208c986cf8e6" : { 
+         "class" : "LogNode", 
+         "desc" : { 
+            "x" : "-100051", 
+            "y" : "-98902"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Вы нормально обработали добычу."
+      }, 
+      "4ca1c7a1-9390-4484-8e88-81eb030bc350" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-99739", 
+            "y" : "-99440"
+         }, 
+         "child" : [ 
+            "b5a64a55-3ee0-4187-9118-a1257c44f46a", 
+            "eedb4344-032f-484a-823d-665e11e43165"
+         ], 
+         "value" : "100", 
+         "modifier" : "Outdoorsman"
+      }, 
+      "b5a64a55-3ee0-4187-9118-a1257c44f46a" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-99866", 
+            "y" : "-99285"
+         }, 
+         "child" : [ 
+            "38d69e06-6031-4e87-af55-9bdea01f9d9d", 
+            "5de3e313-9fd5-4574-9e04-83c3d895ec45", 
+            "a3c59b5a-ed1c-4ca6-aaec-605a46afca3a"
+         ]
+      }, 
+      "a3c59b5a-ed1c-4ca6-aaec-605a46afca3a" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99688", 
+            "y" : "-98819"
+         }, 
+         "child" : [ 
+            "f1447564-058a-4567-83b8-62b64d942d56"
+         ]
+      }, 
+      "f1447564-058a-4567-83b8-62b64d942d56" : { 
+         "class" : "LogNode", 
+         "desc" : { 
+            "x" : "-99709", 
+            "y" : "-98717"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Вы неудачно обработали добычу."
+      }, 
+      "eedb4344-032f-484a-823d-665e11e43165" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-99534", 
+            "y" : "-99273"
+         }, 
+         "child" : [ 
+            "3a61ee7e-c9e1-4284-8f75-c90450d3eef2", 
+            "02561df8-f549-4806-98c7-ef62a90dc807"
+         ], 
+         "value" : "60", 
+         "modifier" : "Outdoorsman"
+      }, 
+      "3a61ee7e-c9e1-4284-8f75-c90450d3eef2" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-99665", 
+            "y" : "-99134"
+         }, 
+         "child" : [ 
+            "5de3e313-9fd5-4574-9e04-83c3d895ec45", 
+            "a3c59b5a-ed1c-4ca6-aaec-605a46afca3a"
+         ]
+      }, 
+      "02561df8-f549-4806-98c7-ef62a90dc807" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99327", 
+            "y" : "-99057"
+         }, 
+         "child" : [ 
+            "22adee12-fac1-47ea-9ba9-fc3adf0a6902"
+         ]
+      }, 
+      "22adee12-fac1-47ea-9ba9-fc3adf0a6902" : { 
+         "class" : "LogNode", 
+         "desc" : { 
+            "x" : "-99359", 
+            "y" : "-98916"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Не хватает навыка выживания, для дополнительной обработки добычи."
+      }, 
+      "d7e613d7-9e3e-4b6b-b978-6ae93affa7b9" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100241", 
+            "y" : "-100213"
+         }, 
+         "child" : [ 
+         ]
+      }
+   }, 
+   "entry" : "7cbe8496-63a7-48df-922c-8e2dd05ca7bc"
+}

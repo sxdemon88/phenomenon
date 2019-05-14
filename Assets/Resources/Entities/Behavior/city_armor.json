@@ -25,8 +25,8 @@
       "aaa8992c-2077-4250-a86b-b5a5507d94e5" : { 
          "class" : "TimeDateTriggerNode", 
          "desc" : { 
-            "x" : "-100644", 
-            "y" : "-100601"
+            "x" : "-100676", 
+            "y" : "-100519"
          }, 
          "child" : [ 
             "4cf852e2-69ea-4995-a9f2-f47f1d7a92c9"
@@ -38,12 +38,12 @@
       "4cf852e2-69ea-4995-a9f2-f47f1d7a92c9" : { 
          "class" : "GoodsAndMoneyNode", 
          "desc" : { 
-            "x" : "-100681", 
-            "y" : "-100438"
+            "x" : "-100687", 
+            "y" : "-100415"
          }, 
          "child" : [ 
             "fbfb80df-d105-4b0a-92c6-f1ff5a5fea26", 
-            "26ca3569-17ad-4566-98df-ecd895656067"
+            "9b5f0615-4710-4709-9547-af1bff24d76e"
          ], 
          "maxMoney" : "5000", 
          "maxGoodsToMoney" : "150", 
@@ -53,71 +53,73 @@
       "fbfb80df-d105-4b0a-92c6-f1ff5a5fea26" : { 
          "class" : "AddKeyValueNode", 
          "desc" : { 
-            "x" : "-100973", 
-            "y" : "-100352"
+            "x" : "-100974", 
+            "y" : "-100330"
          }, 
          "child" : [ 
          ], 
          "key" : "GOODS_TRADER", 
          "value" : "$TIME$"
       }, 
-      "26ca3569-17ad-4566-98df-ecd895656067" : { 
-         "class" : "PlayStateNode", 
-         "desc" : { 
-            "x" : "-100555", 
-            "y" : "-100359"
-         }, 
-         "child" : [ 
-            "7508fb78-ea3c-4b19-b84d-02c277806514"
-         ], 
-         "script" : "Entities/Behavior/Z_Z_Tier"
-      }, 
-      "7508fb78-ea3c-4b19-b84d-02c277806514" : { 
-         "class" : "HasKeywordNode", 
-         "desc" : { 
-            "x" : "-100225", 
-            "y" : "-100299"
-         }, 
-         "child" : [ 
-            "eeb986df-5e1c-49f4-86a3-b97f53e75ad4", 
-            "74636c4f-ebe7-48e7-b8a2-1ab7b89b90c9"
-         ], 
-         "key" : "E_TIER_0"
-      }, 
-      "eeb986df-5e1c-49f4-86a3-b97f53e75ad4" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-100074", 
-            "y" : "-100105"
-         }, 
-         "child" : [ 
-            "4b74b51e-a70a-463c-b950-6f0c1abaae9e", 
-            "63682302-8322-46b4-832f-18203a3fe4ef", 
-            "7ad0840c-6b3e-44c6-8601-94b7bdbec5ad", 
-            "0601f171-a039-4121-9fdb-83b7f9ed071a"
-         ]
-      }, 
-      "4b74b51e-a70a-463c-b950-6f0c1abaae9e" : { 
+      "9b5f0615-4710-4709-9547-af1bff24d76e" : { 
          "class" : "RandomNode", 
          "desc" : { 
-            "x" : "-100159", 
-            "y" : "-100051"
+            "x" : "-100931", 
+            "y" : "-100172"
          }, 
          "child" : [ 
-            "b9636358-3ab0-42e7-9839-3c0a5187eb9b", 
-            "3324d172-f240-4d4d-a93d-7a97c206ec3a"
+            "e55b6835-55b4-4f08-83f1-2b0aab39621e", 
+            "2f2a84b6-3e68-4365-b6ef-f0c19f7e7101", 
+            "eeb986df-5e1c-49f4-86a3-b97f53e75ad4"
          ]
       }, 
-      "b9636358-3ab0-42e7-9839-3c0a5187eb9b" : { 
-         "class" : "InventorySetNode", 
+      "e55b6835-55b4-4f08-83f1-2b0aab39621e" : { 
+         "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100263", 
-            "y" : "-99995"
+            "x" : "-101093", 
+            "y" : "-99844"
          }, 
          "child" : [ 
-            "323107c1-32f1-4b8f-a303-65c0299fb5f3"
+            "59dcd861-be40-42d2-bfbb-4d0cc37da96c", 
+            "9f67019f-48f9-46a6-b615-a9bed9ecf1d0", 
+            "4e4a74e3-6bad-4352-b9c8-b8161e3023f0"
+         ]
+      }, 
+      "59dcd861-be40-42d2-bfbb-4d0cc37da96c" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101191", 
+            "y" : "-99648"
+         }, 
+         "child" : [ 
+            "460fb9ff-08f4-4fd9-aec6-f0be2da4e8b6"
          ], 
          "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Svarshik_Maska"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Shield_Wood"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "PilotCap"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Armor81"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Armor_Home"
+            }, 
             { 
                "class" : "Uniform", 
                "count" : "1", 
@@ -126,168 +128,102 @@
             { 
                "class" : "Uniform", 
                "count" : "1", 
-               "proto" : "SkiHat"
+               "proto" : "ArmorTire"
             }, 
             { 
                "class" : "Uniform", 
                "count" : "1", 
-               "proto" : "KitBag"
+               "proto" : "ArmyCap"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ArmyHat"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Backpack"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "FishCap"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Cap"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "MilitiaCap"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Gasmask"
             }
          ], 
          "inventoryObject" : "", 
          "random" : "true"
       }, 
-      "323107c1-32f1-4b8f-a303-65c0299fb5f3" : { 
+      "460fb9ff-08f4-4fd9-aec6-f0be2da4e8b6" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-100203", 
-            "y" : "-99889"
+            "x" : "-101191", 
+            "y" : "-99504"
          }, 
          "child" : [ 
          ], 
          "inventory" : [ 
             { 
                "class" : "Item", 
-               "count" : "100", 
+               "count" : "431", 
                "proto" : "Money"
             }
          ], 
          "inventoryObject" : "", 
          "random" : "true"
       }, 
-      "3324d172-f240-4d4d-a93d-7a97c206ec3a" : { 
-         "class" : "InventorySetNode", 
+      "9f67019f-48f9-46a6-b615-a9bed9ecf1d0" : { 
+         "class" : "RandomNode", 
          "desc" : { 
-            "x" : "-100133", 
-            "y" : "-99966"
+            "x" : "-100583", 
+            "y" : "-99106"
          }, 
          "child" : [ 
-            "323107c1-32f1-4b8f-a303-65c0299fb5f3"
-         ], 
-         "inventory" : [ 
-            { 
-               "class" : "Uniform", 
-               "count" : "1", 
-               "proto" : "ArmorLJ"
-            }, 
-            { 
-               "class" : "Uniform", 
-               "count" : "1", 
-               "proto" : "Helmet"
-            }, 
-            { 
-               "class" : "Uniform", 
-               "count" : "1", 
-               "proto" : "PilotCap"
-            }
-         ], 
-         "inventoryObject" : "", 
-         "random" : "true"
-      }, 
-      "63682302-8322-46b4-832f-18203a3fe4ef" : { 
-         "class" : "DiceNode", 
-         "desc" : { 
-            "x" : "-99845", 
-            "y" : "-99663"
-         }, 
-         "child" : [ 
-            "635c5788-efe4-4feb-b70f-069b5c703f90", 
-            "b2556186-0e42-4e54-8e43-24102ede5870"
-         ], 
-         "max" : "100", 
-         "value" : "1"
-      }, 
-      "635c5788-efe4-4feb-b70f-069b5c703f90" : { 
-         "class" : "InventoryAddItemNode", 
-         "desc" : { 
-            "x" : "-100016", 
-            "y" : "-99449"
-         }, 
-         "child" : [ 
-         ], 
-         "item" : { 
-            "class" : "Uniform", 
-            "count" : "1", 
-            "proto" : "PNV57"
-         }
-      }, 
-      "b2556186-0e42-4e54-8e43-24102ede5870" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-99775", 
-            "y" : "-99558"
-         }, 
-         "child" : [ 
-         ]
-      }, 
-      "7ad0840c-6b3e-44c6-8601-94b7bdbec5ad" : { 
-         "class" : "DiceNode", 
-         "desc" : { 
-            "x" : "-99357", 
-            "y" : "-99651"
-         }, 
-         "child" : [ 
-            "3c474fb9-a70d-465b-b86c-4057acfbfc52", 
-            "d6e1fbda-236d-4df1-83e4-023341507ef1"
-         ], 
-         "max" : "100", 
-         "value" : "1"
-      }, 
-      "3c474fb9-a70d-465b-b86c-4057acfbfc52" : { 
-         "class" : "InventorySetNode", 
-         "desc" : { 
-            "x" : "-99534", 
-            "y" : "-99465"
-         }, 
-         "child" : [ 
-         ], 
-         "inventory" : [ 
-            { 
-               "class" : "Uniform", 
-               "count" : "1", 
-               "proto" : "CraftDogArmor_1"
-            }, 
-            { 
-               "class" : "Uniform", 
-               "count" : "1", 
-               "proto" : "CraftDogHelmet_1"
-            }, 
-            { 
-               "class" : "Uniform", 
-               "count" : "1", 
-               "proto" : "CraftDogTop_1"
-            }
-         ], 
-         "inventoryObject" : "", 
-         "random" : "true"
-      }, 
-      "d6e1fbda-236d-4df1-83e4-023341507ef1" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-99300", 
-            "y" : "-99569"
-         }, 
-         "child" : [ 
-         ]
-      }, 
-      "0601f171-a039-4121-9fdb-83b7f9ed071a" : { 
-         "class" : "DiceNode", 
-         "desc" : { 
-            "x" : "-100438", 
-            "y" : "-99450"
-         }, 
-         "child" : [ 
+            "504dc716-94d1-4e44-a407-b9135186b128", 
+            "aada0d91-9f4e-4b1c-8fc0-83732add2c97", 
             "77945223-b23a-4d35-9657-d6f11ba0605b", 
-            "91a13f06-58a5-402f-bfb4-8efca32e8221"
-         ], 
-         "max" : "100", 
-         "value" : "1"
+            "ea904477-8590-469a-a188-ae42dd489be8", 
+            "dda1bc11-6909-4a5b-9950-9c06e45c2667"
+         ]
+      }, 
+      "504dc716-94d1-4e44-a407-b9135186b128" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100577", 
+            "y" : "-98945"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "aada0d91-9f4e-4b1c-8fc0-83732add2c97" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100829", 
+            "y" : "-98987"
+         }, 
+         "child" : [ 
+         ]
       }, 
       "77945223-b23a-4d35-9657-d6f11ba0605b" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-100774", 
-            "y" : "-99335"
+            "x" : "-100719", 
+            "y" : "-98925"
          }, 
          "child" : [ 
          ], 
@@ -301,69 +237,356 @@
          "inventoryObject" : "", 
          "random" : "true"
       }, 
-      "91a13f06-58a5-402f-bfb4-8efca32e8221" : { 
+      "ea904477-8590-469a-a188-ae42dd489be8" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100356", 
-            "y" : "-99312"
+            "x" : "-100472", 
+            "y" : "-98977"
          }, 
          "child" : [ 
          ]
       }, 
-      "74636c4f-ebe7-48e7-b8a2-1ab7b89b90c9" : { 
-         "class" : "HasKeywordNode", 
+      "dda1bc11-6909-4a5b-9950-9c06e45c2667" : { 
+         "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-100351", 
-            "y" : "-100209"
+            "x" : "-100347", 
+            "y" : "-98921"
          }, 
          "child" : [ 
-            "eeb986df-5e1c-49f4-86a3-b97f53e75ad4", 
-            "c6729e8b-4b07-4492-b21c-d9d98f4ac005"
          ], 
-         "key" : "E_TIER_1"
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "PNV57"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
       }, 
-      "c6729e8b-4b07-4492-b21c-d9d98f4ac005" : { 
-         "class" : "HasKeywordNode", 
+      "4e4a74e3-6bad-4352-b9c8-b8161e3023f0" : { 
+         "class" : "RandomNode", 
          "desc" : { 
-            "x" : "-100581", 
-            "y" : "-100103"
+            "x" : "-101067", 
+            "y" : "-99250"
          }, 
          "child" : [ 
-            "2f2a84b6-3e68-4365-b6ef-f0c19f7e7101", 
-            "e55b6835-55b4-4f08-83f1-2b0aab39621e"
+            "af57af40-4991-4c4d-a719-e3f22def8852", 
+            "9da1d9ca-0950-47c9-86c8-6b2b59f66800", 
+            "743f2e23-7bfd-49fd-af6b-2a3d2ab94e78"
+         ]
+      }, 
+      "af57af40-4991-4c4d-a719-e3f22def8852" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101824", 
+            "y" : "-99038"
+         }, 
+         "child" : [ 
+            "9ac11479-135b-4f17-8ba2-6210358ab13f", 
+            "e7eb1303-7cbb-416b-8835-f627c5889fff", 
+            "8fb66da9-828d-4928-b66e-f96fafac3743", 
+            "8e929e66-500d-4f85-8720-27bbdcd72227"
+         ]
+      }, 
+      "9ac11479-135b-4f17-8ba2-6210358ab13f" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101931", 
+            "y" : "-98917"
+         }, 
+         "child" : [ 
          ], 
-         "key" : "E_TIER_2"
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ctw_head_1"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ctw_head_2"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ctw_head_3"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ctw_head_4"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "e7eb1303-7cbb-416b-8835-f627c5889fff" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101807", 
+            "y" : "-98916"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "armor1"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "8fb66da9-828d-4928-b66e-f96fafac3743" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101676", 
+            "y" : "-98914"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ctw_armor2"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ctw_light_1"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ctw_light_2"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "8e929e66-500d-4f85-8720-27bbdcd72227" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101508", 
+            "y" : "-98558"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Gasmass"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ctw_light_2amer"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ctw_light_2digital"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ctw_light_2snake"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "9da1d9ca-0950-47c9-86c8-6b2b59f66800" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101406", 
+            "y" : "-99038"
+         }, 
+         "child" : [ 
+            "210ed9c6-878c-49e9-bf60-2123b0250743", 
+            "02d03dd1-fd9a-4f4e-b2c0-d37ee3014ef4", 
+            "81423edb-683a-43bb-a196-0a29d8887d13", 
+            "8e929e66-500d-4f85-8720-27bbdcd72227"
+         ]
+      }, 
+      "210ed9c6-878c-49e9-bf60-2123b0250743" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101513", 
+            "y" : "-98917"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ctw_head_1"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ctw_head_2"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "02d03dd1-fd9a-4f4e-b2c0-d37ee3014ef4" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101389", 
+            "y" : "-98916"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "armor1black"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "81423edb-683a-43bb-a196-0a29d8887d13" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101258", 
+            "y" : "-98914"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ctw_light_3"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ctw_light_4"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ctw_light_5"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "743f2e23-7bfd-49fd-af6b-2a3d2ab94e78" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101089", 
+            "y" : "-98873"
+         }, 
+         "child" : [ 
+            "fe2ffa12-be0c-4bf6-ba16-02f46156c5cc", 
+            "fb46ccb4-34d5-4649-819b-9979964d2a0c", 
+            "96af70c0-b96f-49c6-97a6-082e74f0983b", 
+            "8e929e66-500d-4f85-8720-27bbdcd72227"
+         ]
+      }, 
+      "fe2ffa12-be0c-4bf6-ba16-02f46156c5cc" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101196", 
+            "y" : "-98752"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ctw_head_1"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ctw_head_2"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ctw_head_3"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "fb46ccb4-34d5-4649-819b-9979964d2a0c" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101072", 
+            "y" : "-98751"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "armor1green"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "96af70c0-b96f-49c6-97a6-082e74f0983b" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100941", 
+            "y" : "-98749"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ctw_light_6"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ctw_light_7"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "TacticShield"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
       }, 
       "2f2a84b6-3e68-4365-b6ef-f0c19f7e7101" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100436", 
-            "y" : "-99974"
+            "x" : "-100858", 
+            "y" : "-99848"
          }, 
          "child" : [ 
-            "afe5c0b2-2563-4ff5-9c7a-bbf04a2595d3", 
-            "9dc790ea-c875-4dc8-b9bd-31ad19461fe5", 
-            "41479dcc-cf33-4961-bc8a-8340213bf515", 
-            "ab0402e9-ba53-498b-8ebd-09cb92c8c2e6"
+            "b15f6157-f03e-4ce4-8dbc-189145179f1e", 
+            "9f67019f-48f9-46a6-b615-a9bed9ecf1d0", 
+            "4e4a74e3-6bad-4352-b9c8-b8161e3023f0"
          ]
       }, 
-      "afe5c0b2-2563-4ff5-9c7a-bbf04a2595d3" : { 
-         "class" : "RandomNode", 
-         "desc" : { 
-            "x" : "-100513", 
-            "y" : "-99946"
-         }, 
-         "child" : [ 
-            "9b5fb8ed-5978-4198-83a8-50ce532dc25b", 
-            "fb9024d5-9dbf-42db-9397-93ccf701ee4e", 
-            "e149d8f9-0312-4cea-8b5e-b0704d8c868c"
-         ]
-      }, 
-      "9b5fb8ed-5978-4198-83a8-50ce532dc25b" : { 
+      "b15f6157-f03e-4ce4-8dbc-189145179f1e" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-100679", 
-            "y" : "-99890"
+            "x" : "-100916", 
+            "y" : "-99644"
          }, 
          "child" : [ 
             "8e2d457a-fa72-4d99-b4fa-f37a2b7af95e"
@@ -372,7 +595,52 @@
             { 
                "class" : "Uniform", 
                "count" : "1", 
+               "proto" : "Armor58"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Armor58_Stalker"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Armor81"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Gasmask_2"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Gasmask"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
                "proto" : "Helmet"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Helmet_2"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Helmet_3"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Helmet_Home"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Helmet_Rust"
             }, 
             { 
                "class" : "Uniform", 
@@ -382,7 +650,17 @@
             { 
                "class" : "Uniform", 
                "count" : "1", 
-               "proto" : "ArmorLA"
+               "proto" : "KitBag"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "PanamaAfghan"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Shlemofon"
             }
          ], 
          "inventoryObject" : "", 
@@ -391,35 +669,57 @@
       "8e2d457a-fa72-4d99-b4fa-f37a2b7af95e" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-100534", 
-            "y" : "-99722"
+            "x" : "-100916", 
+            "y" : "-99515"
          }, 
          "child" : [ 
          ], 
          "inventory" : [ 
             { 
                "class" : "Item", 
-               "count" : "200", 
+               "count" : "222", 
                "proto" : "Money"
             }
          ], 
          "inventoryObject" : "", 
          "random" : "true"
       }, 
-      "fb9024d5-9dbf-42db-9397-93ccf701ee4e" : { 
-         "class" : "InventorySetNode", 
+      "eeb986df-5e1c-49f4-86a3-b97f53e75ad4" : { 
+         "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100621", 
-            "y" : "-99809"
+            "x" : "-100444", 
+            "y" : "-99817"
          }, 
          "child" : [ 
-            "8e2d457a-fa72-4d99-b4fa-f37a2b7af95e"
+            "4e4a74e3-6bad-4352-b9c8-b8161e3023f0", 
+            "9f67019f-48f9-46a6-b615-a9bed9ecf1d0", 
+            "3324d172-f240-4d4d-a93d-7a97c206ec3a"
+         ]
+      }, 
+      "3324d172-f240-4d4d-a93d-7a97c206ec3a" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100535", 
+            "y" : "-99680"
+         }, 
+         "child" : [ 
+            "323107c1-32f1-4b8f-a303-65c0299fb5f3"
          ], 
          "inventory" : [ 
             { 
                "class" : "Uniform", 
                "count" : "1", 
                "proto" : "Armor46"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Armor57"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Armor_Home"
             }, 
             { 
                "class" : "Uniform", 
@@ -429,248 +729,74 @@
             { 
                "class" : "Uniform", 
                "count" : "1", 
-               "proto" : "Helmet_2"
+               "proto" : "Armor_Home"
             }, 
             { 
                "class" : "Uniform", 
                "count" : "1", 
-               "proto" : "Armor81"
+               "proto" : "ArmorLJ"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ArmorTire"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ArmyCap"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ArmyHat"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Backpack"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "FishCap"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Cap"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "MilitiaCap"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Gasmask"
             }
          ], 
          "inventoryObject" : "", 
          "random" : "true"
       }, 
-      "e149d8f9-0312-4cea-8b5e-b0704d8c868c" : { 
+      "323107c1-32f1-4b8f-a303-65c0299fb5f3" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-100481", 
-            "y" : "-99838"
-         }, 
-         "child" : [ 
-            "8e2d457a-fa72-4d99-b4fa-f37a2b7af95e"
-         ], 
-         "inventory" : [ 
-            { 
-               "class" : "Uniform", 
-               "count" : "1", 
-               "proto" : "Helmet_2"
-            }, 
-            { 
-               "class" : "Uniform", 
-               "count" : "1", 
-               "proto" : "Armor46"
-            }, 
-            { 
-               "class" : "Uniform", 
-               "count" : "1", 
-               "proto" : "Helmet"
-            }
-         ], 
-         "inventoryObject" : "", 
-         "random" : "true"
-      }, 
-      "9dc790ea-c875-4dc8-b9bd-31ad19461fe5" : { 
-         "class" : "DiceNode", 
-         "desc" : { 
-            "x" : "-100030", 
-            "y" : "-99663"
-         }, 
-         "child" : [ 
-            "635c5788-efe4-4feb-b70f-069b5c703f90", 
-            "15f68dbf-f095-48f2-b89f-bab48c19395d"
-         ], 
-         "max" : "100", 
-         "value" : "2"
-      }, 
-      "15f68dbf-f095-48f2-b89f-bab48c19395d" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-99960", 
-            "y" : "-99555"
-         }, 
-         "child" : [ 
-         ]
-      }, 
-      "41479dcc-cf33-4961-bc8a-8340213bf515" : { 
-         "class" : "DiceNode", 
-         "desc" : { 
-            "x" : "-99532", 
-            "y" : "-99652"
-         }, 
-         "child" : [ 
-            "3c474fb9-a70d-465b-b86c-4057acfbfc52", 
-            "ae71dcb1-f6ca-4f73-9fca-be243a81d457"
-         ], 
-         "max" : "100", 
-         "value" : "2"
-      }, 
-      "ae71dcb1-f6ca-4f73-9fca-be243a81d457" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-99463", 
-            "y" : "-99560"
-         }, 
-         "child" : [ 
-         ]
-      }, 
-      "ab0402e9-ba53-498b-8ebd-09cb92c8c2e6" : { 
-         "class" : "DiceNode", 
-         "desc" : { 
-            "x" : "-100560", 
-            "y" : "-99446"
-         }, 
-         "child" : [ 
-            "77945223-b23a-4d35-9657-d6f11ba0605b", 
-            "5e555e22-cea8-4471-a5f4-d4a593664a99"
-         ], 
-         "max" : "100", 
-         "value" : "2"
-      }, 
-      "5e555e22-cea8-4471-a5f4-d4a593664a99" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-100485", 
-            "y" : "-99308"
-         }, 
-         "child" : [ 
-         ]
-      }, 
-      "e55b6835-55b4-4f08-83f1-2b0aab39621e" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-100771", 
-            "y" : "-99946"
-         }, 
-         "child" : [ 
-            "f8f3aaf7-dce6-4f72-80c9-4c94812068d0", 
-            "11e85479-fe42-4aa4-915c-01603be7806a", 
-            "22fdc01e-96c4-47c5-bc3d-d0a33b8416b2", 
-            "50916ae9-ddb8-4ab4-8b01-8ab1ef12f008"
-         ]
-      }, 
-      "f8f3aaf7-dce6-4f72-80c9-4c94812068d0" : { 
-         "class" : "RandomNode", 
-         "desc" : { 
-            "x" : "-100878", 
-            "y" : "-99902"
-         }, 
-         "child" : [ 
-            "630bcce1-a210-4a56-b12a-c0765fcc5123", 
-            "fb9024d5-9dbf-42db-9397-93ccf701ee4e"
-         ]
-      }, 
-      "630bcce1-a210-4a56-b12a-c0765fcc5123" : { 
-         "class" : "InventorySetNode", 
-         "desc" : { 
-            "x" : "-101044", 
-            "y" : "-99846"
-         }, 
-         "child" : [ 
-            "460fb9ff-08f4-4fd9-aec6-f0be2da4e8b6"
-         ], 
-         "inventory" : [ 
-            { 
-               "class" : "Uniform", 
-               "count" : "1", 
-               "proto" : "CraftDogArmor_1"
-            }, 
-            { 
-               "class" : "Uniform", 
-               "count" : "1", 
-               "proto" : "CraftDogHelmet_1"
-            }, 
-            { 
-               "class" : "Uniform", 
-               "count" : "1", 
-               "proto" : "CraftDogTop_1"
-            }
-         ], 
-         "inventoryObject" : "", 
-         "random" : "true"
-      }, 
-      "460fb9ff-08f4-4fd9-aec6-f0be2da4e8b6" : { 
-         "class" : "InventorySetNode", 
-         "desc" : { 
-            "x" : "-100986", 
-            "y" : "-99723"
+            "x" : "-100535", 
+            "y" : "-99517"
          }, 
          "child" : [ 
          ], 
          "inventory" : [ 
             { 
                "class" : "Item", 
-               "count" : "400", 
+               "count" : "256", 
                "proto" : "Money"
             }
          ], 
          "inventoryObject" : "", 
          "random" : "true"
-      }, 
-      "11e85479-fe42-4aa4-915c-01603be7806a" : { 
-         "class" : "DiceNode", 
-         "desc" : { 
-            "x" : "-100210", 
-            "y" : "-99672"
-         }, 
-         "child" : [ 
-            "635c5788-efe4-4feb-b70f-069b5c703f90", 
-            "aaf49341-12c4-4287-a492-805bedd7e635"
-         ], 
-         "max" : "100", 
-         "value" : "3"
-      }, 
-      "aaf49341-12c4-4287-a492-805bedd7e635" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-100118", 
-            "y" : "-99557"
-         }, 
-         "child" : [ 
-         ]
-      }, 
-      "22fdc01e-96c4-47c5-bc3d-d0a33b8416b2" : { 
-         "class" : "DiceNode", 
-         "desc" : { 
-            "x" : "-99656", 
-            "y" : "-99656"
-         }, 
-         "child" : [ 
-            "3c474fb9-a70d-465b-b86c-4057acfbfc52", 
-            "4e6ccab0-3f4a-4b9f-b6d2-7f8b2f0012ef"
-         ], 
-         "max" : "100", 
-         "value" : "3"
-      }, 
-      "4e6ccab0-3f4a-4b9f-b6d2-7f8b2f0012ef" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-99635", 
-            "y" : "-99557"
-         }, 
-         "child" : [ 
-         ]
-      }, 
-      "50916ae9-ddb8-4ab4-8b01-8ab1ef12f008" : { 
-         "class" : "DiceNode", 
-         "desc" : { 
-            "x" : "-100685", 
-            "y" : "-99444"
-         }, 
-         "child" : [ 
-            "77945223-b23a-4d35-9657-d6f11ba0605b", 
-            "1ee58d11-7b88-419a-875f-db51fb2521de"
-         ], 
-         "max" : "100", 
-         "value" : "3"
-      }, 
-      "1ee58d11-7b88-419a-875f-db51fb2521de" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-100628", 
-            "y" : "-99307"
-         }, 
-         "child" : [ 
-         ]
       }
    }, 
    "entry" : "27d2cb71-d550-4812-a9ad-0ea3aea74912"

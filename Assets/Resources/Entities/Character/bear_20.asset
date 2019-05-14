@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 395181009, guid: ba80931603c2dbc40ab113c533efa2ed, type: 3}
+  m_Name: bear_20
+  m_EditorClassIdentifier: 
+  Icon:
+    path: 
+  m_Localization: character.bear20
+  Takeable: 1
+  aiBehavior: 0
+  Dialog:
+    path: 
+  OnPocket:
+    path: entities/behavior/meat_wild.onpocket
+  TalkAddDist: 0
+  BackToPosition: 0
+  StoreStats: 0
+  Summon: 1
+  SummonAddDist: 40
+  SummonCheckVisibility: 1
+  BattleAddDist: 0
+  Shiftable: 0
+  SpecTreeView:
+    path: 
+  AcceptingRestriction: 3
+  specialtyMask: 0
+  Stats:
+    _modifiers:
+    - _type: 32
+      _value: 50
+    - _type: 40
+      _value: 10
+    - _type: 30
+      _value: 45
+    - _type: 41
+      _value: 20
+    - _type: 26
+      _value: 1
+    - _type: 33
+      _value: 10
+    Level: 20
+    ExperiencePoints: 300
+    Strength: 10
+    Perception: 9
+    Endurance: 9
+    Charisma: 5
+    Intelligence: 5
+    Agility: 9
+    Luck: 5
+    skillsBonus:
+      SmallGuns: 0
+      BigGuns: 0
+      AutomaticFirearms: 0
+      Unarmed: 0
+      MeleeWeapons: 0
+      Throwing: 0
+      FirstAid: 0
+      Crafting: 0
+      Sneak: 0
+      Lockpick: 0
+      Steal: 0
+      Alertness: 80
+      Science: 0
+      Speech: 0
+      Barter: 0
+      Gambling: 0
+      Outdoorsman: 0
+    Perks: 
+    FreeSkillPoints: 0
+    FreeStatPoints: 0
+    FreeSpecPoints: 0
+    SpecLevel: 1

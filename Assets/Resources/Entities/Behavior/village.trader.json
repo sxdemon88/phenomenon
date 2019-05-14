@@ -100,15 +100,14 @@
       "2bf49add-d8f1-4fa5-9048-06c830d3bc2e" : { 
          "class" : "GoodsAndMoneyNode", 
          "desc" : { 
-            "x" : "-100816", 
-            "y" : "-100069"
+            "x" : "-100817", 
+            "y" : "-100030"
          }, 
          "child" : [ 
             "4c2b9e55-e9da-4b96-8cf2-edd1b69bf41e", 
-            "50753890-21ea-4453-9cf5-0f64a81803c6", 
             "1102e0c6-0a5f-4ca0-ae64-6edc0d118280"
          ], 
-         "maxMoney" : "800", 
+         "maxMoney" : "1500", 
          "maxGoodsToMoney" : "50", 
          "costPercent" : "100", 
          "wantToSellPercent" : "20"
@@ -116,139 +115,435 @@
       "4c2b9e55-e9da-4b96-8cf2-edd1b69bf41e" : { 
          "class" : "AddKeyValueNode", 
          "desc" : { 
-            "x" : "-100386", 
-            "y" : "-99945"
+            "x" : "-100424", 
+            "y" : "-99931"
          }, 
          "child" : [ 
          ], 
          "key" : "GOODS_TRADER", 
          "value" : "$TIME$"
       }, 
-      "50753890-21ea-4453-9cf5-0f64a81803c6" : { 
-         "class" : "PlayStateNode", 
-         "desc" : { 
-            "x" : "-101044", 
-            "y" : "-99865"
-         }, 
-         "child" : [ 
-         ], 
-         "script" : "entities/behavior/z_z_tier"
-      }, 
       "1102e0c6-0a5f-4ca0-ae64-6edc0d118280" : { 
          "class" : "RandomNode", 
          "desc" : { 
-            "x" : "-100721", 
-            "y" : "-99758"
+            "x" : "-100699", 
+            "y" : "-99875"
          }, 
          "child" : [ 
-            "f4346023-1fa1-465c-8845-cbec43de968f", 
-            "851bfe43-f133-4b04-8fa4-ab736c1964ae", 
-            "8c168b9a-f0a4-4159-8aa1-a3cc49fbf05a"
+            "4533a64c-9db1-48a3-b7bb-74d654114de9", 
+            "51b8dabb-84fb-4ae2-8a23-93d36bf4910e", 
+            "e56ca5cc-255d-4083-aea8-c86994afd7f1"
          ]
       }, 
-      "f4346023-1fa1-465c-8845-cbec43de968f" : { 
-         "class" : "RandomNode", 
+      "4533a64c-9db1-48a3-b7bb-74d654114de9" : { 
+         "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-101140", 
-            "y" : "-99637"
+            "x" : "-101042", 
+            "y" : "-99947"
          }, 
          "child" : [ 
-            "86100d6d-e3fb-486a-ab67-c7e9a673cde2", 
-            "d72b26c3-d753-4166-b5e5-558dcf390bf5", 
-            "6e732a9b-45b3-4679-938d-bf6ed12d7a09", 
-            "d4cffa27-ccaf-4978-9402-3940f66468c9"
+            "667e6fcd-274b-4c46-ac51-792003c5a4d5", 
+            "49e1d699-f21f-4765-99da-934e09ac096c", 
+            "59f7d22e-0702-43be-9ff2-a2bf797664cc", 
+            "98b25f0a-5d5b-45d0-9510-908bfebd6447", 
+            "12951a73-9423-43ec-a217-ea599760d47d"
          ]
       }, 
-      "86100d6d-e3fb-486a-ab67-c7e9a673cde2" : { 
+      "667e6fcd-274b-4c46-ac51-792003c5a4d5" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-101426", 
-            "y" : "-99583"
+            "x" : "-101504", 
+            "y" : "-99915"
          }, 
          "child" : [ 
-            "0dc26a19-4e7a-4962-ad69-442b02dc137f"
          ], 
          "inventory" : [ 
             { 
-               "class" : "Ammo", 
-               "count" : "10", 
-               "proto" : "9mm_JHP"
-            }, 
-            { 
-               "class" : "Consumable", 
-               "count" : "1", 
-               "proto" : "Kasparamid"
-            }, 
-            { 
-               "class" : "Item", 
-               "count" : "150", 
-               "proto" : "Money"
-            }, 
-            { 
-               "class" : "Ammo", 
-               "count" : "10", 
-               "proto" : "307cal_JHP"
-            }, 
-            { 
-               "class" : "Ammo", 
-               "count" : "10", 
-               "proto" : "7_62mm_JHP"
-            }, 
-            { 
-               "class" : "Item", 
-               "count" : "1", 
-               "proto" : "Herbal"
-            }, 
-            { 
-               "class" : "Item", 
-               "count" : "1", 
-               "proto" : "Coffe"
-            }, 
-            { 
                "class" : "Uniform", 
                "count" : "1", 
-               "proto" : "Cap"
-            }, 
-            { 
-               "class" : "Ammo", 
-               "count" : "2", 
-               "proto" : "307cal_AP"
-            }, 
-            { 
-               "class" : "Item", 
-               "count" : "2", 
-               "proto" : "Gun_Powder"
-            }, 
-            { 
-               "class" : "Weapon", 
-               "count" : "1", 
-               "proto" : "Pipe_Sniper", 
-               "ammo" : { 
-                  "count" : "1", 
-                  "proto" : "BB_AP"
-               }
+               "proto" : "ctw_head_1rust"
             }
          ], 
          "inventoryObject" : "", 
          "random" : "true"
       }, 
-      "0dc26a19-4e7a-4962-ad69-442b02dc137f" : { 
-         "class" : "InventoryRemoveDublicatesNode", 
+      "49e1d699-f21f-4765-99da-934e09ac096c" : { 
+         "class" : "RandomNode", 
          "desc" : { 
-            "x" : "-101166", 
-            "y" : "-99120"
+            "x" : "-102025", 
+            "y" : "-99476"
+         }, 
+         "child" : [ 
+            "d8d27c19-b556-456e-aeb4-8d205bcbbb8b", 
+            "8e7dc372-8d70-47ab-9893-98b1b95080c0", 
+            "54e77dd4-f801-41aa-bf28-cedf018161b9", 
+            "82988aea-afc4-4566-a9f3-48158d074e3d", 
+            "fbd85292-7024-479a-b692-cc7259cd897b", 
+            "9a6627f9-317d-481a-ab94-06492f3ca287"
+         ]
+      }, 
+      "d8d27c19-b556-456e-aeb4-8d205bcbbb8b" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-102285", 
+            "y" : "-99399"
          }, 
          "child" : [ 
          ], 
-         "filter" : "MemoProto"
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Helmet_Home"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "8e7dc372-8d70-47ab-9893-98b1b95080c0" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-102164", 
+            "y" : "-99400"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Armor_Home"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "54e77dd4-f801-41aa-bf28-cedf018161b9" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-102040", 
+            "y" : "-99399"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ArmorTire"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "82988aea-afc4-4566-a9f3-48158d074e3d" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101918", 
+            "y" : "-99396"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Shield_Wood"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "fbd85292-7024-479a-b692-cc7259cd897b" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101799", 
+            "y" : "-99396"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "KitBag"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "9a6627f9-317d-481a-ab94-06492f3ca287" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101678", 
+            "y" : "-99398"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Hand_Bag"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "59f7d22e-0702-43be-9ff2-a2bf797664cc" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-102058", 
+            "y" : "-99871"
+         }, 
+         "child" : [ 
+            "4bd5c1cc-f3dc-4be0-9431-8d4f65be1daf", 
+            "cdb6925f-caed-4189-9017-a71332596008", 
+            "f789abbb-5e2a-4ec8-9a9a-e31adbc15993", 
+            "b3649c33-bfa8-452f-9382-a9e86f6f11bb", 
+            "be5c9cc4-1131-41ae-af48-9185f38c6bb4", 
+            "8fca2f68-60b4-4464-a748-83d26f138e7a"
+         ]
+      }, 
+      "4bd5c1cc-f3dc-4be0-9431-8d4f65be1daf" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-102380", 
+            "y" : "-99774"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Makarov_Rust", 
+               "ammo" : { 
+                  "count" : "0", 
+                  "proto" : "9mm_JHP"
+               }
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "cdb6925f-caed-4189-9017-a71332596008" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-102267", 
+            "y" : "-99774"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Tokarev_Rust", 
+               "ammo" : { 
+                  "count" : "0", 
+                  "proto" : "7_62mm_JHP"
+               }
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "f789abbb-5e2a-4ec8-9a9a-e31adbc15993" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-102151", 
+            "y" : "-99775"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Knife_Rust"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "b3649c33-bfa8-452f-9382-a9e86f6f11bb" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-102040", 
+            "y" : "-99773"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Helmet_Rust"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "be5c9cc4-1131-41ae-af48-9185f38c6bb4" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101929", 
+            "y" : "-99773"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Mauser_Rust", 
+               "ammo" : { 
+                  "count" : "0", 
+                  "proto" : "9mm_JHP"
+               }
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "8fca2f68-60b4-4464-a748-83d26f138e7a" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101816", 
+            "y" : "-99773"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Nagant_Rust", 
+               "ammo" : { 
+                  "count" : "0", 
+                  "proto" : "9mm_JHP"
+               }
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "98b25f0a-5d5b-45d0-9510-908bfebd6447" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-101501", 
+            "y" : "-99744"
+         }, 
+         "child" : [ 
+            "fbf249e6-8a4c-4e47-8f94-1aebfd46d093", 
+            "1625ab30-ee81-4c7f-9551-b679767c9a11", 
+            "7cbf55aa-1767-4846-8c1e-654826dac781", 
+            "8f044c57-e66e-487e-ad17-d58c00c59832"
+         ]
+      }, 
+      "fbf249e6-8a4c-4e47-8f94-1aebfd46d093" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101647", 
+            "y" : "-99628"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Sawed-off_Rust", 
+               "ammo" : { 
+                  "count" : "0", 
+                  "proto" : "7_62mm_JHP"
+               }
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "1625ab30-ee81-4c7f-9551-b679767c9a11" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101533", 
+            "y" : "-99628"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "AK47_Rust", 
+               "ammo" : { 
+                  "count" : "0", 
+                  "proto" : "7_62mm_JHP"
+               }
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "7cbf55aa-1767-4846-8c1e-654826dac781" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101416", 
+            "y" : "-99629"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "PPS43_Rust", 
+               "ammo" : { 
+                  "count" : "0", 
+                  "proto" : "9mm_JHP"
+               }
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "8f044c57-e66e-487e-ad17-d58c00c59832" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101302", 
+            "y" : "-99629"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "RPD_Rust", 
+               "ammo" : { 
+                  "count" : "0", 
+                  "proto" : "9mm_JHP"
+               }
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "12951a73-9423-43ec-a217-ea599760d47d" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-101020", 
+            "y" : "-99482"
+         }, 
+         "child" : [ 
+            "d72b26c3-d753-4166-b5e5-558dcf390bf5", 
+            "86100d6d-e3fb-486a-ab67-c7e9a673cde2", 
+            "d4cffa27-ccaf-4978-9402-3940f66468c9", 
+            "6e732a9b-45b3-4679-938d-bf6ed12d7a09", 
+            "fbebc177-bfd2-47f8-9ad9-8a5ca83a62d7", 
+            "5e57a91d-ca88-4ce8-bf83-86100c227939", 
+            "315e5305-ab04-43cc-873d-e3afe5d6a75f", 
+            "cd142f50-a317-46ca-af5d-bef1c88481d9", 
+            "74ed9ddd-dd85-4088-826e-30a17a3ada42", 
+            "5f6d6a2c-82d0-4498-b484-c01c591478f8", 
+            "c9100d9a-fb40-44e3-b056-6f8ed6c4eb18", 
+            "85ae1335-700b-4899-b35a-729773399be5"
+         ]
       }, 
       "d72b26c3-d753-4166-b5e5-558dcf390bf5" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-101448", 
-            "y" : "-99268"
+            "x" : "-101335", 
+            "y" : "-99171"
          }, 
          "child" : [ 
+            "6c73b500-7885-4276-9f52-ee0f7370d8fa", 
+            "9ab9bdab-4572-4f68-b62e-401e910aafa0", 
             "0dc26a19-4e7a-4962-ad69-442b02dc137f"
          ], 
          "inventory" : [ 
@@ -319,84 +614,106 @@
          "inventoryObject" : "", 
          "random" : "true"
       }, 
-      "6e732a9b-45b3-4679-938d-bf6ed12d7a09" : { 
-         "class" : "InventorySetNode", 
+      "6c73b500-7885-4276-9f52-ee0f7370d8fa" : { 
+         "class" : "InventoryRemoveDublicatesNode", 
          "desc" : { 
-            "x" : "-101006", 
-            "y" : "-99254"
+            "x" : "-100559", 
+            "y" : "-98860"
          }, 
          "child" : [ 
+         ], 
+         "filter" : "WeaponProto"
+      }, 
+      "9ab9bdab-4572-4f68-b62e-401e910aafa0" : { 
+         "class" : "InventoryRemoveDublicatesNode", 
+         "desc" : { 
+            "x" : "-100975", 
+            "y" : "-98862"
+         }, 
+         "child" : [ 
+         ], 
+         "filter" : "UniformProto"
+      }, 
+      "0dc26a19-4e7a-4962-ad69-442b02dc137f" : { 
+         "class" : "InventoryRemoveDublicatesNode", 
+         "desc" : { 
+            "x" : "-100762", 
+            "y" : "-98859"
+         }, 
+         "child" : [ 
+         ], 
+         "filter" : "MemoProto"
+      }, 
+      "86100d6d-e3fb-486a-ab67-c7e9a673cde2" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101213", 
+            "y" : "-99171"
+         }, 
+         "child" : [ 
+            "6c73b500-7885-4276-9f52-ee0f7370d8fa", 
+            "9ab9bdab-4572-4f68-b62e-401e910aafa0", 
             "0dc26a19-4e7a-4962-ad69-442b02dc137f"
          ], 
          "inventory" : [ 
+            { 
+               "class" : "Ammo", 
+               "count" : "10", 
+               "proto" : "9mm_JHP"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "Kasparamid"
+            }, 
             { 
                "class" : "Item", 
                "count" : "150", 
                "proto" : "Money"
             }, 
             { 
-               "class" : "Weapon", 
-               "count" : "1", 
-               "proto" : "Montirovka"
+               "class" : "Ammo", 
+               "count" : "10", 
+               "proto" : "307cal_JHP"
             }, 
             { 
                "class" : "Ammo", 
-               "count" : "9", 
-               "proto" : "9mm_JHP"
+               "count" : "10", 
+               "proto" : "7_62mm_JHP"
             }, 
             { 
                "class" : "Item", 
                "count" : "1", 
-               "proto" : "Solt"
+               "proto" : "Herbal"
             }, 
             { 
                "class" : "Item", 
                "count" : "1", 
-               "proto" : "AlarmClock"
-            }, 
-            { 
-               "class" : "Item", 
-               "count" : "1", 
-               "proto" : "Battary"
-            }, 
-            { 
-               "class" : "Item", 
-               "count" : "1", 
-               "proto" : "Whetstone"
-            }, 
-            { 
-               "class" : "Weapon", 
-               "count" : "1", 
-               "proto" : "Knife_Sharp"
-            }, 
-            { 
-               "class" : "Ammo", 
-               "count" : "2", 
-               "proto" : "9mm_AP"
+               "proto" : "Coffe"
             }, 
             { 
                "class" : "Uniform", 
                "count" : "1", 
-               "proto" : "KosinkaBig"
+               "proto" : "Cap"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "2", 
+               "proto" : "307cal_AP"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "2", 
+               "proto" : "Gun_Powder"
             }, 
             { 
                "class" : "Weapon", 
                "count" : "1", 
-               "proto" : "Pipe_Revolver", 
+               "proto" : "Pipe_Sniper", 
                "ammo" : { 
-                  "count" : "5", 
+                  "count" : "1", 
                   "proto" : "BB_AP"
                }
-            }, 
-            { 
-               "class" : "Memo", 
-               "count" : "1", 
-               "proto" : "Craft_Note_Glove2"
-            }, 
-            { 
-               "class" : "Memo", 
-               "count" : "1", 
-               "proto" : "Craft_Note_Kastet2"
             }
          ], 
          "inventoryObject" : "", 
@@ -405,10 +722,12 @@
       "d4cffa27-ccaf-4978-9402-3940f66468c9" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-100989", 
-            "y" : "-99485"
+            "x" : "-101093", 
+            "y" : "-99170"
          }, 
          "child" : [ 
+            "6c73b500-7885-4276-9f52-ee0f7370d8fa", 
+            "9ab9bdab-4572-4f68-b62e-401e910aafa0", 
             "0dc26a19-4e7a-4962-ad69-442b02dc137f"
          ], 
          "inventory" : [ 
@@ -494,27 +813,175 @@
          "inventoryObject" : "", 
          "random" : "true"
       }, 
-      "851bfe43-f133-4b04-8fa4-ab736c1964ae" : { 
-         "class" : "RandomNode", 
+      "6e732a9b-45b3-4679-938d-bf6ed12d7a09" : { 
+         "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-100721", 
-            "y" : "-99583"
+            "x" : "-100972", 
+            "y" : "-99170"
          }, 
          "child" : [ 
-            "5e57a91d-ca88-4ce8-bf83-86100c227939", 
-            "fbebc177-bfd2-47f8-9ad9-8a5ca83a62d7", 
-            "cd142f50-a317-46ca-af5d-bef1c88481d9", 
-            "315e5305-ab04-43cc-873d-e3afe5d6a75f"
-         ]
+            "6c73b500-7885-4276-9f52-ee0f7370d8fa", 
+            "9ab9bdab-4572-4f68-b62e-401e910aafa0", 
+            "0dc26a19-4e7a-4962-ad69-442b02dc137f"
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Item", 
+               "count" : "150", 
+               "proto" : "Money"
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Montirovka"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "9", 
+               "proto" : "9mm_JHP"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Solt"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "AlarmClock"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Battary"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Whetstone"
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Knife_Sharp"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "2", 
+               "proto" : "9mm_AP"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "KosinkaBig"
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Pipe_Revolver", 
+               "ammo" : { 
+                  "count" : "5", 
+                  "proto" : "BB_AP"
+               }
+            }, 
+            { 
+               "class" : "Memo", 
+               "count" : "1", 
+               "proto" : "Craft_Note_Glove2"
+            }, 
+            { 
+               "class" : "Memo", 
+               "count" : "1", 
+               "proto" : "Craft_Note_Kastet2"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "fbebc177-bfd2-47f8-9ad9-8a5ca83a62d7" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100856", 
+            "y" : "-99168"
+         }, 
+         "child" : [ 
+            "6c73b500-7885-4276-9f52-ee0f7370d8fa", 
+            "9ab9bdab-4572-4f68-b62e-401e910aafa0", 
+            "0dc26a19-4e7a-4962-ad69-442b02dc137f"
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Nagant", 
+               "ammo" : { 
+                  "count" : "7", 
+                  "proto" : "307cal_JHP"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Rifle_Rust", 
+               "ammo" : { 
+                  "count" : "1", 
+                  "proto" : "5_45mm_JHP"
+               }
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "150", 
+               "proto" : "Money"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "3", 
+               "proto" : "Stew"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "5", 
+               "proto" : "Wires"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Tape"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "10", 
+               "proto" : "5_45mm_JHP"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Tobacco"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "3", 
+               "proto" : "5_45mm_AP"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "2", 
+               "proto" : "Wood"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
       }, 
       "5e57a91d-ca88-4ce8-bf83-86100c227939" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-100799", 
-            "y" : "-99509"
+            "x" : "-100740", 
+            "y" : "-99170"
          }, 
          "child" : [ 
-            "39ba74dd-bb95-4fdc-94e7-cfb0156124db"
+            "6c73b500-7885-4276-9f52-ee0f7370d8fa", 
+            "9ab9bdab-4572-4f68-b62e-401e910aafa0", 
+            "0dc26a19-4e7a-4962-ad69-442b02dc137f"
          ], 
          "inventory" : [ 
             { 
@@ -580,179 +1047,16 @@
          "inventoryObject" : "", 
          "random" : "true"
       }, 
-      "39ba74dd-bb95-4fdc-94e7-cfb0156124db" : { 
-         "class" : "InventoryRemoveDublicatesNode", 
-         "desc" : { 
-            "x" : "-100771", 
-            "y" : "-99155"
-         }, 
-         "child" : [ 
-         ], 
-         "filter" : "MemoProto"
-      }, 
-      "fbebc177-bfd2-47f8-9ad9-8a5ca83a62d7" : { 
-         "class" : "InventorySetNode", 
-         "desc" : { 
-            "x" : "-100834", 
-            "y" : "-99365"
-         }, 
-         "child" : [ 
-            "39ba74dd-bb95-4fdc-94e7-cfb0156124db"
-         ], 
-         "inventory" : [ 
-            { 
-               "class" : "Weapon", 
-               "count" : "1", 
-               "proto" : "Nagant", 
-               "ammo" : { 
-                  "count" : "7", 
-                  "proto" : "307cal_JHP"
-               }
-            }, 
-            { 
-               "class" : "Weapon", 
-               "count" : "1", 
-               "proto" : "Rifle_Rust", 
-               "ammo" : { 
-                  "count" : "1", 
-                  "proto" : "5_45mm_JHP"
-               }
-            }, 
-            { 
-               "class" : "Item", 
-               "count" : "150", 
-               "proto" : "Money"
-            }, 
-            { 
-               "class" : "Consumable", 
-               "count" : "3", 
-               "proto" : "Stew"
-            }, 
-            { 
-               "class" : "Item", 
-               "count" : "5", 
-               "proto" : "Wires"
-            }, 
-            { 
-               "class" : "Item", 
-               "count" : "1", 
-               "proto" : "Tape"
-            }, 
-            { 
-               "class" : "Ammo", 
-               "count" : "10", 
-               "proto" : "5_45mm_JHP"
-            }, 
-            { 
-               "class" : "Item", 
-               "count" : "1", 
-               "proto" : "Tobacco"
-            }, 
-            { 
-               "class" : "Ammo", 
-               "count" : "3", 
-               "proto" : "5_45mm_AP"
-            }, 
-            { 
-               "class" : "Item", 
-               "count" : "2", 
-               "proto" : "Wood"
-            }
-         ], 
-         "inventoryObject" : "", 
-         "random" : "true"
-      }, 
-      "cd142f50-a317-46ca-af5d-bef1c88481d9" : { 
-         "class" : "InventorySetNode", 
-         "desc" : { 
-            "x" : "-100608", 
-            "y" : "-99359"
-         }, 
-         "child" : [ 
-            "39ba74dd-bb95-4fdc-94e7-cfb0156124db"
-         ], 
-         "inventory" : [ 
-            { 
-               "class" : "Item", 
-               "count" : "150", 
-               "proto" : "Money"
-            }, 
-            { 
-               "class" : "Weapon", 
-               "count" : "1", 
-               "proto" : "Montirovka"
-            }, 
-            { 
-               "class" : "Ammo", 
-               "count" : "9", 
-               "proto" : "9mm_JHP"
-            }, 
-            { 
-               "class" : "Item", 
-               "count" : "1", 
-               "proto" : "Solt"
-            }, 
-            { 
-               "class" : "Item", 
-               "count" : "1", 
-               "proto" : "AlarmClock"
-            }, 
-            { 
-               "class" : "Item", 
-               "count" : "1", 
-               "proto" : "Battary"
-            }, 
-            { 
-               "class" : "Item", 
-               "count" : "1", 
-               "proto" : "Whetstone"
-            }, 
-            { 
-               "class" : "Weapon", 
-               "count" : "1", 
-               "proto" : "Knife"
-            }, 
-            { 
-               "class" : "Ammo", 
-               "count" : "2", 
-               "proto" : "9mm_AP"
-            }, 
-            { 
-               "class" : "Uniform", 
-               "count" : "1", 
-               "proto" : "KosinkaBig"
-            }, 
-            { 
-               "class" : "Weapon", 
-               "count" : "1", 
-               "proto" : "Pipe_Pistol_3", 
-               "ammo" : { 
-                  "count" : "5", 
-                  "proto" : "9mm_JHP"
-               }
-            }, 
-            { 
-               "class" : "Memo", 
-               "count" : "1", 
-               "proto" : "Craft_Note_Glove2"
-            }, 
-            { 
-               "class" : "Memo", 
-               "count" : "1", 
-               "proto" : "Craft_Note_Kastet2"
-            }
-         ], 
-         "inventoryObject" : "", 
-         "random" : "true"
-      }, 
       "315e5305-ab04-43cc-873d-e3afe5d6a75f" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-100602", 
-            "y" : "-99519"
+            "x" : "-100626", 
+            "y" : "-99173"
          }, 
          "child" : [ 
-            "39ba74dd-bb95-4fdc-94e7-cfb0156124db"
+            "6c73b500-7885-4276-9f52-ee0f7370d8fa", 
+            "9ab9bdab-4572-4f68-b62e-401e910aafa0", 
+            "0dc26a19-4e7a-4962-ad69-442b02dc137f"
          ], 
          "inventory" : [ 
             { 
@@ -837,110 +1141,101 @@
          "inventoryObject" : "", 
          "random" : "true"
       }, 
-      "8c168b9a-f0a4-4159-8aa1-a3cc49fbf05a" : { 
-         "class" : "RandomNode", 
-         "desc" : { 
-            "x" : "-100337", 
-            "y" : "-99645"
-         }, 
-         "child" : [ 
-            "c9100d9a-fb40-44e3-b056-6f8ed6c4eb18", 
-            "74ed9ddd-dd85-4088-826e-30a17a3ada42", 
-            "5f6d6a2c-82d0-4498-b484-c01c591478f8", 
-            "85ae1335-700b-4899-b35a-729773399be5"
-         ]
-      }, 
-      "c9100d9a-fb40-44e3-b056-6f8ed6c4eb18" : { 
+      "cd142f50-a317-46ca-af5d-bef1c88481d9" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-100326", 
-            "y" : "-99515"
+            "x" : "-100514", 
+            "y" : "-99176"
          }, 
          "child" : [ 
-            "6c73b500-7885-4276-9f52-ee0f7370d8fa"
+            "6c73b500-7885-4276-9f52-ee0f7370d8fa", 
+            "9ab9bdab-4572-4f68-b62e-401e910aafa0", 
+            "0dc26a19-4e7a-4962-ad69-442b02dc137f"
          ], 
          "inventory" : [ 
             { 
-               "class" : "Consumable", 
-               "count" : "2", 
-               "proto" : "Stew"
-            }, 
-            { 
-               "class" : "Consumable", 
-               "count" : "1", 
-               "proto" : "Kasparamid"
-            }, 
-            { 
                "class" : "Item", 
-               "count" : "50", 
+               "count" : "150", 
                "proto" : "Money"
             }, 
             { 
-               "class" : "Item", 
-               "count" : "2", 
-               "proto" : "Stew_Empty"
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Montirovka"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "9", 
+               "proto" : "9mm_JHP"
             }, 
             { 
                "class" : "Item", 
                "count" : "1", 
-               "proto" : "Tea"
+               "proto" : "Solt"
             }, 
             { 
                "class" : "Item", 
                "count" : "1", 
-               "proto" : "Herbal"
+               "proto" : "AlarmClock"
             }, 
             { 
                "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Battary"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Whetstone"
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Knife"
+            }, 
+            { 
+               "class" : "Ammo", 
                "count" : "2", 
-               "proto" : "Gun_Powder"
+               "proto" : "9mm_AP"
             }, 
             { 
                "class" : "Uniform", 
                "count" : "1", 
-               "proto" : "Cap"
+               "proto" : "KosinkaBig"
             }, 
             { 
                "class" : "Weapon", 
                "count" : "1", 
-               "proto" : "Brick"
-            }, 
-            { 
-               "class" : "Item", 
-               "count" : "2", 
-               "proto" : "Gun_Powder"
-            }, 
-            { 
-               "class" : "Weapon", 
-               "count" : "1", 
-               "proto" : "Pipe_Pistol", 
+               "proto" : "Pipe_Pistol_3", 
                "ammo" : { 
-                  "count" : "1", 
-                  "proto" : "BB_AP"
+                  "count" : "5", 
+                  "proto" : "9mm_JHP"
                }
+            }, 
+            { 
+               "class" : "Memo", 
+               "count" : "1", 
+               "proto" : "Craft_Note_Glove2"
+            }, 
+            { 
+               "class" : "Memo", 
+               "count" : "1", 
+               "proto" : "Craft_Note_Kastet2"
             }
          ], 
          "inventoryObject" : "", 
          "random" : "true"
       }, 
-      "6c73b500-7885-4276-9f52-ee0f7370d8fa" : { 
-         "class" : "InventoryRemoveDublicatesNode", 
-         "desc" : { 
-            "x" : "-100379", 
-            "y" : "-99152"
-         }, 
-         "child" : [ 
-         ], 
-         "filter" : "MemoProto"
-      }, 
       "74ed9ddd-dd85-4088-826e-30a17a3ada42" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-100463", 
-            "y" : "-99478"
+            "x" : "-100397", 
+            "y" : "-99175"
          }, 
          "child" : [ 
-            "6c73b500-7885-4276-9f52-ee0f7370d8fa"
+            "6c73b500-7885-4276-9f52-ee0f7370d8fa", 
+            "9ab9bdab-4572-4f68-b62e-401e910aafa0", 
+            "0dc26a19-4e7a-4962-ad69-442b02dc137f"
          ], 
          "inventory" : [ 
             { 
@@ -1014,11 +1309,13 @@
       "5f6d6a2c-82d0-4498-b484-c01c591478f8" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-100325", 
-            "y" : "-99414"
+            "x" : "-100282", 
+            "y" : "-99175"
          }, 
          "child" : [ 
-            "6c73b500-7885-4276-9f52-ee0f7370d8fa"
+            "6c73b500-7885-4276-9f52-ee0f7370d8fa", 
+            "9ab9bdab-4572-4f68-b62e-401e910aafa0", 
+            "0dc26a19-4e7a-4962-ad69-442b02dc137f"
          ], 
          "inventory" : [ 
             { 
@@ -1095,14 +1392,91 @@
          "inventoryObject" : "", 
          "random" : "true"
       }, 
+      "c9100d9a-fb40-44e3-b056-6f8ed6c4eb18" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100164", 
+            "y" : "-99174"
+         }, 
+         "child" : [ 
+            "6c73b500-7885-4276-9f52-ee0f7370d8fa", 
+            "9ab9bdab-4572-4f68-b62e-401e910aafa0", 
+            "0dc26a19-4e7a-4962-ad69-442b02dc137f"
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Consumable", 
+               "count" : "2", 
+               "proto" : "Stew"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "Kasparamid"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "50", 
+               "proto" : "Money"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "2", 
+               "proto" : "Stew_Empty"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Tea"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Herbal"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "2", 
+               "proto" : "Gun_Powder"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Cap"
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Brick"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "2", 
+               "proto" : "Gun_Powder"
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Pipe_Pistol", 
+               "ammo" : { 
+                  "count" : "1", 
+                  "proto" : "BB_AP"
+               }
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
       "85ae1335-700b-4899-b35a-729773399be5" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-100206", 
-            "y" : "-99480"
+            "x" : "-100048", 
+            "y" : "-99173"
          }, 
          "child" : [ 
-            "6c73b500-7885-4276-9f52-ee0f7370d8fa"
+            "6c73b500-7885-4276-9f52-ee0f7370d8fa", 
+            "9ab9bdab-4572-4f68-b62e-401e910aafa0", 
+            "0dc26a19-4e7a-4962-ad69-442b02dc137f"
          ], 
          "inventory" : [ 
             { 
@@ -1173,6 +1547,70 @@
          ], 
          "inventoryObject" : "", 
          "random" : "true"
+      }, 
+      "51b8dabb-84fb-4ae2-8a23-93d36bf4910e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100694", 
+            "y" : "-99622"
+         }, 
+         "child" : [ 
+            "4533a64c-9db1-48a3-b7bb-74d654114de9", 
+            "2d07d135-e186-430f-a959-f04bf903dd82"
+         ]
+      }, 
+      "2d07d135-e186-430f-a959-f04bf903dd82" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-100738", 
+            "y" : "-99458"
+         }, 
+         "child" : [ 
+            "d72b26c3-d753-4166-b5e5-558dcf390bf5", 
+            "86100d6d-e3fb-486a-ab67-c7e9a673cde2", 
+            "d4cffa27-ccaf-4978-9402-3940f66468c9", 
+            "6e732a9b-45b3-4679-938d-bf6ed12d7a09", 
+            "fbebc177-bfd2-47f8-9ad9-8a5ca83a62d7", 
+            "5e57a91d-ca88-4ce8-bf83-86100c227939", 
+            "315e5305-ab04-43cc-873d-e3afe5d6a75f", 
+            "cd142f50-a317-46ca-af5d-bef1c88481d9", 
+            "74ed9ddd-dd85-4088-826e-30a17a3ada42", 
+            "5f6d6a2c-82d0-4498-b484-c01c591478f8", 
+            "c9100d9a-fb40-44e3-b056-6f8ed6c4eb18", 
+            "85ae1335-700b-4899-b35a-729773399be5"
+         ]
+      }, 
+      "e56ca5cc-255d-4083-aea8-c86994afd7f1" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100366", 
+            "y" : "-99696"
+         }, 
+         "child" : [ 
+            "51b8dabb-84fb-4ae2-8a23-93d36bf4910e", 
+            "48d661e5-39a8-4a3b-a984-951321054cd7"
+         ]
+      }, 
+      "48d661e5-39a8-4a3b-a984-951321054cd7" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-100438", 
+            "y" : "-99456"
+         }, 
+         "child" : [ 
+            "c9100d9a-fb40-44e3-b056-6f8ed6c4eb18", 
+            "5f6d6a2c-82d0-4498-b484-c01c591478f8", 
+            "74ed9ddd-dd85-4088-826e-30a17a3ada42", 
+            "cd142f50-a317-46ca-af5d-bef1c88481d9", 
+            "315e5305-ab04-43cc-873d-e3afe5d6a75f", 
+            "5e57a91d-ca88-4ce8-bf83-86100c227939", 
+            "fbebc177-bfd2-47f8-9ad9-8a5ca83a62d7", 
+            "6e732a9b-45b3-4679-938d-bf6ed12d7a09", 
+            "d4cffa27-ccaf-4978-9402-3940f66468c9", 
+            "86100d6d-e3fb-486a-ab67-c7e9a673cde2", 
+            "d72b26c3-d753-4166-b5e5-558dcf390bf5", 
+            "85ae1335-700b-4899-b35a-729773399be5"
+         ]
       }
    }, 
    "entry" : "cb217146-12c2-4fec-931c-eee4e0eb7aa3"

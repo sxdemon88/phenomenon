@@ -325,8 +325,8 @@
       "57587d37-43d5-401c-a125-134a893ec92f" : { 
          "class" : "RandomNode", 
          "desc" : { 
-            "x" : "1079", 
-            "y" : "422"
+            "x" : "1210", 
+            "y" : "454"
          }, 
          "child" : [ 
             "3ba06972-f0ed-45a6-b645-c220e418b062", 
@@ -555,8 +555,8 @@
       "a8f76cef-1109-4a9a-ba00-6d1ae53f514e" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "1325", 
-            "y" : "125"
+            "x" : "1319", 
+            "y" : "122"
          }, 
          "child" : [ 
             "ef01874b-bf4e-4de6-a429-0cd56d451065"
@@ -592,9 +592,9 @@
          ], 
          "inventory" : [ 
             { 
-               "class" : "Uniform", 
+               "class" : "Consumable", 
                "count" : "1", 
-               "proto" : "Kosinka"
+               "proto" : "carrot"
             }, 
             { 
                "class" : "Item", 

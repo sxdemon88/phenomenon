@@ -49,7 +49,7 @@ MonoBehaviour:
   Burst:
     AP: 8
     Range: 17
-    Shots: 10
+    Shots: 8
     Dispersion: 4
     ModeType: 10
     Sounds:

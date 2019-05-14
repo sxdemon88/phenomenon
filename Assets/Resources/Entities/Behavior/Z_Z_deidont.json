@@ -7,14 +7,15 @@
             "y" : "-100534"
          }, 
          "child" : [ 
-            "e9c03229-3ae1-4424-9814-92ab3c2ef9b6"
+            "e9c03229-3ae1-4424-9814-92ab3c2ef9b6", 
+            "06f98c3a-c595-49a1-8933-b40e228b275f"
          ]
       }, 
       "e9c03229-3ae1-4424-9814-92ab3c2ef9b6" : { 
          "class" : "RandomNode", 
          "desc" : { 
-            "x" : "-101467", 
-            "y" : "-100345"
+            "x" : "-101473", 
+            "y" : "-100269"
          }, 
          "child" : [ 
             "b0665fd8-9213-48c3-8af9-a9305cfd6dc0", 
@@ -25,8 +26,8 @@
       "b0665fd8-9213-48c3-8af9-a9305cfd6dc0" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-101718", 
-            "y" : "-100135", 
+            "x" : "-101721", 
+            "y" : "-100121", 
             "comment" : "1"
          }, 
          "child" : [ 
@@ -44,8 +45,8 @@
          "spawnPoint" : "Spawn.Enemy.1", 
          "item" : { 
             "class" : "Character", 
-            "proto" : "deinodonte", 
-            "character" : "deinodonte", 
+            "proto" : "Deinodonte", 
+            "character" : "Deinodonte", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -73,8 +74,8 @@
       "78e59e72-18d9-4cd1-9a9d-a0ed020920eb" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-101467", 
-            "y" : "-100126", 
+            "x" : "-101465", 
+            "y" : "-100123", 
             "comment" : "2"
          }, 
          "child" : [ 
@@ -168,6 +169,198 @@
             "behavior" : "Rat.Swing"
          }, 
          "randomName" : "true"
+      }, 
+      "06f98c3a-c595-49a1-8933-b40e228b275f" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-101014", 
+            "y" : "-100401"
+         }, 
+         "child" : [ 
+            "5696cd6e-20a4-46db-b652-f25c5c0cd0d7", 
+            "d126ee70-ec16-41a9-ab11-48298525e84a"
+         ], 
+         "value" : "25", 
+         "modifier" : "Level"
+      }, 
+      "5696cd6e-20a4-46db-b652-f25c5c0cd0d7" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100984", 
+            "y" : "-100220"
+         }, 
+         "child" : [ 
+            "6de6839c-7e8f-4978-b2c9-3582efc005f9", 
+            "3b483ccd-70b6-4c33-9e24-6734b8383055", 
+            "740d629d-ffdc-4033-be2d-65918ca86e74"
+         ]
+      }, 
+      "6de6839c-7e8f-4978-b2c9-3582efc005f9" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101040", 
+            "y" : "-99736"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.4", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Deinodonte", 
+            "character" : "deinodonte20", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "3b483ccd-70b6-4c33-9e24-6734b8383055" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100802", 
+            "y" : "-100028"
+         }, 
+         "child" : [ 
+            "7d6ae98b-abf1-49bf-8b9d-f5032da0cccc", 
+            "740d629d-ffdc-4033-be2d-65918ca86e74"
+         ]
+      }, 
+      "7d6ae98b-abf1-49bf-8b9d-f5032da0cccc" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100807", 
+            "y" : "-99733"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.5", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Deinodonte", 
+            "character" : "deinodonte20", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "740d629d-ffdc-4033-be2d-65918ca86e74" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100559", 
+            "y" : "-99906"
+         }, 
+         "child" : [ 
+            "62400606-8ef6-4d70-817d-618ffe321918"
+         ]
+      }, 
+      "62400606-8ef6-4d70-817d-618ffe321918" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100526", 
+            "y" : "-99730"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.6", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Deinodonte", 
+            "character" : "deinodonte20", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "d126ee70-ec16-41a9-ab11-48298525e84a" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-100792", 
+            "y" : "-100254"
+         }, 
+         "child" : [ 
+            "3b483ccd-70b6-4c33-9e24-6734b8383055", 
+            "dc00ae6e-097e-4f6a-9a90-8c165b3ffff2"
+         ], 
+         "value" : "20", 
+         "modifier" : "Level"
+      }, 
+      "dc00ae6e-097e-4f6a-9a90-8c165b3ffff2" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-100476", 
+            "y" : "-100108"
+         }, 
+         "child" : [ 
+            "740d629d-ffdc-4033-be2d-65918ca86e74", 
+            "1ee66024-fa20-4c50-a2b9-606a412e6038"
+         ], 
+         "value" : "15", 
+         "modifier" : "Level"
+      }, 
+      "1ee66024-fa20-4c50-a2b9-606a412e6038" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100242", 
+            "y" : "-99935"
+         }, 
+         "child" : [ 
+         ]
       }
    }, 
    "entry" : "89e73491-2f58-4f79-a52e-56f7286b2ecb"

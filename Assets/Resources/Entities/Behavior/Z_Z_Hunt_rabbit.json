@@ -26,21 +26,20 @@
          "desc" : { 
             "x" : "-101711", 
             "y" : "-100262", 
-            "comment" : "4-6"
+            "comment" : "2-4 навык +2"
          }, 
          "child" : [ 
             "1f8373f5-6d97-4930-a5e4-62de60521b95", 
             "679d3423-b095-49ad-b558-6a900b0e745c", 
-            "b923b2b9-b5ba-4231-90fa-0bb2ddd13550", 
-            "425e152c-c62f-42c7-b8c3-9394ed004923", 
-            "17045878-135e-4abf-8b3d-515ca5298aab"
+            "456bcd38-fd2f-4e3f-9937-e5e1fb6c2d36", 
+            "b64411b2-1c73-49f2-ac33-90552ff70316"
          ]
       }, 
       "1f8373f5-6d97-4930-a5e4-62de60521b95" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-101896", 
-            "y" : "-100111"
+            "x" : "-101969", 
+            "y" : "-100045"
          }, 
          "child" : [ 
          ], 
@@ -76,8 +75,8 @@
       "679d3423-b095-49ad-b558-6a900b0e745c" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-101767", 
-            "y" : "-100115"
+            "x" : "-101825", 
+            "y" : "-100040"
          }, 
          "child" : [ 
          ], 
@@ -110,11 +109,22 @@
          }, 
          "randomName" : "true"
       }, 
+      "456bcd38-fd2f-4e3f-9937-e5e1fb6c2d36" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-101644", 
+            "y" : "-100117"
+         }, 
+         "child" : [ 
+            "b923b2b9-b5ba-4231-90fa-0bb2ddd13550", 
+            "48361787-66c9-41df-9094-5fb275c9eff0"
+         ]
+      }, 
       "b923b2b9-b5ba-4231-90fa-0bb2ddd13550" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-101635", 
-            "y" : "-100114"
+            "x" : "-101721", 
+            "y" : "-99896"
          }, 
          "child" : [ 
          ], 
@@ -147,11 +157,22 @@
          }, 
          "randomName" : "true"
       }, 
+      "48361787-66c9-41df-9094-5fb275c9eff0" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101572", 
+            "y" : "-100001"
+         }, 
+         "child" : [ 
+            "b923b2b9-b5ba-4231-90fa-0bb2ddd13550", 
+            "425e152c-c62f-42c7-b8c3-9394ed004923"
+         ]
+      }, 
       "425e152c-c62f-42c7-b8c3-9394ed004923" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-101507", 
-            "y" : "-100113"
+            "x" : "-101590", 
+            "y" : "-99895"
          }, 
          "child" : [ 
          ], 
@@ -184,32 +205,36 @@
          }, 
          "randomName" : "true"
       }, 
-      "17045878-135e-4abf-8b3d-515ca5298aab" : { 
-         "class" : "RandomNode", 
+      "b64411b2-1c73-49f2-ac33-90552ff70316" : { 
+         "class" : "HasModifierNode", 
          "desc" : { 
-            "x" : "-101195", 
-            "y" : "-100184"
+            "x" : "-101377", 
+            "y" : "-100125"
          }, 
          "child" : [ 
-            "c0aacd2d-b4cd-4cb0-97c4-2740bdf035e5", 
-            "2a7ed83a-12f1-4366-ba1f-ac3a1d16ffd1", 
-            "8414c81f-10a3-4cf4-8493-3ece62a3157a"
-         ]
+            "8414c81f-10a3-4cf4-8493-3ece62a3157a", 
+            "238bd433-1935-4b84-ba6d-6a6e9abc58df"
+         ], 
+         "value" : "80", 
+         "modifier" : "Outdoorsman"
       }, 
-      "c0aacd2d-b4cd-4cb0-97c4-2740bdf035e5" : { 
+      "8414c81f-10a3-4cf4-8493-3ece62a3157a" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-101500", 
-            "y" : "-99827"
+            "x" : "-101336", 
+            "y" : "-99863"
          }, 
          "child" : [ 
+            "2a7ed83a-12f1-4366-ba1f-ac3a1d16ffd1", 
+            "0dad230a-e6ec-417f-a992-905f0c64a4b5", 
+            "81f6bd24-ea57-4fb8-83d5-786dc39bf587"
          ]
       }, 
       "2a7ed83a-12f1-4366-ba1f-ac3a1d16ffd1" : { 
          "class" : "MoveObjectNode", 
          "desc" : { 
-            "x" : "-101141", 
-            "y" : "-99997"
+            "x" : "-101332", 
+            "y" : "-99651"
          }, 
          "child" : [ 
             "8e6e893a-2dca-4475-8ebc-a2ce207c5ef5"
@@ -224,8 +249,8 @@
       "8e6e893a-2dca-4475-8ebc-a2ce207c5ef5" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-101159", 
-            "y" : "-99892"
+            "x" : "-101337", 
+            "y" : "-99546"
          }, 
          "child" : [ 
          ], 
@@ -258,22 +283,11 @@
          }, 
          "randomName" : "true"
       }, 
-      "8414c81f-10a3-4cf4-8493-3ece62a3157a" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-101030", 
-            "y" : "-100116"
-         }, 
-         "child" : [ 
-            "2a7ed83a-12f1-4366-ba1f-ac3a1d16ffd1", 
-            "0dad230a-e6ec-417f-a992-905f0c64a4b5"
-         ]
-      }, 
       "0dad230a-e6ec-417f-a992-905f0c64a4b5" : { 
          "class" : "MoveObjectNode", 
          "desc" : { 
-            "x" : "-101011", 
-            "y" : "-99998"
+            "x" : "-101189", 
+            "y" : "-99652"
          }, 
          "child" : [ 
             "2cd44b02-59f3-4e0e-bfa4-00ac486a10fe"
@@ -288,8 +302,8 @@
       "2cd44b02-59f3-4e0e-bfa4-00ac486a10fe" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-101016", 
-            "y" : "-99892"
+            "x" : "-101194", 
+            "y" : "-99546"
          }, 
          "child" : [ 
          ], 
@@ -322,23 +336,66 @@
          }, 
          "randomName" : "true"
       }, 
+      "81f6bd24-ea57-4fb8-83d5-786dc39bf587" : { 
+         "class" : "LogNode", 
+         "desc" : { 
+            "x" : "-101020", 
+            "y" : "-99583"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Навык выживания помог заметить дополнительную добычу!"
+      }, 
+      "238bd433-1935-4b84-ba6d-6a6e9abc58df" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-101176", 
+            "y" : "-100010"
+         }, 
+         "child" : [ 
+            "c7f8ead4-a862-4d58-b109-0ed68cc88349", 
+            "39838d0d-e3e3-4f9b-8c01-e52b89c87a19"
+         ], 
+         "value" : "45", 
+         "modifier" : "Outdoorsman"
+      }, 
+      "c7f8ead4-a862-4d58-b109-0ed68cc88349" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101189", 
+            "y" : "-99863"
+         }, 
+         "child" : [ 
+            "0dad230a-e6ec-417f-a992-905f0c64a4b5", 
+            "81f6bd24-ea57-4fb8-83d5-786dc39bf587"
+         ]
+      }, 
+      "39838d0d-e3e3-4f9b-8c01-e52b89c87a19" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101045", 
+            "y" : "-99865"
+         }, 
+         "child" : [ 
+         ]
+      }, 
       "ee7958ca-15b2-4e5e-893f-ab8a46d29f69" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100835", 
-            "y" : "-100355", 
-            "comment" : "6-10"
+            "x" : "-100919", 
+            "y" : "-100352", 
+            "comment" : "1-4 навык +2"
          }, 
          "child" : [ 
-            "17013e24-5955-4621-9a4c-ef4e87d628d9", 
+            "b64411b2-1c73-49f2-ac33-90552ff70316", 
             "0cc559ed-18e7-4d1d-a00f-9602d43485b3"
          ]
       }, 
       "0cc559ed-18e7-4d1d-a00f-9602d43485b3" : { 
          "class" : "RandomNode", 
          "desc" : { 
-            "x" : "-100621", 
-            "y" : "-100314"
+            "x" : "-100747", 
+            "y" : "-100286"
          }, 
          "child" : [ 
             "ee8d6b7d-ca4d-437b-b884-2d73ce29ff73", 
@@ -350,8 +407,8 @@
       "ee8d6b7d-ca4d-437b-b884-2d73ce29ff73" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-100735", 
-            "y" : "-100128"
+            "x" : "-100784", 
+            "y" : "-100045"
          }, 
          "child" : [ 
          ], 
@@ -387,8 +444,8 @@
       "250f32b1-221c-4313-ad7f-bb19bd037087" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100641", 
-            "y" : "-100186"
+            "x" : "-100693", 
+            "y" : "-100189"
          }, 
          "child" : [ 
             "ee8d6b7d-ca4d-437b-b884-2d73ce29ff73", 
@@ -398,8 +455,8 @@
       "34a6fcae-a6c5-4e91-9dc5-43ac8c6e7bea" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-100581", 
-            "y" : "-100126"
+            "x" : "-100613", 
+            "y" : "-100021"
          }, 
          "child" : [ 
          ], 
@@ -435,8 +492,8 @@
       "a1009c31-bc05-40ae-9f79-d06888a759de" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100477", 
-            "y" : "-100240"
+            "x" : "-100513", 
+            "y" : "-100230"
          }, 
          "child" : [ 
             "ee8d6b7d-ca4d-437b-b884-2d73ce29ff73", 
@@ -447,8 +504,8 @@
       "2ea44f9c-725d-4fd5-99d2-ddb11c982b8c" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-100434", 
-            "y" : "-100125"
+            "x" : "-100439", 
+            "y" : "-100057"
          }, 
          "child" : [ 
          ], 
@@ -484,8 +541,8 @@
       "a745783c-c811-4f5e-bd7c-cf8511383d9d" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100301", 
-            "y" : "-100245"
+            "x" : "-100313", 
+            "y" : "-100213"
          }, 
          "child" : [ 
             "ee8d6b7d-ca4d-437b-b884-2d73ce29ff73", 
@@ -497,8 +554,8 @@
       "a09471da-3220-41bb-ad00-e9defaf0dabc" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-100275", 
-            "y" : "-100121"
+            "x" : "-100279", 
+            "y" : "-100049"
          }, 
          "child" : [ 
          ], 

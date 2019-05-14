@@ -817,19 +817,22 @@
       "743cf85a-5b4e-4fe9-ad4e-f4006bd348df" : { 
          "class" : "RandomNode", 
          "desc" : { 
-            "x" : "-100937", 
+            "x" : "-100848", 
             "y" : "-100388", 
             "comment" : "team_2"
          }, 
          "child" : [ 
-            "6a1ade25-1e15-408e-a085-cd1290568a25"
+            "6a1ade25-1e15-408e-a085-cd1290568a25", 
+            "31f0489a-1a0b-4d16-9ab8-3d81271ee5a2", 
+            "a9ff31ee-f2eb-4e8f-8ec5-db3cef1706bc", 
+            "893bb253-1a15-47ef-8c4c-2b8b85380398"
          ]
       }, 
       "6a1ade25-1e15-408e-a085-cd1290568a25" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-100940", 
-            "y" : "-100230"
+            "x" : "-100865", 
+            "y" : "-100268"
          }, 
          "child" : [ 
          ], 
@@ -838,6 +841,117 @@
             "class" : "Character", 
             "proto" : "Bear", 
             "character" : "Bear", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team2", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "31f0489a-1a0b-4d16-9ab8-3d81271ee5a2" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100725", 
+            "y" : "-100267"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.2", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Bear", 
+            "character" : "bear_5", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team2", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "a9ff31ee-f2eb-4e8f-8ec5-db3cef1706bc" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100590", 
+            "y" : "-100265"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.2", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Bear", 
+            "character" : "bear_10", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team2", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "893bb253-1a15-47ef-8c4c-2b8b85380398" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100452", 
+            "y" : "-100262"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.2", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Bear", 
+            "character" : "bear_20", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 

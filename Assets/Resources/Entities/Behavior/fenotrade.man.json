@@ -1,0 +1,607 @@
+{ 
+   "states" : { 
+      "ada14cd0-e838-4da6-9fe5-83772f3cb07e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100860", 
+            "y" : "-100663"
+         }, 
+         "child" : [ 
+            "a89fb917-ee9b-4e76-9314-0a6b9951f43b", 
+            "e3e8b30d-b12d-4f90-a15e-3a7215e677ab", 
+            "7191a7ac-2910-4fb9-a599-b0cd6193fcb9"
+         ]
+      }, 
+      "a89fb917-ee9b-4e76-9314-0a6b9951f43b" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-102038", 
+            "y" : "-100561"
+         }, 
+         "child" : [ 
+            "444d4549-40a0-453f-b165-4c653b76a027", 
+            "51baa3a0-a405-4ae9-90b4-fff94e580c31"
+         ], 
+         "key" : "LOOT"
+      }, 
+      "444d4549-40a0-453f-b165-4c653b76a027" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102255", 
+            "y" : "-100434"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "51baa3a0-a405-4ae9-90b4-fff94e580c31" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-101879", 
+            "y" : "-100431"
+         }, 
+         "child" : [ 
+            "083397e8-27fd-4edf-b922-2105a5a8ec82"
+         ], 
+         "key" : "LOOT"
+      }, 
+      "083397e8-27fd-4edf-b922-2105a5a8ec82" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102045", 
+            "y" : "-100301"
+         }, 
+         "child" : [ 
+            "90540e49-2f25-418b-aef0-120f4bc74c7c", 
+            "e6f79b81-4a03-43a0-b574-401513a99ba9"
+         ]
+      }, 
+      "90540e49-2f25-418b-aef0-120f4bc74c7c" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102124", 
+            "y" : "-100182", 
+            "comment" : "generator"
+         }, 
+         "child" : [ 
+            "d437a304-2528-44eb-ae49-fd05113f72a5", 
+            "688cf2dd-89e0-4f77-bfc2-615eed9cdab5", 
+            "2c444878-3565-4bd8-b515-c0b38d54d0aa"
+         ]
+      }, 
+      "d437a304-2528-44eb-ae49-fd05113f72a5" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-102281", 
+            "y" : "-100049"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Knife"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "688cf2dd-89e0-4f77-bfc2-615eed9cdab5" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-102148", 
+            "y" : "-99927"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Knife_Rust"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "2c444878-3565-4bd8-b515-c0b38d54d0aa" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-102012", 
+            "y" : "-100026"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Zatochka"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "e6f79b81-4a03-43a0-b574-401513a99ba9" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101909", 
+            "y" : "-100177", 
+            "comment" : "generator"
+         }, 
+         "child" : [ 
+            "a6ba01c3-6f8a-422c-8b92-8e29db2ab3e3"
+         ]
+      }, 
+      "a6ba01c3-6f8a-422c-8b92-8e29db2ab3e3" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101818", 
+            "y" : "-100015"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Whetstone"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "3", 
+               "proto" : "Ciggy"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "5", 
+               "proto" : "Corned_Fish"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "5", 
+               "proto" : "Corned_Meat"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "3", 
+               "proto" : "Onion"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "Cheese"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "Carrot"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Rope"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "2", 
+               "proto" : "Bottle_Watter"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Bumf"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Necklace_1"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "8", 
+               "proto" : "9mm_JHP"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Dice"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Tobacco"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "8", 
+               "proto" : "307cal_JHP"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "2", 
+               "proto" : "Gun_Powder"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "e3e8b30d-b12d-4f90-a15e-3a7215e677ab" : { 
+         "class" : "CharacterDistanceTriggerNode", 
+         "desc" : { 
+            "x" : "-101041", 
+            "y" : "-100496"
+         }, 
+         "child" : [ 
+            "a0265286-6d71-4714-844c-400532f94fee"
+         ], 
+         "distanceCondition" : "LessThan", 
+         "distance" : "20", 
+         "checkVisibility" : "true"
+      }, 
+      "a0265286-6d71-4714-844c-400532f94fee" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100960", 
+            "y" : "-100248"
+         }, 
+         "child" : [ 
+            "da42929c-a3a4-4b99-b6fa-bcfadb62318b", 
+            "737728f0-9544-4538-90cc-58d2468a7566"
+         ], 
+         "key" : "WHOOP"
+      }, 
+      "da42929c-a3a4-4b99-b6fa-bcfadb62318b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101125", 
+            "y" : "-100149"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "737728f0-9544-4538-90cc-58d2468a7566" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-100891", 
+            "y" : "-100136"
+         }, 
+         "child" : [ 
+            "2814b4a7-63cb-4f19-8db0-281e78a32eca"
+         ], 
+         "key" : "WHOOP"
+      }, 
+      "2814b4a7-63cb-4f19-8db0-281e78a32eca" : { 
+         "class" : "CharacterRotateToNode", 
+         "desc" : { 
+            "x" : "-100831", 
+            "y" : "-100047"
+         }, 
+         "child" : [ 
+            "523aa1ec-d9bb-458b-bbd9-69e950448d08"
+         ], 
+         "pointName" : "Player", 
+         "waitEnd" : "false"
+      }, 
+      "523aa1ec-d9bb-458b-bbd9-69e950448d08" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-100821", 
+            "y" : "-99947"
+         }, 
+         "child" : [ 
+            "71d6c330-7cd3-4050-af91-87129d154d46"
+         ], 
+         "waitTime" : "0.1"
+      }, 
+      "71d6c330-7cd3-4050-af91-87129d154d46" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-101461", 
+            "y" : "-99771"
+         }, 
+         "child" : [ 
+            "7a548550-aa09-4d86-afc9-5e7c8bd9340e", 
+            "476d9ad7-feab-420d-99d0-c179feffd508", 
+            "5984ef1d-ae5d-443d-900f-cd0990a70475", 
+            "97b50fe4-3409-435c-8a88-6c9fb91ffea2", 
+            "55f2a085-27f1-49b3-9a1e-eecb6f6242a7"
+         ]
+      }, 
+      "7a548550-aa09-4d86-afc9-5e7c8bd9340e" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-101803", 
+            "y" : "-99555"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Подходи, я не кусаюсь.", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "476d9ad7-feab-420d-99d0-c179feffd508" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-101585", 
+            "y" : "-99557"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Эй! Поторговать не хочешь?", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "5984ef1d-ae5d-443d-900f-cd0990a70475" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-101145", 
+            "y" : "-99556"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Время не подскажешь и год желательно?", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "97b50fe4-3409-435c-8a88-6c9fb91ffea2" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-101366", 
+            "y" : "-99557"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "#Z.Traveler.97b50fe4-3409-435c-8a88-6c9fb91ffea2", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "55f2a085-27f1-49b3-9a1e-eecb6f6242a7" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100922", 
+            "y" : "-99556"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Только сегодня, акции и скидки!", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "7191a7ac-2910-4fb9-a599-b0cd6193fcb9" : { 
+         "class" : "CharacterDistanceTriggerNode", 
+         "desc" : { 
+            "x" : "-100483", 
+            "y" : "-100561"
+         }, 
+         "child" : [ 
+            "b7642559-4591-4d64-bf80-2935958d5231"
+         ], 
+         "distanceCondition" : "GreaterThan", 
+         "distance" : "20"
+      }, 
+      "b7642559-4591-4d64-bf80-2935958d5231" : { 
+         "class" : "WaitRandomNode", 
+         "desc" : { 
+            "x" : "-100274", 
+            "y" : "-100407"
+         }, 
+         "child" : [ 
+            "3bcead1e-9c43-498d-8ab0-836520c81d24"
+         ], 
+         "waitTimeMin" : "5", 
+         "waitTimeMax" : "20"
+      }, 
+      "3bcead1e-9c43-498d-8ab0-836520c81d24" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-100262", 
+            "y" : "-100289"
+         }, 
+         "child" : [ 
+            "c275cf53-db5d-4808-a9b9-5f8ad914b973", 
+            "00bf018b-9ff3-401f-9bd1-e48164f46c79", 
+            "8c34c711-4596-4957-a281-6a678847241e", 
+            "380a84b5-20ca-49ba-9f48-d05694cfe60a", 
+            "c1fa7c3f-0230-48e6-8faa-7e1084c687df", 
+            "bdfcf689-4d05-4592-aa8a-d866542c0b21", 
+            "9e6fa57b-1933-4b6e-a5bd-f4cfa38f2a76", 
+            "28bc1b1b-72b5-46ad-b7f1-fc18190a9a93", 
+            "b9a74121-13d4-4ebc-8080-7db25ce683be", 
+            "cbdfffaa-49cc-4b7d-878e-4dd03e5f4362", 
+            "63f6e056-009d-4b7b-a51f-2ecde0f8cad3", 
+            "9bd52d71-1f1a-454e-91ed-dea9437788d9", 
+            "fc9149f1-67aa-4371-887e-9e24c6393d5f"
+         ]
+      }, 
+      "c275cf53-db5d-4808-a9b9-5f8ad914b973" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100594", 
+            "y" : "-100057"
+         }, 
+         "child" : [ 
+            "02b0d19d-b239-4c48-aa6e-ff9a9228b6f1"
+         ], 
+         "text" : "Мрачноватый мир...", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "02b0d19d-b239-4c48-aa6e-ff9a9228b6f1" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99207", 
+            "y" : "-99422"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "00bf018b-9ff3-401f-9bd1-e48164f46c79" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100374", 
+            "y" : "-100056"
+         }, 
+         "child" : [ 
+            "02b0d19d-b239-4c48-aa6e-ff9a9228b6f1"
+         ], 
+         "text" : "Интересно я тут бывал?", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "8c34c711-4596-4957-a281-6a678847241e" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100153", 
+            "y" : "-100056"
+         }, 
+         "child" : [ 
+            "02b0d19d-b239-4c48-aa6e-ff9a9228b6f1"
+         ], 
+         "text" : "Интересно, какой тут год...", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "380a84b5-20ca-49ba-9f48-d05694cfe60a" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-99936", 
+            "y" : "-100056"
+         }, 
+         "child" : [ 
+            "02b0d19d-b239-4c48-aa6e-ff9a9228b6f1"
+         ], 
+         "text" : "В прошлый раз тут был снег", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "c1fa7c3f-0230-48e6-8faa-7e1084c687df" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-99719", 
+            "y" : "-100053"
+         }, 
+         "child" : [ 
+            "02b0d19d-b239-4c48-aa6e-ff9a9228b6f1"
+         ], 
+         "text" : "[Громко что-то пикнуло] Эх, скоро домой.", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "bdfcf689-4d05-4592-aa8a-d866542c0b21" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-99500", 
+            "y" : "-100050"
+         }, 
+         "child" : [ 
+            "02b0d19d-b239-4c48-aa6e-ff9a9228b6f1"
+         ], 
+         "text" : "[Глубоко вздыхает]", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "9e6fa57b-1933-4b6e-a5bd-f4cfa38f2a76" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-99284", 
+            "y" : "-100049"
+         }, 
+         "child" : [ 
+            "02b0d19d-b239-4c48-aa6e-ff9a9228b6f1"
+         ], 
+         "text" : "[Достал непонятное устройство] Окей гугл. Бля, не ловит, значит опять наверное 90-е.", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "28bc1b1b-72b5-46ad-b7f1-fc18190a9a93" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-99069", 
+            "y" : "-100047"
+         }, 
+         "child" : [ 
+            "02b0d19d-b239-4c48-aa6e-ff9a9228b6f1"
+         ], 
+         "text" : "[Достал непонятное устройство] Сири, ты меня любишь?Как нет подключения? Как этот мир живет без интернета, непонимаю.", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "b9a74121-13d4-4ebc-8080-7db25ce683be" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-98853", 
+            "y" : "-100045"
+         }, 
+         "child" : [ 
+            "02b0d19d-b239-4c48-aa6e-ff9a9228b6f1"
+         ], 
+         "text" : "Время меняется, люди меняются, а жизнь... остается жизнью.", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "cbdfffaa-49cc-4b7d-878e-4dd03e5f4362" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-98636", 
+            "y" : "-100045"
+         }, 
+         "child" : [ 
+            "02b0d19d-b239-4c48-aa6e-ff9a9228b6f1"
+         ], 
+         "text" : "Время действительно худшая из шлюх: Кидает каждого, не боясь последствий.", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "63f6e056-009d-4b7b-a51f-2ecde0f8cad3" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-98420", 
+            "y" : "-100042"
+         }, 
+         "child" : [ 
+            "02b0d19d-b239-4c48-aa6e-ff9a9228b6f1"
+         ], 
+         "text" : "Мы убиваем время, а время убивает нас.", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "9bd52d71-1f1a-454e-91ed-dea9437788d9" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-98204", 
+            "y" : "-100043"
+         }, 
+         "child" : [ 
+            "02b0d19d-b239-4c48-aa6e-ff9a9228b6f1"
+         ], 
+         "text" : "Банально, но все–таки, если прислушаться, самый зловещий из всех земных звуков — тиканье часов.", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "fc9149f1-67aa-4371-887e-9e24c6393d5f" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-97985", 
+            "y" : "-100041"
+         }, 
+         "child" : [ 
+            "02b0d19d-b239-4c48-aa6e-ff9a9228b6f1"
+         ], 
+         "text" : "Постулат «За что купил, за то и продаю» – верный путь к банкротству.", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }
+   }, 
+   "entry" : "ada14cd0-e838-4da6-9fe5-83772f3cb07e"
+}

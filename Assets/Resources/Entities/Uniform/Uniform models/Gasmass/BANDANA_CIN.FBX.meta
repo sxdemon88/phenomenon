@@ -1,0 +1,152 @@
+fileFormatVersion: 2
+guid: f0f4a08b371c9724f826f87e9ee96754
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: CH_MC_BANDANA_CIN_SK
+    100004: FACE_JAW
+    100006: FACE_LBCH
+    100008: FACE_RBCH
+    100010: Goggles_Base
+    100012: Goggles_Strap_01
+    100014: Goggles_Strap_02
+    100016: Goggles_Strap_03
+    100018: Goggles_Strap_04
+    100020: Goggles_Strap_05
+    100022: Goggles_Strap_06
+    100024: Goggles_Strap_07
+    100026: Grip_01
+    100028: Grip_02
+    100030: Grip_03
+    100032: head
+    100034: Neck
+    100036: Neck_Left
+    100038: Neck_Right
+    100040: Root
+    100042: Spine3
+    400000: //RootNode
+    400002: CH_MC_BANDANA_CIN_SK
+    400004: FACE_JAW
+    400006: FACE_LBCH
+    400008: FACE_RBCH
+    400010: Goggles_Base
+    400012: Goggles_Strap_01
+    400014: Goggles_Strap_02
+    400016: Goggles_Strap_03
+    400018: Goggles_Strap_04
+    400020: Goggles_Strap_05
+    400022: Goggles_Strap_06
+    400024: Goggles_Strap_07
+    400026: Grip_01
+    400028: Grip_02
+    400030: Grip_03
+    400032: head
+    400034: Neck
+    400036: Neck_Left
+    400038: Neck_Right
+    400040: Root
+    400042: Spine3
+    2100000: CH_MC_BANDANA_MAT
+    2100002: CH_PLAYER_ATTACHS_MAT
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: CH_MC_BANDANA_CIN_SK
+    9500000: //RootNode
+    13700000: CH_MC_BANDANA_CIN_SK
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CH_MC_BANDANA_MAT
+    second: {fileID: 2100000, guid: 73abbabec386a8845bd1a60ee84002a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CH_PLAYER_ATTACHS_MAT
+    second: {fileID: 2100000, guid: eafd5f63e9249434fa189c368560e6c3, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

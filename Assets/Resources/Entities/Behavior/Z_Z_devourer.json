@@ -7,7 +7,8 @@
             "y" : "-100534"
          }, 
          "child" : [ 
-            "e9c03229-3ae1-4424-9814-92ab3c2ef9b6"
+            "e9c03229-3ae1-4424-9814-92ab3c2ef9b6", 
+            "d3bbf53d-78fa-4811-91c9-309a17253a30"
          ]
       }, 
       "e9c03229-3ae1-4424-9814-92ab3c2ef9b6" : { 
@@ -122,8 +123,8 @@
       "3674622d-2e99-4153-882d-b7564e5fb5a8" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-101231", 
-            "y" : "-100123", 
+            "x" : "-101233", 
+            "y" : "-100137", 
             "comment" : "3"
          }, 
          "child" : [ 
@@ -168,6 +169,198 @@
             "behavior" : "Rat.Swing"
          }, 
          "randomName" : "true"
+      }, 
+      "d3bbf53d-78fa-4811-91c9-309a17253a30" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100974", 
+            "y" : "-100387"
+         }, 
+         "child" : [ 
+            "46fdea54-1728-44a5-9ac5-519b758659b9"
+         ]
+      }, 
+      "46fdea54-1728-44a5-9ac5-519b758659b9" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-100970", 
+            "y" : "-100289"
+         }, 
+         "child" : [ 
+            "5b154e15-214e-4f54-a115-cdefc430d96f", 
+            "5d4fa8ba-4447-4688-b04a-d6241f9e83fb"
+         ], 
+         "value" : "25", 
+         "modifier" : "Level"
+      }, 
+      "5b154e15-214e-4f54-a115-cdefc430d96f" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100973", 
+            "y" : "-100113"
+         }, 
+         "child" : [ 
+            "f43416c8-f7cf-41ed-b274-b5f2e2e2240c", 
+            "8e09cc7b-9f8d-4629-81cf-c9e1f47b3bc9", 
+            "ea50942b-dce7-458c-8536-dc595c5d12f1"
+         ]
+      }, 
+      "f43416c8-f7cf-41ed-b274-b5f2e2e2240c" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100996", 
+            "y" : "-99915"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.4", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Devourer", 
+            "character" : "devourer20", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "8e09cc7b-9f8d-4629-81cf-c9e1f47b3bc9" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100760", 
+            "y" : "-99797"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.5", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Devourer", 
+            "character" : "devourer20", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "ea50942b-dce7-458c-8536-dc595c5d12f1" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100482", 
+            "y" : "-99792"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.6", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Devourer", 
+            "character" : "devourer20", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "5d4fa8ba-4447-4688-b04a-d6241f9e83fb" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-100746", 
+            "y" : "-100162"
+         }, 
+         "child" : [ 
+            "9607bf25-abf8-429a-92d0-1f0c8c26f9c7", 
+            "67b7b764-d0bc-48d6-808d-69ae5cacfb17"
+         ], 
+         "value" : "20", 
+         "modifier" : "Level"
+      }, 
+      "9607bf25-abf8-429a-92d0-1f0c8c26f9c7" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100746", 
+            "y" : "-100031"
+         }, 
+         "child" : [ 
+            "8e09cc7b-9f8d-4629-81cf-c9e1f47b3bc9", 
+            "ea50942b-dce7-458c-8536-dc595c5d12f1"
+         ]
+      }, 
+      "67b7b764-d0bc-48d6-808d-69ae5cacfb17" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-100485", 
+            "y" : "-100047"
+         }, 
+         "child" : [ 
+            "ea50942b-dce7-458c-8536-dc595c5d12f1", 
+            "8a1c57e3-2e81-4bf6-8c9e-cfe48a79f232"
+         ], 
+         "value" : "15", 
+         "modifier" : "Level"
+      }, 
+      "8a1c57e3-2e81-4bf6-8c9e-cfe48a79f232" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100244", 
+            "y" : "-99916"
+         }, 
+         "child" : [ 
+         ]
       }
    }, 
    "entry" : "89e73491-2f58-4f79-a52e-56f7286b2ecb"

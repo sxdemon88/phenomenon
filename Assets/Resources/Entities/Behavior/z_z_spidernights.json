@@ -1,0 +1,1611 @@
+{ 
+   "states" : { 
+      "02d90987-3ac1-4e19-b0f3-e82ba1c64492" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102987", 
+            "y" : "-100964"
+         }, 
+         "child" : [ 
+            "947140fc-36a6-44e8-8422-9a19d0ccd7c6"
+         ]
+      }, 
+      "947140fc-36a6-44e8-8422-9a19d0ccd7c6" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-102943", 
+            "y" : "-100547"
+         }, 
+         "child" : [ 
+            "ef4fafc9-1b3c-4eb4-9a4a-5cda6212e961", 
+            "c0f7d83e-18c3-48a5-9d8f-44c194478f87"
+         ], 
+         "value" : "15", 
+         "modifier" : "Level"
+      }, 
+      "ef4fafc9-1b3c-4eb4-9a4a-5cda6212e961" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103754", 
+            "y" : "-100397"
+         }, 
+         "child" : [ 
+            "5e0e489b-4cc2-4627-8f46-e21613b27fcd", 
+            "0f54b1cc-da45-49d3-aeca-934c426d2383"
+         ]
+      }, 
+      "5e0e489b-4cc2-4627-8f46-e21613b27fcd" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-104786", 
+            "y" : "-100270", 
+            "comment" : "4-8 spiders"
+         }, 
+         "child" : [ 
+            "f7e75c24-5fb1-4d88-bf5c-8059e2c5a73a", 
+            "146e1c12-b702-4b35-9ae2-389b81851d58", 
+            "3c8a1936-4b3f-402c-9880-fe35b1ca1d78"
+         ]
+      }, 
+      "f7e75c24-5fb1-4d88-bf5c-8059e2c5a73a" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-105135", 
+            "y" : "-100156", 
+            "comment" : "4"
+         }, 
+         "child" : [ 
+            "ef04c27d-ab3b-46ec-8de4-5fb515e2f6b0", 
+            "6b53c315-ae72-4205-864d-1e6dc5e95160", 
+            "345a091c-d4bf-4a4f-8c51-b536cfce1a07", 
+            "ec12c71a-816e-4769-9a0c-63840c0849e0"
+         ]
+      }, 
+      "ef04c27d-ab3b-46ec-8de4-5fb515e2f6b0" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-105215", 
+            "y" : "-99875"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.5", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Spider", 
+            "character" : "spider_big5", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "6b53c315-ae72-4205-864d-1e6dc5e95160" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-105057", 
+            "y" : "-99873"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.6", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Spider", 
+            "character" : "spider_big5", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "345a091c-d4bf-4a4f-8c51-b536cfce1a07" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-104897", 
+            "y" : "-99872"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.7", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Spider", 
+            "character" : "spider_big5", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "ec12c71a-816e-4769-9a0c-63840c0849e0" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-104743", 
+            "y" : "-99870"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.8", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Spider", 
+            "character" : "spider_big5", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "146e1c12-b702-4b35-9ae2-389b81851d58" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-104892", 
+            "y" : "-100157", 
+            "comment" : "6"
+         }, 
+         "child" : [ 
+            "ef04c27d-ab3b-46ec-8de4-5fb515e2f6b0", 
+            "6b53c315-ae72-4205-864d-1e6dc5e95160", 
+            "345a091c-d4bf-4a4f-8c51-b536cfce1a07", 
+            "ec12c71a-816e-4769-9a0c-63840c0849e0", 
+            "9d24afc1-0f57-4696-86f9-eff1e1671e7a", 
+            "eca47909-5828-4c0c-a49a-a08c510484ca"
+         ]
+      }, 
+      "9d24afc1-0f57-4696-86f9-eff1e1671e7a" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-104614", 
+            "y" : "-99981"
+         }, 
+         "child" : [ 
+            "ec5b1c59-2b69-4958-9041-087d095529d1"
+         ], 
+         "objectName" : "Spawn.Enemy.5", 
+         "pos" : [ 
+            "10", 
+            "0", 
+            "6"
+         ]
+      }, 
+      "ec5b1c59-2b69-4958-9041-087d095529d1" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-104604", 
+            "y" : "-99873"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.5", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Spider", 
+            "character" : "spider_big5", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "eca47909-5828-4c0c-a49a-a08c510484ca" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-104472", 
+            "y" : "-99981"
+         }, 
+         "child" : [ 
+            "78a3ee07-08d2-48d6-8241-7ee94b36b65b"
+         ], 
+         "objectName" : "Spawn.Enemy.6", 
+         "pos" : [ 
+            "10", 
+            "0", 
+            "5"
+         ]
+      }, 
+      "78a3ee07-08d2-48d6-8241-7ee94b36b65b" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-104457", 
+            "y" : "-99870"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.6", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Spider", 
+            "character" : "spider_big5", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "3c8a1936-4b3f-402c-9880-fe35b1ca1d78" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-104656", 
+            "y" : "-100154", 
+            "comment" : "8"
+         }, 
+         "child" : [ 
+            "ef04c27d-ab3b-46ec-8de4-5fb515e2f6b0", 
+            "6b53c315-ae72-4205-864d-1e6dc5e95160", 
+            "345a091c-d4bf-4a4f-8c51-b536cfce1a07", 
+            "ec12c71a-816e-4769-9a0c-63840c0849e0", 
+            "9d24afc1-0f57-4696-86f9-eff1e1671e7a", 
+            "eca47909-5828-4c0c-a49a-a08c510484ca", 
+            "ba0fc392-3f46-409c-94c3-7f761a5d4b6c", 
+            "f6f393d1-a3a0-42ed-988e-f542d7e08522"
+         ]
+      }, 
+      "ba0fc392-3f46-409c-94c3-7f761a5d4b6c" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-104317", 
+            "y" : "-99978"
+         }, 
+         "child" : [ 
+            "1a3c4c3a-4e42-427d-b781-89c97d7009ce"
+         ], 
+         "objectName" : "Spawn.Enemy.7", 
+         "pos" : [ 
+            "10", 
+            "0", 
+            "7"
+         ]
+      }, 
+      "1a3c4c3a-4e42-427d-b781-89c97d7009ce" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-104315", 
+            "y" : "-99869"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.7", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Spider", 
+            "character" : "spider_big5", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "f6f393d1-a3a0-42ed-988e-f542d7e08522" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-104181", 
+            "y" : "-99977"
+         }, 
+         "child" : [ 
+            "dd084d11-e1df-4b1a-bff6-c1bb24a9c7db"
+         ], 
+         "objectName" : "Spawn.Enemy.8", 
+         "pos" : [ 
+            "10", 
+            "0", 
+            "8"
+         ]
+      }, 
+      "dd084d11-e1df-4b1a-bff6-c1bb24a9c7db" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-104164", 
+            "y" : "-99862"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.8", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Spider", 
+            "character" : "spider_big5", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "0f54b1cc-da45-49d3-aeca-934c426d2383" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-103583", 
+            "y" : "-100229", 
+            "comment" : "2-8 bigspiders"
+         }, 
+         "child" : [ 
+            "8fba7788-fdca-4364-ad3c-d8ebcd18a2f6", 
+            "57654c40-bc6e-4263-ad44-a4ab606b03e8", 
+            "051a1023-268c-464b-b8f5-e455d33cac81", 
+            "ee6489b0-6621-4644-b161-96d90b5a2da4"
+         ]
+      }, 
+      "8fba7788-fdca-4364-ad3c-d8ebcd18a2f6" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103766", 
+            "y" : "-100051", 
+            "comment" : "2"
+         }, 
+         "child" : [ 
+            "028ad9e9-48a8-42fe-80ce-fc2692de240a", 
+            "69e7e152-9d06-41ef-b2be-8849859d93e6"
+         ]
+      }, 
+      "028ad9e9-48a8-42fe-80ce-fc2692de240a" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-103837", 
+            "y" : "-99831"
+         }, 
+         "child" : [ 
+            "6fcfc2c5-5ba2-42c3-9099-bda96ac47a92"
+         ], 
+         "objectName" : "Spawn.Enemy.1", 
+         "pos" : [ 
+            "10", 
+            "0", 
+            "9"
+         ]
+      }, 
+      "6fcfc2c5-5ba2-42c3-9099-bda96ac47a92" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-103860", 
+            "y" : "-99743"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.1", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GaintSpider", 
+            "character" : "GaintSpider_Strong", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "69e7e152-9d06-41ef-b2be-8849859d93e6" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-103704", 
+            "y" : "-99835"
+         }, 
+         "child" : [ 
+            "f6536eb4-1945-4cd8-9990-03ca21781932"
+         ], 
+         "objectName" : "Spawn.Enemy.2", 
+         "pos" : [ 
+            "10", 
+            "0", 
+            "11"
+         ]
+      }, 
+      "f6536eb4-1945-4cd8-9990-03ca21781932" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-103701", 
+            "y" : "-99746"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.2", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GaintSpider", 
+            "character" : "GaintSpider_Strong", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "57654c40-bc6e-4263-ad44-a4ab606b03e8" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103396", 
+            "y" : "-100009", 
+            "comment" : "4"
+         }, 
+         "child" : [ 
+            "028ad9e9-48a8-42fe-80ce-fc2692de240a", 
+            "69e7e152-9d06-41ef-b2be-8849859d93e6", 
+            "22957f97-9a53-4144-84d5-bcc09f1c04d8", 
+            "9dd34c80-35b4-47c9-952b-6694e8e63054"
+         ]
+      }, 
+      "22957f97-9a53-4144-84d5-bcc09f1c04d8" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-103488", 
+            "y" : "-99834"
+         }, 
+         "child" : [ 
+            "a652a09c-b649-46e2-91a3-83bdd7258de7"
+         ], 
+         "objectName" : "Spawn.Enemy.3", 
+         "pos" : [ 
+            "10", 
+            "0", 
+            "12"
+         ]
+      }, 
+      "a652a09c-b649-46e2-91a3-83bdd7258de7" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-103487", 
+            "y" : "-99749"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.3", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GaintSpider", 
+            "character" : "GaintSpider_Strong", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "9dd34c80-35b4-47c9-952b-6694e8e63054" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-103342", 
+            "y" : "-99830"
+         }, 
+         "child" : [ 
+            "0f86d444-0703-42f8-9a14-5578c672930a"
+         ], 
+         "objectName" : "Spawn.Enemy.4", 
+         "pos" : [ 
+            "10", 
+            "0", 
+            "13"
+         ]
+      }, 
+      "0f86d444-0703-42f8-9a14-5578c672930a" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-103337", 
+            "y" : "-99748"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.4", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GaintSpider", 
+            "character" : "GaintSpider_Strong", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "051a1023-268c-464b-b8f5-e455d33cac81" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103093", 
+            "y" : "-100035", 
+            "comment" : "6"
+         }, 
+         "child" : [ 
+            "028ad9e9-48a8-42fe-80ce-fc2692de240a", 
+            "69e7e152-9d06-41ef-b2be-8849859d93e6", 
+            "22957f97-9a53-4144-84d5-bcc09f1c04d8", 
+            "9dd34c80-35b4-47c9-952b-6694e8e63054", 
+            "b5eab077-ba5c-4281-86f6-4de97bffa07d", 
+            "2838cd57-d0ad-4448-8512-257b96f6cb52"
+         ]
+      }, 
+      "b5eab077-ba5c-4281-86f6-4de97bffa07d" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-103156", 
+            "y" : "-99826"
+         }, 
+         "child" : [ 
+            "5a42e9ad-c9b9-4385-8933-f5e9062b913c"
+         ], 
+         "objectName" : "Spawn.Enemy.5", 
+         "pos" : [ 
+            "10", 
+            "0", 
+            "13"
+         ]
+      }, 
+      "5a42e9ad-c9b9-4385-8933-f5e9062b913c" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-103151", 
+            "y" : "-99745"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.5", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GaintSpider", 
+            "character" : "GaintSpider_Strong", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "2838cd57-d0ad-4448-8512-257b96f6cb52" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-103014", 
+            "y" : "-99827"
+         }, 
+         "child" : [ 
+            "b797b4e2-f2f9-4bde-8db3-cc5f9c70adba"
+         ], 
+         "objectName" : "Spawn.Enemy.6", 
+         "pos" : [ 
+            "10", 
+            "0", 
+            "13"
+         ]
+      }, 
+      "b797b4e2-f2f9-4bde-8db3-cc5f9c70adba" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-103010", 
+            "y" : "-99746"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.6", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GaintSpider", 
+            "character" : "GaintSpider_Strong", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "ee6489b0-6621-4644-b161-96d90b5a2da4" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-100877", 
+            "y" : "-99893", 
+            "comment" : "2-8 bigspiders"
+         }, 
+         "child" : [ 
+            "b08cce86-2d84-4cb5-ab64-e8deaffb7ed4", 
+            "2a5f604f-7897-44c3-aaff-62bc473eb8fa", 
+            "f077b581-c0d9-4e48-82aa-5737f9caa802"
+         ]
+      }, 
+      "b08cce86-2d84-4cb5-ab64-e8deaffb7ed4" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100990", 
+            "y" : "-99775", 
+            "comment" : "2"
+         }, 
+         "child" : [ 
+            "d0a04ef3-27b9-4864-9940-7084b1b8061b", 
+            "4b2797d6-c7d1-4229-b45c-06801cf85c99"
+         ]
+      }, 
+      "d0a04ef3-27b9-4864-9940-7084b1b8061b" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-101061", 
+            "y" : "-99555"
+         }, 
+         "child" : [ 
+            "24cd6c0e-e693-489d-a0a5-9875c923a0dc"
+         ], 
+         "objectName" : "Spawn.Enemy.1", 
+         "pos" : [ 
+            "10", 
+            "0", 
+            "9"
+         ]
+      }, 
+      "24cd6c0e-e693-489d-a0a5-9875c923a0dc" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101061", 
+            "y" : "-99472"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.1", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GaintSpider", 
+            "character" : "GaintSpider", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "4b2797d6-c7d1-4229-b45c-06801cf85c99" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-100928", 
+            "y" : "-99559"
+         }, 
+         "child" : [ 
+            "e0c6c005-e9d7-4b94-8eee-0abf206909f0"
+         ], 
+         "objectName" : "Spawn.Enemy.2", 
+         "pos" : [ 
+            "10", 
+            "0", 
+            "11"
+         ]
+      }, 
+      "e0c6c005-e9d7-4b94-8eee-0abf206909f0" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100925", 
+            "y" : "-99470"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.2", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GaintSpider", 
+            "character" : "GaintSpider", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "2a5f604f-7897-44c3-aaff-62bc473eb8fa" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100620", 
+            "y" : "-99733", 
+            "comment" : "4"
+         }, 
+         "child" : [ 
+            "d0a04ef3-27b9-4864-9940-7084b1b8061b", 
+            "4b2797d6-c7d1-4229-b45c-06801cf85c99", 
+            "0da29eb6-2e85-4142-b45a-b7f133881ec8", 
+            "110c1d30-21f4-420c-9733-7f3b8090316f"
+         ]
+      }, 
+      "0da29eb6-2e85-4142-b45a-b7f133881ec8" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-100712", 
+            "y" : "-99558"
+         }, 
+         "child" : [ 
+            "2b5b133b-3815-45e2-aa7b-9fc6315e7ac1"
+         ], 
+         "objectName" : "Spawn.Enemy.3", 
+         "pos" : [ 
+            "10", 
+            "0", 
+            "12"
+         ]
+      }, 
+      "2b5b133b-3815-45e2-aa7b-9fc6315e7ac1" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100711", 
+            "y" : "-99473"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.3", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GaintSpider", 
+            "character" : "GaintSpider", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "110c1d30-21f4-420c-9733-7f3b8090316f" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-100566", 
+            "y" : "-99554"
+         }, 
+         "child" : [ 
+            "e82dd01f-37f7-402e-8a24-74d7e4f326b4"
+         ], 
+         "objectName" : "Spawn.Enemy.4", 
+         "pos" : [ 
+            "10", 
+            "0", 
+            "13"
+         ]
+      }, 
+      "e82dd01f-37f7-402e-8a24-74d7e4f326b4" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100561", 
+            "y" : "-99472"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.4", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GaintSpider", 
+            "character" : "GaintSpider", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "f077b581-c0d9-4e48-82aa-5737f9caa802" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100317", 
+            "y" : "-99759", 
+            "comment" : "6"
+         }, 
+         "child" : [ 
+            "d0a04ef3-27b9-4864-9940-7084b1b8061b", 
+            "4b2797d6-c7d1-4229-b45c-06801cf85c99", 
+            "0da29eb6-2e85-4142-b45a-b7f133881ec8", 
+            "110c1d30-21f4-420c-9733-7f3b8090316f", 
+            "54b65eef-aa98-482d-aff7-43e8e794361a", 
+            "3b3f2176-26ec-46f9-add3-33804cd68654"
+         ]
+      }, 
+      "54b65eef-aa98-482d-aff7-43e8e794361a" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-100380", 
+            "y" : "-99550"
+         }, 
+         "child" : [ 
+            "ff8c0823-6245-49a0-92e1-0e7c785d6be0"
+         ], 
+         "objectName" : "Spawn.Enemy.5", 
+         "pos" : [ 
+            "10", 
+            "0", 
+            "13"
+         ]
+      }, 
+      "ff8c0823-6245-49a0-92e1-0e7c785d6be0" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100375", 
+            "y" : "-99469"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.5", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GaintSpider", 
+            "character" : "GaintSpider", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "3b3f2176-26ec-46f9-add3-33804cd68654" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-100238", 
+            "y" : "-99551"
+         }, 
+         "child" : [ 
+            "bc9134fb-6dc4-46be-801c-09f65b3ba56e"
+         ], 
+         "objectName" : "Spawn.Enemy.6", 
+         "pos" : [ 
+            "10", 
+            "0", 
+            "13"
+         ]
+      }, 
+      "bc9134fb-6dc4-46be-801c-09f65b3ba56e" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100234", 
+            "y" : "-99470"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.6", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GaintSpider", 
+            "character" : "GaintSpider", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "c0f7d83e-18c3-48a5-9d8f-44c194478f87" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101883", 
+            "y" : "-100236"
+         }, 
+         "child" : [ 
+            "7f64ae22-3abb-489e-af67-a6a14e6602aa", 
+            "ee6489b0-6621-4644-b161-96d90b5a2da4"
+         ]
+      }, 
+      "7f64ae22-3abb-489e-af67-a6a14e6602aa" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-102010", 
+            "y" : "-99994", 
+            "comment" : "4-8 spiders"
+         }, 
+         "child" : [ 
+            "9d60ba7b-570e-415e-b89a-c65ab585bc6c", 
+            "b70b3895-a4c8-401f-b73d-e2c3574e6651", 
+            "1e4a0179-3995-4af6-97d2-df10f7a34ac3"
+         ]
+      }, 
+      "9d60ba7b-570e-415e-b89a-c65ab585bc6c" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102359", 
+            "y" : "-99880", 
+            "comment" : "4"
+         }, 
+         "child" : [ 
+            "2e1942c1-66f4-45c3-9b5b-8a6163acb332", 
+            "ae78884d-5576-49e5-967c-12bd988ce20e", 
+            "e87ebf62-20bd-463c-bb40-647ac6e83865", 
+            "cb14f365-8520-4491-952f-dabec62e5e63"
+         ]
+      }, 
+      "2e1942c1-66f4-45c3-9b5b-8a6163acb332" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102439", 
+            "y" : "-99599"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.5", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Spider", 
+            "character" : "Spider_Big", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "ae78884d-5576-49e5-967c-12bd988ce20e" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102281", 
+            "y" : "-99597"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.6", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Spider", 
+            "character" : "Spider_Big", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "e87ebf62-20bd-463c-bb40-647ac6e83865" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102121", 
+            "y" : "-99596"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.7", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Spider", 
+            "character" : "Spider_Big", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "cb14f365-8520-4491-952f-dabec62e5e63" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101967", 
+            "y" : "-99594"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.8", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Spider", 
+            "character" : "Spider_Big", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "b70b3895-a4c8-401f-b73d-e2c3574e6651" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102116", 
+            "y" : "-99881", 
+            "comment" : "6"
+         }, 
+         "child" : [ 
+            "2e1942c1-66f4-45c3-9b5b-8a6163acb332", 
+            "ae78884d-5576-49e5-967c-12bd988ce20e", 
+            "e87ebf62-20bd-463c-bb40-647ac6e83865", 
+            "cb14f365-8520-4491-952f-dabec62e5e63", 
+            "700b67e7-198e-42dc-8653-6905a5b81c34", 
+            "a5c48d1c-8578-46c9-b83a-3c42d0b4120c"
+         ]
+      }, 
+      "700b67e7-198e-42dc-8653-6905a5b81c34" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-101838", 
+            "y" : "-99705"
+         }, 
+         "child" : [ 
+            "bd5663a4-bfc6-4259-baee-603ed568b665"
+         ], 
+         "objectName" : "Spawn.Enemy.5", 
+         "pos" : [ 
+            "10", 
+            "0", 
+            "6"
+         ]
+      }, 
+      "bd5663a4-bfc6-4259-baee-603ed568b665" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101828", 
+            "y" : "-99597"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.5", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Spider", 
+            "character" : "Spider_Big", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "a5c48d1c-8578-46c9-b83a-3c42d0b4120c" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-101696", 
+            "y" : "-99705"
+         }, 
+         "child" : [ 
+            "4a393070-472d-47b0-837d-b6728a908f8c"
+         ], 
+         "objectName" : "Spawn.Enemy.6", 
+         "pos" : [ 
+            "10", 
+            "0", 
+            "5"
+         ]
+      }, 
+      "4a393070-472d-47b0-837d-b6728a908f8c" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101681", 
+            "y" : "-99594"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.6", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Spider", 
+            "character" : "Spider_Big", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "1e4a0179-3995-4af6-97d2-df10f7a34ac3" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101880", 
+            "y" : "-99878", 
+            "comment" : "8"
+         }, 
+         "child" : [ 
+            "2e1942c1-66f4-45c3-9b5b-8a6163acb332", 
+            "ae78884d-5576-49e5-967c-12bd988ce20e", 
+            "e87ebf62-20bd-463c-bb40-647ac6e83865", 
+            "cb14f365-8520-4491-952f-dabec62e5e63", 
+            "700b67e7-198e-42dc-8653-6905a5b81c34", 
+            "a5c48d1c-8578-46c9-b83a-3c42d0b4120c", 
+            "2cb92f4e-895e-4781-a723-2c0f48d96895", 
+            "d7cad963-df7d-4da8-87cc-28c55919fdbc"
+         ]
+      }, 
+      "2cb92f4e-895e-4781-a723-2c0f48d96895" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-101541", 
+            "y" : "-99702"
+         }, 
+         "child" : [ 
+            "595c2c00-f5aa-459c-97ae-c6786950ce99"
+         ], 
+         "objectName" : "Spawn.Enemy.7", 
+         "pos" : [ 
+            "10", 
+            "0", 
+            "7"
+         ]
+      }, 
+      "595c2c00-f5aa-459c-97ae-c6786950ce99" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101539", 
+            "y" : "-99593"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.7", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Spider", 
+            "character" : "Spider_Big", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "d7cad963-df7d-4da8-87cc-28c55919fdbc" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-101405", 
+            "y" : "-99701"
+         }, 
+         "child" : [ 
+            "929a742b-678f-48c8-8897-74d34a8f8f80"
+         ], 
+         "objectName" : "Spawn.Enemy.8", 
+         "pos" : [ 
+            "10", 
+            "0", 
+            "8"
+         ]
+      }, 
+      "929a742b-678f-48c8-8897-74d34a8f8f80" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101388", 
+            "y" : "-99586"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.8", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Spider", 
+            "character" : "Spider_Big", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }
+   }, 
+   "entry" : "02d90987-3ac1-4e19-b0f3-e82ba1c64492"
+}

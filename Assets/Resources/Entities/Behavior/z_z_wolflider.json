@@ -1,0 +1,1537 @@
+{ 
+   "states" : { 
+      "0bbe4d87-b04c-4f58-b0a8-9f38b8237faa" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101576", 
+            "y" : "-100922"
+         }, 
+         "child" : [ 
+            "843a9880-7a1f-4cff-ad7a-2e8224f4f36d"
+         ]
+      }, 
+      "843a9880-7a1f-4cff-ad7a-2e8224f4f36d" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-101614", 
+            "y" : "-100789"
+         }, 
+         "child" : [ 
+            "d6a7873d-b590-453f-81a9-127cc4adabbc", 
+            "1f2ad464-5acd-4963-bfbe-fb1378def537", 
+            "b2627a84-ab6d-4423-99f1-9a7a6ee27106", 
+            "1520a27c-aa2d-4cb7-8497-27be41aaa7d4", 
+            "d0fa3b71-7bcc-4241-968b-90fef58e1626"
+         ]
+      }, 
+      "d6a7873d-b590-453f-81a9-127cc4adabbc" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102054", 
+            "y" : "-100523", 
+            "comment" : "9"
+         }, 
+         "child" : [ 
+            "74ab4607-c87e-49de-8ef4-38ae54b6be7c", 
+            "fd166042-434e-481a-a2b1-2d5230bc9d6e", 
+            "4c03ddee-9eb8-4c22-919f-d0f53ac88b45", 
+            "06b829e2-9c12-4df1-98fc-274ad499f6d0", 
+            "67035aea-a547-414e-ac06-96f319efe735", 
+            "7e227bf7-aefc-47ff-8882-f7bce1fef488", 
+            "dd0ea507-38cf-4eaf-bebb-56836183c6b9", 
+            "02542413-216a-4adb-8c88-d5e3e8b50112", 
+            "86a2c1ee-68cc-4a03-83d4-7794a2c7b943"
+         ]
+      }, 
+      "74ab4607-c87e-49de-8ef4-38ae54b6be7c" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-101294", 
+            "y" : "-99869"
+         }, 
+         "child" : [ 
+            "b1f69352-6a5c-4029-b681-0e1f72f7f0cf", 
+            "3541c6b4-3441-4b74-a99f-b256b38d9e60", 
+            "1e0fca34-bae0-4a13-8f7e-a78ba53acd70", 
+            "4b9dc056-d5c4-4ed3-a56b-7aea1432a018"
+         ]
+      }, 
+      "b1f69352-6a5c-4029-b681-0e1f72f7f0cf" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101487", 
+            "y" : "-99762"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.5", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "Wolf_6", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "Skin_1", 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "3541c6b4-3441-4b74-a99f-b256b38d9e60" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101362", 
+            "y" : "-99762"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.5", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "Wolf_10", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "Skin_2", 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "1e0fca34-bae0-4a13-8f7e-a78ba53acd70" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101237", 
+            "y" : "-99761"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.5", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "Wolf_6", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "Skin_1", 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "4b9dc056-d5c4-4ed3-a56b-7aea1432a018" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101113", 
+            "y" : "-99760"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.5", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "Wolf_14", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "Skin_2", 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "fd166042-434e-481a-a2b1-2d5230bc9d6e" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-102294", 
+            "y" : "-100408"
+         }, 
+         "child" : [ 
+            "159a29c9-c10c-416e-be6e-9a12fc14ae60", 
+            "8a02b8dc-ae99-4505-86cc-f2104d1a2d5e", 
+            "ba60a25a-e32f-4f58-90ff-8709db612f71", 
+            "8694af32-2a69-4659-9a53-20025b2bf819"
+         ]
+      }, 
+      "159a29c9-c10c-416e-be6e-9a12fc14ae60" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102485", 
+            "y" : "-100314"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.1", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "Wolf_6", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "Skin_1", 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "8a02b8dc-ae99-4505-86cc-f2104d1a2d5e" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102360", 
+            "y" : "-100313"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.1", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "Wolf_10", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "Skin_2", 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "ba60a25a-e32f-4f58-90ff-8709db612f71" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102235", 
+            "y" : "-100313"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.1", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "Wolf_6", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "Skin_1", 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "8694af32-2a69-4659-9a53-20025b2bf819" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102111", 
+            "y" : "-100312"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.1", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "Wolf_14", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "Skin_2", 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "4c03ddee-9eb8-4c22-919f-d0f53ac88b45" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-101795", 
+            "y" : "-100393"
+         }, 
+         "child" : [ 
+            "3f42b92a-6838-4fca-ba07-68cea22088e1", 
+            "5aa634be-5450-47fc-9f28-886e099ec971", 
+            "683ddb56-1054-4775-959c-e14b64e54975", 
+            "5b4dbd7f-d3b8-4a83-849c-944485822e9a"
+         ]
+      }, 
+      "3f42b92a-6838-4fca-ba07-68cea22088e1" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101972", 
+            "y" : "-100314"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.2", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "Wolf", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "NoSkin", 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "5aa634be-5450-47fc-9f28-886e099ec971" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101851", 
+            "y" : "-100312"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.2", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "Wolf_6", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "Skin_1", 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "683ddb56-1054-4775-959c-e14b64e54975" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101730", 
+            "y" : "-100312"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.2", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "Wolf", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "NoSkin", 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "5b4dbd7f-d3b8-4a83-849c-944485822e9a" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101609", 
+            "y" : "-100307"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.2", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "Wolf_10", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "Skin_2", 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "06b829e2-9c12-4df1-98fc-274ad499f6d0" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-101307", 
+            "y" : "-100350"
+         }, 
+         "child" : [ 
+            "355791ec-a0bf-4266-8421-57c1085b05e4", 
+            "778fb69d-955c-4abb-a115-88f9af02edea", 
+            "21d3d779-4843-41b0-b303-ad4bd20d9870", 
+            "96b9ab63-0c4a-4acd-895f-14029a395b2c"
+         ]
+      }, 
+      "355791ec-a0bf-4266-8421-57c1085b05e4" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101466", 
+            "y" : "-100312"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.3", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "Wolf", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "NoSkin", 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "778fb69d-955c-4abb-a115-88f9af02edea" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101341", 
+            "y" : "-100307"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.3", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "Wolf_6", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "Skin_1", 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "21d3d779-4843-41b0-b303-ad4bd20d9870" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101221", 
+            "y" : "-100307"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.3", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "Wolf", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "NoSkin", 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "96b9ab63-0c4a-4acd-895f-14029a395b2c" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101101", 
+            "y" : "-100306"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.3", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "Wolf_10", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "Skin_2", 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "67035aea-a547-414e-ac06-96f319efe735" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-100797", 
+            "y" : "-100346"
+         }, 
+         "child" : [ 
+            "86251555-76f4-4c66-ac98-15a437133971", 
+            "39f6f6b9-2c69-4905-a0cf-b6bb9d49c92e", 
+            "af2dfdf4-8a20-4684-ab1b-abf8de42bd4b", 
+            "e1070082-a916-41af-a22b-b86fbc2b48f3"
+         ]
+      }, 
+      "86251555-76f4-4c66-ac98-15a437133971" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100976", 
+            "y" : "-100304"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.4", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "Wolf", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "NoSkin", 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "39f6f6b9-2c69-4905-a0cf-b6bb9d49c92e" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100850", 
+            "y" : "-100300"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.4", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "Wolf_6", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "Skin_1", 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "af2dfdf4-8a20-4684-ab1b-abf8de42bd4b" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100723", 
+            "y" : "-100295"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.4", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "Wolf_6", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "Skin_1", 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "e1070082-a916-41af-a22b-b86fbc2b48f3" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100594", 
+            "y" : "-100297"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.4", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "Wolf_10", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "Skin_2", 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "7e227bf7-aefc-47ff-8882-f7bce1fef488" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-100815", 
+            "y" : "-99854"
+         }, 
+         "child" : [ 
+            "530ba1a4-c2be-4456-8780-00e6c4df3697", 
+            "191a83c4-1765-4546-9f3a-52b849bc37fa", 
+            "b3c0ac8e-3fef-4021-a875-7e0e28855d95", 
+            "16304630-7954-4df0-a1d7-86fb5088adfe"
+         ]
+      }, 
+      "530ba1a4-c2be-4456-8780-00e6c4df3697" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100966", 
+            "y" : "-99763"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.6", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "Wolf", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "NoSkin", 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "191a83c4-1765-4546-9f3a-52b849bc37fa" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100845", 
+            "y" : "-99761"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.6", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "Wolf_6", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "Skin_1", 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "b3c0ac8e-3fef-4021-a875-7e0e28855d95" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100724", 
+            "y" : "-99761"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.6", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "Wolf", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "NoSkin", 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "16304630-7954-4df0-a1d7-86fb5088adfe" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100602", 
+            "y" : "-99759"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.6", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "Wolf_10", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "Skin_2", 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "dd0ea507-38cf-4eaf-bebb-56836183c6b9" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-100279", 
+            "y" : "-99809"
+         }, 
+         "child" : [ 
+            "4e0b6d09-b7a9-4f96-a9ee-5c276ff7d149", 
+            "32314dfe-50e2-4c74-8c9e-b5633c37d070", 
+            "1d308e01-462b-4098-9915-9a2a3d81a8b3", 
+            "ee518f57-6200-44d6-a958-fe3f28b01ded"
+         ]
+      }, 
+      "4e0b6d09-b7a9-4f96-a9ee-5c276ff7d149" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100438", 
+            "y" : "-99771"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.7", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "Wolf", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "NoSkin", 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "32314dfe-50e2-4c74-8c9e-b5633c37d070" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100313", 
+            "y" : "-99766"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.7", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "Wolf_6", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "Skin_1", 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "1d308e01-462b-4098-9915-9a2a3d81a8b3" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100193", 
+            "y" : "-99766"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.7", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "Wolf", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "NoSkin", 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "ee518f57-6200-44d6-a958-fe3f28b01ded" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100073", 
+            "y" : "-99765"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.7", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "Wolf_10", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "Skin_2", 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "02542413-216a-4adb-8c88-d5e3e8b50112" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-99732", 
+            "y" : "-99801"
+         }, 
+         "child" : [ 
+            "5f76ab9c-3dfe-493f-ba3e-bcdf37478dbc", 
+            "d1186c3e-cb98-4d9d-923c-33e7a9455eef", 
+            "4de017b0-88ed-4fc9-870d-5cdf42811020", 
+            "f8a123e8-2c56-4867-a630-bd6202bb4d8a"
+         ]
+      }, 
+      "5f76ab9c-3dfe-493f-ba3e-bcdf37478dbc" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-99911", 
+            "y" : "-99759"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.8", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "Wolf", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "NoSkin", 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "d1186c3e-cb98-4d9d-923c-33e7a9455eef" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-99785", 
+            "y" : "-99755"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.8", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "Wolf_6", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "Skin_1", 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "4de017b0-88ed-4fc9-870d-5cdf42811020" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-99658", 
+            "y" : "-99750"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.8", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "Wolf_6", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "Skin_1", 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "f8a123e8-2c56-4867-a630-bd6202bb4d8a" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-99529", 
+            "y" : "-99752"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.8", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GrayWolf", 
+            "character" : "Wolf_10", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "Skin_2", 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "86a2c1ee-68cc-4a03-83d4-7794a2c7b943" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-102495", 
+            "y" : "-100703"
+         }, 
+         "child" : [ 
+            "727b19fb-9bb3-4767-9d78-bd2de934a36c"
+         ], 
+         "objectName" : "Spawn.Enemy.1", 
+         "pos" : [ 
+            "7", 
+            "0", 
+            "4"
+         ]
+      }, 
+      "727b19fb-9bb3-4767-9d78-bd2de934a36c" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102488", 
+            "y" : "-100611"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.1", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Devourer", 
+            "character" : "devourer20", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "Skin_1", 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "1f2ad464-5acd-4963-bfbe-fb1378def537" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101392", 
+            "y" : "-100597", 
+            "comment" : "11"
+         }, 
+         "child" : [ 
+            "d6a7873d-b590-453f-81a9-127cc4adabbc", 
+            "ae236c5e-90ce-4009-b181-1bf7c9911072", 
+            "dd7c0795-99d7-4e92-8679-698a06df2df5"
+         ]
+      }, 
+      "ae236c5e-90ce-4009-b181-1bf7c9911072" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-101553", 
+            "y" : "-100479"
+         }, 
+         "child" : [ 
+            "06b829e2-9c12-4df1-98fc-274ad499f6d0"
+         ], 
+         "objectName" : "Spawn.Enemy.3", 
+         "pos" : [ 
+            "5", 
+            "0", 
+            "7"
+         ]
+      }, 
+      "dd7c0795-99d7-4e92-8679-698a06df2df5" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-101098", 
+            "y" : "-100471"
+         }, 
+         "child" : [ 
+            "67035aea-a547-414e-ac06-96f319efe735"
+         ], 
+         "objectName" : "Spawn.Enemy.4", 
+         "pos" : [ 
+            "8", 
+            "0", 
+            "6"
+         ]
+      }, 
+      "b2627a84-ab6d-4423-99f1-9a7a6ee27106" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100610", 
+            "y" : "-100483", 
+            "comment" : "13"
+         }, 
+         "child" : [ 
+            "1f2ad464-5acd-4963-bfbe-fb1378def537", 
+            "7038ca27-6d00-48a2-b897-996b5ee2d6f7", 
+            "8d94b82e-8e60-417d-9cc0-f02bea14f1c4"
+         ]
+      }, 
+      "7038ca27-6d00-48a2-b897-996b5ee2d6f7" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-101144", 
+            "y" : "-100005"
+         }, 
+         "child" : [ 
+            "74ab4607-c87e-49de-8ef4-38ae54b6be7c"
+         ], 
+         "objectName" : "Spawn.Enemy.5", 
+         "pos" : [ 
+            "9", 
+            "0", 
+            "14"
+         ]
+      }, 
+      "8d94b82e-8e60-417d-9cc0-f02bea14f1c4" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-100678", 
+            "y" : "-99996"
+         }, 
+         "child" : [ 
+            "7e227bf7-aefc-47ff-8882-f7bce1fef488"
+         ], 
+         "objectName" : "Spawn.Enemy.6", 
+         "pos" : [ 
+            "8", 
+            "0", 
+            "13"
+         ]
+      }, 
+      "1520a27c-aa2d-4cb7-8497-27be41aaa7d4" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100261", 
+            "y" : "-100532", 
+            "comment" : "15"
+         }, 
+         "child" : [ 
+            "b2627a84-ab6d-4423-99f1-9a7a6ee27106", 
+            "0cd5c113-c5d0-4145-b9b7-0210ce6aca56", 
+            "c502152d-e96f-4908-981e-8323e450ee6c"
+         ]
+      }, 
+      "0cd5c113-c5d0-4145-b9b7-0210ce6aca56" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-100188", 
+            "y" : "-99995"
+         }, 
+         "child" : [ 
+            "dd0ea507-38cf-4eaf-bebb-56836183c6b9"
+         ], 
+         "objectName" : "Spawn.Enemy.7", 
+         "pos" : [ 
+            "7", 
+            "0", 
+            "12"
+         ]
+      }, 
+      "c502152d-e96f-4908-981e-8323e450ee6c" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-99875", 
+            "y" : "-99983"
+         }, 
+         "child" : [ 
+            "02542413-216a-4adb-8c88-d5e3e8b50112"
+         ], 
+         "objectName" : "Spawn.Enemy.8", 
+         "pos" : [ 
+            "6", 
+            "0", 
+            "19"
+         ]
+      }, 
+      "d0fa3b71-7bcc-4241-968b-90fef58e1626" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100054", 
+            "y" : "-100701", 
+            "comment" : "17"
+         }, 
+         "child" : [ 
+            "1520a27c-aa2d-4cb7-8497-27be41aaa7d4", 
+            "ae236c5e-90ce-4009-b181-1bf7c9911072", 
+            "dd7c0795-99d7-4e92-8679-698a06df2df5"
+         ]
+      }
+   }, 
+   "entry" : "0bbe4d87-b04c-4f58-b0a8-9f38b8237faa"
+}

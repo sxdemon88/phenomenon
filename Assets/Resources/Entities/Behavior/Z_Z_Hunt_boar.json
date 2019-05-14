@@ -3,8 +3,8 @@
       "89e73491-2f58-4f79-a52e-56f7286b2ecb" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-101583", 
-            "y" : "-100597"
+            "x" : "-101631", 
+            "y" : "-100651"
          }, 
          "child" : [ 
             "3d35b8e2-081b-4ae1-b5d3-7fa8303a8238"
@@ -24,31 +24,52 @@
       "17013e24-5955-4621-9a4c-ef4e87d628d9" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-101711", 
-            "y" : "-100262", 
-            "comment" : "4-6"
+            "x" : "-101727", 
+            "y" : "-100271", 
+            "comment" : "1-4  навык +2"
          }, 
          "child" : [ 
-            "1f8373f5-6d97-4930-a5e4-62de60521b95", 
-            "679d3423-b095-49ad-b558-6a900b0e745c", 
-            "b923b2b9-b5ba-4231-90fa-0bb2ddd13550", 
-            "425e152c-c62f-42c7-b8c3-9394ed004923", 
-            "17045878-135e-4abf-8b3d-515ca5298aab"
+            "010212f7-5e8b-46a8-8ceb-da524fc8eaab", 
+            "ba9dec6f-81b4-4484-ad3f-5d5a6206c974"
+         ]
+      }, 
+      "010212f7-5e8b-46a8-8ceb-da524fc8eaab" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-101946", 
+            "y" : "-100133"
+         }, 
+         "child" : [ 
+            "ef162a2a-0189-4bcc-98d8-b7669fd60ac7", 
+            "1bb5f251-fdef-4b8c-ac96-ce19bb5812e3", 
+            "326f1e2b-1d5e-48dc-a0a9-1e19425b3c87", 
+            "3cbb404e-0ffe-4843-9652-a5c3f9a63ba8"
+         ]
+      }, 
+      "ef162a2a-0189-4bcc-98d8-b7669fd60ac7" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102099", 
+            "y" : "-100013", 
+            "comment" : "1"
+         }, 
+         "child" : [ 
+            "1f8373f5-6d97-4930-a5e4-62de60521b95"
          ]
       }, 
       "1f8373f5-6d97-4930-a5e4-62de60521b95" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-101896", 
-            "y" : "-100111"
+            "x" : "-102110", 
+            "y" : "-99887"
          }, 
          "child" : [ 
          ], 
          "spawnPoint" : "Spawn.Enemy.1", 
          "item" : { 
             "class" : "Character", 
-            "proto" : "boar", 
-            "character" : "boar", 
+            "proto" : "Boar", 
+            "character" : "Boar", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -73,19 +94,31 @@
          }, 
          "randomName" : "true"
       }, 
+      "1bb5f251-fdef-4b8c-ac96-ce19bb5812e3" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101969", 
+            "y" : "-100013", 
+            "comment" : "2"
+         }, 
+         "child" : [ 
+            "1f8373f5-6d97-4930-a5e4-62de60521b95", 
+            "679d3423-b095-49ad-b558-6a900b0e745c"
+         ]
+      }, 
       "679d3423-b095-49ad-b558-6a900b0e745c" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-101767", 
-            "y" : "-100115"
+            "x" : "-101981", 
+            "y" : "-99891"
          }, 
          "child" : [ 
          ], 
          "spawnPoint" : "Spawn.Enemy.2", 
          "item" : { 
             "class" : "Character", 
-            "proto" : "boar", 
-            "character" : "boar", 
+            "proto" : "Boar", 
+            "character" : "Boar", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -110,19 +143,32 @@
          }, 
          "randomName" : "true"
       }, 
+      "326f1e2b-1d5e-48dc-a0a9-1e19425b3c87" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101839", 
+            "y" : "-100014", 
+            "comment" : "3"
+         }, 
+         "child" : [ 
+            "1f8373f5-6d97-4930-a5e4-62de60521b95", 
+            "679d3423-b095-49ad-b558-6a900b0e745c", 
+            "b923b2b9-b5ba-4231-90fa-0bb2ddd13550"
+         ]
+      }, 
       "b923b2b9-b5ba-4231-90fa-0bb2ddd13550" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-101636", 
-            "y" : "-100115"
+            "x" : "-101850", 
+            "y" : "-99891"
          }, 
          "child" : [ 
          ], 
          "spawnPoint" : "Spawn.Enemy.3", 
          "item" : { 
             "class" : "Character", 
-            "proto" : "boar", 
-            "character" : "boar", 
+            "proto" : "Boar", 
+            "character" : "Boar", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -147,19 +193,33 @@
          }, 
          "randomName" : "true"
       }, 
+      "3cbb404e-0ffe-4843-9652-a5c3f9a63ba8" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101707", 
+            "y" : "-100013", 
+            "comment" : "4"
+         }, 
+         "child" : [ 
+            "1f8373f5-6d97-4930-a5e4-62de60521b95", 
+            "679d3423-b095-49ad-b558-6a900b0e745c", 
+            "b923b2b9-b5ba-4231-90fa-0bb2ddd13550", 
+            "425e152c-c62f-42c7-b8c3-9394ed004923"
+         ]
+      }, 
       "425e152c-c62f-42c7-b8c3-9394ed004923" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-101507", 
-            "y" : "-100113"
+            "x" : "-101721", 
+            "y" : "-99889"
          }, 
          "child" : [ 
          ], 
          "spawnPoint" : "Spawn.Enemy.4", 
          "item" : { 
             "class" : "Character", 
-            "proto" : "boar", 
-            "character" : "boar", 
+            "proto" : "Boar", 
+            "character" : "Boar", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -184,32 +244,36 @@
          }, 
          "randomName" : "true"
       }, 
-      "17045878-135e-4abf-8b3d-515ca5298aab" : { 
-         "class" : "RandomNode", 
+      "ba9dec6f-81b4-4484-ad3f-5d5a6206c974" : { 
+         "class" : "HasModifierNode", 
          "desc" : { 
-            "x" : "-101283", 
-            "y" : "-100172"
+            "x" : "-101519", 
+            "y" : "-100183"
          }, 
          "child" : [ 
-            "c0aacd2d-b4cd-4cb0-97c4-2740bdf035e5", 
-            "2a7ed83a-12f1-4366-ba1f-ac3a1d16ffd1", 
-            "8414c81f-10a3-4cf4-8493-3ece62a3157a"
-         ]
+            "adecf688-16c1-4c31-bfd6-47d7aa67e7de", 
+            "dad3d4be-847a-4d65-bf50-f725a63bfed4"
+         ], 
+         "value" : "100", 
+         "modifier" : "Outdoorsman"
       }, 
-      "c0aacd2d-b4cd-4cb0-97c4-2740bdf035e5" : { 
+      "adecf688-16c1-4c31-bfd6-47d7aa67e7de" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-101500", 
-            "y" : "-99827"
+            "x" : "-101513", 
+            "y" : "-99983"
          }, 
          "child" : [ 
+            "2a7ed83a-12f1-4366-ba1f-ac3a1d16ffd1", 
+            "0dad230a-e6ec-417f-a992-905f0c64a4b5", 
+            "0df15bae-1264-4fc7-b50a-516bf4411b2a"
          ]
       }, 
       "2a7ed83a-12f1-4366-ba1f-ac3a1d16ffd1" : { 
          "class" : "MoveObjectNode", 
          "desc" : { 
-            "x" : "-101141", 
-            "y" : "-99997"
+            "x" : "-101570", 
+            "y" : "-99833"
          }, 
          "child" : [ 
             "8e6e893a-2dca-4475-8ebc-a2ce207c5ef5"
@@ -224,8 +288,8 @@
       "8e6e893a-2dca-4475-8ebc-a2ce207c5ef5" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-101159", 
-            "y" : "-99892"
+            "x" : "-101567", 
+            "y" : "-99716"
          }, 
          "child" : [ 
          ], 
@@ -258,22 +322,11 @@
          }, 
          "randomName" : "true"
       }, 
-      "8414c81f-10a3-4cf4-8493-3ece62a3157a" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-101002", 
-            "y" : "-100108"
-         }, 
-         "child" : [ 
-            "2a7ed83a-12f1-4366-ba1f-ac3a1d16ffd1", 
-            "0dad230a-e6ec-417f-a992-905f0c64a4b5"
-         ]
-      }, 
       "0dad230a-e6ec-417f-a992-905f0c64a4b5" : { 
          "class" : "MoveObjectNode", 
          "desc" : { 
-            "x" : "-101011", 
-            "y" : "-99998"
+            "x" : "-101340", 
+            "y" : "-99822"
          }, 
          "child" : [ 
             "2cd44b02-59f3-4e0e-bfa4-00ac486a10fe"
@@ -288,8 +341,8 @@
       "2cd44b02-59f3-4e0e-bfa4-00ac486a10fe" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-101016", 
-            "y" : "-99892"
+            "x" : "-101351", 
+            "y" : "-99716"
          }, 
          "child" : [ 
          ], 
@@ -322,23 +375,66 @@
          }, 
          "randomName" : "true"
       }, 
+      "0df15bae-1264-4fc7-b50a-516bf4411b2a" : { 
+         "class" : "LogNode", 
+         "desc" : { 
+            "x" : "-101070", 
+            "y" : "-99725"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Навык выживания помог заметить дополнительную добычу!"
+      }, 
+      "dad3d4be-847a-4d65-bf50-f725a63bfed4" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-101300", 
+            "y" : "-100079"
+         }, 
+         "child" : [ 
+            "00f99cbf-2814-4f4a-b4d4-176f0fe378d0", 
+            "5cab18b4-92bc-4db4-bd9b-3c1e6a362a4f"
+         ], 
+         "value" : "70", 
+         "modifier" : "Outdoorsman"
+      }, 
+      "00f99cbf-2814-4f4a-b4d4-176f0fe378d0" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101282", 
+            "y" : "-99937"
+         }, 
+         "child" : [ 
+            "0dad230a-e6ec-417f-a992-905f0c64a4b5", 
+            "0df15bae-1264-4fc7-b50a-516bf4411b2a"
+         ]
+      }, 
+      "5cab18b4-92bc-4db4-bd9b-3c1e6a362a4f" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101111", 
+            "y" : "-99965"
+         }, 
+         "child" : [ 
+         ]
+      }, 
       "ee7958ca-15b2-4e5e-893f-ab8a46d29f69" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100830", 
-            "y" : "-100360", 
-            "comment" : "6-10"
+            "x" : "-100853", 
+            "y" : "-100365", 
+            "comment" : "1-4 навык +2"
          }, 
          "child" : [ 
-            "17013e24-5955-4621-9a4c-ef4e87d628d9", 
+            "ba9dec6f-81b4-4484-ad3f-5d5a6206c974", 
             "0cc559ed-18e7-4d1d-a00f-9602d43485b3"
          ]
       }, 
       "0cc559ed-18e7-4d1d-a00f-9602d43485b3" : { 
          "class" : "RandomNode", 
          "desc" : { 
-            "x" : "-100621", 
-            "y" : "-100314"
+            "x" : "-100718", 
+            "y" : "-100272"
          }, 
          "child" : [ 
             "ee8d6b7d-ca4d-437b-b884-2d73ce29ff73", 
@@ -350,16 +446,16 @@
       "ee8d6b7d-ca4d-437b-b884-2d73ce29ff73" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-100735", 
-            "y" : "-100128"
+            "x" : "-100661", 
+            "y" : "-99948"
          }, 
          "child" : [ 
          ], 
          "spawnPoint" : "Spawn.Enemy.5", 
          "item" : { 
             "class" : "Character", 
-            "proto" : "boar", 
-            "character" : "boar", 
+            "proto" : "Boar", 
+            "character" : "Boar", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -387,8 +483,9 @@
       "250f32b1-221c-4313-ad7f-bb19bd037087" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100641", 
-            "y" : "-100186"
+            "x" : "-100575", 
+            "y" : "-100131", 
+            "comment" : "2"
          }, 
          "child" : [ 
             "ee8d6b7d-ca4d-437b-b884-2d73ce29ff73", 
@@ -398,16 +495,16 @@
       "34a6fcae-a6c5-4e91-9dc5-43ac8c6e7bea" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-100581", 
-            "y" : "-100126"
+            "x" : "-100507", 
+            "y" : "-99946"
          }, 
          "child" : [ 
          ], 
          "spawnPoint" : "Spawn.Enemy.6", 
          "item" : { 
             "class" : "Character", 
-            "proto" : "boar", 
-            "character" : "boar", 
+            "proto" : "Boar", 
+            "character" : "Boar", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -435,8 +532,9 @@
       "a1009c31-bc05-40ae-9f79-d06888a759de" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100477", 
-            "y" : "-100240"
+            "x" : "-100410", 
+            "y" : "-100120", 
+            "comment" : "3"
          }, 
          "child" : [ 
             "ee8d6b7d-ca4d-437b-b884-2d73ce29ff73", 
@@ -447,8 +545,8 @@
       "2ea44f9c-725d-4fd5-99d2-ddb11c982b8c" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-100434", 
-            "y" : "-100125"
+            "x" : "-100360", 
+            "y" : "-99945"
          }, 
          "child" : [ 
          ], 
@@ -484,8 +582,9 @@
       "a745783c-c811-4f5e-bd7c-cf8511383d9d" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100301", 
-            "y" : "-100245"
+            "x" : "-100191", 
+            "y" : "-100132", 
+            "comment" : "4"
          }, 
          "child" : [ 
             "ee8d6b7d-ca4d-437b-b884-2d73ce29ff73", 
@@ -497,8 +596,8 @@
       "a09471da-3220-41bb-ad00-e9defaf0dabc" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-100275", 
-            "y" : "-100121"
+            "x" : "-100201", 
+            "y" : "-99941"
          }, 
          "child" : [ 
          ], 

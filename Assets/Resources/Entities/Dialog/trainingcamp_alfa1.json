@@ -900,8 +900,8 @@
       "2b76d629-8a68-4382-b242-d373a07f2650" : { 
          "class" : "InventoryAddItemNode", 
          "desc" : { 
-            "x" : "-101641", 
-            "y" : "-100048"
+            "x" : "-100951", 
+            "y" : "-100233"
          }, 
          "child" : [ 
             "4ac29ab3-9459-4bd3-b52c-dfd6e293ce16"
@@ -920,8 +920,8 @@
       "4ac29ab3-9459-4bd3-b52c-dfd6e293ce16" : { 
          "class" : "InventoryAddItemNode", 
          "desc" : { 
-            "x" : "-101488", 
-            "y" : "-100036"
+            "x" : "-100809", 
+            "y" : "-100229"
          }, 
          "child" : [ 
             "fadcd849-a1fd-4c3c-9c90-0bbc66a89043"
@@ -940,8 +940,8 @@
       "fadcd849-a1fd-4c3c-9c90-0bbc66a89043" : { 
          "class" : "InventoryAddItemNode", 
          "desc" : { 
-            "x" : "-101299", 
-            "y" : "-100034"
+            "x" : "-100674", 
+            "y" : "-100227"
          }, 
          "child" : [ 
             "4efce59c-89a2-4b89-ba9f-bd05f10fda5f"
@@ -960,8 +960,8 @@
       "4efce59c-89a2-4b89-ba9f-bd05f10fda5f" : { 
          "class" : "InventoryAddItemNode", 
          "desc" : { 
-            "x" : "-101121", 
-            "y" : "-100034"
+            "x" : "-100534", 
+            "y" : "-100222"
          }, 
          "child" : [ 
             "aa7fd30b-01f5-4d63-b41e-c820dabed824"
@@ -980,8 +980,8 @@
       "aa7fd30b-01f5-4d63-b41e-c820dabed824" : { 
          "class" : "InventoryAddItemNode", 
          "desc" : { 
-            "x" : "-100967", 
-            "y" : "-99952"
+            "x" : "-100395", 
+            "y" : "-100220"
          }, 
          "child" : [ 
             "fcf61ed8-596f-4bc7-b372-c8dcc34d1e08"
@@ -1000,8 +1000,8 @@
       "fcf61ed8-596f-4bc7-b372-c8dcc34d1e08" : { 
          "class" : "InventoryAddItemNode", 
          "desc" : { 
-            "x" : "-100776", 
-            "y" : "-99913"
+            "x" : "-100260", 
+            "y" : "-100219"
          }, 
          "child" : [ 
             "7281f8dd-0b14-4e8b-9a0a-6f127ca7f6d3"
@@ -1020,8 +1020,8 @@
       "7281f8dd-0b14-4e8b-9a0a-6f127ca7f6d3" : { 
          "class" : "InventoryAddItemNode", 
          "desc" : { 
-            "x" : "-100589", 
-            "y" : "-99842"
+            "x" : "-100850", 
+            "y" : "-100090"
          }, 
          "child" : [ 
             "d49876e4-d5d6-4803-88c8-6756951471a1"
@@ -1040,8 +1040,8 @@
       "d49876e4-d5d6-4803-88c8-6756951471a1" : { 
          "class" : "InventoryAddItemNode", 
          "desc" : { 
-            "x" : "-100335", 
-            "y" : "-99805"
+            "x" : "-100717", 
+            "y" : "-100091"
          }, 
          "child" : [ 
             "f24bf69b-7e0e-4212-a50c-e15efcf7e8da"
@@ -1060,11 +1060,11 @@
       "f24bf69b-7e0e-4212-a50c-e15efcf7e8da" : { 
          "class" : "InventoryAddItemNode", 
          "desc" : { 
-            "x" : "-100821", 
-            "y" : "-99730"
+            "x" : "-100577", 
+            "y" : "-100086"
          }, 
          "child" : [ 
-            "c967b8de-bc4a-49e0-a96a-64c10da56533"
+            "91a97afb-4a24-4394-9839-18efa2ffc0a0"
          ], 
          "item" : { 
             "class" : "Weapon", 
@@ -1077,11 +1077,379 @@
          }, 
          "objectName" : "Player"
       }, 
+      "91a97afb-4a24-4394-9839-18efa2ffc0a0" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-101115", 
+            "y" : "-99951"
+         }, 
+         "child" : [ 
+            "44c86b3d-8b08-4505-8e44-646b4ef08535"
+         ], 
+         "item" : { 
+            "class" : "Uniform", 
+            "count" : "1", 
+            "proto" : "armor1"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "44c86b3d-8b08-4505-8e44-646b4ef08535" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100949", 
+            "y" : "-99949"
+         }, 
+         "child" : [ 
+            "f819ec06-270f-42f8-bd80-16ff392e6604"
+         ], 
+         "item" : { 
+            "class" : "Uniform", 
+            "count" : "1", 
+            "proto" : "armor1black"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "f819ec06-270f-42f8-bd80-16ff392e6604" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100779", 
+            "y" : "-99946"
+         }, 
+         "child" : [ 
+            "eb7fd607-e39f-4ea1-aa6f-627214d4bbf3"
+         ], 
+         "item" : { 
+            "class" : "Uniform", 
+            "count" : "1", 
+            "proto" : "armor1green"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "eb7fd607-e39f-4ea1-aa6f-627214d4bbf3" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100613", 
+            "y" : "-99943"
+         }, 
+         "child" : [ 
+            "b771121b-46f3-4c92-b239-7c30af918aad"
+         ], 
+         "item" : { 
+            "class" : "Uniform", 
+            "count" : "1", 
+            "proto" : "ctw_armor2"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "b771121b-46f3-4c92-b239-7c30af918aad" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100445", 
+            "y" : "-99941"
+         }, 
+         "child" : [ 
+            "010bea60-bc90-4d48-aa42-bc96ebf506af"
+         ], 
+         "item" : { 
+            "class" : "Uniform", 
+            "count" : "1", 
+            "proto" : "ctw_head_1"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "010bea60-bc90-4d48-aa42-bc96ebf506af" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100279", 
+            "y" : "-99944"
+         }, 
+         "child" : [ 
+            "a44d0f26-d0fe-44c5-a1b9-2279fe37e755"
+         ], 
+         "item" : { 
+            "class" : "Uniform", 
+            "count" : "1", 
+            "proto" : "ctw_head_2"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "a44d0f26-d0fe-44c5-a1b9-2279fe37e755" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100111", 
+            "y" : "-99946"
+         }, 
+         "child" : [ 
+            "47fce8f3-fa52-488c-9e6f-9f08df378e4d"
+         ], 
+         "item" : { 
+            "class" : "Uniform", 
+            "count" : "1", 
+            "proto" : "ctw_head_3"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "47fce8f3-fa52-488c-9e6f-9f08df378e4d" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-99943", 
+            "y" : "-99947"
+         }, 
+         "child" : [ 
+            "3bfbccaf-0be1-4164-b356-1a7eddb62f7e"
+         ], 
+         "item" : { 
+            "class" : "Uniform", 
+            "count" : "1", 
+            "proto" : "ctw_head_4"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "3bfbccaf-0be1-4164-b356-1a7eddb62f7e" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-101106", 
+            "y" : "-99768"
+         }, 
+         "child" : [ 
+            "4495770e-5b9b-4fb7-86cb-59c61feec198"
+         ], 
+         "item" : { 
+            "class" : "Uniform", 
+            "count" : "1", 
+            "proto" : "ctw_light_1"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "4495770e-5b9b-4fb7-86cb-59c61feec198" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100944", 
+            "y" : "-99766"
+         }, 
+         "child" : [ 
+            "8dd8b9fd-7d61-462b-9210-dd90b092bf69"
+         ], 
+         "item" : { 
+            "class" : "Uniform", 
+            "count" : "1", 
+            "proto" : "ctw_light_2"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "8dd8b9fd-7d61-462b-9210-dd90b092bf69" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100784", 
+            "y" : "-99762"
+         }, 
+         "child" : [ 
+            "8e262428-e351-45a6-ade1-d3350580a73b"
+         ], 
+         "item" : { 
+            "class" : "Uniform", 
+            "count" : "1", 
+            "proto" : "ctw_light_2amer"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "8e262428-e351-45a6-ade1-d3350580a73b" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100623", 
+            "y" : "-99760"
+         }, 
+         "child" : [ 
+            "b482bb96-0307-4a62-a8aa-ad579335f29a"
+         ], 
+         "item" : { 
+            "class" : "Uniform", 
+            "count" : "1", 
+            "proto" : "ctw_light_2digital"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "b482bb96-0307-4a62-a8aa-ad579335f29a" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100470", 
+            "y" : "-99758"
+         }, 
+         "child" : [ 
+            "d288e2df-1ebd-408c-9ad3-157c0009befc"
+         ], 
+         "item" : { 
+            "class" : "Uniform", 
+            "count" : "1", 
+            "proto" : "ctw_light_2snake"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "d288e2df-1ebd-408c-9ad3-157c0009befc" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100314", 
+            "y" : "-99756"
+         }, 
+         "child" : [ 
+            "c195b93a-2381-43ec-8159-7d3094895396"
+         ], 
+         "item" : { 
+            "class" : "Uniform", 
+            "count" : "1", 
+            "proto" : "ctw_light_3"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "c195b93a-2381-43ec-8159-7d3094895396" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100156", 
+            "y" : "-99755"
+         }, 
+         "child" : [ 
+            "bd2d11b1-44f9-4aef-9f23-990fe9d505b6"
+         ], 
+         "item" : { 
+            "class" : "Uniform", 
+            "count" : "1", 
+            "proto" : "ctw_light_4"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "bd2d11b1-44f9-4aef-9f23-990fe9d505b6" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-99999", 
+            "y" : "-99752"
+         }, 
+         "child" : [ 
+            "73dd739e-2e43-4286-9c2c-64a62b30eefd"
+         ], 
+         "item" : { 
+            "class" : "Uniform", 
+            "count" : "1", 
+            "proto" : "ctw_light_5"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "73dd739e-2e43-4286-9c2c-64a62b30eefd" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100745", 
+            "y" : "-99620"
+         }, 
+         "child" : [ 
+            "cb5691fd-32b8-404d-a8c4-ba114111fecd"
+         ], 
+         "item" : { 
+            "class" : "Uniform", 
+            "count" : "1", 
+            "proto" : "ctw_light_6"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "cb5691fd-32b8-404d-a8c4-ba114111fecd" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100591", 
+            "y" : "-99620"
+         }, 
+         "child" : [ 
+            "c71ca85c-6179-4910-96d8-37a43d2492c2"
+         ], 
+         "item" : { 
+            "class" : "Uniform", 
+            "count" : "1", 
+            "proto" : "ctw_light_7"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "c71ca85c-6179-4910-96d8-37a43d2492c2" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100428", 
+            "y" : "-99620"
+         }, 
+         "child" : [ 
+            "e6a86dd0-173a-47ea-b237-58f4d0ca81ce"
+         ], 
+         "item" : { 
+            "class" : "Uniform", 
+            "count" : "1", 
+            "proto" : "Gasmass"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "e6a86dd0-173a-47ea-b237-58f4d0ca81ce" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100261", 
+            "y" : "-99618"
+         }, 
+         "child" : [ 
+            "81545409-d5f5-41f8-b02b-95001c2ebb16"
+         ], 
+         "item" : { 
+            "class" : "Uniform", 
+            "count" : "1", 
+            "proto" : "TacticShield"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "81545409-d5f5-41f8-b02b-95001c2ebb16" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100082", 
+            "y" : "-99574"
+         }, 
+         "child" : [ 
+            "8cb49fb0-3232-4d18-b80b-0588e6667c33"
+         ], 
+         "item" : { 
+            "class" : "Uniform", 
+            "count" : "1", 
+            "proto" : "ctw_head_1rust"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "8cb49fb0-3232-4d18-b80b-0588e6667c33" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100184", 
+            "y" : "-99462"
+         }, 
+         "child" : [ 
+            "257e64cc-621f-4e41-a436-c656acb692ae"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "koja"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "257e64cc-621f-4e41-a436-c656acb692ae" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100268", 
+            "y" : "-99359"
+         }, 
+         "child" : [ 
+            "c967b8de-bc4a-49e0-a96a-64c10da56533"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "shkurs"
+         }, 
+         "objectName" : "Player"
+      }, 
       "c967b8de-bc4a-49e0-a96a-64c10da56533" : { 
          "class" : "DialogEndNode", 
          "desc" : { 
-            "x" : "-101179", 
-            "y" : "-99606"
+            "x" : "-100330", 
+            "y" : "-99240"
          }, 
          "child" : [ 
          ]

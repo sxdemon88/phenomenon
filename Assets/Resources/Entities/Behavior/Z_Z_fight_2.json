@@ -559,8 +559,8 @@
       "609035fd-a2d8-4af7-a6a7-2ab9eaeca36f" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-101490", 
-            "y" : "-100224"
+            "x" : "-101476", 
+            "y" : "-100227"
          }, 
          "child" : [ 
             "7793be1f-ba18-414f-94a0-1488fc57d8e2", 
@@ -889,8 +889,8 @@
          "spawnPoint" : "Spawn.Enemy.1", 
          "item" : { 
             "class" : "Character", 
-            "proto" : "rabbit", 
-            "character" : "rabbit", 
+            "proto" : "Rabbit", 
+            "character" : "Rabbit", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 

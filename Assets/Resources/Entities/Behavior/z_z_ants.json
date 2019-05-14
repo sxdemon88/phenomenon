@@ -1,0 +1,664 @@
+{ 
+   "states" : { 
+      "89e73491-2f58-4f79-a52e-56f7286b2ecb" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101155", 
+            "y" : "-100534"
+         }, 
+         "child" : [ 
+            "38890383-0962-4406-905d-7c2007689445"
+         ]
+      }, 
+      "38890383-0962-4406-905d-7c2007689445" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-101187", 
+            "y" : "-100353"
+         }, 
+         "child" : [ 
+            "0e6c2658-b3f8-4216-bfbf-40eb46315e7c", 
+            "e9c03229-3ae1-4424-9814-92ab3c2ef9b6"
+         ], 
+         "value" : "8", 
+         "modifier" : "Level"
+      }, 
+      "0e6c2658-b3f8-4216-bfbf-40eb46315e7c" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-101630", 
+            "y" : "-100123"
+         }, 
+         "child" : [ 
+            "b737e6a8-c2b8-42a8-96f4-46ed0472ce84", 
+            "1deaf249-a8f4-4d20-a6fe-e54da51615c7", 
+            "96dcc122-d944-4653-8d66-340c719a8630", 
+            "e280c7ec-5851-4db4-b107-fe79f784aa0e"
+         ]
+      }, 
+      "b737e6a8-c2b8-42a8-96f4-46ed0472ce84" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101855", 
+            "y" : "-100019", 
+            "comment" : "4"
+         }, 
+         "child" : [ 
+            "e07dec60-da50-4df5-be46-c9e5e498e575", 
+            "d598b48e-e7f1-4162-980e-ef49bbbe5f78", 
+            "c1133515-b6f7-4aa1-96bc-bd09d3965a47", 
+            "597276c2-9ed2-4815-a0c3-bfb72de325ba"
+         ]
+      }, 
+      "e07dec60-da50-4df5-be46-c9e5e498e575" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101935", 
+            "y" : "-99902"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.1", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Ant", 
+            "character" : "ant5", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "d598b48e-e7f1-4162-980e-ef49bbbe5f78" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101795", 
+            "y" : "-99903"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.2", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Ant", 
+            "character" : "ant5", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "c1133515-b6f7-4aa1-96bc-bd09d3965a47" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101658", 
+            "y" : "-99901"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.3", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Ant", 
+            "character" : "ant5", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "597276c2-9ed2-4815-a0c3-bfb72de325ba" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101527", 
+            "y" : "-99900"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.4", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Ant", 
+            "character" : "ant5", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "1deaf249-a8f4-4d20-a6fe-e54da51615c7" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101516", 
+            "y" : "-100016", 
+            "comment" : "6"
+         }, 
+         "child" : [ 
+            "b737e6a8-c2b8-42a8-96f4-46ed0472ce84", 
+            "e464e328-e423-4a3e-b24b-f614b39aa1df", 
+            "8f0ebbc4-6d35-4eee-9860-b11d64a7952e"
+         ]
+      }, 
+      "e464e328-e423-4a3e-b24b-f614b39aa1df" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101394", 
+            "y" : "-99898"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.5", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Ant", 
+            "character" : "ant5", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "8f0ebbc4-6d35-4eee-9860-b11d64a7952e" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101262", 
+            "y" : "-99898"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.6", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Ant", 
+            "character" : "ant5", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "96dcc122-d944-4653-8d66-340c719a8630" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101206", 
+            "y" : "-100003", 
+            "comment" : "7"
+         }, 
+         "child" : [ 
+            "1deaf249-a8f4-4d20-a6fe-e54da51615c7", 
+            "2d47b01e-91e5-4491-9f87-b05eecd22e7b"
+         ]
+      }, 
+      "2d47b01e-91e5-4491-9f87-b05eecd22e7b" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101131", 
+            "y" : "-99897"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.7", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Ant", 
+            "character" : "ant10", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "e280c7ec-5851-4db4-b107-fe79f784aa0e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100980", 
+            "y" : "-100007", 
+            "comment" : "8"
+         }, 
+         "child" : [ 
+            "96dcc122-d944-4653-8d66-340c719a8630", 
+            "cea3bc6c-7017-450b-af1e-a4a06fc7fe7c"
+         ]
+      }, 
+      "cea3bc6c-7017-450b-af1e-a4a06fc7fe7c" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100993", 
+            "y" : "-99896"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.8", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Ant", 
+            "character" : "ant10", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "e9c03229-3ae1-4424-9814-92ab3c2ef9b6" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-100424", 
+            "y" : "-100125"
+         }, 
+         "child" : [ 
+            "ee22399b-84ef-43f3-9d96-0c9ba5ac04dc", 
+            "6f17f4bb-d290-43fd-9119-7e897a9d21a3", 
+            "fcb11669-8d3d-49e6-93d0-c93f64ffb80b", 
+            "dfeb238f-b46d-4bb7-8297-5c954fe24285"
+         ]
+      }, 
+      "ee22399b-84ef-43f3-9d96-0c9ba5ac04dc" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100596", 
+            "y" : "-100029", 
+            "comment" : "2"
+         }, 
+         "child" : [ 
+            "1f8373f5-6d97-4930-a5e4-62de60521b95", 
+            "ab411e1e-29f5-42c8-8595-6e19fc2433ff"
+         ]
+      }, 
+      "1f8373f5-6d97-4930-a5e4-62de60521b95" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100668", 
+            "y" : "-99905"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.1", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Ant", 
+            "character" : "Ant", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "ab411e1e-29f5-42c8-8595-6e19fc2433ff" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100484", 
+            "y" : "-99901"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.2", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Ant", 
+            "character" : "Ant", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "6f17f4bb-d290-43fd-9119-7e897a9d21a3" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100431", 
+            "y" : "-100026", 
+            "comment" : "3"
+         }, 
+         "child" : [ 
+            "1f8373f5-6d97-4930-a5e4-62de60521b95", 
+            "ab411e1e-29f5-42c8-8595-6e19fc2433ff", 
+            "2e60c3a3-a2ac-446a-94fa-09a879a4fc96"
+         ]
+      }, 
+      "2e60c3a3-a2ac-446a-94fa-09a879a4fc96" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100310", 
+            "y" : "-99904"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.3", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Ant", 
+            "character" : "Ant", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "fcb11669-8d3d-49e6-93d0-c93f64ffb80b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100264", 
+            "y" : "-100025", 
+            "comment" : "4"
+         }, 
+         "child" : [ 
+            "1f8373f5-6d97-4930-a5e4-62de60521b95", 
+            "ab411e1e-29f5-42c8-8595-6e19fc2433ff", 
+            "2e60c3a3-a2ac-446a-94fa-09a879a4fc96", 
+            "454721c2-496c-4f1f-8b1f-3e8d76143d90"
+         ]
+      }, 
+      "454721c2-496c-4f1f-8b1f-3e8d76143d90" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100154", 
+            "y" : "-99898"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.4", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Ant", 
+            "character" : "Ant", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "dfeb238f-b46d-4bb7-8297-5c954fe24285" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100088", 
+            "y" : "-100025", 
+            "comment" : "6"
+         }, 
+         "child" : [ 
+            "1f8373f5-6d97-4930-a5e4-62de60521b95", 
+            "ab411e1e-29f5-42c8-8595-6e19fc2433ff", 
+            "2e60c3a3-a2ac-446a-94fa-09a879a4fc96", 
+            "454721c2-496c-4f1f-8b1f-3e8d76143d90", 
+            "b6ef2b68-b795-4a3c-94c9-df0726fbec97", 
+            "59f9fdef-7c6e-4fe8-9d5f-b1712ccb564a"
+         ]
+      }, 
+      "b6ef2b68-b795-4a3c-94c9-df0726fbec97" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-99986", 
+            "y" : "-99897"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.5", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Ant", 
+            "character" : "Ant", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "59f9fdef-7c6e-4fe8-9d5f-b1712ccb564a" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-99852", 
+            "y" : "-99892"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.6", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Ant", 
+            "character" : "Ant", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }
+   }, 
+   "entry" : "89e73491-2f58-4f79-a52e-56f7286b2ecb"
+}

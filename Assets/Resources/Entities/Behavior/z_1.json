@@ -2547,8 +2547,11 @@
             "b1a186ff-9c34-48fa-95c8-e23195978a15", 
             "fa7a5a32-4a34-49dd-abef-806dcc198f2d", 
             "3d20c6df-24bd-45a6-be56-256514083a3c", 
+            "524cbed3-7914-45e2-9f5c-3f855e94c0b9", 
             "f587e48d-bf9c-41af-8313-cf6ff9f9ea1f", 
+            "cd76b1e1-5f8c-4390-a8f1-d293fa1ad4fd", 
             "9d5c8004-57e0-4430-8695-2fa68ad2a847", 
+            "ddee81d2-0532-48c6-b477-a00d63be8d42", 
             "7db3474c-4cd1-4fb4-aac5-b175c027e432"
          ]
       }, 
@@ -7472,6 +7475,27 @@
          ], 
          "script" : "Entities/Behavior/Z_Z_fight_6"
       }, 
+      "524cbed3-7914-45e2-9f5c-3f855e94c0b9" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-96550", 
+            "y" : "-101210"
+         }, 
+         "child" : [ 
+            "cd98b260-4bda-42f3-aad9-5336f8a8ea35"
+         ], 
+         "encType" : "bearhigh"
+      }, 
+      "cd98b260-4bda-42f3-aad9-5336f8a8ea35" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-96568", 
+            "y" : "-101110"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/z_z_bearhigh"
+      }, 
       "f587e48d-bf9c-41af-8313-cf6ff9f9ea1f" : { 
          "class" : "EncounterTypeNode", 
          "desc" : { 
@@ -7493,6 +7517,27 @@
          ], 
          "script" : "Entities/Behavior/Z_Z_deidont"
       }, 
+      "cd76b1e1-5f8c-4390-a8f1-d293fa1ad4fd" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-96318", 
+            "y" : "-101205"
+         }, 
+         "child" : [ 
+            "859cb9b5-831c-47b5-8591-c61cd6b03293"
+         ], 
+         "encType" : "spidernights"
+      }, 
+      "859cb9b5-831c-47b5-8591-c61cd6b03293" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-96336", 
+            "y" : "-101105"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/z_z_spidernights"
+      }, 
       "9d5c8004-57e0-4430-8695-2fa68ad2a847" : { 
          "class" : "EncounterTypeNode", 
          "desc" : { 
@@ -7513,6 +7558,27 @@
          "child" : [ 
          ], 
          "script" : "entities/behavior/z_z_drug"
+      }, 
+      "ddee81d2-0532-48c6-b477-a00d63be8d42" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-96798", 
+            "y" : "-101214"
+         }, 
+         "child" : [ 
+            "62136937-ac27-4285-958b-49004117b1c6"
+         ], 
+         "encType" : "wolflider"
+      }, 
+      "62136937-ac27-4285-958b-49004117b1c6" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-96816", 
+            "y" : "-101114"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/z_z_wolflider"
       }, 
       "7db3474c-4cd1-4fb4-aac5-b175c027e432" : { 
          "class" : "EncounterTypeNode", 

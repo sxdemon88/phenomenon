@@ -1,0 +1,688 @@
+{ 
+   "states" : { 
+      "d1f15558-3d0a-4817-bb24-1f69a5f0116e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101290", 
+            "y" : "-100786"
+         }, 
+         "child" : [ 
+            "45097109-30e2-413a-b2c2-7530540a982f", 
+            "cf2c3c45-9c1a-49dd-94d9-facc036fe4d8"
+         ]
+      }, 
+      "45097109-30e2-413a-b2c2-7530540a982f" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101587", 
+            "y" : "-100589"
+         }, 
+         "child" : [ 
+            "1ab0b820-a527-4c48-85a9-4437f556ec5f", 
+            "cdf51816-a6d5-4928-a360-863bb8ca143c"
+         ], 
+         "key" : "E_TIER_0"
+      }, 
+      "1ab0b820-a527-4c48-85a9-4437f556ec5f" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101565", 
+            "y" : "-100378", 
+            "comment" : "1-3"
+         }, 
+         "child" : [ 
+            "565688f1-4340-4ee8-9ed1-aa264d075899"
+         ]
+      }, 
+      "565688f1-4340-4ee8-9ed1-aa264d075899" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-101576", 
+            "y" : "-100330"
+         }, 
+         "child" : [ 
+            "a49e7caf-19f9-4442-8e86-08579b287878", 
+            "ad08899c-a769-4617-a2d2-cc7f7a72abc8", 
+            "72393f39-38c9-41fa-a49d-d3a46b1d9000"
+         ]
+      }, 
+      "a49e7caf-19f9-4442-8e86-08579b287878" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101704", 
+            "y" : "-100281"
+         }, 
+         "child" : [ 
+            "d1c23863-4cb7-487b-b49c-398350cd2209", 
+            "ef43d1d6-9954-45a4-9458-3f33180e58c8"
+         ]
+      }, 
+      "d1c23863-4cb7-487b-b49c-398350cd2209" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101918", 
+            "y" : "-100205"
+         }, 
+         "child" : [ 
+            "1cc0958f-e1a0-431b-9897-3d19053bf439"
+         ], 
+         "spawnPoint" : "Spawn.Enemy.7", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GaintSpider", 
+            "character" : "GaintSpider", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "1cc0958f-e1a0-431b-9897-3d19053bf439" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-101852", 
+            "y" : "-99966"
+         }, 
+         "child" : [ 
+            "c72e9719-aab9-4538-8ba9-718e2a754e61"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "Spawn.Enemy.7"
+      }, 
+      "c72e9719-aab9-4538-8ba9-718e2a754e61" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-101227", 
+            "y" : "-99867"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/Z_Z_Disease1"
+      }, 
+      "ef43d1d6-9954-45a4-9458-3f33180e58c8" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101730", 
+            "y" : "-100180"
+         }, 
+         "child" : [ 
+            "0724ac55-db44-40b6-bd33-53e8c1537e70"
+         ], 
+         "spawnPoint" : "Spawn.Enemy.1", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GaintSpider", 
+            "character" : "GaintSpider", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "0724ac55-db44-40b6-bd33-53e8c1537e70" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-101348", 
+            "y" : "-99976"
+         }, 
+         "child" : [ 
+            "c72e9719-aab9-4538-8ba9-718e2a754e61"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "Spawn.Enemy.1"
+      }, 
+      "ad08899c-a769-4617-a2d2-cc7f7a72abc8" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101567", 
+            "y" : "-100281"
+         }, 
+         "child" : [ 
+            "19684c85-09b9-4449-bc6f-4efbcf05806a", 
+            "0c7d30bd-c83d-4e51-8537-f00f37ff7d26"
+         ]
+      }, 
+      "19684c85-09b9-4449-bc6f-4efbcf05806a" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101584", 
+            "y" : "-100167"
+         }, 
+         "child" : [ 
+            "7ba71669-2008-4022-b0c7-ce1d519e4c4a"
+         ], 
+         "spawnPoint" : "Spawn.Enemy.2", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GaintSpider", 
+            "character" : "GaintSpider", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "7ba71669-2008-4022-b0c7-ce1d519e4c4a" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-101088", 
+            "y" : "-99978"
+         }, 
+         "child" : [ 
+            "c72e9719-aab9-4538-8ba9-718e2a754e61"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "Spawn.Enemy.2"
+      }, 
+      "0c7d30bd-c83d-4e51-8537-f00f37ff7d26" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101401", 
+            "y" : "-100175"
+         }, 
+         "child" : [ 
+            "f327fa3e-0f1c-48ff-a45b-af10d98ff41e"
+         ], 
+         "spawnPoint" : "Spawn.Enemy.3", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GaintSpider", 
+            "character" : "GaintSpider", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "f327fa3e-0f1c-48ff-a45b-af10d98ff41e" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-100838", 
+            "y" : "-99980"
+         }, 
+         "child" : [ 
+            "c72e9719-aab9-4538-8ba9-718e2a754e61"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "Spawn.Enemy.3"
+      }, 
+      "72393f39-38c9-41fa-a49d-d3a46b1d9000" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101435", 
+            "y" : "-100284"
+         }, 
+         "child" : [ 
+            "ef43d1d6-9954-45a4-9458-3f33180e58c8", 
+            "19684c85-09b9-4449-bc6f-4efbcf05806a", 
+            "0c7d30bd-c83d-4e51-8537-f00f37ff7d26"
+         ]
+      }, 
+      "cdf51816-a6d5-4928-a360-863bb8ca143c" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101479", 
+            "y" : "-100504"
+         }, 
+         "child" : [ 
+            "c7b6b5b4-c132-4464-988b-4266f7f336a4", 
+            "764feef7-c6fa-4b63-85ce-54ebf2eaf7f1"
+         ], 
+         "key" : "E_TIER_1"
+      }, 
+      "c7b6b5b4-c132-4464-988b-4266f7f336a4" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101416", 
+            "y" : "-100356", 
+            "comment" : "2-4"
+         }, 
+         "child" : [ 
+            "565688f1-4340-4ee8-9ed1-aa264d075899", 
+            "84f55b02-fe97-4772-8991-8288ebd7d5aa"
+         ]
+      }, 
+      "84f55b02-fe97-4772-8991-8288ebd7d5aa" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101249", 
+            "y" : "-100223"
+         }, 
+         "child" : [ 
+            "d097faf6-ec40-4301-b22a-1198c93a693a"
+         ], 
+         "spawnPoint" : "Spawn.Enemy.4", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GaintSpider", 
+            "character" : "GaintSpider", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "d097faf6-ec40-4301-b22a-1198c93a693a" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-100595", 
+            "y" : "-99981"
+         }, 
+         "child" : [ 
+            "c72e9719-aab9-4538-8ba9-718e2a754e61"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "Spawn.Enemy.4"
+      }, 
+      "764feef7-c6fa-4b63-85ce-54ebf2eaf7f1" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101301", 
+            "y" : "-100501"
+         }, 
+         "child" : [ 
+            "d9c870d8-1edb-4fb0-97a7-81111fe8eaa7", 
+            "29fc6a17-e4b6-45cd-9034-215f2aba24fc"
+         ], 
+         "key" : "E_TIER_2"
+      }, 
+      "d9c870d8-1edb-4fb0-97a7-81111fe8eaa7" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101269", 
+            "y" : "-100362", 
+            "comment" : "3-5"
+         }, 
+         "child" : [ 
+            "c7b6b5b4-c132-4464-988b-4266f7f336a4", 
+            "13f6e0ec-9d60-4d90-b220-3e2b3651d3c9"
+         ]
+      }, 
+      "13f6e0ec-9d60-4d90-b220-3e2b3651d3c9" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101113", 
+            "y" : "-100217"
+         }, 
+         "child" : [ 
+            "4750d75e-37a4-42e0-b750-99f4f0a95991"
+         ], 
+         "spawnPoint" : "Spawn.Enemy.5", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GaintSpider", 
+            "character" : "GaintSpider", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "4750d75e-37a4-42e0-b750-99f4f0a95991" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-102362", 
+            "y" : "-99962"
+         }, 
+         "child" : [ 
+            "c72e9719-aab9-4538-8ba9-718e2a754e61"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "Spawn.Enemy.5"
+      }, 
+      "29fc6a17-e4b6-45cd-9034-215f2aba24fc" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101117", 
+            "y" : "-100399", 
+            "comment" : "5-6"
+         }, 
+         "child" : [ 
+            "d9c870d8-1edb-4fb0-97a7-81111fe8eaa7", 
+            "de038f15-bcfb-4dd9-9e43-38809b9f2141"
+         ]
+      }, 
+      "de038f15-bcfb-4dd9-9e43-38809b9f2141" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100970", 
+            "y" : "-100233"
+         }, 
+         "child" : [ 
+            "3e1da914-53e8-4e98-af30-309be16d6659"
+         ], 
+         "spawnPoint" : "Spawn.Enemy.6", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GaintSpider", 
+            "character" : "GaintSpider", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "3e1da914-53e8-4e98-af30-309be16d6659" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-102102", 
+            "y" : "-99964"
+         }, 
+         "child" : [ 
+            "c72e9719-aab9-4538-8ba9-718e2a754e61"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "Spawn.Enemy.6"
+      }, 
+      "cf2c3c45-9c1a-49dd-94d9-facc036fe4d8" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-100818", 
+            "y" : "-100733"
+         }, 
+         "child" : [ 
+            "a6f6170f-6480-4e0d-8d00-97d36d9816ea", 
+            "6d29f8c9-b4fe-42b8-b6a7-564da8a4f22a"
+         ], 
+         "value" : "15", 
+         "modifier" : "Level"
+      }, 
+      "a6f6170f-6480-4e0d-8d00-97d36d9816ea" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100688", 
+            "y" : "-100589"
+         }, 
+         "child" : [ 
+            "fe6a1360-f7b1-4b9b-9d0f-a64f4603369b", 
+            "2348e2e5-3041-4327-8eb9-1a505e7893ba", 
+            "5f605f79-239f-4593-9642-dc5c55ef7009"
+         ]
+      }, 
+      "fe6a1360-f7b1-4b9b-9d0f-a64f4603369b" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-100792", 
+            "y" : "-100497"
+         }, 
+         "child" : [ 
+            "7e511888-5e9c-4723-9507-5b34696dd4f1"
+         ], 
+         "objectName" : "Spawn.Enemy.4", 
+         "pos" : [ 
+            "0", 
+            "0", 
+            "0"
+         ]
+      }, 
+      "7e511888-5e9c-4723-9507-5b34696dd4f1" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100790", 
+            "y" : "-100399"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.4", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GaintSpider", 
+            "character" : "GaintSpider", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "2348e2e5-3041-4327-8eb9-1a505e7893ba" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-100651", 
+            "y" : "-100495"
+         }, 
+         "child" : [ 
+            "1093912d-beb0-42b3-86ce-d7cc84f851ab"
+         ], 
+         "objectName" : "Spawn.Enemy.5", 
+         "pos" : [ 
+            "0", 
+            "0", 
+            "0"
+         ]
+      }, 
+      "1093912d-beb0-42b3-86ce-d7cc84f851ab" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100644", 
+            "y" : "-100398"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.5", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GaintSpider", 
+            "character" : "GaintSpider", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "5f605f79-239f-4593-9642-dc5c55ef7009" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-100496", 
+            "y" : "-100494"
+         }, 
+         "child" : [ 
+            "4892b824-bc01-4ea5-aa2c-785f69396d2b"
+         ], 
+         "objectName" : "Spawn.Enemy.6", 
+         "pos" : [ 
+            "0", 
+            "0", 
+            "0"
+         ]
+      }, 
+      "4892b824-bc01-4ea5-aa2c-785f69396d2b" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100493", 
+            "y" : "-100395"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.6", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GaintSpider", 
+            "character" : "GaintSpider", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "6d29f8c9-b4fe-42b8-b6a7-564da8a4f22a" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100282", 
+            "y" : "-100635"
+         }, 
+         "child" : [ 
+         ]
+      }
+   }, 
+   "entry" : "d1f15558-3d0a-4817-bb24-1f69a5f0116e"
+}

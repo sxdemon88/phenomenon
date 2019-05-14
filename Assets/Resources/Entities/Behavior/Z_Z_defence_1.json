@@ -3,8 +3,8 @@
       "89e73491-2f58-4f79-a52e-56f7286b2ecb" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-101204", 
-            "y" : "-100627"
+            "x" : "-101234", 
+            "y" : "-100947"
          }, 
          "child" : [ 
             "1c206cc3-436e-448f-ac73-c8d71a8da0ad", 
@@ -14,15 +14,1016 @@
       "1c206cc3-436e-448f-ac73-c8d71a8da0ad" : { 
          "class" : "RandomNode", 
          "desc" : { 
-            "x" : "-102238", 
-            "y" : "-100883"
+            "x" : "-101853", 
+            "y" : "-100881"
          }, 
          "child" : [ 
+            "b3eaba2d-744b-4bf4-bc59-bb228592903b", 
+            "fd21bcb1-8e25-4378-869d-f985a224f4fc", 
             "dbc4379b-6ddc-41f8-b63c-73da490e123d", 
             "84cf9043-0207-4253-a6c9-7d2133fdb9a1", 
             "2acb6518-aa85-4d22-b419-86545bd8e425", 
             "80cbaf8d-9174-48aa-ac95-c4ea0df72582", 
             "e9c03229-3ae1-4424-9814-92ab3c2ef9b6"
+         ]
+      }, 
+      "b3eaba2d-744b-4bf4-bc59-bb228592903b" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-101000", 
+            "y" : "-102044", 
+            "comment" : "bigspiders"
+         }, 
+         "child" : [ 
+            "9459a443-a4ea-4acd-b7f4-d34d843f7c3f", 
+            "d86b4f3d-0c83-44a6-870a-7b800548b202", 
+            "b89ef88a-fba1-47d6-8299-0ef2a790f11c"
+         ]
+      }, 
+      "9459a443-a4ea-4acd-b7f4-d34d843f7c3f" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101288", 
+            "y" : "-101767", 
+            "comment" : "2"
+         }, 
+         "child" : [ 
+            "e844b668-945a-4f08-83a0-7be222c6a112", 
+            "ba110729-e929-4bd9-b503-219e533e2f00", 
+            "d0237d5d-e440-4541-902d-ada187745d6a"
+         ]
+      }, 
+      "e844b668-945a-4f08-83a0-7be222c6a112" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101315", 
+            "y" : "-101613"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.1", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "gaintspider", 
+            "character" : "gaintspider", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "ba110729-e929-4bd9-b503-219e533e2f00" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101159", 
+            "y" : "-101606"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.2", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "gaintspider", 
+            "character" : "gaintspider", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "d0237d5d-e440-4541-902d-ada187745d6a" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-100768", 
+            "y" : "-101434"
+         }, 
+         "child" : [ 
+            "d35d882f-7938-45a9-9bf5-f571ff075012", 
+            "5151c0be-a3b8-4f8a-9b94-4d288f9f1057", 
+            "3f2a872d-75e8-4533-8dd8-45155b5c6c91", 
+            "22c62806-1e35-49c5-8983-d0a51f5898a5", 
+            "c95188cb-cbe1-41b5-8128-d41e21aeb8d4", 
+            "5e35ef4b-5183-4261-ac04-228c353b6920"
+         ]
+      }, 
+      "d35d882f-7938-45a9-9bf5-f571ff075012" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101278", 
+            "y" : "-101306"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "5151c0be-a3b8-4f8a-9b94-4d288f9f1057" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101106", 
+            "y" : "-101312"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.5", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "gaintspider", 
+            "character" : "gaintspider_strong", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "3f2a872d-75e8-4533-8dd8-45155b5c6c91" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100864", 
+            "y" : "-101308"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.5", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "gaintspider", 
+            "character" : "gaintspider_strong", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "22c62806-1e35-49c5-8983-d0a51f5898a5" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100678", 
+            "y" : "-101305"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.5", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "gaintspider", 
+            "character" : "gaintspider_strong", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "c95188cb-cbe1-41b5-8128-d41e21aeb8d4" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100350", 
+            "y" : "-101330"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "5e35ef4b-5183-4261-ac04-228c353b6920" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100232", 
+            "y" : "-101326"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "d86b4f3d-0c83-44a6-870a-7b800548b202" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101003", 
+            "y" : "-101846", 
+            "comment" : "3"
+         }, 
+         "child" : [ 
+            "9459a443-a4ea-4acd-b7f4-d34d843f7c3f", 
+            "12b56127-5a8d-401e-98bd-8a93082d58f1", 
+            "d0237d5d-e440-4541-902d-ada187745d6a"
+         ]
+      }, 
+      "12b56127-5a8d-401e-98bd-8a93082d58f1" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101021", 
+            "y" : "-101602"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.3", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "gaintspider", 
+            "character" : "gaintspider", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "b89ef88a-fba1-47d6-8299-0ef2a790f11c" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100743", 
+            "y" : "-101836", 
+            "comment" : "4"
+         }, 
+         "child" : [ 
+            "9459a443-a4ea-4acd-b7f4-d34d843f7c3f", 
+            "12b56127-5a8d-401e-98bd-8a93082d58f1", 
+            "d989de56-7645-44b2-8f17-e5be4cb22f6d", 
+            "d0237d5d-e440-4541-902d-ada187745d6a"
+         ]
+      }, 
+      "d989de56-7645-44b2-8f17-e5be4cb22f6d" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100880", 
+            "y" : "-101599"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.4", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "gaintspider", 
+            "character" : "gaintspider", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "fd21bcb1-8e25-4378-869d-f985a224f4fc" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-102874", 
+            "y" : "-103089", 
+            "comment" : "spidersmall"
+         }, 
+         "child" : [ 
+            "50fbeb10-4650-4410-81da-2942057e11b1", 
+            "567e22b5-8e58-4fb1-881a-c6eaea72a90c", 
+            "a492d8bb-1f63-450d-bcfe-04b62bbcc548", 
+            "1a4e74f5-b5a2-4e84-bbd3-8699f983612b"
+         ]
+      }, 
+      "50fbeb10-4650-4410-81da-2942057e11b1" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103131", 
+            "y" : "-102876", 
+            "comment" : "10"
+         }, 
+         "child" : [ 
+            "95cac1c7-8be3-4b0b-bcea-b1fa9f3d49fb", 
+            "c8df4d61-5fee-4f4b-84f6-066da6ffea40", 
+            "40a49eee-879e-45d8-ac02-f5c98bb6b48b", 
+            "c40a60cc-25c6-4dc0-a4ec-cc5fa5fb12fc", 
+            "b3618d31-75f0-41f5-b720-5efa57def350", 
+            "e954c113-84ba-4411-96bd-c38ba0200266", 
+            "31ccf6f1-e650-4043-bb8c-0009aeb6fc0d", 
+            "0c51bd8e-6dac-471e-af95-9eabf4fb73f6", 
+            "f04a9fda-9752-428d-9b66-aa3e9ea2ce19", 
+            "34b199ef-2d5b-4021-a049-61a0e98cef0d", 
+            "85f52292-4ab8-4102-bc65-6efca1c58385"
+         ]
+      }, 
+      "95cac1c7-8be3-4b0b-bcea-b1fa9f3d49fb" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-103487", 
+            "y" : "-102418"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.1", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Spider", 
+            "character" : "Spider_small_strong", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "c8df4d61-5fee-4f4b-84f6-066da6ffea40" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-103336", 
+            "y" : "-102416"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.2", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Spider", 
+            "character" : "spider_big", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "40a49eee-879e-45d8-ac02-f5c98bb6b48b" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-103206", 
+            "y" : "-102415"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.3", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Spider", 
+            "character" : "spider_big", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "c40a60cc-25c6-4dc0-a4ec-cc5fa5fb12fc" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-103082", 
+            "y" : "-102411"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.4", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Spider", 
+            "character" : "spider_big", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "b3618d31-75f0-41f5-b720-5efa57def350" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102950", 
+            "y" : "-102408"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.5", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Spider", 
+            "character" : "spider_big", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "e954c113-84ba-4411-96bd-c38ba0200266" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102814", 
+            "y" : "-102407"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.6", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Spider", 
+            "character" : "spider_big", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "31ccf6f1-e650-4043-bb8c-0009aeb6fc0d" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102677", 
+            "y" : "-102406"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.7", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Spider", 
+            "character" : "spider_big", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "0c51bd8e-6dac-471e-af95-9eabf4fb73f6" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102553", 
+            "y" : "-102405"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.8", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Spider", 
+            "character" : "spider_small_strong", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "f04a9fda-9752-428d-9b66-aa3e9ea2ce19" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-102564", 
+            "y" : "-102736"
+         }, 
+         "child" : [ 
+            "0c51bd8e-6dac-471e-af95-9eabf4fb73f6"
+         ], 
+         "objectName" : "Spawn.Enemy.8", 
+         "pos" : [ 
+            "9", 
+            "0", 
+            "13"
+         ]
+      }, 
+      "34b199ef-2d5b-4021-a049-61a0e98cef0d" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-102694", 
+            "y" : "-102737"
+         }, 
+         "child" : [ 
+            "31ccf6f1-e650-4043-bb8c-0009aeb6fc0d"
+         ], 
+         "objectName" : "Spawn.Enemy.7", 
+         "pos" : [ 
+            "9", 
+            "0", 
+            "13"
+         ]
+      }, 
+      "85f52292-4ab8-4102-bc65-6efca1c58385" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-103823", 
+            "y" : "-102749"
+         }, 
+         "child" : [ 
+            "8522d6c7-e1d7-4517-8f15-8fa2a04cb148", 
+            "70701133-7c39-4727-a5f6-474b9e5f13e0", 
+            "a7a95492-a9d0-414d-845d-734cbbd668b7", 
+            "fdcb14c6-8f76-40fa-b8a2-ed8a3a6a5a54"
+         ]
+      }, 
+      "8522d6c7-e1d7-4517-8f15-8fa2a04cb148" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-104021", 
+            "y" : "-102591"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "70701133-7c39-4727-a5f6-474b9e5f13e0" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-103897", 
+            "y" : "-102483"
+         }, 
+         "child" : [ 
+            "4e0287fa-c61a-40b7-9ec8-f31ccbd229ee"
+         ], 
+         "objectName" : "Spawn.Enemy.1", 
+         "pos" : [ 
+            "4", 
+            "0", 
+            "2"
+         ]
+      }, 
+      "4e0287fa-c61a-40b7-9ec8-f31ccbd229ee" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-103893", 
+            "y" : "-102375"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.1", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Spider", 
+            "character" : "spider_big5", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "a7a95492-a9d0-414d-845d-734cbbd668b7" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-103745", 
+            "y" : "-102483"
+         }, 
+         "child" : [ 
+            "aeb43aad-e03a-478f-87f9-e545133f431b"
+         ], 
+         "objectName" : "Spawn.Enemy.2", 
+         "pos" : [ 
+            "4", 
+            "0", 
+            "2"
+         ]
+      }, 
+      "aeb43aad-e03a-478f-87f9-e545133f431b" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-103732", 
+            "y" : "-102377"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.2", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Spider", 
+            "character" : "spider_big5", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "fdcb14c6-8f76-40fa-b8a2-ed8a3a6a5a54" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103609", 
+            "y" : "-102634"
+         }, 
+         "child" : [ 
+            "70701133-7c39-4727-a5f6-474b9e5f13e0", 
+            "a7a95492-a9d0-414d-845d-734cbbd668b7"
+         ]
+      }, 
+      "567e22b5-8e58-4fb1-881a-c6eaea72a90c" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102829", 
+            "y" : "-102923", 
+            "comment" : "12"
+         }, 
+         "child" : [ 
+            "50fbeb10-4650-4410-81da-2942057e11b1", 
+            "1827f844-ed8f-4199-991e-0062c2fc3eb5", 
+            "e17640f1-053c-4eda-a54e-313ef80fb954"
+         ]
+      }, 
+      "1827f844-ed8f-4199-991e-0062c2fc3eb5" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-102824", 
+            "y" : "-102739"
+         }, 
+         "child" : [ 
+            "e954c113-84ba-4411-96bd-c38ba0200266"
+         ], 
+         "objectName" : "Spawn.Enemy.6", 
+         "pos" : [ 
+            "9", 
+            "0", 
+            "13"
+         ]
+      }, 
+      "e17640f1-053c-4eda-a54e-313ef80fb954" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-102948", 
+            "y" : "-102739"
+         }, 
+         "child" : [ 
+            "b3618d31-75f0-41f5-b720-5efa57def350"
+         ], 
+         "objectName" : "Spawn.Enemy.5", 
+         "pos" : [ 
+            "9", 
+            "0", 
+            "13"
+         ]
+      }, 
+      "a492d8bb-1f63-450d-bcfe-04b62bbcc548" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102607", 
+            "y" : "-102906", 
+            "comment" : "14"
+         }, 
+         "child" : [ 
+            "50fbeb10-4650-4410-81da-2942057e11b1", 
+            "e17640f1-053c-4eda-a54e-313ef80fb954", 
+            "7fd75dc0-28eb-47ac-8bed-5e850e1c627e", 
+            "4204b548-2598-45b5-b198-2c920e322c0f", 
+            "1827f844-ed8f-4199-991e-0062c2fc3eb5"
+         ]
+      }, 
+      "7fd75dc0-28eb-47ac-8bed-5e850e1c627e" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-103072", 
+            "y" : "-102739"
+         }, 
+         "child" : [ 
+            "c40a60cc-25c6-4dc0-a4ec-cc5fa5fb12fc"
+         ], 
+         "objectName" : "Spawn.Enemy.4", 
+         "pos" : [ 
+            "9", 
+            "0", 
+            "13"
+         ]
+      }, 
+      "4204b548-2598-45b5-b198-2c920e322c0f" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-103204", 
+            "y" : "-102741"
+         }, 
+         "child" : [ 
+            "40a49eee-879e-45d8-ac02-f5c98bb6b48b"
+         ], 
+         "objectName" : "Spawn.Enemy.3", 
+         "pos" : [ 
+            "9", 
+            "0", 
+            "13"
+         ]
+      }, 
+      "1a4e74f5-b5a2-4e84-bbd3-8699f983612b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102404", 
+            "y" : "-102914", 
+            "comment" : "16"
+         }, 
+         "child" : [ 
+            "50fbeb10-4650-4410-81da-2942057e11b1", 
+            "280bc6d2-d1d7-44f7-b636-475c387bf16f", 
+            "97026cb9-b50f-4a73-930f-66dbb8e707f7", 
+            "4204b548-2598-45b5-b198-2c920e322c0f", 
+            "7fd75dc0-28eb-47ac-8bed-5e850e1c627e", 
+            "e17640f1-053c-4eda-a54e-313ef80fb954", 
+            "1827f844-ed8f-4199-991e-0062c2fc3eb5", 
+            "34b199ef-2d5b-4021-a049-61a0e98cef0d", 
+            "f04a9fda-9752-428d-9b66-aa3e9ea2ce19"
+         ]
+      }, 
+      "280bc6d2-d1d7-44f7-b636-475c387bf16f" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-103458", 
+            "y" : "-102741"
+         }, 
+         "child" : [ 
+            "95cac1c7-8be3-4b0b-bcea-b1fa9f3d49fb"
+         ], 
+         "objectName" : "Spawn.Enemy.1", 
+         "pos" : [ 
+            "9", 
+            "0", 
+            "13"
+         ]
+      }, 
+      "97026cb9-b50f-4a73-930f-66dbb8e707f7" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-103330", 
+            "y" : "-102741"
+         }, 
+         "child" : [ 
+            "c8df4d61-5fee-4f4b-84f6-066da6ffea40"
+         ], 
+         "objectName" : "Spawn.Enemy.2", 
+         "pos" : [ 
+            "9", 
+            "0", 
+            "13"
          ]
       }, 
       "dbc4379b-6ddc-41f8-b63c-73da490e123d" : { 
@@ -41,8 +1042,8 @@
       "89e985fd-0bf6-4d8a-95c8-75d8ace4612a" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-104311", 
-            "y" : "-101826", 
+            "x" : "-104359", 
+            "y" : "-101773", 
             "comment" : "10"
          }, 
          "child" : [ 
@@ -55,22 +1056,23 @@
             "d24ce6a4-1da7-452f-a2ff-b4a22c1e0536", 
             "1d492bb7-d515-42ea-9526-fb5faca430cc", 
             "0ebfd9df-ccf2-4dc1-9335-4319b35f92de", 
-            "58c5d7cb-642d-470e-b02f-128dd5409420"
+            "58c5d7cb-642d-470e-b02f-128dd5409420", 
+            "b23ff9c7-2e4f-479a-bcb7-d222a25e18e3"
          ]
       }, 
       "38db1f27-7015-469c-a00e-2f200381dec2" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-104647", 
-            "y" : "-101428"
+            "x" : "-104694", 
+            "y" : "-101341"
          }, 
          "child" : [ 
          ], 
          "spawnPoint" : "Spawn.Enemy.1", 
          "item" : { 
             "class" : "Character", 
-            "proto" : "ant", 
-            "character" : "ant", 
+            "proto" : "Ant", 
+            "character" : "Ant", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -98,16 +1100,16 @@
       "e444bfea-b018-47c4-8a94-5a586bcc8422" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-104527", 
-            "y" : "-101428"
+            "x" : "-104574", 
+            "y" : "-101341"
          }, 
          "child" : [ 
          ], 
          "spawnPoint" : "Spawn.Enemy.2", 
          "item" : { 
             "class" : "Character", 
-            "proto" : "ant", 
-            "character" : "ant", 
+            "proto" : "Ant", 
+            "character" : "Ant", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -135,16 +1137,16 @@
       "e76ac33c-e0a6-40ed-9b82-f95b2900e0ce" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-104410", 
-            "y" : "-101429"
+            "x" : "-104457", 
+            "y" : "-101342"
          }, 
          "child" : [ 
          ], 
          "spawnPoint" : "Spawn.Enemy.3", 
          "item" : { 
             "class" : "Character", 
-            "proto" : "ant", 
-            "character" : "ant", 
+            "proto" : "Ant", 
+            "character" : "Ant", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -172,16 +1174,16 @@
       "965524e5-637c-41e0-b3d0-3c5ee65ab60d" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-104293", 
-            "y" : "-101428"
+            "x" : "-104340", 
+            "y" : "-101341"
          }, 
          "child" : [ 
          ], 
          "spawnPoint" : "Spawn.Enemy.4", 
          "item" : { 
             "class" : "Character", 
-            "proto" : "ant", 
-            "character" : "ant", 
+            "proto" : "Ant", 
+            "character" : "Ant", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -209,16 +1211,16 @@
       "33157b18-0ed2-4f32-bdf2-37f08c9ac2ae" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-104177", 
-            "y" : "-101427"
+            "x" : "-104224", 
+            "y" : "-101340"
          }, 
          "child" : [ 
          ], 
          "spawnPoint" : "Spawn.Enemy.5", 
          "item" : { 
             "class" : "Character", 
-            "proto" : "ant", 
-            "character" : "ant", 
+            "proto" : "Ant", 
+            "character" : "Ant", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -246,16 +1248,16 @@
       "9c163608-bb1a-4ccc-897d-b51838ee4623" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-104059", 
-            "y" : "-101425"
+            "x" : "-104106", 
+            "y" : "-101338"
          }, 
          "child" : [ 
          ], 
          "spawnPoint" : "Spawn.Enemy.6", 
          "item" : { 
             "class" : "Character", 
-            "proto" : "ant", 
-            "character" : "ant", 
+            "proto" : "Ant", 
+            "character" : "Ant", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -283,16 +1285,16 @@
       "d24ce6a4-1da7-452f-a2ff-b4a22c1e0536" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-103942", 
-            "y" : "-101426"
+            "x" : "-103989", 
+            "y" : "-101339"
          }, 
          "child" : [ 
          ], 
          "spawnPoint" : "Spawn.Enemy.7", 
          "item" : { 
             "class" : "Character", 
-            "proto" : "ant", 
-            "character" : "ant", 
+            "proto" : "Ant", 
+            "character" : "Ant", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -320,16 +1322,16 @@
       "1d492bb7-d515-42ea-9526-fb5faca430cc" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-103825", 
-            "y" : "-101426"
+            "x" : "-103872", 
+            "y" : "-101339"
          }, 
          "child" : [ 
          ], 
          "spawnPoint" : "Spawn.Enemy.8", 
          "item" : { 
             "class" : "Character", 
-            "proto" : "ant", 
-            "character" : "ant", 
+            "proto" : "Ant", 
+            "character" : "Ant", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -357,8 +1359,8 @@
       "0ebfd9df-ccf2-4dc1-9335-4319b35f92de" : { 
          "class" : "MoveObjectNode", 
          "desc" : { 
-            "x" : "-103820", 
-            "y" : "-101658"
+            "x" : "-103814", 
+            "y" : "-101655"
          }, 
          "child" : [ 
             "1d492bb7-d515-42ea-9526-fb5faca430cc"
@@ -386,11 +1388,140 @@
             "13"
          ]
       }, 
+      "b23ff9c7-2e4f-479a-bcb7-d222a25e18e3" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-105009", 
+            "y" : "-101651"
+         }, 
+         "child" : [ 
+            "c99aaf62-bd2c-4eb3-b2e2-ccc49987f559", 
+            "9cc2fb3d-0533-48b3-9007-1323d563f150", 
+            "22b4d822-dfb6-483b-bc49-9827da61064d"
+         ]
+      }, 
+      "c99aaf62-bd2c-4eb3-b2e2-ccc49987f559" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-105147", 
+            "y" : "-101402"
+         }, 
+         "child" : [ 
+            "20969ad5-82ed-408f-9216-63da2af120b5"
+         ], 
+         "objectName" : "Spawn.Enemy.1", 
+         "pos" : [ 
+            "4", 
+            "0", 
+            "2"
+         ]
+      }, 
+      "20969ad5-82ed-408f-9216-63da2af120b5" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-105143", 
+            "y" : "-101294"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.1", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Ant", 
+            "character" : "ant5", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "9cc2fb3d-0533-48b3-9007-1323d563f150" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-104995", 
+            "y" : "-101402"
+         }, 
+         "child" : [ 
+            "a1225e63-3e1d-422f-95c8-228c9c629b9e"
+         ], 
+         "objectName" : "Spawn.Enemy.2", 
+         "pos" : [ 
+            "4", 
+            "0", 
+            "2"
+         ]
+      }, 
+      "a1225e63-3e1d-422f-95c8-228c9c629b9e" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-104982", 
+            "y" : "-101296"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.2", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Ant", 
+            "character" : "ant10", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "22b4d822-dfb6-483b-bc49-9827da61064d" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-104888", 
+            "y" : "-101544"
+         }, 
+         "child" : [ 
+            "c99aaf62-bd2c-4eb3-b2e2-ccc49987f559", 
+            "9cc2fb3d-0533-48b3-9007-1323d563f150"
+         ]
+      }, 
       "85e45ed7-ce52-445d-aa39-0c03074bb33a" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-104072", 
-            "y" : "-101830", 
+            "x" : "-104079", 
+            "y" : "-101842", 
             "comment" : "12"
          }, 
          "child" : [ 
@@ -500,7 +1631,7 @@
       "d2bae1cb-dde7-4ce3-9caf-f31c53748afc" : { 
          "class" : "MoveObjectNode", 
          "desc" : { 
-            "x" : "-104714", 
+            "x" : "-104708", 
             "y" : "-101660"
          }, 
          "child" : [ 
@@ -516,7 +1647,7 @@
       "91cfc662-087d-4f41-8869-1fe14d39d31f" : { 
          "class" : "MoveObjectNode", 
          "desc" : { 
-            "x" : "-104584", 
+            "x" : "-104580", 
             "y" : "-101660"
          }, 
          "child" : [ 
@@ -573,8 +1704,8 @@
          "spawnPoint" : "Spawn.Enemy.8", 
          "item" : { 
             "class" : "Character", 
-            "proto" : "rat", 
-            "character" : "rat_crazy", 
+            "proto" : "Rat", 
+            "character" : "Rat_Crazy", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -610,8 +1741,8 @@
          "spawnPoint" : "Spawn.Enemy.7", 
          "item" : { 
             "class" : "Character", 
-            "proto" : "rat", 
-            "character" : "rat_crazy", 
+            "proto" : "Rat", 
+            "character" : "Rat_Crazy", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -647,8 +1778,8 @@
          "spawnPoint" : "Spawn.Enemy.5", 
          "item" : { 
             "class" : "Character", 
-            "proto" : "rat", 
-            "character" : "rat_crazy", 
+            "proto" : "Rat", 
+            "character" : "Rat_Crazy", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -684,8 +1815,8 @@
          "spawnPoint" : "Spawn.Enemy.4", 
          "item" : { 
             "class" : "Character", 
-            "proto" : "rat", 
-            "character" : "rat_crazy", 
+            "proto" : "Rat", 
+            "character" : "Rat_Crazy", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -721,8 +1852,8 @@
          "spawnPoint" : "Spawn.Enemy.6", 
          "item" : { 
             "class" : "Character", 
-            "proto" : "rat", 
-            "character" : "rat_crazy", 
+            "proto" : "Rat", 
+            "character" : "Rat_Crazy", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -758,8 +1889,8 @@
          "spawnPoint" : "Spawn.Enemy.2", 
          "item" : { 
             "class" : "Character", 
-            "proto" : "rat", 
-            "character" : "rat_crazy", 
+            "proto" : "Rat", 
+            "character" : "Rat_Crazy", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -795,8 +1926,8 @@
          "spawnPoint" : "Spawn.Enemy.1", 
          "item" : { 
             "class" : "Character", 
-            "proto" : "rat", 
-            "character" : "rat_crazy", 
+            "proto" : "Rat", 
+            "character" : "Rat_Crazy", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -832,8 +1963,8 @@
          "spawnPoint" : "Spawn.Enemy.3", 
          "item" : { 
             "class" : "Character", 
-            "proto" : "rat", 
-            "character" : "rat_crazy", 
+            "proto" : "Rat", 
+            "character" : "Rat_Crazy", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -1945,20 +3076,21 @@
       "e86eb24b-8b87-4fac-bbf0-8e49d2bda069" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-103302", 
-            "y" : "-100053", 
+            "x" : "-103316", 
+            "y" : "-100071", 
             "comment" : "2"
          }, 
          "child" : [ 
             "2b83005d-9579-4136-bd2e-31fa8d1720c4", 
-            "af55ba26-c898-420e-80df-959612264323"
+            "af55ba26-c898-420e-80df-959612264323", 
+            "edb748a5-6d30-43d6-9f5d-4194cd5960c6"
          ]
       }, 
       "2b83005d-9579-4136-bd2e-31fa8d1720c4" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-103285", 
-            "y" : "-99946"
+            "x" : "-103306", 
+            "y" : "-99899"
          }, 
          "child" : [ 
          ], 
@@ -1994,8 +3126,8 @@
       "af55ba26-c898-420e-80df-959612264323" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-103161", 
-            "y" : "-99948"
+            "x" : "-103179", 
+            "y" : "-99897"
          }, 
          "child" : [ 
          ], 
@@ -2028,23 +3160,177 @@
          }, 
          "randomName" : "true"
       }, 
+      "edb748a5-6d30-43d6-9f5d-4194cd5960c6" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-102754", 
+            "y" : "-99709"
+         }, 
+         "child" : [ 
+            "1788a5f7-a32b-4bd8-9222-9275dae93f44", 
+            "c7a8aed3-7e79-4549-8e2e-b464993d1616", 
+            "8bb1033c-5906-446f-a21a-547369f7f590", 
+            "c0b16580-f50e-43b9-a34b-b668b9a490de", 
+            "1dfc8f2d-b4e6-4747-8760-25ff2ed3123b", 
+            "47c41179-addd-4eca-a3a9-55cc211a105a"
+         ]
+      }, 
+      "1788a5f7-a32b-4bd8-9222-9275dae93f44" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103265", 
+            "y" : "-99582"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "c7a8aed3-7e79-4549-8e2e-b464993d1616" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-103135", 
+            "y" : "-99570"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.5", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Bear", 
+            "character" : "bear_5", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "8bb1033c-5906-446f-a21a-547369f7f590" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-103003", 
+            "y" : "-99569"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.5", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Bear", 
+            "character" : "bear_10", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "c0b16580-f50e-43b9-a34b-b668b9a490de" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102873", 
+            "y" : "-99565"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.5", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Bear", 
+            "character" : "bear_20", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "1dfc8f2d-b4e6-4747-8760-25ff2ed3123b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102747", 
+            "y" : "-99569"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "47c41179-addd-4eca-a3a9-55cc211a105a" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102628", 
+            "y" : "-99566"
+         }, 
+         "child" : [ 
+         ]
+      }, 
       "6b851eaf-c2c5-4f06-85d1-99f5c0845815" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-103083", 
-            "y" : "-100100", 
+            "x" : "-103010", 
+            "y" : "-100133", 
             "comment" : "3"
          }, 
          "child" : [ 
             "e86eb24b-8b87-4fac-bbf0-8e49d2bda069", 
-            "9a469cac-a750-41f6-a9b8-0bb06f11e91e"
+            "9a469cac-a750-41f6-a9b8-0bb06f11e91e", 
+            "edb748a5-6d30-43d6-9f5d-4194cd5960c6"
          ]
       }, 
       "9a469cac-a750-41f6-a9b8-0bb06f11e91e" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-103035", 
-            "y" : "-99946"
+            "x" : "-103044", 
+            "y" : "-99897"
          }, 
          "child" : [ 
          ], 
@@ -2080,21 +3366,22 @@
       "1bcc88cb-a626-41c4-87de-cc91b79d562c" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-102911", 
-            "y" : "-100079", 
+            "x" : "-102800", 
+            "y" : "-100117", 
             "comment" : "4"
          }, 
          "child" : [ 
             "e86eb24b-8b87-4fac-bbf0-8e49d2bda069", 
             "9a469cac-a750-41f6-a9b8-0bb06f11e91e", 
-            "17555d27-9510-45c1-a708-3e675013598f"
+            "17555d27-9510-45c1-a708-3e675013598f", 
+            "edb748a5-6d30-43d6-9f5d-4194cd5960c6"
          ]
       }, 
       "17555d27-9510-45c1-a708-3e675013598f" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-102909", 
-            "y" : "-99946"
+            "x" : "-102917", 
+            "y" : "-99895"
          }, 
          "child" : [ 
          ], 
@@ -3440,7 +4727,7 @@
          "class" : "SpawnCharacterNode", 
          "desc" : { 
             "x" : "-99984", 
-            "y" : "-100164"
+            "y" : "-100165"
          }, 
          "child" : [ 
          ], 

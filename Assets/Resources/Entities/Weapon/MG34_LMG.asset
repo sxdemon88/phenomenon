@@ -32,10 +32,10 @@ MonoBehaviour:
   Perks: 0
   DamageType: 0
   Single:
-    AP: 3
-    Range: 11
+    AP: 7
+    Range: 15
     Shots: 3
-    Dispersion: 0
+    Dispersion: 4
     ModeType: 10
     Sounds:
     - path: Entities/Weapon/weapon models/MG34_LMG/mg34
@@ -47,15 +47,15 @@ MonoBehaviour:
     ModeType: 0
     Sounds: []
   Burst:
-    AP: 3
-    Range: 11
-    Shots: 5
-    Dispersion: 0
+    AP: 8
+    Range: 15
+    Shots: 10
+    Dispersion: 4
     ModeType: 10
     Sounds:
     - path: Entities/Weapon/weapon models/MG34_LMG/mg34
   Reload:
-    AP: 5
+    AP: 6
     Range: 0
     Shots: 0
     Dispersion: 0

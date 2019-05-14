@@ -852,8 +852,8 @@
          "spawnPoint" : "Spawn.Enemy.6", 
          "item" : { 
             "class" : "Character", 
-            "proto" : "stag", 
-            "character" : "stag", 
+            "proto" : "Stag", 
+            "character" : "Stag", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -889,8 +889,8 @@
          "spawnPoint" : "Spawn.Enemy.1", 
          "item" : { 
             "class" : "Character", 
-            "proto" : "stag", 
-            "character" : "stag", 
+            "proto" : "Stag", 
+            "character" : "Stag", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -926,8 +926,8 @@
          "spawnPoint" : "Spawn.Enemy.2", 
          "item" : { 
             "class" : "Character", 
-            "proto" : "stag", 
-            "character" : "stag", 
+            "proto" : "Stag", 
+            "character" : "Stag", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -963,8 +963,8 @@
          "spawnPoint" : "Spawn.Enemy.8", 
          "item" : { 
             "class" : "Character", 
-            "proto" : "stag", 
-            "character" : "stag", 
+            "proto" : "Stag", 
+            "character" : "Stag", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -1013,8 +1013,8 @@
          "spawnPoint" : "Spawn.Enemy.7", 
          "item" : { 
             "class" : "Character", 
-            "proto" : "stag", 
-            "character" : "stag", 
+            "proto" : "Stag", 
+            "character" : "Stag", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -1050,8 +1050,8 @@
          "spawnPoint" : "Spawn.Enemy.3", 
          "item" : { 
             "class" : "Character", 
-            "proto" : "stag", 
-            "character" : "stag", 
+            "proto" : "Stag", 
+            "character" : "Stag", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -1087,8 +1087,8 @@
          "spawnPoint" : "Spawn.Enemy.4", 
          "item" : { 
             "class" : "Character", 
-            "proto" : "stag", 
-            "character" : "stag", 
+            "proto" : "Stag", 
+            "character" : "Stag", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -1116,8 +1116,8 @@
       "958db9ed-81f9-496c-9933-68b4c35b5429" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100574", 
-            "y" : "-100393"
+            "x" : "-100547", 
+            "y" : "-100399"
          }, 
          "child" : [ 
             "5761a4fc-8990-4bbb-b51c-64621c19ef0f", 
@@ -1129,8 +1129,8 @@
       "4a486523-6e31-4af8-b15c-b28ef86d3bee" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100354", 
-            "y" : "-100391"
+            "x" : "-100343", 
+            "y" : "-100399"
          }, 
          "child" : [ 
             "9b291192-0297-4dd8-862d-9e6a16737b97", 
@@ -1150,8 +1150,8 @@
          "spawnPoint" : "Spawn.Enemy.5", 
          "item" : { 
             "class" : "Character", 
-            "proto" : "stag", 
-            "character" : "stag", 
+            "proto" : "Stag", 
+            "character" : "Stag", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
