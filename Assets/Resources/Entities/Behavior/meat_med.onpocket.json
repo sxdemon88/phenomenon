@@ -1,0 +1,558 @@
+{ 
+   "states" : { 
+      "7cbe8496-63a7-48df-922c-8e2dd05ca7bc" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100337", 
+            "y" : "-100369"
+         }, 
+         "child" : [ 
+            "d8c2f8b8-ae05-4b3a-bd04-ff53abf3d8d4"
+         ]
+      }, 
+      "d8c2f8b8-ae05-4b3a-bd04-ff53abf3d8d4" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-100452", 
+            "y" : "-100323"
+         }, 
+         "child" : [ 
+            "05d864e6-204d-499e-8e11-1734bcffd7ac", 
+            "c977746f-b20f-42ef-92dd-1b4c715de4f2"
+         ]
+      }, 
+      "05d864e6-204d-499e-8e11-1734bcffd7ac" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100474", 
+            "y" : "-100215"
+         }, 
+         "child" : [ 
+            "033bac8b-95ef-4969-994b-09c632e830c7", 
+            "1998d55d-b798-4266-a05f-4514fe83c009"
+         ], 
+         "key" : "LOOTED"
+      }, 
+      "033bac8b-95ef-4969-994b-09c632e830c7" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100596", 
+            "y" : "-99876"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "1998d55d-b798-4266-a05f-4514fe83c009" : { 
+         "class" : "PlayerHasWeaponPerkNode", 
+         "desc" : { 
+            "x" : "-100312", 
+            "y" : "-100037"
+         }, 
+         "child" : [ 
+            "c8989161-8580-43c5-8060-c4414a32e700", 
+            "033bac8b-95ef-4969-994b-09c632e830c7"
+         ], 
+         "perk" : "Skinning"
+      }, 
+      "c8989161-8580-43c5-8060-c4414a32e700" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-100418", 
+            "y" : "-99829"
+         }, 
+         "child" : [ 
+            "441d0d37-735a-422a-a785-fcc40b8af535", 
+            "921cb914-5230-4152-8597-a9cceaf9fc8b", 
+            "4622ef31-af9c-437f-b5a9-d81c4dc9c294"
+         ], 
+         "key" : "LOOTED"
+      }, 
+      "441d0d37-735a-422a-a785-fcc40b8af535" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-101147", 
+            "y" : "-99650"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Meat"
+         }
+      }, 
+      "921cb914-5230-4152-8597-a9cceaf9fc8b" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-100942", 
+            "y" : "-99370"
+         }, 
+         "child" : [ 
+            "1f028e2a-0a8e-4c13-b224-f7e96acb024f", 
+            "fca52f7f-eb28-4617-8d60-47d817642817"
+         ], 
+         "value" : "100", 
+         "modifier" : "Outdoorsman"
+      }, 
+      "1f028e2a-0a8e-4c13-b224-f7e96acb024f" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-101136", 
+            "y" : "-98993"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "2", 
+            "proto" : "Meat"
+         }
+      }, 
+      "fca52f7f-eb28-4617-8d60-47d817642817" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-100722", 
+            "y" : "-99224"
+         }, 
+         "child" : [ 
+            "2e3d7d44-9f0e-4c17-b493-c7dfd70fb952", 
+            "9f31066c-bd7d-410d-b73f-17646bc0a37c"
+         ], 
+         "value" : "80", 
+         "modifier" : "Outdoorsman"
+      }, 
+      "2e3d7d44-9f0e-4c17-b493-c7dfd70fb952" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-100786", 
+            "y" : "-98979"
+         }, 
+         "child" : [ 
+            "ec4d71ee-eec5-470a-bc77-71aca7360b32", 
+            "ea2a0b6f-1d6e-4de5-bfdb-fccab61119f5"
+         ]
+      }, 
+      "ec4d71ee-eec5-470a-bc77-71aca7360b32" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100844", 
+            "y" : "-98765"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "2", 
+            "proto" : "Meat"
+         }
+      }, 
+      "ea2a0b6f-1d6e-4de5-bfdb-fccab61119f5" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100642", 
+            "y" : "-98766"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Meat"
+         }
+      }, 
+      "9f31066c-bd7d-410d-b73f-17646bc0a37c" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-100465", 
+            "y" : "-99043"
+         }, 
+         "child" : [ 
+            "9638dfc8-cee6-4d78-a647-59099123d4a7", 
+            "4bd5361e-3e2c-4cb1-a70b-4f707114596a"
+         ], 
+         "value" : "50", 
+         "modifier" : "Outdoorsman"
+      }, 
+      "9638dfc8-cee6-4d78-a647-59099123d4a7" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-100518", 
+            "y" : "-98875"
+         }, 
+         "child" : [ 
+            "ea2a0b6f-1d6e-4de5-bfdb-fccab61119f5", 
+            "02458d93-e5d6-4a1e-b922-aeee53ed988e"
+         ]
+      }, 
+      "02458d93-e5d6-4a1e-b922-aeee53ed988e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100419", 
+            "y" : "-98746"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "4bd5361e-3e2c-4cb1-a70b-4f707114596a" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100149", 
+            "y" : "-98824"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "4622ef31-af9c-437f-b5a9-d81c4dc9c294" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-100227", 
+            "y" : "-99712"
+         }, 
+         "child" : [ 
+            "7457531a-3011-444c-9fbe-b3e8b03bde4f", 
+            "7770b3d5-a8d2-4195-abb9-b18e8988509f"
+         ], 
+         "value" : "180", 
+         "modifier" : "Outdoorsman"
+      }, 
+      "7457531a-3011-444c-9fbe-b3e8b03bde4f" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100245", 
+            "y" : "-99478"
+         }, 
+         "child" : [ 
+            "8ca3182f-6837-4f2c-805b-c769e36aa420", 
+            "52b20d43-2f6d-4886-ac41-90a20af9fe15"
+         ]
+      }, 
+      "8ca3182f-6837-4f2c-805b-c769e36aa420" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-99857", 
+            "y" : "-98946"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "2", 
+            "proto" : "Meat"
+         }
+      }, 
+      "52b20d43-2f6d-4886-ac41-90a20af9fe15" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100036", 
+            "y" : "-98587"
+         }, 
+         "child" : [ 
+            "fdfae08d-68b3-445c-ab24-431f854c2e37"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "6", 
+            "proto" : "koja"
+         }
+      }, 
+      "fdfae08d-68b3-445c-ab24-431f854c2e37" : { 
+         "class" : "LogNode", 
+         "desc" : { 
+            "x" : "-100004", 
+            "y" : "-98295"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Вы отлично обработали добычу."
+      }, 
+      "7770b3d5-a8d2-4195-abb9-b18e8988509f" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-99934", 
+            "y" : "-99551"
+         }, 
+         "child" : [ 
+            "8f27f35a-62d0-4087-83b8-de751922ebb9", 
+            "fcf59243-ab72-431a-b336-b10fc42be5e9"
+         ], 
+         "value" : "160", 
+         "modifier" : "Outdoorsman"
+      }, 
+      "8f27f35a-62d0-4087-83b8-de751922ebb9" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99945", 
+            "y" : "-99397"
+         }, 
+         "child" : [ 
+            "cdaf8165-b73e-45ab-a41d-4550cd9abb21", 
+            "ef94deec-205b-4430-b3b1-95e4a7922a66", 
+            "1031c19f-3ac5-44e2-a70a-3e6946e287ae"
+         ]
+      }, 
+      "cdaf8165-b73e-45ab-a41d-4550cd9abb21" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100066", 
+            "y" : "-99141"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "2", 
+            "proto" : "shkurs"
+         }
+      }, 
+      "ef94deec-205b-4430-b3b1-95e4a7922a66" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-99909", 
+            "y" : "-99106"
+         }, 
+         "child" : [ 
+            "8ca3182f-6837-4f2c-805b-c769e36aa420", 
+            "8b01e1aa-d1fc-4d20-b338-b3426fc39e4e"
+         ]
+      }, 
+      "8b01e1aa-d1fc-4d20-b338-b3426fc39e4e" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-99714", 
+            "y" : "-98946"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Meat"
+         }
+      }, 
+      "1031c19f-3ac5-44e2-a70a-3e6946e287ae" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-99786", 
+            "y" : "-99087"
+         }, 
+         "child" : [ 
+            "52b20d43-2f6d-4886-ac41-90a20af9fe15", 
+            "e593dfaa-3fb8-44ae-942b-e709da000a43"
+         ]
+      }, 
+      "e593dfaa-3fb8-44ae-942b-e709da000a43" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-99816", 
+            "y" : "-98588"
+         }, 
+         "child" : [ 
+            "fdfae08d-68b3-445c-ab24-431f854c2e37"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "5", 
+            "proto" : "koja"
+         }
+      }, 
+      "fcf59243-ab72-431a-b336-b10fc42be5e9" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-99605", 
+            "y" : "-99369"
+         }, 
+         "child" : [ 
+            "bf82b6e1-a43f-416a-8a8d-d207876e1416", 
+            "620874d0-cdd4-4856-abbf-e94c4e4ac157"
+         ], 
+         "value" : "130", 
+         "modifier" : "Outdoorsman"
+      }, 
+      "bf82b6e1-a43f-416a-8a8d-d207876e1416" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99521", 
+            "y" : "-99103"
+         }, 
+         "child" : [ 
+            "77744d94-033c-4724-a578-d32c1718a50d", 
+            "8b01e1aa-d1fc-4d20-b338-b3426fc39e4e", 
+            "250615d7-9cc0-4d2e-b4b4-169728c83780"
+         ]
+      }, 
+      "77744d94-033c-4724-a578-d32c1718a50d" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-99952", 
+            "y" : "-98733"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "shkurs"
+         }
+      }, 
+      "250615d7-9cc0-4d2e-b4b4-169728c83780" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-99524", 
+            "y" : "-98924"
+         }, 
+         "child" : [ 
+            "e593dfaa-3fb8-44ae-942b-e709da000a43", 
+            "5249ee77-e0ee-4d87-98b4-a418e456b9e4", 
+            "bd635d87-bf1b-4cb3-a7e1-e0f9a77b66ae"
+         ]
+      }, 
+      "5249ee77-e0ee-4d87-98b4-a418e456b9e4" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-99624", 
+            "y" : "-98575"
+         }, 
+         "child" : [ 
+            "13e2aaa0-b59b-45d0-9a90-14fd196077b8"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "4", 
+            "proto" : "koja"
+         }
+      }, 
+      "13e2aaa0-b59b-45d0-9a90-14fd196077b8" : { 
+         "class" : "LogNode", 
+         "desc" : { 
+            "x" : "-99654", 
+            "y" : "-98289"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Вы хорошо обработали добычу."
+      }, 
+      "bd635d87-bf1b-4cb3-a7e1-e0f9a77b66ae" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-99426", 
+            "y" : "-98569"
+         }, 
+         "child" : [ 
+            "8c1443f3-7c4f-4673-9bd3-31e476213528"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "3", 
+            "proto" : "koja"
+         }
+      }, 
+      "8c1443f3-7c4f-4673-9bd3-31e476213528" : { 
+         "class" : "LogNode", 
+         "desc" : { 
+            "x" : "-99332", 
+            "y" : "-98300"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Вы нормально обработали добычу."
+      }, 
+      "620874d0-cdd4-4856-abbf-e94c4e4ac157" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-99171", 
+            "y" : "-99176"
+         }, 
+         "child" : [ 
+            "f417697e-beb0-41ee-b6b6-b79ddd600e69", 
+            "8992bd88-c1ca-46b7-929f-0c99c789c139"
+         ], 
+         "value" : "100", 
+         "modifier" : "Outdoorsman"
+      }, 
+      "f417697e-beb0-41ee-b6b6-b79ddd600e69" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-99312", 
+            "y" : "-98883"
+         }, 
+         "child" : [ 
+            "5249ee77-e0ee-4d87-98b4-a418e456b9e4", 
+            "bd635d87-bf1b-4cb3-a7e1-e0f9a77b66ae"
+         ]
+      }, 
+      "8992bd88-c1ca-46b7-929f-0c99c789c139" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-98767", 
+            "y" : "-98990"
+         }, 
+         "child" : [ 
+            "69be0aca-7456-4c83-a048-632ce521dfb9", 
+            "1e106ef5-a027-44e1-ae79-6c42e51022c0"
+         ], 
+         "value" : "80", 
+         "modifier" : "Outdoorsman"
+      }, 
+      "69be0aca-7456-4c83-a048-632ce521dfb9" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-99009", 
+            "y" : "-98821"
+         }, 
+         "child" : [ 
+            "bd635d87-bf1b-4cb3-a7e1-e0f9a77b66ae", 
+            "293ffdcb-fc2f-4826-b05e-27335219a2e7"
+         ]
+      }, 
+      "293ffdcb-fc2f-4826-b05e-27335219a2e7" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-98980", 
+            "y" : "-98508"
+         }, 
+         "child" : [ 
+            "d5318b33-7241-421b-b9ca-031a70b79da1"
+         ]
+      }, 
+      "d5318b33-7241-421b-b9ca-031a70b79da1" : { 
+         "class" : "LogNode", 
+         "desc" : { 
+            "x" : "-98964", 
+            "y" : "-98387"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Вы неудачно обработали добычу."
+      }, 
+      "1e106ef5-a027-44e1-ae79-6c42e51022c0" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-98307.59", 
+            "y" : "-98725.84"
+         }, 
+         "child" : [ 
+            "060c35e9-9cd1-4458-9dcc-2cb8908058f2"
+         ]
+      }, 
+      "060c35e9-9cd1-4458-9dcc-2cb8908058f2" : { 
+         "class" : "LogNode", 
+         "desc" : { 
+            "x" : "-98307", 
+            "y" : "-98612"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Не хватает навыка выживания, для дополнительной обработки добычи."
+      }, 
+      "c977746f-b20f-42ef-92dd-1b4c715de4f2" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100293", 
+            "y" : "-100242"
+         }, 
+         "child" : [ 
+         ]
+      }
+   }, 
+   "entry" : "7cbe8496-63a7-48df-922c-8e2dd05ca7bc"
+}

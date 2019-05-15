@@ -100,16 +100,16 @@
       "2bf49add-d8f1-4fa5-9048-06c830d3bc2e" : { 
          "class" : "GoodsAndMoneyNode", 
          "desc" : { 
-            "x" : "-100817", 
-            "y" : "-100030"
+            "x" : "-100808", 
+            "y" : "-100045"
          }, 
          "child" : [ 
             "4c2b9e55-e9da-4b96-8cf2-edd1b69bf41e", 
             "1102e0c6-0a5f-4ca0-ae64-6edc0d118280"
          ], 
-         "maxMoney" : "1500", 
-         "maxGoodsToMoney" : "50", 
-         "costPercent" : "100", 
+         "maxMoney" : "2000", 
+         "maxGoodsToMoney" : "100", 
+         "costPercent" : "30", 
          "wantToSellPercent" : "20"
       }, 
       "4c2b9e55-e9da-4b96-8cf2-edd1b69bf41e" : { 
@@ -138,34 +138,16 @@
       "4533a64c-9db1-48a3-b7bb-74d654114de9" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-101042", 
-            "y" : "-99947"
+            "x" : "-101032", 
+            "y" : "-99984"
          }, 
          "child" : [ 
-            "667e6fcd-274b-4c46-ac51-792003c5a4d5", 
             "49e1d699-f21f-4765-99da-934e09ac096c", 
             "59f7d22e-0702-43be-9ff2-a2bf797664cc", 
             "98b25f0a-5d5b-45d0-9510-908bfebd6447", 
-            "12951a73-9423-43ec-a217-ea599760d47d"
+            "12951a73-9423-43ec-a217-ea599760d47d", 
+            "667e6fcd-274b-4c46-ac51-792003c5a4d5"
          ]
-      }, 
-      "667e6fcd-274b-4c46-ac51-792003c5a4d5" : { 
-         "class" : "InventorySetNode", 
-         "desc" : { 
-            "x" : "-101504", 
-            "y" : "-99915"
-         }, 
-         "child" : [ 
-         ], 
-         "inventory" : [ 
-            { 
-               "class" : "Uniform", 
-               "count" : "1", 
-               "proto" : "ctw_head_1rust"
-            }
-         ], 
-         "inventoryObject" : "", 
-         "random" : "true"
       }, 
       "49e1d699-f21f-4765-99da-934e09ac096c" : { 
          "class" : "RandomNode", 
@@ -287,8 +269,8 @@
       "59f7d22e-0702-43be-9ff2-a2bf797664cc" : { 
          "class" : "RandomNode", 
          "desc" : { 
-            "x" : "-102058", 
-            "y" : "-99871"
+            "x" : "-102018", 
+            "y" : "-99870"
          }, 
          "child" : [ 
             "4bd5c1cc-f3dc-4be0-9431-8d4f65be1daf", 
@@ -420,8 +402,8 @@
       "98b25f0a-5d5b-45d0-9510-908bfebd6447" : { 
          "class" : "RandomNode", 
          "desc" : { 
-            "x" : "-101501", 
-            "y" : "-99744"
+            "x" : "-101388", 
+            "y" : "-99746"
          }, 
          "child" : [ 
             "fbf249e6-8a4c-4e47-8f94-1aebfd46d093", 
@@ -1543,6 +1525,29 @@
                "class" : "Memo", 
                "count" : "1", 
                "proto" : "Craft_Note_Kastet2"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "667e6fcd-274b-4c46-ac51-792003c5a4d5" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101692", 
+            "y" : "-99996"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ctw_head_1rust"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ctw_light_7"
             }
          ], 
          "inventoryObject" : "", 

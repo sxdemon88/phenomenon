@@ -21,14 +21,16 @@ MonoBehaviour:
   Collectable: 1
   Modifiers:
   - _type: 27
-    _value: -10
+    _value: -9
   - _type: 30
     _value: 21
   - _type: 40
-    _value: 3
+    _value: 4
+  - _type: 22
+    _value: 10
   UniformType: 1
   HideMask: 0
-  ArmorDurability: 0
+  ArmorDurability: 55
   rules: []
   rulesEx: 0
   Perks: 0

@@ -6,7 +6,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1103520518142854097}
+  m_GameObject: {fileID: 4878659309253214230}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -775546215, guid: ba80931603c2dbc40ab113c533efa2ed, type: 3}
@@ -19,7 +19,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3147482576972629893}
+  m_GameObject: {fileID: 7442794740092568642}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -775546215, guid: ba80931603c2dbc40ab113c533efa2ed, type: 3}
@@ -57,8 +57,8 @@ Transform:
   m_LocalPosition: {x: -25.838272, y: -49.040478, z: 46.97995}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 9164022363343932732}
-  - {fileID: 6616704173674334568}
+  - {fileID: 4878659309253647414}
+  - {fileID: 7442794740092409954}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -206,13 +206,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 36ee653db836c2f408c1fe3d39b682cf, type: 3}
---- !u!1 &1103520518142854097 stripped
+--- !u!1 &4878659309253214230 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 36ee653db836c2f408c1fe3d39b682cf,
     type: 3}
   m_PrefabInstance: {fileID: 4878659309253248694}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &9164022363343932732 stripped
+--- !u!4 &4878659309253647414 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 36ee653db836c2f408c1fe3d39b682cf,
     type: 3}
@@ -291,13 +291,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 36ee653db836c2f408c1fe3d39b682cf, type: 3}
---- !u!1 &3147482576972629893 stripped
+--- !u!1 &7442794740092568642 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 36ee653db836c2f408c1fe3d39b682cf,
     type: 3}
   m_PrefabInstance: {fileID: 7442794740092535522}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &6616704173674334568 stripped
+--- !u!4 &7442794740092409954 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 36ee653db836c2f408c1fe3d39b682cf,
     type: 3}

@@ -100,495 +100,14 @@
       "7bd8943c-d536-478e-a0b3-e9cea0949774" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100695", 
-            "y" : "-99562"
+            "x" : "-100678", 
+            "y" : "-99510"
          }, 
          "child" : [ 
-            "2001fce7-23e5-4857-a136-52fab9050828", 
             "4b821ffc-ba93-4068-8557-e964c7a8c966", 
             "60be273c-b8d9-40f9-bac6-da1e29227b52", 
-            "cd6857c6-c708-45e3-8079-707471747097"
-         ]
-      }, 
-      "2001fce7-23e5-4857-a136-52fab9050828" : { 
-         "class" : "RandomNode", 
-         "desc" : { 
-            "x" : "-101223", 
-            "y" : "-100238"
-         }, 
-         "child" : [ 
-            "c5cdb02f-b6e5-4d7d-a756-5ad897232ca7", 
-            "8928b63e-8095-4d30-9f33-4c126c8e8e44", 
-            "d9d52825-7e0f-4777-95de-982a1aaa8611", 
-            "40143b19-930b-43f2-8bfb-1fb4482fb39d"
-         ]
-      }, 
-      "c5cdb02f-b6e5-4d7d-a756-5ad897232ca7" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-101882", 
-            "y" : "-100540"
-         }, 
-         "child" : [ 
-            "b138a7c4-975d-4481-8148-311c27c27bcd", 
-            "83f2890b-5c0a-4fe7-be1e-6b818f37b673"
-         ]
-      }, 
-      "b138a7c4-975d-4481-8148-311c27c27bcd" : { 
-         "class" : "RandomNode", 
-         "desc" : { 
-            "x" : "-102141", 
-            "y" : "-100340"
-         }, 
-         "child" : [ 
-            "c4868f2a-2c69-42cb-91eb-0d70351f16a6", 
-            "2810b8ba-e181-474f-a982-543c34d7bd3f", 
-            "0c2bf572-1d0f-4460-8392-9b6d7d95e24b"
-         ]
-      }, 
-      "c4868f2a-2c69-42cb-91eb-0d70351f16a6" : { 
-         "class" : "InventorySetNode", 
-         "desc" : { 
-            "x" : "-102249", 
-            "y" : "-100278"
-         }, 
-         "child" : [ 
-         ], 
-         "inventory" : [ 
-            { 
-               "class" : "Weapon", 
-               "count" : "1", 
-               "proto" : "SVU"
-            }
-         ], 
-         "inventoryObject" : ""
-      }, 
-      "2810b8ba-e181-474f-a982-543c34d7bd3f" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-102128", 
-            "y" : "-100283"
-         }, 
-         "child" : [ 
-         ]
-      }, 
-      "0c2bf572-1d0f-4460-8392-9b6d7d95e24b" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-102008", 
-            "y" : "-100286"
-         }, 
-         "child" : [ 
-         ]
-      }, 
-      "83f2890b-5c0a-4fe7-be1e-6b818f37b673" : { 
-         "class" : "RandomNode", 
-         "desc" : { 
-            "x" : "-101751", 
-            "y" : "-100324"
-         }, 
-         "child" : [ 
-            "2cec970f-eedc-49fc-9e6b-a82c49b74b1f", 
-            "b0799dad-aeeb-4c7a-ae92-d1f4795ead61", 
-            "a087a20e-0e89-4952-98ef-7c199a8183da"
-         ]
-      }, 
-      "2cec970f-eedc-49fc-9e6b-a82c49b74b1f" : { 
-         "class" : "InventorySetNode", 
-         "desc" : { 
-            "x" : "-101845", 
-            "y" : "-100258"
-         }, 
-         "child" : [ 
-         ], 
-         "inventory" : [ 
-            { 
-               "class" : "Weapon", 
-               "count" : "1", 
-               "proto" : "mp40"
-            }
-         ], 
-         "inventoryObject" : ""
-      }, 
-      "b0799dad-aeeb-4c7a-ae92-d1f4795ead61" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-101724", 
-            "y" : "-100263"
-         }, 
-         "child" : [ 
-         ]
-      }, 
-      "a087a20e-0e89-4952-98ef-7c199a8183da" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-101604", 
-            "y" : "-100266"
-         }, 
-         "child" : [ 
-         ]
-      }, 
-      "8928b63e-8095-4d30-9f33-4c126c8e8e44" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-101727", 
-            "y" : "-100539"
-         }, 
-         "child" : [ 
-            "31b60111-8ecd-4051-b8ad-d64c6607f6f7", 
-            "0f1f05e1-88bc-47b4-a7a4-52fed8c6aac0"
-         ]
-      }, 
-      "31b60111-8ecd-4051-b8ad-d64c6607f6f7" : { 
-         "class" : "RandomNode", 
-         "desc" : { 
-            "x" : "-102170", 
-            "y" : "-100169"
-         }, 
-         "child" : [ 
-            "73108d61-3b2c-403a-bed6-cbe69dcb2cb1", 
-            "1ac51e93-7e6f-4af6-8143-0e852aae977c", 
-            "77bb1f55-bf6f-4d29-9bb0-9707ca8296b6"
-         ]
-      }, 
-      "73108d61-3b2c-403a-bed6-cbe69dcb2cb1" : { 
-         "class" : "InventorySetNode", 
-         "desc" : { 
-            "x" : "-102264", 
-            "y" : "-100103"
-         }, 
-         "child" : [ 
-         ], 
-         "inventory" : [ 
-            { 
-               "class" : "Weapon", 
-               "count" : "1", 
-               "proto" : "MG34_LMG"
-            }
-         ], 
-         "inventoryObject" : ""
-      }, 
-      "1ac51e93-7e6f-4af6-8143-0e852aae977c" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-102143", 
-            "y" : "-100108"
-         }, 
-         "child" : [ 
-         ]
-      }, 
-      "77bb1f55-bf6f-4d29-9bb0-9707ca8296b6" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-102023", 
-            "y" : "-100111"
-         }, 
-         "child" : [ 
-         ]
-      }, 
-      "0f1f05e1-88bc-47b4-a7a4-52fed8c6aac0" : { 
-         "class" : "RandomNode", 
-         "desc" : { 
-            "x" : "-101760", 
-            "y" : "-100158"
-         }, 
-         "child" : [ 
-            "930c10f1-e7d2-40d7-8ecc-1ab3307fe7fe", 
-            "9b07670d-3363-4a46-9fa3-6221213436c7", 
-            "4f513000-8273-4535-9847-4e339187f034"
-         ]
-      }, 
-      "930c10f1-e7d2-40d7-8ecc-1ab3307fe7fe" : { 
-         "class" : "InventorySetNode", 
-         "desc" : { 
-            "x" : "-101854", 
-            "y" : "-100092"
-         }, 
-         "child" : [ 
-         ], 
-         "inventory" : [ 
-            { 
-               "class" : "Weapon", 
-               "count" : "1", 
-               "proto" : "mg3"
-            }
-         ], 
-         "inventoryObject" : ""
-      }, 
-      "9b07670d-3363-4a46-9fa3-6221213436c7" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-101733", 
-            "y" : "-100097"
-         }, 
-         "child" : [ 
-         ]
-      }, 
-      "4f513000-8273-4535-9847-4e339187f034" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-101613", 
-            "y" : "-100100"
-         }, 
-         "child" : [ 
-         ]
-      }, 
-      "d9d52825-7e0f-4777-95de-982a1aaa8611" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-101576", 
-            "y" : "-100539"
-         }, 
-         "child" : [ 
-            "20fdcc67-2838-4e3a-90bb-bccfd7df2762", 
-            "c50ec025-3fc4-4415-a172-280cc0f55101"
-         ]
-      }, 
-      "20fdcc67-2838-4e3a-90bb-bccfd7df2762" : { 
-         "class" : "RandomNode", 
-         "desc" : { 
-            "x" : "-102158", 
-            "y" : "-99964"
-         }, 
-         "child" : [ 
-            "01216285-9516-46d1-81d2-9e3f2a18cf10", 
-            "97a5972d-59fa-4612-9a18-8c487408579e", 
-            "71e6f4d2-df65-482c-a140-bf8f9981d014"
-         ]
-      }, 
-      "01216285-9516-46d1-81d2-9e3f2a18cf10" : { 
-         "class" : "InventorySetNode", 
-         "desc" : { 
-            "x" : "-102252", 
-            "y" : "-99898"
-         }, 
-         "child" : [ 
-         ], 
-         "inventory" : [ 
-            { 
-               "class" : "Weapon", 
-               "count" : "1", 
-               "proto" : "crossbow2"
-            }
-         ], 
-         "inventoryObject" : ""
-      }, 
-      "97a5972d-59fa-4612-9a18-8c487408579e" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-102131", 
-            "y" : "-99903"
-         }, 
-         "child" : [ 
-         ]
-      }, 
-      "71e6f4d2-df65-482c-a140-bf8f9981d014" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-102011", 
-            "y" : "-99906"
-         }, 
-         "child" : [ 
-         ]
-      }, 
-      "c50ec025-3fc4-4415-a172-280cc0f55101" : { 
-         "class" : "RandomNode", 
-         "desc" : { 
-            "x" : "-101757", 
-            "y" : "-99974"
-         }, 
-         "child" : [ 
-            "d0641d63-bc94-4686-9e9c-4a56f545dd79", 
-            "2cbaf557-043a-4233-aab1-f16d1e14d5d9", 
-            "6fc5affb-4c59-4b34-b4e6-e08b46e2f696"
-         ]
-      }, 
-      "d0641d63-bc94-4686-9e9c-4a56f545dd79" : { 
-         "class" : "InventorySetNode", 
-         "desc" : { 
-            "x" : "-101851", 
-            "y" : "-99908"
-         }, 
-         "child" : [ 
-         ], 
-         "inventory" : [ 
-            { 
-               "class" : "Weapon", 
-               "count" : "1", 
-               "proto" : "DP_28"
-            }
-         ], 
-         "inventoryObject" : ""
-      }, 
-      "2cbaf557-043a-4233-aab1-f16d1e14d5d9" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-101730", 
-            "y" : "-99913"
-         }, 
-         "child" : [ 
-         ]
-      }, 
-      "6fc5affb-4c59-4b34-b4e6-e08b46e2f696" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-101610", 
-            "y" : "-99916"
-         }, 
-         "child" : [ 
-         ]
-      }, 
-      "40143b19-930b-43f2-8bfb-1fb4482fb39d" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-101416", 
-            "y" : "-100536"
-         }, 
-         "child" : [ 
-            "7c764441-25d4-4130-8fa2-20ab580b7052", 
-            "b2f779ba-3a73-4ca9-8af2-13fe44f3bd1b", 
-            "6d8c2031-2074-47fe-a44e-9a44befdb0f1"
-         ]
-      }, 
-      "7c764441-25d4-4130-8fa2-20ab580b7052" : { 
-         "class" : "RandomNode", 
-         "desc" : { 
-            "x" : "-102122", 
-            "y" : "-99746"
-         }, 
-         "child" : [ 
-            "b786d48b-04e4-4814-be35-76ee3378534d", 
-            "9a6bb10a-edb5-4a20-bed2-e78a40702aa2", 
-            "11eb0be6-143e-4575-8269-d8ffc6299ed6"
-         ]
-      }, 
-      "b786d48b-04e4-4814-be35-76ee3378534d" : { 
-         "class" : "InventorySetNode", 
-         "desc" : { 
-            "x" : "-102216", 
-            "y" : "-99680"
-         }, 
-         "child" : [ 
-         ], 
-         "inventory" : [ 
-            { 
-               "class" : "Weapon", 
-               "count" : "1", 
-               "proto" : "crossbow1"
-            }
-         ], 
-         "inventoryObject" : ""
-      }, 
-      "9a6bb10a-edb5-4a20-bed2-e78a40702aa2" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-102095", 
-            "y" : "-99685"
-         }, 
-         "child" : [ 
-         ]
-      }, 
-      "11eb0be6-143e-4575-8269-d8ffc6299ed6" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-101975", 
-            "y" : "-99688"
-         }, 
-         "child" : [ 
-         ]
-      }, 
-      "b2f779ba-3a73-4ca9-8af2-13fe44f3bd1b" : { 
-         "class" : "RandomNode", 
-         "desc" : { 
-            "x" : "-101766", 
-            "y" : "-99744"
-         }, 
-         "child" : [ 
-            "07a1e74f-bcd5-4db1-989d-a758cda4f084", 
-            "4788b10a-4495-4492-ac9c-a4ed4fb168f4", 
-            "f6a66924-39ed-4cfe-8ec7-269b5f3905dc"
-         ]
-      }, 
-      "07a1e74f-bcd5-4db1-989d-a758cda4f084" : { 
-         "class" : "InventorySetNode", 
-         "desc" : { 
-            "x" : "-101860", 
-            "y" : "-99678"
-         }, 
-         "child" : [ 
-         ], 
-         "inventory" : [ 
-            { 
-               "class" : "Weapon", 
-               "count" : "1", 
-               "proto" : "Beretta"
-            }
-         ], 
-         "inventoryObject" : ""
-      }, 
-      "4788b10a-4495-4492-ac9c-a4ed4fb168f4" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-101739", 
-            "y" : "-99683"
-         }, 
-         "child" : [ 
-         ]
-      }, 
-      "f6a66924-39ed-4cfe-8ec7-269b5f3905dc" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-101619", 
-            "y" : "-99686"
-         }, 
-         "child" : [ 
-         ]
-      }, 
-      "6d8c2031-2074-47fe-a44e-9a44befdb0f1" : { 
-         "class" : "RandomNode", 
-         "desc" : { 
-            "x" : "-101397", 
-            "y" : "-99766"
-         }, 
-         "child" : [ 
-            "1ebf53a9-0d23-46c1-a3ee-89b82eae0a08", 
-            "517c148b-7c0b-4839-a0b8-0be63b9e4ad5", 
-            "80e9b7fc-8de8-47c4-855a-36a327a4ca7a"
-         ]
-      }, 
-      "1ebf53a9-0d23-46c1-a3ee-89b82eae0a08" : { 
-         "class" : "InventorySetNode", 
-         "desc" : { 
-            "x" : "-101491", 
-            "y" : "-99700"
-         }, 
-         "child" : [ 
-         ], 
-         "inventory" : [ 
-            { 
-               "class" : "Weapon", 
-               "count" : "1", 
-               "proto" : "ak47tactic"
-            }
-         ], 
-         "inventoryObject" : ""
-      }, 
-      "517c148b-7c0b-4839-a0b8-0be63b9e4ad5" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-101396", 
-            "y" : "-99654"
-         }, 
-         "child" : [ 
-         ]
-      }, 
-      "80e9b7fc-8de8-47c4-855a-36a327a4ca7a" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-101318", 
-            "y" : "-99700"
-         }, 
-         "child" : [ 
+            "cd6857c6-c708-45e3-8079-707471747097", 
+            "2001fce7-23e5-4857-a136-52fab9050828"
          ]
       }, 
       "4b821ffc-ba93-4068-8557-e964c7a8c966" : { 
@@ -1909,6 +1428,397 @@
          "desc" : { 
             "x" : "-100123", 
             "y" : "-99175"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "2001fce7-23e5-4857-a136-52fab9050828" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-101112", 
+            "y" : "-99864"
+         }, 
+         "child" : [ 
+            "c5cdb02f-b6e5-4d7d-a756-5ad897232ca7", 
+            "8928b63e-8095-4d30-9f33-4c126c8e8e44", 
+            "d9d52825-7e0f-4777-95de-982a1aaa8611", 
+            "40143b19-930b-43f2-8bfb-1fb4482fb39d"
+         ]
+      }, 
+      "c5cdb02f-b6e5-4d7d-a756-5ad897232ca7" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101882", 
+            "y" : "-100540"
+         }, 
+         "child" : [ 
+            "b138a7c4-975d-4481-8148-311c27c27bcd", 
+            "83f2890b-5c0a-4fe7-be1e-6b818f37b673"
+         ]
+      }, 
+      "b138a7c4-975d-4481-8148-311c27c27bcd" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-102141", 
+            "y" : "-100340"
+         }, 
+         "child" : [ 
+            "c4868f2a-2c69-42cb-91eb-0d70351f16a6", 
+            "0c2bf572-1d0f-4460-8392-9b6d7d95e24b"
+         ]
+      }, 
+      "c4868f2a-2c69-42cb-91eb-0d70351f16a6" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-102249", 
+            "y" : "-100278"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "SVU"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "0c2bf572-1d0f-4460-8392-9b6d7d95e24b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102008", 
+            "y" : "-100286"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "83f2890b-5c0a-4fe7-be1e-6b818f37b673" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-101751", 
+            "y" : "-100324"
+         }, 
+         "child" : [ 
+            "2cec970f-eedc-49fc-9e6b-a82c49b74b1f", 
+            "a087a20e-0e89-4952-98ef-7c199a8183da"
+         ]
+      }, 
+      "2cec970f-eedc-49fc-9e6b-a82c49b74b1f" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101845", 
+            "y" : "-100258"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "mp40"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "a087a20e-0e89-4952-98ef-7c199a8183da" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101604", 
+            "y" : "-100266"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "8928b63e-8095-4d30-9f33-4c126c8e8e44" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101727", 
+            "y" : "-100539"
+         }, 
+         "child" : [ 
+            "31b60111-8ecd-4051-b8ad-d64c6607f6f7", 
+            "0f1f05e1-88bc-47b4-a7a4-52fed8c6aac0"
+         ]
+      }, 
+      "31b60111-8ecd-4051-b8ad-d64c6607f6f7" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-102170", 
+            "y" : "-100169"
+         }, 
+         "child" : [ 
+            "73108d61-3b2c-403a-bed6-cbe69dcb2cb1", 
+            "77bb1f55-bf6f-4d29-9bb0-9707ca8296b6"
+         ]
+      }, 
+      "73108d61-3b2c-403a-bed6-cbe69dcb2cb1" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-102264", 
+            "y" : "-100103"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "MG34_LMG"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "77bb1f55-bf6f-4d29-9bb0-9707ca8296b6" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102023", 
+            "y" : "-100111"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "0f1f05e1-88bc-47b4-a7a4-52fed8c6aac0" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-101760", 
+            "y" : "-100158"
+         }, 
+         "child" : [ 
+            "930c10f1-e7d2-40d7-8ecc-1ab3307fe7fe", 
+            "4f513000-8273-4535-9847-4e339187f034"
+         ]
+      }, 
+      "930c10f1-e7d2-40d7-8ecc-1ab3307fe7fe" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101854", 
+            "y" : "-100092"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "mg3"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "4f513000-8273-4535-9847-4e339187f034" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101613", 
+            "y" : "-100100"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "d9d52825-7e0f-4777-95de-982a1aaa8611" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101576", 
+            "y" : "-100539"
+         }, 
+         "child" : [ 
+            "20fdcc67-2838-4e3a-90bb-bccfd7df2762", 
+            "c50ec025-3fc4-4415-a172-280cc0f55101"
+         ]
+      }, 
+      "20fdcc67-2838-4e3a-90bb-bccfd7df2762" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-102158", 
+            "y" : "-99964"
+         }, 
+         "child" : [ 
+            "01216285-9516-46d1-81d2-9e3f2a18cf10", 
+            "71e6f4d2-df65-482c-a140-bf8f9981d014"
+         ]
+      }, 
+      "01216285-9516-46d1-81d2-9e3f2a18cf10" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-102252", 
+            "y" : "-99898"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "crossbow2"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "71e6f4d2-df65-482c-a140-bf8f9981d014" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102011", 
+            "y" : "-99906"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "c50ec025-3fc4-4415-a172-280cc0f55101" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-101757", 
+            "y" : "-99974"
+         }, 
+         "child" : [ 
+            "d0641d63-bc94-4686-9e9c-4a56f545dd79", 
+            "6fc5affb-4c59-4b34-b4e6-e08b46e2f696"
+         ]
+      }, 
+      "d0641d63-bc94-4686-9e9c-4a56f545dd79" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101846", 
+            "y" : "-99898"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "DP_28"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "6fc5affb-4c59-4b34-b4e6-e08b46e2f696" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101650", 
+            "y" : "-99901"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "40143b19-930b-43f2-8bfb-1fb4482fb39d" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101375", 
+            "y" : "-100611"
+         }, 
+         "child" : [ 
+            "7c764441-25d4-4130-8fa2-20ab580b7052", 
+            "b2f779ba-3a73-4ca9-8af2-13fe44f3bd1b", 
+            "6d8c2031-2074-47fe-a44e-9a44befdb0f1"
+         ]
+      }, 
+      "7c764441-25d4-4130-8fa2-20ab580b7052" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-102122", 
+            "y" : "-99746"
+         }, 
+         "child" : [ 
+            "b786d48b-04e4-4814-be35-76ee3378534d", 
+            "11eb0be6-143e-4575-8269-d8ffc6299ed6"
+         ]
+      }, 
+      "b786d48b-04e4-4814-be35-76ee3378534d" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-102248", 
+            "y" : "-99608"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "crossbow1"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "11eb0be6-143e-4575-8269-d8ffc6299ed6" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102107", 
+            "y" : "-99587"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "b2f779ba-3a73-4ca9-8af2-13fe44f3bd1b" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-101766", 
+            "y" : "-99744"
+         }, 
+         "child" : [ 
+            "07a1e74f-bcd5-4db1-989d-a758cda4f084", 
+            "f6a66924-39ed-4cfe-8ec7-269b5f3905dc"
+         ]
+      }, 
+      "07a1e74f-bcd5-4db1-989d-a758cda4f084" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101848", 
+            "y" : "-99611"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Beretta"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "f6a66924-39ed-4cfe-8ec7-269b5f3905dc" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101704", 
+            "y" : "-99593"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "6d8c2031-2074-47fe-a44e-9a44befdb0f1" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-101498", 
+            "y" : "-99662"
+         }, 
+         "child" : [ 
+            "1ebf53a9-0d23-46c1-a3ee-89b82eae0a08", 
+            "80e9b7fc-8de8-47c4-855a-36a327a4ca7a"
+         ]
+      }, 
+      "1ebf53a9-0d23-46c1-a3ee-89b82eae0a08" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101571", 
+            "y" : "-99601"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "ak47tactic"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "80e9b7fc-8de8-47c4-855a-36a327a4ca7a" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101419", 
+            "y" : "-99588"
          }, 
          "child" : [ 
          ]

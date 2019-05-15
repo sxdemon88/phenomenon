@@ -16,12 +16,14 @@ MonoBehaviour:
     path: Entities/Uniform/Uniform models/Gasmass/0001
   m_Localization: uniform.gasmass
   Takeable: 1
-  Cost: 600
+  Cost: 1400
   Weight: 1000
   Collectable: 1
   Modifiers:
   - _type: 35
-    _value: 25
+    _value: 33
+  - _type: 2
+    _value: 1
   UniformType: 3
   HideMask: 2
   ArmorDurability: 0

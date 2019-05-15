@@ -16,21 +16,21 @@ MonoBehaviour:
     path: Entities/Uniform/Uniform models/light_5/ctw_light5_icon
   m_Localization: uniform.ctw_light_5
   Takeable: 1
-  Cost: 0
-  Weight: 0
+  Cost: 21700
+  Weight: 6100
   Collectable: 1
   Modifiers:
   - _type: 28
-    _value: 0
-  - _type: 0
-    _value: 0
-  - _type: 0
-    _value: 0
-  - _type: 0
-    _value: 0
+    _value: 4
+  - _type: 30
+    _value: 40
+  - _type: 40
+    _value: 8
+  - _type: 27
+    _value: -10
   UniformType: 1
   HideMask: 0
-  ArmorDurability: 0
+  ArmorDurability: 85
   rules: []
   rulesEx: 0
   Perks: 0

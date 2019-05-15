@@ -16,21 +16,25 @@ MonoBehaviour:
     path: Entities/Uniform/Uniform models/light_2/ctw_light2amer_icon
   m_Localization: uniform.ctw_light_2amer
   Takeable: 1
-  Cost: 0
-  Weight: 0
+  Cost: 8200
+  Weight: 3400
   Collectable: 1
   Modifiers:
-  - _type: 0
-    _value: 0
-  - _type: 0
-    _value: 0
-  - _type: 0
-    _value: 0
-  - _type: 0
-    _value: 0
+  - _type: 28
+    _value: 16700
+  - _type: 30
+    _value: 16
+  - _type: 40
+    _value: 3
+  - _type: 26
+    _value: 1
+  - _type: 22
+    _value: 15
+  - _type: 27
+    _value: 5
   UniformType: 1
   HideMask: 0
-  ArmorDurability: 0
+  ArmorDurability: 33
   rules: []
   rulesEx: 0
   Perks: 0
