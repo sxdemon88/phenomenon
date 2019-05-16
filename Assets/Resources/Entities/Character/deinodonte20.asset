@@ -25,7 +25,7 @@ MonoBehaviour:
   BackToPosition: 0
   StoreStats: 0
   Summon: 1
-  SummonAddDist: 40
+  SummonAddDist: 100
   SummonCheckVisibility: 1
   BattleAddDist: 0
   Shiftable: 0
@@ -40,7 +40,7 @@ MonoBehaviour:
     - _type: 29
       _value: 25
     - _type: 33
-      _value: 12
+      _value: 15
     - _type: 40
       _value: 20
     - _type: 40

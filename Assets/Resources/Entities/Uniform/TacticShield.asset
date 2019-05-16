@@ -16,19 +16,19 @@ MonoBehaviour:
     path: Entities/Uniform/Uniform models/TacticShield/tacticsheild_icon
   m_Localization: uniform.tacticshield
   Takeable: 1
-  Cost: 3160
+  Cost: 1200
   Weight: 5000
   Collectable: 1
   Modifiers:
   - _type: 44
     _value: 33
   - _type: 45
-    _value: 14
+    _value: 9
   - _type: 27
-    _value: -21
+    _value: -20
   UniformType: 2
   HideMask: 0
-  ArmorDurability: 90
+  ArmorDurability: 50
   rules: []
   rulesEx: 0
   Perks: 1

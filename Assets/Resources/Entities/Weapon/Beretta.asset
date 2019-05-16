@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Icon:
     path: Entities/Weapon/weapon models/Beretta/beretta_90_icon
-  m_Localization: weapon.Beretta92
+  m_Localization: weapon.beretta
   Takeable: 1
   Cost: 1430
   Weight: 950

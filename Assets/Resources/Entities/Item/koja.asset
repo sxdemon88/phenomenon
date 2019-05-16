@@ -16,7 +16,7 @@ MonoBehaviour:
     path: Entities/Item/icons/m355
   m_Localization: item.koja
   Takeable: 1
-  Cost: 5
+  Cost: 15
   Weight: 100
   Collectable: 1
   Modifiers: []

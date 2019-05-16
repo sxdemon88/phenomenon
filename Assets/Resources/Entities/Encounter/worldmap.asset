@@ -15,7 +15,7 @@ MonoBehaviour:
   encounters:
   - _chance: 50
     _type: Wolfs
-    _period: 0
+    _period: 1
     _trigger: 
     _triggerInvert: 0
     _triggerReset: 0
@@ -93,7 +93,7 @@ MonoBehaviour:
         _value: 0
     _requirements: []
     _requirementsEx: []
-  - _chance: 15
+  - _chance: 10
     _type: Rats_2
     _period: 1
     _trigger: 
@@ -130,7 +130,7 @@ MonoBehaviour:
     - _type: 39
       _value: 3
     _requirementsEx: []
-  - _chance: 15
+  - _chance: 50
     _type: Ants
     _period: 1
     _trigger: 
@@ -170,7 +170,7 @@ MonoBehaviour:
         _value: 0
     _requirements: []
     _requirementsEx: []
-  - _chance: 10
+  - _chance: 50
     _type: Spiders
     _period: 1
     _trigger: 
@@ -241,7 +241,7 @@ MonoBehaviour:
         _value: 0
     _requirements: []
     _requirementsEx: []
-  - _chance: 15
+  - _chance: 16
     _type: Monster
     _period: 1
     _trigger: 
@@ -281,9 +281,9 @@ MonoBehaviour:
         _value: 0
     _requirements: []
     _requirementsEx: []
-  - _chance: 40
+  - _chance: 33
     _type: Bandits
-    _period: 0
+    _period: 1
     _trigger: 
     _triggerInvert: 0
     _triggerReset: 0
@@ -541,9 +541,9 @@ MonoBehaviour:
         _value: 0
     _requirements: []
     _requirementsEx: []
-  - _chance: 30
+  - _chance: 20
     _type: Fanatics
-    _period: 0
+    _period: 1
     _trigger: 
     _triggerInvert: 0
     _triggerReset: 0
@@ -836,9 +836,9 @@ MonoBehaviour:
         _value: 0
     _requirements: []
     _requirementsEx: []
-  - _chance: 5
+  - _chance: 7
     _type: Gopniks
-    _period: 0
+    _period: 1
     _trigger: 
     _triggerInvert: 0
     _triggerReset: 0
@@ -993,7 +993,7 @@ MonoBehaviour:
         _value: 0
     _requirements: []
     _requirementsEx: []
-  - _chance: 60
+  - _chance: 33
     _type: Caravan
     _period: 1
     _trigger: 
@@ -1049,7 +1049,7 @@ MonoBehaviour:
     chances: []
     _requirements: []
     _requirementsEx: []
-  - _chance: 20
+  - _chance: 40
     _type: Hunt
     _period: 1
     _trigger: 
@@ -1079,7 +1079,7 @@ MonoBehaviour:
         _value: 0
     _requirements: []
     _requirementsEx: []
-  - _chance: 60
+  - _chance: 33
     _type: Scavenger
     _period: 1
     _trigger: 
@@ -1107,7 +1107,7 @@ MonoBehaviour:
     chances: []
     _requirements: []
     _requirementsEx: []
-  - _chance: 10
+  - _chance: 15
     _type: Raid
     _period: 0
     _trigger: 
@@ -1329,7 +1329,7 @@ MonoBehaviour:
     - _type: 25
       _value: 35
     _requirementsEx: []
-  - _chance: 50
+  - _chance: 33
     _type: Traveler
     _period: 1
     _trigger: 
@@ -1739,7 +1739,7 @@ MonoBehaviour:
     _canAttack: 1
     _once: 0
     _icon: {fileID: 21300000, guid: 66213085d375bfe43a79a16ee2d1fb4a, type: 3}
-    _desc: encounter.ants.title
+    _desc: encounter.Ants_2
     _enter: encounter.attack
     _showIntro: 0
     _levels:
@@ -1779,7 +1779,7 @@ MonoBehaviour:
     _canAttack: 1
     _once: 0
     _icon: {fileID: 21300000, guid: dcc745c84d7499b40b32e2620573715f, type: 3}
-    _desc: encounter.rats
+    _desc: encounter.roi
     _enter: encounter.attack
     _showIntro: 0
     _levels:
@@ -1809,7 +1809,7 @@ MonoBehaviour:
         _value: 0
     _requirements: []
     _requirementsEx: []
-  - _chance: 100
+  - _chance: 50
     _type: ratsnights
     _period: 2
     _trigger: 
@@ -1819,7 +1819,7 @@ MonoBehaviour:
     _canAttack: 1
     _once: 0
     _icon: {fileID: 21300000, guid: e3bed738228969d429ff9c12e2860dfe, type: 3}
-    _desc: encounter.rats
+    _desc: encounter.ratsnights
     _enter: encounter.attack
     _showIntro: 0
     _levels:
@@ -1849,7 +1849,7 @@ MonoBehaviour:
         _value: 0
     _requirements: []
     _requirementsEx: []
-  - _chance: 100
+  - _chance: 50
     _type: wolfsnights
     _period: 2
     _trigger: 
@@ -1889,7 +1889,7 @@ MonoBehaviour:
         _value: 0
     _requirements: []
     _requirementsEx: []
-  - _chance: 30
+  - _chance: 33
     _type: Hunt_rabbit
     _period: 1
     _trigger: 
@@ -1919,7 +1919,7 @@ MonoBehaviour:
         _value: 0
     _requirements: []
     _requirementsEx: []
-  - _chance: 30
+  - _chance: 33
     _type: Hunt_boar
     _period: 1
     _trigger: 
@@ -1949,7 +1949,7 @@ MonoBehaviour:
         _value: 0
     _requirements: []
     _requirementsEx: []
-  - _chance: 30
+  - _chance: 33
     _type: Hunt_stag
     _period: 1
     _trigger: 
@@ -1979,7 +1979,7 @@ MonoBehaviour:
         _value: 0
     _requirements: []
     _requirementsEx: []
-  - _chance: 30
+  - _chance: 33
     _type: fight_1
     _period: 0
     _trigger: 
@@ -1989,7 +1989,7 @@ MonoBehaviour:
     _canAttack: 1
     _once: 0
     _icon: {fileID: 21300000, guid: a8ea91c65163e5940b8329ac8f08be17, type: 3}
-    _desc: encounter.raid
+    _desc: encounter.fight_1
     _enter: encounter.enter_raid
     _showIntro: 0
     _levels:
@@ -2007,7 +2007,7 @@ MonoBehaviour:
     chances: []
     _requirements: []
     _requirementsEx: []
-  - _chance: 30
+  - _chance: 33
     _type: fight_2
     _period: 0
     _trigger: 
@@ -2017,7 +2017,7 @@ MonoBehaviour:
     _canAttack: 1
     _once: 0
     _icon: {fileID: 21300000, guid: 8d2b5a46ded6b904a9ce15a4bb4835c8, type: 3}
-    _desc: encounter.raid
+    _desc: encounter.fight_2
     _enter: encounter.enter_raid
     _showIntro: 0
     _levels:
@@ -2035,7 +2035,7 @@ MonoBehaviour:
     chances: []
     _requirements: []
     _requirementsEx: []
-  - _chance: 30
+  - _chance: 33
     _type: fight_3
     _period: 0
     _trigger: 
@@ -2045,7 +2045,7 @@ MonoBehaviour:
     _canAttack: 1
     _once: 0
     _icon: {fileID: 21300000, guid: c9eeb00fedd14014e85d987a3e6edd40, type: 3}
-    _desc: encounter.raid
+    _desc: encounter.fight_3
     _enter: encounter.enter_raid
     _showIntro: 0
     _levels:
@@ -2063,7 +2063,7 @@ MonoBehaviour:
     chances: []
     _requirements: []
     _requirementsEx: []
-  - _chance: 30
+  - _chance: 33
     _type: fight_4
     _period: 0
     _trigger: 
@@ -2073,7 +2073,7 @@ MonoBehaviour:
     _canAttack: 1
     _once: 0
     _icon: {fileID: 21300000, guid: eebe40c0dd2fb5a49888be7fd346b60c, type: 3}
-    _desc: encounter.raid
+    _desc: encounter.fight_4
     _enter: encounter.enter_raid
     _showIntro: 0
     _levels:
@@ -2091,7 +2091,7 @@ MonoBehaviour:
     chances: []
     _requirements: []
     _requirementsEx: []
-  - _chance: 30
+  - _chance: 33
     _type: fight_5
     _period: 0
     _trigger: 
@@ -2101,7 +2101,7 @@ MonoBehaviour:
     _canAttack: 1
     _once: 0
     _icon: {fileID: 21300000, guid: fe2dee5dcb76fa448a638e75154fb0d7, type: 3}
-    _desc: encounter.raid
+    _desc: encounter.fight_5
     _enter: encounter.enter_raid
     _showIntro: 0
     _levels:
@@ -2119,7 +2119,7 @@ MonoBehaviour:
     chances: []
     _requirements: []
     _requirementsEx: []
-  - _chance: 30
+  - _chance: 33
     _type: fight_5
     _period: 0
     _trigger: 
@@ -2129,7 +2129,7 @@ MonoBehaviour:
     _canAttack: 1
     _once: 0
     _icon: {fileID: 21300000, guid: fe2dee5dcb76fa448a638e75154fb0d7, type: 3}
-    _desc: encounter.raid
+    _desc: encounter.fight_5
     _enter: encounter.enter_raid
     _showIntro: 0
     _levels:
@@ -2147,7 +2147,7 @@ MonoBehaviour:
     chances: []
     _requirements: []
     _requirementsEx: []
-  - _chance: 5
+  - _chance: 33
     _type: fight_6
     _period: 2
     _trigger: 
@@ -2157,7 +2157,7 @@ MonoBehaviour:
     _canAttack: 1
     _once: 0
     _icon: {fileID: 21300000, guid: 75d29d16d869f71429cf465048b48205, type: 3}
-    _desc: encounter.raid
+    _desc: encounter.fight_6
     _enter: encounter.enter_raid
     _showIntro: 0
     _levels:
@@ -2175,7 +2175,7 @@ MonoBehaviour:
     chances: []
     _requirements: []
     _requirementsEx: []
-  - _chance: 30
+  - _chance: 33
     _type: defence_1
     _period: 0
     _trigger: 
@@ -2185,8 +2185,8 @@ MonoBehaviour:
     _canAttack: 1
     _once: 0
     _icon: {fileID: 21300000, guid: 772922ca4477d6440be4bcbbeeb01441, type: 3}
-    _desc: encounter.raid
-    _enter: encounter.enter_raid
+    _desc: encounter.defence_1
+    _enter: encounter.enter_help
     _showIntro: 0
     _levels:
     - Z_7
@@ -2203,9 +2203,9 @@ MonoBehaviour:
     chances: []
     _requirements: []
     _requirementsEx: []
-  - _chance: 5
+  - _chance: 11
     _type: devourer
-    _period: 0
+    _period: 2
     _trigger: 
     _triggerInvert: 0
     _triggerReset: 0
@@ -2213,8 +2213,8 @@ MonoBehaviour:
     _canAttack: 1
     _once: 0
     _icon: {fileID: 21300000, guid: 899afa1ea3065314a8254992741f4460, type: 3}
-    _desc: encounter.raid
-    _enter: encounter.enter_raid
+    _desc: encounter.devourer
+    _enter: encounter.attack
     _showIntro: 0
     _levels:
     - Z_7
@@ -2230,7 +2230,7 @@ MonoBehaviour:
     - Z_1_Bunker
     chances:
     - _skill: 17
-      _skillModify: -50
+      _skillModify: -80
       _description: encounter.wolves
       _success: encounter.success_skip1
       _successButton: encounter.gotravel
@@ -2243,9 +2243,9 @@ MonoBehaviour:
         _value: 0
     _requirements: []
     _requirementsEx: []
-  - _chance: 30
+  - _chance: 11
     _type: deidont
-    _period: 0
+    _period: 2
     _trigger: 
     _triggerInvert: 0
     _triggerReset: 0
@@ -2253,7 +2253,7 @@ MonoBehaviour:
     _canAttack: 1
     _once: 0
     _icon: {fileID: 21300000, guid: 899afa1ea3065314a8254992741f4460, type: 3}
-    _desc: encounter.raid
+    _desc: encounter.deidont
     _enter: encounter.enter_raid
     _showIntro: 0
     _levels:
@@ -2270,7 +2270,7 @@ MonoBehaviour:
     - Z_1_Bunker
     chances:
     - _skill: 17
-      _skillModify: -50
+      _skillModify: -80
       _description: encounter.wolves
       _success: encounter.success_skip1
       _successButton: encounter.gotravel
@@ -2283,9 +2283,9 @@ MonoBehaviour:
         _value: 0
     _requirements: []
     _requirementsEx: []
-  - _chance: 30
+  - _chance: 11
     _type: wolflider
-    _period: 0
+    _period: 2
     _trigger: 
     _triggerInvert: 0
     _triggerReset: 0
@@ -2293,8 +2293,8 @@ MonoBehaviour:
     _canAttack: 1
     _once: 0
     _icon: {fileID: 21300000, guid: 016237ed867ec8c4db6689cdf06b08c4, type: 3}
-    _desc: encounter.raid
-    _enter: encounter.enter_raid
+    _desc: encounter.wolflider
+    _enter: encounter.attack
     _showIntro: 0
     _levels:
     - Z_7
@@ -2310,7 +2310,7 @@ MonoBehaviour:
     - Z_1_Bunker
     chances:
     - _skill: 17
-      _skillModify: -50
+      _skillModify: -70
       _description: encounter.wolves
       _success: encounter.success_skip1
       _successButton: encounter.gotravel
@@ -2323,7 +2323,7 @@ MonoBehaviour:
         _value: 0
     _requirements: []
     _requirementsEx: []
-  - _chance: 30
+  - _chance: 15
     _type: bearhigh
     _period: 2
     _trigger: 
@@ -2333,8 +2333,8 @@ MonoBehaviour:
     _canAttack: 1
     _once: 0
     _icon: {fileID: 21300000, guid: 9b33de6ceb2e30746b4e574d4a721358, type: 3}
-    _desc: encounter.raid
-    _enter: encounter.enter_raid
+    _desc: encounter.bearhigh
+    _enter: encounter.attack
     _showIntro: 0
     _levels:
     - Z_7
@@ -2363,9 +2363,9 @@ MonoBehaviour:
         _value: 0
     _requirements: []
     _requirementsEx: []
-  - _chance: 300
+  - _chance: 50
     _type: spidernights
-    _period: 0
+    _period: 2
     _trigger: 
     _triggerInvert: 0
     _triggerReset: 0
@@ -2373,8 +2373,8 @@ MonoBehaviour:
     _canAttack: 1
     _once: 0
     _icon: {fileID: 21300000, guid: 24431304217a762478d0cdb1d2cb7335, type: 3}
-    _desc: encounter.raid
-    _enter: encounter.enter_raid
+    _desc: encounter.spidernights
+    _enter: encounter.attack
     _showIntro: 0
     _levels:
     - Z_7
@@ -2391,10 +2391,10 @@ MonoBehaviour:
     chances:
     - _skill: 17
       _skillModify: -50
-      _description: encounter.wolves
-      _success: encounter.success_skip1
+      _description: encounter.try_skip1
+      _success: encounter.spiders_2.success_skip
       _successButton: encounter.gotravel
-      _fail: encounter.fail_skip_wolfes
+      _fail: encounter.spiders_2.fail_skip
       _failButton: encounter.gobattle
       _invert: 0
       _canAttack: 0

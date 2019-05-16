@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Icon:
     path: Entities/Weapon/weapon models/DP_28/dp28_icon
-  m_Localization: weapon.DP_28
+  m_Localization: weapon.dp_28
   Takeable: 1
   Cost: 12565
   Weight: 9120

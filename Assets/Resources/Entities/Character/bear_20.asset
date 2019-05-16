@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Icon:
     path: 
-  m_Localization: character.bear20
+  m_Localization: character.bear_20
   Takeable: 1
   aiBehavior: 0
   Dialog:
@@ -25,7 +25,7 @@ MonoBehaviour:
   BackToPosition: 0
   StoreStats: 0
   Summon: 1
-  SummonAddDist: 40
+  SummonAddDist: 200
   SummonCheckVisibility: 1
   BattleAddDist: 0
   Shiftable: 0

@@ -1548,6 +1548,15 @@
                "class" : "Uniform", 
                "count" : "1", 
                "proto" : "ctw_light_7"
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "crossbow2", 
+               "ammo" : { 
+                  "count" : "1", 
+                  "proto" : "Bolt"
+               }
             }
          ], 
          "inventoryObject" : "", 

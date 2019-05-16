@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Icon:
     path: Entities/Weapon/weapon models/MG34_LMG/mg34_icon
-  m_Localization: weapon.MG34_LMG
+  m_Localization: weapon.mg34_lmg
   Takeable: 1
   Cost: 5300
   Weight: 12100

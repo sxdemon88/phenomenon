@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Icon:
     path: Entities/Weapon/weapon models/crossbow1/crossbow1_icon
-  m_Localization: crossbow1
+  m_Localization: weapon.crossbow1
   Takeable: 1
   Cost: 1200
   Weight: 3460

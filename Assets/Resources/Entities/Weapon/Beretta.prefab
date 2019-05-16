@@ -31,7 +31,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2002263981713190387}
-  - {fileID: 2889551522621910486}
+  - {fileID: 4297035719005521470}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -61,7 +61,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mEntityData: '{"class":"Weapon", "count":"1", "proto":"Beretta", "ammo":{"count":"0",
-    "proto":"9mm_jhp"}}'
+    "proto":"9mm_JHP"}}'
 --- !u!114 &5514980973182213655
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -177,7 +177,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 79b9ce05120c2344f9fb361675536f98, type: 3}
---- !u!4 &2889551522621910486 stripped
+--- !u!4 &4297035719005521470 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 79b9ce05120c2344f9fb361675536f98,
     type: 3}

@@ -25,7 +25,7 @@ MonoBehaviour:
   BackToPosition: 0
   StoreStats: 0
   Summon: 1
-  SummonAddDist: 40
+  SummonAddDist: 100
   SummonCheckVisibility: 1
   BattleAddDist: 0
   Shiftable: 0
@@ -42,7 +42,7 @@ MonoBehaviour:
     - _type: 26
       _value: 3
     - _type: 33
-      _value: 8
+      _value: 10
     Level: 20
     ExperiencePoints: 250
     Strength: 10

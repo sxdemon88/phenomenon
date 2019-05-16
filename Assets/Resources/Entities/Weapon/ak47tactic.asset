@@ -17,7 +17,7 @@ MonoBehaviour:
   m_Localization: weapon.ak47tactic
   Takeable: 1
   Cost: 9130
-  Weight: 3750
+  Weight: 3150
   Collectable: 0
   Modifiers: []
   weaponType: 8

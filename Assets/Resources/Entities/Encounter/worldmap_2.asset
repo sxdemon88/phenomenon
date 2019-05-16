@@ -1,0 +1,334 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -861160848, guid: ba80931603c2dbc40ab113c533efa2ed, type: 3}
+  m_Name: worldmap_2
+  m_EditorClassIdentifier: 
+  encounters:
+  - _chance: 50
+    _type: Wolfs
+    _period: 1
+    _trigger: 
+    _triggerInvert: 0
+    _triggerReset: 0
+    _canSkip: 0
+    _canAttack: 1
+    _once: 0
+    _icon: {fileID: 21300000, guid: c9847c68ad2a31e4cbd41ad5b5fb0196, type: 3}
+    _desc: encounter.wolves
+    _enter: encounter.attack
+    _showIntro: 0
+    _levels:
+    - Z_1_2
+    - Z_2_2
+    - Z_3_2
+    chances:
+    - _skill: 17
+      _skillModify: 0
+      _description: encounter.try_skip1
+      _success: encounter.success_skip1
+      _successButton: encounter.gotravel
+      _fail: encounter.fail_skip_wolfes
+      _failButton: encounter.gobattle
+      _invert: 0
+      _canAttack: 0
+      _condition:
+        _type: 0
+        _value: 0
+    _requirements: []
+    _requirementsEx: []
+  - _chance: 20
+    _type: Hunt
+    _period: 1
+    _trigger: 
+    _triggerInvert: 0
+    _triggerReset: 0
+    _canSkip: 1
+    _canAttack: 0
+    _once: 0
+    _icon: {fileID: 21300000, guid: 1a4a580375650a644ba7eefc2716a9df, type: 3}
+    _desc: encounter.hunt
+    _enter: 
+    _showIntro: 0
+    _levels:
+    - Z_Forest_1_2
+    chances:
+    - _skill: 17
+      _skillModify: 0
+      _description: encounter.hunt_enter
+      _success: encounter.hunt_success
+      _successButton: encounter.hunt_try
+      _fail: encounter.hunt_fail
+      _failButton: encounter.gotravel
+      _invert: 1
+      _canAttack: 1
+      _condition:
+        _type: 0
+        _value: 0
+    _requirements: []
+    _requirementsEx: []
+  - _chance: 5
+    _type: Monster
+    _period: 0
+    _trigger: 
+    _triggerInvert: 0
+    _triggerReset: 0
+    _canSkip: 0
+    _canAttack: 1
+    _once: 0
+    _icon: {fileID: 21300000, guid: 38c7a07390d86da439a4b91310b0e645, type: 3}
+    _desc: encounter.monster.title
+    _enter: encounter.attack
+    _showIntro: 0
+    _levels:
+    - Z_1_2
+    - Z_2_2
+    - Z_3_2
+    chances:
+    - _skill: 17
+      _skillModify: -10
+      _description: encounter.try_skip1
+      _success: encounter.monster.success_skip
+      _successButton: encounter.gotravel
+      _fail: encounter.monster.fail_skip
+      _failButton: encounter.gobattle
+      _invert: 0
+      _canAttack: 0
+      _condition:
+        _type: 0
+        _value: 0
+    _requirements: []
+    _requirementsEx: []
+  - _chance: 33
+    _type: Bandits
+    _period: 0
+    _trigger: 
+    _triggerInvert: 0
+    _triggerReset: 0
+    _canSkip: 0
+    _canAttack: 1
+    _once: 0
+    _icon: {fileID: 21300000, guid: 2ea28a4ca6d8ae341919f90603ffa3cd, type: 3}
+    _desc: encounter.bandits
+    _enter: encounter.attack
+    _showIntro: 0
+    _levels:
+    - Z_1_2
+    - Z_2_2
+    - Z_3_2
+    chances:
+    - _skill: 17
+      _skillModify: -20
+      _description: encounter.try_skip1
+      _success: encounter.success_skip1
+      _successButton: encounter.gotravel
+      _fail: encounter.fail_skip_bandits1
+      _failButton: encounter.gobattle
+      _invert: 0
+      _canAttack: 0
+      _condition:
+        _type: 0
+        _value: 0
+    - _skill: 14
+      _skillModify: -25
+      _description: encounter.try_skip2
+      _success: encounter.success_skip2
+      _successButton: encounter.gotravel
+      _fail: encounter.fail_skip_bandits2
+      _failButton: encounter.gobattle
+      _invert: 0
+      _canAttack: 0
+      _condition:
+        _type: 0
+        _value: 0
+    _requirements: []
+    _requirementsEx: []
+  - _chance: 33
+    _type: Pirates
+    _period: 0
+    _trigger: 
+    _triggerInvert: 0
+    _triggerReset: 0
+    _canSkip: 0
+    _canAttack: 1
+    _once: 0
+    _icon: {fileID: 21300000, guid: 4aefc751973d86843a674ff6389fa4e2, type: 3}
+    _desc: encounter.pirates
+    _enter: encounter.attack
+    _showIntro: 0
+    _levels:
+    - Z_1_2
+    - Z_2_2
+    - Z_3_2
+    chances:
+    - _skill: 17
+      _skillModify: -30
+      _description: encounter.try_skip1
+      _success: encounter.success_skip1
+      _successButton: encounter.gotravel
+      _fail: encounter.fail_skip_bandits1
+      _failButton: encounter.gobattle
+      _invert: 0
+      _canAttack: 0
+      _condition:
+        _type: 0
+        _value: 0
+    - _skill: 14
+      _skillModify: -35
+      _description: encounter.try_skip2
+      _success: encounter.success_skip2
+      _successButton: encounter.gotravel
+      _fail: encounter.fail_skip_bandits2
+      _failButton: encounter.gobattle
+      _invert: 0
+      _canAttack: 0
+      _condition:
+        _type: 0
+        _value: 0
+    _requirements: []
+    _requirementsEx: []
+  - _chance: 60
+    _type: Z_4_2
+    _period: 0
+    _trigger: 
+    _triggerInvert: 0
+    _triggerReset: 0
+    _canSkip: 1
+    _canAttack: 0
+    _once: 1
+    _icon: {fileID: 21300000, guid: fbfcbb856fde0ca41bd9d81ccf1a6318, type: 3}
+    _desc: encounter.z_4_2
+    _enter: encounter.check
+    _showIntro: 0
+    _levels:
+    - Z_4_2
+    chances: []
+    _requirements:
+    - _type: 25
+      _value: 51
+    - _type: 39
+      _value: 6
+    _requirementsEx: []
+  - _chance: 20
+    _type: Traders
+    _period: 0
+    _trigger: 
+    _triggerInvert: 0
+    _triggerReset: 0
+    _canSkip: 1
+    _canAttack: 0
+    _once: 0
+    _icon: {fileID: 21300000, guid: a44e178ad51f9ef4383218070674190a, type: 3}
+    _desc: encounter.caravan
+    _enter: encounter.meet_caravan
+    _showIntro: 0
+    _levels:
+    - Z_1_2
+    - Z_2_2
+    - Z_3_2
+    chances: []
+    _requirements: []
+    _requirementsEx: []
+  - _chance: 20
+    _type: Hunt_stag
+    _period: 1
+    _trigger: 
+    _triggerInvert: 0
+    _triggerReset: 0
+    _canSkip: 1
+    _canAttack: 0
+    _once: 0
+    _icon: {fileID: 21300000, guid: 1694504f205d5f44f9995b0a866054b5, type: 3}
+    _desc: encounter.hunt
+    _enter: 
+    _showIntro: 0
+    _levels:
+    - Z_Forest_1_2
+    chances:
+    - _skill: 17
+      _skillModify: -10
+      _description: encounter.hunt_enter
+      _success: encounter.hunt_success
+      _successButton: encounter.hunt_try
+      _fail: encounter.hunt_fail
+      _failButton: encounter.gotravel
+      _invert: 1
+      _canAttack: 1
+      _condition:
+        _type: 0
+        _value: 0
+    _requirements: []
+    _requirementsEx: []
+  - _chance: 20
+    _type: Hunt_rabbit
+    _period: 1
+    _trigger: 
+    _triggerInvert: 0
+    _triggerReset: 0
+    _canSkip: 1
+    _canAttack: 0
+    _once: 0
+    _icon: {fileID: 21300000, guid: 9586c7045c870bf4993397d1bc4b1e57, type: 3}
+    _desc: encounter.hunt
+    _enter: 
+    _showIntro: 0
+    _levels:
+    - Z_Forest_1_2
+    chances:
+    - _skill: 17
+      _skillModify: -10
+      _description: encounter.hunt_enter
+      _success: encounter.hunt_success
+      _successButton: encounter.hunt_try
+      _fail: encounter.hunt_fail
+      _failButton: encounter.gotravel
+      _invert: 1
+      _canAttack: 1
+      _condition:
+        _type: 0
+        _value: 0
+    _requirements: []
+    _requirementsEx: []
+  - _chance: 20
+    _type: Hunt_boar
+    _period: 1
+    _trigger: 
+    _triggerInvert: 0
+    _triggerReset: 0
+    _canSkip: 1
+    _canAttack: 0
+    _once: 0
+    _icon: {fileID: 21300000, guid: b961f1bdeb1169f49a13cf73337b4531, type: 3}
+    _desc: encounter.hunt
+    _enter: 
+    _showIntro: 0
+    _levels:
+    - Z_Forest_1_2
+    chances:
+    - _skill: 17
+      _skillModify: -10
+      _description: encounter.hunt_enter
+      _success: encounter.hunt_success
+      _successButton: encounter.hunt_try
+      _fail: encounter.hunt_fail
+      _failButton: encounter.gotravel
+      _invert: 1
+      _canAttack: 1
+      _condition:
+        _type: 0
+        _value: 0
+    _requirements: []
+    _requirementsEx: []
+  camping:
+    _levels:
+    - Z_1_2
+    - Z_2_2
+    - Z_3_2

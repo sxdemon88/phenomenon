@@ -28,6 +28,8 @@ MonoBehaviour:
     _value: 1
   - _type: 27
     _value: 10
+  - _type: 37
+    _value: 1
   UniformType: 1
   HideMask: 0
   ArmorDurability: 0
