@@ -836,7 +836,7 @@ MonoBehaviour:
         _value: 0
     _requirements: []
     _requirementsEx: []
-  - _chance: 7
+  - _chance: 1
     _type: Gopniks
     _period: 1
     _trigger: 
@@ -1778,7 +1778,7 @@ MonoBehaviour:
     _canSkip: 0
     _canAttack: 1
     _once: 0
-    _icon: {fileID: 21300000, guid: dcc745c84d7499b40b32e2620573715f, type: 3}
+    _icon: {fileID: 21300000, guid: 0550f72152956af45bf8ac0f94dd2a4a, type: 3}
     _desc: encounter.roi
     _enter: encounter.attack
     _showIntro: 0
@@ -1818,7 +1818,7 @@ MonoBehaviour:
     _canSkip: 0
     _canAttack: 1
     _once: 0
-    _icon: {fileID: 21300000, guid: e3bed738228969d429ff9c12e2860dfe, type: 3}
+    _icon: {fileID: 21300000, guid: b10a715187b71c0418735d1a9f10238f, type: 3}
     _desc: encounter.ratsnights
     _enter: encounter.attack
     _showIntro: 0
@@ -1838,9 +1838,9 @@ MonoBehaviour:
     - _skill: 17
       _skillModify: -40
       _description: encounter.try_skip1
-      _success: encounter.ants.success_skip
+      _success: encounter.success_skip1
       _successButton: encounter.gotravel
-      _fail: encounter.ants.fail_skip
+      _fail: encounter.fail_skip_ph
       _failButton: encounter.gobattle
       _invert: 0
       _canAttack: 0
@@ -1880,7 +1880,7 @@ MonoBehaviour:
       _description: encounter.try_skip1
       _success: encounter.success_skip1
       _successButton: encounter.gotravel
-      _fail: encounter.fail_skip_wolfes
+      _fail: encounter.fail_skip_ph
       _failButton: encounter.gobattle
       _invert: 0
       _canAttack: 0
@@ -2092,7 +2092,7 @@ MonoBehaviour:
     _requirements: []
     _requirementsEx: []
   - _chance: 33
-    _type: fight_5
+    _type: defence_1
     _period: 0
     _trigger: 
     _triggerInvert: 0
@@ -2100,9 +2100,9 @@ MonoBehaviour:
     _canSkip: 1
     _canAttack: 1
     _once: 0
-    _icon: {fileID: 21300000, guid: fe2dee5dcb76fa448a638e75154fb0d7, type: 3}
-    _desc: encounter.fight_5
-    _enter: encounter.enter_raid
+    _icon: {fileID: 21300000, guid: 772922ca4477d6440be4bcbbeeb01441, type: 3}
+    _desc: encounter.defence_1
+    _enter: encounter.enter_help
     _showIntro: 0
     _levels:
     - Z_7
@@ -2231,10 +2231,10 @@ MonoBehaviour:
     chances:
     - _skill: 17
       _skillModify: -80
-      _description: encounter.wolves
+      _description: encounter.try_skip1
       _success: encounter.success_skip1
       _successButton: encounter.gotravel
-      _fail: encounter.fail_skip_wolfes
+      _fail: encounter.fail_skip_ph
       _failButton: encounter.gobattle
       _invert: 0
       _canAttack: 0
@@ -2271,10 +2271,10 @@ MonoBehaviour:
     chances:
     - _skill: 17
       _skillModify: -80
-      _description: encounter.wolves
+      _description: encounter.try_skip1
       _success: encounter.success_skip1
       _successButton: encounter.gotravel
-      _fail: encounter.fail_skip_wolfes
+      _fail: encounter.fail_skip_ph
       _failButton: encounter.gobattle
       _invert: 0
       _canAttack: 0
@@ -2311,10 +2311,10 @@ MonoBehaviour:
     chances:
     - _skill: 17
       _skillModify: -70
-      _description: encounter.wolves
+      _description: encounter.try_skip1
       _success: encounter.success_skip1
       _successButton: encounter.gotravel
-      _fail: encounter.fail_skip_wolfes
+      _fail: encounter.fail_skip_ph
       _failButton: encounter.gobattle
       _invert: 0
       _canAttack: 0
@@ -2351,10 +2351,10 @@ MonoBehaviour:
     chances:
     - _skill: 17
       _skillModify: -50
-      _description: encounter.wolves
+      _description: encounter.try_skip1
       _success: encounter.success_skip1
       _successButton: encounter.gotravel
-      _fail: encounter.fail_skip_wolfes
+      _fail: encounter.fail_skip_ph
       _failButton: encounter.gobattle
       _invert: 0
       _canAttack: 0
@@ -2392,9 +2392,9 @@ MonoBehaviour:
     - _skill: 17
       _skillModify: -50
       _description: encounter.try_skip1
-      _success: encounter.spiders_2.success_skip
+      _success: encounter.success_skip1
       _successButton: encounter.gotravel
-      _fail: encounter.spiders_2.fail_skip
+      _fail: encounter.fail_skip_ph
       _failButton: encounter.gobattle
       _invert: 0
       _canAttack: 0

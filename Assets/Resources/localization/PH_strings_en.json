@@ -1,0 +1,232 @@
+{ 
+   "ammo" : { 
+      "energy" : { 
+         "short" : "Заряд", 
+         "full" : "Заряд"
+      }
+   }, 
+   "character" : {    "ant10" : { 
+         "short" : "ant soldier", 
+         "full" : "ant soldier"
+      }, 
+      "ant5" : { 
+         "short" : "ant", 
+         "full" : "ant"
+      }, 
+      "bear_10" : { 
+         "short" : "bear mutant", 
+         "full" : "bear mutant"
+      }, 
+      "bear_20" : { 
+         "short" : "Adult bear", 
+         "full" : "Adult bear"
+      }, 
+      "bear_5" : { 
+         "short" : "Young bear", 
+         "full" : "Young bear"
+      }, 
+      "bumblebee10" : { 
+         "short" : "bumblebee soldier", 
+         "full" : "bumblebee soldier"
+      }, 
+      "bumblebee5" : { 
+         "short" : "bumblebee mutant", 
+         "full" : "bumblebee mutant"
+      }, 
+      "deinodonte20" : { 
+         "short" : "Adult deinodonte", 
+         "full" : "Adult deinodonte"
+      }, 
+      "devourer20" : { 
+         "short" : "Blind horror", 
+         "full" : "Blind horror"
+      }, 
+      "spider_big5" : { 
+         "short" : "Smart spider", 
+         "full" : "Smart spider"
+      }, 
+      "farmer1" : { 
+         "short" : "Farmer", 
+         "full" : "Farmer"
+      }
+   }, 
+   "weapon" : { 
+"ak47tactic": {
+         "short": "AKM",
+         "full": "Foreign copy of the Soviet AKM of the sample of 1959, with the workings of foreign specialists. The case is made of steel and impact-resistant plastic. Materials from foreign rifles were used in the creation. It is supplied by traders from Europe."
+      },
+      "beretta": {
+         "short": "Beretta 92",
+         "full": "A family of self-loading pistols, developed in 1972 by Carlo Beretta, Giuseppe Mazetti and Vittorio Valle - by the most experienced firearms masters from the Italian company Beretta. A 9 mm Beretta 92F pistol was replaced by a 45-caliber M1911 pistol as a standard US Army pistol with the designation M9. "
+      },
+      "crossbow1": {
+         "short": "Military Crossbow",
+         "full": "Crossbow designed for military special forces. Delivered by traders from Europe."
+      },
+      "crossbow2": {
+         "short": "Hunting crossbow",
+         "full": "The crossbow used in hunting for different game. The country of production is unknown."
+      },
+      "dp_28": {
+         "short": "DP-28",
+         "full": "A handgun developed by Vasily Alekseevich Degtyarev. The DP was one of the first models of small arms created in the USSR."
+      },
+      "mg3": {
+         "short": "MG 3",
+         "full": "German single machine gun. It is an improved version of the MG 42 machine gun. People's craftsmen remade under the mass cartridge."
+      },
+      "mg34_lmg": {
+         "short": "MG 34",
+         "full": "A German single machine gun from the time of the Second World War. It was developed by the German company Rheinmetall-Borsig AG at the request of the Wehrmacht. In the USSR, it fell in huge numbers after the war. It was remade by popular craftsmen under the mass cartridge 7.62."
+      },
+      "mp40": {
+         "short": "MP 40",
+         "full": "The submachine gun developed by Heinrich Vollmer on the basis of the earlier MP 36 and used as a personal weapon. It was in service with the Wehrmacht during World War II. In the USSR, it was in large quantities in warehouses."
+      },
+      "svu": {
+         "short": "SVU",
+         "full": "The development of a shortened sniper rifle based on the SVD designed for airborne troops began at TsKIB SOO since the 1970s. In parts of the airborne troops, the first samples of the new sniper rifle, designated as SVU or OTs-03 (sample TsKIB third), were demonstrated in 1979. At the time of 1986 it was released in limited edition for special services. "
+      }
+   }, 
+   "chest" : { 
+      "mychest" : { 
+         "short" : "Ящик", 
+         "full" : "Мой ящик"
+      }
+   }, 
+   "consumable" : { 
+   }, 
+   "interactive" : { 
+      "mymod_level" : { 
+         "short" : "-", 
+         "full" : "-"
+      }
+   }, 
+   "item" : {  
+		"koja" : { 
+         "short" : "Pieces of leather", 
+         "full" : "Well-cut pieces of leather. Can be sold or used in craft."
+      },
+	  		"shkurs" : { 
+         "short" : "animal skin", 
+         "full" : "The skin of a dead animal. Can be sold or crafted."
+      }
+   },
+   "encounter" : { 
+   
+   "wolfsnights": "You fell into the trap of a wolf pack. A huge pack of wolves is now approaching you.",
+   "spidernights": "You have fallen into a spider's lair. Spiders are coming swiftly towards you.",
+   "bearhigh": "A huge roar of bears is heard nearby. You have noticed that bears are rapidly approaching you,",
+   "wolflider": "A wolf pack surrounded you, among them you noticed a strange Leader.",
+   "deidont": "Something or someone is approaching you, making very loud sounds as you move.",
+   "devourer": "You heard the terrible sounds of an unknown animal, and noticed that something was approaching you from the thicket, towards the meeting.",
+   "defence_1": "In the distance, the sounds of gunfire and fighting are heard. Having listened, you can hear the clear cries of people who are asking for help",
+   "fight_6": "You hear the whining sounds of some animals and the terrible roar of a monster",
+   "fight_5": "The sounds of the struggle of wild animals are heard. Having listened, you hear a loud howl and a squeak of mice.",
+   "fight_4": "Surprisingly, you have witnessed the hunt of wolves for hunted prey.",
+   "fight_3": "Surprisingly, you have witnessed the hunt of wolves for hunted prey.",
+   "fight_2": "Surprisingly, you have witnessed the hunt of wolves for hunted prey.",
+   "fight_1": "You heard the sounds of a fight, especially the loud howling of wolves and the bear's roar is especially audible.",
+   "ratsnights": "You have fallen into a rat trap. A huge number of rats are rapidly approaching you.",
+   "roi": "You have noticed the rapid approach of small shadows from the thicket to you.",
+   "Ants_2": "You have fallen into the Mimrikov anthill. A large number of Mimriks are approaching you.",
+   "enter_help": "Help!",
+   "fail_skip_ph": "You could not avoid a battle!"
+   },    
+   "door" : { 
+   }, 
+   "memo" : { 
+   }, 
+   "uniform" : { 
+      "armor1" : { 
+         "short" : "Civilian bulletproof vest", 
+         "full" : "Civic armor foreign production. Delivered by merchants from Europe."
+      }, 
+      "armor1black" : { 
+         "short" : "Civilian bulletproof vest (Black)", 
+         "full" : "The dark version of civilian body armor."
+      }, 
+      "armor1green" : { 
+         "short" : "Civilian Bulletproof Vest (Green)", 
+         "full" : "Hunting version of a civilian body armor."
+      }, 
+      "ctw_armor2" : { 
+         "short" : "Police vest", 
+         "full" : "Police bulletproof vest. In a good condition."
+      }, 
+      "ctw_head_1" : { 
+         "short" : "Pilot's helmet", 
+         "full" : "Soviet pilot's helmet."
+      }, 
+      "ctw_head_1rust" : { 
+         "short" : "Rusty pilot's helmet", 
+         "full" : "Old Soviet helmet of the pilot."
+      }, 
+      "ctw_head_2" : { 
+         "short" : "Military cap", 
+         "full" : "Military cap"
+      }, 
+      "ctw_head_3" : { 
+         "short" : "Old hat", 
+         "full" : "Very old military cap"
+      }, 
+      "ctw_head_4" : { 
+         "short" : "Hat style", 
+         "full" : "Classic hat"
+      }, 
+      "ctw_light_1" : { 
+         "short" : "Medium Tactical Vest", 
+         "full" : "Tactical vest with elements of armor. Good capacity and ease of use make it popular."
+      }, 
+      "ctw_light_2" : { 
+         "short" : "Medium Tactical Vest", 
+         "full" : "High-tech military vest. Production is somewhere in the Middle East."
+      }, 
+      "ctw_light_2amer" : { 
+         "short" : "Medium tactical vest in camouflage", 
+         "full" : "The trophy American flag is used in this vest."
+      }, 
+      "ctw_light_2digital" : { 
+         "short" : "Medium tactical vest in camouflage", 
+         "full" : "The vest uses digital camouflage created in 1984. High efficiency and low profile make it popular among stalkers."
+      }, 
+      "ctw_light_2snake" : { 
+         "short" : "Medium tactical vest in camouflage", 
+         "full" : "The vest uses gray digital camouflage created in 1984. High efficiency and low profile make it popular among stalkers."
+      }, 
+      "ctw_light_3" : { 
+         "short" : "Medium Tactical Vest", 
+         "full" : "Vest of foreign sample of excellent quality. There is basic protection."
+      }, 
+      "ctw_light_4" : { 
+         "short" : "Light Tactical Vest", 
+         "full" : "High-quality lightweight vest. Very comfortable and ergonomic."
+      }, 
+      "ctw_light_5" : { 
+         "short" : "Experimental Armor", 
+         "full" : "The origin of this armor is unknown. For the first time delivered a merchant from the Middle East. The quality of materials and armor performance is fascinating."
+      }, 
+      "ctw_light_6" : { 
+         "short" : "Heavy Tactical Vest", 
+         "full" : "Very roomy, complete with basic body armor."
+      }, 
+      "ctw_light_7" : { 
+         "short" : "Light Tactical Vest", 
+         "full" : "It is in great demand among hunters and fishermen. Good capacity and comfortable pockets, what else is needed for a successful campaign."
+      }, 
+      "gasmass" : { 
+         "short" : "face-guard", 
+         "full" : "Protective mask with special points in good condition, delivered by traders from the Middle East."
+      }, 
+      "tacticshield" : { 
+         "short" : "Metal shield", 
+         "full" : "Old shockproof shield in good condition, designed for use by special forces of various law enforcement agencies."
+      }
+   }, 
+   "explosive" : { 
+   }, 
+   "location" :  { 
+   }, 
+   "quests" :  { 
+   } 
+}

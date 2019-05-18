@@ -23,7 +23,7 @@ public class ModEntryPoint : MonoBehaviour // ModEntryPoint - RESERVED LOOKUP NA
 
     void GameLoaded(GlobalEvents.GameStart evnt)
     {
-        Localization.LoadStrings("mymod_strings_");
+        Localization.LoadStrings("PH_strings_");
         Game.World.console.DeveloperMode();
     }
 

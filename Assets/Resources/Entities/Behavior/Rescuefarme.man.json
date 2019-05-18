@@ -3,8 +3,8 @@
       "7a91e538-4a60-4839-90c4-03ed8f8f5bcb" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "608", 
-            "y" : "-256"
+            "x" : "575", 
+            "y" : "-293"
          }, 
          "child" : [ 
             "52eb9ad1-a529-442f-9c8d-34cd142eee9f", 
@@ -594,7 +594,7 @@
             { 
                "class" : "Consumable", 
                "count" : "1", 
-               "proto" : "carrot"
+               "proto" : "Carrot"
             }, 
             { 
                "class" : "Item", 
