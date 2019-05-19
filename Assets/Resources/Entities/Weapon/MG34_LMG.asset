@@ -66,7 +66,7 @@ MonoBehaviour:
   Requirements:
   - _type: 1
     _value: 6
-  - _type: 9
+  - _type: 10
     _value: 65
   NoAmmoSounds:
   - path: Sounds/SFX/Weapons/m249/m249_empty
