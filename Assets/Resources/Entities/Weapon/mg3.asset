@@ -34,7 +34,7 @@ MonoBehaviour:
   Single:
     AP: 7
     Range: 15
-    Shots: 3
+    Shots: 7
     Dispersion: 4
     ModeType: 10
     Sounds:

@@ -42,7 +42,7 @@ MonoBehaviour:
   Aimed:
     AP: 4
     Range: 16
-    Shots: 0
+    Shots: 1
     Dispersion: 0
     ModeType: 0
     Sounds:
