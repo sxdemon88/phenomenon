@@ -82,7 +82,8 @@
          "child" : [ 
             "59dcd861-be40-42d2-bfbb-4d0cc37da96c", 
             "9f67019f-48f9-46a6-b615-a9bed9ecf1d0", 
-            "4e4a74e3-6bad-4352-b9c8-b8161e3023f0"
+            "4e4a74e3-6bad-4352-b9c8-b8161e3023f0", 
+            "880c9eae-de14-4de9-8235-32307480a225"
          ]
       }, 
       "59dcd861-be40-42d2-bfbb-4d0cc37da96c" : { 
@@ -172,8 +173,8 @@
       "460fb9ff-08f4-4fd9-aec6-f0be2da4e8b6" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-101191", 
-            "y" : "-99504"
+            "x" : "-101190", 
+            "y" : "-99505"
          }, 
          "child" : [ 
          ], 
@@ -249,8 +250,8 @@
       "dda1bc11-6909-4a5b-9950-9c06e45c2667" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-99863", 
-            "y" : "-98685"
+            "x" : "-99861", 
+            "y" : "-98682"
          }, 
          "child" : [ 
          ], 
@@ -575,6 +576,34 @@
          "inventoryObject" : "", 
          "random" : "true"
       }, 
+      "880c9eae-de14-4de9-8235-32307480a225" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100818", 
+            "y" : "-99312"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "craftdogarmor_1"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "craftdoghelmet_1"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "craftdogtop_1"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
       "2f2a84b6-3e68-4365-b6ef-f0c19f7e7101" : { 
          "class" : "DummyNode", 
          "desc" : { 
@@ -584,7 +613,8 @@
          "child" : [ 
             "b15f6157-f03e-4ce4-8dbc-189145179f1e", 
             "9f67019f-48f9-46a6-b615-a9bed9ecf1d0", 
-            "4e4a74e3-6bad-4352-b9c8-b8161e3023f0"
+            "4e4a74e3-6bad-4352-b9c8-b8161e3023f0", 
+            "880c9eae-de14-4de9-8235-32307480a225"
          ]
       }, 
       "b15f6157-f03e-4ce4-8dbc-189145179f1e" : { 
@@ -698,7 +728,8 @@
          "child" : [ 
             "4e4a74e3-6bad-4352-b9c8-b8161e3023f0", 
             "9f67019f-48f9-46a6-b615-a9bed9ecf1d0", 
-            "3324d172-f240-4d4d-a93d-7a97c206ec3a"
+            "3324d172-f240-4d4d-a93d-7a97c206ec3a", 
+            "880c9eae-de14-4de9-8235-32307480a225"
          ]
       }, 
       "3324d172-f240-4d4d-a93d-7a97c206ec3a" : { 

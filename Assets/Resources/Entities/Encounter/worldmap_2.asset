@@ -338,7 +338,7 @@ MonoBehaviour:
     _once: 0
     _icon: {fileID: 21300000, guid: 9b33de6ceb2e30746b4e574d4a721358, type: 3}
     _desc: encounter.bearhigh
-    _enter: 
+    _enter: encounter.attack
     _showIntro: 0
     _levels:
     - Z_1_2
@@ -370,7 +370,7 @@ MonoBehaviour:
     _once: 0
     _icon: {fileID: 21300000, guid: 24431304217a762478d0cdb1d2cb7335, type: 3}
     _desc: encounter.spidernights
-    _enter: 
+    _enter: encounter.attack
     _showIntro: 0
     _levels:
     - Z_1_2
@@ -402,7 +402,7 @@ MonoBehaviour:
     _once: 0
     _icon: {fileID: 21300000, guid: 8f5a1cc91e41eba41ab46b70ba8f026f, type: 3}
     _desc: encounter.wolfsnights
-    _enter: 
+    _enter: encounter.attack
     _showIntro: 0
     _levels:
     - Z_1_2
@@ -434,7 +434,7 @@ MonoBehaviour:
     _once: 0
     _icon: {fileID: 21300000, guid: b10a715187b71c0418735d1a9f10238f, type: 3}
     _desc: encounter.ratsnights
-    _enter: 
+    _enter: encounter.attack
     _showIntro: 0
     _levels:
     - Z_1_2
@@ -466,7 +466,7 @@ MonoBehaviour:
     _once: 0
     _icon: {fileID: 21300000, guid: 0550f72152956af45bf8ac0f94dd2a4a, type: 3}
     _desc: encounter.roi
-    _enter: 
+    _enter: encounter.attack
     _showIntro: 0
     _levels:
     - Z_1_2
