@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Icon:
     path: Entities/Uniform/Uniform models/PH_mask/maskpack/mask2
-  m_Localization: uniform.gp7
+  m_Localization: uniform.gasmass2
   Takeable: 1
-  Cost: 1400
-  Weight: 1000
+  Cost: 2500
+  Weight: 900
   Collectable: 1
   Modifiers:
   - _type: 35
@@ -30,3 +30,7 @@ MonoBehaviour:
   rules: []
   rulesEx: 0
   Perks: 0
+  ClothesForMale:
+    path: 
+  ClothesForFemale:
+    path: 

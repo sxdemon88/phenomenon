@@ -16,7 +16,7 @@ MonoBehaviour:
     path: Entities/Weapon/weapon models/Luger_P08/luggerp08
   m_Localization: weapon.luger08
   Takeable: 1
-  Cost: 2700
+  Cost: 4700
   Weight: 880
   Collectable: 0
   Modifiers: []
@@ -26,24 +26,24 @@ MonoBehaviour:
   AmmoCapacity: 8
   BothHands: 0
   Stack: 0
-  DamageMin: 9
-  DamageMax: 16
+  DamageMin: 8
+  DamageMax: 14
   DamageRadius: 1
   Fatality: 10
   Perks: 0
   PerksEx: 0
   DamageType: 0
   Single:
-    AP: 4
-    Range: 14
+    AP: 3
+    Range: 13
     Shots: 1
     Dispersion: 0
     ModeType: 0
     Sounds:
     - path: Entities/Weapon/weapon models/Luger_P08/LUGER
   Aimed:
-    AP: 5
-    Range: 14
+    AP: 4
+    Range: 13
     Shots: 1
     Dispersion: 0
     ModeType: 0
@@ -57,7 +57,7 @@ MonoBehaviour:
     ModeType: 0
     Sounds: []
   Reload:
-    AP: 2
+    AP: 3
     Range: 0
     Shots: 0
     Dispersion: 0
@@ -67,9 +67,9 @@ MonoBehaviour:
   Effects: []
   Requirements:
   - _type: 1
-    _value: 5
+    _value: 4
   - _type: 8
-    _value: 80
+    _value: 90
   NoAmmoSounds:
   - path: Sounds/SFX/Weapons/Tokarev/tt_empty
   PreAttackSounds: []

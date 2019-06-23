@@ -16,28 +16,29 @@ MonoBehaviour:
     path: Entities/Weapon/weapon models/STG44/stg44
   m_Localization: weapon.stg44
   Takeable: 1
-  Cost: 3760
+  Cost: 10000
   Weight: 5200
   Collectable: 0
   Modifiers: []
+  HasModel: 1
   weaponType: 1
   Ammo:
-    path: entities/ammo/9mm_jhp
-  AmmoCapacity: 32
+    path: entities/ammo/7_62mm_jhp
+  AmmoCapacity: 30
   BothHands: 1
   Stack: 0
-  DamageMin: 6
-  DamageMax: 15
+  DamageMin: 9
+  DamageMax: 22
   DamageRadius: 1
-  Fatality: 10
+  Fatality: 20
   Perks: 0
   PerksEx: 0
   DamageType: 0
   Single:
     AP: 5
-    Range: 12
-    Shots: 4
-    Dispersion: 1
+    Range: 20
+    Shots: 3
+    Dispersion: 2
     ModeType: 10
     Sounds:
     - path: Entities/Weapon/weapon models/STG44/STG44
@@ -49,10 +50,10 @@ MonoBehaviour:
     ModeType: 0
     Sounds: []
   Burst:
-    AP: 6
-    Range: 10
+    AP: 7
+    Range: 19
     Shots: 6
-    Dispersion: 1
+    Dispersion: 2
     ModeType: 9
     Sounds:
     - path: Entities/Weapon/weapon models/STG44/STG44
@@ -67,9 +68,9 @@ MonoBehaviour:
   Effects: []
   Requirements:
   - _type: 1
-    _value: 5
+    _value: 6
   - _type: 10
-    _value: 50
+    _value: 85
   NoAmmoSounds:
   - path: Sounds/SFX/Weapons/PPS/pps_empty
   PreAttackSounds: []

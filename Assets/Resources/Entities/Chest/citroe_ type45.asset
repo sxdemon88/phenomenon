@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Icon:
     path: 
-  m_Localization: chest.karavan.vehicle
+  m_Localization: chest.citroe_ type45
   Takeable: 1
   Boom: {fileID: 0}
   DamageTreshold: 0

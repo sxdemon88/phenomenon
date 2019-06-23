@@ -61,7 +61,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mEntityData: '{"class":"Weapon", "count":"1", "proto":"stg44", "ammo":{"count":"0",
-    "proto":"9mm_JHP"}}'
+    "proto":"7_62mm_jhp"}}'
 --- !u!114 &5514980973182213655
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -5,7 +5,8 @@
          "full" : "Заряд"
       }
    }, 
-   "character" : {    "ant10" : { 
+   "character" : { 
+      "ant10" : { 
          "short" : "ant soldier", 
          "full" : "ant soldier"
       }, 
@@ -48,53 +49,225 @@
       "farmer1" : { 
          "short" : "Farmer", 
          "full" : "Farmer"
+      }, 
+      "big_giantrat_rad" : { 
+         "short" : ".character.big_giantrat_rad.short", 
+         "full" : ".character.big_giantrat_rad.full"
+      }, 
+      "lacodon10" : { 
+         "short" : ".character.lacodon10.short", 
+         "full" : ".character.lacodon10.full"
+      }, 
+      "lacodon5" : { 
+         "short" : ".character.lacodon5.short", 
+         "full" : ".character.lacodon5.full"
+      }, 
+      "lizard" : { 
+         "short" : ".character.lizard.short", 
+         "full" : ".character.lizard.full"
+      }, 
+      "lizard20" : { 
+         "short" : ".character.lizard20.short", 
+         "full" : ".character.lizard20.full"
+      }, 
+      "lizard_small" : { 
+         "short" : ".character.lizard_small.short", 
+         "full" : ".character.lizard_small.full"
+      }, 
+      "lizard_small20" : { 
+         "short" : ".character.lizard_small20.short", 
+         "full" : ".character.lizard_small20.full"
+      }, 
+      "mole_10" : { 
+         "short" : ".character.mole_10.short", 
+         "full" : ".character.mole_10.full"
+      }, 
+      "moleking_20" : { 
+         "short" : ".character.moleking_20.short", 
+         "full" : ".character.moleking_20.full"
+      }, 
+      "ph_bandit" : { 
+         "short" : ".character.ph_bandit.short", 
+         "full" : ".character.ph_bandit.full"
+      }, 
+      "ph_bandit_14" : { 
+         "short" : ".character.ph_bandit_14.short", 
+         "full" : ".character.ph_bandit_14.full"
+      }, 
+      "ph_bandit_21" : { 
+         "short" : ".character.ph_bandit_21.short", 
+         "full" : ".character.ph_bandit_21.full"
+      }, 
+      "ph_bandit_3" : { 
+         "short" : ".character.ph_bandit_3.short", 
+         "full" : ".character.ph_bandit_3.full"
+      }, 
+      "ph_bandit_7" : { 
+         "short" : ".character.ph_bandit_7.short", 
+         "full" : ".character.ph_bandit_7.full"
+      }, 
+      "ph_caravan_1" : { 
+         "short" : ".character.ph_caravan_1.short", 
+         "full" : ".character.ph_caravan_1.full"
+      }, 
+      "ph_caravan_2" : { 
+         "short" : ".character.ph_caravan_2.short", 
+         "full" : ".character.ph_caravan_2.full"
+      }, 
+      "ph_caravan_guard" : { 
+         "short" : ".character.ph_caravan_guard.short", 
+         "full" : ".character.ph_caravan_guard.full"
+      }, 
+      "stalker1" : { 
+         "short" : ".character.stalker1.short", 
+         "full" : ".character.stalker1.full"
+      }, 
+      "stalkertrader" : { 
+         "short" : ".character.stalkertrader.short", 
+         "full" : ".character.stalkertrader.full"
+      }, 
+      "village_trader" : { 
+         "short" : ".character.village_trader.short", 
+         "full" : ".character.village_trader.full"
       }
    }, 
    "weapon" : { 
-"ak47tactic": {
-         "short": "AKM",
-         "full": "Foreign copy of the Soviet AKM of the sample of 1959, with the workings of foreign specialists. The case is made of steel and impact-resistant plastic. Materials from foreign rifles were used in the creation. It is supplied by traders from Europe."
-      },
-      "beretta": {
-         "short": "Beretta 92",
-         "full": "A family of self-loading pistols, developed in 1972 by Carlo Beretta, Giuseppe Mazetti and Vittorio Valle - by the most experienced firearms masters from the Italian company Beretta. A 9 mm Beretta 92F pistol was replaced by a 45-caliber M1911 pistol as a standard US Army pistol with the designation M9. "
-      },
-      "crossbow1": {
-         "short": "Military Crossbow",
-         "full": "Crossbow designed for military special forces. Delivered by traders from Europe."
-      },
-      "crossbow2": {
-         "short": "Hunting crossbow",
-         "full": "The crossbow used in hunting for different game. The country of production is unknown."
-      },
-      "dp_28": {
-         "short": "DP-28",
-         "full": "A handgun developed by Vasily Alekseevich Degtyarev. The DP was one of the first models of small arms created in the USSR."
-      },
-      "mg3": {
-         "short": "MG 3",
-         "full": "German single machine gun. It is an improved version of the MG 42 machine gun. People's craftsmen remade under the mass cartridge."
-      },
-      "mg34_lmg": {
-         "short": "MG 34",
-         "full": "A German single machine gun from the time of the Second World War. It was developed by the German company Rheinmetall-Borsig AG at the request of the Wehrmacht. In the USSR, it fell in huge numbers after the war. It was remade by popular craftsmen under the mass cartridge 7.62."
-      },
-      "mp40": {
-         "short": "MP 40",
-         "full": "The submachine gun developed by Heinrich Vollmer on the basis of the earlier MP 36 and used as a personal weapon. It was in service with the Wehrmacht during World War II. In the USSR, it was in large quantities in warehouses."
-      },
-      "svu": {
-         "short": "SVU",
-         "full": "The development of a shortened sniper rifle based on the SVD designed for airborne troops began at TsKIB SOO since the 1970s. In parts of the airborne troops, the first samples of the new sniper rifle, designated as SVU or OTs-03 (sample TsKIB third), were demonstrated in 1979. At the time of 1986 it was released in limited edition for special services. "
-      }
+      "ak47tactic" : { 
+         "         short" : "AKM", 
+         "full" : "Foreign copy of the Soviet AKM of the sample of 1959, with the workings of foreign specialists. The case is made of steel and impact-resistant plastic. Materials from foreign rifles were used in the creation. It is supplied by traders from Europe.      ", 
+         "short" : ".weapon.ak47tactic.short"
+      }, 
+      "beretta" : { 
+         "         short" : "Beretta 92", 
+         "full" : "A family of self-loading pistols, developed in 1972 by Carlo Beretta, Giuseppe Mazetti and Vittorio Valle - by the most experienced firearms masters from the Italian company Beretta. A 9 mm Beretta 92F pistol was replaced by a 45-caliber M1911 pistol as a standard US Army pistol with the designation M9.       ", 
+         "short" : ".weapon.beretta.short"
+      }, 
+      "crossbow1" : { 
+         "         short" : "Military Crossbow", 
+         "full" : "Crossbow designed for military special forces. Delivered by traders from Europe.      ", 
+         "short" : ".weapon.crossbow1.short"
+      }, 
+      "crossbow2" : { 
+         "         short" : "Hunting crossbow", 
+         "full" : "The crossbow used in hunting for different game. The country of production is unknown.      ", 
+         "short" : ".weapon.crossbow2.short"
+      }, 
+      "dp_28" : { 
+         "         short" : "DP-28", 
+         "full" : "A handgun developed by Vasily Alekseevich Degtyarev. The DP was one of the first models of small arms created in the USSR.      ", 
+         "short" : ".weapon.dp_28.short"
+      }, 
+      "mg3" : { 
+         "         short" : "MG 3", 
+         "full" : "German single machine gun. It is an improved version of the MG 42 machine gun. People's craftsmen remade under the mass cartridge.      ", 
+         "short" : ".weapon.mg3.short"
+      }, 
+      "mg34_lmg" : { 
+         "         short" : "MG 34", 
+         "full" : "A German single machine gun from the time of the Second World War. It was developed by the German company Rheinmetall-Borsig AG at the request of the Wehrmacht. In the USSR, it fell in huge numbers after the war. It was remade by popular craftsmen under the mass cartridge 7.62.      ", 
+         "short" : ".weapon.mg34_lmg.short"
+      }, 
+      "mp40" : { 
+         "         short" : "MP 40", 
+         "full" : "The submachine gun developed by Heinrich Vollmer on the basis of the earlier MP 36 and used as a personal weapon. It was in service with the Wehrmacht during World War II. In the USSR, it was in large quantities in warehouses.      ", 
+         "short" : ".weapon.mp40.short"
+      }, 
+      "svu" : { 
+         "         short" : "SVU", 
+         "full" : "The development of a shortened sniper rifle based on the SVD designed for airborne troops began at TsKIB SOO since the 1970s. In parts of the airborne troops, the first samples of the new sniper rifle, designated as SVU or OTs-03 (sample TsKIB third), were demonstrated in 1979. At the time of 1986 it was released in limited edition for special services.       ", 
+         "short" : ".weapon.svu.short"
+      }, 
+      "amd65" : { 
+         "short" : ".weapon.amd65.short", 
+         "full" : ".weapon.amd65.full"
+      }, 
+      "amd65n" : { 
+         "short" : ".weapon.amd65n.short", 
+         "full" : ".weapon.amd65n.full"
+      }, 
+      "dp_28rust" : { 
+         "short" : ".weapon.dp_28rust.short", 
+         "full" : ".weapon.dp_28rust.full"
+      }, 
+      "fg42" : { 
+         "short" : ".weapon.fg42.short", 
+         "full" : ".weapon.fg42.full"
+      }, 
+      "g43" : { 
+         "short" : ".weapon.g43.short", 
+         "full" : ".weapon.g43.full"
+      }, 
+      "g43s" : { 
+         "short" : ".weapon.g43s.short", 
+         "full" : ".weapon.g43s.full"
+      }, 
+      "luger08" : { 
+         "short" : ".weapon.luger08.short", 
+         "full" : ".weapon.luger08.full"
+      }, 
+      "luger08rust" : { 
+         "short" : ".weapon.luger08rust.short", 
+         "full" : ".weapon.luger08rust.full"
+      }, 
+      "m76" : { 
+         "short" : ".weapon.m76.short", 
+         "full" : ".weapon.m76.full"
+      }, 
+      "mg34_lmgrust" : { 
+         "short" : ".weapon.mg34_lmgrust.short", 
+         "full" : ".weapon.mg34_lmgrust.full"
+      }, 
+      "mg3rust" : { 
+         "short" : ".weapon.mg3rust.short", 
+         "full" : ".weapon.mg3rust.full"
+      }, 
+      "mp40rust" : { 
+         "short" : ".weapon.mp40rust.short", 
+         "full" : ".weapon.mp40rust.full"
+      }, 
+      "oc2" : { 
+         "short" : ".weapon.oc2.short", 
+         "full" : ".weapon.oc2.full"
+      }, 
+      "pmmd63" : { 
+         "short" : ".weapon.pmmd63.short", 
+         "full" : ".weapon.pmmd63.full"
+      }, 
+      "pmmd65" : { 
+         "short" : ".weapon.pmmd65.short", 
+         "full" : ".weapon.pmmd65.full"
+      }, 
+      "stg44" : { 
+         "short" : ".weapon.stg44.short", 
+         "full" : ".weapon.stg44.full"
+      }, 
+      "stg44rust" : { 
+         "short" : ".weapon.stg44rust.short", 
+         "full" : ".weapon.stg44rust.full"
+      }
    }, 
    "chest" : { 
       "mychest" : { 
          "short" : "Ящик", 
          "full" : "Мой ящик"
+      }, 
+      "citroe_ type45" : { 
+         "short" : ".chest.citroe_ type45.short", 
+         "full" : ".chest.citroe_ type45.full"
+      }, 
+      "gaz66back" : { 
+         "short" : ".chest.gaz66back.short", 
+         "full" : ".chest.gaz66back.full"
       }
    }, 
    "consumable" : { 
+      "petrol" : { 
+         "short" : ".consumable.petrol.short", 
+         "full" : ".consumable.petrol.full"
+      }, 
+      "moment" : { 
+         "fail" : ".consumable.moment.fail"
+      }
    }, 
    "interactive" : { 
       "mymod_level" : { 
@@ -102,40 +275,236 @@
          "full" : "-"
       }
    }, 
-   "item" : {  
-		"koja" : { 
+   "item" : { 
+      "koja" : { 
          "short" : "Pieces of leather", 
-         "full" : "Well-cut pieces of leather. Can be sold or used in craft."
-      },
-	  		"shkurs" : { 
+         "full" : "Well-cut pieces of leather. Can be sold or used in craft.", 
+         "fail" : ".item.koja.fail"
+      }, 
+      "shkurs" : { 
          "short" : "animal skin", 
-         "full" : "The skin of a dead animal. Can be sold or crafted."
+         "full" : "The skin of a dead animal. Can be sold or crafted.", 
+         "fail" : ".item.shkurs.fail"
+      }, 
+      "bottle_empty2" : { 
+         "short" : ".item.bottle_empty2.short", 
+         "full" : ".item.bottle_empty2.full"
       }
-   },
+   }, 
    "encounter" : { 
-   
-   "wolfsnights": "You fell into the trap of a wolf pack. A huge pack of wolves is now approaching you.",
-   "spidernights": "You have fallen into a spider's lair. Spiders are coming swiftly towards you.",
-   "bearhigh": "A huge roar of bears is heard nearby. You have noticed that bears are rapidly approaching you,",
-   "wolflider": "A wolf pack surrounded you, among them you noticed a strange Leader.",
-   "deidont": "Something or someone is approaching you, making very loud sounds as you move.",
-   "devourer": "You heard the terrible sounds of an unknown animal, and noticed that something was approaching you from the thicket, towards the meeting.",
-   "defence_1": "In the distance, the sounds of gunfire and fighting are heard. Having listened, you can hear the clear cries of people who are asking for help",
-   "fight_6": "You hear the whining sounds of some animals and the terrible roar of a monster",
-   "fight_5": "The sounds of the struggle of wild animals are heard. Having listened, you hear a loud howl and a squeak of mice.",
-   "fight_4": "Surprisingly, you have witnessed the hunt of wolves for hunted prey.",
-   "fight_3": "Surprisingly, you have witnessed the hunt of wolves for hunted prey.",
-   "fight_2": "Surprisingly, you have witnessed the hunt of wolves for hunted prey.",
-   "fight_1": "You heard the sounds of a fight, especially the loud howling of wolves and the bear's roar is especially audible.",
-   "ratsnights": "You have fallen into a rat trap. A huge number of rats are rapidly approaching you.",
-   "roi": "You have noticed the rapid approach of small shadows from the thicket to you.",
-   "Ants_2": "You have fallen into the Mimrikov anthill. A large number of Mimriks are approaching you.",
-   "enter_help": "Help!",
-   "fail_skip_ph": "You could not avoid a battle!"
-   },    
+      "   wolfsnights" : "You fell into the trap of a wolf pack. A huge pack of wolves is now approaching you.", 
+      "   spidernights" : "You have fallen into a spider's lair. Spiders are coming swiftly towards you.", 
+      "   bearhigh" : "A huge roar of bears is heard nearby. You have noticed that bears are rapidly approaching you,", 
+      "   wolflider" : "A wolf pack surrounded you, among them you noticed a strange Leader.", 
+      "   deidont" : "Something or someone is approaching you, making very loud sounds as you move.", 
+      "   devourer" : "You heard the terrible sounds of an unknown animal, and noticed that something was approaching you from the thicket, towards the meeting.", 
+      "   defence_1" : "In the distance, the sounds of gunfire and fighting are heard. Having listened, you can hear the clear cries of people who are asking for help", 
+      "   fight_6" : "You hear the whining sounds of some animals and the terrible roar of a monster", 
+      "   fight_5" : "The sounds of the struggle of wild animals are heard. Having listened, you hear a loud howl and a squeak of mice.", 
+      "   fight_4" : "Surprisingly, you have witnessed the hunt of wolves for hunted prey.", 
+      "   fight_3" : "Surprisingly, you have witnessed the hunt of wolves for hunted prey.", 
+      "   fight_2" : "Surprisingly, you have witnessed the hunt of wolves for hunted prey.", 
+      "   fight_1" : "You heard the sounds of a fight, especially the loud howling of wolves and the bear's roar is especially audible.", 
+      "   ratsnights" : "You have fallen into a rat trap. A huge number of rats are rapidly approaching you.", 
+      "   roi" : "You have noticed the rapid approach of small shadows from the thicket to you.", 
+      "   Ants_2" : "You have fallen into the Mimrikov anthill. A large number of Mimriks are approaching you.", 
+      "   enter_help" : "Help!", 
+      "fail_skip_ph" : "You could not avoid a battle!", 
+      "wolfsnights" : ".encounter.wolfsnights", 
+      "spidernights" : ".encounter.spidernights", 
+      "bearhigh" : ".encounter.bearhigh", 
+      "wolflider" : ".encounter.wolflider", 
+      "deidont" : ".encounter.deidont", 
+      "devourer" : ".encounter.devourer", 
+      "defence_1" : ".encounter.defence_1", 
+      "fight_6" : ".encounter.fight_6", 
+      "fight_5" : ".encounter.fight_5", 
+      "fight_4" : ".encounter.fight_4", 
+      "fight_3" : ".encounter.fight_3", 
+      "fight_2" : ".encounter.fight_2", 
+      "fight_1" : ".encounter.fight_1", 
+      "ratsnights" : ".encounter.ratsnights", 
+      "roi" : ".encounter.roi", 
+      "Ants_2" : ".encounter.Ants_2", 
+      "enter_help" : ".encounter.enter_help", 
+      "wolves" : ".encounter.wolves", 
+      "attack" : ".encounter.attack", 
+      "try_skip1" : ".encounter.try_skip1", 
+      "success_skip1" : ".encounter.success_skip1", 
+      "gotravel" : ".encounter.gotravel", 
+      "fail_skip_wolfes" : ".encounter.fail_skip_wolfes", 
+      "gobattle" : ".encounter.gobattle", 
+      "rats" : ".encounter.rats", 
+      "fail_skip_rats" : ".encounter.fail_skip_rats", 
+      "rats_2" : ".encounter.rats_2", 
+      "fail_skip_rats2" : ".encounter.fail_skip_rats2", 
+      "ants" : { 
+         "title" : ".encounter.ants.title", 
+         "success_skip" : ".encounter.ants.success_skip", 
+         "fail_skip" : ".encounter.ants.fail_skip"
+      }, 
+      "spiders" : { 
+         "title" : ".encounter.spiders.title", 
+         "success_skip" : ".encounter.spiders.success_skip", 
+         "fail_skip" : ".encounter.spiders.fail_skip"
+      }, 
+      "spiders_2" : { 
+         "title" : ".encounter.spiders_2.title", 
+         "success_skip" : ".encounter.spiders_2.success_skip", 
+         "fail_skip" : ".encounter.spiders_2.fail_skip"
+      }, 
+      "monster" : { 
+         "title" : ".encounter.monster.title", 
+         "success_skip" : ".encounter.monster.success_skip", 
+         "fail_skip" : ".encounter.monster.fail_skip"
+      }, 
+      "bandits" : ".encounter.bandits", 
+      "fail_skip_bandits1" : ".encounter.fail_skip_bandits1", 
+      "try_skip2" : ".encounter.try_skip2", 
+      "success_skip2" : ".encounter.success_skip2", 
+      "fail_skip_bandits2" : ".encounter.fail_skip_bandits2", 
+      "ment_bandits" : ".encounter.ment_bandits", 
+      "fanatics" : ".encounter.fanatics", 
+      "bookhaters" : ".encounter.bookhaters", 
+      "opg_1" : ".encounter.opg_1", 
+      "opg_2" : ".encounter.opg_2", 
+      "opg_3" : ".encounter.opg_3", 
+      "red_baron" : ".encounter.red_baron", 
+      "gopniks" : ".encounter.gopniks", 
+      "slavers" : { 
+         "title" : ".encounter.slavers.title", 
+         "success_skip1" : ".encounter.slavers.success_skip1", 
+         "fail_skip2" : ".encounter.slavers.fail_skip2", 
+         "success_skip2" : ".encounter.slavers.success_skip2"
+      }, 
+      "caravan" : ".encounter.caravan", 
+      "meet_caravan" : ".encounter.meet_caravan", 
+      "hunt" : ".encounter.hunt", 
+      "hunt_enter" : ".encounter.hunt_enter", 
+      "hunt_success" : ".encounter.hunt_success", 
+      "hunt_try" : ".encounter.hunt_try", 
+      "hunt_fail" : ".encounter.hunt_fail", 
+      "scavenger" : ".encounter.scavenger", 
+      "meet_scavenger" : ".encounter.meet_scavenger", 
+      "raid" : ".encounter.raid", 
+      "enter_raid" : ".encounter.enter_raid", 
+      "sos" : ".encounter.sos", 
+      "enter_sos" : ".encounter.enter_sos", 
+      "crazy" : ".encounter.crazy", 
+      "check" : ".encounter.check", 
+      "z_8" : ".encounter.z_8", 
+      "cave" : ".encounter.cave", 
+      "kovalev" : ".encounter.kovalev", 
+      "kovalev_check" : ".encounter.kovalev_check", 
+      "zman" : ".encounter.zman", 
+      "wolfter" : ".encounter.wolfter", 
+      "mirage" : ".encounter.mirage", 
+      "meet" : ".encounter.meet", 
+      "traveler" : ".encounter.traveler", 
+      "semka" : { 
+         "title" : ".encounter.semka.title", 
+         "try_skip3" : ".encounter.semka.try_skip3", 
+         "success_skip3" : ".encounter.semka.success_skip3", 
+         "fail_skip3" : ".encounter.semka.fail_skip3", 
+         "try_skip2" : ".encounter.semka.try_skip2", 
+         "success_skip2" : ".encounter.semka.success_skip2", 
+         "fail_skip2" : ".encounter.semka.fail_skip2", 
+         "try_skip1" : ".encounter.semka.try_skip1", 
+         "success_skip1" : ".encounter.semka.success_skip1", 
+         "fail_skip1" : ".encounter.semka.fail_skip1"
+      }, 
+      "drug" : { 
+         "title" : ".encounter.drug.title", 
+         "try_skip2" : ".encounter.drug.try_skip2", 
+         "success_skip2" : ".encounter.drug.success_skip2", 
+         "fail_skip2" : ".encounter.drug.fail_skip2", 
+         "try_skip1" : ".encounter.drug.try_skip1", 
+         "success_skip1" : ".encounter.drug.success_skip1", 
+         "fail_skip1" : ".encounter.drug.fail_skip1"
+      }, 
+      "racket" : { 
+         "title" : ".encounter.racket.title", 
+         "try_skip2" : ".encounter.racket.try_skip2", 
+         "success_skip2" : ".encounter.racket.success_skip2", 
+         "fail_skip2" : ".encounter.racket.fail_skip2", 
+         "try_skip1" : ".encounter.racket.try_skip1", 
+         "success_skip1" : ".encounter.racket.success_skip1", 
+         "fail_skip1" : ".encounter.racket.fail_skip1"
+      }, 
+      "americanwarrior" : { 
+         "title" : ".encounter.americanwarrior.title"
+      }, 
+      "zolotoy" : { 
+         "title" : ".encounter.zolotoy.title"
+      }, 
+      "headhunter" : { 
+         "special" : ".encounter.headhunter.special", 
+         "title" : ".encounter.headhunter.title", 
+         "success_skip2" : ".encounter.headhunter.success_skip2", 
+         "fail_skip2" : ".encounter.headhunter.fail_skip2", 
+         "success_skip1" : ".encounter.headhunter.success_skip1", 
+         "fail_skip1" : ".encounter.headhunter.fail_skip1"
+      }, 
+      "headhunter2" : { 
+         "title" : ".encounter.headhunter2.title", 
+         "success_skip1" : ".encounter.headhunter2.success_skip1", 
+         "fail_skip1" : ".encounter.headhunter2.fail_skip1", 
+         "success_skip2" : ".encounter.headhunter2.success_skip2", 
+         "fail_skip2" : ".encounter.headhunter2.fail_skip2"
+      }, 
+      "try_skip3" : ".encounter.try_skip3", 
+      "headhunter3" : { 
+         "title" : ".encounter.headhunter3.title", 
+         "success_skip1" : ".encounter.headhunter3.success_skip1", 
+         "fail_skip1" : ".encounter.headhunter3.fail_skip1", 
+         "success_skip2" : ".encounter.headhunter3.success_skip2", 
+         "fail_skip2" : ".encounter.headhunter3.fail_skip2"
+      }, 
+      "ph_caravan_1" : ".encounter.ph_caravan_1", 
+      "mole" : ".encounter.mole", 
+      "defence2" : ".encounter.defence2", 
+      "lacodon" : ".encounter.lacodon", 
+      "trap_1" : ".encounter.trap_1", 
+      "ph_caravan_2" : ".encounter.ph_caravan_2", 
+      "defence_2night" : ".encounter.defence_2night", 
+      "slavers_fort" : ".encounter.slavers_fort", 
+      "pirates" : ".encounter.pirates", 
+      "z_4_2" : ".encounter.z_4_2", 
+      "medveka" : ".encounter.medveka", 
+      "shift" : ".encounter.shift", 
+      "muta" : ".encounter.muta", 
+      "fail_skip_muta" : ".encounter.fail_skip_muta", 
+      "mutashift" : ".encounter.mutashift", 
+      "gubert" : ".encounter.gubert", 
+      "hallucinating" : { 
+         "title" : ".encounter.hallucinating.title", 
+         "enter" : ".encounter.hallucinating.enter"
+      }, 
+      "Mutashiftnights" : ".encounter.Mutashiftnights", 
+      "lizardnights" : ".encounter.lizardnights", 
+      "bigratsnights" : ".encounter.bigratsnights", 
+      "lizardshiftnights" : ".encounter.lizardshiftnights", 
+      "bigratshiftnights" : ".encounter.bigratshiftnights"
+   }, 
    "door" : { 
    }, 
    "memo" : { 
+      "ph_craft_book1" : { 
+         "short" : ".memo.ph_craft_book1.short", 
+         "full" : ".memo.ph_craft_book1.full"
+      }, 
+      "ph_craft_book2" : { 
+         "short" : ".memo.ph_craft_book2.short", 
+         "full" : ".memo.ph_craft_book2.full"
+      }, 
+      "ph_craft_book2_dog" : { 
+         "short" : ".memo.ph_craft_book2_dog.short", 
+         "full" : ".memo.ph_craft_book2_dog.full"
+      }, 
+      "ph_craft_book3" : { 
+         "short" : ".memo.ph_craft_book3.short", 
+         "full" : ".memo.ph_craft_book3.full"
+      }
    }, 
    "uniform" : { 
       "armor1" : { 
@@ -221,12 +590,197 @@
       "tacticshield" : { 
          "short" : "Metal shield", 
          "full" : "Old shockproof shield in good condition, designed for use by special forces of various law enforcement agencies."
+      }, 
+      "armor57" : { 
+         "short" : ".uniform.armor57.short", 
+         "full" : ".uniform.armor57.full"
+      }, 
+      "armor58_stalker" : { 
+         "short" : ".uniform.armor58_stalker.short", 
+         "full" : ".uniform.armor58_stalker.full"
+      }, 
+      "armor81" : { 
+         "short" : ".uniform.armor81.short", 
+         "full" : ".uniform.armor81.full"
+      }, 
+      "backpack2" : { 
+         "short" : ".uniform.backpack2.short", 
+         "full" : ".uniform.backpack2.full"
+      }, 
+      "backpack3" : { 
+         "short" : ".uniform.backpack3.short", 
+         "full" : ".uniform.backpack3.full"
+      }, 
+      "backpack5" : { 
+         "short" : ".uniform.backpack5.short", 
+         "full" : ".uniform.backpack5.full", 
+         "fail" : ".uniform.backpack5.fail"
+      }, 
+      "craftdogarmor_1" : { 
+         "short" : ".uniform.craftdogarmor_1.short", 
+         "full" : ".uniform.craftdogarmor_1.full"
+      }, 
+      "dog_backpack" : { 
+         "short" : ".uniform.dog_backpack.short", 
+         "full" : ".uniform.dog_backpack.full"
+      }, 
+      "dyniahat" : { 
+         "short" : ".uniform.dyniahat.short", 
+         "full" : ".uniform.dyniahat.full"
+      }, 
+      "gasmass1" : { 
+         "short" : ".uniform.gasmass1.short", 
+         "full" : ".uniform.gasmass1.full"
+      }, 
+      "gasmass2" : { 
+         "short" : ".uniform.gasmass2.short", 
+         "full" : ".uniform.gasmass2.full"
+      }, 
+      "gasmass3" : { 
+         "short" : ".uniform.gasmass3.short", 
+         "full" : ".uniform.gasmass3.full"
+      }, 
+      "headpanama" : { 
+         "short" : ".uniform.headpanama.short", 
+         "full" : ".uniform.headpanama.full"
+      }, 
+      "helmet_2" : { 
+         "short" : ".uniform.helmet_2.short", 
+         "full" : ".uniform.helmet_2.full"
+      }, 
+      "helmet_sfera" : { 
+         "short" : ".uniform.helmet_sfera.short", 
+         "full" : ".uniform.helmet_sfera.full"
+      }, 
+      "kufiya" : { 
+         "short" : ".uniform.kufiya.short", 
+         "full" : ".uniform.kufiya.full"
+      }, 
+      "m42" : { 
+         "short" : ".uniform.m42.short", 
+         "full" : ".uniform.m42.full"
+      }, 
+      "m42_rust" : { 
+         "short" : ".uniform.m42_rust.short", 
+         "full" : ".uniform.m42_rust.full"
       }
    }, 
    "explosive" : { 
    }, 
-   "location" :  { 
+   "location" : { 
+      "1" : ".location.1"
    }, 
-   "quests" :  { 
-   } 
+   "quests" : { 
+      "ph_trade1_quest" : ".quests.ph_trade1_quest", 
+      "ph_trade2_quest" : ".quests.ph_trade2_quest", 
+      "village.trader.alex.end" : ".quests.village.trader.alex.end", 
+      "village.trader.alex" : ".quests.village.trader.alex", 
+      "factory.ivan2" : ".quests.factory.ivan2", 
+      "quest.antman.wife.find" : ".quests.quest.antman.wife.find", 
+      "baza_visit_godgin" : ".quests.baza_visit_godgin", 
+      "factory.report" : ".quests.factory.report", 
+      "moonshiners.samson.end" : ".quests.moonshiners.samson.end", 
+      "quest.antman.wife" : ".quests.quest.antman.wife", 
+      "baze_kill_mutants" : ".quests.baze_kill_mutants", 
+      "baza_monsters_go_back" : ".quests.baza_monsters_go_back", 
+      "lab.grishka.debt" : ".quests.lab.grishka.debt", 
+      "citysub.quest.simon.skin.end.out" : ".quests.citysub.quest.simon.skin.end.out", 
+      "citysub.quest.simon.skin.end.tatoo" : ".quests.citysub.quest.simon.skin.end.tatoo", 
+      "yriy.zhuk" : ".quests.yriy.zhuk", 
+      "city.strateg.end" : ".quests.city.strateg.end", 
+      "city.strateg1" : ".quests.city.strateg1", 
+      "city.strateg2" : ".quests.city.strateg2", 
+      "city.strateg3" : ".quests.city.strateg3", 
+      "harbor.karavan" : ".quests.harbor.karavan", 
+      "citysub.wife" : ".quests.citysub.wife", 
+      "harbor.trade.guard_kill" : ".quests.harbor.trade.guard_kill", 
+      "harbor.guard.side_kill" : ".quests.harbor.guard.side_kill", 
+      "harbor.guard.trade_kill" : ".quests.harbor.guard.trade_kill", 
+      "harbor.guard.kill_end" : ".quests.harbor.guard.kill_end", 
+      "harbor.trade.kill_end" : ".quests.harbor.trade.kill_end", 
+      "harbor.side.guard" : ".quests.harbor.side.guard", 
+      "harbor.trade.side_kill" : ".quests.harbor.trade.side_kill", 
+      "harbor.side.trade" : ".quests.harbor.side.trade", 
+      "harbor.side.end" : ".quests.harbor.side.end", 
+      "factory.ivan" : ".quests.factory.ivan", 
+      "city.sick" : ".quests.city.sick", 
+      "harbor.car" : ".quests.harbor.car", 
+      "city.protivnoff" : ".quests.city.protivnoff", 
+      "il.rat" : ".quests.il.rat", 
+      "il.rat.end" : ".quests.il.rat.end", 
+      "city.p603.fail" : ".quests.city.p603.fail", 
+      "city.p603.end" : ".quests.city.p603.end", 
+      "city.p603" : ".quests.city.p603", 
+      "city.p603.break" : ".quests.city.p603.break", 
+      "city.il" : ".quests.city.il", 
+      "city.il.end3" : ".quests.city.il.end3", 
+      "city.protivnoff1" : ".quests.city.protivnoff1", 
+      "city.protivnoff2" : ".quests.city.protivnoff2", 
+      "city.protivnoff3" : ".quests.city.protivnoff3", 
+      "il.ivan" : ".quests.il.ivan", 
+      "il.egg" : ".quests.il.egg", 
+      "il.row" : ".quests.il.row", 
+      "il.drug" : ".quests.il.drug", 
+      "city.book_end" : ".quests.city.book_end", 
+      "koval.petrol" : ".quests.koval.petrol", 
+      "koval.move" : ".quests.koval.move", 
+      "village.pump.engine" : ".quests.village.pump.engine", 
+      "factory.ivan3" : ".quests.factory.ivan3", 
+      "cult_observer_fail" : ".quests.cult_observer_fail", 
+      "cult_observer" : ".quests.cult_observer", 
+      "village.barman.book_end" : ".quests.village.barman.book_end", 
+      "village.barman.book" : ".quests.village.barman.book", 
+      "harbor.redbaron" : ".quests.harbor.redbaron", 
+      "harbor.redbaron_end" : ".quests.harbor.redbaron_end", 
+      "city.book" : ".quests.city.book", 
+      "harbor.clean" : ".quests.harbor.clean", 
+      "harbor.clean_end" : ".quests.harbor.clean_end", 
+      "deadcity.gubert" : ".quests.deadcity.gubert", 
+      "deadcity.gubert.end" : ".quests.deadcity.gubert.end"
+   }, 
+   "weaponperk" : { 
+      "skinning" : ".weaponperk.skinning", 
+      "scope" : ".weaponperk.scope", 
+      "pierce10" : ".weaponperk.pierce10", 
+      "pierce20" : ".weaponperk.pierce20", 
+      "stun5" : ".weaponperk.stun5", 
+      "stun10" : ".weaponperk.stun10", 
+      "stun20" : ".weaponperk.stun20", 
+      "poisoning100_2" : ".weaponperk.poisoning100_2", 
+      "poisoning100_5" : ".weaponperk.poisoning100_5", 
+      "poisoning100_10" : ".weaponperk.poisoning100_10", 
+      "longweapon" : ".weaponperk.longweapon", 
+      "rustweapon" : ".weaponperk.rustweapon", 
+      "rustblade" : ".weaponperk.rustblade", 
+      "stun40" : ".weaponperk.stun40", 
+      "stun60" : ".weaponperk.stun60", 
+      "midweapon" : ".weaponperk.midweapon", 
+      "effectpoison" : ".weaponperk.effectpoison", 
+      "crit10" : ".weaponperk.crit10", 
+      "crit15" : ".weaponperk.crit15", 
+      "crit20" : ".weaponperk.crit20", 
+      "crit50" : ".weaponperk.crit50", 
+      "craftable" : ".weaponperk.craftable", 
+      "fuel" : ".weaponperk.fuel", 
+      "panic10" : ".weaponperk.panic10", 
+      "nightvision" : ".weaponperk.nightvision", 
+      "woodweapon" : ".weaponperk.woodweapon", 
+      "stun8" : ".weaponperk.stun8", 
+      "crit2" : ".weaponperk.crit2", 
+      "crit4" : ".weaponperk.crit4", 
+      "stun2" : ".weaponperk.stun2", 
+      "crit6" : ".weaponperk.crit6", 
+      "ghostbuster30" : ".weaponperk.ghostbuster30", 
+      "ghostbuster70" : ".weaponperk.ghostbuster70", 
+      "rustblade5" : ".weaponperk.rustblade5", 
+      "stun15" : ".weaponperk.stun15", 
+      "stun25" : ".weaponperk.stun25", 
+      "pierce15" : ".weaponperk.pierce15", 
+      "crit5" : ".weaponperk.crit5", 
+      "panic25" : ".weaponperk.panic25", 
+      "poisoning100_50" : ".weaponperk.poisoning100_50", 
+      "kms" : ".weaponperk.kms", 
+      "ms" : ".weaponperk.ms"
+   }, 
+   "fail_skip_ph" : ".fail_skip_ph"
 }

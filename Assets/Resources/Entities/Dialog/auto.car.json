@@ -1424,7 +1424,7 @@
          "child" : [ 
             "1d64ddaa-f6cc-4d23-b306-6af9129015a6"
          ], 
-         "text" : "Это обойдётся тебе в 1400 рублей."
+         "text" : "#auto.car.b3e01286-15db-469f-944d-04e552805c5a"
       }, 
       "1d64ddaa-f6cc-4d23-b306-6af9129015a6" : { 
          "class" : "InventoryHasItemNode", 
@@ -1564,7 +1564,7 @@
          "child" : [ 
             "32dfd901-90e6-4f12-ab79-f1b7d2f52450"
          ], 
-         "text" : "Это обойдётся тебе в 2800 рублей."
+         "text" : "#auto.car.aaf09c22-d42c-4e86-b824-1b0d1183fee2"
       }, 
       "32dfd901-90e6-4f12-ab79-f1b7d2f52450" : { 
          "class" : "InventoryHasItemNode", 
@@ -1695,7 +1695,7 @@
          "child" : [ 
             "d1879cdf-d161-40e9-9a48-077c1c8eaade"
          ], 
-         "text" : "Это обойдётся тебе в 5600 рублей."
+         "text" : "#auto.car.1663bd1f-e5c1-4f77-a9c7-d0b9d6c68e2f"
       }, 
       "d1879cdf-d161-40e9-9a48-077c1c8eaade" : { 
          "class" : "InventoryHasItemNode", 
@@ -1826,7 +1826,7 @@
          "child" : [ 
             "05da0054-3e58-4956-a1fd-6e1e0ae0f701"
          ], 
-         "text" : "Это обойдётся тебе в 14000 рублей."
+         "text" : "#auto.car.b53e3d48-8af9-458e-8e03-c4141123c7d3"
       }, 
       "05da0054-3e58-4956-a1fd-6e1e0ae0f701" : { 
          "class" : "InventoryHasItemNode", 

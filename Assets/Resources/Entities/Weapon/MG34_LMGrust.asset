@@ -14,12 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Icon:
     path: Entities/Weapon/weapon models/MG34_LMG/mg34_rust
-  m_Localization: weapon.mg34_lmg
+  m_Localization: weapon.mg34_lmgrust
   Takeable: 1
-  Cost: 900
-  Weight: 1760
+  Cost: 1300
+  Weight: 12100
   Collectable: 0
   Modifiers: []
+  HasModel: 1
   weaponType: 9
   Ammo:
     path: entities/ammo/7_62mm_jhp
@@ -35,9 +36,9 @@ MonoBehaviour:
   DamageType: 0
   Single:
     AP: 7
-    Range: 15
-    Shots: 3
-    Dispersion: 4
+    Range: 14
+    Shots: 6
+    Dispersion: 5
     ModeType: 10
     Sounds:
     - path: Entities/Weapon/weapon models/MG34_LMG/mg34
@@ -50,9 +51,9 @@ MonoBehaviour:
     Sounds: []
   Burst:
     AP: 8
-    Range: 15
+    Range: 14
     Shots: 10
-    Dispersion: 4
+    Dispersion: 6
     ModeType: 10
     Sounds:
     - path: Entities/Weapon/weapon models/MG34_LMG/mg34
@@ -69,7 +70,7 @@ MonoBehaviour:
   - _type: 1
     _value: 5
   - _type: 10
-    _value: 50
+    _value: 55
   NoAmmoSounds:
   - path: Sounds/SFX/Weapons/m249/m249_empty
   PreAttackSounds: []

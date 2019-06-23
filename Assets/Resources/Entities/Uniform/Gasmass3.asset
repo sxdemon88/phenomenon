@@ -14,19 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Icon:
     path: Entities/Uniform/Uniform models/PH_mask/maskpack/mask3
-  m_Localization: uniform.gasmass
+  m_Localization: uniform.gasmass3
   Takeable: 1
-  Cost: 1400
-  Weight: 1000
+  Cost: 700
+  Weight: 1100
   Collectable: 1
   Modifiers:
   - _type: 35
     _value: 60
-  - _type: 2
-    _value: 1
   UniformType: 3
   HideMask: -1
   ArmorDurability: 0
   rules: []
   rulesEx: 0
   Perks: 0
+  ClothesForMale:
+    path: 
+  ClothesForFemale:
+    path: 

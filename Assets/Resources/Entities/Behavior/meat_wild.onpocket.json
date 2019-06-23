@@ -178,7 +178,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Часть туши повреждена."
+         "text" : "#meat_wild.onpocket.56a7235a-1a85-4ce0-9506-6401800bbfbf"
       }, 
       "2fb41775-500d-4af5-b27b-1505f9c5e54d" : { 
          "class" : "HasModifierNode", 
@@ -276,7 +276,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Часть клыков повреждены."
+         "text" : "#meat_wild.onpocket.1d3457b6-0baf-4ed7-9a9d-ed4774d48561"
       }, 
       "26d5987d-2913-41cc-9446-6acb4ea2c964" : { 
          "class" : "HasModifierNode", 
@@ -355,7 +355,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Вы отлично обработали добычу."
+         "text" : "#meat_wild.onpocket.f247d24a-92e6-45a1-8d2b-bff1e7297588"
       }, 
       "0b218fe9-4a91-4e2a-b814-689aa8007786" : { 
          "class" : "InventoryAddItemNode", 
@@ -466,7 +466,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Вы хорошо обработали добычу."
+         "text" : "#meat_wild.onpocket.57b3f8ba-653f-4926-b785-9d2002b7c213"
       }, 
       "f819a181-8322-4775-9eb1-0371ea00ff56" : { 
          "class" : "HasModifierNode", 
@@ -526,7 +526,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Вы нормально обработали добычу."
+         "text" : "#meat_wild.onpocket.d3eecf18-dcac-426c-9351-acc28d1e8087"
       }, 
       "e95a8a40-62e0-4feb-a634-3cbeeace4f7b" : { 
          "class" : "HasModifierNode", 
@@ -614,7 +614,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Вы неудачно обработали добычу."
+         "text" : "#meat_wild.onpocket.2caac25d-3864-4a18-b74c-f9390bdc82c2"
       }, 
       "07f73b2d-4402-4bde-9e40-5441d290d61c" : { 
          "class" : "DummyNode", 
@@ -634,7 +634,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Не хватает навыка выживания, для дополнительной обработки добычи."
+         "text" : "#meat_wild.onpocket.a242da13-a325-4f6b-a09c-7bb877838f81"
       }, 
       "93f2f78e-7da3-41d2-8170-453948f9ca38" : { 
          "class" : "DummyNode", 

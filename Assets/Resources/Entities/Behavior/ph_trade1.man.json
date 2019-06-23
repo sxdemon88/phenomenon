@@ -237,7 +237,7 @@
          "child" : [ 
             "36c76865-c21e-4e57-8dde-9a8ffddff55d"
          ], 
-         "text" : "Ого! Какие люди!", 
+         "text" : "#ph_trade1.man.d53c6790-a83c-495e-8cbb-d9a9b631c3dd", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true", 
          "mode" : "CancelIfBattle"
@@ -260,7 +260,7 @@
          "child" : [ 
             "36c76865-c21e-4e57-8dde-9a8ffddff55d"
          ], 
-         "text" : "Привет, у меня барахла много нового.", 
+         "text" : "#ph_trade1.man.3b2a58c8-1730-4145-b731-44ff805e10c6", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true", 
          "mode" : "CancelIfBattle"
@@ -274,7 +274,7 @@
          "child" : [ 
             "36c76865-c21e-4e57-8dde-9a8ffddff55d"
          ], 
-         "text" : "Привет подруга, давно не виделись.", 
+         "text" : "#ph_trade1.man.99bd55fe-4834-446f-a357-5a5311bc499c", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true", 
          "mode" : "CancelIfBattle"
@@ -288,7 +288,7 @@
          "child" : [ 
             "36c76865-c21e-4e57-8dde-9a8ffddff55d"
          ], 
-         "text" : "Как жизнь подруга? Поди сюда.", 
+         "text" : "#ph_trade1.man.6ee219c5-3e83-45e6-a90d-2291e22cadd3", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true", 
          "mode" : "CancelIfBattle"
@@ -302,7 +302,7 @@
          "child" : [ 
             "36c76865-c21e-4e57-8dde-9a8ffddff55d"
          ], 
-         "text" : "Оружие от профсоюза. Лучшего качества, присмотреть не желаешь?", 
+         "text" : "#ph_trade1.man.33db3dd3-637c-42e2-9d6d-1f9bc189eff4", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true", 
          "mode" : "CancelIfBattle"
@@ -329,7 +329,7 @@
          "child" : [ 
             "36c76865-c21e-4e57-8dde-9a8ffddff55d"
          ], 
-         "text" : "Здравствуй, давно не виделись.", 
+         "text" : "#ph_trade1.man.f6a287d1-1cf8-421d-89a4-db2b93171ec9", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true", 
          "mode" : "CancelIfBattle"
@@ -343,7 +343,7 @@
          "child" : [ 
             "36c76865-c21e-4e57-8dde-9a8ffddff55d"
          ], 
-         "text" : "Привет, у меня барахла много нового. Нужно что?", 
+         "text" : "#ph_trade1.man.ca0c43a6-e971-4ef2-9f4c-658a78871a83", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true", 
          "mode" : "CancelIfBattle"
@@ -357,7 +357,7 @@
          "child" : [ 
             "36c76865-c21e-4e57-8dde-9a8ffddff55d"
          ], 
-         "text" : "Ого! Какие люди!", 
+         "text" : "#ph_trade1.man.200fddc5-b769-4711-b735-2e3d16b8c11d", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true", 
          "mode" : "CancelIfBattle"
@@ -393,7 +393,7 @@
          "child" : [ 
             "bbbb1f24-ed48-4328-9e85-78dc009cc535"
          ], 
-         "text" : "Девушка, руки на виду держите.", 
+         "text" : "#ph_trade1.man.40a34f4f-e962-49c4-965a-967ccd9bcc6b", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true", 
          "mode" : "CancelIfBattle"
@@ -416,7 +416,7 @@
          "child" : [ 
             "bbbb1f24-ed48-4328-9e85-78dc009cc535"
          ], 
-         "text" : "Парни, спокойно, возможно клиент, а возможно будущий жмур.", 
+         "text" : "#ph_trade1.man.31ca3d55-5648-434c-8551-0cf73e4f83c9", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true", 
          "mode" : "CancelIfBattle"
@@ -442,7 +442,7 @@
          "child" : [ 
             "bbbb1f24-ed48-4328-9e85-78dc009cc535"
          ], 
-         "text" : "Как жизнь сталкер? Поди сюда.", 
+         "text" : "#ph_trade1.man.6b5f8092-cb81-429b-a63d-b65e150a6346", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true", 
          "mode" : "CancelIfBattle"
@@ -456,7 +456,7 @@
          "child" : [ 
             "bbbb1f24-ed48-4328-9e85-78dc009cc535"
          ], 
-         "text" : "Бродяга, руки на виду держи. ", 
+         "text" : "#ph_trade1.man.428ec4ed-5bf1-4ed7-b034-548d0f154298", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true", 
          "mode" : "CancelIfBattle"
@@ -510,7 +510,7 @@
          "child" : [ 
             "02b0d19d-b239-4c48-aa6e-ff9a9228b6f1"
          ], 
-         "text" : "Надо бы колесо заменить...", 
+         "text" : "#ph_trade1.man.c275cf53-db5d-4808-a9b9-5f8ad914b973", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true", 
          "mode" : "CancelIfBattle"
@@ -533,7 +533,7 @@
          "child" : [ 
             "02b0d19d-b239-4c48-aa6e-ff9a9228b6f1"
          ], 
-         "text" : "Снова ноют старые кости...", 
+         "text" : "#ph_trade1.man.8c34c711-4596-4957-a281-6a678847241e", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true", 
          "mode" : "CancelIfBattle"
@@ -547,7 +547,7 @@
          "child" : [ 
             "02b0d19d-b239-4c48-aa6e-ff9a9228b6f1"
          ], 
-         "text" : "Хороший денёк.", 
+         "text" : "#ph_trade1.man.c1fa7c3f-0230-48e6-8faa-7e1084c687df", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true", 
          "mode" : "CancelIfBattle"
@@ -561,7 +561,7 @@
          "child" : [ 
             "02b0d19d-b239-4c48-aa6e-ff9a9228b6f1"
          ], 
-         "text" : "О, а то облако похоже на... Кхм...", 
+         "text" : "#ph_trade1.man.bdfcf689-4d05-4592-aa8a-d866542c0b21", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true", 
          "mode" : "CancelIfBattle"
@@ -575,7 +575,7 @@
          "child" : [ 
             "02b0d19d-b239-4c48-aa6e-ff9a9228b6f1"
          ], 
-         "text" : "Форму надо постирать...", 
+         "text" : "#ph_trade1.man.9e6fa57b-1933-4b6e-a5bd-f4cfa38f2a76", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true", 
          "mode" : "CancelIfBattle"
@@ -589,7 +589,7 @@
          "child" : [ 
             "02b0d19d-b239-4c48-aa6e-ff9a9228b6f1"
          ], 
-         "text" : "Блин, опять кунг порвался.", 
+         "text" : "#ph_trade1.man.2b00bc89-b186-40f8-b473-5bb7b6934564", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true", 
          "mode" : "CancelIfBattle"
@@ -603,7 +603,7 @@
          "child" : [ 
             "02b0d19d-b239-4c48-aa6e-ff9a9228b6f1"
          ], 
-         "text" : "Пацаны, по сторонам смотрите. ", 
+         "text" : "#ph_trade1.man.f20848e5-c7d9-4b84-8270-39e2861ed365", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true", 
          "mode" : "CancelIfBattle"

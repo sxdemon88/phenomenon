@@ -14,22 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Icon:
     path: Entities/Weapon/weapon models/G-43/g43_icon
-  m_Localization: weapon.sks_s
+  m_Localization: weapon.g43s
   Takeable: 1
-  Cost: 3666
+  Cost: 4166
   Weight: 4500
   Collectable: 0
   Modifiers: []
+  HasModel: 1
   weaponType: 2
   Ammo:
     path: entities/ammo/7_62mm_jhp
   AmmoCapacity: 10
   BothHands: 1
   Stack: 0
-  DamageMin: 11
-  DamageMax: 17
+  DamageMin: 12
+  DamageMax: 16
   DamageRadius: 1
-  Fatality: 15
+  Fatality: 20
   Perks: 134218754
   PerksEx: 0
   DamageType: 0
@@ -69,7 +70,7 @@ MonoBehaviour:
   - _type: 1
     _value: 6
   - _type: 9
-    _value: 85
+    _value: 87
   NoAmmoSounds:
   - path: Sounds/SFX/Weapons/Rifle/rifle_empty
   PreAttackSounds: []

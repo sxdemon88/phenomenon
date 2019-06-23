@@ -123,7 +123,7 @@
             { 
                "class" : "Weapon", 
                "count" : "1", 
-               "proto" : "vintorez_camo", 
+               "proto" : "Vintorez_Camo", 
                "ammo" : { 
                   "count" : "4", 
                   "proto" : "356cal_JHP"
@@ -219,7 +219,7 @@
                "proto" : "Amd65", 
                "ammo" : { 
                   "count" : "30", 
-                  "proto" : "7_62mm_JHP"
+                  "proto" : "5_45mm_JHP"
                }
             }, 
             { 
@@ -265,7 +265,7 @@
          "class" : "InventorySetNode", 
          "desc" : { 
             "x" : "-101957", 
-            "y" : "-101001"
+            "y" : "-101003"
          }, 
          "child" : [ 
          ], 
@@ -302,7 +302,7 @@
                "count" : "1", 
                "proto" : "oc2", 
                "ammo" : { 
-                  "count" : "32", 
+                  "count" : "30", 
                   "proto" : "9mm_JHP"
                }
             }, 
@@ -501,7 +501,7 @@
                "proto" : "Amd65N", 
                "ammo" : { 
                   "count" : "30", 
-                  "proto" : "7_62mm_JHP"
+                  "proto" : "5_45mm_JHP"
                }
             }, 
             { 
@@ -563,7 +563,7 @@
                "count" : "1", 
                "proto" : "oc2", 
                "ammo" : { 
-                  "count" : "32", 
+                  "count" : "30", 
                   "proto" : "9mm_JHP"
                }
             }, 

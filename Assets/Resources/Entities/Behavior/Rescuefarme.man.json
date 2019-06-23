@@ -100,7 +100,7 @@
          "child" : [ 
             "99ca728d-e0e1-4899-905d-359abd7dac12"
          ], 
-         "text" : "Спасите!", 
+         "text" : "#Rescuefarme.man.75d29600-3841-4c54-a3e7-6b99502cbee4", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -123,7 +123,7 @@
          "child" : [ 
             "99ca728d-e0e1-4899-905d-359abd7dac12"
          ], 
-         "text" : "Помогите!", 
+         "text" : "#Rescuefarme.man.e1d47512-0e1b-4a7d-ae16-fa07c61d9cab", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -136,7 +136,7 @@
          "child" : [ 
             "99ca728d-e0e1-4899-905d-359abd7dac12"
          ], 
-         "text" : "Они убьют же нас! ", 
+         "text" : "#Rescuefarme.man.6e47262b-250d-4274-a304-8c8fb884c6db", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -149,7 +149,7 @@
          "child" : [ 
             "99ca728d-e0e1-4899-905d-359abd7dac12"
          ], 
-         "text" : "О Боже, нет!", 
+         "text" : "#Rescuefarme.man.d02e5eb0-712f-4b53-ac88-0bebcd3ca9f0", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -162,7 +162,7 @@
          "child" : [ 
             "99ca728d-e0e1-4899-905d-359abd7dac12"
          ], 
-         "text" : "[Громко рыдает] Нет, умоляю.", 
+         "text" : "#Rescuefarme.man.ad4428c2-68d2-48c2-bde9-e03f75f57ed3", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -175,7 +175,7 @@
          "child" : [ 
             "99ca728d-e0e1-4899-905d-359abd7dac12"
          ], 
-         "text" : "Мамочка...", 
+         "text" : "#Rescuefarme.man.6a4f1a7a-aeb4-44d0-a538-3fd4aac403e1", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -188,7 +188,7 @@
          "child" : [ 
             "99ca728d-e0e1-4899-905d-359abd7dac12"
          ], 
-         "text" : "Прочь!", 
+         "text" : "#Rescuefarme.man.be085f6d-b1c1-4c0e-98d6-ce085895e351", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -201,7 +201,7 @@
          "child" : [ 
             "99ca728d-e0e1-4899-905d-359abd7dac12"
          ], 
-         "text" : "Надо бежать!", 
+         "text" : "#Rescuefarme.man.c51a29f7-854b-4193-8c10-6235fe1ac071", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -214,7 +214,7 @@
          "child" : [ 
             "99ca728d-e0e1-4899-905d-359abd7dac12"
          ], 
-         "text" : "О нет, боже!", 
+         "text" : "#Rescuefarme.man.f10bf40a-3078-471f-a0a1-a6a535e71fca", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -227,7 +227,7 @@
          "child" : [ 
             "99ca728d-e0e1-4899-905d-359abd7dac12"
          ], 
-         "text" : "О чёрт, сколько же их!", 
+         "text" : "#Rescuefarme.man.8be4d256-696c-43a6-baf4-d7df9ff2edff", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -240,7 +240,7 @@
          "child" : [ 
             "99ca728d-e0e1-4899-905d-359abd7dac12"
          ], 
-         "text" : "Как их много...", 
+         "text" : "#Rescuefarme.man.628dfa0c-da84-40d1-8e84-d190df7a0a28", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -253,7 +253,7 @@
          "child" : [ 
             "99ca728d-e0e1-4899-905d-359abd7dac12"
          ], 
-         "text" : "Нам не убежать", 
+         "text" : "#Rescuefarme.man.748adf6d-1236-4751-ab49-73197658310c", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -266,7 +266,7 @@
          "child" : [ 
             "99ca728d-e0e1-4899-905d-359abd7dac12"
          ], 
-         "text" : "Почему я?", 
+         "text" : "#Rescuefarme.man.16a0076e-2a3f-456f-8ba1-25b101049930", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -279,7 +279,7 @@
          "child" : [ 
             "99ca728d-e0e1-4899-905d-359abd7dac12"
          ], 
-         "text" : "Они нас всех убьют!", 
+         "text" : "#Rescuefarme.man.b9a3a764-e454-4b73-8d02-09d0747d2ae5", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -292,7 +292,7 @@
          "child" : [ 
             "99ca728d-e0e1-4899-905d-359abd7dac12"
          ], 
-         "text" : "Откуда они взялись?", 
+         "text" : "#Rescuefarme.man.fc0d5b10-41ee-4cb0-95f4-cef65d9bb99c", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -305,7 +305,7 @@
          "child" : [ 
             "99ca728d-e0e1-4899-905d-359abd7dac12"
          ], 
-         "text" : "Я жить хочу!", 
+         "text" : "#Rescuefarme.man.0344bdf5-d13a-4d00-82e2-d6cf8d4aba4f", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -318,7 +318,7 @@
          "child" : [ 
             "99ca728d-e0e1-4899-905d-359abd7dac12"
          ], 
-         "text" : "О нет, мы в ловушке!", 
+         "text" : "#Rescuefarme.man.46ffe2ac-9725-4306-8058-4b7307b4d144", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -347,7 +347,7 @@
          "child" : [ 
             "99ca728d-e0e1-4899-905d-359abd7dac12"
          ], 
-         "text" : "Мы спасены! Благодарим Вас!", 
+         "text" : "#Rescuefarme.man.3ba06972-f0ed-45a6-b645-c220e418b062", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -360,7 +360,7 @@
          "child" : [ 
             "99ca728d-e0e1-4899-905d-359abd7dac12"
          ], 
-         "text" : "О боги, всё закончилось! Спасибо Вам!", 
+         "text" : "#Rescuefarme.man.c7776b7b-7254-49c4-a31c-5038ab831c65", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -373,7 +373,7 @@
          "child" : [ 
             "99ca728d-e0e1-4899-905d-359abd7dac12"
          ], 
-         "text" : "Спасибо Вам большое! Вы спасли нас!", 
+         "text" : "#Rescuefarme.man.f41e317f-19d5-43f2-ba22-7dde17ad3421", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -386,7 +386,7 @@
          "child" : [ 
             "99ca728d-e0e1-4899-905d-359abd7dac12"
          ], 
-         "text" : "[Громко плачет] Спасибо...Спасибо...Спасибо!", 
+         "text" : "#Rescuefarme.man.f8571115-c09e-450a-9608-b8911589db24", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -399,7 +399,7 @@
          "child" : [ 
             "99ca728d-e0e1-4899-905d-359abd7dac12"
          ], 
-         "text" : "Спасибо Вам!", 
+         "text" : "#Rescuefarme.man.719b8434-7a34-4d2c-b8e1-466cdb34cbf6", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -412,7 +412,7 @@
          "child" : [ 
             "99ca728d-e0e1-4899-905d-359abd7dac12"
          ], 
-         "text" : "[Слёзы радости]Вы спасли нас, благодарю.", 
+         "text" : "#Rescuefarme.man.4e299a0b-b396-46a7-972c-f4a4d000ce3c", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -425,7 +425,7 @@
          "child" : [ 
             "99ca728d-e0e1-4899-905d-359abd7dac12"
          ], 
-         "text" : "Спасибо за спасение!", 
+         "text" : "#Rescuefarme.man.68f48564-e8c7-4415-8967-5bce645122cc", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -523,7 +523,6 @@
                "proto" : "Bottle_Empty2"
             }
          ], 
-         "inventoryObject" : "", 
          "random" : "true"
       }, 
       "ceebfa1f-3b2a-4331-928b-8ea87059e66b" : { 
@@ -552,7 +551,6 @@
                "proto" : "AmanitaEat"
             }
          ], 
-         "inventoryObject" : "", 
          "random" : "true"
       }, 
       "a8f76cef-1109-4a9a-ba00-6d1ae53f514e" : { 
@@ -581,7 +579,6 @@
                "proto" : "Stew_Empty"
             }
          ], 
-         "inventoryObject" : "", 
          "random" : "true"
       }, 
       "c508d840-d92a-4fa5-84e4-b93e8a0a6cca" : { 
@@ -610,7 +607,6 @@
                "proto" : "Bottle_Empty"
             }
          ], 
-         "inventoryObject" : "", 
          "random" : "true"
       }
    }, 

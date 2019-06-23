@@ -45,7 +45,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Вон главный стоит, все вопросы к нему.", 
+         "text" : "#ph_caravan_guard.efd5e6e2-8a27-4a03-889f-5c99c81cca07", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -57,7 +57,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "До КРЗ еще далеко?", 
+         "text" : "#ph_caravan_guard.5261ca46-570b-4373-9b32-8bc5f3ba7f53", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -69,7 +69,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "[Молча смотрит на вас]", 
+         "text" : "#ph_caravan_guard.79662a21-94a3-4ea4-8353-dcf2d06efb42", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -81,7 +81,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Обратитесь к старшему.", 
+         "text" : "#ph_caravan_guard.bc2d3678-f541-429e-ae7c-aa0c676ba527", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -93,7 +93,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Тут у вас поспокойнее чем у нас.", 
+         "text" : "#ph_caravan_guard.fd8310ca-f316-4c62-a4b0-ab2418cc770e", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 

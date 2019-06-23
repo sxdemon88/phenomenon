@@ -31,7 +31,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2002263981713190387}
-  - {fileID: 4499258828489155594}
+  - {fileID: 1519141972730995888}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -61,7 +61,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mEntityData: '{"class":"Weapon", "count":"1", "proto":"Amd65", "ammo":{"count":"0",
-    "proto":"7_62mm_JHP"}}'
+    "proto":"5_45mm_jhp"}}'
 --- !u!114 &5514980973182213655
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -119,6 +119,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Amd65
       objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: 0e4f8483305f5ac46a30d0e670ca0fad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0e4f8483305f5ac46a30d0e670ca0fad, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.135
@@ -175,17 +179,13 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.7
       objectReference: {fileID: 0}
-    - target: {fileID: 100012, guid: 0e4f8483305f5ac46a30d0e670ca0fad, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 100014, guid: 0e4f8483305f5ac46a30d0e670ca0fad, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e4f8483305f5ac46a30d0e670ca0fad, type: 3}
---- !u!4 &4499258828489155594 stripped
+--- !u!4 &1519141972730995888 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 0e4f8483305f5ac46a30d0e670ca0fad,
     type: 3}

@@ -59,7 +59,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Всех благ тебе земных, добрая путешественница. Дай Бог тебе здоровья! Храни Господь!", 
+         "text" : "#ph_rescuefarme.77a62e3d-3d2a-46ff-bd16-6ae455ed4525", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -71,7 +71,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Всех благ тебе земных, добрый путник. Дай Бог тебе здоровья! Храни Господь!", 
+         "text" : "#ph_rescuefarme.1641e23e-194e-424b-869f-d3a26e640618", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -83,7 +83,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Не могу в себя прийти. Уф...", 
+         "text" : "#ph_rescuefarme.74ef9d89-ea4c-4b92-92c5-5400de7550c2", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -95,7 +95,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Офигеть! Вся жизнь перед глазами пролетела...", 
+         "text" : "#ph_rescuefarme.45191634-10b3-418f-85b4-9ad4d33516ac", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -118,7 +118,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Попутных ветров тебе, наш спаситель. ", 
+         "text" : "#ph_rescuefarme.7a4d445d-9eb6-483d-b781-476d2c6070a1", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -130,7 +130,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Попутных ветров тебе, наша спасительница. ", 
+         "text" : "#ph_rescuefarme.08072f1f-7d91-4f5f-a6ea-a07944c1fcf3", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -153,7 +153,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Вовремя ты появилась! Еще бы чуть-чуть и кирдык. Отдышаться не могу.", 
+         "text" : "#ph_rescuefarme.0c9569f1-aad3-45b9-9a9f-ae7f4edb7180", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -165,7 +165,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Вовремя ты появился! Еще бы чуть-чуть и кирдык. Отдышаться не могу.", 
+         "text" : "#ph_rescuefarme.befa38eb-0f28-43af-a8ff-876bd2af58ab", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -177,7 +177,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Мы спасены! Благодарим Вас!", 
+         "text" : "#ph_rescuefarme.01e7003f-5797-40cc-8f6d-0c62c1e4b013", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -189,7 +189,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "О боги, всё закончилось! Спасибо Вам!", 
+         "text" : "#ph_rescuefarme.41fd60ee-5209-4e49-835b-7d052ccffe93", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -201,7 +201,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Спасибо Вам большое! Вы спасли нас!", 
+         "text" : "#ph_rescuefarme.c112f283-fb03-4d2f-9606-33b489dd2775", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -213,7 +213,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "[Громко плачет] Спасибо... Спасибо... Спасибо!", 
+         "text" : "#ph_rescuefarme.3017456d-2adc-4833-901d-e6f6019104a9", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -225,7 +225,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Спасибо Вам!", 
+         "text" : "#ph_rescuefarme.8c6a7ad6-65f3-43c6-83d4-13164e65c9b5", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -237,7 +237,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "[Слёзы радости] Вы спасли нас, благодарю.", 
+         "text" : "#ph_rescuefarme.f05604a1-55af-4184-8de6-fca9829032da", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -249,7 +249,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Спасибо за спасение!", 
+         "text" : "#ph_rescuefarme.0bf55287-ee01-4c21-a206-11c5c8e4bf37", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -272,7 +272,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Спасибо, друг! Как тебя зовут? Назову дочь твоим именем.", 
+         "text" : "#ph_rescuefarme.7edc8c92-634b-4fca-ba15-6f084bd4b8b7", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -284,7 +284,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Спасибо, друг! Как тебя зовут? Назову сына твоим именем.", 
+         "text" : "#ph_rescuefarme.f906c11e-de39-4e24-8203-58f688e5cd40", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -296,7 +296,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Расскажу семье дома о спасении.", 
+         "text" : "#ph_rescuefarme.95eccaa9-1ad9-446e-924b-047c1ea000ec", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -319,7 +319,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Вот это приключение! Будет что в семье рассказать!\r\n\rУдачи тебе, героиня!", 
+         "text" : "#ph_rescuefarme.135ff686-1b01-416a-85a1-9ee0d0bf36b9", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -331,7 +331,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Вот это приключение! Будет что в семье рассказать!\r\n\rУдачи тебе, герой!", 
+         "text" : "#ph_rescuefarme.ca018473-7885-4fe6-a054-85927747bbfa", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -354,7 +354,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Сегодня мой день! А ты моя ангел-хранитель. От всего сердца благодарю!", 
+         "text" : "#ph_rescuefarme.cc08abbd-96fb-4f00-b52f-6fecd8f5772f", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -366,7 +366,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Сегодня мой день! А ты мой ангел-хранитель. От всего сердца благодарю!", 
+         "text" : "#ph_rescuefarme.5a3a7542-2f94-4301-9bd2-2867c7198273", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -389,7 +389,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Спасибо тебе, милушка! Спасла нас!", 
+         "text" : "#ph_rescuefarme.a20553a8-9d89-4f6a-a814-98a829df2f5b", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -401,7 +401,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Спасибо тебе, мил человек! Спас нас!", 
+         "text" : "#ph_rescuefarme.a78cf628-a38f-4e6f-b36c-b9509e6e4497", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -424,7 +424,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Попутных ветров тебе, храбрая воительница. ", 
+         "text" : "#ph_rescuefarme.58c35509-7497-46f2-aed6-8b16b56fd415", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -436,7 +436,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Попутных ветров тебе, храбрый воин. ", 
+         "text" : "#ph_rescuefarme.070d8b40-5043-4164-a8f2-14112b158203", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 

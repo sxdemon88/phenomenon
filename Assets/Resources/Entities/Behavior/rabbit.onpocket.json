@@ -180,7 +180,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Шкурка повреждена."
+         "text" : "#rabbit.onpocket.7c6b5a06-6e28-464d-827c-41c0d61c1e0b"
       }, 
       "f042957f-bcce-44dc-b375-c83ef30b3cf5" : { 
          "class" : "InventoryAddItemNode", 
@@ -253,7 +253,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Шкурка повреждена."
+         "text" : "#rabbit.onpocket.65d081d3-1830-442d-af5e-077eb1d28ded"
       }, 
       "1498db2d-4aac-4d26-8822-35662b14c418" : { 
          "class" : "InventoryAddItemNode", 
@@ -312,7 +312,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Шкурка повреждена."
+         "text" : "#rabbit.onpocket.79897b36-d905-47e6-a3fd-49633a1cf0f9"
       }, 
       "686a4ab0-ab21-4573-85bb-cddc3810b96d" : { 
          "class" : "HasModifierNode", 
@@ -350,7 +350,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Вы отлично обработали добычу."
+         "text" : "#rabbit.onpocket.c73e05ae-d115-440e-89b5-53a7e99ad443"
       }, 
       "a1de9e41-2f74-40c6-84c2-afc04d6f4153" : { 
          "class" : "HasModifierNode", 
@@ -399,7 +399,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Вы хорошо обработали добычу."
+         "text" : "#rabbit.onpocket.92a2c5d5-7116-4b78-b40e-ebcd0048a474"
       }, 
       "5c54fe7a-ae9a-4494-aa48-37aae0f2d2f6" : { 
          "class" : "HasModifierNode", 
@@ -449,7 +449,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Вы нормально обработали добычу."
+         "text" : "#rabbit.onpocket.7b319c72-2ffd-4cd4-a84f-1b6105b7ff3d"
       }, 
       "af66b25f-a72e-4e59-a4c9-644014c28012" : { 
          "class" : "HasModifierNode", 
@@ -494,7 +494,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Вы неудачно обработали добычу."
+         "text" : "#rabbit.onpocket.a46263f7-2d0c-44a9-923f-057e4fc1680e"
       }, 
       "8f69e8c1-9376-4550-a310-a6469bda764b" : { 
          "class" : "HasModifierNode", 
@@ -538,7 +538,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Не хватает навыка выживания, для дополнительной обработки добычи."
+         "text" : "#rabbit.onpocket.50f554f4-a261-4e7f-a2c5-92c023ca6ec4"
       }, 
       "3de594d4-c20e-4838-b69b-74e8619b6a10" : { 
          "class" : "DummyNode", 

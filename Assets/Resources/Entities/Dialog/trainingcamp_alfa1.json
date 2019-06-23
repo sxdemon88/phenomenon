@@ -631,8 +631,7 @@
          }, 
          "child" : [ 
             "701adcca-597c-48a1-ba23-e6c29b461962"
-         ], 
-         "stateName" : ""
+         ]
       }, 
       "701adcca-597c-48a1-ba23-e6c29b461962" : { 
          "class" : "CharacterNeedUpdateNode", 
@@ -711,8 +710,7 @@
          }, 
          "child" : [ 
             "fe57bca4-fa22-4e64-9b16-6448fcf2e91a"
-         ], 
-         "stateName" : ""
+         ]
       }, 
       "fe57bca4-fa22-4e64-9b16-6448fcf2e91a" : { 
          "class" : "FlashSplashNode", 
@@ -905,7 +903,7 @@
             "2173928c-06fd-4e63-a268-16ee13227370", 
             "ad1f9f25-1d2c-4af3-8df8-a3560c7c2b20"
          ], 
-         "text" : "мод тест"
+         "text" : "#trainingcamp_alfa1.85cf731f-04c3-4625-a5c3-68a4d5578f9f"
       }, 
       "d9f41465-49da-4e49-aa6d-eb8591684faf" : { 
          "class" : "InventoryAddItemNode", 

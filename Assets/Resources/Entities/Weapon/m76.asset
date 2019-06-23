@@ -16,7 +16,7 @@ MonoBehaviour:
     path: Entities/Weapon/weapon models/m76/m76
   m_Localization: weapon.m76
   Takeable: 1
-  Cost: 10360
+  Cost: 11350
   Weight: 4400
   Collectable: 0
   Modifiers: []
@@ -26,8 +26,8 @@ MonoBehaviour:
   AmmoCapacity: 10
   BothHands: 1
   Stack: 0
-  DamageMin: 14
-  DamageMax: 25
+  DamageMin: 12
+  DamageMax: 23
   DamageRadius: 1
   Fatality: 25
   Perks: 1073742850
@@ -35,7 +35,7 @@ MonoBehaviour:
   DamageType: 0
   Single:
     AP: 5
-    Range: 32
+    Range: 31
     Shots: 1
     Dispersion: 0
     ModeType: 0
@@ -43,7 +43,7 @@ MonoBehaviour:
     - path: Entities/Weapon/weapon models/m76/m76
   Aimed:
     AP: 5
-    Range: 32
+    Range: 31
     Shots: 1
     Dispersion: 0
     ModeType: 0
@@ -69,7 +69,7 @@ MonoBehaviour:
   - _type: 1
     _value: 7
   - _type: 9
-    _value: 100
+    _value: 90
   NoAmmoSounds:
   - path: Sounds/SFX/Weapons/M24/m24_empty
   PreAttackSounds: []

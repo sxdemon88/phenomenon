@@ -14,51 +14,52 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Icon:
     path: Entities/Weapon/weapon models/Amd65/amd65N
-  m_Localization: weapon.Amd65N
+  m_Localization: weapon.amd65n
   Takeable: 1
-  Cost: 9130
-  Weight: 3150
+  Cost: 7900
+  Weight: 3120
   Collectable: 0
   Modifiers: []
+  HasModel: 1
   weaponType: 8
   Ammo:
     path: entities/ammo/7_62mm_jhp
   AmmoCapacity: 30
   BothHands: 1
   Stack: 0
-  DamageMin: 9
-  DamageMax: 23
+  DamageMin: 8
+  DamageMax: 21
   DamageRadius: 1
   Fatality: 20
   Perks: 16
   PerksEx: 0
   DamageType: 0
   Single:
-    AP: 5
-    Range: 18
+    AP: 4
+    Range: 17
     Shots: 1
     Dispersion: 0
-    ModeType: 0
+    ModeType: 9
     Sounds:
     - path: Entities/Weapon/weapon models/PMmd65/pmmd65
   Aimed:
-    AP: 6
-    Range: 22
+    AP: 5
+    Range: 21
     Shots: 1
     Dispersion: 0
     ModeType: 0
     Sounds:
     - path: Entities/Weapon/weapon models/PMmd65/pmmd65
   Burst:
-    AP: 7
-    Range: 18
+    AP: 6
+    Range: 17
     Shots: 3
-    Dispersion: 2
+    Dispersion: 3
     ModeType: 0
     Sounds:
     - path: Entities/Weapon/weapon models/PMmd65/pmmd65
   Reload:
-    AP: 2
+    AP: 3
     Range: 0
     Shots: 0
     Dispersion: 0
@@ -68,9 +69,9 @@ MonoBehaviour:
   Effects: []
   Requirements:
   - _type: 1
-    _value: 5
+    _value: 4
   - _type: 10
-    _value: 80
+    _value: 78
   NoAmmoSounds:
   - path: Sounds/SFX/Weapons/AK47/ak47_empty
   PreAttackSounds: []

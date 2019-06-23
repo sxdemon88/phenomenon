@@ -10,30 +10,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1928272209, guid: ba80931603c2dbc40ab113c533efa2ed, type: 3}
-  m_Name: craftdogarmor_1
+  m_Name: gasmask_2
   m_EditorClassIdentifier: 
   Icon:
-    path: Entities/Uniform/CraftDogArmor_1
-  m_Localization: uniform.craftdogarmor_1
+    path: Entities/Uniform/Gasmask_2
+  m_Localization: uniform.gasmask_2
   Takeable: 1
-  Cost: 1000
-  Weight: 1500
+  Cost: 600
+  Weight: 700
   Collectable: 1
   Modifiers:
-  - _type: 30
-    _value: 16
-  - _type: 40
-    _value: 2
-  - _type: 27
-    _value: -3
-  - _type: 28
-    _value: 2000
-  UniformType: 1
-  HideMask: 0
-  ArmorDurability: 50
+  - _type: 35
+    _value: 70
+  - _type: 2
+    _value: -1
+  UniformType: 3
+  HideMask: 2
+  ArmorDurability: 0
   rules: []
   rulesEx: 0
-  Perks: 2
+  Perks: 0
   ClothesForMale:
     path: 
   ClothesForFemale:

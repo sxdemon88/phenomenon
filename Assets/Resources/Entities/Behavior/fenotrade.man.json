@@ -82,8 +82,7 @@
                "count" : "1", 
                "proto" : "Knife"
             }
-         ], 
-         "inventoryObject" : ""
+         ]
       }, 
       "688cf2dd-89e0-4f77-bfc2-615eed9cdab5" : { 
          "class" : "InventorySetNode", 
@@ -99,8 +98,7 @@
                "count" : "1", 
                "proto" : "Knife_Rust"
             }
-         ], 
-         "inventoryObject" : ""
+         ]
       }, 
       "2c444878-3565-4bd8-b515-c0b38d54d0aa" : { 
          "class" : "InventorySetNode", 
@@ -116,8 +114,7 @@
                "count" : "1", 
                "proto" : "Zatochka"
             }
-         ], 
-         "inventoryObject" : ""
+         ]
       }, 
       "e6f79b81-4a03-43a0-b574-401513a99ba9" : { 
          "class" : "DummyNode", 
@@ -220,7 +217,6 @@
                "proto" : "Gun_Powder"
             }
          ], 
-         "inventoryObject" : "", 
          "random" : "true"
       }, 
       "e3e8b30d-b12d-4f90-a15e-3a7215e677ab" : { 
@@ -313,7 +309,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Подходи, я не кусаюсь.", 
+         "text" : "#fenotrade.man.7a548550-aa09-4d86-afc9-5e7c8bd9340e", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true", 
          "mode" : "CancelIfBattle"
@@ -326,7 +322,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Эй! Поторговать не хочешь?", 
+         "text" : "#fenotrade.man.476d9ad7-feab-420d-99d0-c179feffd508", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true", 
          "mode" : "CancelIfBattle"
@@ -339,7 +335,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Время не подскажешь и год желательно?", 
+         "text" : "#fenotrade.man.5984ef1d-ae5d-443d-900f-cd0990a70475", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true", 
          "mode" : "CancelIfBattle"
@@ -365,7 +361,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Только сегодня, акции и скидки!", 
+         "text" : "#fenotrade.man.55f2a085-27f1-49b3-9a1e-eecb6f6242a7", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true", 
          "mode" : "CancelIfBattle"
@@ -425,7 +421,7 @@
          "child" : [ 
             "02b0d19d-b239-4c48-aa6e-ff9a9228b6f1"
          ], 
-         "text" : "Мрачноватый мир...", 
+         "text" : "#fenotrade.man.c275cf53-db5d-4808-a9b9-5f8ad914b973", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true", 
          "mode" : "CancelIfBattle"
@@ -448,7 +444,7 @@
          "child" : [ 
             "02b0d19d-b239-4c48-aa6e-ff9a9228b6f1"
          ], 
-         "text" : "Интересно я тут бывал?", 
+         "text" : "#fenotrade.man.00bf018b-9ff3-401f-9bd1-e48164f46c79", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true", 
          "mode" : "CancelIfBattle"
@@ -462,7 +458,7 @@
          "child" : [ 
             "02b0d19d-b239-4c48-aa6e-ff9a9228b6f1"
          ], 
-         "text" : "Интересно, какой тут год...", 
+         "text" : "#fenotrade.man.8c34c711-4596-4957-a281-6a678847241e", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true", 
          "mode" : "CancelIfBattle"
@@ -476,7 +472,7 @@
          "child" : [ 
             "02b0d19d-b239-4c48-aa6e-ff9a9228b6f1"
          ], 
-         "text" : "В прошлый раз тут был снег", 
+         "text" : "#fenotrade.man.380a84b5-20ca-49ba-9f48-d05694cfe60a", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true", 
          "mode" : "CancelIfBattle"
@@ -490,7 +486,7 @@
          "child" : [ 
             "02b0d19d-b239-4c48-aa6e-ff9a9228b6f1"
          ], 
-         "text" : "[Громко что-то пикнуло] Эх, скоро домой.", 
+         "text" : "#fenotrade.man.c1fa7c3f-0230-48e6-8faa-7e1084c687df", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true", 
          "mode" : "CancelIfBattle"
@@ -504,7 +500,7 @@
          "child" : [ 
             "02b0d19d-b239-4c48-aa6e-ff9a9228b6f1"
          ], 
-         "text" : "[Глубоко вздыхает]", 
+         "text" : "#fenotrade.man.bdfcf689-4d05-4592-aa8a-d866542c0b21", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true", 
          "mode" : "CancelIfBattle"
@@ -518,7 +514,7 @@
          "child" : [ 
             "02b0d19d-b239-4c48-aa6e-ff9a9228b6f1"
          ], 
-         "text" : "[Достал непонятное устройство] Окей гугл. Бля, не ловит, опять наверное 90-е.", 
+         "text" : "#fenotrade.man.9e6fa57b-1933-4b6e-a5bd-f4cfa38f2a76", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true", 
          "mode" : "CancelIfBattle"
@@ -532,7 +528,7 @@
          "child" : [ 
             "02b0d19d-b239-4c48-aa6e-ff9a9228b6f1"
          ], 
-         "text" : "[Достал непонятное устройство] Сири, ты меня любишь?Как нет подключения? Как этот мир живет без интернета, непонимаю.", 
+         "text" : "#fenotrade.man.28bc1b1b-72b5-46ad-b7f1-fc18190a9a93", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true", 
          "mode" : "CancelIfBattle"
@@ -546,7 +542,7 @@
          "child" : [ 
             "02b0d19d-b239-4c48-aa6e-ff9a9228b6f1"
          ], 
-         "text" : "Время меняется, люди меняются, а жизнь... остается жизнью.", 
+         "text" : "#fenotrade.man.b9a74121-13d4-4ebc-8080-7db25ce683be", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -559,7 +555,7 @@
          "child" : [ 
             "02b0d19d-b239-4c48-aa6e-ff9a9228b6f1"
          ], 
-         "text" : "Время действительно худшая из шлюх: Кидает каждого, не боясь последствий.", 
+         "text" : "#fenotrade.man.cbdfffaa-49cc-4b7d-878e-4dd03e5f4362", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -572,7 +568,7 @@
          "child" : [ 
             "02b0d19d-b239-4c48-aa6e-ff9a9228b6f1"
          ], 
-         "text" : "Мы убиваем время, а время убивает нас.", 
+         "text" : "#fenotrade.man.63f6e056-009d-4b7b-a51f-2ecde0f8cad3", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -585,7 +581,7 @@
          "child" : [ 
             "02b0d19d-b239-4c48-aa6e-ff9a9228b6f1"
          ], 
-         "text" : "Банально, но все–таки, если прислушаться, самый зловещий из всех земных звуков — тиканье часов.", 
+         "text" : "#fenotrade.man.9bd52d71-1f1a-454e-91ed-dea9437788d9", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -598,7 +594,7 @@
          "child" : [ 
             "02b0d19d-b239-4c48-aa6e-ff9a9228b6f1"
          ], 
-         "text" : "Постулат «За что купил, за то и продаю» – верный путь к банкротству.", 
+         "text" : "#fenotrade.man.fc9149f1-67aa-4371-887e-9e24c6393d5f", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }

@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Icon:
     path: 
-  m_Localization: character.bandit_21
+  m_Localization: character.ph_bandit_21
   Takeable: 1
+  AIDontUseCover: 0
   aiBehavior: 0
   aiBehaviorTree:
     path: 

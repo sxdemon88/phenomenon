@@ -1676,8 +1676,8 @@
                "count" : "1", 
                "proto" : "stg44rust", 
                "ammo" : { 
-                  "count" : "10", 
-                  "proto" : "9mm_JHP"
+                  "count" : "5", 
+                  "proto" : "7_62mm_JHP"
                }
             }
          ], 

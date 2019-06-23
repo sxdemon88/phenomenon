@@ -16,7 +16,7 @@ MonoBehaviour:
     path: Entities/Weapon/weapon models/mg3/mg3_rust
   m_Localization: weapon.mg3rust
   Takeable: 1
-  Cost: 1430
+  Cost: 1900
   Weight: 11500
   Collectable: 0
   Modifiers: []
@@ -26,8 +26,8 @@ MonoBehaviour:
   AmmoCapacity: 100
   BothHands: 1
   Stack: 0
-  DamageMin: 3
-  DamageMax: 13
+  DamageMin: 4
+  DamageMax: 11
   DamageRadius: 1
   Fatality: 5
   Perks: 2048
@@ -36,8 +36,8 @@ MonoBehaviour:
   Single:
     AP: 7
     Range: 14
-    Shots: 3
-    Dispersion: 4
+    Shots: 7
+    Dispersion: 5
     ModeType: 10
     Sounds:
     - path: Entities/Weapon/weapon models/mg3/MG3_SHOT_3
@@ -52,7 +52,7 @@ MonoBehaviour:
     AP: 8
     Range: 14
     Shots: 15
-    Dispersion: 4
+    Dispersion: 6
     ModeType: 10
     Sounds:
     - path: Entities/Weapon/weapon models/mg3/MG3_SHOT_3
@@ -67,9 +67,9 @@ MonoBehaviour:
   Effects: []
   Requirements:
   - _type: 1
-    _value: 5
+    _value: 6
   - _type: 10
-    _value: 50
+    _value: 60
   NoAmmoSounds:
   - path: Sounds/SFX/Weapons/m249/m249_empty
   PreAttackSounds: []

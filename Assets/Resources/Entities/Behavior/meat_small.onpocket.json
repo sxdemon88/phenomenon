@@ -141,7 +141,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Вы отлично обработали добычу."
+         "text" : "#meat_small.onpocket.e8a665a8-27d7-45c1-84c3-40c68cdf895b"
       }, 
       "8bea1d31-ec2d-41cf-b57a-62c438b47b89" : { 
          "class" : "HasModifierNode", 
@@ -201,7 +201,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Вы хорошо обработали добычу."
+         "text" : "#meat_small.onpocket.2c61857e-8d37-4b7b-b0dc-f4640d9dd63a"
       }, 
       "08373cf4-3422-4938-83b4-4ab379c9742c" : { 
          "class" : "HasModifierNode", 
@@ -251,7 +251,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Вы нормально обработали добычу."
+         "text" : "#meat_small.onpocket.5f258c93-43c1-41d6-b753-910cf3517a71"
       }, 
       "74b9e916-4494-4a6d-91f4-f885b4e8e79b" : { 
          "class" : "HasModifierNode", 
@@ -329,7 +329,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Вы неудачно обработали добычу."
+         "text" : "#meat_small.onpocket.29f6e17c-b051-467e-958a-c9f0684fbb57"
       }, 
       "32363c51-942a-47fd-acf8-47890746e29b" : { 
          "class" : "DummyNode", 
@@ -349,7 +349,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Не хватает навыка выживания, для дополнительной обработки добычи."
+         "text" : "#meat_small.onpocket.bda35501-ac1d-412f-95da-9094df7733c4"
       }, 
       "95cd4a94-bc67-48de-8d6a-f253fedc27ed" : { 
          "class" : "DummyNode", 

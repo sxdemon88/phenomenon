@@ -5,6 +5,10 @@ using JSon;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
+
 //[assembly: AssemblyTitle("My Mod")] // ENTER MOD TITLE
 
 
@@ -23,7 +27,8 @@ public class ModEntryPoint : MonoBehaviour // ModEntryPoint - RESERVED LOOKUP NA
 
     void GameLoaded(GlobalEvents.GameStart evnt)
     {
-        Localization.LoadStrings("PH_strings_");
+        Localization.LoadStrings("ph_strings_");
+		Localization.LoadTexts("ph_text_");
         Game.World.console.DeveloperMode();
     }
 
@@ -37,3 +42,27 @@ public class ModEntryPoint : MonoBehaviour // ModEntryPoint - RESERVED LOOKUP NA
         
     }
 }
+
+#if UNITY_EDITOR
+
+[InitializeOnLoad]
+internal class LocalizationPreviewInEditor
+{
+    static LocalizationPreviewInEditor()
+    {
+        EditorApplication.update += Init;
+    }
+
+
+    static void Init()
+    {
+        if (!EditorApplication.isCompiling && ResourceManager.bundles.Count > 0)
+        {
+            EditorApplication.update -= Init;
+            Localization.Setup("ru", false);
+            Localization.LoadStrings("ph_strings_");
+            Localization.LoadTexts("ph_text_");
+        }
+    }
+}
+#endif

@@ -360,7 +360,7 @@ MonoBehaviour:
       _description: encounter.try_skip1
       _success: encounter.success_skip1
       _successButton: encounter.gotravel
-      _fail: fail_skip_ph
+      _fail: encounter.fail_skip_ph
       _failButton: encounter.gobattle
       _invert: 0
       _canAttack: 0
@@ -393,7 +393,7 @@ MonoBehaviour:
       _description: encounter.try_skip1
       _success: encounter.success_skip1
       _successButton: encounter.gotravel
-      _fail: fail_skip_ph
+      _fail: encounter.fail_skip_ph
       _failButton: encounter.gobattle
       _invert: 0
       _canAttack: 0
@@ -426,7 +426,7 @@ MonoBehaviour:
       _description: encounter.try_skip1
       _success: encounter.success_skip1
       _successButton: encounter.gotravel
-      _fail: fail_skip_ph
+      _fail: encounter.fail_skip_ph
       _failButton: encounter.gobattle
       _invert: 0
       _canAttack: 0
@@ -459,7 +459,7 @@ MonoBehaviour:
       _description: encounter.try_skip1
       _success: encounter.success_skip1
       _successButton: encounter.gotravel
-      _fail: fail_skip_ph
+      _fail: encounter.fail_skip_ph
       _failButton: encounter.gobattle
       _invert: 0
       _canAttack: 0
@@ -492,7 +492,7 @@ MonoBehaviour:
       _description: encounter.try_skip1
       _success: encounter.success_skip1
       _successButton: encounter.gotravel
-      _fail: fail_skip_ph
+      _fail: encounter.fail_skip_ph
       _failButton: encounter.gobattle
       _invert: 0
       _canAttack: 0

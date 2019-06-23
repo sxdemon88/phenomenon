@@ -67,7 +67,7 @@ MonoBehaviour:
   Effects: []
   Requirements:
   - _type: 1
-    _value: 5
+    _value: 6
   - _type: 8
     _value: 70
   NoAmmoSounds:

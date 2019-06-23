@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Icon:
     path: 
-  m_Localization: chest.karavan.vehicle
+  m_Localization: chest.gaz66back
   Takeable: 1
   Boom: {fileID: 0}
   DamageTreshold: 0
@@ -25,3 +25,4 @@ MonoBehaviour:
     path: 
   soundLocked:
     path: 
+  soundHit: []

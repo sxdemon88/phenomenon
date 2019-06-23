@@ -45,7 +45,7 @@
          "child" : [ 
             "95730168-4956-4f4c-8f64-2b67b5cd39af"
          ], 
-         "text" : "Ещё раз спасибо тебе!"
+         "text" : "#ph_stalker1.ca99b51a-5325-4097-8c4a-3a56edcc31e7"
       }, 
       "95730168-4956-4f4c-8f64-2b67b5cd39af" : { 
          "class" : "DialogAnswerNode", 
@@ -56,7 +56,7 @@
          "child" : [ 
             "6da7846b-4923-4de8-82fd-25edf19f18d1"
          ], 
-         "text" : "Всегда пожалуйста."
+         "text" : "#ph_stalker1.95730168-4956-4f4c-8f64-2b67b5cd39af"
       }, 
       "6da7846b-4923-4de8-82fd-25edf19f18d1" : { 
          "class" : "DialogEndNode", 
@@ -99,7 +99,7 @@
          "child" : [ 
             "3f79ba67-7359-4a1e-89bf-3a0579eee468"
          ], 
-         "text" : "Привет дружище. Спасибо что не прошёл мимо и помог! Гадом буду не забуду!"
+         "text" : "#ph_stalker1.1"
       }, 
       "3f79ba67-7359-4a1e-89bf-3a0579eee468" : { 
          "class" : "DialogAnswerNode", 
@@ -110,7 +110,7 @@
          "child" : [ 
             "5d3e10b3-9c4a-423e-b1e7-a253916f25bc"
          ], 
-         "text" : "Да было бы за что."
+         "text" : "#ph_stalker1.3f79ba67-7359-4a1e-89bf-3a0579eee468"
       }, 
       "5d3e10b3-9c4a-423e-b1e7-a253916f25bc" : { 
          "class" : "DialogPhraseNode", 
@@ -124,7 +124,7 @@
             "b1a17b40-2b2d-4bd5-8440-65cba5f0ead4", 
             "7630bbe8-b040-4957-a57b-8c4ef34a811f"
          ], 
-         "text" : "Не скромничай. Прими мою скромную благодарность за спасение. Может что конретное тебе необходимо?"
+         "text" : "#ph_stalker1.5d3e10b3-9c4a-423e-b1e7-a253916f25bc"
       }, 
       "b10c1bed-26ec-4919-a992-7199a8b9740c" : { 
          "class" : "DialogAnswerNode", 
@@ -137,7 +137,7 @@
             "eb44fe58-4ff2-4ce8-b395-d3b803615d4a", 
             "80f58056-69e0-4406-9dd0-386195058322"
          ], 
-         "text" : "Патронов бы не помешало."
+         "text" : "#ph_stalker1.b10c1bed-26ec-4919-a992-7199a8b9740c"
       }, 
       "dd1a2951-1fc8-47fd-866a-02afbcb67527" : { 
          "class" : "RandomNode", 
@@ -181,7 +181,7 @@
          "child" : [ 
             "54a15ddd-4a58-452c-81c5-65b2b7ff1272"
          ], 
-         "text" : "Держи конечно. Всего доброго."
+         "text" : "#ph_stalker1.ee841ddb-c478-437a-b82e-27a452deb33c"
       }, 
       "54a15ddd-4a58-452c-81c5-65b2b7ff1272" : { 
          "class" : "DialogAnswerNode", 
@@ -192,7 +192,7 @@
          "child" : [ 
             "404fdad7-b345-4f40-ac8f-5fbbd88949f1"
          ], 
-         "text" : "Спасибо. Удачи!"
+         "text" : "#ph_stalker1.54a15ddd-4a58-452c-81c5-65b2b7ff1272"
       }, 
       "404fdad7-b345-4f40-ac8f-5fbbd88949f1" : { 
          "class" : "RandomNode", 
@@ -421,7 +421,7 @@
             "d72245d3-47bd-404c-ac5b-30bd74ce53be", 
             "deaa1f1d-78e7-4429-b20f-a6c73419985e"
          ], 
-         "text" : "Лекарства сейчас в цене. Поэтому не откажусь."
+         "text" : "#ph_stalker1.5021a220-e4dd-4f3a-98a8-6659265409b2"
       }, 
       "6f5bd8d3-1b44-4694-bd5e-6158aa26e032" : { 
          "class" : "RandomNode", 
@@ -534,7 +534,7 @@
             "1db1e1b6-28c4-4729-a60b-e962491836cd", 
             "54c1e883-c5a5-4788-90c1-42cf38febd8a"
          ], 
-         "text" : "Продовльствия нехватает."
+         "text" : "#ph_stalker1.b1a17b40-2b2d-4bd5-8440-65cba5f0ead4"
       }, 
       "4b0213db-3b75-4aa1-861a-1a1f3b67cebd" : { 
          "class" : "RandomNode", 
@@ -725,7 +725,7 @@
             "c8c719aa-3813-4876-98c6-574014236ddb", 
             "cbe737e7-8867-4e7f-aade-2dbc6fb99b97"
          ], 
-         "text" : "Немного денег хватит."
+         "text" : "#ph_stalker1.7630bbe8-b040-4957-a57b-8c4ef34a811f"
       }, 
       "c8c719aa-3813-4876-98c6-574014236ddb" : { 
          "class" : "RandomNode", 
@@ -880,7 +880,7 @@
          "child" : [ 
             "3f79ba67-7359-4a1e-89bf-3a0579eee468"
          ], 
-         "text" : "Это вы очень вовремя тут оказались. Без вашей помощи нас бы тут положили. Спасибо тебе!"
+         "text" : "#ph_stalker1.6caf0be5-e330-4d52-b2e7-7caabbf0f876"
       }, 
       "4f1437a1-aae0-4318-a322-57ce387c7f8b" : { 
          "class" : "DialogPhraseNode", 
@@ -891,7 +891,7 @@
          "child" : [ 
             "3f79ba67-7359-4a1e-89bf-3a0579eee468"
          ], 
-         "text" : "Мастер! Браво! Таких бы вояк побольше в пустоши мир был бы безопаснее. От чистого сердца, большое спасибо !"
+         "text" : "#ph_stalker1.4f1437a1-aae0-4318-a322-57ce387c7f8b"
       }, 
       "36e5abd2-4476-4935-b073-f398adc2f319" : { 
          "class" : "PlayDialogNode", 

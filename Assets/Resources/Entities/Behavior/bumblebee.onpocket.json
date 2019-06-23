@@ -116,7 +116,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Вы отлично обработали добычу."
+         "text" : "#bumblebee.onpocket.1128f987-9230-43ad-b9f4-ca477939cd1c"
       }, 
       "6cbbad79-5925-485c-a7bc-2a845f4148f3" : { 
          "class" : "HasModifierNode", 
@@ -165,7 +165,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Вы хорошо обработали добычу."
+         "text" : "#bumblebee.onpocket.0530fced-941e-482a-9fdd-c55f34ace607"
       }, 
       "04ee2cd8-a574-44b9-afda-ba71665e2be7" : { 
          "class" : "HasModifierNode", 
@@ -215,7 +215,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Вы нормально обработали добычу."
+         "text" : "#bumblebee.onpocket.78522c50-d785-4315-8430-e1d14044529a"
       }, 
       "666815c3-ae33-47cb-9442-e4627b84b61f" : { 
          "class" : "HasModifierNode", 
@@ -265,7 +265,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Вы хорошо обработали добычу."
+         "text" : "#bumblebee.onpocket.6d700ac7-f67d-4083-9de6-281de9093470"
       }, 
       "8ca7172f-d2a7-4101-bccd-e295bce751da" : { 
          "class" : "InventoryAddItemNode", 
@@ -290,7 +290,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Вы нормально обработали добычу."
+         "text" : "#bumblebee.onpocket.5011b951-f0f9-4ac8-8697-13e348ef0827"
       }, 
       "0c58bd5f-ba98-441f-ad25-dd579fb8a016" : { 
          "class" : "DummyNode", 
@@ -310,7 +310,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Вы неудачно обработали добычу."
+         "text" : "#bumblebee.onpocket.c8cedfed-e96d-46fe-b61d-765f566d7ea2"
       }, 
       "9d7ed3ab-776d-4c4e-98cb-1c057cb7fc4c" : { 
          "class" : "HasModifierNode", 
@@ -359,7 +359,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Вы нормально обработали добычу."
+         "text" : "#bumblebee.onpocket.acc22131-b887-4565-8825-ee68f0f80766"
       }, 
       "8735c76c-98a5-439c-9350-a72c53567683" : { 
          "class" : "DummyNode", 
@@ -379,7 +379,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Вы неудачно обработали добычу."
+         "text" : "#bumblebee.onpocket.75667907-7f33-4ed2-b910-858c3c6052a8"
       }, 
       "ffb428fc-71c5-4535-b5b9-181f777dcaf9" : { 
          "class" : "DummyNode", 
@@ -399,7 +399,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Не хватает навыка выживания, для дополнительной обработки добычи."
+         "text" : "#bumblebee.onpocket.69d50e2b-f2a8-4028-9f0d-97798892d6e0"
       }, 
       "aa34c66d-e246-4b68-8b16-cbda4d6bc252" : { 
          "class" : "DummyNode", 

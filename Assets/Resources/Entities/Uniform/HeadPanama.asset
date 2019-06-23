@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Icon:
     path: Entities/Uniform/Uniform models/PH_helmet/HeadPanama/panamas
-  m_Localization: uniform.panama_afgan
+  m_Localization: uniform.headpanama
   Takeable: 1
   Cost: 500
   Weight: 0
@@ -28,3 +28,7 @@ MonoBehaviour:
   rules: []
   rulesEx: 0
   Perks: 0
+  ClothesForMale:
+    path: 
+  ClothesForFemale:
+    path: 

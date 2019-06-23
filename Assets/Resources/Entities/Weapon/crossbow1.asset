@@ -28,7 +28,7 @@ MonoBehaviour:
   DamageMin: 11
   DamageMax: 21
   DamageRadius: 1
-  Fatality: 0
+  Fatality: 20
   Perks: 0
   DamageType: 0
   Single:

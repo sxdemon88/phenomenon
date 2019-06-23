@@ -10,20 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1928272209, guid: ba80931603c2dbc40ab113c533efa2ed, type: 3}
-  m_Name: dyniahat
+  m_Name: gasmask
   m_EditorClassIdentifier: 
   Icon:
-    path: Entities/Uniform/DyniaHat
-  m_Localization: uniform.dyniahat
+    path: Entities/Uniform/Gasmask
+  m_Localization: uniform.gasmask
   Takeable: 1
-  Cost: 200
-  Weight: 150
+  Cost: 300
+  Weight: 900
   Collectable: 1
   Modifiers:
-  - _type: 16
-    _value: 10
-  UniformType: 0
-  HideMask: 1
+  - _type: 35
+    _value: 40
+  - _type: 2
+    _value: -1
+  UniformType: 3
+  HideMask: 2
   ArmorDurability: 0
   rules: []
   rulesEx: 0

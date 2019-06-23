@@ -16,7 +16,7 @@ MonoBehaviour:
     path: Entities/Weapon/weapon models/DP_28/dp28_rust
   m_Localization: weapon.dp_28rust
   Takeable: 1
-  Cost: 1680
+  Cost: 2500
   Weight: 9120
   Collectable: 0
   Modifiers: []
@@ -27,7 +27,7 @@ MonoBehaviour:
   BothHands: 1
   Stack: 0
   DamageMin: 3
-  DamageMax: 14
+  DamageMax: 13
   DamageRadius: 1
   Fatality: 5
   Perks: 2048
@@ -69,7 +69,7 @@ MonoBehaviour:
   - _type: 1
     _value: 6
   - _type: 10
-    _value: 60
+    _value: 70
   NoAmmoSounds:
   - path: Sounds/SFX/Weapons/RPD_44/rpd44_empty
   PreAttackSounds: []

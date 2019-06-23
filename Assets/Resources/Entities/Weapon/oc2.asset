@@ -16,31 +16,32 @@ MonoBehaviour:
     path: Entities/Weapon/weapon models/oc-2kiparis/keparis_icon
   m_Localization: weapon.oc2
   Takeable: 1
-  Cost: 3760
+  Cost: 4150
   Weight: 1600
   Collectable: 0
   Modifiers: []
+  HasModel: 1
   weaponType: 1
   Ammo:
     path: entities/ammo/9mm_jhp
-  AmmoCapacity: 32
+  AmmoCapacity: 30
   BothHands: 1
   Stack: 0
-  DamageMin: 6
-  DamageMax: 15
+  DamageMin: 9
+  DamageMax: 12
   DamageRadius: 1
-  Fatality: 10
+  Fatality: 12
   Perks: 0
   PerksEx: 0
   DamageType: 0
   Single:
-    AP: 5
-    Range: 12
-    Shots: 4
+    AP: 3
+    Range: 11
+    Shots: 3
     Dispersion: 1
     ModeType: 9
     Sounds:
-    - path: Entities/Weapon/weapon models/mp40/MP40_SHOOT
+    - path: Sounds/SFX/Weapons/Scorpion/Scorpion_shoot
   Aimed:
     AP: 0
     Range: 0
@@ -49,13 +50,13 @@ MonoBehaviour:
     ModeType: 0
     Sounds: []
   Burst:
-    AP: 6
+    AP: 4
     Range: 10
-    Shots: 6
+    Shots: 5
     Dispersion: 1
     ModeType: 9
     Sounds:
-    - path: Entities/Weapon/weapon models/mp40/MP40_SHOOT
+    - path: Sounds/SFX/Weapons/Scorpion/Scorpion_shoot
   Reload:
     AP: 3
     Range: 0
@@ -69,7 +70,7 @@ MonoBehaviour:
   - _type: 1
     _value: 5
   - _type: 8
-    _value: 70
+    _value: 75
   NoAmmoSounds:
   - path: Sounds/SFX/Weapons/PPS/pps_empty
   PreAttackSounds: []

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Icon:
     path: Entities/Uniform/Uniform models/PH_helmet/M42/m42_rust
-  m_Localization: uniform.mp42rust
+  m_Localization: uniform.m42_rust
   Takeable: 1
   Cost: 340
   Weight: 1100

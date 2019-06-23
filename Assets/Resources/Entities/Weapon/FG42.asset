@@ -16,17 +16,17 @@ MonoBehaviour:
     path: Entities/Weapon/weapon models/FG42/fg42
   m_Localization: weapon.fg42
   Takeable: 1
-  Cost: 3760
-  Weight: 4200
+  Cost: 7760
+  Weight: 4950
   Collectable: 0
   Modifiers: []
   weaponType: 1
   Ammo:
-    path: entities/ammo/9mm_jhp
-  AmmoCapacity: 32
+    path: entities/ammo/7_62mm_jhp
+  AmmoCapacity: 20
   BothHands: 1
   Stack: 0
-  DamageMin: 6
+  DamageMin: 11
   DamageMax: 15
   DamageRadius: 1
   Fatality: 10
@@ -35,9 +35,9 @@ MonoBehaviour:
   DamageType: 0
   Single:
     AP: 5
-    Range: 12
-    Shots: 4
-    Dispersion: 1
+    Range: 21
+    Shots: 1
+    Dispersion: 0
     ModeType: 10
     Sounds:
     - path: Entities/Weapon/weapon models/FG42/FG42_FIRE
@@ -49,10 +49,10 @@ MonoBehaviour:
     ModeType: 0
     Sounds: []
   Burst:
-    AP: 6
-    Range: 10
-    Shots: 6
-    Dispersion: 1
+    AP: 7
+    Range: 15
+    Shots: 4
+    Dispersion: 2
     ModeType: 9
     Sounds:
     - path: Entities/Weapon/weapon models/FG42/FG42_FIRE
@@ -67,9 +67,9 @@ MonoBehaviour:
   Effects: []
   Requirements:
   - _type: 1
-    _value: 5
-  - _type: 10
-    _value: 70
+    _value: 7
+  - _type: 9
+    _value: 100
   NoAmmoSounds:
   - path: Sounds/SFX/Weapons/PPS/pps_empty
   PreAttackSounds: []
