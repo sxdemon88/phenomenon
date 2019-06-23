@@ -2424,7 +2424,7 @@ MonoBehaviour:
     _requirementsEx: []
   - _chance: 500
     _type: ph_caravan
-    _period: 0
+    _period: 1
     _trigger: 
     _triggerInvert: 0
     _triggerReset: 0
@@ -2446,7 +2446,7 @@ MonoBehaviour:
     _requirementsEx: []
   - _chance: 50
     _type: mole
-    _period: 0
+    _period: 2
     _trigger: 
     _triggerInvert: 0
     _triggerReset: 0
@@ -2463,7 +2463,7 @@ MonoBehaviour:
     chances: []
     _requirements: []
     _requirementsEx: []
-  - _chance: 500
+  - _chance: 40
     _type: defence_2
     _period: 0
     _trigger: 
@@ -2493,7 +2493,7 @@ MonoBehaviour:
     _requirementsEx: []
   - _chance: 50
     _type: lacodon
-    _period: 0
+    _period: 2
     _trigger: 
     _triggerInvert: 0
     _triggerReset: 0
@@ -2519,7 +2519,7 @@ MonoBehaviour:
     chances: []
     _requirements: []
     _requirementsEx: []
-  - _chance: 1000
+  - _chance: 800
     _type: trap_1
     _period: 0
     _trigger: PH_TRAP_1
@@ -2543,7 +2543,7 @@ MonoBehaviour:
     _requirementsEx: []
   - _chance: 500
     _type: ph_caravan_2
-    _period: 0
+    _period: 1
     _trigger: 
     _triggerInvert: 0
     _triggerReset: 0
@@ -2563,7 +2563,7 @@ MonoBehaviour:
     chances: []
     _requirements: []
     _requirementsEx: []
-  - _chance: 800
+  - _chance: 40
     _type: defence_2night
     _period: 0
     _trigger: 

@@ -204,7 +204,7 @@ MonoBehaviour:
     chances: []
     _requirements: []
     _requirementsEx: []
-  - _chance: 60
+  - _chance: 40
     _type: Mutanights
     _period: 2
     _trigger: 
@@ -259,7 +259,7 @@ MonoBehaviour:
     _trigger: 
     _triggerInvert: 0
     _triggerReset: 0
-    _canSkip: 1
+    _canSkip: 0
     _canAttack: 1
     _once: 0
     _icon: {fileID: 21300000, guid: a854e79182d6149478e1aef23b5fd96e, type: 3}
@@ -277,7 +277,7 @@ MonoBehaviour:
     _trigger: 
     _triggerInvert: 0
     _triggerReset: 0
-    _canSkip: 1
+    _canSkip: 0
     _canAttack: 1
     _once: 0
     _icon: {fileID: 21300000, guid: 9b6b025c868032f46886cbdeb05186c3, type: 3}
@@ -309,7 +309,7 @@ MonoBehaviour:
     chances: []
     _requirements: []
     _requirementsEx: []
-  - _chance: 400
+  - _chance: 40
     _type: bigratshiftnights
     _period: 2
     _trigger: 
