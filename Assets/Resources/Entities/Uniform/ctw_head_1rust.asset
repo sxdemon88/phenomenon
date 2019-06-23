@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ctw_head_1rust
   m_EditorClassIdentifier: 
   Icon:
-    path: Entities/Uniform/Uniform models/head_1/ctw_head_1_icon
+    path: Entities/Uniform/Uniform models/head_1/ctw_head_1_rust
   m_Localization: uniform.ctw_head_1rust
   Takeable: 1
   Cost: 340
@@ -34,3 +34,7 @@ MonoBehaviour:
   rules: []
   rulesEx: 0
   Perks: 0
+  ClothesForMale:
+    path: 
+  ClothesForFemale:
+    path: 

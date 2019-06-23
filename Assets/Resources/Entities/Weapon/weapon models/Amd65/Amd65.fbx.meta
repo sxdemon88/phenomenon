@@ -1,0 +1,268 @@
+fileFormatVersion: 2
+guid: 0e4f8483305f5ac46a30d0e670ca0fad
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: WP_AR_AK47_grip02_HR
+    100004: WP_AR_AK47_guardGrip02_HR
+    100006: WP_AR_AK47_magazine02_HR
+    100008: WP_AR_AK47_mainBody_HR
+    100010: WP_AR_AK47_Muzzle02_HR
+    100012: WP_AR_AK47_stock02_HR
+    100014: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D"
+    100016: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_2"
+    100018: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_3"
+    100020: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_4"
+    100022: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_5"
+    100024: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_6"
+    400000: //RootNode
+    400002: WP_AR_AK47_grip02_HR
+    400004: WP_AR_AK47_guardGrip02_HR
+    400006: WP_AR_AK47_magazine02_HR
+    400008: WP_AR_AK47_mainBody_HR
+    400010: WP_AR_AK47_Muzzle02_HR
+    400012: WP_AR_AK47_stock02_HR
+    400014: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D"
+    400016: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_2"
+    400018: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_3"
+    400020: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_4"
+    400022: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_5"
+    400024: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_6"
+    2100000: AK47_magazine02_Mat
+    2100002: AK47_mainBody_Mat
+    2100004: AK47_guardGrip02_Mat
+    2100006: AK47_stock02_Mat
+    2100008: AK47_muzzle02_Mat
+    2100010: AK47_grip02_Mat
+    2300000: WP_AR_AK47_grip02_HR
+    2300002: WP_AR_AK47_guardGrip02_HR
+    2300004: WP_AR_AK47_magazine02_HR
+    2300006: WP_AR_AK47_mainBody_HR
+    2300008: WP_AR_AK47_Muzzle02_HR
+    2300010: WP_AR_AK47_stock02_HR
+    3300000: WP_AR_AK47_grip02_HR
+    3300002: WP_AR_AK47_guardGrip02_HR
+    3300004: WP_AR_AK47_magazine02_HR
+    3300006: WP_AR_AK47_mainBody_HR
+    3300008: WP_AR_AK47_Muzzle02_HR
+    3300010: WP_AR_AK47_stock02_HR
+    4300000: WP_AR_AK47_magazine02_HR
+    4300002: WP_AR_AK47_mainBody_HR
+    4300004: WP_AR_AK47_guardGrip02_HR
+    4300006: WP_AR_AK47_stock02_HR
+    4300008: WP_AR_AK47_Muzzle02_HR
+    4300010: WP_AR_AK47_grip02_HR
+    7400000: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_3|attachment03|Take
+      001|BaseLayer"
+    7400002: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_3|rail|Take
+      001|BaseLayer"
+    7400004: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_3|\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_2|Take
+      001|BaseLayer"
+    7400006: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_3|\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_3|Take
+      001|BaseLayer"
+    7400008: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_3|\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_4|Take
+      001|BaseLayer"
+    7400010: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_3|\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_5|Take
+      001|BaseLayer"
+    7400012: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_3|\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_6|Take
+      001|BaseLayer"
+    7400014: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_3|\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D|Take
+      001|BaseLayer"
+    7400016: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_4|attachment03|Take
+      001|BaseLayer"
+    7400018: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_4|rail|Take
+      001|BaseLayer"
+    7400020: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_4|\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_2|Take
+      001|BaseLayer"
+    7400022: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_4|\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_3|Take
+      001|BaseLayer"
+    7400024: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_4|\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_4|Take
+      001|BaseLayer"
+    7400026: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_4|\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_5|Take
+      001|BaseLayer"
+    7400028: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_4|\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_6|Take
+      001|BaseLayer"
+    7400030: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_4|\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D|Take
+      001|BaseLayer"
+    7400032: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_5|attachment03|Take
+      001|BaseLayer"
+    7400034: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_5|rail|Take
+      001|BaseLayer"
+    7400036: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_5|\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_2|Take
+      001|BaseLayer"
+    7400038: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_5|\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_3|Take
+      001|BaseLayer"
+    7400040: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_5|\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_4|Take
+      001|BaseLayer"
+    7400042: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_5|\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_5|Take
+      001|BaseLayer"
+    7400044: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_5|\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_6|Take
+      001|BaseLayer"
+    7400046: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_5|\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D|Take
+      001|BaseLayer"
+    7400048: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D|attachment03|Take
+      001|BaseLayer"
+    7400050: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D|rail|Take
+      001|BaseLayer"
+    7400052: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D|\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_2|Take
+      001|BaseLayer"
+    7400054: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D|\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_3|Take
+      001|BaseLayer"
+    7400056: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D|\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_4|Take
+      001|BaseLayer"
+    7400058: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D|\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_5|Take
+      001|BaseLayer"
+    7400060: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D|\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_6|Take
+      001|BaseLayer"
+    7400062: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D|\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D|Take
+      001|BaseLayer"
+    7400064: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_2|attachment03|Take
+      001|BaseLayer"
+    7400066: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_2|rail|Take
+      001|BaseLayer"
+    7400068: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_2|\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_2|Take
+      001|BaseLayer"
+    7400070: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_2|\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_3|Take
+      001|BaseLayer"
+    7400072: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_2|\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_4|Take
+      001|BaseLayer"
+    7400074: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_2|\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_5|Take
+      001|BaseLayer"
+    7400076: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_2|\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_6|Take
+      001|BaseLayer"
+    7400078: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_2|\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D|Take
+      001|BaseLayer"
+    7400080: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_6|attachment03|Take
+      001|BaseLayer"
+    7400082: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_6|rail|Take
+      001|BaseLayer"
+    7400084: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_6|\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_2|Take
+      001|BaseLayer"
+    7400086: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_6|\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_3|Take
+      001|BaseLayer"
+    7400088: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_6|\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_4|Take
+      001|BaseLayer"
+    7400090: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_6|\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_5|Take
+      001|BaseLayer"
+    7400092: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_6|\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_6|Take
+      001|BaseLayer"
+    7400094: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D_6|\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043A\u0438\u043D|Take
+      001|BaseLayer"
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AK47_grip02_Mat
+    second: {fileID: 2100000, guid: 1fa51f36b5f26314b8ab3dee540241a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AK47_guardGrip02_Mat
+    second: {fileID: 2100000, guid: 40346b1328a326941a842d2a5c6f7d0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AK47_magazine02_Mat
+    second: {fileID: 2100000, guid: 57d9ba4ffb941d44fbb8f8a1e306d079, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AK47_mainBody_Mat
+    second: {fileID: 2100000, guid: 9c33250eb21459442a84bfa8bba4b82a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AK47_muzzle02_Mat
+    second: {fileID: 2100000, guid: b71feae6621303748a0daeab0b7e3351, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AK47_stock02_Mat
+    second: {fileID: 2100000, guid: 1ab2cda2f22e7fb4296e338ca4ce10f0, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

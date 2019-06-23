@@ -1,0 +1,683 @@
+{ 
+   "states" : { 
+      "b053a210-ea7d-439d-8783-489e55db23b7" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101005", 
+            "y" : "-102180"
+         }, 
+         "child" : [ 
+            "56d1c14f-831e-4282-a14a-de6dc9593535", 
+            "b80aa2ab-6a2b-4c7f-9eef-6bd29ab85006", 
+            "161da581-3ea1-47f6-84a0-bd2b9360a551", 
+            "c1943a21-107f-48e4-89f6-3ea2b0a2c4c1"
+         ]
+      }, 
+      "56d1c14f-831e-4282-a14a-de6dc9593535" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100760", 
+            "y" : "-102044"
+         }, 
+         "child" : [ 
+            "80eea733-47bf-49a5-836e-0dfc63d4aaed", 
+            "d3bb01cc-f011-440a-bd41-aae48eed352b"
+         ]
+      }, 
+      "80eea733-47bf-49a5-836e-0dfc63d4aaed" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100657", 
+            "y" : "-101968"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Item", 
+               "count" : "5000", 
+               "proto" : "Money"
+            }
+         ], 
+         "inventoryObject" : "Spawn.Karavan.Trader"
+      }, 
+      "d3bb01cc-f011-440a-bd41-aae48eed352b" : { 
+         "class" : "HasRandomDiceNode", 
+         "desc" : { 
+            "x" : "-100382", 
+            "y" : "-101938"
+         }, 
+         "child" : [ 
+            "8b0669bb-b526-48e0-84b0-79cfaf5cf7a7", 
+            "a3fdbf46-ecc1-484d-8086-239a9c37e2db"
+         ], 
+         "dice" : "50"
+      }, 
+      "8b0669bb-b526-48e0-84b0-79cfaf5cf7a7" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100491", 
+            "y" : "-101837"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Item", 
+               "count" : "10000", 
+               "proto" : "Money"
+            }
+         ], 
+         "inventoryObject" : "Spawn.Karavan.Trader", 
+         "random" : "true"
+      }, 
+      "a3fdbf46-ecc1-484d-8086-239a9c37e2db" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100293", 
+            "y" : "-101836"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Item", 
+               "count" : "5000", 
+               "proto" : "Money"
+            }
+         ], 
+         "inventoryObject" : "Spawn.Karavan.Trader", 
+         "random" : "true"
+      }, 
+      "b80aa2ab-6a2b-4c7f-9eef-6bd29ab85006" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-100602", 
+            "y" : "-102091"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/ph_recipe"
+      }, 
+      "161da581-3ea1-47f6-84a0-bd2b9360a551" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101909", 
+            "y" : "-101607"
+         }, 
+         "child" : [ 
+            "542f071b-2229-484e-9d8c-2dd79992de52", 
+            "f857dcdd-afad-4242-bcc9-e6675147c685", 
+            "9da55d84-463a-472a-bb68-157bb48bffc2", 
+            "278c2666-472b-4a14-81c4-445f86a23c3c", 
+            "231576e0-946a-42fd-8141-71ea4c0a4f10"
+         ]
+      }, 
+      "542f071b-2229-484e-9d8c-2dd79992de52" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-102990", 
+            "y" : "-101203"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "TacticShield"
+            }
+         ], 
+         "inventoryObject" : "Spawn.Karavan.Trader"
+      }, 
+      "f857dcdd-afad-4242-bcc9-e6675147c685" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-102626", 
+            "y" : "-102129"
+         }, 
+         "child" : [ 
+            "efe3d8f6-7e7a-466a-880b-781778f984ae"
+         ]
+      }, 
+      "efe3d8f6-7e7a-466a-880b-781778f984ae" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102816", 
+            "y" : "-101997"
+         }, 
+         "child" : [ 
+            "674f5aa0-0040-415e-b2dc-e2a0fa91ae92", 
+            "4fb689e9-fb7e-49ec-aa25-ab4ee1b2a506", 
+            "0f9e9c33-6a21-4dfd-aa3d-7e51620d28d5", 
+            "2d5bbba9-fd2c-4dde-8fd0-75f3eb10e413", 
+            "07bace1e-04fb-42fe-a276-c5168952b159"
+         ]
+      }, 
+      "674f5aa0-0040-415e-b2dc-e2a0fa91ae92" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-103220", 
+            "y" : "-101847"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "HeadPanama"
+            }
+         ], 
+         "inventoryObject" : "Spawn.Karavan.Trader"
+      }, 
+      "4fb689e9-fb7e-49ec-aa25-ab4ee1b2a506" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-103040", 
+            "y" : "-101847"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ctw_head_2"
+            }
+         ], 
+         "inventoryObject" : "Spawn.Karavan.Trader"
+      }, 
+      "0f9e9c33-6a21-4dfd-aa3d-7e51620d28d5" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-102866", 
+            "y" : "-101847"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ctw_head_3"
+            }
+         ], 
+         "inventoryObject" : "Spawn.Karavan.Trader"
+      }, 
+      "2d5bbba9-fd2c-4dde-8fd0-75f3eb10e413" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-102686", 
+            "y" : "-101845"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ctw_head_1"
+            }
+         ], 
+         "inventoryObject" : "Spawn.Karavan.Trader"
+      }, 
+      "07bace1e-04fb-42fe-a276-c5168952b159" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-102508", 
+            "y" : "-101845"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "m42"
+            }
+         ], 
+         "inventoryObject" : "Spawn.Karavan.Trader"
+      }, 
+      "9da55d84-463a-472a-bb68-157bb48bffc2" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-102991", 
+            "y" : "-101139"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ctw_armor2"
+            }
+         ], 
+         "inventoryObject" : "Spawn.Karavan.Trader"
+      }, 
+      "278c2666-472b-4a14-81c4-445f86a23c3c" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-102820", 
+            "y" : "-101078"
+         }, 
+         "child" : [ 
+            "6fc1864f-5325-41ee-b6f5-761ae0784eca", 
+            "b56dab20-4de3-4d4e-bd08-848481029bdd", 
+            "edcab459-eec6-4dbe-a7ee-6d6a8b6a997e"
+         ]
+      }, 
+      "6fc1864f-5325-41ee-b6f5-761ae0784eca" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-103047", 
+            "y" : "-101005"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "armor1black"
+            }
+         ], 
+         "inventoryObject" : "Spawn.Karavan.Trader"
+      }, 
+      "b56dab20-4de3-4d4e-bd08-848481029bdd" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-102866", 
+            "y" : "-101001"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "armor1"
+            }
+         ], 
+         "inventoryObject" : "Spawn.Karavan.Trader"
+      }, 
+      "edcab459-eec6-4dbe-a7ee-6d6a8b6a997e" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-102689", 
+            "y" : "-100999"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "armor1green"
+            }
+         ], 
+         "inventoryObject" : "Spawn.Karavan.Trader"
+      }, 
+      "231576e0-946a-42fd-8141-71ea4c0a4f10" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-101901", 
+            "y" : "-101264"
+         }, 
+         "child" : [ 
+            "c6a2ffc9-6a0d-43f6-ab6f-3e53dae1bf49", 
+            "cc44dc2c-0de7-4208-9771-f2a5bd6e74e6", 
+            "481385eb-8b71-4422-8f43-8ee170c52035"
+         ]
+      }, 
+      "c6a2ffc9-6a0d-43f6-ab6f-3e53dae1bf49" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102035", 
+            "y" : "-101170"
+         }, 
+         "child" : [ 
+            "c895b127-4192-4b79-9c73-34e71522db58", 
+            "884043e1-0c09-4681-9adb-3ebd11a292c9", 
+            "426f833c-d3d7-4438-ab07-bc84da42ef70", 
+            "08b51b6a-f7af-4c00-b7c8-fa6a86afaba4"
+         ]
+      }, 
+      "c895b127-4192-4b79-9c73-34e71522db58" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-102500", 
+            "y" : "-100806"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ctw_light_1"
+            }
+         ], 
+         "inventoryObject" : "Spawn.Karavan.Trader"
+      }, 
+      "884043e1-0c09-4681-9adb-3ebd11a292c9" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-102198", 
+            "y" : "-100808"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ctw_light_3"
+            }
+         ], 
+         "inventoryObject" : "Spawn.Karavan.Trader"
+      }, 
+      "426f833c-d3d7-4438-ab07-bc84da42ef70" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101882", 
+            "y" : "-100808"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ctw_light_5"
+            }
+         ], 
+         "inventoryObject" : "Spawn.Karavan.Trader"
+      }, 
+      "08b51b6a-f7af-4c00-b7c8-fa6a86afaba4" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-101328", 
+            "y" : "-100920"
+         }, 
+         "child" : [ 
+            "6ae5f33c-4347-4ba8-8166-8bc06ae3c8ea", 
+            "96a3300f-04ef-44a4-8fd1-7f29079224d7", 
+            "e62c5a10-9c0e-4edf-a21e-a50ff039e8b9", 
+            "b0bc686c-f6b9-4c5d-947d-995a9f5f4fbb"
+         ]
+      }, 
+      "6ae5f33c-4347-4ba8-8166-8bc06ae3c8ea" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101488", 
+            "y" : "-100815"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ctw_light_2"
+            }
+         ], 
+         "inventoryObject" : "Spawn.Karavan.Trader"
+      }, 
+      "96a3300f-04ef-44a4-8fd1-7f29079224d7" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101334", 
+            "y" : "-100814"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ctw_light_2amer"
+            }
+         ], 
+         "inventoryObject" : "Spawn.Karavan.Trader"
+      }, 
+      "e62c5a10-9c0e-4edf-a21e-a50ff039e8b9" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101181", 
+            "y" : "-100815"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ctw_light_2digital"
+            }
+         ], 
+         "inventoryObject" : "Spawn.Karavan.Trader"
+      }, 
+      "b0bc686c-f6b9-4c5d-947d-995a9f5f4fbb" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101028", 
+            "y" : "-100813"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ctw_light_2snake"
+            }
+         ], 
+         "inventoryObject" : "Spawn.Karavan.Trader"
+      }, 
+      "cc44dc2c-0de7-4208-9771-f2a5bd6e74e6" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101881", 
+            "y" : "-101169"
+         }, 
+         "child" : [ 
+            "186268b4-497d-4682-af71-e36fb29db4f2", 
+            "d54c5f4b-7022-4072-8b35-fa22f352bf1f", 
+            "08b51b6a-f7af-4c00-b7c8-fa6a86afaba4", 
+            "32da6bec-98fa-4439-9552-3bed49e861ce"
+         ]
+      }, 
+      "186268b4-497d-4682-af71-e36fb29db4f2" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-102042", 
+            "y" : "-100808"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ctw_light_4"
+            }
+         ], 
+         "inventoryObject" : "Spawn.Karavan.Trader"
+      }, 
+      "d54c5f4b-7022-4072-8b35-fa22f352bf1f" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-102345", 
+            "y" : "-100807"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ctw_light_6"
+            }
+         ], 
+         "inventoryObject" : "Spawn.Karavan.Trader"
+      }, 
+      "32da6bec-98fa-4439-9552-3bed49e861ce" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101719", 
+            "y" : "-100809"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ctw_light_7"
+            }
+         ], 
+         "inventoryObject" : "Spawn.Karavan.Trader"
+      }, 
+      "481385eb-8b71-4422-8f43-8ee170c52035" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101733", 
+            "y" : "-101173"
+         }, 
+         "child" : [ 
+            "884043e1-0c09-4681-9adb-3ebd11a292c9", 
+            "186268b4-497d-4682-af71-e36fb29db4f2", 
+            "426f833c-d3d7-4438-ab07-bc84da42ef70", 
+            "c895b127-4192-4b79-9c73-34e71522db58", 
+            "d54c5f4b-7022-4072-8b35-fa22f352bf1f", 
+            "08b51b6a-f7af-4c00-b7c8-fa6a86afaba4", 
+            "32da6bec-98fa-4439-9552-3bed49e861ce"
+         ]
+      }, 
+      "c1943a21-107f-48e4-89f6-3ea2b0a2c4c1" : { 
+         "class" : "HasRandomDiceNode", 
+         "desc" : { 
+            "x" : "-100694", 
+            "y" : "-101679"
+         }, 
+         "child" : [ 
+            "63bd720a-533e-480a-8ca8-4cc92bc30452", 
+            "eb5d4b33-b1a7-46a6-a800-4ff3a3a473e2"
+         ], 
+         "dice" : "50"
+      }, 
+      "63bd720a-533e-480a-8ca8-4cc92bc30452" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100765", 
+            "y" : "-101540"
+         }, 
+         "child" : [ 
+            "0def6e4e-c0d9-43bb-9f23-fef535b0bbc5", 
+            "9e45bec0-176f-4d8f-8449-8d1ea32e4208"
+         ]
+      }, 
+      "0def6e4e-c0d9-43bb-9f23-fef535b0bbc5" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-100798", 
+            "y" : "-101423"
+         }, 
+         "child" : [ 
+            "6e1baa38-66ca-47df-a277-4e520cabcadf", 
+            "36660754-a425-4a4c-9dad-4611561e9810"
+         ]
+      }, 
+      "6e1baa38-66ca-47df-a277-4e520cabcadf" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100930", 
+            "y" : "-101346"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Gasmass"
+            }
+         ], 
+         "inventoryObject" : "Spawn.Karavan.Trader"
+      }, 
+      "36660754-a425-4a4c-9dad-4611561e9810" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100762", 
+            "y" : "-101342"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Gasmass1"
+            }
+         ], 
+         "inventoryObject" : "Spawn.Karavan.Trader"
+      }, 
+      "9e45bec0-176f-4d8f-8449-8d1ea32e4208" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-100500", 
+            "y" : "-101419"
+         }, 
+         "child" : [ 
+            "1df1e7e4-4982-471a-b7b6-1465c3487e18", 
+            "eeef9c7a-f6c2-4a93-93d1-641dec702af4"
+         ]
+      }, 
+      "1df1e7e4-4982-471a-b7b6-1465c3487e18" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100597", 
+            "y" : "-101342"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Gasmass2"
+            }
+         ], 
+         "inventoryObject" : "Spawn.Karavan.Trader"
+      }, 
+      "eeef9c7a-f6c2-4a93-93d1-641dec702af4" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100437", 
+            "y" : "-101343"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Gasmass3"
+            }
+         ], 
+         "inventoryObject" : "Spawn.Karavan.Trader"
+      }, 
+      "eb5d4b33-b1a7-46a6-a800-4ff3a3a473e2" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100324", 
+            "y" : "-101553"
+         }, 
+         "child" : [ 
+         ]
+      }
+   }, 
+   "entry" : "b053a210-ea7d-439d-8783-489e55db23b7"
+}

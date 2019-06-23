@@ -1,0 +1,93 @@
+{ 
+   "states" : { 
+      "c4677c96-9247-46c1-84d9-ba1187e6a1f4" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101473", 
+            "y" : "-102024"
+         }, 
+         "child" : [ 
+            "22fdf3ed-f27c-4445-b5df-0c9e959023c9", 
+            "689219f4-e4a2-4d24-baa2-f1248c754252"
+         ]
+      }, 
+      "22fdf3ed-f27c-4445-b5df-0c9e959023c9" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-101715", 
+            "y" : "-101828"
+         }, 
+         "child" : [ 
+            "3961a60c-9643-44d3-8458-6cfb07708aa7", 
+            "2ea0536f-60e0-4d09-9461-8189a940287f"
+         ], 
+         "note_key" : "PH_TRADE_ON_1"
+      }, 
+      "3961a60c-9643-44d3-8458-6cfb07708aa7" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101465", 
+            "y" : "-101361"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "2ea0536f-60e0-4d09-9461-8189a940287f" : { 
+         "class" : "HasRandomDiceNode", 
+         "desc" : { 
+            "x" : "-101770", 
+            "y" : "-101640"
+         }, 
+         "child" : [ 
+            "1274ab42-5adb-4a96-a5fb-9263f7cdb2c4", 
+            "3961a60c-9643-44d3-8458-6cfb07708aa7"
+         ], 
+         "dice" : "10"
+      }, 
+      "1274ab42-5adb-4a96-a5fb-9263f7cdb2c4" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-101794", 
+            "y" : "-101352"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "PH_TRADE_ON_1"
+      }, 
+      "689219f4-e4a2-4d24-baa2-f1248c754252" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-101374", 
+            "y" : "-101830"
+         }, 
+         "child" : [ 
+            "3961a60c-9643-44d3-8458-6cfb07708aa7", 
+            "0068ec63-78da-4f12-b14c-5992b76612bb"
+         ], 
+         "note_key" : "PH_TRADE_ON_2"
+      }, 
+      "0068ec63-78da-4f12-b14c-5992b76612bb" : { 
+         "class" : "HasRandomDiceNode", 
+         "desc" : { 
+            "x" : "-101250", 
+            "y" : "-101635"
+         }, 
+         "child" : [ 
+            "1fccc754-2e37-4249-9279-fcdaf2057f74", 
+            "3961a60c-9643-44d3-8458-6cfb07708aa7"
+         ], 
+         "dice" : "10"
+      }, 
+      "1fccc754-2e37-4249-9279-fcdaf2057f74" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-101254", 
+            "y" : "-101352"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "PH_TRADE_ON_2"
+      }
+   }, 
+   "entry" : "c4677c96-9247-46c1-84d9-ba1187e6a1f4"
+}

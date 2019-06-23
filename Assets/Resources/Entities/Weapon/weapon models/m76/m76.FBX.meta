@@ -1,0 +1,183 @@
+fileFormatVersion: 2
+guid: 29fbaf6417e4c8c4e81df783958ed1e4
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: mesh0
+    100004: mesh1
+    100006: mesh2
+    100008: mesh3
+    100010: mesh4
+    100012: mesh5
+    100014: mesh6
+    100016: mesh7
+    400000: //RootNode
+    400002: mesh0
+    400004: mesh1
+    400006: mesh2
+    400008: mesh3
+    400010: mesh4
+    400012: mesh5
+    400014: mesh6
+    400016: mesh7
+    2100000: Receiver
+    2100002: Upper
+    2100004: Scope
+    2100006: Rail
+    2100008: rifle
+    2100010: mag-20
+    2100012: barrel-slr
+    2100014: wood1
+    2300000: mesh0
+    2300002: mesh1
+    2300004: mesh2
+    2300006: mesh3
+    2300008: mesh4
+    2300010: mesh5
+    2300012: mesh6
+    2300014: mesh7
+    3300000: mesh0
+    3300002: mesh1
+    3300004: mesh2
+    3300006: mesh3
+    3300008: mesh4
+    3300010: mesh5
+    3300012: mesh6
+    3300014: mesh7
+    4300000: mesh0
+    4300002: mesh1
+    4300004: mesh2
+    4300006: mesh3
+    4300008: mesh4
+    4300010: mesh5
+    4300012: mesh6
+    4300014: mesh7
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rail
+    second: {fileID: 2100000, guid: c6b345d90e129604e83deb08fc369a29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Receiver
+    second: {fileID: 2100000, guid: d467422e81331bd41939dab725d94da7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Scope
+    second: {fileID: 2100000, guid: ba26a8a50f9520b43a1d35397d69fa6b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Upper
+    second: {fileID: 2100000, guid: 4f7126069e3346b4186f2611fba8c93d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: barrel-slr
+    second: {fileID: 2100000, guid: e61d8c0ca18092a4cbe935ed43576c34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mag-20
+    second: {fileID: 2100000, guid: 8dee6b7802b64d0459aa8a989f965312, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rifle
+    second: {fileID: 2100000, guid: e5e3745cf64c2a7478ba32a67403b85c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood1
+    second: {fileID: 2100000, guid: ada174d57c2ce4944affcde0cdfcaee6, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1286 @@
+{ 
+   "states" : { 
+      "89e73491-2f58-4f79-a52e-56f7286b2ecb" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100879", 
+            "y" : "-100867"
+         }, 
+         "child" : [ 
+            "e9c03229-3ae1-4424-9814-92ab3c2ef9b6", 
+            "d3bbf53d-78fa-4811-91c9-309a17253a30"
+         ]
+      }, 
+      "e9c03229-3ae1-4424-9814-92ab3c2ef9b6" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-101781", 
+            "y" : "-100447"
+         }, 
+         "child" : [ 
+            "b0665fd8-9213-48c3-8af9-a9305cfd6dc0", 
+            "78e59e72-18d9-4cd1-9a9d-a0ed020920eb", 
+            "3674622d-2e99-4153-882d-b7564e5fb5a8"
+         ]
+      }, 
+      "b0665fd8-9213-48c3-8af9-a9305cfd6dc0" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102000", 
+            "y" : "-100149", 
+            "comment" : "4"
+         }, 
+         "child" : [ 
+            "501ce502-ebeb-44b0-9af1-6deedc4a4181"
+         ]
+      }, 
+      "501ce502-ebeb-44b0-9af1-6deedc4a4181" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-102282", 
+            "y" : "-100111"
+         }, 
+         "child" : [ 
+            "ae91657b-d0e4-4947-9e8e-895e0952b61c", 
+            "6e8559aa-6f79-4b51-a389-df0465d4e46e"
+         ], 
+         "value" : "20", 
+         "modifier" : "Level"
+      }, 
+      "ae91657b-d0e4-4947-9e8e-895e0952b61c" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-102537", 
+            "y" : "-99858"
+         }, 
+         "child" : [ 
+            "f79dbaa7-58f9-4998-bdb7-d891bdad0d9b", 
+            "6e8559aa-6f79-4b51-a389-df0465d4e46e"
+         ]
+      }, 
+      "f79dbaa7-58f9-4998-bdb7-d891bdad0d9b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102701", 
+            "y" : "-99714"
+         }, 
+         "child" : [ 
+            "3536181b-efed-4461-bcac-dc5d6a86c646", 
+            "665482af-5518-4c1f-a336-4757be63d96a", 
+            "8a9785d4-328f-4dd5-965c-02f547a0a47c", 
+            "4eff36e7-9bde-44ac-b7bd-1dbb009015c1"
+         ]
+      }, 
+      "3536181b-efed-4461-bcac-dc5d6a86c646" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102938", 
+            "y" : "-99559"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.1", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Mole", 
+            "character" : "mole_10", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "665482af-5518-4c1f-a336-4757be63d96a" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102815", 
+            "y" : "-99560"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.2", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Mole", 
+            "character" : "mole_10", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "8a9785d4-328f-4dd5-965c-02f547a0a47c" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102694", 
+            "y" : "-99560"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.3", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Mole", 
+            "character" : "mole_10", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "4eff36e7-9bde-44ac-b7bd-1dbb009015c1" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102571", 
+            "y" : "-99561"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.4", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Mole", 
+            "character" : "mole_10", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "6e8559aa-6f79-4b51-a389-df0465d4e46e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102049", 
+            "y" : "-99574"
+         }, 
+         "child" : [ 
+            "62d229d3-67d3-44f3-a23e-af0c863f302b", 
+            "99605374-9b7a-4c0c-af6d-c75cd39175b4", 
+            "dd46e45e-8930-41cd-955d-63742ebf0b4d", 
+            "c7bed98f-3237-4228-b29e-1356d351bccf"
+         ]
+      }, 
+      "62d229d3-67d3-44f3-a23e-af0c863f302b" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102263", 
+            "y" : "-99487"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.1", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Mole", 
+            "character" : "Mole", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "99605374-9b7a-4c0c-af6d-c75cd39175b4" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102140", 
+            "y" : "-99485"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.2", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Mole", 
+            "character" : "Mole", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "dd46e45e-8930-41cd-955d-63742ebf0b4d" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102012", 
+            "y" : "-99481"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.3", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Mole", 
+            "character" : "Mole", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "c7bed98f-3237-4228-b29e-1356d351bccf" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101884", 
+            "y" : "-99482"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.4", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Mole", 
+            "character" : "Mole", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "78e59e72-18d9-4cd1-9a9d-a0ed020920eb" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101562", 
+            "y" : "-100196", 
+            "comment" : "6"
+         }, 
+         "child" : [ 
+            "b0665fd8-9213-48c3-8af9-a9305cfd6dc0", 
+            "86b57408-2445-4334-a72d-e54c46627742", 
+            "b0498415-54c9-4766-b549-12c523a7f31b"
+         ]
+      }, 
+      "86b57408-2445-4334-a72d-e54c46627742" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101674", 
+            "y" : "-99909"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.5", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Mole", 
+            "character" : "Mole", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "b0498415-54c9-4766-b549-12c523a7f31b" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101547", 
+            "y" : "-99908"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.6", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Mole", 
+            "character" : "Mole", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "3674622d-2e99-4153-882d-b7564e5fb5a8" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101266", 
+            "y" : "-100346", 
+            "comment" : "8"
+         }, 
+         "child" : [ 
+            "78e59e72-18d9-4cd1-9a9d-a0ed020920eb", 
+            "1b78010a-4197-46e0-86aa-01bab0dfb239", 
+            "bddbe503-d95c-483e-8adb-74b0d87812a3"
+         ]
+      }, 
+      "1b78010a-4197-46e0-86aa-01bab0dfb239" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101361", 
+            "y" : "-99903"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.7", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Mole", 
+            "character" : "Mole", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "bddbe503-d95c-483e-8adb-74b0d87812a3" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101237", 
+            "y" : "-99902"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.8", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Mole", 
+            "character" : "Mole", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "d3bbf53d-78fa-4811-91c9-309a17253a30" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100842", 
+            "y" : "-100440"
+         }, 
+         "child" : [ 
+            "46fdea54-1728-44a5-9ac5-519b758659b9"
+         ]
+      }, 
+      "46fdea54-1728-44a5-9ac5-519b758659b9" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-100397", 
+            "y" : "-100308"
+         }, 
+         "child" : [ 
+            "6dd2792f-022c-4a62-a06f-a518a948792d", 
+            "5d4fa8ba-4447-4688-b04a-d6241f9e83fb"
+         ], 
+         "value" : "25", 
+         "modifier" : "Level"
+      }, 
+      "6dd2792f-022c-4a62-a06f-a518a948792d" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100560", 
+            "y" : "-100155"
+         }, 
+         "child" : [ 
+            "126f914f-116f-4618-aeab-d3f1d3b0c4e5", 
+            "90c73159-ae97-44f7-ba1b-5ecbf4888ee0", 
+            "21bc2fb7-670d-4294-b447-54f7792ce2d6", 
+            "23aaec56-2682-47d8-8e39-6b7da6fa8c2b", 
+            "0acb222e-f3cb-4378-9885-d2f918606be7"
+         ]
+      }, 
+      "126f914f-116f-4618-aeab-d3f1d3b0c4e5" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-100352", 
+            "y" : "-99986"
+         }, 
+         "child" : [ 
+            "e86ccca0-3d3b-461d-af5f-a259decf2598"
+         ], 
+         "objectName" : "Spawn.Enemy.8", 
+         "pos" : [ 
+            "0", 
+            "0", 
+            "-6"
+         ]
+      }, 
+      "e86ccca0-3d3b-461d-af5f-a259decf2598" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100351", 
+            "y" : "-99876"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.8", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Mole", 
+            "character" : "mole_10", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "90c73159-ae97-44f7-ba1b-5ecbf4888ee0" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-100938", 
+            "y" : "-99993"
+         }, 
+         "child" : [ 
+            "635a5cb2-15bf-400a-a751-95720c40b9ac"
+         ], 
+         "objectName" : "Spawn.Enemy.8", 
+         "pos" : [ 
+            "0", 
+            "0", 
+            "4"
+         ]
+      }, 
+      "635a5cb2-15bf-400a-a751-95720c40b9ac" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100937", 
+            "y" : "-99883"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.8", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Mole", 
+            "character" : "mole_10", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "21bc2fb7-670d-4294-b447-54f7792ce2d6" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-100802", 
+            "y" : "-99988"
+         }, 
+         "child" : [ 
+            "be9a9101-f04d-4cfd-9912-f45822d4c933"
+         ], 
+         "objectName" : "Spawn.Enemy.8", 
+         "pos" : [ 
+            "11", 
+            "0", 
+            "12"
+         ]
+      }, 
+      "be9a9101-f04d-4cfd-9912-f45822d4c933" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100800", 
+            "y" : "-99884"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.8", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "MoleKing", 
+            "character" : "moleking_20", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "23aaec56-2682-47d8-8e39-6b7da6fa8c2b" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-100652", 
+            "y" : "-99988"
+         }, 
+         "child" : [ 
+            "b5fdb617-9a26-4450-8819-cda53e3f6a4d"
+         ], 
+         "objectName" : "Spawn.Enemy.8", 
+         "pos" : [ 
+            "4", 
+            "0", 
+            "0"
+         ]
+      }, 
+      "b5fdb617-9a26-4450-8819-cda53e3f6a4d" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100646", 
+            "y" : "-99880"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.8", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Mole", 
+            "character" : "mole_10", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "0acb222e-f3cb-4378-9885-d2f918606be7" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-100506", 
+            "y" : "-99988"
+         }, 
+         "child" : [ 
+            "4bf35302-8e7c-4236-a2f6-7a2e37da57b3"
+         ], 
+         "objectName" : "Spawn.Enemy.8", 
+         "pos" : [ 
+            "-6", 
+            "0", 
+            "0"
+         ]
+      }, 
+      "4bf35302-8e7c-4236-a2f6-7a2e37da57b3" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100505", 
+            "y" : "-99878"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.8", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Mole", 
+            "character" : "mole_10", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "5d4fa8ba-4447-4688-b04a-d6241f9e83fb" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-100064", 
+            "y" : "-100194"
+         }, 
+         "child" : [ 
+            "d2ec1124-ad90-4f49-a2f8-e0ac0c4e875e", 
+            "67b7b764-d0bc-48d6-808d-69ae5cacfb17"
+         ], 
+         "value" : "20", 
+         "modifier" : "Level"
+      }, 
+      "d2ec1124-ad90-4f49-a2f8-e0ac0c4e875e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100175", 
+            "y" : "-99889"
+         }, 
+         "child" : [ 
+            "ccce991e-c821-4a41-8dec-7955a15b349e", 
+            "3c5ac4e9-a442-4b4c-ab27-90ff84ce65a5", 
+            "a327f8fa-d03d-45e4-b842-14fcf6c29add"
+         ]
+      }, 
+      "ccce991e-c821-4a41-8dec-7955a15b349e" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-100345", 
+            "y" : "-99687"
+         }, 
+         "child" : [ 
+            "408f27fe-f6da-43a3-abc7-0d412063394f"
+         ], 
+         "objectName" : "Spawn.Enemy.8", 
+         "pos" : [ 
+            "11", 
+            "0", 
+            "12"
+         ]
+      }, 
+      "408f27fe-f6da-43a3-abc7-0d412063394f" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-100374", 
+            "y" : "-99588"
+         }, 
+         "child" : [ 
+            "3e0f7f8a-47f8-49f5-82f0-9c42fbf796a4", 
+            "64c324c3-fa71-43f7-a491-f45030cfb8a3"
+         ]
+      }, 
+      "3e0f7f8a-47f8-49f5-82f0-9c42fbf796a4" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100453", 
+            "y" : "-99519"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.8", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "MoleKing", 
+            "character" : "MoleKing", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "64c324c3-fa71-43f7-a491-f45030cfb8a3" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100327", 
+            "y" : "-99518"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.8", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "MoleKing", 
+            "character" : "moleking_20", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "3c5ac4e9-a442-4b4c-ab27-90ff84ce65a5" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-100186", 
+            "y" : "-99685"
+         }, 
+         "child" : [ 
+            "31c969db-760a-41bb-85ea-e089060b443f"
+         ], 
+         "objectName" : "Spawn.Enemy.8", 
+         "pos" : [ 
+            "3", 
+            "0", 
+            "0"
+         ]
+      }, 
+      "31c969db-760a-41bb-85ea-e089060b443f" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100182", 
+            "y" : "-99574"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.8", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Mole", 
+            "character" : "mole_10", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "a327f8fa-d03d-45e4-b842-14fcf6c29add" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-100041", 
+            "y" : "-99680"
+         }, 
+         "child" : [ 
+            "05bf9772-6e5e-49e0-9c94-1d23fabb840c"
+         ], 
+         "objectName" : "Spawn.Enemy.8", 
+         "pos" : [ 
+            "-6", 
+            "0", 
+            "0"
+         ]
+      }, 
+      "05bf9772-6e5e-49e0-9c94-1d23fabb840c" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100038", 
+            "y" : "-99580"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.8", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Mole", 
+            "character" : "mole_10", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "67b7b764-d0bc-48d6-808d-69ae5cacfb17" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-99799", 
+            "y" : "-100035"
+         }, 
+         "child" : [ 
+            "0950391b-9a67-4ba8-87a9-e9b3bb9350fd", 
+            "5c949685-7765-4ba5-9ede-ed6a8215de8b"
+         ], 
+         "value" : "15", 
+         "modifier" : "Level"
+      }, 
+      "0950391b-9a67-4ba8-87a9-e9b3bb9350fd" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99777", 
+            "y" : "-99846"
+         }, 
+         "child" : [ 
+            "dd9f5ce4-f259-4b9a-afe9-666b218c4cd8", 
+            "c43a98de-6bfa-4adf-ab16-cf6b09183291", 
+            "a45630f1-9558-45bd-a23c-2e5c3ed946d4"
+         ]
+      }, 
+      "dd9f5ce4-f259-4b9a-afe9-666b218c4cd8" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-99833", 
+            "y" : "-99688"
+         }, 
+         "child" : [ 
+            "ea50942b-dce7-458c-8536-dc595c5d12f1"
+         ], 
+         "objectName" : "Spawn.Enemy.8", 
+         "pos" : [ 
+            "11", 
+            "0", 
+            "12"
+         ]
+      }, 
+      "ea50942b-dce7-458c-8536-dc595c5d12f1" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-99828", 
+            "y" : "-99578"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.8", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "MoleKing", 
+            "character" : "MoleKing", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "c43a98de-6bfa-4adf-ab16-cf6b09183291" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-99674", 
+            "y" : "-99686"
+         }, 
+         "child" : [ 
+            "05e93299-9906-4a2f-a586-04b308fa093c"
+         ], 
+         "objectName" : "Spawn.Enemy.8", 
+         "pos" : [ 
+            "3", 
+            "0", 
+            "0"
+         ]
+      }, 
+      "05e93299-9906-4a2f-a586-04b308fa093c" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-99670", 
+            "y" : "-99575"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.8", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Mole", 
+            "character" : "mole_10", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "a45630f1-9558-45bd-a23c-2e5c3ed946d4" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-99529", 
+            "y" : "-99681"
+         }, 
+         "child" : [ 
+            "e1d048a4-1ee5-4c92-b434-48a282a991c0"
+         ], 
+         "objectName" : "Spawn.Enemy.8", 
+         "pos" : [ 
+            "-6", 
+            "0", 
+            "0"
+         ]
+      }, 
+      "e1d048a4-1ee5-4c92-b434-48a282a991c0" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-99526", 
+            "y" : "-99581"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.8", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Mole", 
+            "character" : "mole_10", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "5c949685-7765-4ba5-9ede-ed6a8215de8b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99398.64", 
+            "y" : "-99839.02"
+         }, 
+         "child" : [ 
+         ]
+      }
+   }, 
+   "entry" : "89e73491-2f58-4f79-a52e-56f7286b2ecb"
+}

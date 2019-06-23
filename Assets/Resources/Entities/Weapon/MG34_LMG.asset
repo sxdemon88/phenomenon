@@ -25,11 +25,13 @@ MonoBehaviour:
     path: entities/ammo/7_62mm_jhp
   AmmoCapacity: 75
   BothHands: 1
+  Stack: 0
   DamageMin: 5
   DamageMax: 11
   DamageRadius: 1
   Fatality: 15
   Perks: 0
+  PerksEx: 0
   DamageType: 0
   Single:
     AP: 7
@@ -71,3 +73,10 @@ MonoBehaviour:
   NoAmmoSounds:
   - path: Sounds/SFX/Weapons/m249/m249_empty
   PreAttackSounds: []
+  MissSounds:
+  - path: Sounds/SFX/Weapons/Miss/shoot_missing1
+  - path: Sounds/SFX/Weapons/Miss/shoot_missing2
+  - path: Sounds/SFX/Weapons/Miss/shoot_missing3
+  - path: Sounds/SFX/Weapons/Miss/shoot_missing4
+  - path: Sounds/SFX/Weapons/Miss/shoot_missing5
+  - path: Sounds/SFX/Weapons/Miss/shoot_missing6

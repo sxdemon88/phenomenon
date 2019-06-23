@@ -1,0 +1,172 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8219484040311442217
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8219484040311740169}
+  - component: {fileID: 5668702504813111430}
+  - component: {fileID: 3117846902912043390}
+  - component: {fileID: 5523324994658038919}
+  m_Layer: 0
+  m_Name: citroe_ type45
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8219484040311740169
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8219484040311442217}
+  m_LocalRotation: {x: 0, y: 0.9063079, z: -0, w: -0.42261827}
+  m_LocalPosition: {x: 48.78, y: 0, z: 116}
+  m_LocalScale: {x: 1.7055156, y: 1.7055156, z: 1.7055156}
+  m_Children:
+  - {fileID: 1708466852258276467}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 230, z: 0}
+--- !u!114 &5668702504813111430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8219484040311442217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 498862261, guid: ba80931603c2dbc40ab113c533efa2ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mEntityData: '{"class":"Chest", "proto":"citroe_ type45", "inventory":[  ], "open":"false",
+    "touch":"false", "lockLevel":"0", "lockType":"Mechanical", "pin":"0"}'
+--- !u!65 &3117846902912043390
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8219484040311442217}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.8375974, y: 5.0140877, z: 9.289556}
+  m_Center: {x: 1.1405137, y: 0.9987221, z: 0.15083066}
+--- !u!114 &5523324994658038919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8219484040311442217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -298293484, guid: ba80931603c2dbc40ab113c533efa2ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cellOnEnable: 0
+  unCellOnDisable: 0
+--- !u!1001 &5966993813908737897
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8219484040311740169}
+    m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 1b6941b617996cc429d373b42e5d0932,
+        type: 3}
+      propertyPath: m_Name
+      value: citroen
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 1b6941b617996cc429d373b42e5d0932,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1b6941b617996cc429d373b42e5d0932,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1b6941b617996cc429d373b42e5d0932,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.19
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1b6941b617996cc429d373b42e5d0932,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.66
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1b6941b617996cc429d373b42e5d0932,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1b6941b617996cc429d373b42e5d0932,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9963453
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1b6941b617996cc429d373b42e5d0932,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1b6941b617996cc429d373b42e5d0932,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.085417
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1b6941b617996cc429d373b42e5d0932,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1b6941b617996cc429d373b42e5d0932,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1b6941b617996cc429d373b42e5d0932,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 170.2
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1b6941b617996cc429d373b42e5d0932,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1b6941b617996cc429d373b42e5d0932,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1b6941b617996cc429d373b42e5d0932,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1b6941b617996cc429d373b42e5d0932,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1b6941b617996cc429d373b42e5d0932, type: 3}
+--- !u!4 &1708466852258276467 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 1b6941b617996cc429d373b42e5d0932,
+    type: 3}
+  m_PrefabInstance: {fileID: 5966993813908737897}
+  m_PrefabAsset: {fileID: 0}

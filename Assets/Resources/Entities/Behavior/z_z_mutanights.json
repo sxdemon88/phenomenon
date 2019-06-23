@@ -1,0 +1,164 @@
+{ 
+   "states" : { 
+      "ddf222eb-fd51-4caf-aff3-8028959ccad0" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101669", 
+            "y" : "-100979"
+         }, 
+         "child" : [ 
+            "4848a895-ec1f-4892-b8fc-e74a3133b14e", 
+            "2fee42d0-d0bf-4c93-be7d-47a25817265b", 
+            "321e4b40-5d75-46a8-8039-ebdc5cb38466", 
+            "d2da63f0-b25c-4605-ab51-c4eef48f96c4", 
+            "577ad11e-d1b0-4be4-a062-b99a9a21a81f", 
+            "26c916c0-bcd1-4787-b278-12e9e7b3675f", 
+            "071b54b1-69bf-4b8e-9995-5543061b9019", 
+            "fc9fdc9c-a1ca-44ac-8061-14ecdfcf2705"
+         ]
+      }, 
+      "4848a895-ec1f-4892-b8fc-e74a3133b14e" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-101157", 
+            "y" : "-100568"
+         }, 
+         "child" : [ 
+            "f66ed446-242b-470d-b1f1-80d919a87170"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "Spawn.Enemy.8"
+      }, 
+      "f66ed446-242b-470d-b1f1-80d919a87170" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101648", 
+            "y" : "-100292"
+         }, 
+         "child" : [ 
+            "224d3603-86f9-4012-96b7-c9178e9d261d"
+         ]
+      }, 
+      "224d3603-86f9-4012-96b7-c9178e9d261d" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101672", 
+            "y" : "-100208"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "$SPAWN_GENERATOR$", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Muta", 
+            "character" : "Muta", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "deadcitynights.muta"
+         }
+      }, 
+      "2fee42d0-d0bf-4c93-be7d-47a25817265b" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-101642", 
+            "y" : "-100570"
+         }, 
+         "child" : [ 
+            "f66ed446-242b-470d-b1f1-80d919a87170"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "Spawn.Enemy.6"
+      }, 
+      "321e4b40-5d75-46a8-8039-ebdc5cb38466" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-101400", 
+            "y" : "-100568"
+         }, 
+         "child" : [ 
+            "f66ed446-242b-470d-b1f1-80d919a87170"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "Spawn.Enemy.7"
+      }, 
+      "d2da63f0-b25c-4605-ab51-c4eef48f96c4" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-101884", 
+            "y" : "-100572"
+         }, 
+         "child" : [ 
+            "f66ed446-242b-470d-b1f1-80d919a87170"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "Spawn.Enemy.5"
+      }, 
+      "577ad11e-d1b0-4be4-a062-b99a9a21a81f" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-102846", 
+            "y" : "-100568"
+         }, 
+         "child" : [ 
+            "f66ed446-242b-470d-b1f1-80d919a87170"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "Spawn.Enemy.1"
+      }, 
+      "26c916c0-bcd1-4787-b278-12e9e7b3675f" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-102129", 
+            "y" : "-100572"
+         }, 
+         "child" : [ 
+            "f66ed446-242b-470d-b1f1-80d919a87170"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "Spawn.Enemy.4"
+      }, 
+      "071b54b1-69bf-4b8e-9995-5543061b9019" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-102605", 
+            "y" : "-100568"
+         }, 
+         "child" : [ 
+            "f66ed446-242b-470d-b1f1-80d919a87170"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "Spawn.Enemy.2"
+      }, 
+      "fc9fdc9c-a1ca-44ac-8061-14ecdfcf2705" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-102369", 
+            "y" : "-100571"
+         }, 
+         "child" : [ 
+            "f66ed446-242b-470d-b1f1-80d919a87170"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "Spawn.Enemy.3"
+      }
+   }, 
+   "entry" : "ddf222eb-fd51-4caf-aff3-8028959ccad0"
+}

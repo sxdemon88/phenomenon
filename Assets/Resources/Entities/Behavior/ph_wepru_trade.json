@@ -1,0 +1,939 @@
+{ 
+   "states" : { 
+      "b053a210-ea7d-439d-8783-489e55db23b7" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101178", 
+            "y" : "-101915"
+         }, 
+         "child" : [ 
+            "197c13e9-3b93-4d07-a05e-e2ca638263f5", 
+            "161da581-3ea1-47f6-84a0-bd2b9360a551", 
+            "c1943a21-107f-48e4-89f6-3ea2b0a2c4c1"
+         ]
+      }, 
+      "197c13e9-3b93-4d07-a05e-e2ca638263f5" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100745", 
+            "y" : "-101826"
+         }, 
+         "child" : [ 
+            "a0d920f9-e6b4-4c93-a7c9-483fc00ac4ba", 
+            "8299ffb5-2f4a-4aaa-96ac-6590c6fe3e32"
+         ]
+      }, 
+      "a0d920f9-e6b4-4c93-a7c9-483fc00ac4ba" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100830", 
+            "y" : "-101755"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Item", 
+               "count" : "10000", 
+               "proto" : "Money"
+            }
+         ], 
+         "inventoryObject" : "Spawn.Karavan.Trader"
+      }, 
+      "8299ffb5-2f4a-4aaa-96ac-6590c6fe3e32" : { 
+         "class" : "HasRandomDiceNode", 
+         "desc" : { 
+            "x" : "-100615", 
+            "y" : "-101771"
+         }, 
+         "child" : [ 
+            "82de8c7f-fe91-431b-80e2-4ef30adf56ef", 
+            "a832a4fd-e4fd-4d59-a8bb-8dcbae9dab92"
+         ], 
+         "dice" : "50"
+      }, 
+      "82de8c7f-fe91-431b-80e2-4ef30adf56ef" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100694", 
+            "y" : "-101657"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Item", 
+               "count" : "10000", 
+               "proto" : "Money"
+            }
+         ], 
+         "inventoryObject" : "Spawn.Karavan.Trader", 
+         "random" : "true"
+      }, 
+      "a832a4fd-e4fd-4d59-a8bb-8dcbae9dab92" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100496", 
+            "y" : "-101656"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Item", 
+               "count" : "5000", 
+               "proto" : "Money"
+            }
+         ], 
+         "inventoryObject" : "Spawn.Karavan.Trader", 
+         "random" : "true"
+      }, 
+      "161da581-3ea1-47f6-84a0-bd2b9360a551" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101194", 
+            "y" : "-101388"
+         }, 
+         "child" : [ 
+            "b983c396-7867-46b3-9d46-a1cbb6543bd6", 
+            "03fa3962-6b01-4f54-b307-c0aa80b4acc2", 
+            "b317a2c4-2dda-44e5-b430-b0bc14a33009", 
+            "db7b9f1a-6ec9-4b55-9c5e-fdf3150a4ca6", 
+            "2c3c0511-8550-4c5f-97fe-5bf1971bf40f"
+         ]
+      }, 
+      "b983c396-7867-46b3-9d46-a1cbb6543bd6" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101668", 
+            "y" : "-101374"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Sayga", 
+               "ammo" : { 
+                  "count" : "4", 
+                  "proto" : "12_JHP"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "vintorez_camo", 
+               "ammo" : { 
+                  "count" : "4", 
+                  "proto" : "356cal_JHP"
+               }
+            }
+         ], 
+         "inventoryObject" : "Spawn.Karavan.Trader", 
+         "random" : "true"
+      }, 
+      "03fa3962-6b01-4f54-b307-c0aa80b4acc2" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-101768", 
+            "y" : "-101242"
+         }, 
+         "child" : [ 
+            "31152253-0e69-4055-b2c0-99fcb8a5b420", 
+            "6d22168a-f8ea-4996-aa0e-10f306518e86", 
+            "c5408c31-f9c1-4d3b-8534-686f5e863188", 
+            "5b5936cc-be7d-417b-bb6a-5432e296f4e1", 
+            "ef6e0854-b56b-4737-85f4-294d7c38b1b5"
+         ]
+      }, 
+      "31152253-0e69-4055-b2c0-99fcb8a5b420" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-102266", 
+            "y" : "-101000"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "ABC36", 
+               "ammo" : { 
+                  "count" : "15", 
+                  "proto" : "7mm_54R"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "ACVAL", 
+               "ammo" : { 
+                  "count" : "20", 
+                  "proto" : "356cal_JHP"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "AK47", 
+               "ammo" : { 
+                  "count" : "30", 
+                  "proto" : "7_62mm_JHP"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "AKMS", 
+               "ammo" : { 
+                  "count" : "30", 
+                  "proto" : "7_62mm_JHP"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "AKS74U", 
+               "ammo" : { 
+                  "count" : "30", 
+                  "proto" : "5_45mm_JHP"
+               }
+            }
+         ], 
+         "inventoryObject" : "Spawn.Karavan.Trader"
+      }, 
+      "6d22168a-f8ea-4996-aa0e-10f306518e86" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-102113", 
+            "y" : "-101000"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Amd65", 
+               "ammo" : { 
+                  "count" : "30", 
+                  "proto" : "7_62mm_JHP"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Amd65N", 
+               "ammo" : { 
+                  "count" : "30", 
+                  "proto" : "7_62mm_JHP"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "APS", 
+               "ammo" : { 
+                  "count" : "20", 
+                  "proto" : "9mm_JHP"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "DP_28", 
+               "ammo" : { 
+                  "count" : "47", 
+                  "proto" : "7mm_54R"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "KS_23", 
+               "ammo" : { 
+                  "count" : "6", 
+                  "proto" : "12_JHP"
+               }
+            }
+         ], 
+         "inventoryObject" : "Spawn.Karavan.Trader"
+      }, 
+      "c5408c31-f9c1-4d3b-8534-686f5e863188" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101957", 
+            "y" : "-101001"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "IZ58", 
+               "ammo" : { 
+                  "count" : "2", 
+                  "proto" : "12_JHP"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "m76", 
+               "ammo" : { 
+                  "count" : "10", 
+                  "proto" : "7mm_54R"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Makarov", 
+               "ammo" : { 
+                  "count" : "8", 
+                  "proto" : "9mm_JHP"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "oc2", 
+               "ammo" : { 
+                  "count" : "32", 
+                  "proto" : "9mm_JHP"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Pistol_AK", 
+               "ammo" : { 
+                  "count" : "18", 
+                  "proto" : "9mm_JHP"
+               }
+            }
+         ], 
+         "inventoryObject" : "Spawn.Karavan.Trader"
+      }, 
+      "5b5936cc-be7d-417b-bb6a-5432e296f4e1" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101798", 
+            "y" : "-101003"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "PKM", 
+               "ammo" : { 
+                  "count" : "100", 
+                  "proto" : "7mm_54R"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "PMmd63", 
+               "ammo" : { 
+                  "count" : "30", 
+                  "proto" : "7_62mm_JHP"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "PMmd65", 
+               "ammo" : { 
+                  "count" : "30", 
+                  "proto" : "7_62mm_JHP"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "PPS43", 
+               "ammo" : { 
+                  "count" : "30", 
+                  "proto" : "307cal_JHP"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "PTRD", 
+               "ammo" : { 
+                  "count" : "1", 
+                  "proto" : "14_5mm_JHP"
+               }
+            }
+         ], 
+         "inventoryObject" : "Spawn.Karavan.Trader"
+      }, 
+      "ef6e0854-b56b-4737-85f4-294d7c38b1b5" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101641", 
+            "y" : "-101002"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "RPD", 
+               "ammo" : { 
+                  "count" : "100", 
+                  "proto" : "7_62mm_JHP"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "RPK74", 
+               "ammo" : { 
+                  "count" : "45", 
+                  "proto" : "5_45mm_JHP"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "SVD", 
+               "ammo" : { 
+                  "count" : "10", 
+                  "proto" : "7mm_54R"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Tokarev", 
+               "ammo" : { 
+                  "count" : "8", 
+                  "proto" : "307cal_JHP"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Vintorez", 
+               "ammo" : { 
+                  "count" : "10", 
+                  "proto" : "356cal_JHP"
+               }
+            }
+         ], 
+         "inventoryObject" : "Spawn.Karavan.Trader"
+      }, 
+      "b317a2c4-2dda-44e5-b430-b0bc14a33009" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101400", 
+            "y" : "-100967"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "ABC36", 
+               "ammo" : { 
+                  "count" : "15", 
+                  "proto" : "7mm_54R"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "ACVAL", 
+               "ammo" : { 
+                  "count" : "20", 
+                  "proto" : "356cal_JHP"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "AK47", 
+               "ammo" : { 
+                  "count" : "30", 
+                  "proto" : "7_62mm_JHP"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "AKMS", 
+               "ammo" : { 
+                  "count" : "30", 
+                  "proto" : "7_62mm_JHP"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "AKS74U", 
+               "ammo" : { 
+                  "count" : "30", 
+                  "proto" : "5_45mm_JHP"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Amd65", 
+               "ammo" : { 
+                  "count" : "30", 
+                  "proto" : "7_62mm_JHP"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Amd65N", 
+               "ammo" : { 
+                  "count" : "30", 
+                  "proto" : "7_62mm_JHP"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "APS", 
+               "ammo" : { 
+                  "count" : "20", 
+                  "proto" : "9mm_JHP"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "DP_28", 
+               "ammo" : { 
+                  "count" : "47", 
+                  "proto" : "7mm_54R"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "KS_23", 
+               "ammo" : { 
+                  "count" : "6", 
+                  "proto" : "12_JHP"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "IZ58", 
+               "ammo" : { 
+                  "count" : "2", 
+                  "proto" : "12_JHP"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "m76", 
+               "ammo" : { 
+                  "count" : "10", 
+                  "proto" : "7mm_54R"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Makarov", 
+               "ammo" : { 
+                  "count" : "8", 
+                  "proto" : "9mm_JHP"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "oc2", 
+               "ammo" : { 
+                  "count" : "32", 
+                  "proto" : "9mm_JHP"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Pistol_AK", 
+               "ammo" : { 
+                  "count" : "18", 
+                  "proto" : "9mm_JHP"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "PKM", 
+               "ammo" : { 
+                  "count" : "100", 
+                  "proto" : "7mm_54R"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "PMmd63", 
+               "ammo" : { 
+                  "count" : "30", 
+                  "proto" : "7_62mm_JHP"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "PMmd65", 
+               "ammo" : { 
+                  "count" : "30", 
+                  "proto" : "7_62mm_JHP"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "PPS43", 
+               "ammo" : { 
+                  "count" : "30", 
+                  "proto" : "307cal_JHP"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "PTRD", 
+               "ammo" : { 
+                  "count" : "1", 
+                  "proto" : "14_5mm_JHP"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "RPD", 
+               "ammo" : { 
+                  "count" : "100", 
+                  "proto" : "7_62mm_JHP"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "RPK74", 
+               "ammo" : { 
+                  "count" : "45", 
+                  "proto" : "5_45mm_JHP"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "SVD", 
+               "ammo" : { 
+                  "count" : "10", 
+                  "proto" : "7mm_54R"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Tokarev", 
+               "ammo" : { 
+                  "count" : "8", 
+                  "proto" : "307cal_JHP"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Vintorez", 
+               "ammo" : { 
+                  "count" : "10", 
+                  "proto" : "356cal_JHP"
+               }
+            }
+         ], 
+         "inventoryObject" : "Spawn.Karavan.Trader", 
+         "random" : "true"
+      }, 
+      "db7b9f1a-6ec9-4b55-9c5e-fdf3150a4ca6" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101242", 
+            "y" : "-100967"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Ammo", 
+               "count" : "55", 
+               "proto" : "5_45mm_AP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "111", 
+               "proto" : "5_45mm_JHP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "11", 
+               "proto" : "6_49mm_AP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "22", 
+               "proto" : "6_49mm_JHP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "44", 
+               "proto" : "7_62mm_AP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "111", 
+               "proto" : "7_62mm_JHP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "22", 
+               "proto" : "7mm_54R"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "33", 
+               "proto" : "7mm_54R_AP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "55", 
+               "proto" : "9mm_AP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "111", 
+               "proto" : "9mm_JHP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "22", 
+               "proto" : "10mm_AP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "44", 
+               "proto" : "10mm_JHP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "33", 
+               "proto" : "12_AP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "50", 
+               "proto" : "12_JHP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "22", 
+               "proto" : "14_5mm_AP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "22", 
+               "proto" : "14_5mm_JHP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "55", 
+               "proto" : "307cal_AP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "100", 
+               "proto" : "307cal_JHP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "55", 
+               "proto" : "356cal_AP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "100", 
+               "proto" : "356cal_JHP"
+            }
+         ], 
+         "inventoryObject" : "Spawn.Karavan.Trader", 
+         "random" : "true"
+      }, 
+      "2c3c0511-8550-4c5f-97fe-5bf1971bf40f" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100591", 
+            "y" : "-101126"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Ammo", 
+               "count" : "20", 
+               "proto" : "5_45mm_AP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "20", 
+               "proto" : "5_45mm_JHP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "5", 
+               "proto" : "6_49mm_AP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "5", 
+               "proto" : "6_49mm_JHP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "10", 
+               "proto" : "7_62mm_AP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "20", 
+               "proto" : "7_62mm_JHP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "10", 
+               "proto" : "7mm_54R"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "25", 
+               "proto" : "7mm_54R_AP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "20", 
+               "proto" : "9mm_AP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "20", 
+               "proto" : "9mm_JHP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "5", 
+               "proto" : "10mm_AP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "22", 
+               "proto" : "10mm_JHP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "11", 
+               "proto" : "12_AP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "22", 
+               "proto" : "12_JHP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "5", 
+               "proto" : "14_5mm_AP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "5", 
+               "proto" : "14_5mm_JHP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "33", 
+               "proto" : "307cal_AP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "15", 
+               "proto" : "307cal_JHP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "15", 
+               "proto" : "356cal_AP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "40", 
+               "proto" : "356cal_JHP"
+            }
+         ], 
+         "inventoryObject" : "Spawn.Karavan.Trader"
+      }, 
+      "c1943a21-107f-48e4-89f6-3ea2b0a2c4c1" : { 
+         "class" : "HasRandomDiceNode", 
+         "desc" : { 
+            "x" : "-100985", 
+            "y" : "-101573"
+         }, 
+         "child" : [ 
+            "6e1baa38-66ca-47df-a277-4e520cabcadf", 
+            "eb5d4b33-b1a7-46a6-a800-4ff3a3a473e2"
+         ], 
+         "dice" : "30"
+      }, 
+      "6e1baa38-66ca-47df-a277-4e520cabcadf" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101028", 
+            "y" : "-101462"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Item", 
+               "count" : "30", 
+               "proto" : "Gun_Powder"
+            }
+         ], 
+         "inventoryObject" : "Spawn.Karavan.Trader", 
+         "random" : "true"
+      }, 
+      "eb5d4b33-b1a7-46a6-a800-4ff3a3a473e2" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100819", 
+            "y" : "-101443"
+         }, 
+         "child" : [ 
+         ]
+      }
+   }, 
+   "entry" : "b053a210-ea7d-439d-8783-489e55db23b7"
+}

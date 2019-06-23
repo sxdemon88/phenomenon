@@ -82,8 +82,7 @@
          "child" : [ 
             "59dcd861-be40-42d2-bfbb-4d0cc37da96c", 
             "9f67019f-48f9-46a6-b615-a9bed9ecf1d0", 
-            "4e4a74e3-6bad-4352-b9c8-b8161e3023f0", 
-            "880c9eae-de14-4de9-8235-32307480a225"
+            "d9d817bc-cb1e-4e44-881d-6ddb4b4ef91d"
          ]
       }, 
       "59dcd861-be40-42d2-bfbb-4d0cc37da96c" : { 
@@ -173,8 +172,8 @@
       "460fb9ff-08f4-4fd9-aec6-f0be2da4e8b6" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-101190", 
-            "y" : "-99505"
+            "x" : "-101191", 
+            "y" : "-99504"
          }, 
          "child" : [ 
          ], 
@@ -191,8 +190,8 @@
       "9f67019f-48f9-46a6-b615-a9bed9ecf1d0" : { 
          "class" : "RandomNode", 
          "desc" : { 
-            "x" : "-100099", 
-            "y" : "-98870"
+            "x" : "-99827", 
+            "y" : "-99005"
          }, 
          "child" : [ 
             "504dc716-94d1-4e44-a407-b9135186b128", 
@@ -205,8 +204,8 @@
       "504dc716-94d1-4e44-a407-b9135186b128" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100093", 
-            "y" : "-98709"
+            "x" : "-99821", 
+            "y" : "-98845"
          }, 
          "child" : [ 
          ]
@@ -214,8 +213,8 @@
       "aada0d91-9f4e-4b1c-8fc0-83732add2c97" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100345", 
-            "y" : "-98751"
+            "x" : "-100073", 
+            "y" : "-98887"
          }, 
          "child" : [ 
          ]
@@ -223,8 +222,8 @@
       "77945223-b23a-4d35-9657-d6f11ba0605b" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-100235", 
-            "y" : "-98689"
+            "x" : "-99963", 
+            "y" : "-98825"
          }, 
          "child" : [ 
          ], 
@@ -241,8 +240,8 @@
       "ea904477-8590-469a-a188-ae42dd489be8" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-99988", 
-            "y" : "-98741"
+            "x" : "-99717", 
+            "y" : "-98877"
          }, 
          "child" : [ 
          ]
@@ -250,8 +249,8 @@
       "dda1bc11-6909-4a5b-9950-9c06e45c2667" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-99861", 
-            "y" : "-98682"
+            "x" : "-99591", 
+            "y" : "-98821"
          }, 
          "child" : [ 
          ], 
@@ -265,11 +264,32 @@
          "inventoryObject" : "", 
          "random" : "true"
       }, 
+      "d9d817bc-cb1e-4e44-881d-6ddb4b4ef91d" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-100954", 
+            "y" : "-99144"
+         }, 
+         "child" : [ 
+            "3e62e260-7391-4b9f-881d-f9282abe64ba", 
+            "4e4a74e3-6bad-4352-b9c8-b8161e3023f0"
+         ], 
+         "note_key" : "PH_TRADE2_DEAD"
+      }, 
+      "3e62e260-7391-4b9f-881d-f9282abe64ba" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101382", 
+            "y" : "-99007"
+         }, 
+         "child" : [ 
+         ]
+      }, 
       "4e4a74e3-6bad-4352-b9c8-b8161e3023f0" : { 
          "class" : "RandomNode", 
          "desc" : { 
-            "x" : "-101619", 
-            "y" : "-99561"
+            "x" : "-101003", 
+            "y" : "-98917"
          }, 
          "child" : [ 
             "af57af40-4991-4c4d-a719-e3f22def8852", 
@@ -280,8 +300,8 @@
       "af57af40-4991-4c4d-a719-e3f22def8852" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-101787", 
-            "y" : "-99024"
+            "x" : "-101532", 
+            "y" : "-98600"
          }, 
          "child" : [ 
             "9ac11479-135b-4f17-8ba2-6210358ab13f", 
@@ -293,8 +313,8 @@
       "9ac11479-135b-4f17-8ba2-6210358ab13f" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-101931", 
-            "y" : "-98917"
+            "x" : "-101676", 
+            "y" : "-98492"
          }, 
          "child" : [ 
          ], 
@@ -326,8 +346,8 @@
       "e7eb1303-7cbb-416b-8835-f627c5889fff" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-101807", 
-            "y" : "-98916"
+            "x" : "-101552", 
+            "y" : "-98492"
          }, 
          "child" : [ 
          ], 
@@ -344,8 +364,8 @@
       "8fb66da9-828d-4928-b66e-f96fafac3743" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-101676", 
-            "y" : "-98914"
+            "x" : "-101422", 
+            "y" : "-98490"
          }, 
          "child" : [ 
          ], 
@@ -372,8 +392,8 @@
       "8e929e66-500d-4f85-8720-27bbdcd72227" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-101544", 
-            "y" : "-98583"
+            "x" : "-101191", 
+            "y" : "-98251"
          }, 
          "child" : [ 
          ], 
@@ -410,8 +430,8 @@
       "9da1d9ca-0950-47c9-86c8-6b2b59f66800" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-101406", 
-            "y" : "-99038"
+            "x" : "-101152", 
+            "y" : "-98614"
          }, 
          "child" : [ 
             "210ed9c6-878c-49e9-bf60-2123b0250743", 
@@ -423,8 +443,8 @@
       "210ed9c6-878c-49e9-bf60-2123b0250743" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-101513", 
-            "y" : "-98917"
+            "x" : "-101258", 
+            "y" : "-98492"
          }, 
          "child" : [ 
          ], 
@@ -446,8 +466,8 @@
       "02d03dd1-fd9a-4f4e-b2c0-d37ee3014ef4" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-101389", 
-            "y" : "-98916"
+            "x" : "-101134", 
+            "y" : "-98492"
          }, 
          "child" : [ 
          ], 
@@ -464,8 +484,8 @@
       "81423edb-683a-43bb-a196-0a29d8887d13" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-101258", 
-            "y" : "-98914"
+            "x" : "-101004", 
+            "y" : "-98490"
          }, 
          "child" : [ 
          ], 
@@ -492,8 +512,8 @@
       "743f2e23-7bfd-49fd-af6b-2a3d2ab94e78" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-101002", 
-            "y" : "-99070"
+            "x" : "-100646", 
+            "y" : "-98712"
          }, 
          "child" : [ 
             "fe2ffa12-be0c-4bf6-ba16-02f46156c5cc", 
@@ -505,8 +525,8 @@
       "fe2ffa12-be0c-4bf6-ba16-02f46156c5cc" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-101196", 
-            "y" : "-98752"
+            "x" : "-100843", 
+            "y" : "-98421"
          }, 
          "child" : [ 
          ], 
@@ -533,8 +553,8 @@
       "fb46ccb4-34d5-4649-819b-9979964d2a0c" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-101072", 
-            "y" : "-98751"
+            "x" : "-100719", 
+            "y" : "-98419"
          }, 
          "child" : [ 
          ], 
@@ -551,8 +571,8 @@
       "96af70c0-b96f-49c6-97a6-082e74f0983b" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-100941", 
-            "y" : "-98749"
+            "x" : "-100587", 
+            "y" : "-98417"
          }, 
          "child" : [ 
          ], 
@@ -576,34 +596,6 @@
          "inventoryObject" : "", 
          "random" : "true"
       }, 
-      "880c9eae-de14-4de9-8235-32307480a225" : { 
-         "class" : "InventorySetNode", 
-         "desc" : { 
-            "x" : "-100818", 
-            "y" : "-99312"
-         }, 
-         "child" : [ 
-         ], 
-         "inventory" : [ 
-            { 
-               "class" : "Uniform", 
-               "count" : "1", 
-               "proto" : "craftdogarmor_1"
-            }, 
-            { 
-               "class" : "Uniform", 
-               "count" : "1", 
-               "proto" : "craftdoghelmet_1"
-            }, 
-            { 
-               "class" : "Uniform", 
-               "count" : "1", 
-               "proto" : "craftdogtop_1"
-            }
-         ], 
-         "inventoryObject" : "", 
-         "random" : "true"
-      }, 
       "2f2a84b6-3e68-4365-b6ef-f0c19f7e7101" : { 
          "class" : "DummyNode", 
          "desc" : { 
@@ -613,8 +605,7 @@
          "child" : [ 
             "b15f6157-f03e-4ce4-8dbc-189145179f1e", 
             "9f67019f-48f9-46a6-b615-a9bed9ecf1d0", 
-            "4e4a74e3-6bad-4352-b9c8-b8161e3023f0", 
-            "880c9eae-de14-4de9-8235-32307480a225"
+            "d9d817bc-cb1e-4e44-881d-6ddb4b4ef91d"
          ]
       }, 
       "b15f6157-f03e-4ce4-8dbc-189145179f1e" : { 
@@ -726,10 +717,9 @@
             "y" : "-99817"
          }, 
          "child" : [ 
-            "4e4a74e3-6bad-4352-b9c8-b8161e3023f0", 
-            "9f67019f-48f9-46a6-b615-a9bed9ecf1d0", 
             "3324d172-f240-4d4d-a93d-7a97c206ec3a", 
-            "880c9eae-de14-4de9-8235-32307480a225"
+            "9f67019f-48f9-46a6-b615-a9bed9ecf1d0", 
+            "d9d817bc-cb1e-4e44-881d-6ddb4b4ef91d"
          ]
       }, 
       "3324d172-f240-4d4d-a93d-7a97c206ec3a" : { 

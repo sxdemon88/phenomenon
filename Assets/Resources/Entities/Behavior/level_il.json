@@ -1,0 +1,1043 @@
+{ 
+   "states" : { 
+      "665d16af-6cd1-408d-83f4-65bf5003d79d" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101123", 
+            "y" : "-101047"
+         }, 
+         "child" : [ 
+            "dfc0d30b-2fbb-4a0f-95e6-4f23794229e0", 
+            "12a97387-d9ab-4102-9d43-83ec249c37ea"
+         ]
+      }, 
+      "dfc0d30b-2fbb-4a0f-95e6-4f23794229e0" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-101153", 
+            "y" : "-100947"
+         }, 
+         "child" : [ 
+            "99a25f26-9bd1-41a6-bae2-5f2e144c7ef5", 
+            "04e94bbd-bdd1-4e04-bb9b-95e19e724df9"
+         ], 
+         "note_key" : "IL_CLEAR"
+      }, 
+      "99a25f26-9bd1-41a6-bae2-5f2e144c7ef5" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101184", 
+            "y" : "-100865"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "04e94bbd-bdd1-4e04-bb9b-95e19e724df9" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101051", 
+            "y" : "-100834"
+         }, 
+         "child" : [ 
+            "2747b2bb-8875-4035-90e6-b81d9a389538", 
+            "feace635-8922-4f6c-ba3f-3f63c0e12f79", 
+            "401dd1ff-2593-462e-890a-3bcdfcf534c4", 
+            "63ae7acc-fda1-46c4-91a9-1ffacf67e166", 
+            "c88cf7a5-133e-432f-b3c7-7768645d5861"
+         ]
+      }, 
+      "2747b2bb-8875-4035-90e6-b81d9a389538" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-101821", 
+            "y" : "-100855"
+         }, 
+         "child" : [ 
+            "5b3ceb7b-de6f-446d-8e94-c1d6db0900ab", 
+            "2466fecd-0fa0-4ca3-8518-1e764ac023c7"
+         ], 
+         "note_key" : "IL_KILLED"
+      }, 
+      "5b3ceb7b-de6f-446d-8e94-c1d6db0900ab" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101817", 
+            "y" : "-100726"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "2466fecd-0fa0-4ca3-8518-1e764ac023c7" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-102085", 
+            "y" : "-100733"
+         }, 
+         "child" : [ 
+            "1f669924-dd32-4cbf-b4ef-c3380e61340c", 
+            "0e5d4e4c-fb36-4b66-b89d-b065384aa4ac"
+         ], 
+         "key" : "TRASH_UP"
+      }, 
+      "1f669924-dd32-4cbf-b4ef-c3380e61340c" : { 
+         "class" : "TimeDateTriggerNode", 
+         "desc" : { 
+            "x" : "-102196", 
+            "y" : "-100629"
+         }, 
+         "child" : [ 
+            "0e5d4e4c-fb36-4b66-b89d-b065384aa4ac"
+         ], 
+         "time" : "24", 
+         "mode" : "Hour", 
+         "offsetValue" : "TRASH_UP"
+      }, 
+      "0e5d4e4c-fb36-4b66-b89d-b065384aa4ac" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-102077", 
+            "y" : "-100503"
+         }, 
+         "child" : [ 
+            "00325582-e089-4117-ad61-ff32091111a6", 
+            "7eea7cfa-ffd6-47cf-86ea-3df2e547339a"
+         ], 
+         "key" : "TRASH_UP", 
+         "value" : "$TIME$"
+      }, 
+      "00325582-e089-4117-ad61-ff32091111a6" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-102231", 
+            "y" : "-100396"
+         }, 
+         "child" : [ 
+            "336b5a3b-8239-45a7-853a-07bb15ae71b9"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "Trashcon_1"
+      }, 
+      "336b5a3b-8239-45a7-853a-07bb15ae71b9" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-102104", 
+            "y" : "-100230"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/TrashLoot_1"
+      }, 
+      "7eea7cfa-ffd6-47cf-86ea-3df2e547339a" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-102004", 
+            "y" : "-100396"
+         }, 
+         "child" : [ 
+            "336b5a3b-8239-45a7-853a-07bb15ae71b9"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "Trashcon_2"
+      }, 
+      "feace635-8922-4f6c-ba3f-3f63c0e12f79" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-101583", 
+            "y" : "-100705"
+         }, 
+         "child" : [ 
+            "f50f6dd8-11b5-4521-b324-cbb9d31582c0", 
+            "6eecf787-2769-4735-8e93-28a0d3b978fb"
+         ], 
+         "note_key" : "IL_KILLED"
+      }, 
+      "f50f6dd8-11b5-4521-b324-cbb9d31582c0" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101531", 
+            "y" : "-100458"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "6eecf787-2769-4735-8e93-28a0d3b978fb" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101515", 
+            "y" : "-100611"
+         }, 
+         "child" : [ 
+            "2aa9f17d-a3f1-406e-84b1-60ce77d0a664", 
+            "ffb1fe1d-65f5-435c-9526-3ced23c9c92c"
+         ]
+      }, 
+      "2aa9f17d-a3f1-406e-84b1-60ce77d0a664" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-101692", 
+            "y" : "-100548"
+         }, 
+         "child" : [ 
+            "f50f6dd8-11b5-4521-b324-cbb9d31582c0", 
+            "49bb84c0-d015-470d-8586-a6ec1aff5ff4"
+         ], 
+         "objectName" : "Cruel"
+      }, 
+      "49bb84c0-d015-470d-8586-a6ec1aff5ff4" : { 
+         "class" : "CharacterTeleportNode", 
+         "desc" : { 
+            "x" : "-101676", 
+            "y" : "-100450"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Cruel", 
+         "pointName" : "Cruel.point"
+      }, 
+      "ffb1fe1d-65f5-435c-9526-3ced23c9c92c" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101407", 
+            "y" : "-100546"
+         }, 
+         "child" : [ 
+            "f50f6dd8-11b5-4521-b324-cbb9d31582c0", 
+            "95dc08f3-f538-49f2-ba08-f8eddfd20d62"
+         ], 
+         "key" : "PORN_BACK"
+      }, 
+      "95dc08f3-f538-49f2-ba08-f8eddfd20d62" : { 
+         "class" : "QuestStatusNode", 
+         "desc" : { 
+            "x" : "-101403", 
+            "y" : "-100437"
+         }, 
+         "child" : [ 
+            "046db557-101b-4343-bd6c-db2bb570dfcc", 
+            "bf90d99b-485c-4bd8-8d32-e03d88d61485", 
+            "1c42cca7-39d8-4219-b277-473204505c9b"
+         ], 
+         "quest_key" : "CITY.PROTIVNOFF"
+      }, 
+      "046db557-101b-4343-bd6c-db2bb570dfcc" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101517", 
+            "y" : "-100310"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "bf90d99b-485c-4bd8-8d32-e03d88d61485" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-101391", 
+            "y" : "-100315"
+         }, 
+         "child" : [ 
+            "95b2ef07-754f-43f7-92e0-7f0e58fba1c1"
+         ], 
+         "key" : "PORN_BACK"
+      }, 
+      "95b2ef07-754f-43f7-92e0-7f0e58fba1c1" : { 
+         "class" : "CharacterSetStateNode", 
+         "desc" : { 
+            "x" : "-101403", 
+            "y" : "-100258"
+         }, 
+         "child" : [ 
+            "a63460e6-0027-443a-8af8-81551d2de76a"
+         ], 
+         "objectName" : "Porn1", 
+         "stateName" : ""
+      }, 
+      "a63460e6-0027-443a-8af8-81551d2de76a" : { 
+         "class" : "CharacterSetStateNode", 
+         "desc" : { 
+            "x" : "-101403", 
+            "y" : "-100187"
+         }, 
+         "child" : [ 
+            "00297e89-f421-4505-a911-94dfd17a9a58"
+         ], 
+         "objectName" : "Porn2", 
+         "stateName" : ""
+      }, 
+      "00297e89-f421-4505-a911-94dfd17a9a58" : { 
+         "class" : "CharacterSetStateNode", 
+         "desc" : { 
+            "x" : "-101402", 
+            "y" : "-100116"
+         }, 
+         "child" : [ 
+            "7c948901-3523-4c78-bbc1-d0943f570614"
+         ], 
+         "objectName" : "Porn3", 
+         "stateName" : ""
+      }, 
+      "7c948901-3523-4c78-bbc1-d0943f570614" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101395", 
+            "y" : "-100032"
+         }, 
+         "child" : [ 
+            "c15db134-2826-4ae9-ab64-6042e34b6ce5"
+         ], 
+         "objectName" : "Porn1", 
+         "active" : "true"
+      }, 
+      "c15db134-2826-4ae9-ab64-6042e34b6ce5" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101394", 
+            "y" : "-99959"
+         }, 
+         "child" : [ 
+            "6c97d6b0-6a7b-4e3c-af1e-58b22d406219"
+         ], 
+         "objectName" : "Porn2", 
+         "active" : "true"
+      }, 
+      "6c97d6b0-6a7b-4e3c-af1e-58b22d406219" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101393", 
+            "y" : "-99886"
+         }, 
+         "child" : [ 
+            "92868b0a-5164-4008-9876-2e6eff0782a6"
+         ], 
+         "objectName" : "Porn3", 
+         "active" : "true"
+      }, 
+      "92868b0a-5164-4008-9876-2e6eff0782a6" : { 
+         "class" : "CharacterTeleportNode", 
+         "desc" : { 
+            "x" : "-101401", 
+            "y" : "-99807"
+         }, 
+         "child" : [ 
+            "505fcc92-5008-40b5-9267-7bdaa47058f8"
+         ], 
+         "objectName" : "Porn1", 
+         "pointName" : "porn1.teleport"
+      }, 
+      "505fcc92-5008-40b5-9267-7bdaa47058f8" : { 
+         "class" : "CharacterTeleportNode", 
+         "desc" : { 
+            "x" : "-101403", 
+            "y" : "-99729"
+         }, 
+         "child" : [ 
+            "2ab45130-227b-496a-967e-03aea6d48434"
+         ], 
+         "objectName" : "Porn2", 
+         "pointName" : "porn2.teleport"
+      }, 
+      "2ab45130-227b-496a-967e-03aea6d48434" : { 
+         "class" : "CharacterTeleportNode", 
+         "desc" : { 
+            "x" : "-101403", 
+            "y" : "-99649"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Porn3", 
+         "pointName" : "porn3.teleport"
+      }, 
+      "1c42cca7-39d8-4219-b277-473204505c9b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101275", 
+            "y" : "-100312"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "401dd1ff-2593-462e-890a-3bcdfcf534c4" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101127", 
+            "y" : "-100730"
+         }, 
+         "child" : [ 
+            "872c45f5-74e7-42ba-a7bf-c8f22c22d16e", 
+            "bd82a2b9-a190-4a9c-a735-ad6f5825652e"
+         ], 
+         "key" : "RAT_KING"
+      }, 
+      "872c45f5-74e7-42ba-a7bf-c8f22c22d16e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101146", 
+            "y" : "-100627"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "bd82a2b9-a190-4a9c-a735-ad6f5825652e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101022", 
+            "y" : "-100627"
+         }, 
+         "child" : [ 
+            "0f0fd418-3b18-47f9-b888-887362218ac9", 
+            "e33b6c27-38a1-4a3a-93c8-6518c4ac903c"
+         ]
+      }, 
+      "0f0fd418-3b18-47f9-b888-887362218ac9" : { 
+         "class" : "AreAllAroundDeadNode", 
+         "desc" : { 
+            "x" : "-100987", 
+            "y" : "-100505"
+         }, 
+         "child" : [ 
+            "db1a1280-ff31-4fce-a26f-b7eb869ebfaf", 
+            "e33b6c27-38a1-4a3a-93c8-6518c4ac903c"
+         ], 
+         "filterFractionName" : "il_rat"
+      }, 
+      "db1a1280-ff31-4fce-a26f-b7eb869ebfaf" : { 
+         "class" : "PlayerWaitNode", 
+         "desc" : { 
+            "x" : "-100997", 
+            "y" : "-100405"
+         }, 
+         "child" : [ 
+            "f1f5b525-3c0d-4090-9795-a393373f8988"
+         ], 
+         "lock" : "false", 
+         "waitingState" : "true"
+      }, 
+      "f1f5b525-3c0d-4090-9795-a393373f8988" : { 
+         "class" : "CinematicBeginNode", 
+         "desc" : { 
+            "x" : "-100965", 
+            "y" : "-100345"
+         }, 
+         "child" : [ 
+            "a60d82d0-4e1a-402a-a6f3-f42f0b91ae34"
+         ]
+      }, 
+      "a60d82d0-4e1a-402a-a6f3-f42f0b91ae34" : { 
+         "class" : "CameraMoveToNode", 
+         "desc" : { 
+            "x" : "-100967", 
+            "y" : "-100303"
+         }, 
+         "child" : [ 
+            "7b744217-4f73-4526-82d5-af1aaf915729"
+         ], 
+         "pointName" : "Rat.cinematic", 
+         "waitEnd" : "true", 
+         "time" : "1"
+      }, 
+      "7b744217-4f73-4526-82d5-af1aaf915729" : { 
+         "class" : "PostProcessBeginNode", 
+         "desc" : { 
+            "x" : "-100972", 
+            "y" : "-100246"
+         }, 
+         "child" : [ 
+            "ae46eb83-7b7f-4bab-9e89-69001e9080a1"
+         ], 
+         "postprocess" : "Harbor_CutScene"
+      }, 
+      "ae46eb83-7b7f-4bab-9e89-69001e9080a1" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100966", 
+            "y" : "-100193"
+         }, 
+         "child" : [ 
+            "cbac9d16-814c-4855-930d-5bb8f9b8cb95"
+         ], 
+         "objectName" : "IL_Rat", 
+         "active" : "true"
+      }, 
+      "cbac9d16-814c-4855-930d-5bb8f9b8cb95" : { 
+         "class" : "CharacterMoveToNode", 
+         "desc" : { 
+            "x" : "-100972", 
+            "y" : "-100119"
+         }, 
+         "child" : [ 
+            "b040bec5-e897-403e-a9cd-8451362cf6b7"
+         ], 
+         "objectName" : "IL_Rat", 
+         "pointName" : "Rat.point", 
+         "waitEnd" : "true", 
+         "relative" : "false", 
+         "run" : "false", 
+         "keepCourse" : "false"
+      }, 
+      "b040bec5-e897-403e-a9cd-8451362cf6b7" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-100966", 
+            "y" : "-100044"
+         }, 
+         "child" : [ 
+            "64a66a4a-4cd1-423f-897b-8c2581ca3c4f"
+         ], 
+         "waitTime" : "3"
+      }, 
+      "64a66a4a-4cd1-423f-897b-8c2581ca3c4f" : { 
+         "class" : "PostProcessEndNode", 
+         "desc" : { 
+            "x" : "-100971", 
+            "y" : "-99986"
+         }, 
+         "child" : [ 
+            "a83066e7-f42f-4d0b-a7a9-88d2f46a3da6"
+         ], 
+         "postprocess" : "Harbor_CutScene"
+      }, 
+      "a83066e7-f42f-4d0b-a7a9-88d2f46a3da6" : { 
+         "class" : "CinematicEndNode", 
+         "desc" : { 
+            "x" : "-100965", 
+            "y" : "-99930"
+         }, 
+         "child" : [ 
+            "0cb0d9a6-5b8a-4f80-8c18-4361fb2cbccf"
+         ]
+      }, 
+      "0cb0d9a6-5b8a-4f80-8c18-4361fb2cbccf" : { 
+         "class" : "PlayBehaviorNode", 
+         "desc" : { 
+            "x" : "-100999", 
+            "y" : "-99886"
+         }, 
+         "child" : [ 
+            "8740efff-f5ea-414c-ae5e-68a966d4db7b"
+         ], 
+         "objectName" : "IL_Rat", 
+         "behavior" : "Entities/Behavior/IL.RatKing"
+      }, 
+      "8740efff-f5ea-414c-ae5e-68a966d4db7b" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-100967", 
+            "y" : "-99811"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "RAT_KING"
+      }, 
+      "e33b6c27-38a1-4a3a-93c8-6518c4ac903c" : { 
+         "class" : "CharacterKillEventNode", 
+         "desc" : { 
+            "x" : "-100911", 
+            "y" : "-100586"
+         }, 
+         "child" : [ 
+            "0f0fd418-3b18-47f9-b888-887362218ac9"
+         ], 
+         "targetName" : "", 
+         "targetFractionName" : "il_rat"
+      }, 
+      "63ae7acc-fda1-46c4-91a9-1ffacf67e166" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100730", 
+            "y" : "-100725"
+         }, 
+         "child" : [ 
+            "777a81fa-87ec-422f-b0cf-ad4eedf43224", 
+            "4a87ba89-ca51-4a0a-80e2-842db48b4c1d", 
+            "108d18ad-afaa-42a5-a8ea-8ee4f229de30"
+         ]
+      }, 
+      "777a81fa-87ec-422f-b0cf-ad4eedf43224" : { 
+         "class" : "CharacterKillEventNode", 
+         "desc" : { 
+            "x" : "-100694", 
+            "y" : "-100442"
+         }, 
+         "child" : [ 
+            "6ac1577a-413c-4482-9f4f-16c77eeb5aba"
+         ], 
+         "targetName" : "", 
+         "targetFractionName" : "il_rat_king"
+      }, 
+      "6ac1577a-413c-4482-9f4f-16c77eeb5aba" : { 
+         "class" : "QuestStatusNode", 
+         "desc" : { 
+            "x" : "-100676", 
+            "y" : "-100365"
+         }, 
+         "child" : [ 
+            "a18c27f0-7f82-4a86-a782-5ddb10ac2278", 
+            "eb712099-0775-4a91-ab7d-f7c35d5f4997", 
+            "71542f9d-5b2e-464d-85f2-529585a601bf"
+         ], 
+         "quest_key" : "IL.RAT"
+      }, 
+      "a18c27f0-7f82-4a86-a782-5ddb10ac2278" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-100733", 
+            "y" : "-100266"
+         }, 
+         "child" : [ 
+            "41824855-683f-4ada-9dbe-17ea4b65c1d9"
+         ], 
+         "quest_key" : "IL.RAT"
+      }, 
+      "41824855-683f-4ada-9dbe-17ea4b65c1d9" : { 
+         "class" : "QuestBeginNode", 
+         "desc" : { 
+            "x" : "-100732", 
+            "y" : "-100207"
+         }, 
+         "child" : [ 
+         ], 
+         "quest_key" : "IL.RAT.END"
+      }, 
+      "eb712099-0775-4a91-ab7d-f7c35d5f4997" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100611", 
+            "y" : "-100249"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "71542f9d-5b2e-464d-85f2-529585a601bf" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100494", 
+            "y" : "-100249"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "4a87ba89-ca51-4a0a-80e2-842db48b4c1d" : { 
+         "class" : "CharacterKillEventNode", 
+         "desc" : { 
+            "x" : "-100682", 
+            "y" : "-100674"
+         }, 
+         "child" : [ 
+            "b5e18094-b20c-4b37-a6da-adee49199465"
+         ], 
+         "targetName" : "IL_P2", 
+         "targetFractionName" : ""
+      }, 
+      "b5e18094-b20c-4b37-a6da-adee49199465" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-99948", 
+            "y" : "-100469"
+         }, 
+         "child" : [ 
+            "6339b24d-79b2-401b-9437-05030a225e48"
+         ], 
+         "note_key" : "IL_SHURA_DEAD"
+      }, 
+      "6339b24d-79b2-401b-9437-05030a225e48" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-99875", 
+            "y" : "-100394"
+         }, 
+         "child" : [ 
+            "3e45479f-8163-4a3c-9b3d-8ab517c6f49c"
+         ], 
+         "quest_key" : "CITY.P603.FAIL"
+      }, 
+      "3e45479f-8163-4a3c-9b3d-8ab517c6f49c" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-99876", 
+            "y" : "-100341"
+         }, 
+         "child" : [ 
+            "1b6674c7-8d9a-4999-b221-95e88452dc32"
+         ], 
+         "quest_key" : "CITY.P603.END"
+      }, 
+      "1b6674c7-8d9a-4999-b221-95e88452dc32" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-99875", 
+            "y" : "-100284"
+         }, 
+         "child" : [ 
+            "c918042e-13fc-402b-a115-383d3eaec662"
+         ], 
+         "quest_key" : "CITY.P603"
+      }, 
+      "c918042e-13fc-402b-a115-383d3eaec662" : { 
+         "class" : "QuestStatusNode", 
+         "desc" : { 
+            "x" : "-100110", 
+            "y" : "-99570", 
+            "comment" : "Союз двух влюблённых расторгнут"
+         }, 
+         "child" : [ 
+            "046b1bf1-84a5-40fc-99c9-dd16a1144f83", 
+            "8a7ea0ff-189f-4115-9078-74510ee4186b", 
+            "18fd5222-7e9c-4e0a-8f74-f69740be6878"
+         ], 
+         "quest_key" : "CITY.P603.BREAK"
+      }, 
+      "046b1bf1-84a5-40fc-99c9-dd16a1144f83" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100159", 
+            "y" : "-99483"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "8a7ea0ff-189f-4115-9078-74510ee4186b" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-100108", 
+            "y" : "-99439"
+         }, 
+         "child" : [ 
+         ], 
+         "quest_key" : "CITY.P603.BREAK"
+      }, 
+      "18fd5222-7e9c-4e0a-8f74-f69740be6878" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100041", 
+            "y" : "-99482"
+         }, 
+         "child" : [ 
+            "8a7ea0ff-189f-4115-9078-74510ee4186b"
+         ]
+      }, 
+      "108d18ad-afaa-42a5-a8ea-8ee4f229de30" : { 
+         "class" : "CharacterKillEventNode", 
+         "desc" : { 
+            "x" : "-100583", 
+            "y" : "-100606"
+         }, 
+         "child" : [ 
+            "2c731a53-f51e-418e-ab60-cc9c26f10cbf"
+         ], 
+         "targetName" : "BaseMale15", 
+         "targetFractionName" : ""
+      }, 
+      "2c731a53-f51e-418e-ab60-cc9c26f10cbf" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-99811", 
+            "y" : "-100468"
+         }, 
+         "child" : [ 
+            "6339b24d-79b2-401b-9437-05030a225e48"
+         ], 
+         "note_key" : "IL_KESHA_DEAD"
+      }, 
+      "c88cf7a5-133e-432f-b3c7-7768645d5861" : { 
+         "class" : "CharacterKillEventNode", 
+         "desc" : { 
+            "x" : "-100410", 
+            "y" : "-100748"
+         }, 
+         "child" : [ 
+            "b7909a1d-4480-4127-906f-929815b1a5ab"
+         ], 
+         "targetName" : "", 
+         "targetFractionName" : "il"
+      }, 
+      "b7909a1d-4480-4127-906f-929815b1a5ab" : { 
+         "class" : "AreAllAroundDeadNode", 
+         "desc" : { 
+            "x" : "-100318", 
+            "y" : "-100632"
+         }, 
+         "child" : [ 
+            "9fabdba3-5783-41e9-9a40-6215342d7ae3", 
+            "c88cf7a5-133e-432f-b3c7-7768645d5861"
+         ], 
+         "filterFractionName" : "il"
+      }, 
+      "9fabdba3-5783-41e9-9a40-6215342d7ae3" : { 
+         "class" : "QuestStatusNode", 
+         "desc" : { 
+            "x" : "-100247", 
+            "y" : "-100491"
+         }, 
+         "child" : [ 
+            "72fe0b4b-2653-4473-9130-8294fc8f6b69", 
+            "06ecd6b6-decf-4c9f-8cc7-1f9240dfd87d", 
+            "7adaa871-9c9c-4853-a48e-0fe53d805243"
+         ], 
+         "quest_key" : "CITY.IL"
+      }, 
+      "72fe0b4b-2653-4473-9130-8294fc8f6b69" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-100334", 
+            "y" : "-100394"
+         }, 
+         "child" : [ 
+            "486e2682-4378-445d-b538-1cfc1877241f"
+         ], 
+         "quest_key" : "CITY.IL"
+      }, 
+      "486e2682-4378-445d-b538-1cfc1877241f" : { 
+         "class" : "QuestBeginNode", 
+         "desc" : { 
+            "x" : "-100334", 
+            "y" : "-100338"
+         }, 
+         "child" : [ 
+            "5bb86726-623e-4078-9039-3ff9b8de175b"
+         ], 
+         "quest_key" : "CITY.IL.END3"
+      }, 
+      "5bb86726-623e-4078-9039-3ff9b8de175b" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-100246", 
+            "y" : "-100229"
+         }, 
+         "child" : [ 
+            "f06e5aeb-a455-463e-abf0-cca672abf667"
+         ], 
+         "quest_key" : "CITY.PROTIVNOFF1"
+      }, 
+      "f06e5aeb-a455-463e-abf0-cca672abf667" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-100246", 
+            "y" : "-100171"
+         }, 
+         "child" : [ 
+            "dda950df-72b1-4871-a080-95fc3ec1cdc4"
+         ], 
+         "quest_key" : "CITY.PROTIVNOFF2"
+      }, 
+      "dda950df-72b1-4871-a080-95fc3ec1cdc4" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-100245", 
+            "y" : "-100113"
+         }, 
+         "child" : [ 
+            "666c9570-f671-477b-8c1d-94dc2797d655"
+         ], 
+         "quest_key" : "CITY.PROTIVNOFF3"
+      }, 
+      "666c9570-f671-477b-8c1d-94dc2797d655" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-100234", 
+            "y" : "-100058"
+         }, 
+         "child" : [ 
+            "f11b5015-1d9c-4f05-bd78-7286a23d6271"
+         ], 
+         "quest_key" : "IL.IVAN"
+      }, 
+      "f11b5015-1d9c-4f05-bd78-7286a23d6271" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-100234", 
+            "y" : "-100002"
+         }, 
+         "child" : [ 
+            "9fbf1063-de7d-421b-89d3-c78711e99ada"
+         ], 
+         "quest_key" : "IL.EGG"
+      }, 
+      "9fbf1063-de7d-421b-89d3-c78711e99ada" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-100232", 
+            "y" : "-99942"
+         }, 
+         "child" : [ 
+            "36bed48a-3502-43d8-bf09-c3a4521aad84"
+         ], 
+         "quest_key" : "IL.ROW"
+      }, 
+      "36bed48a-3502-43d8-bf09-c3a4521aad84" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-100232", 
+            "y" : "-99886"
+         }, 
+         "child" : [ 
+            "99c6b797-c0e3-40d4-af59-fcb876dfec40"
+         ], 
+         "quest_key" : "IL.DRUG"
+      }, 
+      "99c6b797-c0e3-40d4-af59-fcb876dfec40" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-100233", 
+            "y" : "-99827"
+         }, 
+         "child" : [ 
+            "fa8866c7-5a27-41d8-80bb-7f1d62290179"
+         ], 
+         "quest_key" : "CITY.P603"
+      }, 
+      "fa8866c7-5a27-41d8-80bb-7f1d62290179" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-100231", 
+            "y" : "-99772"
+         }, 
+         "child" : [ 
+            "f561e639-94d0-4b24-a75f-9d93fef9800d"
+         ], 
+         "quest_key" : "CITY.P603.END"
+      }, 
+      "f561e639-94d0-4b24-a75f-9d93fef9800d" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-100231", 
+            "y" : "-99719"
+         }, 
+         "child" : [ 
+            "adbde548-0f18-44a6-94bf-1ac976c29bc0"
+         ], 
+         "quest_key" : "CITY.P603.FAIL"
+      }, 
+      "adbde548-0f18-44a6-94bf-1ac976c29bc0" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-100237", 
+            "y" : "-99663"
+         }, 
+         "child" : [ 
+            "c918042e-13fc-402b-a115-383d3eaec662"
+         ], 
+         "note_key" : "IL_KILLED"
+      }, 
+      "06ecd6b6-decf-4c9f-8cc7-1f9240dfd87d" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100221", 
+            "y" : "-100390"
+         }, 
+         "child" : [ 
+            "5bb86726-623e-4078-9039-3ff9b8de175b"
+         ]
+      }, 
+      "7adaa871-9c9c-4853-a48e-0fe53d805243" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100100", 
+            "y" : "-100390"
+         }, 
+         "child" : [ 
+            "5bb86726-623e-4078-9039-3ff9b8de175b"
+         ]
+      }, 
+      "12a97387-d9ab-4102-9d43-83ec249c37ea" : { 
+         "class" : "PlayerLevelOutNode", 
+         "desc" : { 
+            "x" : "-99968", 
+            "y" : "-100794"
+         }, 
+         "child" : [ 
+            "443261c8-bdc2-433a-ae4d-2be49ffb23ba", 
+            "168c7d3e-c306-4b12-897e-f0551d5b350e", 
+            "84fb51f4-0882-46c3-87ed-1b3f55a30ec1", 
+            "dd99b5b0-07bf-45fe-b1cd-8a55e9c185bb"
+         ]
+      }, 
+      "443261c8-bdc2-433a-ae4d-2be49ffb23ba" : { 
+         "class" : "AreAllAroundDeadNode", 
+         "desc" : { 
+            "x" : "-100142", 
+            "y" : "-100630"
+         }, 
+         "child" : [ 
+            "9fabdba3-5783-41e9-9a40-6215342d7ae3", 
+            "691faf13-6658-48a4-b453-c1fb3108bc16"
+         ], 
+         "filterFractionName" : "il"
+      }, 
+      "691faf13-6658-48a4-b453-c1fb3108bc16" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100096", 
+            "y" : "-100532"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "168c7d3e-c306-4b12-897e-f0551d5b350e" : { 
+         "class" : "ObjectCheckNode", 
+         "desc" : { 
+            "x" : "-99942", 
+            "y" : "-100689"
+         }, 
+         "child" : [ 
+            "e98e181a-76cd-4fd1-9642-0714c8b06849", 
+            "6361a61a-6733-4645-aa46-24fde2e7b584"
+         ], 
+         "objectName" : "IL_P2"
+      }, 
+      "e98e181a-76cd-4fd1-9642-0714c8b06849" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-99947", 
+            "y" : "-100613"
+         }, 
+         "child" : [ 
+            "b5e18094-b20c-4b37-a6da-adee49199465", 
+            "6361a61a-6733-4645-aa46-24fde2e7b584"
+         ], 
+         "objectName" : "IL_P2"
+      }, 
+      "6361a61a-6733-4645-aa46-24fde2e7b584" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99848", 
+            "y" : "-100526"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "84fb51f4-0882-46c3-87ed-1b3f55a30ec1" : { 
+         "class" : "ObjectCheckNode", 
+         "desc" : { 
+            "x" : "-99806", 
+            "y" : "-100688"
+         }, 
+         "child" : [ 
+            "8e980cce-2268-4a66-ba4d-911bc404fce3", 
+            "6361a61a-6733-4645-aa46-24fde2e7b584"
+         ], 
+         "objectName" : "BaseMale15"
+      }, 
+      "8e980cce-2268-4a66-ba4d-911bc404fce3" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-99787", 
+            "y" : "-100612"
+         }, 
+         "child" : [ 
+            "2c731a53-f51e-418e-ab60-cc9c26f10cbf", 
+            "6361a61a-6733-4645-aa46-24fde2e7b584"
+         ], 
+         "objectName" : "BaseMale15"
+      }, 
+      "dd99b5b0-07bf-45fe-b1cd-8a55e9c185bb" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-99629", 
+            "y" : "-100689"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/ph_trap_event"
+      }
+   }, 
+   "entry" : "665d16af-6cd1-408d-83f4-65bf5003d79d"
+}

@@ -1,0 +1,2123 @@
+{ 
+   "states" : { 
+      "7a91e538-4a60-4839-90c4-03ed8f8f5bcb" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "689", 
+            "y" : "-310"
+         }, 
+         "child" : [ 
+            "52eb9ad1-a529-442f-9c8d-34cd142eee9f", 
+            "ed2efe3e-e840-4907-8037-1a48d4cc1d73"
+         ]
+      }, 
+      "52eb9ad1-a529-442f-9c8d-34cd142eee9f" : { 
+         "class" : "CharacterInBattleNode", 
+         "desc" : { 
+            "x" : "296", 
+            "y" : "173"
+         }, 
+         "child" : [ 
+            "bed2b994-99cb-41d8-82ce-1a0be52d1d76", 
+            "58a64820-889c-4d3c-b170-0490dd36e595"
+         ]
+      }, 
+      "bed2b994-99cb-41d8-82ce-1a0be52d1d76" : { 
+         "class" : "WaitRandomNode", 
+         "desc" : { 
+            "x" : "117", 
+            "y" : "474"
+         }, 
+         "child" : [ 
+            "15862803-7989-48fc-bb8d-0f7785429caf"
+         ], 
+         "waitTimeMin" : "30", 
+         "waitTimeMax" : "70"
+      }, 
+      "15862803-7989-48fc-bb8d-0f7785429caf" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "122", 
+            "y" : "626"
+         }, 
+         "child" : [ 
+            "0161d390-5fab-4cbb-b613-383aa20646cd", 
+            "fc51f10a-e678-4ccd-a971-3b303be6b3f7"
+         ]
+      }, 
+      "0161d390-5fab-4cbb-b613-383aa20646cd" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-116", 
+            "y" : "742"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "fc51f10a-e678-4ccd-a971-3b303be6b3f7" : { 
+         "class" : "CharacterInBattleNode", 
+         "desc" : { 
+            "x" : "306", 
+            "y" : "770"
+         }, 
+         "child" : [ 
+            "e661f560-127f-45b6-a86f-270ab30f7087", 
+            "4c383285-5008-494e-a128-d6acf92fde74"
+         ]
+      }, 
+      "e661f560-127f-45b6-a86f-270ab30f7087" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "302", 
+            "y" : "1410"
+         }, 
+         "child" : [ 
+            "75d29600-3841-4c54-a3e7-6b99502cbee4", 
+            "e1d47512-0e1b-4a7d-ae16-fa07c61d9cab", 
+            "6e47262b-250d-4274-a304-8c8fb884c6db", 
+            "ad4428c2-68d2-48c2-bde9-e03f75f57ed3", 
+            "6a4f1a7a-aeb4-44d0-a538-3fd4aac403e1", 
+            "be085f6d-b1c1-4c0e-98d6-ce085895e351", 
+            "c51a29f7-854b-4193-8c10-6235fe1ac071", 
+            "f10bf40a-3078-471f-a0a1-a6a535e71fca", 
+            "8be4d256-696c-43a6-baf4-d7df9ff2edff", 
+            "628dfa0c-da84-40d1-8e84-d190df7a0a28", 
+            "16a0076e-2a3f-456f-8ba1-25b101049930", 
+            "b9a3a764-e454-4b73-8d02-09d0747d2ae5", 
+            "fc0d5b10-41ee-4cb0-95f4-cef65d9bb99c", 
+            "0344bdf5-d13a-4d00-82e2-d6cf8d4aba4f", 
+            "46ffe2ac-9725-4306-8058-4b7307b4d144", 
+            "7b3655c2-74ec-4a72-9424-2771d27de679", 
+            "0792db14-f8b7-446b-a3b1-52ef34d47572", 
+            "bd17311a-a641-4524-838b-f25ef9a34f1f", 
+            "12e062de-5883-4354-93ab-7aa839b8346c", 
+            "e483d176-dc93-475c-b709-a516629884e6", 
+            "f8d56534-46d8-4f8f-bffe-71fecbdb0fe7", 
+            "9130e963-75d0-46f3-ad87-97517b23f9ee", 
+            "f3b1180f-60bc-473e-a10e-fccb5088033c", 
+            "c1040e82-6b08-4aef-abd4-fb37fe4cbaec", 
+            "f0c54167-737f-467d-9bf3-ff8789d50997", 
+            "7ae60e36-6545-46cc-ae3a-26b7581d4b85", 
+            "28083ce9-493b-41f7-9437-844fba83ea5b", 
+            "0d74c3aa-962e-4ed6-b506-afc55dd258a8", 
+            "4e299a0b-b396-46a7-972c-f4a4d000ce3c", 
+            "807b7b76-7558-4f9b-a0da-42a34a5ba569", 
+            "bec70209-e619-479d-bf07-327a0d2faabc"
+         ]
+      }, 
+      "75d29600-3841-4c54-a3e7-6b99502cbee4" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-224", 
+            "y" : "2106"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "Монету дай посмотреть!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "99ca728d-e0e1-4899-905d-359abd7dac12" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "1498", 
+            "y" : "1714"
+         }, 
+         "child" : [ 
+            "52eb9ad1-a529-442f-9c8d-34cd142eee9f"
+         ]
+      }, 
+      "e1d47512-0e1b-4a7d-ae16-fa07c61d9cab" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-228", 
+            "y" : "2164"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "Эй! Пиздюшина", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "6e47262b-250d-4274-a304-8c8fb884c6db" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-4", 
+            "y" : "2112"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "Вали уродов!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "ad4428c2-68d2-48c2-bde9-e03f75f57ed3" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "220", 
+            "y" : "2116"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "Ты че такой борзый?", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "6a4f1a7a-aeb4-44d0-a538-3fd4aac403e1" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "227", 
+            "y" : "2198"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "Помирать так с музыкой!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "be085f6d-b1c1-4c0e-98d6-ce085895e351" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-4", 
+            "y" : "2160"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "Ты, да ты чертила мутный, иди сюда, с*ка!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "c51a29f7-854b-4193-8c10-6235fe1ac071" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-2", 
+            "y" : "2214"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "Чем меньше у человека зубов, тем он лучше фильтрует базар.", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "f10bf40a-3078-471f-a0a1-a6a535e71fca" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-558", 
+            "y" : "2352"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "Умрите твари!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "8be4d256-696c-43a6-baf4-d7df9ff2edff" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-346", 
+            "y" : "2352"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "Слышь ты, ты ваще не прав, ты осознай это.", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "628dfa0c-da84-40d1-8e84-d190df7a0a28" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-124", 
+            "y" : "2368"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "Чё волосы такие длинные? Ты чё не пацан!?", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "16a0076e-2a3f-456f-8ba1-25b101049930" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "347", 
+            "y" : "2377"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "Мы сегодня раскумаримся по-любому.", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "b9a3a764-e454-4b73-8d02-09d0747d2ae5" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "109", 
+            "y" : "2369"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "Только попробуй! Завалю!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "fc0d5b10-41ee-4cb0-95f4-cef65d9bb99c" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-312", 
+            "y" : "2490"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "Чё с бородой как баба?", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "0344bdf5-d13a-4d00-82e2-d6cf8d4aba4f" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "144", 
+            "y" : "2492"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "Ну-ка быстро коня нарисовала!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "46ffe2ac-9725-4306-8058-4b7307b4d144" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-82", 
+            "y" : "2496"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "Вот это поворот! С#ка.", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "7b3655c2-74ec-4a72-9424-2771d27de679" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "72", 
+            "y" : "3058"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "Дай проездной почитать.", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "0792db14-f8b7-446b-a3b1-52ef34d47572" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-161", 
+            "y" : "3046"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "Ты чо распустил тут свои вы*боны?", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "bd17311a-a641-4524-838b-f25ef9a34f1f" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "302", 
+            "y" : "3052"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "Опаньки. Да ты попутал, чепушила.", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "12e062de-5883-4354-93ab-7aa839b8346c" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "767", 
+            "y" : "3056"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "Ты, да ты сам себя под лоха подписал.", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "e483d176-dc93-475c-b709-a516629884e6" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "532", 
+            "y" : "3052"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "Ты чё, страх потерял, шерсть?", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "f8d56534-46d8-4f8f-bffe-71fecbdb0fe7" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "1243", 
+            "y" : "3058"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "А дай деньги подержать!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "9130e963-75d0-46f3-ad87-97517b23f9ee" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "1011", 
+            "y" : "3052"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "А чё у тя штаны такие узкие, у сестрёнки сп*здил?", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "f3b1180f-60bc-473e-a10e-fccb5088033c" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "1693", 
+            "y" : "3058"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "Васа, о чем ты шепчешь?!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "c1040e82-6b08-4aef-abd4-fb37fe4cbaec" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "2155", 
+            "y" : "3046"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "Я смотрю ты такая дерзкая...зуб не жалко?", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "f0c54167-737f-467d-9bf3-ff8789d50997" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "2395", 
+            "y" : "3050"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "Эээй...браток, подогрей сигаретой.", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "7ae60e36-6545-46cc-ae3a-26b7581d4b85" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "1471", 
+            "y" : "3056"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "Пацик дай берцы потаскать!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "28083ce9-493b-41f7-9437-844fba83ea5b" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "2628", 
+            "y" : "3055"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "Дай куртку, пацану холодно.", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "0d74c3aa-962e-4ed6-b506-afc55dd258a8" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "3073", 
+            "y" : "3057"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "А ты чё такой умный школу закончил?", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "4e299a0b-b396-46a7-972c-f4a4d000ce3c" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "456", 
+            "y" : "2216"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Эй ты, чорт! А чо ты такой волосатый как девка?", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "807b7b76-7558-4f9b-a0da-42a34a5ba569" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "2850", 
+            "y" : "3057"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "Лохи не мамонты, не вымрут", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "bec70209-e619-479d-bf07-327a0d2faabc" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "1915", 
+            "y" : "3046"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "Братишка, есть чо помелочи то? Найди что ли, попрыгай там...", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "4c383285-5008-494e-a128-d6acf92fde74" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "1329", 
+            "y" : "474"
+         }, 
+         "child" : [ 
+            "f3b633c6-e2df-453f-aee2-300883b40f7d", 
+            "18c16ced-cbd7-4d06-9293-e810a7fe4f3d"
+         ], 
+         "key" : "WHOOP"
+      }, 
+      "f3b633c6-e2df-453f-aee2-300883b40f7d" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "1529", 
+            "y" : "608"
+         }, 
+         "child" : [ 
+            "57587d37-43d5-401c-a125-134a893ec92f"
+         ], 
+         "key" : "WHOOP"
+      }, 
+      "57587d37-43d5-401c-a125-134a893ec92f" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "1643", 
+            "y" : "811"
+         }, 
+         "child" : [ 
+            "3ba06972-f0ed-45a6-b645-c220e418b062", 
+            "c7776b7b-7254-49c4-a31c-5038ab831c65", 
+            "f41e317f-19d5-43f2-ba22-7dde17ad3421", 
+            "f8571115-c09e-450a-9608-b8911589db24", 
+            "719b8434-7a34-4d2c-b8e1-466cdb34cbf6", 
+            "f13ba3ee-5f49-44ba-abf1-c6b5b6b8c2d8", 
+            "c4f23c1b-d4fc-45f0-9cab-f0a3fa890f0b"
+         ]
+      }, 
+      "3ba06972-f0ed-45a6-b645-c220e418b062" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "876", 
+            "y" : "902"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "Ну и где они? Мы пасём их целый час!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "c7776b7b-7254-49c4-a31c-5038ab831c65" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "1090", 
+            "y" : "902"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "Да где же эти уроды!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "f41e317f-19d5-43f2-ba22-7dde17ad3421" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "1308", 
+            "y" : "904"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "Может они уже свалили?", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "f8571115-c09e-450a-9608-b8911589db24" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "1528", 
+            "y" : "905"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "Интересно. У них много лута ценного?", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "719b8434-7a34-4d2c-b8e1-466cdb34cbf6" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "1746", 
+            "y" : "907"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "Последняя ходка и я завязываю.", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "f13ba3ee-5f49-44ba-abf1-c6b5b6b8c2d8" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "1966", 
+            "y" : "904"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "Слышь, братишка. Тормозни-ка, базар есть. А чо ты рамсишь-то? Ты чо такой голимый?", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "c4f23c1b-d4fc-45f0-9cab-f0a3fa890f0b" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "2186", 
+            "y" : "919"
+         }, 
+         "child" : [ 
+            "99ca728d-e0e1-4899-905d-359abd7dac12"
+         ], 
+         "text" : "Может не тот след взяли?", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "18c16ced-cbd7-4d06-9293-e810a7fe4f3d" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "1969.013", 
+            "y" : "552.7531"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "58a64820-889c-4d3c-b170-0490dd36e595" : { 
+         "class" : "WaitRandomNode", 
+         "desc" : { 
+            "x" : "717", 
+            "y" : "216"
+         }, 
+         "child" : [ 
+            "aed54973-6683-461c-812c-05a0d3c7a353"
+         ], 
+         "waitTimeMin" : "3", 
+         "waitTimeMax" : "30"
+      }, 
+      "aed54973-6683-461c-812c-05a0d3c7a353" : { 
+         "class" : "CharacterInBattleNode", 
+         "desc" : { 
+            "x" : "1122", 
+            "y" : "325"
+         }, 
+         "child" : [ 
+            "bed2b994-99cb-41d8-82ce-1a0be52d1d76", 
+            "4c383285-5008-494e-a128-d6acf92fde74"
+         ]
+      }, 
+      "ed2efe3e-e840-4907-8037-1a48d4cc1d73" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "2618", 
+            "y" : "-111"
+         }, 
+         "child" : [ 
+            "ef01874b-bf4e-4de6-a429-0cd56d451065", 
+            "054dc3d5-3fdb-4e8f-a02b-e6af2d8778c7"
+         ], 
+         "key" : "INIT1"
+      }, 
+      "ef01874b-bf4e-4de6-a429-0cd56d451065" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "2453", 
+            "y" : "52"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "054dc3d5-3fdb-4e8f-a02b-e6af2d8778c7" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "2950", 
+            "y" : "-12"
+         }, 
+         "child" : [ 
+            "5350b9f4-e463-4c7b-8991-0ffa9193cfc0"
+         ], 
+         "key" : "INIT1"
+      }, 
+      "5350b9f4-e463-4c7b-8991-0ffa9193cfc0" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "4206", 
+            "y" : "56"
+         }, 
+         "child" : [ 
+            "7959b229-49a8-4207-b91a-2d394e9ff607", 
+            "2cf258f5-79f5-4e45-ab67-32c30996c087", 
+            "770060fd-d4a2-4e75-9d3c-6f4928895bbb", 
+            "1a986187-2f55-44a2-8a84-5c0557d74d76", 
+            "552bfb48-9f5b-4d0c-a435-a849618df6cb"
+         ]
+      }, 
+      "7959b229-49a8-4207-b91a-2d394e9ff607" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "3507", 
+            "y" : "200", 
+            "comment" : "armor"
+         }, 
+         "child" : [ 
+            "3f322258-5735-42ab-afea-922bfd3b0746", 
+            "71337cc1-fc78-4d65-ab9f-e3ea92ffefdc", 
+            "f2da6522-f503-4f8f-baf4-85ead46028d4", 
+            "120b5caa-8bf7-4bec-9650-772dcf07f63d", 
+            "3ed2e9cb-c97e-49eb-b9fd-e2a69e7f5079", 
+            "fa297140-0a8f-4994-bb72-86fd5e7ba8fc", 
+            "be4b1d7d-09f9-4807-bc10-2262e33aba43", 
+            "fa3c5871-f394-485c-b5de-29a2da62d4ff", 
+            "52e60125-cac0-4be6-84e6-4925dd1a0eb4", 
+            "45b83937-2be7-4c9c-80d6-12581b1843b0", 
+            "8ef61664-fc42-4ad0-8258-1958c32ff647", 
+            "1dabda36-1f4c-4e3b-ba25-e525d489b201", 
+            "063a1d29-6889-44ee-862c-f09805804ef2", 
+            "6ff716d3-5c2e-49fe-b40d-2db22e00b23d", 
+            "6da19429-3563-4d71-b15b-31059ce432a1", 
+            "b118173e-8bc8-463f-894c-18a03db544ec", 
+            "c3f82040-72e4-40f1-8f27-4a71633d28e2", 
+            "e453edbb-d0d0-4ac3-be1f-882ef0665db9", 
+            "fd68b0ca-b9a3-49a8-9a52-d65956ee5451"
+         ]
+      }, 
+      "3f322258-5735-42ab-afea-922bfd3b0746" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "2556", 
+            "y" : "474"
+         }, 
+         "child" : [ 
+            "35008633-210a-4b2e-ad80-634b1eced4fd"
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Helmet_Home"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ArmorTire"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Balaclava"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "35008633-210a-4b2e-ad80-634b1eced4fd" : { 
+         "class" : "CharacterRegimentEquipNode", 
+         "desc" : { 
+            "x" : "4154", 
+            "y" : "1257"
+         }, 
+         "child" : [ 
+         ], 
+         "armor" : "true", 
+         "weapon" : "true", 
+         "cap" : "true", 
+         "backpack" : "true", 
+         "head_mask" : "true", 
+         "shield" : "true"
+      }, 
+      "71337cc1-fc78-4d65-ab9f-e3ea92ffefdc" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "2661", 
+            "y" : "473"
+         }, 
+         "child" : [ 
+            "35008633-210a-4b2e-ad80-634b1eced4fd"
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Cap"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Balaclava"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ArmorTire"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "f2da6522-f503-4f8f-baf4-85ead46028d4" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "2772", 
+            "y" : "473"
+         }, 
+         "child" : [ 
+            "35008633-210a-4b2e-ad80-634b1eced4fd"
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ctw_head_4"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Balaclava"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ArmorTire"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "120b5caa-8bf7-4bec-9650-772dcf07f63d" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "2879", 
+            "y" : "473"
+         }, 
+         "child" : [ 
+            "35008633-210a-4b2e-ad80-634b1eced4fd"
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ctw_head_4"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Balaclava"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ArmorTire"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Hand_Bag"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "3ed2e9cb-c97e-49eb-b9fd-e2a69e7f5079" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "2989", 
+            "y" : "473"
+         }, 
+         "child" : [ 
+            "35008633-210a-4b2e-ad80-634b1eced4fd"
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Helmet_Rust"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Balaclava"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ArmorTire"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "fa297140-0a8f-4994-bb72-86fd5e7ba8fc" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "3097", 
+            "y" : "473"
+         }, 
+         "child" : [ 
+            "35008633-210a-4b2e-ad80-634b1eced4fd"
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Helmet_Home"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Balaclava"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "be4b1d7d-09f9-4807-bc10-2262e33aba43" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "3208", 
+            "y" : "475"
+         }, 
+         "child" : [ 
+            "35008633-210a-4b2e-ad80-634b1eced4fd"
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ctw_head_4"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Balaclava"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Armor_Home"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "fa3c5871-f394-485c-b5de-29a2da62d4ff" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "3323", 
+            "y" : "476"
+         }, 
+         "child" : [ 
+            "35008633-210a-4b2e-ad80-634b1eced4fd"
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ctw_head_4"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Balaclava"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ArmorLA"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "52e60125-cac0-4be6-84e6-4925dd1a0eb4" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "3434", 
+            "y" : "476"
+         }, 
+         "child" : [ 
+            "35008633-210a-4b2e-ad80-634b1eced4fd"
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Helmet_Home"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Balaclava"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ArmorLA"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Hand_Bag"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "45b83937-2be7-4c9c-80d6-12581b1843b0" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "2525", 
+            "y" : "684"
+         }, 
+         "child" : [ 
+            "35008633-210a-4b2e-ad80-634b1eced4fd"
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "SkiHat"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Armor_Home"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Balaclava"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "8ef61664-fc42-4ad0-8258-1958c32ff647" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "2632", 
+            "y" : "684"
+         }, 
+         "child" : [ 
+            "35008633-210a-4b2e-ad80-634b1eced4fd"
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "SkiHat"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ArmorLA"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Balaclava"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "1dabda36-1f4c-4e3b-ba25-e525d489b201" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "2742", 
+            "y" : "684"
+         }, 
+         "child" : [ 
+            "35008633-210a-4b2e-ad80-634b1eced4fd"
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "SkiHat"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ArmorLJ"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Balaclava"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "063a1d29-6889-44ee-862c-f09805804ef2" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "2854", 
+            "y" : "684"
+         }, 
+         "child" : [ 
+            "35008633-210a-4b2e-ad80-634b1eced4fd"
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Hat"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Balaclava"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ArmorTire"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "6ff716d3-5c2e-49fe-b40d-2db22e00b23d" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "2967", 
+            "y" : "685"
+         }, 
+         "child" : [ 
+            "35008633-210a-4b2e-ad80-634b1eced4fd"
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ctw_head_1rust"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Armor_Home"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "6da19429-3563-4d71-b15b-31059ce432a1" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "3190", 
+            "y" : "690"
+         }, 
+         "child" : [ 
+            "35008633-210a-4b2e-ad80-634b1eced4fd"
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Hat"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Balaclava"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ArmorLJ"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "b118173e-8bc8-463f-894c-18a03db544ec" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "3078", 
+            "y" : "690"
+         }, 
+         "child" : [ 
+            "35008633-210a-4b2e-ad80-634b1eced4fd"
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Hat"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Balaclava"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Armor_Home"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "c3f82040-72e4-40f1-8f27-4a71633d28e2" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "3304", 
+            "y" : "692"
+         }, 
+         "child" : [ 
+            "35008633-210a-4b2e-ad80-634b1eced4fd"
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Helmet_Rust"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Balaclava"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ArmorTire"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Hand_Bag"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "e453edbb-d0d0-4ac3-be1f-882ef0665db9" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "3522", 
+            "y" : "689"
+         }, 
+         "child" : [ 
+            "35008633-210a-4b2e-ad80-634b1eced4fd"
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Helmet_Rust"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Balaclava"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ArmorLJ"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Hand_Bag"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "fd68b0ca-b9a3-49a8-9a52-d65956ee5451" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "3411", 
+            "y" : "689"
+         }, 
+         "child" : [ 
+            "35008633-210a-4b2e-ad80-634b1eced4fd"
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Helmet_Rust"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Balaclava"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ArmorLA"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Hand_Bag"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "2cf258f5-79f5-4e45-ab67-32c30996c087" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "4313", 
+            "y" : "207", 
+            "comment" : "weapon"
+         }, 
+         "child" : [ 
+            "51ebadf6-7ff2-4c86-9e43-796a4f9315c4", 
+            "60d6ec41-bb67-4fee-9d0b-58d09b2a8772", 
+            "19c65b69-84f1-4f82-84d5-b24dbb3612b1", 
+            "c14f3b15-f525-4a6e-9994-ddb032f449c7", 
+            "92c1afbd-bf8c-4dc9-ad80-0065b837ee9f", 
+            "d317c87e-9b09-4459-8657-619c9f4271cc", 
+            "f220213d-6177-46cb-a4aa-3cc9b411e383", 
+            "e2ca4f06-c998-43d2-b812-1172171003eb", 
+            "79541c76-3c91-4d48-8570-ffc89b986ee9", 
+            "83031451-7482-47bf-8694-2b8ae0f296ed", 
+            "f155a79d-da59-4439-b7f6-a733ae66b986", 
+            "7fc78d35-3e62-49b6-8380-6ce8008838da", 
+            "b3016f4a-ddd3-4502-b531-df842dba660e", 
+            "1ad3213a-39cc-4485-a6ad-65c3e0ece6ac", 
+            "499199f5-c447-47d7-b833-e950e693f0cc"
+         ]
+      }, 
+      "51ebadf6-7ff2-4c86-9e43-796a4f9315c4" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "3819", 
+            "y" : "409"
+         }, 
+         "child" : [ 
+            "35008633-210a-4b2e-ad80-634b1eced4fd"
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "AK47_Rust", 
+               "ammo" : { 
+                  "count" : "20", 
+                  "proto" : "7_62mm_JHP"
+               }
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "60d6ec41-bb67-4fee-9d0b-58d09b2a8772" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "3929", 
+            "y" : "409"
+         }, 
+         "child" : [ 
+            "35008633-210a-4b2e-ad80-634b1eced4fd"
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Makarov_Rust", 
+               "ammo" : { 
+                  "count" : "8", 
+                  "proto" : "9mm_JHP"
+               }
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "19c65b69-84f1-4f82-84d5-b24dbb3612b1" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "4039", 
+            "y" : "410"
+         }, 
+         "child" : [ 
+            "35008633-210a-4b2e-ad80-634b1eced4fd"
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Mauser_Rust", 
+               "ammo" : { 
+                  "count" : "10", 
+                  "proto" : "307cal_JHP"
+               }
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "c14f3b15-f525-4a6e-9994-ddb032f449c7" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "4148", 
+            "y" : "415"
+         }, 
+         "child" : [ 
+            "35008633-210a-4b2e-ad80-634b1eced4fd"
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Sawed-off_Rust", 
+               "ammo" : { 
+                  "count" : "2", 
+                  "proto" : "12_JHP"
+               }
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "4", 
+               "proto" : "12_JHP"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "92c1afbd-bf8c-4dc9-ad80-0065b837ee9f" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "4258", 
+            "y" : "407"
+         }, 
+         "child" : [ 
+            "35008633-210a-4b2e-ad80-634b1eced4fd"
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Rifle_Rust", 
+               "ammo" : { 
+                  "count" : "5", 
+                  "proto" : "5_45mm_JHP"
+               }
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "d317c87e-9b09-4459-8657-619c9f4271cc" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "4368", 
+            "y" : "408"
+         }, 
+         "child" : [ 
+            "35008633-210a-4b2e-ad80-634b1eced4fd"
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Tokarev_Rust", 
+               "ammo" : { 
+                  "count" : "8", 
+                  "proto" : "307cal_JHP"
+               }
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "f220213d-6177-46cb-a4aa-3cc9b411e383" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "4480", 
+            "y" : "410"
+         }, 
+         "child" : [ 
+            "35008633-210a-4b2e-ad80-634b1eced4fd"
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "PPS43_Rust", 
+               "ammo" : { 
+                  "count" : "20", 
+                  "proto" : "307cal_JHP"
+               }
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "e2ca4f06-c998-43d2-b812-1172171003eb" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "4588", 
+            "y" : "408"
+         }, 
+         "child" : [ 
+            "35008633-210a-4b2e-ad80-634b1eced4fd"
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Crossbow_2", 
+               "ammo" : { 
+                  "count" : "1", 
+                  "proto" : "Bolt"
+               }
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "4", 
+               "proto" : "Bolt"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "79541c76-3c91-4d48-8570-ffc89b986ee9" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "4697", 
+            "y" : "408"
+         }, 
+         "child" : [ 
+            "35008633-210a-4b2e-ad80-634b1eced4fd"
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Crossbow_3", 
+               "ammo" : { 
+                  "count" : "1", 
+                  "proto" : "Bolt"
+               }
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "4", 
+               "proto" : "Bolt"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "83031451-7482-47bf-8694-2b8ae0f296ed" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "4809", 
+            "y" : "408"
+         }, 
+         "child" : [ 
+            "35008633-210a-4b2e-ad80-634b1eced4fd"
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Pipe_Sniper", 
+               "ammo" : { 
+                  "count" : "1", 
+                  "proto" : "BB_AP"
+               }
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "6", 
+               "proto" : "BB_AP"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "f155a79d-da59-4439-b7f6-a733ae66b986" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "4922", 
+            "y" : "408"
+         }, 
+         "child" : [ 
+            "35008633-210a-4b2e-ad80-634b1eced4fd"
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Pipe_Rifle", 
+               "ammo" : { 
+                  "count" : "1", 
+                  "proto" : "BB_AP"
+               }
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "5", 
+               "proto" : "BB_AP"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "7fc78d35-3e62-49b6-8380-6ce8008838da" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "3924", 
+            "y" : "617"
+         }, 
+         "child" : [ 
+            "35008633-210a-4b2e-ad80-634b1eced4fd"
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "mp40rust", 
+               "ammo" : { 
+                  "count" : "32", 
+                  "proto" : "9mm_JHP"
+               }
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "b3016f4a-ddd3-4502-b531-df842dba660e" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "5035", 
+            "y" : "410"
+         }, 
+         "child" : [ 
+            "35008633-210a-4b2e-ad80-634b1eced4fd"
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Pipe_Rifle_2", 
+               "ammo" : { 
+                  "count" : "2", 
+                  "proto" : "BB_AP"
+               }
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "5", 
+               "proto" : "BB_AP"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "1ad3213a-39cc-4485-a6ad-65c3e0ece6ac" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "5145", 
+            "y" : "409"
+         }, 
+         "child" : [ 
+            "35008633-210a-4b2e-ad80-634b1eced4fd"
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Nagant_Rust", 
+               "ammo" : { 
+                  "count" : "7", 
+                  "proto" : "307cal_JHP"
+               }
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "499199f5-c447-47d7-b833-e950e693f0cc" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "4709", 
+            "y" : "842"
+         }, 
+         "child" : [ 
+            "51a4291e-44b7-48e2-92ec-818286a710f4", 
+            "2cf258f5-79f5-4e45-ab67-32c30996c087"
+         ], 
+         "value" : "15", 
+         "modifier" : "Level"
+      }, 
+      "51a4291e-44b7-48e2-92ec-818286a710f4" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "4576", 
+            "y" : "1025"
+         }, 
+         "child" : [ 
+            "19fc79b9-5923-4a20-8e5e-208473b1d01d", 
+            "a95760f9-0753-417f-a601-b0e3aaa4ad81", 
+            "1386cfaa-0b48-49b1-9e09-3739b9d343fd", 
+            "cb3187bd-14f7-4c69-8ae7-bd6a428a1582"
+         ]
+      }, 
+      "19fc79b9-5923-4a20-8e5e-208473b1d01d" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "4442", 
+            "y" : "1115"
+         }, 
+         "child" : [ 
+            "35008633-210a-4b2e-ad80-634b1eced4fd"
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "MG34_LMGrust", 
+               "ammo" : { 
+                  "count" : "40", 
+                  "proto" : "7_62mm_JHP"
+               }
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "a95760f9-0753-417f-a601-b0e3aaa4ad81" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "4551", 
+            "y" : "1112"
+         }, 
+         "child" : [ 
+            "35008633-210a-4b2e-ad80-634b1eced4fd"
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "DP_28rust", 
+               "ammo" : { 
+                  "count" : "40", 
+                  "proto" : "7mm_54R"
+               }
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "1386cfaa-0b48-49b1-9e09-3739b9d343fd" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "4662", 
+            "y" : "1114"
+         }, 
+         "child" : [ 
+            "35008633-210a-4b2e-ad80-634b1eced4fd"
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "mg3rust", 
+               "ammo" : { 
+                  "count" : "50", 
+                  "proto" : "7_62mm_JHP"
+               }
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "cb3187bd-14f7-4c69-8ae7-bd6a428a1582" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "4771", 
+            "y" : "1114"
+         }, 
+         "child" : [ 
+            "35008633-210a-4b2e-ad80-634b1eced4fd"
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "RPD_Rust", 
+               "ammo" : { 
+                  "count" : "50", 
+                  "proto" : "7_62mm_JHP"
+               }
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "770060fd-d4a2-4e75-9d3c-6f4928895bbb" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "5559", 
+            "y" : "355", 
+            "comment" : "misc"
+         }, 
+         "child" : [ 
+            "80b6b887-6d71-417d-aa73-6359e1b249f2", 
+            "5f9570d3-3522-4706-aabc-d16c85e593f0", 
+            "f01eb502-3ebb-4ecb-b702-a338b801d27a", 
+            "d286d358-c5e3-4a3e-9677-051c2cc5ada0", 
+            "22153e0e-3c4a-43fa-80be-9ddaf1911c63"
+         ]
+      }, 
+      "80b6b887-6d71-417d-aa73-6359e1b249f2" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "5442", 
+            "y" : "575"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Bottle_Empty"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Wood"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "Vodka"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "Corned_Fish"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Herbal"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "5f9570d3-3522-4706-aabc-d16c85e593f0" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "5556", 
+            "y" : "572"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Wastemetal"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Wastepaper"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "Apple"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "Ganja_Ciggy"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Kaseta1"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "f01eb502-3ebb-4ecb-b702-a338b801d27a" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "5675", 
+            "y" : "570"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "AmanitaEat"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "Carrot"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Gun_Powder"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Fork"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "Onion"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "d286d358-c5e3-4a3e-9677-051c2cc5ada0" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "5794", 
+            "y" : "575"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "Bottle_Water2"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Bottle_Empty2"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "Bottle_Water2"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "Bottle_Watter"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "Biscuit"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "22153e0e-3c4a-43fa-80be-9ddaf1911c63" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "5908", 
+            "y" : "575"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Wires"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Wastepaper"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Wastemetal"
+            }, 
+            { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Tobacco"
+            }, 
+            { 
+               "class" : "Consumable", 
+               "count" : "1", 
+               "proto" : "Meat"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "1a986187-2f55-44a2-8a84-5c0557d74d76" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "5762", 
+            "y" : "271", 
+            "comment" : "alt weapons"
+         }, 
+         "child" : [ 
+            "f9d38f62-3720-433f-81fb-110636ec3f50", 
+            "51d664ad-513c-4739-b6f4-06ccebed9c3a"
+         ]
+      }, 
+      "f9d38f62-3720-433f-81fb-110636ec3f50" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "5754", 
+            "y" : "351"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Tin_Grenade"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "51d664ad-513c-4739-b6f4-06ccebed9c3a" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "5876", 
+            "y" : "352"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Molotov"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "552bfb48-9f5b-4d0c-a435-a849618df6cb" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "5279", 
+            "y" : "681", 
+            "comment" : "melee weapons"
+         }, 
+         "child" : [ 
+            "43e8d3c1-d2d6-41a9-82b9-89efcad7f42a", 
+            "a1abedf9-0a68-4afb-ae36-bc8fa2d7f37d", 
+            "69b72aa7-81dc-48c2-ab3b-39e07da4e189"
+         ]
+      }, 
+      "43e8d3c1-d2d6-41a9-82b9-89efcad7f42a" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "5151", 
+            "y" : "805"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Knife"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "a1abedf9-0a68-4afb-ae36-bc8fa2d7f37d" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "5267", 
+            "y" : "805"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Hatchet"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "69b72aa7-81dc-48c2-ab3b-39e07da4e189" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "5382", 
+            "y" : "805"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "SpikedTruncheon"
+            }
+         ], 
+         "inventoryObject" : ""
+      }
+   }, 
+   "entry" : "7a91e538-4a60-4839-90c4-03ed8f8f5bcb"
+}

@@ -1,0 +1,2942 @@
+{ 
+   "states" : { 
+      "27d2cb71-d550-4812-a9ad-0ea3aea74912" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100768", 
+            "y" : "-101327"
+         }, 
+         "child" : [ 
+            "07092b0b-b4fc-4de3-bc7f-b939c90d5f34", 
+            "be553787-c681-4e98-97c1-9778ebddc2b3", 
+            "5ac4821e-a4b6-4ffc-8182-fbcdb6d39261", 
+            "cea2afb3-1757-460b-b547-bda49f1921c6", 
+            "ded5cce1-0f1f-4fb9-a233-ca01c349dd7d", 
+            "cb3d764c-2292-4cdc-8855-963c82ccea1d", 
+            "b7ca4820-579d-400b-a8f9-47734c9e407b", 
+            "b3120243-6baa-4f56-b4d5-ddf1e7fe271f", 
+            "698f9ba9-ffbb-4844-8b89-5496a13e42b8", 
+            "7c49eefc-d510-4193-91d6-597d66e1faa8", 
+            "b3cb817a-f8dc-4731-9524-5463932bf9ac", 
+            "62616757-05c3-4bbf-930d-4a368758d671", 
+            "5ac49393-29bf-4202-8d50-a095cdefd032", 
+            "611eebf8-cc45-4c7d-83d2-741e5bf5a228"
+         ]
+      }, 
+      "07092b0b-b4fc-4de3-bc7f-b939c90d5f34" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102104", 
+            "y" : "-101586"
+         }, 
+         "child" : [ 
+            "7cacdd37-8992-4321-8065-fe4bad85847f", 
+            "dd54a199-6a8d-4053-a2d6-7ec655eb5912"
+         ]
+      }, 
+      "7cacdd37-8992-4321-8065-fe4bad85847f" : { 
+         "class" : "QuestStatusNode", 
+         "desc" : { 
+            "x" : "-102308", 
+            "y" : "-101513"
+         }, 
+         "child" : [ 
+            "e38e2a40-466e-4566-93cd-8300bc9a4849", 
+            "b42dc35d-532c-4dc8-98f5-bbb4736da822", 
+            "718a1527-c6d5-4136-9c5a-2067d0ab9e50"
+         ], 
+         "quest_key" : "QUEST.ANTMAN.WIFE.FIND"
+      }, 
+      "e38e2a40-466e-4566-93cd-8300bc9a4849" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-102316", 
+            "y" : "-101363"
+         }, 
+         "child" : [ 
+            "39a2a743-0b6b-4b32-b1e1-0f106cc3cec1", 
+            "e1175ce9-b389-4165-a178-a5cd02958272"
+         ], 
+         "key" : "LARISA"
+      }, 
+      "39a2a743-0b6b-4b32-b1e1-0f106cc3cec1" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102346", 
+            "y" : "-101273"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "e1175ce9-b389-4165-a178-a5cd02958272" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-102229", 
+            "y" : "-101276"
+         }, 
+         "child" : [ 
+            "59245cc3-445d-4117-8385-ee8a3a68e000"
+         ], 
+         "key" : "LARISA"
+      }, 
+      "59245cc3-445d-4117-8385-ee8a3a68e000" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102232", 
+            "y" : "-101224"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "AntGirl", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseFemale8", 
+            "character" : "Baza_Larisa", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "baza", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "head_mask" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Eyepatch"
+            }, 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "Skin_1", 
+            "beard" : "Shaved", 
+            "hair" : "Girl_Bob", 
+            "hairColor" : "Foxy", 
+            "behavior" : "Baza.Larisa"
+         }
+      }, 
+      "b42dc35d-532c-4dc8-98f5-bbb4736da822" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102274", 
+            "y" : "-101434"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "718a1527-c6d5-4136-9c5a-2067d0ab9e50" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102234", 
+            "y" : "-101396"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "dd54a199-6a8d-4053-a2d6-7ec655eb5912" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-102010", 
+            "y" : "-101478"
+         }, 
+         "child" : [ 
+            "1fbed494-c9f3-49d3-9d3a-1f3f3e1802f5", 
+            "20530467-632a-4b7f-be0b-83976dae848d"
+         ], 
+         "key" : "REQUEST_ANTMAN"
+      }, 
+      "1fbed494-c9f3-49d3-9d3a-1f3f3e1802f5" : { 
+         "class" : "RemoveKeywordNode", 
+         "desc" : { 
+            "x" : "-102071", 
+            "y" : "-101378"
+         }, 
+         "child" : [ 
+            "eb677b8d-e5be-4487-8feb-b8363fadc217"
+         ], 
+         "key" : "REQUEST_ANTMAN"
+      }, 
+      "eb677b8d-e5be-4487-8feb-b8363fadc217" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102066", 
+            "y" : "-101324"
+         }, 
+         "child" : [ 
+            "a1f58aa5-e120-4fae-96b9-bd74a4f20818"
+         ], 
+         "spawnPoint" : "AntMan", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale7", 
+            "character" : "Baza_AntMan", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "baza", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "rucksack" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Hand_Bag"
+            }, 
+            "cap" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "AntHat"
+            }, 
+            "armor" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "AntArmor"
+            }, 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "Skin_5", 
+            "beard" : "LongBeardAndMustache", 
+            "hair" : "Facon", 
+            "hairColor" : "Gray", 
+            "behavior" : "Baza.AntMan", 
+            "keywords" : { 
+               "DISABLE_TELEPORT_ON_SLEEP" : "1", 
+               "_ENTITY_STATE" : "AUTODIALOG", 
+               "MIRROR_SLEEP" : "1"
+            }
+         }
+      }, 
+      "a1f58aa5-e120-4fae-96b9-bd74a4f20818" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-102063", 
+            "y" : "-101237"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "GAVRILOV"
+      }, 
+      "20530467-632a-4b7f-be0b-83976dae848d" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101933", 
+            "y" : "-101372"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "be553787-c681-4e98-97c1-9778ebddc2b3" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-102551", 
+            "y" : "-100616"
+         }, 
+         "child" : [ 
+            "5962cac8-ac81-402e-bc79-f7477b8254bd", 
+            "f867d4c7-cc8a-4f3d-8af5-963e632e3905"
+         ], 
+         "key" : "COWBOY"
+      }, 
+      "5962cac8-ac81-402e-bc79-f7477b8254bd" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102568", 
+            "y" : "-100402"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "f867d4c7-cc8a-4f3d-8af5-963e632e3905" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-102421", 
+            "y" : "-100523"
+         }, 
+         "child" : [ 
+            "eec702a8-1ca8-4299-8272-35ef2996419a", 
+            "5962cac8-ac81-402e-bc79-f7477b8254bd"
+         ], 
+         "note_key" : "BAZA.GENERATOR.READY"
+      }, 
+      "eec702a8-1ca8-4299-8272-35ef2996419a" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-102416", 
+            "y" : "-100416"
+         }, 
+         "child" : [ 
+            "fa8213a8-e071-4811-b30c-f070af0f9b88"
+         ], 
+         "key" : "COWBOY"
+      }, 
+      "fa8213a8-e071-4811-b30c-f070af0f9b88" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102424", 
+            "y" : "-100363"
+         }, 
+         "child" : [ 
+            "1c26bc3c-3510-4509-a7c4-ae6488c6099d"
+         ], 
+         "spawnPoint" : "Cow0", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale16", 
+            "character" : "Baza_Cowboy", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "baza_cowboy", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+               { 
+                  "class" : "Consumable", 
+                  "count" : "1", 
+                  "proto" : "Milk"
+               }, 
+               { 
+                  "class" : "Item", 
+                  "count" : "1", 
+                  "proto" : "Shovel"
+               }
+            ], 
+            "mainItemIndex" : "0", 
+            "rucksack" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "KitBag"
+            }, 
+            "cap" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Fedora"
+            }, 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "Skin_2", 
+            "beard" : "BeardAndMustache", 
+            "hair" : "Hairless", 
+            "hairColor" : "Dark", 
+            "behavior" : "Baza.Cowboy"
+         }
+      }, 
+      "1c26bc3c-3510-4509-a7c4-ae6488c6099d" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102424", 
+            "y" : "-100271"
+         }, 
+         "child" : [ 
+            "a2587d1e-2217-4420-b7e2-375c6ada6731"
+         ], 
+         "spawnPoint" : "Cow1", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Cow", 
+            "character" : "Baza_Cow", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "baza_cow1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Baza.Cow"
+         }
+      }, 
+      "a2587d1e-2217-4420-b7e2-375c6ada6731" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102425", 
+            "y" : "-100179"
+         }, 
+         "child" : [ 
+            "d4374b3e-d4c5-4fe6-8982-e4d0966fbe03"
+         ], 
+         "spawnPoint" : "Cow2", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Cow", 
+            "character" : "Baza_Cow", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "baza_cow2", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Baza.Cow"
+         }
+      }, 
+      "d4374b3e-d4c5-4fe6-8982-e4d0966fbe03" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102425", 
+            "y" : "-100088"
+         }, 
+         "child" : [ 
+            "26349391-4761-4901-a6e7-a69dfb8ac083"
+         ], 
+         "spawnPoint" : "Cow3", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Cow", 
+            "character" : "Baza_Cow", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "baza_cow3", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Baza.Cow"
+         }
+      }, 
+      "26349391-4761-4901-a6e7-a69dfb8ac083" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102426", 
+            "y" : "-99998"
+         }, 
+         "child" : [ 
+            "4cca583f-299c-4f95-9300-1f4982725f90"
+         ], 
+         "spawnPoint" : "Cow4", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Cow", 
+            "character" : "Baza_Cow", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "baza_cow4", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Baza.Cow"
+         }
+      }, 
+      "4cca583f-299c-4f95-9300-1f4982725f90" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102429", 
+            "y" : "-99908"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Cow5", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Cow", 
+            "character" : "Baza_Cow", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "baza_cow5", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Baza.Cow"
+         }
+      }, 
+      "5ac4821e-a4b6-4ffc-8182-fbcdb6d39261" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-101020", 
+            "y" : "-100990"
+         }, 
+         "child" : [ 
+            "5f26295d-3b8a-4675-8510-ace6dfff4118", 
+            "27d234a5-2cb1-4442-b2ee-6443a9eb3f2d"
+         ], 
+         "note_key" : "BAZA_REQUEST_ALENKA"
+      }, 
+      "5f26295d-3b8a-4675-8510-ace6dfff4118" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101054", 
+            "y" : "-100875"
+         }, 
+         "child" : [ 
+            "7fda3b6d-f975-4d83-b713-bac43e931ce0", 
+            "d7e3e3cd-bc1c-4037-b1d5-ece1a9e6ca4b"
+         ]
+      }, 
+      "7fda3b6d-f975-4d83-b713-bac43e931ce0" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101142", 
+            "y" : "-100794"
+         }, 
+         "child" : [ 
+            "8da78e2d-9c93-482b-81eb-b8c8d78d3f48", 
+            "d1efe6fb-edaa-45ac-92db-7edcfffca0bc"
+         ], 
+         "key" : "SHOW_ALENKA"
+      }, 
+      "8da78e2d-9c93-482b-81eb-b8c8d78d3f48" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101200", 
+            "y" : "-100716"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "d1efe6fb-edaa-45ac-92db-7edcfffca0bc" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-101087", 
+            "y" : "-100711"
+         }, 
+         "child" : [ 
+            "8cc2f975-9973-4d54-880b-cd67341fb0b1"
+         ], 
+         "key" : "SHOW_ALENKA"
+      }, 
+      "8cc2f975-9973-4d54-880b-cd67341fb0b1" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101095", 
+            "y" : "-100652"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Baza_Alenka", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseFemale3", 
+            "character" : "Baza_Alenka", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "baza", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+               { 
+                  "class" : "Item", 
+                  "count" : "1", 
+                  "proto" : "Wood"
+               }, 
+               { 
+                  "class" : "Item", 
+                  "count" : "1", 
+                  "proto" : "Wastemetal"
+               }, 
+               { 
+                  "class" : "Ammo", 
+                  "count" : "10", 
+                  "proto" : "BB_AP"
+               }
+            ], 
+            "mainItemIndex" : "0", 
+            "item1" : { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Pipe_Rifle", 
+               "ammo" : { 
+                  "count" : "1", 
+                  "proto" : "BB_AP"
+               }
+            }, 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "NoSkin", 
+            "beard" : "Shaved", 
+            "hair" : "Girl_MediumBangs", 
+            "hairColor" : "Blond", 
+            "behavior" : "Rat.Swing"
+         }
+      }, 
+      "d7e3e3cd-bc1c-4037-b1d5-ece1a9e6ca4b" : { 
+         "class" : "FractionIsEnemyRelationshipNode", 
+         "desc" : { 
+            "x" : "-98678", 
+            "y" : "-100074"
+         }, 
+         "child" : [ 
+            "6ff33099-c661-436c-8aeb-2f3a612fe78d", 
+            "fdddb845-4eea-4f87-a193-8afeee9ed66e"
+         ], 
+         "fractionA" : "player", 
+         "fractionB" : "~scavenger"
+      }, 
+      "6ff33099-c661-436c-8aeb-2f3a612fe78d" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-98780", 
+            "y" : "-99978"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "fdddb845-4eea-4f87-a193-8afeee9ed66e" : { 
+         "class" : "TimeDatePeriodNode", 
+         "desc" : { 
+            "x" : "-98546", 
+            "y" : "-99988"
+         }, 
+         "child" : [ 
+            "6ed34783-ab6c-438a-a835-5010538ab220", 
+            "0e54f1ad-6d1b-4779-a02d-4e6986e29a47"
+         ], 
+         "timeStart" : "3", 
+         "modeStart" : "Day", 
+         "timeLen" : "4", 
+         "modeLen" : "Hour", 
+         "offsetValue" : "RANDOM_S_TRADE"
+      }, 
+      "6ed34783-ab6c-438a-a835-5010538ab220" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-98830", 
+            "y" : "-99816"
+         }, 
+         "child" : [ 
+            "cbddd971-f36d-4539-a9fb-da6ab7c8d17e", 
+            "c644d50d-2c95-49d3-a52e-f8d75a5cb368"
+         ], 
+         "key" : "INIT_RANDOM_S_TRADE"
+      }, 
+      "cbddd971-f36d-4539-a9fb-da6ab7c8d17e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-98865", 
+            "y" : "-99723"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "c644d50d-2c95-49d3-a52e-f8d75a5cb368" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-98747", 
+            "y" : "-99725"
+         }, 
+         "child" : [ 
+            "f69a670b-efbe-466a-9eab-5b5a387f5d03"
+         ], 
+         "key" : "INIT_RANDOM_S_TRADE"
+      }, 
+      "f69a670b-efbe-466a-9eab-5b5a387f5d03" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-98774", 
+            "y" : "-99651"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/Baza.Scavenger"
+      }, 
+      "0e54f1ad-6d1b-4779-a02d-4e6986e29a47" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-98476", 
+            "y" : "-99826"
+         }, 
+         "child" : [ 
+            "b4e7ff1a-6f02-4ad4-aafb-3f06f689387a", 
+            "7f4623fe-c218-4475-b65a-ec87fa8e586a"
+         ], 
+         "key" : "INIT_RANDOM_S_TRADE"
+      }, 
+      "b4e7ff1a-6f02-4ad4-aafb-3f06f689387a" : { 
+         "class" : "RemoveKeywordNode", 
+         "desc" : { 
+            "x" : "-98560", 
+            "y" : "-99736"
+         }, 
+         "child" : [ 
+            "b514189b-5ee6-4984-9b0b-4e39ebe07edf"
+         ], 
+         "key" : "INIT_RANDOM_S_TRADE"
+      }, 
+      "b514189b-5ee6-4984-9b0b-4e39ebe07edf" : { 
+         "class" : "ObjectRemoveNode", 
+         "desc" : { 
+            "x" : "-98552", 
+            "y" : "-99664"
+         }, 
+         "child" : [ 
+            "a46727a6-da6e-4c1e-b382-b40d47f6e2dc"
+         ], 
+         "objName" : "Spawn.Scavenger.1"
+      }, 
+      "a46727a6-da6e-4c1e-b382-b40d47f6e2dc" : { 
+         "class" : "ObjectRemoveNode", 
+         "desc" : { 
+            "x" : "-98552", 
+            "y" : "-99608"
+         }, 
+         "child" : [ 
+            "a7e7555c-d684-4d46-a0a1-f408744bc66d"
+         ], 
+         "objName" : "Spawn.Scavenger.2"
+      }, 
+      "a7e7555c-d684-4d46-a0a1-f408744bc66d" : { 
+         "class" : "ObjectRemoveNode", 
+         "desc" : { 
+            "x" : "-98552", 
+            "y" : "-99552"
+         }, 
+         "child" : [ 
+            "b9459c07-6d61-45f1-973f-87cea51bfc7c"
+         ], 
+         "objName" : "Spawn.Scavenger.3"
+      }, 
+      "b9459c07-6d61-45f1-973f-87cea51bfc7c" : { 
+         "class" : "ObjectRemoveNode", 
+         "desc" : { 
+            "x" : "-98406", 
+            "y" : "-99664"
+         }, 
+         "child" : [ 
+            "44fae83b-63aa-40f1-92a0-2d8ef9273b01"
+         ], 
+         "objName" : "Spawn.Scavenger.4"
+      }, 
+      "44fae83b-63aa-40f1-92a0-2d8ef9273b01" : { 
+         "class" : "ObjectRemoveNode", 
+         "desc" : { 
+            "x" : "-98414", 
+            "y" : "-99551"
+         }, 
+         "child" : [ 
+         ], 
+         "objName" : "Spawn.Scavenger.Trader"
+      }, 
+      "7f4623fe-c218-4475-b65a-ec87fa8e586a" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-98384", 
+            "y" : "-99724"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "27d234a5-2cb1-4442-b2ee-6443a9eb3f2d" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100897", 
+            "y" : "-100876"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "cea2afb3-1757-460b-b547-bda49f1921c6" : { 
+         "class" : "QuestStatusNode", 
+         "desc" : { 
+            "x" : "-102018", 
+            "y" : "-101016"
+         }, 
+         "child" : [ 
+            "6f016e3c-600d-4982-9b24-6b61544647cf", 
+            "0605aacc-105f-4b4e-bab9-f65265302ac4", 
+            "dbed37d7-c4eb-482c-ab5a-ab8ceacca3f9"
+         ], 
+         "quest_key" : "BAZA_VISIT_GODGIN"
+      }, 
+      "6f016e3c-600d-4982-9b24-6b61544647cf" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-102155", 
+            "y" : "-100833"
+         }, 
+         "child" : [ 
+            "e675dc83-2525-4db8-bd94-70e12a8529cf", 
+            "072d6cec-95d0-49e3-8dc5-fdc25d9ec4e3"
+         ], 
+         "key" : "SHOW_DYNIA"
+      }, 
+      "e675dc83-2525-4db8-bd94-70e12a8529cf" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102179", 
+            "y" : "-100747"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "072d6cec-95d0-49e3-8dc5-fdc25d9ec4e3" : { 
+         "class" : "QuestStatusNode", 
+         "desc" : { 
+            "x" : "-102149", 
+            "y" : "-100697"
+         }, 
+         "child" : [ 
+            "609c9053-43f2-4e70-b843-abbebc02da24", 
+            "e9dd5cbb-6809-416a-8397-99c0f0f0920e", 
+            "7443a9f4-23da-43d9-94b0-cfce1ced5122"
+         ], 
+         "quest_key" : "FACTORY.REPORT"
+      }, 
+      "609c9053-43f2-4e70-b843-abbebc02da24" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102215", 
+            "y" : "-100607"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "e9dd5cbb-6809-416a-8397-99c0f0f0920e" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-102141", 
+            "y" : "-100569"
+         }, 
+         "child" : [ 
+            "daf3d956-8974-4e4e-b3d9-94d3a3ad2357"
+         ], 
+         "key" : "SHOW_DYNIA"
+      }, 
+      "daf3d956-8974-4e4e-b3d9-94d3a3ad2357" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102149", 
+            "y" : "-100511"
+         }, 
+         "child" : [ 
+            "d312c1fc-82ff-4a44-a54e-ec181a1322f0"
+         ], 
+         "spawnPoint" : "Baza_Shasa", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale15", 
+            "character" : "Baza_Shasa", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "baza", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+               { 
+                  "class" : "Consumable", 
+                  "count" : "1", 
+                  "proto" : "Stew"
+               }, 
+               { 
+                  "class" : "Item", 
+                  "count" : "2", 
+                  "proto" : "Spoon"
+               }, 
+               { 
+                  "class" : "Consumable", 
+                  "count" : "1", 
+                  "proto" : "RadX"
+               }, 
+               { 
+                  "class" : "Consumable", 
+                  "count" : "1", 
+                  "proto" : "StimFEN2"
+               }, 
+               { 
+                  "class" : "Consumable", 
+                  "count" : "2", 
+                  "proto" : "Kasparamid"
+               }
+            ], 
+            "mainItemIndex" : "0", 
+            "item1" : { 
+               "class" : "Ammo", 
+               "count" : "30", 
+               "proto" : "307cal_JHP"
+            }, 
+            "item2" : { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "PPS43_Rust", 
+               "ammo" : { 
+                  "count" : "20", 
+                  "proto" : "307cal_AP"
+               }
+            }, 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "Skin_3", 
+            "beard" : "Mustache", 
+            "hair" : "Facon", 
+            "hairColor" : "Brown", 
+            "behavior" : "Village.Crowd", 
+            "keywords" : { 
+               "MIRROR_SLEEP" : "1"
+            }
+         }
+      }, 
+      "d312c1fc-82ff-4a44-a54e-ec181a1322f0" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102150", 
+            "y" : "-100416"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Baza_Dynia", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseFemale11", 
+            "character" : "Baza_Dynia", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "baza", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+               { 
+                  "class" : "Consumable", 
+                  "count" : "5", 
+                  "proto" : "AmanitaEat"
+               }, 
+               { 
+                  "class" : "Item", 
+                  "count" : "1", 
+                  "proto" : "Soap"
+               }, 
+               { 
+                  "class" : "Item", 
+                  "count" : "1", 
+                  "proto" : "Kaseta1"
+               }, 
+               { 
+                  "class" : "Consumable", 
+                  "count" : "1", 
+                  "proto" : "RedMoscow"
+               }
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "hair" : "Girl_Wavy", 
+            "hairColor" : "Brown", 
+            "behavior" : "Village.Crowd"
+         }
+      }, 
+      "7443a9f4-23da-43d9-94b0-cfce1ced5122" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102069", 
+            "y" : "-100605"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "0605aacc-105f-4b4e-bab9-f65265302ac4" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101998", 
+            "y" : "-100879"
+         }, 
+         "child" : [ 
+            "6f016e3c-600d-4982-9b24-6b61544647cf"
+         ]
+      }, 
+      "dbed37d7-c4eb-482c-ab5a-ab8ceacca3f9" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101919", 
+            "y" : "-100913"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "ded5cce1-0f1f-4fb9-a233-ca01c349dd7d" : { 
+         "class" : "PlayerLevelOutNode", 
+         "desc" : { 
+            "x" : "-100800", 
+            "y" : "-100485"
+         }, 
+         "child" : [ 
+            "f0ce46a1-f417-418b-8e30-cfc0f1c8d822", 
+            "320a172f-b7dc-49e4-a147-d1ab3370c7cb", 
+            "c7bc8fc5-8066-46f8-bbbd-2c7f8e31e05b", 
+            "f477f33f-20d8-4fe6-b94a-55e2b35a06f2", 
+            "944b8194-df7f-43bd-92c8-88e2e44c8a75", 
+            "0df03f92-5586-4f50-9670-932ee8909687", 
+            "3d89eb80-8c69-47e2-b3a6-a40be618762b", 
+            "451f4a5b-15a5-4f4a-a55a-b968caa08508", 
+            "5affd9f8-8f31-493d-a1ee-29a825276ca0", 
+            "288eacfb-39c8-49be-aab7-b63a4a39a2db", 
+            "eecfb143-15a8-41e0-a995-37552baeac22"
+         ]
+      }, 
+      "f0ce46a1-f417-418b-8e30-cfc0f1c8d822" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-101293", 
+            "y" : "-100497"
+         }, 
+         "child" : [ 
+            "75bffcd6-20dc-4325-a88c-d7affee32c44", 
+            "1b8cd965-6c0c-4ea1-902a-98f06d2e9c5a"
+         ], 
+         "note_key" : "BAZA.PUMP.READY"
+      }, 
+      "75bffcd6-20dc-4325-a88c-d7affee32c44" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-101416", 
+            "y" : "-100406"
+         }, 
+         "child" : [ 
+            "578e24ff-c72b-4177-821f-5bc61057ad0c", 
+            "4b96a100-6cf5-405f-a8bf-d4ebc524adee"
+         ], 
+         "note_key" : "RUINS.ANTMAN.OUT"
+      }, 
+      "578e24ff-c72b-4177-821f-5bc61057ad0c" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-101482", 
+            "y" : "-100330"
+         }, 
+         "child" : [ 
+            "99256778-bf26-4c21-9f3c-a1f865b41373"
+         ], 
+         "key" : "REQUEST_ANTMAN"
+      }, 
+      "99256778-bf26-4c21-9f3c-a1f865b41373" : { 
+         "class" : "NotebookRemoveNoteNode", 
+         "desc" : { 
+            "x" : "-101491", 
+            "y" : "-100272"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "RUINS.ANTMAN.OUT"
+      }, 
+      "4b96a100-6cf5-405f-a8bf-d4ebc524adee" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101292", 
+            "y" : "-100293"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "1b8cd965-6c0c-4ea1-902a-98f06d2e9c5a" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101210", 
+            "y" : "-100396"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "320a172f-b7dc-49e4-a147-d1ab3370c7cb" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-102682", 
+            "y" : "-100972"
+         }, 
+         "child" : [ 
+            "bd04c140-7ce0-49d3-8ce5-13a85c995439", 
+            "a34199cc-81dd-4490-afce-3add7cd6b6c8"
+         ], 
+         "key" : "SHOW_DYNIA"
+      }, 
+      "bd04c140-7ce0-49d3-8ce5-13a85c995439" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-102739", 
+            "y" : "-100887"
+         }, 
+         "child" : [ 
+            "20e16af3-abf5-4135-b57c-7edc07ad5897", 
+            "a34199cc-81dd-4490-afce-3add7cd6b6c8"
+         ], 
+         "objectName" : "Baza_Dynia"
+      }, 
+      "20e16af3-abf5-4135-b57c-7edc07ad5897" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-102779", 
+            "y" : "-100750"
+         }, 
+         "child" : [ 
+            "b974f28b-ce46-42c0-9e45-4da244bc2ef8"
+         ], 
+         "note_key" : "MOONSHINER.DYNIA.DIE"
+      }, 
+      "b974f28b-ce46-42c0-9e45-4da244bc2ef8" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-102791", 
+            "y" : "-100692"
+         }, 
+         "child" : [ 
+         ], 
+         "quest_key" : "MOONSHINERS.SAMSON.END"
+      }, 
+      "a34199cc-81dd-4490-afce-3add7cd6b6c8" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102665", 
+            "y" : "-100786"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "c7bc8fc5-8066-46f8-bbbd-2c7f8e31e05b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101458", 
+            "y" : "-99871"
+         }, 
+         "child" : [ 
+            "a53309fe-7601-4f31-9fa7-006201da57a2", 
+            "6d354f8b-ccfe-44c5-ba34-13ebd98bac7e"
+         ]
+      }, 
+      "a53309fe-7601-4f31-9fa7-006201da57a2" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101522", 
+            "y" : "-99819"
+         }, 
+         "child" : [ 
+            "a8994166-ce4f-4b36-a0c2-0e6ca48c724a", 
+            "169b8cb7-3f54-42c9-99c1-030492b891ee"
+         ], 
+         "key" : "GAVRILOV"
+      }, 
+      "a8994166-ce4f-4b36-a0c2-0e6ca48c724a" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-101551", 
+            "y" : "-99700"
+         }, 
+         "child" : [ 
+            "27027018-d713-4ef8-96e2-019e0dd50f18", 
+            "169b8cb7-3f54-42c9-99c1-030492b891ee"
+         ], 
+         "objectName" : "AntMan"
+      }, 
+      "27027018-d713-4ef8-96e2-019e0dd50f18" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-101572", 
+            "y" : "-99610"
+         }, 
+         "child" : [ 
+            "b003f4fb-99ed-4ad1-9f43-683acca7235a"
+         ], 
+         "note_key" : "BAZA_GAVRILOV_DEAD"
+      }, 
+      "b003f4fb-99ed-4ad1-9f43-683acca7235a" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-101581", 
+            "y" : "-99556"
+         }, 
+         "child" : [ 
+            "29edca6f-03f5-40b5-b675-c814e8c48078"
+         ], 
+         "quest_key" : "QUEST.ANTMAN.WIFE.FIND"
+      }, 
+      "29edca6f-03f5-40b5-b675-c814e8c48078" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-101566", 
+            "y" : "-99503"
+         }, 
+         "child" : [ 
+         ], 
+         "quest_key" : "QUEST.ANTMAN.WIFE"
+      }, 
+      "169b8cb7-3f54-42c9-99c1-030492b891ee" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101469", 
+            "y" : "-99740"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "6d354f8b-ccfe-44c5-ba34-13ebd98bac7e" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101399", 
+            "y" : "-99818"
+         }, 
+         "child" : [ 
+            "315eaf51-c7ef-4627-b70b-07d7074ac0c5", 
+            "169b8cb7-3f54-42c9-99c1-030492b891ee"
+         ], 
+         "key" : "LARISA"
+      }, 
+      "315eaf51-c7ef-4627-b70b-07d7074ac0c5" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-101397", 
+            "y" : "-99696"
+         }, 
+         "child" : [ 
+            "1eda7b24-8407-467b-ba78-f28660f73aaf", 
+            "169b8cb7-3f54-42c9-99c1-030492b891ee"
+         ], 
+         "objectName" : "AntGirl"
+      }, 
+      "1eda7b24-8407-467b-ba78-f28660f73aaf" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-101408", 
+            "y" : "-99610"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "BAZA_LARISA_DEAD"
+      }, 
+      "f477f33f-20d8-4fe6-b94a-55e2b35a06f2" : { 
+         "class" : "ObjectCheckNode", 
+         "desc" : { 
+            "x" : "-101720", 
+            "y" : "-100750"
+         }, 
+         "child" : [ 
+            "044615db-0f9f-4e8e-b245-a1680918baa0", 
+            "53f4cf8b-6a32-45e1-88d4-b85e39f6de5c"
+         ], 
+         "objectName" : "Gexogen"
+      }, 
+      "044615db-0f9f-4e8e-b245-a1680918baa0" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-101789", 
+            "y" : "-100650"
+         }, 
+         "child" : [ 
+            "53f4cf8b-6a32-45e1-88d4-b85e39f6de5c", 
+            "c8af6e9e-72d5-46ca-9f80-919903c0f32a"
+         ], 
+         "objectName" : "Gexogen"
+      }, 
+      "53f4cf8b-6a32-45e1-88d4-b85e39f6de5c" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101673", 
+            "y" : "-100457"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "c8af6e9e-72d5-46ca-9f80-919903c0f32a" : { 
+         "class" : "CharacterIsInStateNode", 
+         "desc" : { 
+            "x" : "-101777", 
+            "y" : "-100570"
+         }, 
+         "child" : [ 
+            "8812e2e2-ed43-4990-8572-55c3afa28912", 
+            "53f4cf8b-6a32-45e1-88d4-b85e39f6de5c"
+         ], 
+         "objectName" : "Gexogen", 
+         "stateName" : "AWAKE"
+      }, 
+      "8812e2e2-ed43-4990-8572-55c3afa28912" : { 
+         "class" : "CharacterTeleportRandomNode", 
+         "desc" : { 
+            "x" : "-101849", 
+            "y" : "-100465"
+         }, 
+         "child" : [ 
+         ], 
+         "pointName" : "Gexogen.waypoints", 
+         "relative" : "false", 
+         "filter" : "/.way", 
+         "objectName" : "Gexogen"
+      }, 
+      "944b8194-df7f-43bd-92c8-88e2e44c8a75" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-101856", 
+            "y" : "-99828", 
+            "comment" : "для обратной совместимости"
+         }, 
+         "child" : [ 
+            "f49c04d5-3cd1-4d7c-9e28-174554f146a8", 
+            "8806ac3b-f429-4144-9cd0-3d8aa543e08b"
+         ], 
+         "note_key" : "BAZA.FUEL.READY"
+      }, 
+      "f49c04d5-3cd1-4d7c-9e28-174554f146a8" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101944", 
+            "y" : "-99741"
+         }, 
+         "child" : [ 
+            "69eeace2-72af-4cf2-bb81-8281f6b8f63b", 
+            "17ed3075-0cda-4746-b85c-59fb602b78bb"
+         ], 
+         "key" : "BAZA_REQUEST_NIKO_TIME"
+      }, 
+      "69eeace2-72af-4cf2-bb81-8281f6b8f63b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101982", 
+            "y" : "-99659"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "17ed3075-0cda-4746-b85c-59fb602b78bb" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-101869", 
+            "y" : "-99663"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "BAZA_REQUEST_NIKO_TIME", 
+         "value" : "$TIME$"
+      }, 
+      "8806ac3b-f429-4144-9cd0-3d8aa543e08b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101753", 
+            "y" : "-99736"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "0df03f92-5586-4f50-9670-932ee8909687" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-102142", 
+            "y" : "-100037"
+         }, 
+         "child" : [ 
+            "43ed60eb-e3b3-4289-8fd0-4c17cc5e7a13", 
+            "f30b291a-c986-4c08-8309-a11cb84a3660"
+         ], 
+         "note_key" : "BAZA.RESTROOM.READY"
+      }, 
+      "43ed60eb-e3b3-4289-8fd0-4c17cc5e7a13" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-102183", 
+            "y" : "-99947"
+         }, 
+         "child" : [ 
+            "19dead95-8b32-40f7-a1f4-3c99d06ef89a", 
+            "f30b291a-c986-4c08-8309-a11cb84a3660"
+         ], 
+         "note_key" : "_SPEC_ENC_MANS"
+      }, 
+      "19dead95-8b32-40f7-a1f4-3c99d06ef89a" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-102208", 
+            "y" : "-99861"
+         }, 
+         "child" : [ 
+            "0729bcca-6409-41ea-af61-ba811a4224a4", 
+            "4c8ec094-4c9d-4a16-a211-b33e4bd02c48"
+         ], 
+         "key" : "ALEX"
+      }, 
+      "0729bcca-6409-41ea-af61-ba811a4224a4" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102264", 
+            "y" : "-99757"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "4c8ec094-4c9d-4a16-a211-b33e4bd02c48" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-102148", 
+            "y" : "-99751"
+         }, 
+         "child" : [ 
+            "dad0472d-5fed-47dd-96da-ae670112ca7d"
+         ], 
+         "key" : "ALEX"
+      }, 
+      "dad0472d-5fed-47dd-96da-ae670112ca7d" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102154", 
+            "y" : "-99698"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Alexander", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale6", 
+            "character" : "Alexander", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "baza", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+               { 
+                  "class" : "Consumable", 
+                  "count" : "3", 
+                  "proto" : "Biscuit"
+               }, 
+               { 
+                  "class" : "Consumable", 
+                  "count" : "1", 
+                  "proto" : "Bottle_Water2"
+               }, 
+               { 
+                  "class" : "Item", 
+                  "count" : "1", 
+                  "proto" : "Fork"
+               }, 
+               { 
+                  "class" : "Item", 
+                  "count" : "1", 
+                  "proto" : "Tobacco"
+               }, 
+               { 
+                  "class" : "Consumable", 
+                  "count" : "3", 
+                  "proto" : "Stew"
+               }, 
+               { 
+                  "class" : "Item", 
+                  "count" : "50", 
+                  "proto" : "Money"
+               }
+            ], 
+            "mainItemIndex" : "0", 
+            "item2" : { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Hatchet"
+            }, 
+            "rucksack" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Backpack"
+            }, 
+            "cap" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "BlueBeret"
+            }, 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "NoSkin", 
+            "beard" : "Shaved", 
+            "hair" : "Hairless", 
+            "hairColor" : "Dark", 
+            "behavior" : "Baza.Alexander"
+         }
+      }, 
+      "f30b291a-c986-4c08-8309-a11cb84a3660" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102082", 
+            "y" : "-99826"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "3d89eb80-8c69-47e2-b3a6-a40be618762b" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-101575", 
+            "y" : "-100048"
+         }, 
+         "child" : [ 
+            "c069f5b6-1082-4c81-ab26-e10a4ee5cf15", 
+            "002c2820-cdde-490a-8bf0-6d097c34052a"
+         ], 
+         "objectName" : "Pasha"
+      }, 
+      "c069f5b6-1082-4c81-ab26-e10a4ee5cf15" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-101647", 
+            "y" : "-99957"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "BAZA_PASHA_DIED"
+      }, 
+      "002c2820-cdde-490a-8bf0-6d097c34052a" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101507", 
+            "y" : "-99947"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "451f4a5b-15a5-4f4a-a55a-b968caa08508" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-101322", 
+            "y" : "-100045"
+         }, 
+         "child" : [ 
+            "396409c4-0da1-4291-8400-3ff3fe331771", 
+            "a410c27c-ad52-4a40-bcdb-d539521dfd02"
+         ], 
+         "objectName" : "Godgin"
+      }, 
+      "396409c4-0da1-4291-8400-3ff3fe331771" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-101394", 
+            "y" : "-99954"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "BAZA_GODGIN_DIED"
+      }, 
+      "a410c27c-ad52-4a40-bcdb-d539521dfd02" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101254", 
+            "y" : "-99944"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "5affd9f8-8f31-493d-a1ee-29a825276ca0" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-101796", 
+            "y" : "-100318"
+         }, 
+         "child" : [ 
+            "156e853c-85c5-4d3a-8fc8-ec7554f4e849", 
+            "476756e8-bfd2-4294-b9b2-87ad4d0fefe4"
+         ], 
+         "note_key" : "BAZA_REQUEST_NIKO"
+      }, 
+      "156e853c-85c5-4d3a-8fc8-ec7554f4e849" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-101932", 
+            "y" : "-100231"
+         }, 
+         "child" : [ 
+            "0816584b-e7fe-4c3e-9bc8-110187a09548", 
+            "3dfd561b-748e-46ad-8a94-2dba24b57a62"
+         ], 
+         "note_key" : "BAZA.TOOLSET.READY"
+      }, 
+      "0816584b-e7fe-4c3e-9bc8-110187a09548" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101952", 
+            "y" : "-100126"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Niko", 
+         "active" : "false"
+      }, 
+      "3dfd561b-748e-46ad-8a94-2dba24b57a62" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101830", 
+            "y" : "-100123"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "476756e8-bfd2-4294-b9b2-87ad4d0fefe4" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101725", 
+            "y" : "-100204"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "288eacfb-39c8-49be-aab7-b63a4a39a2db" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-100804", 
+            "y" : "-100337"
+         }, 
+         "child" : [ 
+            "28c88ac7-e49f-482e-8efe-4a8c03118cb0", 
+            "76432928-0f0a-49a7-a341-0aceb10f1893"
+         ], 
+         "objectName" : "GaintSpider"
+      }, 
+      "28c88ac7-e49f-482e-8efe-4a8c03118cb0" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-100872", 
+            "y" : "-100252"
+         }, 
+         "child" : [ 
+            "3c79be76-f314-4431-b36a-48b52ff95e18", 
+            "76432928-0f0a-49a7-a341-0aceb10f1893"
+         ], 
+         "objectName" : "GaintSpider1"
+      }, 
+      "3c79be76-f314-4431-b36a-48b52ff95e18" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-100925", 
+            "y" : "-100163"
+         }, 
+         "child" : [ 
+            "bb5c3cdb-7208-4bfe-a1a5-c6faa5124cda", 
+            "76432928-0f0a-49a7-a341-0aceb10f1893"
+         ], 
+         "objectName" : "GaintSpider2"
+      }, 
+      "bb5c3cdb-7208-4bfe-a1a5-c6faa5124cda" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-100985", 
+            "y" : "-100077"
+         }, 
+         "child" : [ 
+            "93ba652f-6536-46bc-b4f5-047502dafeda", 
+            "76432928-0f0a-49a7-a341-0aceb10f1893"
+         ], 
+         "objectName" : "GaintSpider3"
+      }, 
+      "93ba652f-6536-46bc-b4f5-047502dafeda" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-101036", 
+            "y" : "-99992"
+         }, 
+         "child" : [ 
+            "b7c83345-1ea9-47bf-b958-fccf4c6c3674", 
+            "76432928-0f0a-49a7-a341-0aceb10f1893"
+         ], 
+         "objectName" : "GaintSpider4"
+      }, 
+      "b7c83345-1ea9-47bf-b958-fccf4c6c3674" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-101085", 
+            "y" : "-99908"
+         }, 
+         "child" : [ 
+            "d7ee25f5-dd35-442f-b462-fdbcd9e38cb8", 
+            "76432928-0f0a-49a7-a341-0aceb10f1893"
+         ], 
+         "objectName" : "GaintSpider5"
+      }, 
+      "d7ee25f5-dd35-442f-b462-fdbcd9e38cb8" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-100940", 
+            "y" : "-99735"
+         }, 
+         "child" : [ 
+            "f229f074-ae2e-40bf-b88a-9a5539f69f28"
+         ], 
+         "note_key" : "BAZE.MUTANTS.KILLED"
+      }, 
+      "f229f074-ae2e-40bf-b88a-9a5539f69f28" : { 
+         "class" : "QuestStatusNode", 
+         "desc" : { 
+            "x" : "-100935", 
+            "y" : "-99674"
+         }, 
+         "child" : [ 
+            "a1460e81-2c9b-43a5-bd8c-bdf86f632fa5", 
+            "76341f7b-6ec3-4fc3-87c6-3f850de06f7c", 
+            "617de708-a78b-4827-9625-1692e9d331d6"
+         ], 
+         "quest_key" : "BAZE_KILL_MUTANTS"
+      }, 
+      "a1460e81-2c9b-43a5-bd8c-bdf86f632fa5" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-101073", 
+            "y" : "-99575"
+         }, 
+         "child" : [ 
+            "765963db-2b88-4775-be6c-ba32e76557ea"
+         ], 
+         "quest_key" : "BAZE_KILL_MUTANTS"
+      }, 
+      "765963db-2b88-4775-be6c-ba32e76557ea" : { 
+         "class" : "QuestBeginNode", 
+         "desc" : { 
+            "x" : "-100956", 
+            "y" : "-99496"
+         }, 
+         "child" : [ 
+         ], 
+         "quest_key" : "BAZA_MONSTERS_GO_BACK"
+      }, 
+      "76341f7b-6ec3-4fc3-87c6-3f850de06f7c" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100917", 
+            "y" : "-99565"
+         }, 
+         "child" : [ 
+            "765963db-2b88-4775-be6c-ba32e76557ea"
+         ]
+      }, 
+      "617de708-a78b-4827-9625-1692e9d331d6" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100883", 
+            "y" : "-99597"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "76432928-0f0a-49a7-a341-0aceb10f1893" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100719", 
+            "y" : "-99704"
+         }, 
+         "child" : [ 
+            "d09db640-b183-4f23-a985-d8e183db2c30"
+         ]
+      }, 
+      "d09db640-b183-4f23-a985-d8e183db2c30" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-100481", 
+            "y" : "-100340"
+         }, 
+         "child" : [ 
+            "288eacfb-39c8-49be-aab7-b63a4a39a2db"
+         ], 
+         "waitTime" : "5"
+      }, 
+      "eecfb143-15a8-41e0-a995-37552baeac22" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-100676", 
+            "y" : "-100267"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/ph_trap_event"
+      }, 
+      "cb3d764c-2292-4cdc-8855-963c82ccea1d" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-100620", 
+            "y" : "-100495"
+         }, 
+         "child" : [ 
+            "2b9c8872-e387-4b0a-af0b-b100f58aecfa", 
+            "d09db640-b183-4f23-a985-d8e183db2c30"
+         ], 
+         "note_key" : "BAZE.MUTANTS.KILLED"
+      }, 
+      "2b9c8872-e387-4b0a-af0b-b100f58aecfa" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100629", 
+            "y" : "-100405"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "b7ca4820-579d-400b-a8f9-47734c9e407b" : { 
+         "class" : "QuestStatusNode", 
+         "desc" : { 
+            "x" : "-100301", 
+            "y" : "-100545"
+         }, 
+         "child" : [ 
+            "6dcce79f-facc-4d9f-86ea-900c2264e970", 
+            "2f6a1655-ef29-4e3d-b815-0ee7e81b6053", 
+            "5867bf99-0e94-4498-bc8e-c1a8d556c634"
+         ], 
+         "quest_key" : "BAZA_VISIT_GODGIN"
+      }, 
+      "6dcce79f-facc-4d9f-86ea-900c2264e970" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100353", 
+            "y" : "-100385"
+         }, 
+         "child" : [ 
+            "38c426be-699b-492b-aefb-2c98aff41c08", 
+            "ce15f3f4-79f3-41e4-b069-9e1111ef705e"
+         ]
+      }, 
+      "38c426be-699b-492b-aefb-2c98aff41c08" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-100416", 
+            "y" : "-100269"
+         }, 
+         "child" : [ 
+         ], 
+         "quest_key" : "BAZA_VISIT_GODGIN"
+      }, 
+      "ce15f3f4-79f3-41e4-b069-9e1111ef705e" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100298", 
+            "y" : "-100207"
+         }, 
+         "child" : [ 
+            "8913abd4-40ab-4952-9122-6bc9bc46849a"
+         ], 
+         "objectName" : "GEOMETRY_Fixed", 
+         "active" : "true"
+      }, 
+      "8913abd4-40ab-4952-9122-6bc9bc46849a" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100306", 
+            "y" : "-100131"
+         }, 
+         "child" : [ 
+            "3e5c2580-d455-4ced-ba1a-7a6bdb2e4de4", 
+            "7e791280-5f84-49b3-9b2d-9c267c700107", 
+            "bdcbc3b1-01ec-4d11-a36b-bd7a512c4453"
+         ], 
+         "objectName" : "GEOMETRY_Broken", 
+         "active" : "false"
+      }, 
+      "3e5c2580-d455-4ced-ba1a-7a6bdb2e4de4" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100321", 
+            "y" : "-99581"
+         }, 
+         "child" : [ 
+            "8354a7dd-3c77-4e50-aa3a-08b0c729b537"
+         ], 
+         "objectName" : "LIGHTs", 
+         "active" : "true"
+      }, 
+      "8354a7dd-3c77-4e50-aa3a-08b0c729b537" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100321", 
+            "y" : "-99505"
+         }, 
+         "child" : [ 
+            "2678e9aa-b2d0-475e-a108-7129fd01d27f"
+         ], 
+         "objectName" : "DNC_Night", 
+         "active" : "true"
+      }, 
+      "2678e9aa-b2d0-475e-a108-7129fd01d27f" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100319", 
+            "y" : "-99427"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "DNC_Day", 
+         "active" : "true"
+      }, 
+      "7e791280-5f84-49b3-9b2d-9c267c700107" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100535", 
+            "y" : "-99929"
+         }, 
+         "child" : [ 
+            "c0e9a81f-6ccf-47aa-8038-62975c4ace42"
+         ], 
+         "objectName" : "Baza_Ladder_Down", 
+         "active" : "true"
+      }, 
+      "c0e9a81f-6ccf-47aa-8038-62975c4ace42" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100553", 
+            "y" : "-99853"
+         }, 
+         "child" : [ 
+            "a2abeaaf-17c9-452b-8db9-a4ed428ccb83"
+         ], 
+         "objectName" : "Hermo_Door_box_CLOSE", 
+         "active" : "false"
+      }, 
+      "a2abeaaf-17c9-452b-8db9-a4ed428ccb83" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100550", 
+            "y" : "-99774"
+         }, 
+         "child" : [ 
+            "f95acb42-5a0c-4266-8ca2-630b161dcf72"
+         ], 
+         "objectName" : "Hermo_Door_box_OPEN", 
+         "active" : "true"
+      }, 
+      "f95acb42-5a0c-4266-8ca2-630b161dcf72" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100513", 
+            "y" : "-99695"
+         }, 
+         "child" : [ 
+            "5630a36a-b216-4f1c-8e35-2a313efcf8ae"
+         ], 
+         "objectName" : "GaintSpider", 
+         "active" : "false"
+      }, 
+      "5630a36a-b216-4f1c-8e35-2a313efcf8ae" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100514", 
+            "y" : "-99621"
+         }, 
+         "child" : [ 
+            "f08ccc3f-a440-4ece-abfa-d64fd1ebe802"
+         ], 
+         "objectName" : "GaintSpider1", 
+         "active" : "false"
+      }, 
+      "f08ccc3f-a440-4ece-abfa-d64fd1ebe802" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100513", 
+            "y" : "-99544"
+         }, 
+         "child" : [ 
+            "a747faad-ea05-4207-98c3-04a23cda366e"
+         ], 
+         "objectName" : "GaintSpider2", 
+         "active" : "false"
+      }, 
+      "a747faad-ea05-4207-98c3-04a23cda366e" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100513", 
+            "y" : "-99469"
+         }, 
+         "child" : [ 
+            "f53cc17c-6bd8-47d4-90d4-762126e0d744"
+         ], 
+         "objectName" : "GaintSpider3", 
+         "active" : "false"
+      }, 
+      "f53cc17c-6bd8-47d4-90d4-762126e0d744" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100514", 
+            "y" : "-99392"
+         }, 
+         "child" : [ 
+            "5fbd8c85-a134-4456-844e-3c59b36ab647"
+         ], 
+         "objectName" : "GaintSpider4", 
+         "active" : "false"
+      }, 
+      "5fbd8c85-a134-4456-844e-3c59b36ab647" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100514", 
+            "y" : "-99313"
+         }, 
+         "child" : [ 
+            "0c0f13cc-cf48-4a33-9ac2-e419aefda35f", 
+            "8f1e2b2f-eda0-4307-9acb-7d13364d73f9"
+         ], 
+         "objectName" : "GaintSpider5", 
+         "active" : "false"
+      }, 
+      "0c0f13cc-cf48-4a33-9ac2-e419aefda35f" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100895", 
+            "y" : "-99411"
+         }, 
+         "child" : [ 
+            "bb8e7234-61b1-4c35-a7cf-b35e9672e98a", 
+            "6bae5230-a68a-449c-8778-dce2baddca18"
+         ], 
+         "key" : "TRASH_UP"
+      }, 
+      "bb8e7234-61b1-4c35-a7cf-b35e9672e98a" : { 
+         "class" : "TimeDateTriggerNode", 
+         "desc" : { 
+            "x" : "-101001", 
+            "y" : "-99305"
+         }, 
+         "child" : [ 
+            "6bae5230-a68a-449c-8778-dce2baddca18"
+         ], 
+         "time" : "24", 
+         "mode" : "Hour", 
+         "offsetValue" : "TRASH_UP"
+      }, 
+      "6bae5230-a68a-449c-8778-dce2baddca18" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-100887", 
+            "y" : "-99181"
+         }, 
+         "child" : [ 
+            "eadc1dae-11c7-44ff-8335-d5e28a6dbf84", 
+            "c1f8c190-5c75-478e-8a05-a75eb671494b"
+         ], 
+         "key" : "TRASH_UP", 
+         "value" : "$TIME$"
+      }, 
+      "eadc1dae-11c7-44ff-8335-d5e28a6dbf84" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-101040", 
+            "y" : "-99087"
+         }, 
+         "child" : [ 
+            "72651711-8e24-4a75-b93b-6f9be2656e86"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "trashcon_1"
+      }, 
+      "72651711-8e24-4a75-b93b-6f9be2656e86" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-100918", 
+            "y" : "-98977"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/TrashLoot_1"
+      }, 
+      "c1f8c190-5c75-478e-8a05-a75eb671494b" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-100817", 
+            "y" : "-99086"
+         }, 
+         "child" : [ 
+            "72651711-8e24-4a75-b93b-6f9be2656e86"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "trashcon_2"
+      }, 
+      "8f1e2b2f-eda0-4307-9acb-7d13364d73f9" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-100487", 
+            "y" : "-99219"
+         }, 
+         "child" : [ 
+            "23a2413b-90d1-46a5-868f-e995cf2c8017", 
+            "5c8426a9-ff4b-42b2-be11-7d33d1ca0e9b"
+         ], 
+         "note_key" : "BAZA_CINEMATIC"
+      }, 
+      "23a2413b-90d1-46a5-868f-e995cf2c8017" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100513", 
+            "y" : "-99121", 
+            "comment" : "паук из катсцены"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Worm", 
+         "active" : "false"
+      }, 
+      "5c8426a9-ff4b-42b2-be11-7d33d1ca0e9b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100297", 
+            "y" : "-99116"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "bdcbc3b1-01ec-4d11-a36b-bd7a512c4453" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100235", 
+            "y" : "-100010"
+         }, 
+         "child" : [ 
+            "3bba3382-0b94-4a1b-b437-4eaf8bdd42db"
+         ], 
+         "objectName" : "Godgin", 
+         "active" : "true"
+      }, 
+      "3bba3382-0b94-4a1b-b437-4eaf8bdd42db" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100237", 
+            "y" : "-99933"
+         }, 
+         "child" : [ 
+            "9eeca425-7c8e-469d-8a28-4febfefc3dcc"
+         ], 
+         "objectName" : "Pasha_blocker", 
+         "active" : "false"
+      }, 
+      "9eeca425-7c8e-469d-8a28-4febfefc3dcc" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100234", 
+            "y" : "-99855"
+         }, 
+         "child" : [ 
+            "955d1184-fd50-45df-b7a4-b088e2d0f40d", 
+            "f7e41407-4c46-4734-b177-d68f15dda27c"
+         ], 
+         "objectName" : "Pasha", 
+         "active" : "true"
+      }, 
+      "955d1184-fd50-45df-b7a4-b088e2d0f40d" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-100355", 
+            "y" : "-99662"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/Level_Baza_1_Ground_showItems"
+      }, 
+      "f7e41407-4c46-4734-b177-d68f15dda27c" : { 
+         "class" : "CharacterNeedUpdateNode", 
+         "desc" : { 
+            "x" : "-100162", 
+            "y" : "-99751"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Pasha", 
+         "stopState" : "false"
+      }, 
+      "2f6a1655-ef29-4e3d-b815-0ee7e81b6053" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100214", 
+            "y" : "-100340"
+         }, 
+         "child" : [ 
+            "ce15f3f4-79f3-41e4-b069-9e1111ef705e"
+         ]
+      }, 
+      "5867bf99-0e94-4498-bc8e-c1a8d556c634" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100030", 
+            "y" : "-100445"
+         }, 
+         "child" : [ 
+            "052b2aee-1362-4405-86df-a10f46bf7c0b"
+         ]
+      }, 
+      "052b2aee-1362-4405-86df-a10f46bf7c0b" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100045", 
+            "y" : "-100404"
+         }, 
+         "child" : [ 
+            "6ae62257-6f3d-4408-aab4-13683b7cb287"
+         ], 
+         "objectName" : "GEOMETRY_Fixed", 
+         "active" : "false"
+      }, 
+      "6ae62257-6f3d-4408-aab4-13683b7cb287" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100050", 
+            "y" : "-100329"
+         }, 
+         "child" : [ 
+            "6700674b-36b2-496f-9800-8c6f87ace23b"
+         ], 
+         "objectName" : "GEOMETRY_Broken", 
+         "active" : "true"
+      }, 
+      "6700674b-36b2-496f-9800-8c6f87ace23b" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100032", 
+            "y" : "-100255"
+         }, 
+         "child" : [ 
+            "aef900ef-90ed-4747-9c92-88d8b3ebebd2"
+         ], 
+         "objectName" : "Godgin", 
+         "active" : "false"
+      }, 
+      "aef900ef-90ed-4747-9c92-88d8b3ebebd2" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100031", 
+            "y" : "-100179"
+         }, 
+         "child" : [ 
+            "c5e3b05e-b0b1-4713-b58c-7960103bee12"
+         ], 
+         "objectName" : "Pasha", 
+         "active" : "false"
+      }, 
+      "c5e3b05e-b0b1-4713-b58c-7960103bee12" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100035", 
+            "y" : "-100101"
+         }, 
+         "child" : [ 
+            "23a4ac8d-824a-45c3-a209-e97c4a9497d8"
+         ], 
+         "objectName" : "Pasha_blocker", 
+         "active" : "true"
+      }, 
+      "23a4ac8d-824a-45c3-a209-e97c4a9497d8" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100065", 
+            "y" : "-100023"
+         }, 
+         "child" : [ 
+            "9fad5f9d-bfef-4507-9701-88475c6f1aa0"
+         ], 
+         "objectName" : "Hermo_Door_box_CLOSE", 
+         "active" : "true"
+      }, 
+      "9fad5f9d-bfef-4507-9701-88475c6f1aa0" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100062", 
+            "y" : "-99944"
+         }, 
+         "child" : [ 
+            "671465d1-a5bd-4c70-8557-acc69ee2bcf7"
+         ], 
+         "objectName" : "Hermo_Door_box_OPEN", 
+         "active" : "false"
+      }, 
+      "671465d1-a5bd-4c70-8557-acc69ee2bcf7" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100048", 
+            "y" : "-99865"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Baza_Ladder_Down", 
+         "active" : "false"
+      }, 
+      "b3120243-6baa-4f56-b4d5-ddf1e7fe271f" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100085", 
+            "y" : "-100725"
+         }, 
+         "child" : [ 
+            "9fc6028a-5699-4393-826a-172e66b5f98e", 
+            "8bf3f1d6-374e-4999-9f4a-d4659f073c57"
+         ], 
+         "key" : "INIT_WATERWELL"
+      }, 
+      "9fc6028a-5699-4393-826a-172e66b5f98e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100135", 
+            "y" : "-100599"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "8bf3f1d6-374e-4999-9f4a-d4659f073c57" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-99998", 
+            "y" : "-100616"
+         }, 
+         "child" : [ 
+            "e44c4837-c7d2-48f3-8aa0-2dfb6ebba389"
+         ], 
+         "key" : "INIT_WATERWELL"
+      }, 
+      "e44c4837-c7d2-48f3-8aa0-2dfb6ebba389" : { 
+         "class" : "SpawnEntityNode", 
+         "desc" : { 
+            "x" : "-99964", 
+            "y" : "-100555"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "baza.waterwall", 
+         "item" : { 
+            "class" : "Interactive", 
+            "proto" : "Baza.WaterWell"
+         }
+      }, 
+      "698f9ba9-ffbb-4844-8b89-5496a13e42b8" : { 
+         "class" : "OnCharacterWantBattleEventNode", 
+         "desc" : { 
+            "x" : "-99846", 
+            "y" : "-100458"
+         }, 
+         "child" : [ 
+            "a25495b9-6081-4360-be26-2f8d4aeab015"
+         ], 
+         "filterMode" : "Victim", 
+         "victimName" : "", 
+         "victimFractionName" : "gexogen", 
+         "victimPrototypeName" : "Rabbit"
+      }, 
+      "a25495b9-6081-4360-be26-2f8d4aeab015" : { 
+         "class" : "CharacterSetRelationshipNode", 
+         "desc" : { 
+            "x" : "-99835", 
+            "y" : "-100364"
+         }, 
+         "child" : [ 
+            "9664d8a0-973f-41fa-9964-69d5eedaeadc"
+         ], 
+         "objectName" : "Gexogen", 
+         "fraction" : "gexogen", 
+         "value" : "0"
+      }, 
+      "9664d8a0-973f-41fa-9964-69d5eedaeadc" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-99850", 
+            "y" : "-100286"
+         }, 
+         "child" : [ 
+            "e459bc4f-aed7-40b1-80fb-53877390128e"
+         ], 
+         "text" : "#Level_Baza_1_Ground.9664d8a0-973f-41fa-9964-69d5eedaeadc", 
+         "customObject" : "Gexogen", 
+         "waitEnd" : "false", 
+         "customColor" : "FF0000", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "e459bc4f-aed7-40b1-80fb-53877390128e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99796", 
+            "y" : "-100209"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "7c49eefc-d510-4193-91d6-597d66e1faa8" : { 
+         "class" : "HasKeyValueNode", 
+         "desc" : { 
+            "x" : "-99642", 
+            "y" : "-99902"
+         }, 
+         "child" : [ 
+            "bc899033-d9d4-4423-bbaf-9d1aea553a90", 
+            "04bb5830-e08f-4c18-9b03-70c2f09904f1"
+         ], 
+         "key" : "HERMO_DOOR_SFX", 
+         "value" : "1"
+      }, 
+      "bc899033-d9d4-4423-bbaf-9d1aea553a90" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-99460", 
+            "y" : "-99782"
+         }, 
+         "child" : [ 
+            "85aeb1cb-139b-4beb-884a-2c352e91415d", 
+            "4eff41fe-f632-45b6-8640-be61954b3cde", 
+            "e8862d1d-4ebf-466f-b5ef-f170249faf30"
+         ]
+      }, 
+      "85aeb1cb-139b-4beb-884a-2c352e91415d" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-99736", 
+            "y" : "-99684"
+         }, 
+         "child" : [ 
+            "04bb5830-e08f-4c18-9b03-70c2f09904f1"
+         ], 
+         "text" : "#Level_Baza_1_Ground.85aeb1cb-139b-4beb-884a-2c352e91415d", 
+         "customObject" : "Hermo_Door_box_CLOSE", 
+         "waitEnd" : "true", 
+         "customColor" : "FFD6A4", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "04bb5830-e08f-4c18-9b03-70c2f09904f1" : { 
+         "class" : "WaitRandomNode", 
+         "desc" : { 
+            "x" : "-99458", 
+            "y" : "-99519"
+         }, 
+         "child" : [ 
+            "7c49eefc-d510-4193-91d6-597d66e1faa8"
+         ], 
+         "waitTimeMin" : "10", 
+         "waitTimeMax" : "30"
+      }, 
+      "4eff41fe-f632-45b6-8640-be61954b3cde" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-99512", 
+            "y" : "-99687"
+         }, 
+         "child" : [ 
+            "04bb5830-e08f-4c18-9b03-70c2f09904f1"
+         ], 
+         "text" : "#Level_Baza_1_Ground.4eff41fe-f632-45b6-8640-be61954b3cde", 
+         "customObject" : "Hermo_Door_box_CLOSE", 
+         "waitEnd" : "true", 
+         "customColor" : "FFD6A4", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "e8862d1d-4ebf-466f-b5ef-f170249faf30" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-99292", 
+            "y" : "-99688"
+         }, 
+         "child" : [ 
+            "04bb5830-e08f-4c18-9b03-70c2f09904f1"
+         ], 
+         "text" : "#Level_Baza_1_Ground.e8862d1d-4ebf-466f-b5ef-f170249faf30", 
+         "customObject" : "Hermo_Door_box_CLOSE", 
+         "waitEnd" : "true", 
+         "customColor" : "FFD6A4", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "b3cb817a-f8dc-4731-9524-5463932bf9ac" : { 
+         "class" : "OnCharacterWantBattleEventNode", 
+         "desc" : { 
+            "x" : "-99072", 
+            "y" : "-100077"
+         }, 
+         "child" : [ 
+            "38099b0e-d48b-4c85-8da7-d1db2fb081d4"
+         ], 
+         "filterMode" : "Victim", 
+         "victimName" : "", 
+         "victimFractionName" : "~scavenger", 
+         "victimPrototypeName" : ""
+      }, 
+      "38099b0e-d48b-4c85-8da7-d1db2fb081d4" : { 
+         "class" : "FractionSetRelationshipNode", 
+         "desc" : { 
+            "x" : "-99051", 
+            "y" : "-99977"
+         }, 
+         "child" : [ 
+         ], 
+         "fraction" : "baza", 
+         "value" : "0"
+      }, 
+      "62616757-05c3-4bbf-930d-4a368758d671" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-99408", 
+            "y" : "-100880"
+         }, 
+         "child" : [ 
+            "5f3d067f-a4f3-4703-98f3-7375e4141bb6", 
+            "dcd4d194-702a-4f46-befe-22e4582d4fb7"
+         ], 
+         "key" : "BAZA_REQUEST_NIKO_TIME"
+      }, 
+      "5f3d067f-a4f3-4703-98f3-7375e4141bb6" : { 
+         "class" : "HasTimeDateComeNode", 
+         "desc" : { 
+            "x" : "-99491", 
+            "y" : "-100805", 
+            "comment" : "Гожин и Николай появляются в домике гг (перед столом с Пашей) ЧЕРЕЗ 1 день после того, как гг заправил Генератор и открыл возможность ремонтировать бункер!!! "
+         }, 
+         "child" : [ 
+            "2d6ebb6d-633e-4d66-abf6-36642d0ef789", 
+            "dcd4d194-702a-4f46-befe-22e4582d4fb7"
+         ], 
+         "time" : "1", 
+         "mode" : "Day", 
+         "offsetValue" : "BAZA_REQUEST_NIKO_TIME"
+      }, 
+      "2d6ebb6d-633e-4d66-abf6-36642d0ef789" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-99483", 
+            "y" : "-100680"
+         }, 
+         "child" : [ 
+            "5e08dce4-7563-4a12-942b-edada8bce29d", 
+            "7e9fd919-7315-4534-82da-687bc96eb152"
+         ], 
+         "key" : "SHOW_NIKO"
+      }, 
+      "5e08dce4-7563-4a12-942b-edada8bce29d" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99555", 
+            "y" : "-100581"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "7e9fd919-7315-4534-82da-687bc96eb152" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-99440", 
+            "y" : "-100578"
+         }, 
+         "child" : [ 
+            "f076eaac-4db7-46ae-8776-5f32444eb81d"
+         ], 
+         "key" : "SHOW_NIKO"
+      }, 
+      "f076eaac-4db7-46ae-8776-5f32444eb81d" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99442", 
+            "y" : "-100520"
+         }, 
+         "child" : [ 
+            "1932793a-315b-47af-9d38-5bfb84d53e55", 
+            "29b31cb0-ee6a-4718-99a7-cc790f2eba6c"
+         ]
+      }, 
+      "1932793a-315b-47af-9d38-5bfb84d53e55" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-99563", 
+            "y" : "-100461"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Niko", 
+         "active" : "true"
+      }, 
+      "29b31cb0-ee6a-4718-99a7-cc790f2eba6c" : { 
+         "class" : "CharacterSetStateNode", 
+         "desc" : { 
+            "x" : "-99449", 
+            "y" : "-100463"
+         }, 
+         "child" : [ 
+            "1b78ceb3-c4aa-4c57-bf54-89df44642c0f"
+         ], 
+         "objectName" : "Godgin", 
+         "stateName" : "NIKO"
+      }, 
+      "1b78ceb3-c4aa-4c57-bf54-89df44642c0f" : { 
+         "class" : "CharacterNeedUpdateNode", 
+         "desc" : { 
+            "x" : "-99459", 
+            "y" : "-100387"
+         }, 
+         "child" : [ 
+            "c941f4dd-1442-4bb3-9202-771df7870f88"
+         ], 
+         "objectName" : "Godgin", 
+         "stopState" : "true"
+      }, 
+      "c941f4dd-1442-4bb3-9202-771df7870f88" : { 
+         "class" : "RemoveKeywordNode", 
+         "desc" : { 
+            "x" : "-99479", 
+            "y" : "-100312"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "BAZA_REQUEST_NIKO_TIME"
+      }, 
+      "dcd4d194-702a-4f46-befe-22e4582d4fb7" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99310", 
+            "y" : "-100628"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "5ac49393-29bf-4202-8d50-a095cdefd032" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-99070", 
+            "y" : "-100667"
+         }, 
+         "child" : [ 
+            "16fcf6a5-af1c-443c-9407-07a6b7e4cbca", 
+            "824118dd-ac8b-42e9-b820-c12efdb3dce0"
+         ], 
+         "key" : "BAZA_FUEL_TRUCK_TIME"
+      }, 
+      "16fcf6a5-af1c-443c-9407-07a6b7e4cbca" : { 
+         "class" : "HasTimeDateComeNode", 
+         "desc" : { 
+            "x" : "-99152", 
+            "y" : "-100589", 
+            "comment" : "Машина двое суток после чего пропадает"
+         }, 
+         "child" : [ 
+            "30b08329-bc57-411d-ae88-6cadef127070", 
+            "824118dd-ac8b-42e9-b820-c12efdb3dce0"
+         ], 
+         "time" : "2", 
+         "mode" : "Day", 
+         "offsetValue" : "BAZA_FUEL_TRUCK_TIME"
+      }, 
+      "30b08329-bc57-411d-ae88-6cadef127070" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-99110", 
+            "y" : "-100475"
+         }, 
+         "child" : [ 
+            "901be8ac-cd33-43f9-b97e-35c1da345902"
+         ], 
+         "objectName" : "Truck", 
+         "active" : "false"
+      }, 
+      "901be8ac-cd33-43f9-b97e-35c1da345902" : { 
+         "class" : "RemoveKeywordNode", 
+         "desc" : { 
+            "x" : "-99188", 
+            "y" : "-100395"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "BAZA_FUEL_TRUCK_TIME"
+      }, 
+      "824118dd-ac8b-42e9-b820-c12efdb3dce0" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99014", 
+            "y" : "-100387"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "611eebf8-cc45-4c7d-83d2-741e5bf5a228" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-98692", 
+            "y" : "-100894"
+         }, 
+         "child" : [ 
+            "05c51d7a-aadc-43da-9395-a3f27880f61a", 
+            "b977662a-c143-4101-9467-0476caea8fde"
+         ], 
+         "note_key" : "BAZA.PUMP.READY"
+      }, 
+      "05c51d7a-aadc-43da-9395-a3f27880f61a" : { 
+         "class" : "FractionIsEnemyRelationshipNode", 
+         "desc" : { 
+            "x" : "-98530", 
+            "y" : "-100776"
+         }, 
+         "child" : [ 
+            "b977662a-c143-4101-9467-0476caea8fde", 
+            "7ec01282-0846-4271-89fb-eb43c3f75c1f"
+         ], 
+         "fractionA" : "player", 
+         "fractionB" : "baza"
+      }, 
+      "b977662a-c143-4101-9467-0476caea8fde" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-98632", 
+            "y" : "-100680"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "7ec01282-0846-4271-89fb-eb43c3f75c1f" : { 
+         "class" : "TimeDatePeriodNode", 
+         "desc" : { 
+            "x" : "-98398", 
+            "y" : "-100690"
+         }, 
+         "child" : [ 
+            "bb1bdd17-b16e-4414-8d3d-597c25502cf2", 
+            "df2dc2ba-6770-41bd-88e3-131845c5b352"
+         ], 
+         "timeStart" : "2", 
+         "modeStart" : "Day", 
+         "timeLen" : "8", 
+         "modeLen" : "Hour", 
+         "offsetValue" : "RANDOM_TRADE"
+      }, 
+      "bb1bdd17-b16e-4414-8d3d-597c25502cf2" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-98590", 
+            "y" : "-100528"
+         }, 
+         "child" : [ 
+            "a8ea5d01-6abe-428b-aae0-8b0e373ed5a9", 
+            "974abfb6-cdc8-4703-89e3-af84be38b8e2"
+         ], 
+         "key" : "INIT_RANDOM_TRADE"
+      }, 
+      "a8ea5d01-6abe-428b-aae0-8b0e373ed5a9" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-98700", 
+            "y" : "-100426"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "974abfb6-cdc8-4703-89e3-af84be38b8e2" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-98582", 
+            "y" : "-100434"
+         }, 
+         "child" : [ 
+            "9117ef96-ab3c-42ae-94db-81526c539208"
+         ], 
+         "key" : "INIT_RANDOM_TRADE"
+      }, 
+      "9117ef96-ab3c-42ae-94db-81526c539208" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-98630", 
+            "y" : "-100314"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/Baza_Caravan"
+      }, 
+      "df2dc2ba-6770-41bd-88e3-131845c5b352" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-98328", 
+            "y" : "-100528"
+         }, 
+         "child" : [ 
+            "e21344ca-b41a-41c0-8b71-57080e239b14", 
+            "49f65201-eb02-4145-b351-064eac5695aa"
+         ], 
+         "key" : "INIT_RANDOM_TRADE"
+      }, 
+      "e21344ca-b41a-41c0-8b71-57080e239b14" : { 
+         "class" : "RemoveKeywordNode", 
+         "desc" : { 
+            "x" : "-98412", 
+            "y" : "-100438"
+         }, 
+         "child" : [ 
+            "414aacb1-0de1-4d43-ad2d-057fc9149f44"
+         ], 
+         "key" : "INIT_RANDOM_TRADE"
+      }, 
+      "414aacb1-0de1-4d43-ad2d-057fc9149f44" : { 
+         "class" : "ObjectRemoveNode", 
+         "desc" : { 
+            "x" : "-98404", 
+            "y" : "-100366"
+         }, 
+         "child" : [ 
+            "d4208411-61ac-4762-8891-0d6f9ef3ee93"
+         ], 
+         "objName" : "Spawn.Karavan.1"
+      }, 
+      "d4208411-61ac-4762-8891-0d6f9ef3ee93" : { 
+         "class" : "ObjectRemoveNode", 
+         "desc" : { 
+            "x" : "-98404", 
+            "y" : "-100310"
+         }, 
+         "child" : [ 
+            "a0ee48e4-73ca-4a87-88f7-df7824c7628e"
+         ], 
+         "objName" : "Spawn.Karavan.2"
+      }, 
+      "a0ee48e4-73ca-4a87-88f7-df7824c7628e" : { 
+         "class" : "ObjectRemoveNode", 
+         "desc" : { 
+            "x" : "-98404", 
+            "y" : "-100254"
+         }, 
+         "child" : [ 
+            "7344f3d9-c952-4015-a9f7-6bd043d8b4a7"
+         ], 
+         "objName" : "Spawn.Karavan.3"
+      }, 
+      "7344f3d9-c952-4015-a9f7-6bd043d8b4a7" : { 
+         "class" : "ObjectRemoveNode", 
+         "desc" : { 
+            "x" : "-98266", 
+            "y" : "-100368"
+         }, 
+         "child" : [ 
+            "b23d90eb-3f1a-4a14-bc36-7beb90699bcf"
+         ], 
+         "objName" : "Spawn.Karavan.4"
+      }, 
+      "b23d90eb-3f1a-4a14-bc36-7beb90699bcf" : { 
+         "class" : "ObjectRemoveNode", 
+         "desc" : { 
+            "x" : "-98278", 
+            "y" : "-100252"
+         }, 
+         "child" : [ 
+            "4d8d79f3-8ddc-40ab-a5a2-648a7adf18f0"
+         ], 
+         "objName" : "Spawn.Karavan.Trader"
+      }, 
+      "4d8d79f3-8ddc-40ab-a5a2-648a7adf18f0" : { 
+         "class" : "ObjectRemoveNode", 
+         "desc" : { 
+            "x" : "-98398", 
+            "y" : "-100160"
+         }, 
+         "child" : [ 
+         ], 
+         "objName" : "Karavan.Vehicle_2Spawn.Karavan.Vehicle"
+      }, 
+      "49f65201-eb02-4145-b351-064eac5695aa" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-98236", 
+            "y" : "-100426"
+         }, 
+         "child" : [ 
+         ]
+      }
+   }, 
+   "entry" : "27d2cb71-d550-4812-a9ad-0ea3aea74912"
+}

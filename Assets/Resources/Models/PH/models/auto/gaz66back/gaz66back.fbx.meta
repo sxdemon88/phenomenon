@@ -1,0 +1,194 @@
+fileFormatVersion: 2
+guid: cfb4bca86455fcf4b918f2f5589b8cd9
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: DrawCall_1077
+    100002: DrawCall_1078
+    100004: DrawCall_1079
+    100006: DrawCall_1080
+    100008: DrawCall_1081
+    100010: DrawCall_1096
+    100012: DrawCall_1097
+    100014: DrawCall_1098
+    100016: DrawCall_1099
+    100018: DrawCall_1100
+    100020: DrawCall_1101
+    100022: DrawCall_1225
+    100024: DrawCall_1226
+    100026: //RootNode
+    400000: DrawCall_1077
+    400002: DrawCall_1078
+    400004: DrawCall_1079
+    400006: DrawCall_1080
+    400008: DrawCall_1081
+    400010: DrawCall_1096
+    400012: DrawCall_1097
+    400014: DrawCall_1098
+    400016: DrawCall_1099
+    400018: DrawCall_1100
+    400020: DrawCall_1101
+    400022: DrawCall_1225
+    400024: DrawCall_1226
+    400026: //RootNode
+    2100000: ff7873d2_dds
+    2100002: de560161_dds
+    2100004: 221f8734_dds
+    2100006: b42c9273_dds
+    2100008: 76258090_dds
+    2100010: f688f093_dds
+    2300000: DrawCall_1077
+    2300002: DrawCall_1078
+    2300004: DrawCall_1079
+    2300006: DrawCall_1080
+    2300008: DrawCall_1081
+    2300010: DrawCall_1096
+    2300012: DrawCall_1097
+    2300014: DrawCall_1098
+    2300016: DrawCall_1099
+    2300018: DrawCall_1100
+    2300020: DrawCall_1101
+    2300022: DrawCall_1225
+    2300024: DrawCall_1226
+    3300000: DrawCall_1077
+    3300002: DrawCall_1078
+    3300004: DrawCall_1079
+    3300006: DrawCall_1080
+    3300008: DrawCall_1081
+    3300010: DrawCall_1096
+    3300012: DrawCall_1097
+    3300014: DrawCall_1098
+    3300016: DrawCall_1099
+    3300018: DrawCall_1100
+    3300020: DrawCall_1101
+    3300022: DrawCall_1225
+    3300024: DrawCall_1226
+    4300000: DrawCall_1098
+    4300002: DrawCall_1077
+    4300004: DrawCall_1080
+    4300006: DrawCall_1099
+    4300008: DrawCall_1096
+    4300010: DrawCall_1097
+    4300012: DrawCall_1081
+    4300014: DrawCall_1101
+    4300016: DrawCall_1225
+    4300018: DrawCall_1079
+    4300020: DrawCall_1226
+    4300022: DrawCall_1100
+    4300024: DrawCall_1078
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 221f8734_dds
+    second: {fileID: 2100000, guid: e8a7cd8a7b6f73c4788d912bc5747589, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 76258090_dds
+    second: {fileID: 2100000, guid: 7a3ce82c3f642b74aa13936e3d0c5819, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: b42c9273_dds
+    second: {fileID: 2100000, guid: 077f054c69057264b8f7576b120985d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: de560161_dds
+    second: {fileID: 2100000, guid: 18e32204c0ff46f489ff0ed38402d080, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f688f093_dds
+    second: {fileID: 2100000, guid: 2b4b0977bdc8e1a43a9e4bebb957c4a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ff7873d2_dds
+    second: {fileID: 2100000, guid: 383b85cf91454b346bf3cd25ad20c03e, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1.05
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

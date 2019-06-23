@@ -146,7 +146,7 @@
             "59f7d22e-0702-43be-9ff2-a2bf797664cc", 
             "98b25f0a-5d5b-45d0-9510-908bfebd6447", 
             "12951a73-9423-43ec-a217-ea599760d47d", 
-            "667e6fcd-274b-4c46-ac51-792003c5a4d5"
+            "6d867a6a-bea9-42f6-b07d-57e3e778bf42"
          ]
       }, 
       "49e1d699-f21f-4765-99da-934e09ac096c" : { 
@@ -253,7 +253,7 @@
          "class" : "InventorySetNode", 
          "desc" : { 
             "x" : "-101678", 
-            "y" : "-99398"
+            "y" : "-99400"
          }, 
          "child" : [ 
          ], 
@@ -284,7 +284,7 @@
       "4bd5c1cc-f3dc-4be0-9431-8d4f65be1daf" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-102380", 
+            "x" : "-102378", 
             "y" : "-99774"
          }, 
          "child" : [ 
@@ -317,7 +317,7 @@
                "proto" : "Tokarev_Rust", 
                "ammo" : { 
                   "count" : "0", 
-                  "proto" : "7_62mm_JHP"
+                  "proto" : "307cal_JHP"
                }
             }
          ], 
@@ -372,7 +372,7 @@
                "proto" : "Mauser_Rust", 
                "ammo" : { 
                   "count" : "0", 
-                  "proto" : "9mm_JHP"
+                  "proto" : "307cal_JHP"
                }
             }
          ], 
@@ -381,7 +381,7 @@
       "8fca2f68-60b4-4464-a748-83d26f138e7a" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-101816", 
+            "x" : "-101814", 
             "y" : "-99773"
          }, 
          "child" : [ 
@@ -393,7 +393,7 @@
                "proto" : "Nagant_Rust", 
                "ammo" : { 
                   "count" : "0", 
-                  "proto" : "9mm_JHP"
+                  "proto" : "307cal_JHP"
                }
             }
          ], 
@@ -402,8 +402,8 @@
       "98b25f0a-5d5b-45d0-9510-908bfebd6447" : { 
          "class" : "RandomNode", 
          "desc" : { 
-            "x" : "-101388", 
-            "y" : "-99746"
+            "x" : "-101477", 
+            "y" : "-99712"
          }, 
          "child" : [ 
             "fbf249e6-8a4c-4e47-8f94-1aebfd46d093", 
@@ -415,7 +415,7 @@
       "fbf249e6-8a4c-4e47-8f94-1aebfd46d093" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-101647", 
+            "x" : "-101648", 
             "y" : "-99628"
          }, 
          "child" : [ 
@@ -427,7 +427,7 @@
                "proto" : "Sawed-off_Rust", 
                "ammo" : { 
                   "count" : "0", 
-                  "proto" : "7_62mm_JHP"
+                  "proto" : "12_JHP"
                }
             }
          ], 
@@ -457,8 +457,8 @@
       "7cbf55aa-1767-4846-8c1e-654826dac781" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-101416", 
-            "y" : "-99629"
+            "x" : "-101415", 
+            "y" : "-99630"
          }, 
          "child" : [ 
          ], 
@@ -469,7 +469,7 @@
                "proto" : "PPS43_Rust", 
                "ammo" : { 
                   "count" : "0", 
-                  "proto" : "9mm_JHP"
+                  "proto" : "307cal_JHP"
                }
             }
          ], 
@@ -479,7 +479,7 @@
          "class" : "InventorySetNode", 
          "desc" : { 
             "x" : "-101302", 
-            "y" : "-99629"
+            "y" : "-99628"
          }, 
          "child" : [ 
          ], 
@@ -490,7 +490,7 @@
                "proto" : "RPD_Rust", 
                "ammo" : { 
                   "count" : "0", 
-                  "proto" : "9mm_JHP"
+                  "proto" : "7_62mm_JHP"
                }
             }
          ], 
@@ -1530,11 +1530,200 @@
          "inventoryObject" : "", 
          "random" : "true"
       }, 
+      "6d867a6a-bea9-42f6-b07d-57e3e778bf42" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-102129", 
+            "y" : "-100356"
+         }, 
+         "child" : [ 
+            "fc1309da-b0bb-474c-a54b-6f5906d1c240", 
+            "f0424e4e-e81f-4fc0-a777-2d8f4412de5d"
+         ], 
+         "note_key" : "PH_TRADE1_DEAD"
+      }, 
+      "fc1309da-b0bb-474c-a54b-6f5906d1c240" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102997", 
+            "y" : "-99866"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "f0424e4e-e81f-4fc0-a777-2d8f4412de5d" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102069", 
+            "y" : "-100169"
+         }, 
+         "child" : [ 
+            "b39bd39d-0fcb-4d7d-a92f-ad03d1b72612", 
+            "bf0bb40f-a549-468c-a0e5-832d9ffcdcfd", 
+            "667e6fcd-274b-4c46-ac51-792003c5a4d5"
+         ]
+      }, 
+      "b39bd39d-0fcb-4d7d-a92f-ad03d1b72612" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-102860", 
+            "y" : "-99816"
+         }, 
+         "child" : [ 
+            "e97a87de-0fc4-4290-873d-36b6b9e52f3d", 
+            "77a69c64-d443-4638-af21-d151572f6ab5", 
+            "56654afd-d1c0-4e30-9f93-d692f34bad89", 
+            "03b0aed4-cf63-447c-944a-fc3170bb019a", 
+            "11238f0f-22eb-418e-9e88-8c4f3e1d9fc3", 
+            "63186585-6aba-414d-ba84-85d85f43d282"
+         ]
+      }, 
+      "e97a87de-0fc4-4290-873d-36b6b9e52f3d" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-103137", 
+            "y" : "-99689"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "DP_28rust", 
+               "ammo" : { 
+                  "count" : "5", 
+                  "proto" : "7mm_54R"
+               }
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "77a69c64-d443-4638-af21-d151572f6ab5" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-103028", 
+            "y" : "-99689"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "mg3rust", 
+               "ammo" : { 
+                  "count" : "10", 
+                  "proto" : "7_62mm_JHP"
+               }
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "56654afd-d1c0-4e30-9f93-d692f34bad89" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-102919", 
+            "y" : "-99686"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "MG34_LMGrust", 
+               "ammo" : { 
+                  "count" : "11", 
+                  "proto" : "7_62mm_JHP"
+               }
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "03b0aed4-cf63-447c-944a-fc3170bb019a" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-102809", 
+            "y" : "-99684"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "mp40rust", 
+               "ammo" : { 
+                  "count" : "13", 
+                  "proto" : "9mm_JHP"
+               }
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "11238f0f-22eb-418e-9e88-8c4f3e1d9fc3" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-102700", 
+            "y" : "-99683"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "stg44rust", 
+               "ammo" : { 
+                  "count" : "10", 
+                  "proto" : "9mm_JHP"
+               }
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "63186585-6aba-414d-ba84-85d85f43d282" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-102588", 
+            "y" : "-99685"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "luger08rust", 
+               "ammo" : { 
+                  "count" : "8", 
+                  "proto" : "9mm_JHP"
+               }
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "bf0bb40f-a549-468c-a0e5-832d9ffcdcfd" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-102634", 
+            "y" : "-99818"
+         }, 
+         "child" : [ 
+            "e97a87de-0fc4-4290-873d-36b6b9e52f3d", 
+            "77a69c64-d443-4638-af21-d151572f6ab5", 
+            "56654afd-d1c0-4e30-9f93-d692f34bad89", 
+            "03b0aed4-cf63-447c-944a-fc3170bb019a", 
+            "11238f0f-22eb-418e-9e88-8c4f3e1d9fc3", 
+            "63186585-6aba-414d-ba84-85d85f43d282"
+         ]
+      }, 
       "667e6fcd-274b-4c46-ac51-792003c5a4d5" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-101692", 
-            "y" : "-99996"
+            "x" : "-102044", 
+            "y" : "-100036"
          }, 
          "child" : [ 
          ], 
@@ -1557,6 +1746,11 @@
                   "count" : "1", 
                   "proto" : "Bolt"
                }
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "m42_rust"
             }
          ], 
          "inventoryObject" : "", 

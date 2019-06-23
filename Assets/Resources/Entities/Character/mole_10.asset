@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 395181009, guid: ba80931603c2dbc40ab113c533efa2ed, type: 3}
+  m_Name: mole_10
+  m_EditorClassIdentifier: 
+  Icon:
+    path: 
+  m_Localization: character.mole
+  Takeable: 1
+  aiBehavior: 0
+  Dialog:
+    path: 
+  OnPocket:
+    path: entities/behavior/meat_small.onpocket
+  TalkAddDist: 0
+  BackToPosition: 0
+  StoreStats: 0
+  Summon: 1
+  SummonAddDist: 40
+  SummonCheckVisibility: 1
+  BattleAddDist: 0
+  Shiftable: 0
+  SpecTreeView:
+    path: 
+  AcceptingRestriction: 3
+  specialtyMask: 0
+  Stats:
+    _modifiers:
+    - _type: 32
+      _value: 25
+    - _type: 27
+      _value: 10
+    - _type: 33
+      _value: 5
+    Level: 10
+    ExperiencePoints: 70
+    Strength: 5
+    Perception: 5
+    Endurance: 8
+    Charisma: 5
+    Intelligence: 5
+    Agility: 8
+    Luck: 5
+    skillsBonus:
+      SmallGuns: 25
+      BigGuns: 25
+      AutomaticFirearms: 25
+      Unarmed: 19
+      MeleeWeapons: 19
+      Throwing: 19
+      FirstAid: 19
+      Crafting: 0
+      Sneak: 0
+      Lockpick: 0
+      Steal: 0
+      Alertness: -15
+      Science: 0
+      Speech: 0
+      Barter: 0
+      Gambling: 0
+      Outdoorsman: 19
+    Perks: 
+    FreeSkillPoints: 0
+    FreeStatPoints: 0
+    FreeSpecPoints: 0
+    SpecLevel: 1

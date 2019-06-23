@@ -34,7 +34,7 @@
          }, 
          "child" : [ 
          ], 
-         "script" : "entities/behavior/z_map"
+         "script" : "Entities/Behavior/Z_Map"
       }, 
       "abe8915a-b0ee-4dad-8287-60de5349576a" : { 
          "class" : "DummyNode", 
@@ -48,16 +48,27 @@
       "03b8805a-0ab2-4a9c-a3f6-6ae7f231faf0" : { 
          "class" : "PlayerLevelOutNode", 
          "desc" : { 
-            "x" : "-102655", 
-            "y" : "-101783"
+            "x" : "-102351", 
+            "y" : "-101676"
          }, 
          "child" : [ 
+            "99bbd8a8-3c85-4413-856f-ef31909bb6ec", 
             "17954121-7c31-4c6a-b239-accc1623eb8c", 
             "775f50c5-7275-4871-bca2-057474ff38ad", 
             "0b83ae8a-e579-49af-a7cb-918135f1e072", 
             "fe443c50-6282-4826-8022-e8c5750c90eb", 
             "96c2c3c4-513a-4522-9355-f7839270374e"
          ]
+      }, 
+      "99bbd8a8-3c85-4413-856f-ef31909bb6ec" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-102743", 
+            "y" : "-101740"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/ph_trade_dead"
       }, 
       "17954121-7c31-4c6a-b239-accc1623eb8c" : { 
          "class" : "HasKeywordNode", 
@@ -114,8 +125,8 @@
       "775f50c5-7275-4871-bca2-057474ff38ad" : { 
          "class" : "HasKeywordNode", 
          "desc" : { 
-            "x" : "-103122", 
-            "y" : "-101686"
+            "x" : "-103283", 
+            "y" : "-101629"
          }, 
          "child" : [ 
             "97fce2de-8bc6-4c83-92f9-537655835ef8", 
@@ -126,8 +137,8 @@
       "97fce2de-8bc6-4c83-92f9-537655835ef8" : { 
          "class" : "AreAllAroundDeadNode", 
          "desc" : { 
-            "x" : "-103331", 
-            "y" : "-101590"
+            "x" : "-103372", 
+            "y" : "-101522"
          }, 
          "child" : [ 
             "6c029bab-d164-4560-b223-8d63b46e62a4", 
@@ -137,8 +148,8 @@
       "6c029bab-d164-4560-b223-8d63b46e62a4" : { 
          "class" : "NotebookRemoveNoteNode", 
          "desc" : { 
-            "x" : "-103437", 
-            "y" : "-101472"
+            "x" : "-103518", 
+            "y" : "-101430"
          }, 
          "child" : [ 
             "0a7e5576-27b9-4e8a-8076-2876ec5b0e7b"
@@ -148,8 +159,8 @@
       "0a7e5576-27b9-4e8a-8076-2876ec5b0e7b" : { 
          "class" : "NotebookAddNoteNode", 
          "desc" : { 
-            "x" : "-103409", 
-            "y" : "-101402"
+            "x" : "-103506", 
+            "y" : "-101352"
          }, 
          "child" : [ 
             "1ce82e52-30f3-4627-826f-8ea6f3ef1895"
@@ -159,8 +170,8 @@
       "1ce82e52-30f3-4627-826f-8ea6f3ef1895" : { 
          "class" : "QuestStatusNode", 
          "desc" : { 
-            "x" : "-103526", 
-            "y" : "-101329"
+            "x" : "-103696", 
+            "y" : "-101249"
          }, 
          "child" : [ 
             "77beb854-e98b-4fad-9adb-10e4c9f8b009", 
@@ -211,8 +222,8 @@
       "a5f99822-b997-4587-a6fc-6b6a1f8709ca" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-103206", 
-            "y" : "-101448"
+            "x" : "-103235", 
+            "y" : "-101415"
          }, 
          "child" : [ 
          ]
@@ -435,7 +446,7 @@
          "class" : "NotebookHasNoteNode", 
          "desc" : { 
             "x" : "-102306", 
-            "y" : "-101262"
+            "y" : "-101263"
          }, 
          "child" : [ 
             "b1656ffd-d8e2-49b0-b266-20d9ac289672", 
@@ -629,8 +640,8 @@
       "bb9df4ab-e8cd-41d0-8dfa-4ccb95ee610b" : { 
          "class" : "RandomNode", 
          "desc" : { 
-            "x" : "-101578", 
-            "y" : "-100349"
+            "x" : "-101581", 
+            "y" : "-100426"
          }, 
          "child" : [ 
             "dfcc9df2-fe81-4e88-a036-094b79e01429", 
@@ -646,8 +657,8 @@
       "dfcc9df2-fe81-4e88-a036-094b79e01429" : { 
          "class" : "RandomNode", 
          "desc" : { 
-            "x" : "-101897", 
-            "y" : "-100259"
+            "x" : "-101919", 
+            "y" : "-100244"
          }, 
          "child" : [ 
             "f99910c3-12f1-4f58-95f4-54637dfa05ca", 
@@ -657,8 +668,8 @@
       "f99910c3-12f1-4f58-95f4-54637dfa05ca" : { 
          "class" : "PlayerWhereWorldMapNode", 
          "desc" : { 
-            "x" : "-101988", 
-            "y" : "-100183"
+            "x" : "-102028", 
+            "y" : "-100191"
          }, 
          "child" : [ 
             "ff327904-fae2-4642-9141-e4acd148ab89", 
@@ -668,8 +679,8 @@
       "ff327904-fae2-4642-9141-e4acd148ab89" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-102025", 
-            "y" : "-100095"
+            "x" : "-101999", 
+            "y" : "-100090"
          }, 
          "child" : [ 
          ], 
@@ -704,8 +715,8 @@
       "a1000e69-0244-4219-abe3-723f5979d68c" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-101795", 
-            "y" : "-100111"
+            "x" : "-101841", 
+            "y" : "-100104"
          }, 
          "child" : [ 
          ], 
@@ -740,18 +751,64 @@
       "06aa427e-71e2-4dee-8e62-4d3ca95db04b" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100910", 
-            "y" : "-100199"
+            "x" : "-100902", 
+            "y" : "-100225"
          }, 
          "child" : [ 
+            "9448fa43-89e4-41c8-9c56-0b43ec130514", 
             "2b3e79be-aff2-4f4b-8816-23f6121d0d6f"
          ]
+      }, 
+      "9448fa43-89e4-41c8-9c56-0b43ec130514" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101196", 
+            "y" : "-100039", 
+            "comment" : "hide campfire"
+         }, 
+         "child" : [ 
+            "732973aa-23e2-471d-a3ee-573ff420cd5c"
+         ]
+      }, 
+      "732973aa-23e2-471d-a3ee-573ff420cd5c" : { 
+         "class" : "RemoveKeywordNode", 
+         "desc" : { 
+            "x" : "-101216", 
+            "y" : "-99997"
+         }, 
+         "child" : [ 
+            "bf2b7466-4f8b-4849-9393-c0bcd65dbd93"
+         ], 
+         "key" : "SHOW_CAMP"
+      }, 
+      "bf2b7466-4f8b-4849-9393-c0bcd65dbd93" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101215", 
+            "y" : "-99940"
+         }, 
+         "child" : [ 
+            "1f8a08e3-7dd2-4e54-b508-6940ff342d13"
+         ], 
+         "objectName" : "Campfire", 
+         "active" : "false"
+      }, 
+      "1f8a08e3-7dd2-4e54-b508-6940ff342d13" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101217", 
+            "y" : "-99859"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Z_Campfire_static", 
+         "active" : "false"
       }, 
       "2b3e79be-aff2-4f4b-8816-23f6121d0d6f" : { 
          "class" : "PlayStateNode", 
          "desc" : { 
-            "x" : "-100934", 
-            "y" : "-100130"
+            "x" : "-100908", 
+            "y" : "-100112"
          }, 
          "child" : [ 
          ], 
@@ -760,8 +817,8 @@
       "370385de-beb0-432c-938c-f5133c8fc879" : { 
          "class" : "RandomNode", 
          "desc" : { 
-            "x" : "-102283", 
-            "y" : "-99295", 
+            "x" : "-102314", 
+            "y" : "-99236", 
             "comment" : "team2"
          }, 
          "child" : [ 
@@ -895,8 +952,8 @@
       "cfefed25-c4a5-47b0-a282-5f8841020c07" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-102678", 
-            "y" : "-98997"
+            "x" : "-102676", 
+            "y" : "-98999"
          }, 
          "child" : [ 
             "4bad0602-2bd0-48a9-86a3-fe8ce36eeee6"
@@ -1099,8 +1156,8 @@
       "63145727-ff15-4684-86d2-9b85c7bac5b6" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-102443", 
-            "y" : "-98316"
+            "x" : "-102446", 
+            "y" : "-98467"
          }, 
          "child" : [ 
          ], 
@@ -1304,8 +1361,8 @@
       "241cabc4-7a00-409c-8cc3-d35051ee9a03" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-102782", 
-            "y" : "-98536"
+            "x" : "-102793", 
+            "y" : "-98587"
          }, 
          "child" : [ 
             "a1577441-83fb-4963-8a33-b1dc8d4e1de8"
@@ -1359,8 +1416,8 @@
       "a1577441-83fb-4963-8a33-b1dc8d4e1de8" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-102735", 
-            "y" : "-98349"
+            "x" : "-102748", 
+            "y" : "-98452"
          }, 
          "child" : [ 
          ], 
@@ -1503,8 +1560,8 @@
       "08d8c6c6-94a0-41d4-be1d-5034e784c6ea" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-102644", 
-            "y" : "-98549"
+            "x" : "-102661", 
+            "y" : "-98589"
          }, 
          "child" : [ 
             "a1577441-83fb-4963-8a33-b1dc8d4e1de8"
@@ -1603,8 +1660,8 @@
       "39ca08ef-bfaa-4003-954b-7839b8f841dc" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-102068", 
-            "y" : "-98371"
+            "x" : "-102061", 
+            "y" : "-98520"
          }, 
          "child" : [ 
          ], 
@@ -1656,8 +1713,8 @@
       "50d71ba6-381f-4228-8613-048731354030" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-102061", 
-            "y" : "-98566"
+            "x" : "-102066", 
+            "y" : "-98611"
          }, 
          "child" : [ 
             "39ca08ef-bfaa-4003-954b-7839b8f841dc"
@@ -1706,8 +1763,8 @@
       "b8a7b201-c999-4f0f-95be-9e6d0c18921d" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-101934", 
-            "y" : "-98618"
+            "x" : "-101935", 
+            "y" : "-98614"
          }, 
          "child" : [ 
             "39ca08ef-bfaa-4003-954b-7839b8f841dc"
@@ -2088,8 +2145,8 @@
       "62c9cc16-d0a8-4b04-9c32-f7c7abd5a147" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100183", 
-            "y" : "-100238"
+            "x" : "-100166", 
+            "y" : "-100225"
          }, 
          "child" : [ 
             "e071855e-ee17-4321-a203-c17ee92e3bd3"
@@ -2108,8 +2165,8 @@
       "55fe97aa-1ded-438e-9393-02af8e177b79" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-98925", 
-            "y" : "-100334", 
+            "x" : "-98821", 
+            "y" : "-100338", 
             "comment" : "from enc"
          }, 
          "child" : [ 
@@ -2171,8 +2228,8 @@
       "7dff89d3-034b-46cc-89cc-a69cd25d7c6b" : { 
          "class" : "AddKeywordNode", 
          "desc" : { 
-            "x" : "-101450", 
-            "y" : "-101029"
+            "x" : "-101550", 
+            "y" : "-101000"
          }, 
          "child" : [ 
             "69ad242e-ecab-49d8-afa2-27b82eaaac87", 
@@ -2183,8 +2240,8 @@
       "69ad242e-ecab-49d8-afa2-27b82eaaac87" : { 
          "class" : "ActiveObjectNode", 
          "desc" : { 
-            "x" : "-101653", 
-            "y" : "-100920"
+            "x" : "-101624", 
+            "y" : "-100922"
          }, 
          "child" : [ 
          ], 
@@ -2194,8 +2251,8 @@
       "b9222787-9b49-4cb7-84ea-6827dbb8f405" : { 
          "class" : "ActiveObjectNode", 
          "desc" : { 
-            "x" : "-101391", 
-            "y" : "-100928"
+            "x" : "-101456", 
+            "y" : "-100941"
          }, 
          "child" : [ 
          ], 
@@ -2219,8 +2276,8 @@
       "9d6b4c6c-d2fd-432f-97e2-acd7656ed9dd" : { 
          "class" : "ObjectCheckNode", 
          "desc" : { 
-            "x" : "-100517", 
-            "y" : "-101500"
+            "x" : "-100522", 
+            "y" : "-101449"
          }, 
          "child" : [ 
             "9f64fdd6-2651-40e6-a50f-56e85db3b43b", 
@@ -2493,6 +2550,7 @@
             "y" : "-100472"
          }, 
          "child" : [ 
+            "17b95ba9-2488-42e4-9c83-8b3d9f2203b3", 
             "1d39fdb0-e88c-4614-9fc1-01673172a09c", 
             "f195cdac-0db8-485e-bdde-e812510c3b59", 
             "acf9068e-5600-49a8-8d30-17ea0ee544d8", 
@@ -2501,6 +2559,7 @@
             "313c249d-284f-4c6d-84b0-171cb9297a60", 
             "da85acc2-2052-4a5b-b163-2c2bd8bc477d", 
             "524bde1e-7e74-412f-8c99-1432961d9e76", 
+            "5ec85dac-915c-4246-aa90-64dc64246007", 
             "f6cfa8e4-8baa-4d7b-91b2-31f436e1530d", 
             "683e834f-fd8b-4eeb-9058-5f74f20f95f9", 
             "380bf4d4-7fca-4ec2-ad5e-c34d876f5c78", 
@@ -2528,32 +2587,23 @@
             "1e0a06c0-a96f-42ef-9eaa-922cd4ae9cd0", 
             "0196a523-6ff2-4a67-b3cf-0ebe7f1486c3", 
             "db7911cf-440e-4a81-8b91-62adfe7cbda6", 
-            "8462b568-3cb6-4ba5-896d-ee77fd69b47d", 
-            "0dd93793-f4d7-4184-b0ab-6e730614262f", 
             "c2400956-735c-49a6-9198-a88f2bedc41b", 
             "ff228082-6196-4149-809b-5028a294616b", 
             "98245961-ec26-4f86-8d58-09c8158b713c", 
             "a875250e-5a55-41e8-b2d6-2788baeb6ea6", 
-            "f6d32d26-619f-4676-805d-d5e64475f242", 
-            "32eb9f52-93dd-4f2c-a9cf-c59fb0ac16e0", 
-            "170e8431-67a3-4efb-bd67-662d59c015b6", 
-            "53841092-6d20-4b85-a229-cedd5e7ec8e8", 
-            "3375dc56-33d2-4536-b382-8c5e649ca96a", 
-            "4f35503b-2d75-4c27-a136-fcdd0b5fcd98", 
             "b8a0cf47-4e20-4e32-a05e-8976ce9a72a2", 
-            "ccc8a189-fe4b-446a-bffe-079528cce916", 
-            "7b54b204-ccc3-4c51-bea6-5d0b5471f103", 
-            "a6a4ada0-bd39-424d-ae58-583eea5e4b83", 
-            "b1a186ff-9c34-48fa-95c8-e23195978a15", 
-            "fa7a5a32-4a34-49dd-abef-806dcc198f2d", 
-            "3d20c6df-24bd-45a6-be56-256514083a3c", 
-            "524cbed3-7914-45e2-9f5c-3f855e94c0b9", 
-            "f587e48d-bf9c-41af-8313-cf6ff9f9ea1f", 
-            "cd76b1e1-5f8c-4390-a8f1-d293fa1ad4fd", 
-            "9d5c8004-57e0-4430-8695-2fa68ad2a847", 
-            "ddee81d2-0532-48c6-b477-a00d63be8d42", 
-            "7db3474c-4cd1-4fb4-aac5-b175c027e432"
+            "9d5c8004-57e0-4430-8695-2fa68ad2a847"
          ]
+      }, 
+      "17b95ba9-2488-42e4-9c83-8b3d9f2203b3" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-100831", 
+            "y" : "-100296"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/ph_world_1"
       }, 
       "1d39fdb0-e88c-4614-9fc1-01673172a09c" : { 
          "class" : "EncounterTypeNode", 
@@ -2569,12 +2619,12 @@
       "27e521b8-1d8f-43b6-983b-00c835d5a9dd" : { 
          "class" : "PlayBehaviorNode", 
          "desc" : { 
-            "x" : "-101309", 
-            "y" : "-100273"
+            "x" : "-101297", 
+            "y" : "-100287"
          }, 
          "child" : [ 
          ], 
-         "behavior" : "entities/behavior/z_1_aw"
+         "behavior" : "Entities/Behavior/Z_1_AW"
       }, 
       "f195cdac-0db8-485e-bdde-e812510c3b59" : { 
          "class" : "EncounterTypeNode", 
@@ -2709,8 +2759,8 @@
       "175b0d70-dcc9-4112-91cb-9524efd82bcd" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-101409", 
-            "y" : "-98051"
+            "x" : "-101362", 
+            "y" : "-98050"
          }, 
          "child" : [ 
             "264712d6-8837-4634-b722-a9692a9a8c46"
@@ -2809,8 +2859,8 @@
       "518a02f7-4df4-491b-8920-afccd6b4eca4" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100472", 
-            "y" : "-98643"
+            "x" : "-100343", 
+            "y" : "-98533"
          }, 
          "child" : [ 
             "ee86d7a0-ab06-45e7-adb0-78062e12ea09", 
@@ -2821,8 +2871,8 @@
       "ee86d7a0-ab06-45e7-adb0-78062e12ea09" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100435", 
-            "y" : "-98300"
+            "x" : "-100198", 
+            "y" : "-98270"
          }, 
          "child" : [ 
             "22dfcc04-af8e-4de0-9a65-f2649ed9466f"
@@ -2836,7 +2886,7 @@
          }, 
          "child" : [ 
          ], 
-         "script" : "entities/behavior/z_z_trade_1"
+         "script" : "Entities/Behavior/Z_Z_Trade_1"
       }, 
       "48484fbc-f903-4a18-9eeb-3681dceb3832" : { 
          "class" : "DummyNode", 
@@ -2851,8 +2901,8 @@
       "cf6aff94-ae19-427d-a535-c8e38398e41d" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-99649", 
-            "y" : "-98580"
+            "x" : "-100153", 
+            "y" : "-98494"
          }, 
          "child" : [ 
             "48484fbc-f903-4a18-9eeb-3681dceb3832"
@@ -2861,8 +2911,8 @@
       "94696c7b-05e2-4600-8fed-8696b6230298" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-101251", 
-            "y" : "-98050"
+            "x" : "-101232", 
+            "y" : "-98052"
          }, 
          "child" : [ 
             "264712d6-8837-4634-b722-a9692a9a8c46"
@@ -3331,8 +3381,8 @@
       "318a9c04-dfbb-4163-a38a-206ce654a00d" : { 
          "class" : "FractionSetRelationshipNode", 
          "desc" : { 
-            "x" : "-100738", 
-            "y" : "-99261"
+            "x" : "-100710", 
+            "y" : "-99245"
          }, 
          "child" : [ 
             "746e47ec-afd0-4440-b5c4-0681a3631fac"
@@ -3356,8 +3406,8 @@
       "2e7fdffb-020b-4712-bfc2-a6c6a484150e" : { 
          "class" : "SpawnEntityNode", 
          "desc" : { 
-            "x" : "-100910", 
-            "y" : "-99041"
+            "x" : "-100836", 
+            "y" : "-99065"
          }, 
          "child" : [ 
          ], 
@@ -3382,8 +3432,8 @@
       "9f361f10-04da-40dd-a48e-edf6cfb74833" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-100694", 
-            "y" : "-99025"
+            "x" : "-100758", 
+            "y" : "-99015"
          }, 
          "child" : [ 
          ], 
@@ -3427,12 +3477,12 @@
       "f2a21f51-b01e-4c38-a965-51feb1fdfecf" : { 
          "class" : "PlayStateNode", 
          "desc" : { 
-            "x" : "-99890", 
-            "y" : "-99005"
+            "x" : "-99897.45", 
+            "y" : "-99023.22"
          }, 
          "child" : [ 
          ], 
-         "script" : "entities/behavior/z_z_guard_caravan_1"
+         "script" : "Entities/Behavior/Z_Z_Guard_Caravan_1"
       }, 
       "2b3e95b0-2ae5-4a7a-b916-c618cdc9d19b" : { 
          "class" : "RandomNode", 
@@ -3452,8 +3502,8 @@
       "3aa36975-2fee-4745-b6e3-68e0d1a27552" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-100837", 
-            "y" : "-98888"
+            "x" : "-100798", 
+            "y" : "-98877"
          }, 
          "child" : [ 
             "518a02f7-4df4-491b-8920-afccd6b4eca4"
@@ -3498,8 +3548,8 @@
       "2c8cfe2b-2e97-47ca-848a-f79b66ace68c" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-100682", 
-            "y" : "-98881"
+            "x" : "-100668", 
+            "y" : "-98878"
          }, 
          "child" : [ 
             "518a02f7-4df4-491b-8920-afccd6b4eca4"
@@ -3553,8 +3603,8 @@
       "f1606ede-8986-43d2-8f73-d876b5ab6d8e" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-100550", 
-            "y" : "-98878"
+            "x" : "-100544", 
+            "y" : "-98882"
          }, 
          "child" : [ 
             "518a02f7-4df4-491b-8920-afccd6b4eca4"
@@ -3602,8 +3652,8 @@
       "9b23ae88-1285-495a-8220-3389f25b7615" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-100395", 
-            "y" : "-98878"
+            "x" : "-100421", 
+            "y" : "-98881"
          }, 
          "child" : [ 
             "518a02f7-4df4-491b-8920-afccd6b4eca4"
@@ -3646,8 +3696,8 @@
       "e0043bf4-fd04-4d0b-b028-7323c1583b0c" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-100236", 
-            "y" : "-98881"
+            "x" : "-100295", 
+            "y" : "-98879"
          }, 
          "child" : [ 
             "518a02f7-4df4-491b-8920-afccd6b4eca4"
@@ -3692,8 +3742,8 @@
       "4a8357fb-9cb8-4c94-8926-0e223cf39692" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-100060", 
-            "y" : "-98878"
+            "x" : "-100163", 
+            "y" : "-98876"
          }, 
          "child" : [ 
             "518a02f7-4df4-491b-8920-afccd6b4eca4"
@@ -3799,8 +3849,8 @@
       "da85acc2-2052-4a5b-b163-2c2bd8bc477d" : { 
          "class" : "EncounterTypeNode", 
          "desc" : { 
-            "x" : "-100384", 
-            "y" : "-100326"
+            "x" : "-100390", 
+            "y" : "-100334"
          }, 
          "child" : [ 
             "ffa371ef-3f10-4ffa-a2ce-9c5007c13e83"
@@ -3815,24 +3865,47 @@
          }, 
          "child" : [ 
          ], 
-         "script" : "entities/behavior/z_z_slavers"
+         "script" : "Entities/Behavior/Z_Z_Slavers"
       }, 
       "524bde1e-7e74-412f-8c99-1432961d9e76" : { 
          "class" : "EncounterTypeNode", 
          "desc" : { 
-            "x" : "-101926", 
-            "y" : "-100398"
+            "x" : "-101910", 
+            "y" : "-100353"
          }, 
          "child" : [ 
+            "9448fa43-89e4-41c8-9c56-0b43ec130514", 
             "dfcc9df2-fe81-4e88-a036-094b79e01429"
          ], 
          "encType" : "Monster"
       }, 
+      "5ec85dac-915c-4246-aa90-64dc64246007" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-101444", 
+            "y" : "-100396"
+         }, 
+         "child" : [ 
+            "9448fa43-89e4-41c8-9c56-0b43ec130514", 
+            "5e43a6e0-c41d-4897-a100-0b3f2495ca0e"
+         ], 
+         "encType" : "Medvedka"
+      }, 
+      "5e43a6e0-c41d-4897-a100-0b3f2495ca0e" : { 
+         "class" : "PlayBehaviorNode", 
+         "desc" : { 
+            "x" : "-101484", 
+            "y" : "-100292"
+         }, 
+         "child" : [ 
+         ], 
+         "behavior" : "Entities/Behavior/Z_Z_Medvedka"
+      }, 
       "f6cfa8e4-8baa-4d7b-91b2-31f436e1530d" : { 
          "class" : "EncounterTypeNode", 
          "desc" : { 
-            "x" : "-102052", 
-            "y" : "-100875"
+            "x" : "-102165", 
+            "y" : "-100900"
          }, 
          "child" : [ 
             "bc43815f-69c2-4011-a778-fd4b296b0242"
@@ -3856,8 +3929,8 @@
       "921ac0e6-d684-43ea-b67f-cc959ad7e5e6" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-102582", 
-            "y" : "-100741"
+            "x" : "-102540", 
+            "y" : "-100736"
          }, 
          "child" : [ 
          ], 
@@ -3892,8 +3965,8 @@
       "a8c5f159-43d9-40cd-b04e-2ed894224cd5" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-102438", 
-            "y" : "-100684"
+            "x" : "-102404", 
+            "y" : "-100723"
          }, 
          "child" : [ 
          ], 
@@ -3928,8 +4001,8 @@
       "54b65d37-38ba-4417-9b86-9fd97bb124c3" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-102334", 
-            "y" : "-100584"
+            "x" : "-102325", 
+            "y" : "-100628"
          }, 
          "child" : [ 
          ], 
@@ -3976,8 +4049,8 @@
       "b84c11ac-42f2-4cbb-b4a8-bb55ab77c8c9" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-102174", 
-            "y" : "-100630"
+            "x" : "-102132", 
+            "y" : "-100669"
          }, 
          "child" : [ 
          ], 
@@ -4012,8 +4085,8 @@
       "822ff3d8-6854-4262-8ce5-1f80640ba1fc" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-102051", 
-            "y" : "-100544"
+            "x" : "-102035", 
+            "y" : "-100623"
          }, 
          "child" : [ 
          ], 
@@ -4048,8 +4121,8 @@
       "7b1934bb-ccd0-4287-a20a-e11a5848435c" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-101899", 
-            "y" : "-100569"
+            "x" : "-101920", 
+            "y" : "-100670"
          }, 
          "child" : [ 
          ], 
@@ -4084,8 +4157,8 @@
       "b18a523f-52ee-4ea5-88e9-bf5d180bfa95" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-101845", 
-            "y" : "-100741"
+            "x" : "-101839", 
+            "y" : "-100737"
          }, 
          "child" : [ 
          ], 
@@ -4153,12 +4226,12 @@
       "673193b1-598c-41d8-a35c-f65871fdefb0" : { 
          "class" : "PlayStateNode", 
          "desc" : { 
-            "x" : "-99325", 
-            "y" : "-100841"
+            "x" : "-99399", 
+            "y" : "-100903"
          }, 
          "child" : [ 
          ], 
-         "script" : "entities/behavior/z_z_bandits"
+         "script" : "Entities/Behavior/Z_Z_Bandits"
       }, 
       "6e29d0cb-c2dd-4b7d-be68-072e2d8ce0ae" : { 
          "class" : "DummyNode", 
@@ -4214,8 +4287,8 @@
       "f2fc63c2-ecd6-4b88-b6fc-17adbf4a94ef" : { 
          "class" : "EncounterTypeNode", 
          "desc" : { 
-            "x" : "-100794", 
-            "y" : "-100351"
+            "x" : "-100861", 
+            "y" : "-100376"
          }, 
          "child" : [ 
             "06aa427e-71e2-4dee-8e62-4d3ca95db04b"
@@ -4241,13 +4314,13 @@
          }, 
          "child" : [ 
          ], 
-         "script" : "entities/behavior/z_z_scavenger"
+         "script" : "Entities/Behavior/Z_Z_Scavenger"
       }, 
       "61254006-381f-48d6-b043-3f012f3082c0" : { 
          "class" : "EncounterTypeNode", 
          "desc" : { 
-            "x" : "-101748", 
-            "y" : "-99898"
+            "x" : "-101634", 
+            "y" : "-100042"
          }, 
          "child" : [ 
             "05cc8649-e303-493a-a598-4a964c4f150e"
@@ -4257,8 +4330,8 @@
       "05cc8649-e303-493a-a598-4a964c4f150e" : { 
          "class" : "RandomNode", 
          "desc" : { 
-            "x" : "-101464", 
-            "y" : "-99752"
+            "x" : "-101552", 
+            "y" : "-99758"
          }, 
          "child" : [ 
             "1376057e-06c1-4ac2-aa5c-344badc3133d", 
@@ -4268,8 +4341,8 @@
       "1376057e-06c1-4ac2-aa5c-344badc3133d" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-102667", 
-            "y" : "-99575", 
+            "x" : "-101626", 
+            "y" : "-99621", 
             "comment" : "разборки"
          }, 
          "child" : [ 
@@ -4280,8 +4353,8 @@
       "fa2661ac-af68-491b-9712-c2b19576cbfb" : { 
          "class" : "RandomNode", 
          "desc" : { 
-            "x" : "-102858", 
-            "y" : "-99208", 
+            "x" : "-103424", 
+            "y" : "-99230", 
             "comment" : "team1"
          }, 
          "child" : [ 
@@ -4317,8 +4390,8 @@
       "3e46c7fa-310c-451e-8fbb-ed1777d2e658" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-103961", 
-            "y" : "-98850"
+            "x" : "-103776", 
+            "y" : "-98896"
          }, 
          "child" : [ 
             "da28e8c1-3d93-40b7-b0d1-d8117f1b745a"
@@ -4367,8 +4440,8 @@
       "da28e8c1-3d93-40b7-b0d1-d8117f1b745a" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-103670", 
-            "y" : "-98735"
+            "x" : "-103715", 
+            "y" : "-98780"
          }, 
          "child" : [ 
          ], 
@@ -5626,8 +5699,8 @@
       "b1cd9d21-6646-4137-abc7-9aafc9688192" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100669", 
-            "y" : "-99595", 
+            "x" : "-100602", 
+            "y" : "-99712", 
             "comment" : "Налет Караван"
          }, 
          "child" : [ 
@@ -5638,8 +5711,8 @@
       "aa597538-94d8-4959-90b8-9fbc7ee35851" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100358", 
-            "y" : "-99357"
+            "x" : "-100521", 
+            "y" : "-99634"
          }, 
          "child" : [ 
             "370385de-beb0-432c-938c-f5133c8fc879"
@@ -5648,10 +5721,11 @@
       "86eb2601-e81f-4893-95db-60d049a8a149" : { 
          "class" : "EncounterTypeNode", 
          "desc" : { 
-            "x" : "-100193", 
-            "y" : "-100338"
+            "x" : "-100177", 
+            "y" : "-100359"
          }, 
          "child" : [ 
+            "9448fa43-89e4-41c8-9c56-0b43ec130514", 
             "62c9cc16-d0a8-4b04-9c32-f7c7abd5a147"
          ], 
          "encType" : "Wolfs"
@@ -5865,6 +5939,7 @@
             "y" : "-100410"
          }, 
          "child" : [ 
+            "9448fa43-89e4-41c8-9c56-0b43ec130514", 
             "55fe97aa-1ded-438e-9393-02af8e177b79"
          ], 
          "encType" : "Ants"
@@ -5906,8 +5981,8 @@
       "dad45706-fc53-4ae7-bc65-972f9c56f93d" : { 
          "class" : "EncounterTypeNode", 
          "desc" : { 
-            "x" : "-101426", 
-            "y" : "-99564"
+            "x" : "-101397", 
+            "y" : "-99511"
          }, 
          "child" : [ 
             "3f7b898a-5bc6-4c1a-a0d7-e5eed40c7fbb"
@@ -5917,8 +5992,8 @@
       "3f7b898a-5bc6-4c1a-a0d7-e5eed40c7fbb" : { 
          "class" : "FractionSetRelationshipNode", 
          "desc" : { 
-            "x" : "-101445", 
-            "y" : "-99478"
+            "x" : "-101434", 
+            "y" : "-99424"
          }, 
          "child" : [ 
             "36b0ee65-6dc3-489d-bf4e-dfe154826a2d"
@@ -5929,8 +6004,8 @@
       "36b0ee65-6dc3-489d-bf4e-dfe154826a2d" : { 
          "class" : "AddKeywordNode", 
          "desc" : { 
-            "x" : "-101422", 
-            "y" : "-99388"
+            "x" : "-101470", 
+            "y" : "-99364"
          }, 
          "child" : [ 
             "2eda7476-6596-43a7-8676-a79f6980688f"
@@ -5940,18 +6015,18 @@
       "2eda7476-6596-43a7-8676-a79f6980688f" : { 
          "class" : "PlayStateNode", 
          "desc" : { 
-            "x" : "-101470", 
-            "y" : "-99315"
+            "x" : "-101506", 
+            "y" : "-99297"
          }, 
          "child" : [ 
          ], 
-         "script" : "entities/behavior/z_robberyraid"
+         "script" : "Entities/Behavior/Z_RobberyRaid"
       }, 
       "ac66bf06-6fef-4032-8300-dd6d5d08efdf" : { 
          "class" : "EncounterTypeNode", 
          "desc" : { 
-            "x" : "-101603", 
-            "y" : "-101106"
+            "x" : "-101667", 
+            "y" : "-101056"
          }, 
          "child" : [ 
             "a7f35679-48b8-453c-b8f4-da3ef2f56faa", 
@@ -6124,6 +6199,7 @@
             "y" : "-99961"
          }, 
          "child" : [ 
+            "9448fa43-89e4-41c8-9c56-0b43ec130514", 
             "95a8a499-1e46-4ab6-b139-ff24d2d2a636"
          ], 
          "encType" : "Rats_2"
@@ -6264,58 +6340,6 @@
          ], 
          "script" : "Entities/Behavior/Z_Z_Racket"
       }, 
-      "8462b568-3cb6-4ba5-896d-ee77fd69b47d" : { 
-         "class" : "EncounterTypeNode", 
-         "desc" : { 
-            "x" : "-98268", 
-            "y" : "-101393"
-         }, 
-         "child" : [ 
-            "5dae2ee9-2469-4601-888d-a5d1b3a65382"
-         ], 
-         "encType" : "Ants_2"
-      }, 
-      "5dae2ee9-2469-4601-888d-a5d1b3a65382" : { 
-         "class" : "PlayStateNode", 
-         "desc" : { 
-            "x" : "-98311", 
-            "y" : "-101317"
-         }, 
-         "child" : [ 
-         ], 
-         "script" : "Entities/Behavior/Z_Z_Ants_2"
-      }, 
-      "0dd93793-f4d7-4184-b0ab-6e730614262f" : { 
-         "class" : "EncounterTypeNode", 
-         "desc" : { 
-            "x" : "-98092", 
-            "y" : "-101464"
-         }, 
-         "child" : [ 
-            "4b3b57c9-7100-48c7-8702-39e4f19cd081"
-         ], 
-         "encType" : "roi"
-      }, 
-      "4b3b57c9-7100-48c7-8702-39e4f19cd081" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-98089", 
-            "y" : "-101398"
-         }, 
-         "child" : [ 
-            "36f63489-4c6b-4b3c-a5c7-ccba55dfdcd6"
-         ]
-      }, 
-      "36f63489-4c6b-4b3c-a5c7-ccba55dfdcd6" : { 
-         "class" : "PlayStateNode", 
-         "desc" : { 
-            "x" : "-98120", 
-            "y" : "-101318"
-         }, 
-         "child" : [ 
-         ], 
-         "script" : "Entities/Behavior/z_z_roi"
-      }, 
       "c2400956-735c-49a6-9198-a88f2bedc41b" : { 
          "class" : "EncounterTypeNode", 
          "desc" : { 
@@ -6351,8 +6375,8 @@
       "d0552034-ea5f-401f-a4ca-cfa9ddc0176c" : { 
          "class" : "FractionSetRelationshipNode", 
          "desc" : { 
-            "x" : "-98713", 
-            "y" : "-100116"
+            "x" : "-98798", 
+            "y" : "-100123"
          }, 
          "child" : [ 
             "1c87c224-7dd1-4c86-a5e4-0f023a70b61d"
@@ -6363,8 +6387,8 @@
       "1c87c224-7dd1-4c86-a5e4-0f023a70b61d" : { 
          "class" : "RandomNode", 
          "desc" : { 
-            "x" : "-98825", 
-            "y" : "-100042"
+            "x" : "-98856", 
+            "y" : "-100052"
          }, 
          "child" : [ 
             "ae8ee46e-0a1e-4b6a-bca7-bf0ea38c6ac7", 
@@ -6376,8 +6400,8 @@
       "ae8ee46e-0a1e-4b6a-bca7-bf0ea38c6ac7" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-98981", 
-            "y" : "-100012"
+            "x" : "-98989", 
+            "y" : "-100020"
          }, 
          "child" : [ 
             "ddd307e0-5d07-4bfa-b94e-a5eba3ebb2d3", 
@@ -7032,8 +7056,8 @@
       "fa0ffa10-bcd3-4ab2-8afb-c44023cc9457" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-98572", 
-            "y" : "-99836"
+            "x" : "-98616", 
+            "y" : "-99863"
          }, 
          "child" : [ 
          ], 
@@ -7101,165 +7125,19 @@
       "a875250e-5a55-41e8-b2d6-2788baeb6ea6" : { 
          "class" : "EncounterTypeNode", 
          "desc" : { 
-            "x" : "-100617", 
-            "y" : "-100080"
+            "x" : "-100635", 
+            "y" : "-100088"
          }, 
          "child" : [ 
             "dfa805a4-db08-4e56-bda2-fd71822475c3"
          ], 
          "encType" : "Traders"
       }, 
-      "f6d32d26-619f-4676-805d-d5e64475f242" : { 
-         "class" : "EncounterTypeNode", 
-         "desc" : { 
-            "x" : "-97921", 
-            "y" : "-101456"
-         }, 
-         "child" : [ 
-            "2d0d402c-1db4-49a6-a1bd-66ce2c42de88"
-         ], 
-         "encType" : "ratsnights"
-      }, 
-      "2d0d402c-1db4-49a6-a1bd-66ce2c42de88" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-97907", 
-            "y" : "-101382"
-         }, 
-         "child" : [ 
-            "565b485e-abaa-4872-bad2-830197001a73"
-         ]
-      }, 
-      "565b485e-abaa-4872-bad2-830197001a73" : { 
-         "class" : "PlayStateNode", 
-         "desc" : { 
-            "x" : "-97955", 
-            "y" : "-101318"
-         }, 
-         "child" : [ 
-         ], 
-         "script" : "Entities/Behavior/z_z_ratsnights"
-      }, 
-      "32eb9f52-93dd-4f2c-a9cf-c59fb0ac16e0" : { 
-         "class" : "EncounterTypeNode", 
-         "desc" : { 
-            "x" : "-97414", 
-            "y" : "-101418"
-         }, 
-         "child" : [ 
-            "1df4fa9c-76fd-4e6b-8c56-190d56a7a3c2"
-         ], 
-         "encType" : "Hunt_rabbit"
-      }, 
-      "1df4fa9c-76fd-4e6b-8c56-190d56a7a3c2" : { 
-         "class" : "PlayStateNode", 
-         "desc" : { 
-            "x" : "-97539", 
-            "y" : "-101316"
-         }, 
-         "child" : [ 
-         ], 
-         "script" : "Entities/Behavior/Z_Z_Hunt_rabbit"
-      }, 
-      "170e8431-67a3-4efb-bd67-662d59c015b6" : { 
-         "class" : "EncounterTypeNode", 
-         "desc" : { 
-            "x" : "-97716", 
-            "y" : "-101457"
-         }, 
-         "child" : [ 
-            "bdebb671-2db7-4d15-83f1-860ddfcdaa7d"
-         ], 
-         "encType" : "wolfsnights"
-      }, 
-      "bdebb671-2db7-4d15-83f1-860ddfcdaa7d" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-97702", 
-            "y" : "-101383"
-         }, 
-         "child" : [ 
-            "48d35b7d-0c3d-4bdc-8be0-844e17079452"
-         ]
-      }, 
-      "48d35b7d-0c3d-4bdc-8be0-844e17079452" : { 
-         "class" : "PlayStateNode", 
-         "desc" : { 
-            "x" : "-97750", 
-            "y" : "-101319"
-         }, 
-         "child" : [ 
-         ], 
-         "script" : "Entities/Behavior/z_z_wolfsnights"
-      }, 
-      "53841092-6d20-4b85-a229-cedd5e7ec8e8" : { 
-         "class" : "EncounterTypeNode", 
-         "desc" : { 
-            "x" : "-96958", 
-            "y" : "-101414"
-         }, 
-         "child" : [ 
-            "83830e41-e5d4-41fa-9f84-7378543bb2fd"
-         ], 
-         "encType" : "Hunt_stag"
-      }, 
-      "83830e41-e5d4-41fa-9f84-7378543bb2fd" : { 
-         "class" : "PlayStateNode", 
-         "desc" : { 
-            "x" : "-97111", 
-            "y" : "-101317"
-         }, 
-         "child" : [ 
-         ], 
-         "script" : "Entities/Behavior/Z_Z_Hunt_stag"
-      }, 
-      "3375dc56-33d2-4536-b382-8c5e649ca96a" : { 
-         "class" : "EncounterTypeNode", 
-         "desc" : { 
-            "x" : "-96498", 
-            "y" : "-101420"
-         }, 
-         "child" : [ 
-            "c0bd66c7-022a-430e-b071-e78a28bad2c2"
-         ], 
-         "encType" : "fight_3"
-      }, 
-      "c0bd66c7-022a-430e-b071-e78a28bad2c2" : { 
-         "class" : "PlayStateNode", 
-         "desc" : { 
-            "x" : "-96516", 
-            "y" : "-101320"
-         }, 
-         "child" : [ 
-         ], 
-         "script" : "Entities/Behavior/Z_Z_fight_3"
-      }, 
-      "4f35503b-2d75-4c27-a136-fcdd0b5fcd98" : { 
-         "class" : "EncounterTypeNode", 
-         "desc" : { 
-            "x" : "-97238", 
-            "y" : "-101420"
-         }, 
-         "child" : [ 
-            "e411b009-5164-47a4-8c9f-fb86812039a5"
-         ], 
-         "encType" : "Hunt_boar"
-      }, 
-      "e411b009-5164-47a4-8c9f-fb86812039a5" : { 
-         "class" : "PlayStateNode", 
-         "desc" : { 
-            "x" : "-97322", 
-            "y" : "-101316"
-         }, 
-         "child" : [ 
-         ], 
-         "script" : "Entities/Behavior/Z_Z_Hunt_boar"
-      }, 
       "b8a0cf47-4e20-4e32-a05e-8976ce9a72a2" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-99076", 
-            "y" : "-101131"
+            "x" : "-99178", 
+            "y" : "-101100"
          }, 
          "child" : [ 
             "9095c05a-05a6-4ee7-8144-00d2c1001777", 
@@ -7271,8 +7149,8 @@
       "9095c05a-05a6-4ee7-8144-00d2c1001777" : { 
          "class" : "EncounterTypeNode", 
          "desc" : { 
-            "x" : "-99230", 
-            "y" : "-101062"
+            "x" : "-99358", 
+            "y" : "-101037"
          }, 
          "child" : [ 
             "c89843d1-84b7-4242-8c2e-acdeded80730"
@@ -7282,8 +7160,8 @@
       "c89843d1-84b7-4242-8c2e-acdeded80730" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-99084", 
-            "y" : "-100953"
+            "x" : "-99205", 
+            "y" : "-100968"
          }, 
          "child" : [ 
             "673193b1-598c-41d8-a35c-f65871fdefb0", 
@@ -7293,8 +7171,8 @@
       "0ae4ffb3-8ab6-46ce-94ed-fcffcbd11dec" : { 
          "class" : "InventoryAddItemNode", 
          "desc" : { 
-            "x" : "-99024", 
-            "y" : "-100872"
+            "x" : "-99162", 
+            "y" : "-100909"
          }, 
          "child" : [ 
             "ee4a1747-4853-4f05-be11-0652954adaf7"
@@ -7309,8 +7187,8 @@
       "ee4a1747-4853-4f05-be11-0652954adaf7" : { 
          "class" : "NotebookAddNoteNode", 
          "desc" : { 
-            "x" : "-98968", 
-            "y" : "-100752"
+            "x" : "-99174", 
+            "y" : "-100819"
          }, 
          "child" : [ 
          ], 
@@ -7319,8 +7197,8 @@
       "1929ed6c-8793-4690-a906-667324ec3e5f" : { 
          "class" : "EncounterTypeNode", 
          "desc" : { 
-            "x" : "-99113", 
-            "y" : "-101056"
+            "x" : "-99235", 
+            "y" : "-101038"
          }, 
          "child" : [ 
             "c89843d1-84b7-4242-8c2e-acdeded80730"
@@ -7330,8 +7208,8 @@
       "286b401f-beed-4874-8029-d1955f08f648" : { 
          "class" : "EncounterTypeNode", 
          "desc" : { 
-            "x" : "-98994", 
-            "y" : "-101056"
+            "x" : "-99116", 
+            "y" : "-101038"
          }, 
          "child" : [ 
             "c89843d1-84b7-4242-8c2e-acdeded80730"
@@ -7341,208 +7219,19 @@
       "1c45584b-afbe-4f23-a9ca-0f2561324d5f" : { 
          "class" : "EncounterTypeNode", 
          "desc" : { 
-            "x" : "-98870", 
-            "y" : "-101056"
+            "x" : "-98992", 
+            "y" : "-101038"
          }, 
          "child" : [ 
             "c89843d1-84b7-4242-8c2e-acdeded80730"
          ], 
          "encType" : "Ment_Bandits_4"
       }, 
-      "ccc8a189-fe4b-446a-bffe-079528cce916" : { 
-         "class" : "EncounterTypeNode", 
-         "desc" : { 
-            "x" : "-97818", 
-            "y" : "-101227"
-         }, 
-         "child" : [ 
-            "e12602e0-ed4d-4648-8f63-3205aa9cdd66"
-         ], 
-         "encType" : "defence_1"
-      }, 
-      "e12602e0-ed4d-4648-8f63-3205aa9cdd66" : { 
-         "class" : "PlayStateNode", 
-         "desc" : { 
-            "x" : "-97836", 
-            "y" : "-101127"
-         }, 
-         "child" : [ 
-         ], 
-         "script" : "Entities/Behavior/Z_Z_defence_1"
-      }, 
-      "7b54b204-ccc3-4c51-bea6-5d0b5471f103" : { 
-         "class" : "EncounterTypeNode", 
-         "desc" : { 
-            "x" : "-98271", 
-            "y" : "-101228"
-         }, 
-         "child" : [ 
-            "986f1c47-7797-4545-85dd-65eb7847de37"
-         ], 
-         "encType" : "fight_4"
-      }, 
-      "986f1c47-7797-4545-85dd-65eb7847de37" : { 
-         "class" : "PlayStateNode", 
-         "desc" : { 
-            "x" : "-98289", 
-            "y" : "-101128"
-         }, 
-         "child" : [ 
-         ], 
-         "script" : "Entities/Behavior/Z_Z_fight_4"
-      }, 
-      "a6a4ada0-bd39-424d-ae58-583eea5e4b83" : { 
-         "class" : "EncounterTypeNode", 
-         "desc" : { 
-            "x" : "-96728", 
-            "y" : "-101420"
-         }, 
-         "child" : [ 
-            "945a7378-a919-47e3-af78-45f92f073bbe"
-         ], 
-         "encType" : "fight_2"
-      }, 
-      "945a7378-a919-47e3-af78-45f92f073bbe" : { 
-         "class" : "PlayStateNode", 
-         "desc" : { 
-            "x" : "-96710", 
-            "y" : "-101320"
-         }, 
-         "child" : [ 
-         ], 
-         "script" : "Entities/Behavior/Z_Z_fight_2"
-      }, 
-      "b1a186ff-9c34-48fa-95c8-e23195978a15" : { 
-         "class" : "EncounterTypeNode", 
-         "desc" : { 
-            "x" : "-97061", 
-            "y" : "-101214"
-         }, 
-         "child" : [ 
-            "ba3b9ec0-334a-4b67-83b0-80e139ea7161"
-         ], 
-         "encType" : "devourer"
-      }, 
-      "ba3b9ec0-334a-4b67-83b0-80e139ea7161" : { 
-         "class" : "PlayStateNode", 
-         "desc" : { 
-            "x" : "-97079", 
-            "y" : "-101114"
-         }, 
-         "child" : [ 
-         ], 
-         "script" : "Entities/Behavior/Z_Z_devourer"
-      }, 
-      "fa7a5a32-4a34-49dd-abef-806dcc198f2d" : { 
-         "class" : "EncounterTypeNode", 
-         "desc" : { 
-            "x" : "-98046", 
-            "y" : "-101231"
-         }, 
-         "child" : [ 
-            "c69dbfee-4c56-4ddc-9539-01c6dbe95f5f"
-         ], 
-         "encType" : "fight_5"
-      }, 
-      "c69dbfee-4c56-4ddc-9539-01c6dbe95f5f" : { 
-         "class" : "PlayStateNode", 
-         "desc" : { 
-            "x" : "-98064", 
-            "y" : "-101131"
-         }, 
-         "child" : [ 
-         ], 
-         "script" : "Entities/Behavior/Z_Z_fight_5"
-      }, 
-      "3d20c6df-24bd-45a6-be56-256514083a3c" : { 
-         "class" : "EncounterTypeNode", 
-         "desc" : { 
-            "x" : "-97562", 
-            "y" : "-101222"
-         }, 
-         "child" : [ 
-            "9a87ecb5-56ba-48c5-9978-be4092fe2bc2"
-         ], 
-         "encType" : "fight_6"
-      }, 
-      "9a87ecb5-56ba-48c5-9978-be4092fe2bc2" : { 
-         "class" : "PlayStateNode", 
-         "desc" : { 
-            "x" : "-97580", 
-            "y" : "-101122"
-         }, 
-         "child" : [ 
-         ], 
-         "script" : "Entities/Behavior/Z_Z_fight_6"
-      }, 
-      "524cbed3-7914-45e2-9f5c-3f855e94c0b9" : { 
-         "class" : "EncounterTypeNode", 
-         "desc" : { 
-            "x" : "-96550", 
-            "y" : "-101210"
-         }, 
-         "child" : [ 
-            "cd98b260-4bda-42f3-aad9-5336f8a8ea35"
-         ], 
-         "encType" : "bearhigh"
-      }, 
-      "cd98b260-4bda-42f3-aad9-5336f8a8ea35" : { 
-         "class" : "PlayStateNode", 
-         "desc" : { 
-            "x" : "-96568", 
-            "y" : "-101110"
-         }, 
-         "child" : [ 
-         ], 
-         "script" : "Entities/Behavior/z_z_bearhigh"
-      }, 
-      "f587e48d-bf9c-41af-8313-cf6ff9f9ea1f" : { 
-         "class" : "EncounterTypeNode", 
-         "desc" : { 
-            "x" : "-97316", 
-            "y" : "-101216"
-         }, 
-         "child" : [ 
-            "97dc334a-7dc3-4489-89a5-93a4571cf408"
-         ], 
-         "encType" : "deidont"
-      }, 
-      "97dc334a-7dc3-4489-89a5-93a4571cf408" : { 
-         "class" : "PlayStateNode", 
-         "desc" : { 
-            "x" : "-97334", 
-            "y" : "-101116"
-         }, 
-         "child" : [ 
-         ], 
-         "script" : "Entities/Behavior/Z_Z_deidont"
-      }, 
-      "cd76b1e1-5f8c-4390-a8f1-d293fa1ad4fd" : { 
-         "class" : "EncounterTypeNode", 
-         "desc" : { 
-            "x" : "-96318", 
-            "y" : "-101205"
-         }, 
-         "child" : [ 
-            "859cb9b5-831c-47b5-8591-c61cd6b03293"
-         ], 
-         "encType" : "spidernights"
-      }, 
-      "859cb9b5-831c-47b5-8591-c61cd6b03293" : { 
-         "class" : "PlayStateNode", 
-         "desc" : { 
-            "x" : "-96336", 
-            "y" : "-101105"
-         }, 
-         "child" : [ 
-         ], 
-         "script" : "Entities/Behavior/z_z_spidernights"
-      }, 
       "9d5c8004-57e0-4430-8695-2fa68ad2a847" : { 
          "class" : "EncounterTypeNode", 
          "desc" : { 
-            "x" : "-101029", 
-            "y" : "-99976"
+            "x" : "-100979", 
+            "y" : "-100019"
          }, 
          "child" : [ 
             "1f36f333-92b8-4b46-8f7f-a2acdaa8835c"
@@ -7552,54 +7241,12 @@
       "1f36f333-92b8-4b46-8f7f-a2acdaa8835c" : { 
          "class" : "PlayStateNode", 
          "desc" : { 
-            "x" : "-101098", 
-            "y" : "-99872"
+            "x" : "-101033", 
+            "y" : "-99950"
          }, 
          "child" : [ 
          ], 
-         "script" : "entities/behavior/z_z_drug"
-      }, 
-      "ddee81d2-0532-48c6-b477-a00d63be8d42" : { 
-         "class" : "EncounterTypeNode", 
-         "desc" : { 
-            "x" : "-96798", 
-            "y" : "-101214"
-         }, 
-         "child" : [ 
-            "62136937-ac27-4285-958b-49004117b1c6"
-         ], 
-         "encType" : "wolflider"
-      }, 
-      "62136937-ac27-4285-958b-49004117b1c6" : { 
-         "class" : "PlayStateNode", 
-         "desc" : { 
-            "x" : "-96816", 
-            "y" : "-101114"
-         }, 
-         "child" : [ 
-         ], 
-         "script" : "Entities/Behavior/z_z_wolflider"
-      }, 
-      "7db3474c-4cd1-4fb4-aac5-b175c027e432" : { 
-         "class" : "EncounterTypeNode", 
-         "desc" : { 
-            "x" : "-96848", 
-            "y" : "-101418"
-         }, 
-         "child" : [ 
-            "1000ff9c-aca8-4e6f-9978-ceecac998c99"
-         ], 
-         "encType" : "fight_1"
-      }, 
-      "1000ff9c-aca8-4e6f-9978-ceecac998c99" : { 
-         "class" : "PlayStateNode", 
-         "desc" : { 
-            "x" : "-96902", 
-            "y" : "-101319"
-         }, 
-         "child" : [ 
-         ], 
-         "script" : "Entities/Behavior/Z_Z_fight_1"
+         "script" : "Entities/Behavior/Z_Z_Drug"
       }, 
       "a313f832-e9a0-401c-a845-c9b916e15c6c" : { 
          "class" : "ObjectCheckNode", 
@@ -7970,8 +7617,8 @@
       "c19734c9-deb0-46d5-ac83-c6d2055b93f4" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-101417", 
-            "y" : "-100157"
+            "x" : "-101420", 
+            "y" : "-100083"
          }, 
          "child" : [ 
             "4f6c3c94-22d7-47db-b479-e3748e8a5c52"
@@ -7980,8 +7627,8 @@
       "4f6c3c94-22d7-47db-b479-e3748e8a5c52" : { 
          "class" : "LogNode", 
          "desc" : { 
-            "x" : "-101210", 
-            "y" : "-100138"
+            "x" : "-101441", 
+            "y" : "-100012"
          }, 
          "child" : [ 
             "6c9efa09-7616-476a-939a-6045393c583c"
@@ -7991,8 +7638,8 @@
       "6c9efa09-7616-476a-939a-6045393c583c" : { 
          "class" : "SpawnEntityNode", 
          "desc" : { 
-            "x" : "-101284", 
-            "y" : "-100000"
+            "x" : "-101462", 
+            "y" : "-99919"
          }, 
          "child" : [ 
          ], 

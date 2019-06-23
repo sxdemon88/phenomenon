@@ -1,0 +1,616 @@
+{ 
+   "states" : { 
+      "c4677c96-9247-46c1-84d9-ba1187e6a1f4" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100176", 
+            "y" : "-102597"
+         }, 
+         "child" : [ 
+            "af4ff4e2-ca9e-4f3b-b085-bbab52b78ff1", 
+            "2f7ed165-18dd-414e-9e6a-4cdbaf67d608", 
+            "6066fb02-a4ec-41a6-ae5a-8ea3d0f9349c", 
+            "91e2286a-70f4-443e-ae21-5aead0c069df", 
+            "178c00c3-ebe5-4def-b580-a596666fef40", 
+            "9cef8dbe-9616-444f-95fa-7f5024912835", 
+            "8a569738-9e3c-4ab9-8431-3f21a899f43f", 
+            "109d954b-55d7-4724-a0af-5aed53a53713", 
+            "d14082aa-3cbe-464f-86df-2db9627f8681", 
+            "468609f1-141a-463f-913b-4f6403aa41eb", 
+            "9ab6f304-b565-4733-820c-c1adab4a5777", 
+            "776c4859-7b26-4ac0-8709-30f47fae76a9", 
+            "35aaeab9-e737-44ac-8e05-974360f2ddc6", 
+            "90d29a52-0107-45b7-865d-3bfd7aabbc1b", 
+            "14490704-ab31-47ab-ba10-680558050977", 
+            "1461010f-04c2-4d20-b527-326e04922b39", 
+            "96a17ff1-9d9b-48da-974f-19ca017bb27f", 
+            "1b6c6b14-3d30-4fd5-ac5e-7217be74b3bf", 
+            "5bc4c800-52bf-483c-a205-8569f4bc9630", 
+            "ebe6e039-ab9d-4e6a-9204-5e775371dab5", 
+            "2494655c-d3ac-43d8-9197-cb60f4df5e6f", 
+            "8b88cd8a-c036-4f7b-8dec-3c423a1f4881", 
+            "d3244b1d-33f7-4cbf-b9c3-afd9692343be", 
+            "580b5757-05ce-4073-bb1e-8be15e005d3c", 
+            "fad78121-6809-4eb8-836d-de7ffa696398", 
+            "cf3611a8-80f4-49f6-bf8f-82fd4aa57137"
+         ]
+      }, 
+      "af4ff4e2-ca9e-4f3b-b085-bbab52b78ff1" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-101365", 
+            "y" : "-101664"
+         }, 
+         "child" : [ 
+            "c2746d44-fedb-4cd4-b557-5b3267648040"
+         ], 
+         "encType" : "wolfsnights"
+      }, 
+      "c2746d44-fedb-4cd4-b557-5b3267648040" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101351", 
+            "y" : "-101590"
+         }, 
+         "child" : [ 
+            "4465400e-9d0e-48fa-934c-61e54857ac36"
+         ]
+      }, 
+      "4465400e-9d0e-48fa-934c-61e54857ac36" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-101399", 
+            "y" : "-101526"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/z_z_wolfsnights"
+      }, 
+      "2f7ed165-18dd-414e-9e6a-4cdbaf67d608" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-101818", 
+            "y" : "-101378"
+         }, 
+         "child" : [ 
+            "cfe13e29-ffeb-4e84-9a1b-30097fae8aec"
+         ], 
+         "encType" : "fight_4"
+      }, 
+      "cfe13e29-ffeb-4e84-9a1b-30097fae8aec" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-101867", 
+            "y" : "-101300"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/Z_Z_fight_4"
+      }, 
+      "6066fb02-a4ec-41a6-ae5a-8ea3d0f9349c" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-101134", 
+            "y" : "-101652"
+         }, 
+         "child" : [ 
+            "b300d8de-2c03-407a-8144-e5adc1e5bb57"
+         ], 
+         "encType" : "Hunt_rabbit"
+      }, 
+      "b300d8de-2c03-407a-8144-e5adc1e5bb57" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-101184", 
+            "y" : "-101526"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/Z_Z_Hunt_rabbit"
+      }, 
+      "91e2286a-70f4-443e-ae21-5aead0c069df" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-101665", 
+            "y" : "-101668"
+         }, 
+         "child" : [ 
+            "362ac93e-f1dc-410e-a818-a742c3640a77"
+         ], 
+         "encType" : "ratsnights"
+      }, 
+      "362ac93e-f1dc-410e-a818-a742c3640a77" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101651", 
+            "y" : "-101594"
+         }, 
+         "child" : [ 
+            "eb189c1f-44a5-44a4-b7ac-e1dfe4c7c1fe"
+         ]
+      }, 
+      "eb189c1f-44a5-44a4-b7ac-e1dfe4c7c1fe" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-101699", 
+            "y" : "-101530"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/z_z_ratsnights"
+      }, 
+      "178c00c3-ebe5-4def-b580-a596666fef40" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-102109", 
+            "y" : "-101682"
+         }, 
+         "child" : [ 
+            "49fb2c8d-f2bb-4eff-8c04-fd9825ffbb49"
+         ], 
+         "encType" : "Ants_2"
+      }, 
+      "49fb2c8d-f2bb-4eff-8c04-fd9825ffbb49" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-102153", 
+            "y" : "-101606"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/Z_Z_Ants_2"
+      }, 
+      "9cef8dbe-9616-444f-95fa-7f5024912835" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-101573", 
+            "y" : "-101380"
+         }, 
+         "child" : [ 
+            "a93f66e8-0d59-488d-8c37-ec7694d3cdd8"
+         ], 
+         "encType" : "fight_5"
+      }, 
+      "a93f66e8-0d59-488d-8c37-ec7694d3cdd8" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-101619", 
+            "y" : "-101298"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/Z_Z_fight_5"
+      }, 
+      "8a569738-9e3c-4ab9-8431-3f21a899f43f" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-101883", 
+            "y" : "-102142"
+         }, 
+         "child" : [ 
+            "9292ee66-fb8c-46fb-abd3-79767b7d0ea7"
+         ], 
+         "encType" : "ph_caravan_2"
+      }, 
+      "9292ee66-fb8c-46fb-abd3-79767b7d0ea7" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-101910", 
+            "y" : "-102051"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/ph_caravan_2"
+      }, 
+      "109d954b-55d7-4724-a0af-5aed53a53713" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-101648", 
+            "y" : "-102139"
+         }, 
+         "child" : [ 
+            "f4a5ccfc-6116-406f-be6c-a9319305476f"
+         ], 
+         "encType" : "ph_caravan"
+      }, 
+      "f4a5ccfc-6116-406f-be6c-a9319305476f" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-101675", 
+            "y" : "-102048"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/ph_caravan"
+      }, 
+      "d14082aa-3cbe-464f-86df-2db9627f8681" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-101422", 
+            "y" : "-102133"
+         }, 
+         "child" : [ 
+            "0f79fe03-347a-47f9-b3d0-947caf8db5e4"
+         ], 
+         "encType" : "mole"
+      }, 
+      "0f79fe03-347a-47f9-b3d0-947caf8db5e4" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-101447", 
+            "y" : "-102046"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/Z_Z_mole"
+      }, 
+      "468609f1-141a-463f-913b-4f6403aa41eb" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-101199", 
+            "y" : "-102139"
+         }, 
+         "child" : [ 
+            "b2b567b1-c408-4ecd-9238-835b9fbeef7f"
+         ], 
+         "encType" : "defence_2"
+      }, 
+      "b2b567b1-c408-4ecd-9238-835b9fbeef7f" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-101217", 
+            "y" : "-102039"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/Z_Z_defence_2"
+      }, 
+      "9ab6f304-b565-4733-820c-c1adab4a5777" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-100954", 
+            "y" : "-102134"
+         }, 
+         "child" : [ 
+            "b37b6887-d98e-43d4-9eeb-daed43cec751"
+         ], 
+         "encType" : "lacodon"
+      }, 
+      "b37b6887-d98e-43d4-9eeb-daed43cec751" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-100981", 
+            "y" : "-102043"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/Z_Z_lacodon"
+      }, 
+      "776c4859-7b26-4ac0-8709-30f47fae76a9" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-101116", 
+            "y" : "-101393"
+         }, 
+         "child" : [ 
+            "25f458f8-ab33-434b-b2a5-d10f7331012c"
+         ], 
+         "encType" : "fight_6"
+      }, 
+      "25f458f8-ab33-434b-b2a5-d10f7331012c" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-101154", 
+            "y" : "-101297"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/Z_Z_fight_6"
+      }, 
+      "35aaeab9-e737-44ac-8e05-974360f2ddc6" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-100731", 
+            "y" : "-102134"
+         }, 
+         "child" : [ 
+            "e3029671-d061-4c76-a8ce-472038a31f91"
+         ], 
+         "encType" : "trap_1"
+      }, 
+      "e3029671-d061-4c76-a8ce-472038a31f91" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-100758", 
+            "y" : "-102043"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/z_z_trap_1"
+      }, 
+      "90d29a52-0107-45b7-865d-3bfd7aabbc1b" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-101363", 
+            "y" : "-101385"
+         }, 
+         "child" : [ 
+            "40411403-5e85-4c4a-a65c-bc776edb63c9"
+         ], 
+         "encType" : "defence_1"
+      }, 
+      "40411403-5e85-4c4a-a65c-bc776edb63c9" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-101396", 
+            "y" : "-101298"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/Z_Z_defence_1"
+      }, 
+      "14490704-ab31-47ab-ba10-680558050977" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-100502", 
+            "y" : "-102127"
+         }, 
+         "child" : [ 
+            "b8aa43a5-f22d-4d59-accb-843f3388f89d"
+         ], 
+         "encType" : "defence_2night"
+      }, 
+      "b8aa43a5-f22d-4d59-accb-843f3388f89d" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-100529", 
+            "y" : "-102036"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/Z_Z_defence_2night"
+      }, 
+      "1461010f-04c2-4d20-b527-326e04922b39" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-101881", 
+            "y" : "-101680"
+         }, 
+         "child" : [ 
+            "59805eeb-01c1-4fbb-9209-4576002d68f7"
+         ], 
+         "encType" : "roi"
+      }, 
+      "59805eeb-01c1-4fbb-9209-4576002d68f7" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101879", 
+            "y" : "-101614"
+         }, 
+         "child" : [ 
+            "8a63a9df-6005-497a-af9a-a9dc88412ffc"
+         ]
+      }, 
+      "8a63a9df-6005-497a-af9a-a9dc88412ffc" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-101913", 
+            "y" : "-101560"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/z_z_roi"
+      }, 
+      "96a17ff1-9d9b-48da-974f-19ca017bb27f" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-100923", 
+            "y" : "-101661"
+         }, 
+         "child" : [ 
+            "411911c7-247d-4490-919e-c8946a78fe82"
+         ], 
+         "encType" : "Hunt_boar"
+      }, 
+      "411911c7-247d-4490-919e-c8946a78fe82" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-100966", 
+            "y" : "-101534"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/Z_Z_Hunt_boar"
+      }, 
+      "1b6c6b14-3d30-4fd5-ac5e-7217be74b3bf" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-100506", 
+            "y" : "-101660"
+         }, 
+         "child" : [ 
+            "196b86fc-bf7d-46e8-a850-83a5db886a63"
+         ], 
+         "encType" : "fight_1"
+      }, 
+      "196b86fc-bf7d-46e8-a850-83a5db886a63" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-100551", 
+            "y" : "-101526"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/Z_Z_fight_1"
+      }, 
+      "5bc4c800-52bf-483c-a205-8569f4bc9630" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-100344", 
+            "y" : "-101660"
+         }, 
+         "child" : [ 
+            "5b2eb5f8-aa93-4911-917c-e9ef7e507d2c"
+         ], 
+         "encType" : "fight_2"
+      }, 
+      "5b2eb5f8-aa93-4911-917c-e9ef7e507d2c" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-100359", 
+            "y" : "-101528"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/Z_Z_fight_2"
+      }, 
+      "ebe6e039-ab9d-4e6a-9204-5e775371dab5" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-100688", 
+            "y" : "-101662"
+         }, 
+         "child" : [ 
+            "8885ce14-8ad3-4c4e-b87c-1776a6ca1f17"
+         ], 
+         "encType" : "Hunt_stag"
+      }, 
+      "8885ce14-8ad3-4c4e-b87c-1776a6ca1f17" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-100759", 
+            "y" : "-101524"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/Z_Z_Hunt_stag"
+      }, 
+      "2494655c-d3ac-43d8-9197-cb60f4df5e6f" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-100913", 
+            "y" : "-101397"
+         }, 
+         "child" : [ 
+            "de6d7229-2e76-4838-856c-d821274225f8"
+         ], 
+         "encType" : "deidont"
+      }, 
+      "de6d7229-2e76-4838-856c-d821274225f8" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-100931", 
+            "y" : "-101297"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/Z_Z_deidont"
+      }, 
+      "8b88cd8a-c036-4f7b-8dec-3c423a1f4881" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-100395", 
+            "y" : "-101395"
+         }, 
+         "child" : [ 
+            "d466ae53-4711-41f2-aa83-65a3b75a184a"
+         ], 
+         "encType" : "wolflider"
+      }, 
+      "d466ae53-4711-41f2-aa83-65a3b75a184a" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-100413", 
+            "y" : "-101295"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/z_z_wolflider"
+      }, 
+      "d3244b1d-33f7-4cbf-b9c3-afd9692343be" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-100657", 
+            "y" : "-101395"
+         }, 
+         "child" : [ 
+            "59d2b697-8a88-46ee-9d20-6a45717f0406"
+         ], 
+         "encType" : "devourer"
+      }, 
+      "59d2b697-8a88-46ee-9d20-6a45717f0406" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-100675", 
+            "y" : "-101295"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/Z_Z_devourer"
+      }, 
+      "580b5757-05ce-4073-bb1e-8be15e005d3c" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-100147", 
+            "y" : "-101391"
+         }, 
+         "child" : [ 
+            "c9620394-65a5-4ff2-b735-821e12222803"
+         ], 
+         "encType" : "bearhigh"
+      }, 
+      "c9620394-65a5-4ff2-b735-821e12222803" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-100165", 
+            "y" : "-101291"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/z_z_bearhigh"
+      }, 
+      "fad78121-6809-4eb8-836d-de7ffa696398" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-99915", 
+            "y" : "-101385"
+         }, 
+         "child" : [ 
+            "befe6658-e03d-4440-baae-5eb3d2585c31"
+         ], 
+         "encType" : "spidernights"
+      }, 
+      "befe6658-e03d-4440-baae-5eb3d2585c31" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-99933", 
+            "y" : "-101285"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/z_z_spidernights"
+      }, 
+      "cf3611a8-80f4-49f6-bf8f-82fd4aa57137" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-100163", 
+            "y" : "-101668"
+         }, 
+         "child" : [ 
+            "e66a34d0-3e8b-463c-b5d9-f8e19fa304ae"
+         ], 
+         "encType" : "fight_3"
+      }, 
+      "e66a34d0-3e8b-463c-b5d9-f8e19fa304ae" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-100165", 
+            "y" : "-101528"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/Z_Z_fight_3"
+      }
+   }, 
+   "entry" : "c4677c96-9247-46c1-84d9-ba1187e6a1f4"
+}

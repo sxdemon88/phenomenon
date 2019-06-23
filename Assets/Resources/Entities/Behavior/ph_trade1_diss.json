@@ -1,0 +1,126 @@
+{ 
+   "states" : { 
+      "40a8de1b-c673-44ec-b046-aa6870696fd2" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100733", 
+            "y" : "-100506"
+         }, 
+         "child" : [ 
+            "defc24b1-16c2-49f6-8a8f-fcadaeb1eca3"
+         ]
+      }, 
+      "defc24b1-16c2-49f6-8a8f-fcadaeb1eca3" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100928", 
+            "y" : "-100385"
+         }, 
+         "child" : [ 
+            "c6ba5e48-2b55-497b-86e3-da4555eed5d2", 
+            "0e77479b-9130-47dd-bd64-922e4ebf1c70"
+         ], 
+         "key" : "GOT_DISCOUNT"
+      }, 
+      "c6ba5e48-2b55-497b-86e3-da4555eed5d2" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101028", 
+            "y" : "-100243"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "0e77479b-9130-47dd-bd64-922e4ebf1c70" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-100888", 
+            "y" : "-100241"
+         }, 
+         "child" : [ 
+            "1199fcd0-a2e0-46cc-bcd8-04915d3d6385"
+         ], 
+         "key" : "GOT_DISCOUNT"
+      }, 
+      "1199fcd0-a2e0-46cc-bcd8-04915d3d6385" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-101138", 
+            "y" : "-100088"
+         }, 
+         "child" : [ 
+            "4474265c-7011-4b56-b7b7-c0a7dafc78f2", 
+            "6c3100f3-c954-4408-96be-2fa2f6698900"
+         ], 
+         "value" : "130", 
+         "modifier" : "Barter"
+      }, 
+      "4474265c-7011-4b56-b7b7-c0a7dafc78f2" : { 
+         "class" : "BarterDiscountNode", 
+         "desc" : { 
+            "x" : "-101291", 
+            "y" : "-99906"
+         }, 
+         "child" : [ 
+         ], 
+         "discount" : "-80"
+      }, 
+      "6c3100f3-c954-4408-96be-2fa2f6698900" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-100984", 
+            "y" : "-99964"
+         }, 
+         "child" : [ 
+            "465c34c0-aa36-4b0b-8fad-fffcc303ad18", 
+            "6d02f57d-f1c7-482b-829c-c48b3a3f4fae"
+         ], 
+         "value" : "130", 
+         "modifier" : "Speech"
+      }, 
+      "465c34c0-aa36-4b0b-8fad-fffcc303ad18" : { 
+         "class" : "BarterDiscountNode", 
+         "desc" : { 
+            "x" : "-101151", 
+            "y" : "-99774"
+         }, 
+         "child" : [ 
+         ], 
+         "discount" : "-90"
+      }, 
+      "6d02f57d-f1c7-482b-829c-c48b3a3f4fae" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-100740", 
+            "y" : "-99860"
+         }, 
+         "child" : [ 
+            "45cfde83-450a-41d8-998d-d3b51b204152", 
+            "89695058-fb88-48c0-aa6a-9eb47fa877cf"
+         ], 
+         "value" : "9", 
+         "modifier" : "Charisma"
+      }, 
+      "45cfde83-450a-41d8-998d-d3b51b204152" : { 
+         "class" : "BarterDiscountNode", 
+         "desc" : { 
+            "x" : "-100902", 
+            "y" : "-99678"
+         }, 
+         "child" : [ 
+         ], 
+         "discount" : "-100"
+      }, 
+      "89695058-fb88-48c0-aa6a-9eb47fa877cf" : { 
+         "class" : "BarterDiscountNode", 
+         "desc" : { 
+            "x" : "-100550", 
+            "y" : "-99677"
+         }, 
+         "child" : [ 
+         ], 
+         "discount" : "-110"
+      }
+   }, 
+   "entry" : "40a8de1b-c673-44ec-b046-aa6870696fd2"
+}

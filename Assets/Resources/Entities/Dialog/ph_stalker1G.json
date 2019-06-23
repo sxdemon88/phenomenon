@@ -1,0 +1,115 @@
+{ 
+   "states" : { 
+      "9e253e69-f506-450c-af64-62bd6730c7dd" : { 
+         "class" : "HasStatNode", 
+         "desc" : { 
+            "x" : "-100709", 
+            "y" : "-100694"
+         }, 
+         "child" : [ 
+            "d228a7a3-450e-4d31-a0f5-81f61dcaf843", 
+            "f5cc91e3-75b0-4c2c-b166-980f57d4b8ae"
+         ], 
+         "value" : "3", 
+         "stat" : "Intelligence"
+      }, 
+      "d228a7a3-450e-4d31-a0f5-81f61dcaf843" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-100813", 
+            "y" : "-100501"
+         }, 
+         "child" : [ 
+            "4a2b1607-7f73-4b57-a669-24fee091e5a7", 
+            "b3d1e44b-ce31-47e5-a9ea-2212830d212c", 
+            "3c627d3e-7ef7-4b4d-bd10-98f18f90c501", 
+            "598c137a-eaff-44e7-8392-aa251cfdce36", 
+            "4d3a4876-3659-4613-9a89-fb393ea13f2d", 
+            "8cd8b9df-bfff-475b-9b33-eaad4159763e"
+         ]
+      }, 
+      "4a2b1607-7f73-4b57-a669-24fee091e5a7" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-101265", 
+            "y" : "-100366"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Спасибо за помощь!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "b3d1e44b-ce31-47e5-a9ea-2212830d212c" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-101125", 
+            "y" : "-100193"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Нормально они нас прижали. Спасибо за помощь!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "3c627d3e-7ef7-4b4d-bd10-98f18f90c501" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100957", 
+            "y" : "-100089"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Вот это битва я понимаю. Чуть на тот свет не ушел.", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "598c137a-eaff-44e7-8392-aa251cfdce36" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100690", 
+            "y" : "-100077"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Спасибо тебе большое!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "4d3a4876-3659-4613-9a89-fb393ea13f2d" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100502", 
+            "y" : "-100219"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Это был полный пизд#! Спасибо за спасение!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "8cd8b9df-bfff-475b-9b33-eaad4159763e" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100356", 
+            "y" : "-100362"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "От души, спасибо тебе!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "f5cc91e3-75b0-4c2c-b166-980f57d4b8ae" : { 
+         "class" : "PlayDialogNode", 
+         "desc" : { 
+            "x" : "-100499", 
+            "y" : "-100573"
+         }, 
+         "child" : [ 
+         ], 
+         "dialog" : "entities/dialog/balwannpc"
+      }
+   }, 
+   "entry" : "9e253e69-f506-450c-af64-62bd6730c7dd"
+}

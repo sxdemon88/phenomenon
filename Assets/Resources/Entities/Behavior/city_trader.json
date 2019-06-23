@@ -100,14 +100,14 @@
       "7bd8943c-d536-478e-a0b3-e9cea0949774" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100678", 
-            "y" : "-99510"
+            "x" : "-100701", 
+            "y" : "-99617"
          }, 
          "child" : [ 
             "4b821ffc-ba93-4068-8557-e964c7a8c966", 
             "60be273c-b8d9-40f9-bac6-da1e29227b52", 
             "cd6857c6-c708-45e3-8079-707471747097", 
-            "2001fce7-23e5-4857-a136-52fab9050828"
+            "2f1fe9b9-88b1-488e-98d4-542dbeef80d7"
          ]
       }, 
       "4b821ffc-ba93-4068-8557-e964c7a8c966" : { 
@@ -1432,11 +1432,32 @@
          "child" : [ 
          ]
       }, 
+      "2f1fe9b9-88b1-488e-98d4-542dbeef80d7" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-101082", 
+            "y" : "-99814"
+         }, 
+         "child" : [ 
+            "279cc279-c500-4b61-a631-169be89e98f7", 
+            "2001fce7-23e5-4857-a136-52fab9050828"
+         ], 
+         "note_key" : "PH_TRADE1_DEAD"
+      }, 
+      "279cc279-c500-4b61-a631-169be89e98f7" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101142", 
+            "y" : "-99700"
+         }, 
+         "child" : [ 
+         ]
+      }, 
       "2001fce7-23e5-4857-a136-52fab9050828" : { 
          "class" : "RandomNode", 
          "desc" : { 
-            "x" : "-101112", 
-            "y" : "-99864"
+            "x" : "-100991", 
+            "y" : "-99695"
          }, 
          "child" : [ 
             "c5cdb02f-b6e5-4d7d-a756-5ad897232ca7", 
@@ -1479,7 +1500,11 @@
             { 
                "class" : "Weapon", 
                "count" : "1", 
-               "proto" : "SVU"
+               "proto" : "SVU", 
+               "ammo" : { 
+                  "count" : "0", 
+                  "proto" : "7mm_54R"
+               }
             }
          ], 
          "inventoryObject" : ""
@@ -1516,7 +1541,11 @@
             { 
                "class" : "Weapon", 
                "count" : "1", 
-               "proto" : "mp40"
+               "proto" : "mp40", 
+               "ammo" : { 
+                  "count" : "0", 
+                  "proto" : "9mm_JHP"
+               }
             }
          ], 
          "inventoryObject" : ""
@@ -1564,7 +1593,11 @@
             { 
                "class" : "Weapon", 
                "count" : "1", 
-               "proto" : "MG34_LMG"
+               "proto" : "MG34_LMG", 
+               "ammo" : { 
+                  "count" : "0", 
+                  "proto" : "7_62mm_JHP"
+               }
             }
          ], 
          "inventoryObject" : ""
@@ -1601,7 +1634,11 @@
             { 
                "class" : "Weapon", 
                "count" : "1", 
-               "proto" : "mg3"
+               "proto" : "mg3", 
+               "ammo" : { 
+                  "count" : "0", 
+                  "proto" : "7_62mm_JHP"
+               }
             }
          ], 
          "inventoryObject" : ""
@@ -1649,7 +1686,11 @@
             { 
                "class" : "Weapon", 
                "count" : "1", 
-               "proto" : "crossbow2"
+               "proto" : "crossbow2", 
+               "ammo" : { 
+                  "count" : "1", 
+                  "proto" : "Bolt"
+               }
             }
          ], 
          "inventoryObject" : ""
@@ -1677,8 +1718,8 @@
       "d0641d63-bc94-4686-9e9c-4a56f545dd79" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-101846", 
-            "y" : "-99898"
+            "x" : "-101840", 
+            "y" : "-99896"
          }, 
          "child" : [ 
          ], 
@@ -1686,7 +1727,11 @@
             { 
                "class" : "Weapon", 
                "count" : "1", 
-               "proto" : "DP_28"
+               "proto" : "DP_28", 
+               "ammo" : { 
+                  "count" : "0", 
+                  "proto" : "7mm_54R"
+               }
             }
          ], 
          "inventoryObject" : ""
@@ -1726,7 +1771,7 @@
       "b786d48b-04e4-4814-be35-76ee3378534d" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-102248", 
+            "x" : "-102249", 
             "y" : "-99608"
          }, 
          "child" : [ 
@@ -1735,7 +1780,11 @@
             { 
                "class" : "Weapon", 
                "count" : "1", 
-               "proto" : "crossbow1"
+               "proto" : "crossbow1", 
+               "ammo" : { 
+                  "count" : "1", 
+                  "proto" : "Bolt"
+               }
             }
          ], 
          "inventoryObject" : ""
@@ -1772,7 +1821,11 @@
             { 
                "class" : "Weapon", 
                "count" : "1", 
-               "proto" : "Beretta"
+               "proto" : "Beretta", 
+               "ammo" : { 
+                  "count" : "0", 
+                  "proto" : "9mm_JHP"
+               }
             }
          ], 
          "inventoryObject" : ""
@@ -1809,7 +1862,11 @@
             { 
                "class" : "Weapon", 
                "count" : "1", 
-               "proto" : "ak47tactic"
+               "proto" : "ak47tactic", 
+               "ammo" : { 
+                  "count" : "0", 
+                  "proto" : "7_62mm_JHP"
+               }
             }
          ], 
          "inventoryObject" : ""

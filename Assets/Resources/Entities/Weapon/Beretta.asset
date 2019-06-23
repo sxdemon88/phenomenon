@@ -25,11 +25,13 @@ MonoBehaviour:
     path: entities/ammo/9mm_jhp
   AmmoCapacity: 15
   BothHands: 0
+  Stack: 0
   DamageMin: 9
   DamageMax: 16
   DamageRadius: 1
   Fatality: 10
   Perks: 0
+  PerksEx: 0
   DamageType: 0
   Single:
     AP: 4
@@ -71,3 +73,10 @@ MonoBehaviour:
   NoAmmoSounds:
   - path: Sounds/SFX/Weapons/Tokarev/tt_empty
   PreAttackSounds: []
+  MissSounds:
+  - path: Sounds/SFX/Weapons/Miss/shoot_missing1
+  - path: Sounds/SFX/Weapons/Miss/shoot_missing2
+  - path: Sounds/SFX/Weapons/Miss/shoot_missing3
+  - path: Sounds/SFX/Weapons/Miss/shoot_missing4
+  - path: Sounds/SFX/Weapons/Miss/shoot_missing5
+  - path: Sounds/SFX/Weapons/Miss/shoot_missing6

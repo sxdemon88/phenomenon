@@ -1,0 +1,1497 @@
+{ 
+   "states" : { 
+      "5324d847-06c0-40f3-8c63-bbcc368d6da2" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101256", 
+            "y" : "-101532"
+         }, 
+         "child" : [ 
+            "9568c5b0-e530-4a28-80e9-6a2bca068693", 
+            "55631f13-9acd-4be7-955a-da45aee1df5c", 
+            "a6d7efc1-33a4-484d-804c-b7b9e8bbf4f0"
+         ]
+      }, 
+      "9568c5b0-e530-4a28-80e9-6a2bca068693" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-101547", 
+            "y" : "-101752"
+         }, 
+         "child" : [ 
+            "fecab36c-2844-4d19-bbd8-5f790477ec1f", 
+            "d7e6aacb-c382-4c2f-bb09-dd267d47f23a"
+         ], 
+         "note_key" : "__PLAYER_IN_DUST"
+      }, 
+      "fecab36c-2844-4d19-bbd8-5f790477ec1f" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101637", 
+            "y" : "-101663"
+         }, 
+         "child" : [ 
+            "c1f0ad64-fa40-4af3-a65d-52808944a82d"
+         ], 
+         "objectName" : "RadioactivDustWind_GROUP", 
+         "active" : "true"
+      }, 
+      "c1f0ad64-fa40-4af3-a65d-52808944a82d" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101648", 
+            "y" : "-101583"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "WindSound", 
+         "active" : "false"
+      }, 
+      "d7e6aacb-c382-4c2f-bb09-dd267d47f23a" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101393", 
+            "y" : "-101647"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "55631f13-9acd-4be7-955a-da45aee1df5c" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102051", 
+            "y" : "-101655"
+         }, 
+         "child" : [ 
+            "565f0bd8-8c1f-436a-b30f-6e170de5d8aa", 
+            "ed871c79-c6f8-4474-8656-2a7b379640c1", 
+            "2c036a20-0735-4317-83ff-8fb45a256a57", 
+            "cd3243a3-12ba-43b4-97f7-6bf10f0dee7c", 
+            "0499003d-6865-4f34-8122-dee97578be6c"
+         ]
+      }, 
+      "565f0bd8-8c1f-436a-b30f-6e170de5d8aa" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-103429", 
+            "y" : "-101691"
+         }, 
+         "child" : [ 
+            "cb980cb8-4e08-4bfd-ac5e-ccfd828936a2", 
+            "4c7a7c7f-da39-4dbb-9996-ffcc44fa02be"
+         ], 
+         "key" : "LEVEL_VARIANT_E"
+      }, 
+      "cb980cb8-4e08-4bfd-ac5e-ccfd828936a2" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103622", 
+            "y" : "-101434"
+         }, 
+         "child" : [ 
+            "daa2c160-0cbe-4fc6-9093-48f41e9b9460", 
+            "f3ba6f4d-dbf7-4077-9dcb-a67b3bf2f1a5"
+         ]
+      }, 
+      "daa2c160-0cbe-4fc6-9093-48f41e9b9460" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-103737", 
+            "y" : "-101380"
+         }, 
+         "child" : [ 
+            "9c202122-fa0a-4d56-b6ec-fcdfb3eb01ba", 
+            "42725c29-2f4b-4a8a-9a0e-bc61168c4597"
+         ], 
+         "key" : "LEVEL_VARIANT_E", 
+         "value" : "1", 
+         "opp" : "Equal"
+      }, 
+      "9c202122-fa0a-4d56-b6ec-fcdfb3eb01ba" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-103819", 
+            "y" : "-101231"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "LEVEL_VARIANT_E_1", 
+         "active" : "true"
+      }, 
+      "42725c29-2f4b-4a8a-9a0e-bc61168c4597" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103672", 
+            "y" : "-101257"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "f3ba6f4d-dbf7-4077-9dcb-a67b3bf2f1a5" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-103539", 
+            "y" : "-101379"
+         }, 
+         "child" : [ 
+            "90ac46c8-d95c-44b7-9c1f-500ea579ef1c", 
+            "92b81198-28ab-4960-a462-f6f680a92a88"
+         ], 
+         "key" : "LEVEL_VARIANT_E", 
+         "value" : "2", 
+         "opp" : "Equal"
+      }, 
+      "90ac46c8-d95c-44b7-9c1f-500ea579ef1c" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-103564", 
+            "y" : "-101216"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "LEVEL_VARIANT_E_2", 
+         "active" : "true"
+      }, 
+      "92b81198-28ab-4960-a462-f6f680a92a88" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103428", 
+            "y" : "-101249"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "4c7a7c7f-da39-4dbb-9996-ffcc44fa02be" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-103370", 
+            "y" : "-101550"
+         }, 
+         "child" : [ 
+            "cdc8a20b-929f-4206-99b4-b4c9dfedea77", 
+            "5cfce99e-e63f-43cb-bbe7-6eb8ba321210"
+         ]
+      }, 
+      "cdc8a20b-929f-4206-99b4-b4c9dfedea77" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-103478", 
+            "y" : "-101503"
+         }, 
+         "child" : [ 
+            "cb980cb8-4e08-4bfd-ac5e-ccfd828936a2"
+         ], 
+         "key" : "LEVEL_VARIANT_E", 
+         "value" : "1"
+      }, 
+      "5cfce99e-e63f-43cb-bbe7-6eb8ba321210" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-103327", 
+            "y" : "-101502"
+         }, 
+         "child" : [ 
+            "cb980cb8-4e08-4bfd-ac5e-ccfd828936a2"
+         ], 
+         "key" : "LEVEL_VARIANT_E", 
+         "value" : "2"
+      }, 
+      "ed871c79-c6f8-4474-8656-2a7b379640c1" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-103003", 
+            "y" : "-101605"
+         }, 
+         "child" : [ 
+            "22c924ba-d4a7-4fd5-81ec-b2eb463b5984", 
+            "df428d8f-d1ed-48fc-a575-a99033b8a519"
+         ], 
+         "key" : "LEVEL_VARIANT_D"
+      }, 
+      "22c924ba-d4a7-4fd5-81ec-b2eb463b5984" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103196", 
+            "y" : "-101348"
+         }, 
+         "child" : [ 
+            "a9df851e-5a6d-4e2e-9457-2f0f05c8f2e5", 
+            "8c3f4d0f-a534-40d9-bef5-20dfc3a3ff35"
+         ]
+      }, 
+      "a9df851e-5a6d-4e2e-9457-2f0f05c8f2e5" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-103311", 
+            "y" : "-101294"
+         }, 
+         "child" : [ 
+            "c38dd311-a0f9-4d33-aae4-d0b8d57ed0d4", 
+            "8874b732-e4e2-4fa4-bec4-035aacc1f9a7"
+         ], 
+         "key" : "LEVEL_VARIANT_D", 
+         "value" : "1", 
+         "opp" : "Equal"
+      }, 
+      "c38dd311-a0f9-4d33-aae4-d0b8d57ed0d4" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-103393", 
+            "y" : "-101145"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "LEVEL_VARIANT_D_1", 
+         "active" : "true"
+      }, 
+      "8874b732-e4e2-4fa4-bec4-035aacc1f9a7" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103246", 
+            "y" : "-101171"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "8c3f4d0f-a534-40d9-bef5-20dfc3a3ff35" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-103113", 
+            "y" : "-101293"
+         }, 
+         "child" : [ 
+            "14ce197a-e59f-45e8-8fed-f2dc1e72f5c6", 
+            "82580f88-daff-4c2a-87f3-cf8076e99540"
+         ], 
+         "key" : "LEVEL_VARIANT_D", 
+         "value" : "2", 
+         "opp" : "Equal"
+      }, 
+      "14ce197a-e59f-45e8-8fed-f2dc1e72f5c6" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-103138", 
+            "y" : "-101130"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "LEVEL_VARIANT_D_2", 
+         "active" : "true"
+      }, 
+      "82580f88-daff-4c2a-87f3-cf8076e99540" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103002", 
+            "y" : "-101163"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "df428d8f-d1ed-48fc-a575-a99033b8a519" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-102944", 
+            "y" : "-101464"
+         }, 
+         "child" : [ 
+            "52d7adb2-7d80-4036-81b4-6e4e62effb76", 
+            "944289dc-25a7-4c42-99b3-1f997ed97b4f"
+         ]
+      }, 
+      "52d7adb2-7d80-4036-81b4-6e4e62effb76" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-103052", 
+            "y" : "-101417"
+         }, 
+         "child" : [ 
+            "22c924ba-d4a7-4fd5-81ec-b2eb463b5984"
+         ], 
+         "key" : "LEVEL_VARIANT_D", 
+         "value" : "1"
+      }, 
+      "944289dc-25a7-4c42-99b3-1f997ed97b4f" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-102901", 
+            "y" : "-101416"
+         }, 
+         "child" : [ 
+            "22c924ba-d4a7-4fd5-81ec-b2eb463b5984"
+         ], 
+         "key" : "LEVEL_VARIANT_D", 
+         "value" : "2"
+      }, 
+      "2c036a20-0735-4317-83ff-8fb45a256a57" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-102542", 
+            "y" : "-101519"
+         }, 
+         "child" : [ 
+            "bea0d0ab-e728-4d07-aaf8-9e5f7f5fa5db", 
+            "fa34e97e-f10c-4b6c-9001-785470c0aebc"
+         ], 
+         "key" : "LEVEL_VARIANT_C"
+      }, 
+      "bea0d0ab-e728-4d07-aaf8-9e5f7f5fa5db" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102735", 
+            "y" : "-101262"
+         }, 
+         "child" : [ 
+            "0db0a3b5-d892-477d-a883-9bdf6d38105c", 
+            "956d4db6-bba3-4380-a2d1-84dcc2582cdf"
+         ]
+      }, 
+      "0db0a3b5-d892-477d-a883-9bdf6d38105c" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-102850", 
+            "y" : "-101208"
+         }, 
+         "child" : [ 
+            "b51a893f-132c-4a7b-afa3-2c10f9e98b51", 
+            "0eba5008-5ecd-490f-b4bc-19c1c9a6d369"
+         ], 
+         "key" : "LEVEL_VARIANT_C", 
+         "value" : "1", 
+         "opp" : "Equal"
+      }, 
+      "b51a893f-132c-4a7b-afa3-2c10f9e98b51" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-102932", 
+            "y" : "-101059"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "LEVEL_VARIANT_C_1", 
+         "active" : "true"
+      }, 
+      "0eba5008-5ecd-490f-b4bc-19c1c9a6d369" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102785", 
+            "y" : "-101085"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "956d4db6-bba3-4380-a2d1-84dcc2582cdf" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-102652", 
+            "y" : "-101207"
+         }, 
+         "child" : [ 
+            "a03296cd-6962-4350-ac68-63cd9cb8ae21", 
+            "b26b5645-f4b4-4c97-bc32-d72f98a34749"
+         ], 
+         "key" : "LEVEL_VARIANT_C", 
+         "value" : "2", 
+         "opp" : "Equal"
+      }, 
+      "a03296cd-6962-4350-ac68-63cd9cb8ae21" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-102677", 
+            "y" : "-101044"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "LEVEL_VARIANT_C_2", 
+         "active" : "true"
+      }, 
+      "b26b5645-f4b4-4c97-bc32-d72f98a34749" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102541", 
+            "y" : "-101077"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "fa34e97e-f10c-4b6c-9001-785470c0aebc" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-102483", 
+            "y" : "-101378"
+         }, 
+         "child" : [ 
+            "744b9fea-ecca-4a50-bbcc-94d9f53a6c78", 
+            "1400eb40-a314-4674-b2ae-303d0e6f5e0f"
+         ]
+      }, 
+      "744b9fea-ecca-4a50-bbcc-94d9f53a6c78" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-102592", 
+            "y" : "-101331"
+         }, 
+         "child" : [ 
+            "bea0d0ab-e728-4d07-aaf8-9e5f7f5fa5db"
+         ], 
+         "key" : "LEVEL_VARIANT_C", 
+         "value" : "1"
+      }, 
+      "1400eb40-a314-4674-b2ae-303d0e6f5e0f" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-102440", 
+            "y" : "-101330"
+         }, 
+         "child" : [ 
+            "bea0d0ab-e728-4d07-aaf8-9e5f7f5fa5db"
+         ], 
+         "key" : "LEVEL_VARIANT_C", 
+         "value" : "2"
+      }, 
+      "cd3243a3-12ba-43b4-97f7-6bf10f0dee7c" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-102021", 
+            "y" : "-101496"
+         }, 
+         "child" : [ 
+            "089f8487-8540-45de-b318-fed4ef36c63d", 
+            "1c147b55-c6d0-4c6e-aaac-be37f676f46b"
+         ], 
+         "key" : "LEVEL_VARIANT_B"
+      }, 
+      "089f8487-8540-45de-b318-fed4ef36c63d" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102214", 
+            "y" : "-101239"
+         }, 
+         "child" : [ 
+            "248d8cb1-50f2-44d7-a61e-41b387f7687e", 
+            "bf237c23-471b-4f13-9eb8-588521a05239"
+         ]
+      }, 
+      "248d8cb1-50f2-44d7-a61e-41b387f7687e" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-102329", 
+            "y" : "-101185"
+         }, 
+         "child" : [ 
+            "28772f1b-32e8-4349-96d2-f2d8953bf10d", 
+            "4fcd7582-15fe-464f-ba4c-0d4402f0f65b"
+         ], 
+         "key" : "LEVEL_VARIANT_B", 
+         "value" : "1", 
+         "opp" : "Equal"
+      }, 
+      "28772f1b-32e8-4349-96d2-f2d8953bf10d" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-102411", 
+            "y" : "-101036"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "LEVEL_VARIANT_B_1", 
+         "active" : "true"
+      }, 
+      "4fcd7582-15fe-464f-ba4c-0d4402f0f65b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102264", 
+            "y" : "-101062"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "bf237c23-471b-4f13-9eb8-588521a05239" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-102131", 
+            "y" : "-101184"
+         }, 
+         "child" : [ 
+            "665213d2-2685-41a2-9462-804cb56c11dd", 
+            "7d535d50-f9fe-4961-a474-14f2dd9deb33"
+         ], 
+         "key" : "LEVEL_VARIANT_B", 
+         "value" : "2", 
+         "opp" : "Equal"
+      }, 
+      "665213d2-2685-41a2-9462-804cb56c11dd" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-102156", 
+            "y" : "-101021"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "LEVEL_VARIANT_B_2", 
+         "active" : "true"
+      }, 
+      "7d535d50-f9fe-4961-a474-14f2dd9deb33" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102020", 
+            "y" : "-101054"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "1c147b55-c6d0-4c6e-aaac-be37f676f46b" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-101962", 
+            "y" : "-101355"
+         }, 
+         "child" : [ 
+            "232227fd-94d1-4547-a690-e4dc4861a232", 
+            "070dedf1-c008-4d6b-9328-c1d4ba7cc2f3"
+         ]
+      }, 
+      "232227fd-94d1-4547-a690-e4dc4861a232" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-102070", 
+            "y" : "-101308"
+         }, 
+         "child" : [ 
+            "089f8487-8540-45de-b318-fed4ef36c63d"
+         ], 
+         "key" : "LEVEL_VARIANT_B", 
+         "value" : "1"
+      }, 
+      "070dedf1-c008-4d6b-9328-c1d4ba7cc2f3" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-101919", 
+            "y" : "-101307"
+         }, 
+         "child" : [ 
+            "089f8487-8540-45de-b318-fed4ef36c63d"
+         ], 
+         "key" : "LEVEL_VARIANT_B", 
+         "value" : "2"
+      }, 
+      "0499003d-6865-4f34-8122-dee97578be6c" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101504", 
+            "y" : "-101485"
+         }, 
+         "child" : [ 
+            "05214615-b35b-428a-b68d-d8d4c554f290", 
+            "8b72e051-1af6-47db-9b47-e5ceb6681b8c"
+         ], 
+         "key" : "LEVEL_VARIANT_A"
+      }, 
+      "05214615-b35b-428a-b68d-d8d4c554f290" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101697", 
+            "y" : "-101228"
+         }, 
+         "child" : [ 
+            "2c8f3eb2-c717-4959-b705-d070137493a9", 
+            "f3b9bd61-d847-42ba-97aa-45ec77f3beae"
+         ]
+      }, 
+      "2c8f3eb2-c717-4959-b705-d070137493a9" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-101812", 
+            "y" : "-101174"
+         }, 
+         "child" : [ 
+            "1d9ef9cd-4b1f-445f-a491-b45487ee2c65", 
+            "9ff952d0-f31a-48fe-a5aa-275930bce189"
+         ], 
+         "key" : "LEVEL_VARIANT_A", 
+         "value" : "1", 
+         "opp" : "Equal"
+      }, 
+      "1d9ef9cd-4b1f-445f-a491-b45487ee2c65" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101894", 
+            "y" : "-101025"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "LEVEL_VARIANT_A_1", 
+         "active" : "true"
+      }, 
+      "9ff952d0-f31a-48fe-a5aa-275930bce189" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101747", 
+            "y" : "-101051"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "f3b9bd61-d847-42ba-97aa-45ec77f3beae" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-101614", 
+            "y" : "-101173"
+         }, 
+         "child" : [ 
+            "3d960663-b9a2-4dc3-9742-55d5bbad14d1", 
+            "0bdda580-e3fb-40fd-9c92-d2feefd9ca70"
+         ], 
+         "key" : "LEVEL_VARIANT_A", 
+         "value" : "2", 
+         "opp" : "Equal"
+      }, 
+      "3d960663-b9a2-4dc3-9742-55d5bbad14d1" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101639", 
+            "y" : "-101010"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "LEVEL_VARIANT_A_2", 
+         "active" : "true"
+      }, 
+      "0bdda580-e3fb-40fd-9c92-d2feefd9ca70" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101503", 
+            "y" : "-101043"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "8b72e051-1af6-47db-9b47-e5ceb6681b8c" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-101445", 
+            "y" : "-101344"
+         }, 
+         "child" : [ 
+            "11b84b73-9eac-45bb-88de-d60486dabc3a", 
+            "0ba1dc3b-6ade-4f93-9c3c-19a858ecbaab"
+         ]
+      }, 
+      "11b84b73-9eac-45bb-88de-d60486dabc3a" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-101553", 
+            "y" : "-101297"
+         }, 
+         "child" : [ 
+            "05214615-b35b-428a-b68d-d8d4c554f290"
+         ], 
+         "key" : "LEVEL_VARIANT_A", 
+         "value" : "1"
+      }, 
+      "0ba1dc3b-6ade-4f93-9c3c-19a858ecbaab" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-101402", 
+            "y" : "-101296"
+         }, 
+         "child" : [ 
+            "05214615-b35b-428a-b68d-d8d4c554f290"
+         ], 
+         "key" : "LEVEL_VARIANT_A", 
+         "value" : "2"
+      }, 
+      "a6d7efc1-33a4-484d-804c-b7b9e8bbf4f0" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101182", 
+            "y" : "-101413"
+         }, 
+         "child" : [ 
+            "11ea8dab-7964-4f42-bb2c-bad951665e50", 
+            "7b247f67-ab0f-476d-96f6-55470fffcfba"
+         ], 
+         "key" : "SPAWN"
+      }, 
+      "11ea8dab-7964-4f42-bb2c-bad951665e50" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101310", 
+            "y" : "-100838"
+         }, 
+         "child" : [ 
+            "4713ad13-b40f-48ea-a5e9-032cce32270b", 
+            "1758b722-3203-46f5-b546-b40cbe204d1c", 
+            "40982cbd-4deb-4990-b5da-80ca84f48f6b"
+         ]
+      }, 
+      "4713ad13-b40f-48ea-a5e9-032cce32270b" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-102050", 
+            "y" : "-100697"
+         }, 
+         "child" : [ 
+            "f868d1e1-a5ba-4762-995a-75c3c00dae5b", 
+            "6fe40f58-035c-44fd-bac5-e70f4814b813"
+         ], 
+         "key" : "GUBERT"
+      }, 
+      "f868d1e1-a5ba-4762-995a-75c3c00dae5b" : { 
+         "class" : "CharacterKillEventNode", 
+         "desc" : { 
+            "x" : "-102053", 
+            "y" : "-100595"
+         }, 
+         "child" : [ 
+            "b36e452d-a69a-4639-81fc-dcd7eb488d5c"
+         ], 
+         "targetName" : "Spawn.Enemy.1", 
+         "targetFractionName" : ""
+      }, 
+      "b36e452d-a69a-4639-81fc-dcd7eb488d5c" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-102035", 
+            "y" : "-100492"
+         }, 
+         "child" : [ 
+            "727cf9c4-2bbb-4a6f-a5d3-07c49fd6548f"
+         ], 
+         "quest_key" : "DEADCITY.GUBERT"
+      }, 
+      "727cf9c4-2bbb-4a6f-a5d3-07c49fd6548f" : { 
+         "class" : "QuestBeginNode", 
+         "desc" : { 
+            "x" : "-102045", 
+            "y" : "-100422"
+         }, 
+         "child" : [ 
+            "f88be3b1-5e73-4598-b0dd-7247101e56b7"
+         ], 
+         "quest_key" : "DEADCITY.GUBERT.END"
+      }, 
+      "f88be3b1-5e73-4598-b0dd-7247101e56b7" : { 
+         "class" : "NotebookRemoveNoteNode", 
+         "desc" : { 
+            "x" : "-102044", 
+            "y" : "-100344"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "REQUEST_GUBERT"
+      }, 
+      "6fe40f58-035c-44fd-bac5-e70f4814b813" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101845", 
+            "y" : "-100623"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "1758b722-3203-46f5-b546-b40cbe204d1c" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101439", 
+            "y" : "-100755"
+         }, 
+         "child" : [ 
+            "0fbb4270-b058-4df5-a41b-18daa20912bb", 
+            "fd41796c-cf8a-494b-a1d1-e5b5cee56af4"
+         ], 
+         "key" : "CAMP_ENCOUNTER"
+      }, 
+      "0fbb4270-b058-4df5-a41b-18daa20912bb" : { 
+         "class" : "OffenseRestNode", 
+         "desc" : { 
+            "x" : "-101587", 
+            "y" : "-100656"
+         }, 
+         "child" : [ 
+            "04039df0-f494-4dca-9cb1-507bc8a03f01"
+         ], 
+         "chance" : "40"
+      }, 
+      "04039df0-f494-4dca-9cb1-507bc8a03f01" : { 
+         "class" : "FlashSplashNode", 
+         "desc" : { 
+            "x" : "-101721", 
+            "y" : "-100595"
+         }, 
+         "child" : [ 
+            "9ad01da0-b059-4202-beb3-abcebfe7ce9a"
+         ], 
+         "waitEnd" : "false", 
+         "waitTime" : "1.5"
+      }, 
+      "9ad01da0-b059-4202-beb3-abcebfe7ce9a" : { 
+         "class" : "LogNode", 
+         "desc" : { 
+            "x" : "-101721", 
+            "y" : "-100551"
+         }, 
+         "child" : [ 
+            "349452e9-4d98-4f82-b9b4-28ca522fa06f"
+         ], 
+         "text" : "#Z_1.9ad01da0-b059-4202-beb3-abcebfe7ce9a"
+      }, 
+      "349452e9-4d98-4f82-b9b4-28ca522fa06f" : { 
+         "class" : "RemoveKeywordNode", 
+         "desc" : { 
+            "x" : "-101681", 
+            "y" : "-100486"
+         }, 
+         "child" : [ 
+            "bb9df4ab-e8cd-41d0-8dfa-4ccb95ee610b"
+         ], 
+         "key" : "CAMP_ENCOUNTER"
+      }, 
+      "bb9df4ab-e8cd-41d0-8dfa-4ccb95ee610b" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-101662", 
+            "y" : "-100424"
+         }, 
+         "child" : [ 
+            "06aa427e-71e2-4dee-8e62-4d3ca95db04b", 
+            "62c9cc16-d0a8-4b04-9c32-f7c7abd5a147", 
+            "95a8a499-1e46-4ab6-b139-ff24d2d2a636"
+         ]
+      }, 
+      "06aa427e-71e2-4dee-8e62-4d3ca95db04b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99239", 
+            "y" : "-100304"
+         }, 
+         "child" : [ 
+            "2b3e79be-aff2-4f4b-8816-23f6121d0d6f"
+         ]
+      }, 
+      "2b3e79be-aff2-4f4b-8816-23f6121d0d6f" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-99287", 
+            "y" : "-100203"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/Z_Z_Rats"
+      }, 
+      "62c9cc16-d0a8-4b04-9c32-f7c7abd5a147" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100166", 
+            "y" : "-100225"
+         }, 
+         "child" : [ 
+            "e071855e-ee17-4321-a203-c17ee92e3bd3"
+         ]
+      }, 
+      "e071855e-ee17-4321-a203-c17ee92e3bd3" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-100204", 
+            "y" : "-100160"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/Z_Z_Wolfs"
+      }, 
+      "95a8a499-1e46-4ab6-b139-ff24d2d2a636" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99513", 
+            "y" : "-100265"
+         }, 
+         "child" : [ 
+            "d8d07cb6-5011-4c52-bf22-5508006c1c5e"
+         ]
+      }, 
+      "d8d07cb6-5011-4c52-bf22-5508006c1c5e" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-99524", 
+            "y" : "-100172"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/Z_Z_Rats_2"
+      }, 
+      "fd41796c-cf8a-494b-a1d1-e5b5cee56af4" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101086", 
+            "y" : "-100576"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "40982cbd-4deb-4990-b5da-80ca84f48f6b" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101229", 
+            "y" : "-100707"
+         }, 
+         "child" : [ 
+            "7dff89d3-034b-46cc-89cc-a69cd25d7c6b", 
+            "fd41796c-cf8a-494b-a1d1-e5b5cee56af4"
+         ], 
+         "key" : "SHOW_CAMP"
+      }, 
+      "7dff89d3-034b-46cc-89cc-a69cd25d7c6b" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-101188", 
+            "y" : "-100117"
+         }, 
+         "child" : [ 
+            "69ad242e-ecab-49d8-afa2-27b82eaaac87", 
+            "b9222787-9b49-4cb7-84ea-6827dbb8f405"
+         ], 
+         "key" : "SHOW_CAMP"
+      }, 
+      "69ad242e-ecab-49d8-afa2-27b82eaaac87" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101278", 
+            "y" : "-100030"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Z_Campfire_static", 
+         "active" : "true"
+      }, 
+      "b9222787-9b49-4cb7-84ea-6827dbb8f405" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101130", 
+            "y" : "-100033"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Campfire", 
+         "active" : "true"
+      }, 
+      "7b247f67-ab0f-476d-96f6-55470fffcfba" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101042", 
+            "y" : "-101283"
+         }, 
+         "child" : [ 
+            "9d6b4c6c-d2fd-432f-97e2-acd7656ed9dd", 
+            "97166265-1118-4fa8-8c91-bea3064f4de4"
+         ]
+      }, 
+      "9d6b4c6c-d2fd-432f-97e2-acd7656ed9dd" : { 
+         "class" : "ObjectCheckNode", 
+         "desc" : { 
+            "x" : "-100535", 
+            "y" : "-101213"
+         }, 
+         "child" : [ 
+            "9f64fdd6-2651-40e6-a50f-56e85db3b43b", 
+            "ab1da687-57d7-41a5-9f4a-b4ec782c9cf5"
+         ], 
+         "objectName" : "_spawn_group1"
+      }, 
+      "9f64fdd6-2651-40e6-a50f-56e85db3b43b" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-100595", 
+            "y" : "-101056", 
+            "comment" : "spawn_group"
+         }, 
+         "child" : [ 
+            "e23576c9-569c-4dcc-b04c-ab81000fe294", 
+            "a7a36983-3e77-4789-8447-43424d5d01b7", 
+            "8cc70a5c-f14b-46a7-8c57-e70d06f1fbd7"
+         ]
+      }, 
+      "e23576c9-569c-4dcc-b04c-ab81000fe294" : { 
+         "class" : "ObjectRemoveNode", 
+         "desc" : { 
+            "x" : "-100695", 
+            "y" : "-100983"
+         }, 
+         "child" : [ 
+            "38547527-8c6f-4743-b85d-2a8f8b2da3fc"
+         ], 
+         "objName" : "_spawn_group1"
+      }, 
+      "38547527-8c6f-4743-b85d-2a8f8b2da3fc" : { 
+         "class" : "ObjectRemoveNode", 
+         "desc" : { 
+            "x" : "-100684", 
+            "y" : "-100905"
+         }, 
+         "child" : [ 
+         ], 
+         "objName" : "_spawn_group2"
+      }, 
+      "a7a36983-3e77-4789-8447-43424d5d01b7" : { 
+         "class" : "ObjectRemoveNode", 
+         "desc" : { 
+            "x" : "-100563", 
+            "y" : "-100983"
+         }, 
+         "child" : [ 
+            "636e63c9-dd43-4ed2-8b84-55b319f5534d"
+         ], 
+         "objName" : "_spawn_group3"
+      }, 
+      "636e63c9-dd43-4ed2-8b84-55b319f5534d" : { 
+         "class" : "ObjectRemoveNode", 
+         "desc" : { 
+            "x" : "-100556", 
+            "y" : "-100912"
+         }, 
+         "child" : [ 
+         ], 
+         "objName" : "_spawn_group2"
+      }, 
+      "8cc70a5c-f14b-46a7-8c57-e70d06f1fbd7" : { 
+         "class" : "ObjectRemoveNode", 
+         "desc" : { 
+            "x" : "-100437", 
+            "y" : "-100991"
+         }, 
+         "child" : [ 
+            "4ec2b58f-8afc-4a95-8816-9f1a7d20ec29"
+         ], 
+         "objName" : "_spawn_group1"
+      }, 
+      "4ec2b58f-8afc-4a95-8816-9f1a7d20ec29" : { 
+         "class" : "ObjectRemoveNode", 
+         "desc" : { 
+            "x" : "-100428", 
+            "y" : "-100926"
+         }, 
+         "child" : [ 
+         ], 
+         "objName" : "_spawn_group3"
+      }, 
+      "ab1da687-57d7-41a5-9f4a-b4ec782c9cf5" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100384", 
+            "y" : "-101075"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "97166265-1118-4fa8-8c91-bea3064f4de4" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100949", 
+            "y" : "-101144"
+         }, 
+         "child" : [ 
+            "79a59c2f-de59-4fba-96af-7e98c3d1914b", 
+            "990d7a84-9db7-45ea-aff5-179c54aeab8e"
+         ]
+      }, 
+      "79a59c2f-de59-4fba-96af-7e98c3d1914b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101062", 
+            "y" : "-100907", 
+            "comment" : "tier system"
+         }, 
+         "child" : [ 
+            "e084843c-1b85-444b-ad0c-4945b3a0e300"
+         ]
+      }, 
+      "e084843c-1b85-444b-ad0c-4945b3a0e300" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-101102", 
+            "y" : "-100850"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/Z_Z_Tier"
+      }, 
+      "990d7a84-9db7-45ea-aff5-179c54aeab8e" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-100797", 
+            "y" : "-100550"
+         }, 
+         "child" : [ 
+            "64df6d6f-d3ad-485f-9ac7-039b76b841b4", 
+            "d8820f5f-ea1c-40c4-ad89-151da60bf624"
+         ], 
+         "key" : "SPAWN"
+      }, 
+      "64df6d6f-d3ad-485f-9ac7-039b76b841b4" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-101036", 
+            "y" : "-100519", 
+            "comment" : "random camp"
+         }, 
+         "child" : [ 
+            "f8b2b14b-dd7c-4bea-be9b-60250669c58f", 
+            "25be3afb-e3e3-43bb-bb74-a135eafa1e9b", 
+            "86af8554-198f-444b-b79b-319106beb40c", 
+            "7dff89d3-034b-46cc-89cc-a69cd25d7c6b"
+         ]
+      }, 
+      "f8b2b14b-dd7c-4bea-be9b-60250669c58f" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101193", 
+            "y" : "-100484"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "25be3afb-e3e3-43bb-bb74-a135eafa1e9b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101097", 
+            "y" : "-100438"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "86af8554-198f-444b-b79b-319106beb40c" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100968", 
+            "y" : "-100462"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "d8820f5f-ea1c-40c4-ad89-151da60bf624" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100652", 
+            "y" : "-100481"
+         }, 
+         "child" : [ 
+            "1a3a3c4e-f043-4226-95c3-dc559c3a34e0", 
+            "8db57f46-e175-4382-8961-52e723d8787e", 
+            "3e260eb4-c842-4b0c-a1ce-0e688ea60d32", 
+            "da85acc2-2052-4a5b-b163-2c2bd8bc477d", 
+            "380bf4d4-7fca-4ec2-ad5e-c34d876f5c78", 
+            "f2fc63c2-ecd6-4b88-b6fc-17adbf4a94ef", 
+            "cd7ceb05-ce07-4e37-888e-d02e257ac4da", 
+            "86eb2601-e81f-4893-95db-60d049a8a149", 
+            "ac66bf06-6fef-4032-8300-dd6d5d08efdf", 
+            "605afe45-fafe-4e38-9526-ae3a35caf4f0", 
+            "e82c4316-8287-43bf-9894-7db076684f42", 
+            "8d625618-d565-442b-98ed-396599b546cd"
+         ]
+      }, 
+      "1a3a3c4e-f043-4226-95c3-dc559c3a34e0" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-100991", 
+            "y" : "-100380"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/ph_world_3"
+      }, 
+      "8db57f46-e175-4382-8961-52e723d8787e" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-100926", 
+            "y" : "-100291"
+         }, 
+         "child" : [ 
+            "3eae42e6-9068-464e-bf27-09c4c5342c44", 
+            "ca4477a8-3fb4-486c-8859-e101fbd30913", 
+            "60f68845-66ef-4015-87cd-63cbc7b1527c", 
+            "ec49dd19-3827-4dd7-b7d8-74a13d881c4b"
+         ], 
+         "encType" : "Hallucinating"
+      }, 
+      "3eae42e6-9068-464e-bf27-09c4c5342c44" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-100972", 
+            "y" : "-100093"
+         }, 
+         "child" : [ 
+            "d684748e-7d6b-42f4-b223-c395e815cb29"
+         ], 
+         "waitTime" : "3"
+      }, 
+      "d684748e-7d6b-42f4-b223-c395e815cb29" : { 
+         "class" : "CharacterStunNode", 
+         "desc" : { 
+            "x" : "-100971", 
+            "y" : "-100039"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Player", 
+         "stunMode" : "Wakeup"
+      }, 
+      "ca4477a8-3fb4-486c-8859-e101fbd30913" : { 
+         "class" : "PlayerResetConditionNode", 
+         "desc" : { 
+            "x" : "-100858", 
+            "y" : "-100024"
+         }, 
+         "child" : [ 
+         ], 
+         "conditionType" : "Hallucinating"
+      }, 
+      "60f68845-66ef-4015-87cd-63cbc7b1527c" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100783", 
+            "y" : "-100088"
+         }, 
+         "child" : [ 
+            "71b0fe86-4aba-484c-bb23-dc8563e2bc49"
+         ]
+      }, 
+      "71b0fe86-4aba-484c-bb23-dc8563e2bc49" : { 
+         "class" : "PlayDialogNode", 
+         "desc" : { 
+            "x" : "-100816", 
+            "y" : "-99956"
+         }, 
+         "child" : [ 
+         ], 
+         "dialog" : "Entities/Dialog/Mimrik_end"
+      }, 
+      "ec49dd19-3827-4dd7-b7d8-74a13d881c4b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101087", 
+            "y" : "-100203"
+         }, 
+         "child" : [ 
+            "a7f35679-48b8-453c-b8f4-da3ef2f56faa", 
+            "7dff89d3-034b-46cc-89cc-a69cd25d7c6b"
+         ]
+      }, 
+      "a7f35679-48b8-453c-b8f4-da3ef2f56faa" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-101359", 
+            "y" : "-100131"
+         }, 
+         "child" : [ 
+            "1758b722-3203-46f5-b546-b40cbe204d1c"
+         ], 
+         "key" : "CAMP_ENCOUNTER"
+      }, 
+      "3e260eb4-c842-4b0c-a1ce-0e688ea60d32" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-100727", 
+            "y" : "-100324"
+         }, 
+         "child" : [ 
+            "fd2840d7-30c8-446c-bf83-a19c9f05509d"
+         ], 
+         "encType" : "MutaShift"
+      }, 
+      "fd2840d7-30c8-446c-bf83-a19c9f05509d" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100786", 
+            "y" : "-100258"
+         }, 
+         "child" : [ 
+            "673193b1-598c-41d8-a35c-f65871fdefb0", 
+            "a4b6123c-fc3e-499b-85d7-1bcb5878a523"
+         ]
+      }, 
+      "673193b1-598c-41d8-a35c-f65871fdefb0" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-100500", 
+            "y" : "-100169"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/Z_Z_Shift"
+      }, 
+      "a4b6123c-fc3e-499b-85d7-1bcb5878a523" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-100361", 
+            "y" : "-100257"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/Z_Z_Muta"
+      }, 
+      "da85acc2-2052-4a5b-b163-2c2bd8bc477d" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-99985", 
+            "y" : "-100427"
+         }, 
+         "child" : [ 
+            "ffa371ef-3f10-4ffa-a2ce-9c5007c13e83"
+         ], 
+         "encType" : "Slavers"
+      }, 
+      "ffa371ef-3f10-4ffa-a2ce-9c5007c13e83" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-100001", 
+            "y" : "-100263"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/Z_Z_Slavers"
+      }, 
+      "380bf4d4-7fca-4ec2-ad5e-c34d876f5c78" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-100470", 
+            "y" : "-100311"
+         }, 
+         "child" : [ 
+            "673193b1-598c-41d8-a35c-f65871fdefb0"
+         ], 
+         "encType" : "Shift"
+      }, 
+      "f2fc63c2-ecd6-4b88-b6fc-17adbf4a94ef" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-99236", 
+            "y" : "-100393"
+         }, 
+         "child" : [ 
+            "06aa427e-71e2-4dee-8e62-4d3ca95db04b"
+         ], 
+         "encType" : "Rats"
+      }, 
+      "cd7ceb05-ce07-4e37-888e-d02e257ac4da" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-99780", 
+            "y" : "-100384"
+         }, 
+         "child" : [ 
+            "4addb208-fe90-4a0b-b326-221fbbb1d0db"
+         ], 
+         "encType" : "Scavenger"
+      }, 
+      "4addb208-fe90-4a0b-b326-221fbbb1d0db" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-99781", 
+            "y" : "-100248"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/Z_Z_Scavenger"
+      }, 
+      "86eb2601-e81f-4893-95db-60d049a8a149" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-100177", 
+            "y" : "-100359"
+         }, 
+         "child" : [ 
+            "62c9cc16-d0a8-4b04-9c32-f7c7abd5a147"
+         ], 
+         "encType" : "Wolfs"
+      }, 
+      "ac66bf06-6fef-4032-8300-dd6d5d08efdf" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-101272", 
+            "y" : "-100232"
+         }, 
+         "child" : [ 
+            "a7f35679-48b8-453c-b8f4-da3ef2f56faa", 
+            "7dff89d3-034b-46cc-89cc-a69cd25d7c6b"
+         ], 
+         "encType" : "Camp"
+      }, 
+      "605afe45-fafe-4e38-9526-ae3a35caf4f0" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-99508", 
+            "y" : "-100411"
+         }, 
+         "child" : [ 
+            "95a8a499-1e46-4ab6-b139-ff24d2d2a636"
+         ], 
+         "encType" : "Rats_2"
+      }, 
+      "e82c4316-8287-43bf-9894-7db076684f42" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-100579", 
+            "y" : "-100322"
+         }, 
+         "child" : [ 
+            "7def0cb6-2ad2-4c75-9fdc-3cc5d120fb7e"
+         ], 
+         "encType" : "Gubert"
+      }, 
+      "7def0cb6-2ad2-4c75-9fdc-3cc5d120fb7e" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-100632", 
+            "y" : "-100253"
+         }, 
+         "child" : [ 
+            "4713ad13-b40f-48ea-a5e9-032cce32270b", 
+            "5d068166-7384-42b3-b0f0-43182d974105"
+         ], 
+         "key" : "GUBERT"
+      }, 
+      "5d068166-7384-42b3-b0f0-43182d974105" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-100657", 
+            "y" : "-100101"
+         }, 
+         "child" : [ 
+            "85dfd55a-617e-4df5-84d1-f347c3d4d8d7"
+         ], 
+         "script" : "Entities/Behavior/Z_Z_Gubert"
+      }, 
+      "85dfd55a-617e-4df5-84d1-f347c3d4d8d7" : { 
+         "class" : "CharacterStateNode", 
+         "desc" : { 
+            "x" : "-100615", 
+            "y" : "-100042"
+         }, 
+         "child" : [ 
+            "5ffdd0ce-66f3-47e9-9140-58039b9c835e"
+         ], 
+         "stateName" : ""
+      }, 
+      "5ffdd0ce-66f3-47e9-9140-58039b9c835e" : { 
+         "class" : "CharacterAttackNode", 
+         "desc" : { 
+            "x" : "-100621", 
+            "y" : "-99995"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Spawn.Enemy.1", 
+         "targetName" : "Player"
+      }, 
+      "8d625618-d565-442b-98ed-396599b546cd" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-100315", 
+            "y" : "-100343"
+         }, 
+         "child" : [ 
+            "a4b6123c-fc3e-499b-85d7-1bcb5878a523"
+         ], 
+         "encType" : "Muta"
+      }
+   }, 
+   "entry" : "5324d847-06c0-40f3-8c63-bbcc368d6da2"
+}

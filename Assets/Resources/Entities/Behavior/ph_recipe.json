@@ -1,0 +1,83 @@
+{ 
+   "states" : { 
+      "b053a210-ea7d-439d-8783-489e55db23b7" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101102", 
+            "y" : "-102289"
+         }, 
+         "child" : [ 
+            "afd1cba7-bb2e-4cf7-800b-2fddf83c8811", 
+            "31af2a5f-0d52-4116-9595-fe35c4e7baf6"
+         ]
+      }, 
+      "afd1cba7-bb2e-4cf7-800b-2fddf83c8811" : { 
+         "class" : "PlayerHasRecipeNode", 
+         "desc" : { 
+            "x" : "-101849", 
+            "y" : "-101914"
+         }, 
+         "child" : [ 
+            "37ae8037-5692-4ac6-bced-63bb5f63a7f2", 
+            "5eb6ac29-c773-403d-94f6-25b8da8c8bca"
+         ], 
+         "recipe" : "backpack5"
+      }, 
+      "37ae8037-5692-4ac6-bced-63bb5f63a7f2" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101201", 
+            "y" : "-101750"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "5eb6ac29-c773-403d-94f6-25b8da8c8bca" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101788", 
+            "y" : "-101720"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Memo", 
+               "count" : "1", 
+               "proto" : "ph_craft_book2"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "31af2a5f-0d52-4116-9595-fe35c4e7baf6" : { 
+         "class" : "PlayerHasRecipeNode", 
+         "desc" : { 
+            "x" : "-101489", 
+            "y" : "-101912"
+         }, 
+         "child" : [ 
+            "37ae8037-5692-4ac6-bced-63bb5f63a7f2", 
+            "5ebaa9ee-79da-421d-bfde-7351049c621e"
+         ], 
+         "recipe" : "backpack3"
+      }, 
+      "5ebaa9ee-79da-421d-bfde-7351049c621e" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101458", 
+            "y" : "-101716"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Memo", 
+               "count" : "1", 
+               "proto" : "ph_craft_book3"
+            }
+         ], 
+         "inventoryObject" : ""
+      }
+   }, 
+   "entry" : "b053a210-ea7d-439d-8783-489e55db23b7"
+}

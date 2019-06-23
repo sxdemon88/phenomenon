@@ -1,0 +1,2083 @@
+{ 
+   "states" : { 
+      "d1f15558-3d0a-4817-bb24-1f69a5f0116e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101231", 
+            "y" : "-100574"
+         }, 
+         "child" : [ 
+            "5d159588-8c01-4d82-8422-3fd71220fa45", 
+            "4d9dad1f-6d25-49a4-8a3a-311cee42304a"
+         ]
+      }, 
+      "5d159588-8c01-4d82-8422-3fd71220fa45" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-101300", 
+            "y" : "-100473"
+         }, 
+         "child" : [ 
+            "940c12fd-032c-443b-ba20-7ce078ed558f", 
+            "07f37942-a149-41bd-afd9-b512faae17b4"
+         ], 
+         "value" : "9", 
+         "modifier" : "Level"
+      }, 
+      "940c12fd-032c-443b-ba20-7ce078ed558f" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-101231", 
+            "y" : "-100213"
+         }, 
+         "child" : [ 
+            "e595c097-3f57-4ba2-ad09-a42b85c659d5", 
+            "565688f1-4340-4ee8-9ed1-aa264d075899"
+         ], 
+         "value" : "15", 
+         "modifier" : "Level"
+      }, 
+      "e595c097-3f57-4ba2-ad09-a42b85c659d5" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-100466", 
+            "y" : "-100110"
+         }, 
+         "child" : [ 
+            "18c8990b-a994-4d3d-b84d-8d8f6c154842", 
+            "b77205d2-0d4e-4456-9a6c-3559cfaa62dc", 
+            "2dbb11e2-0b4b-4529-a246-b18dd315dce7"
+         ]
+      }, 
+      "18c8990b-a994-4d3d-b84d-8d8f6c154842" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100231", 
+            "y" : "-99947", 
+            "comment" : "8"
+         }, 
+         "child" : [ 
+            "04de1ce5-fa8d-4109-949b-7275fb543a67", 
+            "b73de46b-d8fb-44bc-8cd0-310800f198f8", 
+            "f14b7917-cfee-47b1-85a8-2adcfa59fd5e", 
+            "7755ddac-1d9d-4c30-ba0e-740f90633ad9", 
+            "cd0a56cf-0a3a-4954-ac0a-ffbe0b1f4e1f", 
+            "e757409b-3012-415b-9a34-65404024da01", 
+            "b67bcecf-8863-4569-b7ad-d297c221a6bf", 
+            "f3df8719-8274-40a1-af2e-2c301a02185c"
+         ]
+      }, 
+      "04de1ce5-fa8d-4109-949b-7275fb543a67" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100478", 
+            "y" : "-99815"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.1", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit_14", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandos.man"
+         }
+      }, 
+      "b73de46b-d8fb-44bc-8cd0-310800f198f8" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100354", 
+            "y" : "-99814"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.2", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit_14", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandos.man"
+         }
+      }, 
+      "f14b7917-cfee-47b1-85a8-2adcfa59fd5e" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100226", 
+            "y" : "-99815"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.3", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit_14", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandos.man"
+         }
+      }, 
+      "7755ddac-1d9d-4c30-ba0e-740f90633ad9" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100103", 
+            "y" : "-99815"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.4", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit_14", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandos.man"
+         }
+      }, 
+      "cd0a56cf-0a3a-4954-ac0a-ffbe0b1f4e1f" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-99976", 
+            "y" : "-99812"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.5", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit_14", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandos.man"
+         }
+      }, 
+      "e757409b-3012-415b-9a34-65404024da01" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-99847", 
+            "y" : "-99812"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.6", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit_14", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandos.man"
+         }
+      }, 
+      "b67bcecf-8863-4569-b7ad-d297c221a6bf" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-99718", 
+            "y" : "-99813"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.7", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit_14", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandos.man"
+         }
+      }, 
+      "f3df8719-8274-40a1-af2e-2c301a02185c" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-99588", 
+            "y" : "-99811"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.8", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit_21", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandos.man"
+         }
+      }, 
+      "b77205d2-0d4e-4456-9a6c-3559cfaa62dc" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99872", 
+            "y" : "-99505", 
+            "comment" : "8"
+         }, 
+         "child" : [ 
+            "c50a5e9a-7478-43cd-b8d0-89381284cc29", 
+            "65cd38c5-fa67-4297-96e9-8275874dee76", 
+            "37957e14-5f8e-4728-9ce5-7a647c2c3d4a", 
+            "5679be3a-29b5-4676-89cf-12df5202758e", 
+            "58d85336-e62e-43d3-95d7-dd6b597c47ba", 
+            "e0b583d5-d163-40dd-a4dd-563672dff066", 
+            "e09be47d-be18-4221-b833-215c77157671", 
+            "c09ab75a-481b-4455-83d7-7bb554637540"
+         ]
+      }, 
+      "c50a5e9a-7478-43cd-b8d0-89381284cc29" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100168", 
+            "y" : "-99237"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.1", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit_14", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandos.man"
+         }
+      }, 
+      "65cd38c5-fa67-4297-96e9-8275874dee76" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100044", 
+            "y" : "-99236"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.2", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit_21", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandos.man"
+         }
+      }, 
+      "37957e14-5f8e-4728-9ce5-7a647c2c3d4a" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-99916", 
+            "y" : "-99237"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.3", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit_14", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandos.man"
+         }
+      }, 
+      "5679be3a-29b5-4676-89cf-12df5202758e" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-99793", 
+            "y" : "-99237"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.4", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit_21", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandos.man"
+         }
+      }, 
+      "58d85336-e62e-43d3-95d7-dd6b597c47ba" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-99665", 
+            "y" : "-99234"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.5", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit_14", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandos.man"
+         }
+      }, 
+      "e0b583d5-d163-40dd-a4dd-563672dff066" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-99537", 
+            "y" : "-99234"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.6", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit_21", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandos.man"
+         }
+      }, 
+      "e09be47d-be18-4221-b833-215c77157671" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-99408", 
+            "y" : "-99235"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.7", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit_14", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandos.man"
+         }
+      }, 
+      "c09ab75a-481b-4455-83d7-7bb554637540" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-99278", 
+            "y" : "-99233"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.8", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit_21", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandos.man"
+         }
+      }, 
+      "2dbb11e2-0b4b-4529-a246-b18dd315dce7" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-98804", 
+            "y" : "-99982", 
+            "comment" : "8"
+         }, 
+         "child" : [ 
+            "7f431123-78df-43f0-a16a-8d2122e32746", 
+            "df6a9c41-fdf8-4856-a515-3958d7ca9f7d", 
+            "9a79ce9d-0545-4858-8c3a-fcab97a078b8", 
+            "6c218ce5-3172-4daa-b728-079693ffea15", 
+            "27b6de8f-95ec-49b1-8289-284a697427fc", 
+            "305625af-34f2-4387-9366-04fdc0b3982a", 
+            "bf97bd45-2ffb-4081-9585-babcf83d2b38", 
+            "440242fb-9e27-4144-9f5c-704be4e82466"
+         ]
+      }, 
+      "7f431123-78df-43f0-a16a-8d2122e32746" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-99145", 
+            "y" : "-99786"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.1", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit_21", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandos.man"
+         }
+      }, 
+      "df6a9c41-fdf8-4856-a515-3958d7ca9f7d" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-99019", 
+            "y" : "-99789"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.2", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit_21", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandos.man"
+         }
+      }, 
+      "9a79ce9d-0545-4858-8c3a-fcab97a078b8" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-98893", 
+            "y" : "-99786"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.3", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit_21", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandos.man"
+         }
+      }, 
+      "6c218ce5-3172-4daa-b728-079693ffea15" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-98770", 
+            "y" : "-99786"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.4", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit_21", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandos.man"
+         }
+      }, 
+      "27b6de8f-95ec-49b1-8289-284a697427fc" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-98642", 
+            "y" : "-99783"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.5", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit_21", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandos.man"
+         }
+      }, 
+      "305625af-34f2-4387-9366-04fdc0b3982a" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-98514", 
+            "y" : "-99783"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.6", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit_21", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandos.man"
+         }
+      }, 
+      "bf97bd45-2ffb-4081-9585-babcf83d2b38" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-98385", 
+            "y" : "-99784"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.7", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit_21", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandos.man"
+         }
+      }, 
+      "440242fb-9e27-4144-9f5c-704be4e82466" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-98256", 
+            "y" : "-99787"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.8", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit_21", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandos.man"
+         }
+      }, 
+      "565688f1-4340-4ee8-9ed1-aa264d075899" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-101112", 
+            "y" : "-99979"
+         }, 
+         "child" : [ 
+            "66491a9f-539f-4f4b-ac64-09f9e3d3694b", 
+            "5b6eef4e-2dff-4906-a926-8c98ce12971e"
+         ]
+      }, 
+      "66491a9f-539f-4f4b-ac64-09f9e3d3694b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101305", 
+            "y" : "-99729", 
+            "comment" : "6"
+         }, 
+         "child" : [ 
+            "0b9e4de5-e29d-4d89-a108-240ecd61f684", 
+            "4489a683-593e-472d-b662-dd5a6bc3f6f1", 
+            "59879785-6f3a-42fb-8092-1457a9d44a7f", 
+            "472c9cf4-c333-4952-b48f-d931033afde9", 
+            "eae56f43-0a0a-4430-99dc-c4592cca312f", 
+            "1dafddd0-0594-420b-9972-703e932c6590"
+         ]
+      }, 
+      "0b9e4de5-e29d-4d89-a108-240ecd61f684" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101450", 
+            "y" : "-99502"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.1", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit_7", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandos.man"
+         }
+      }, 
+      "4489a683-593e-472d-b662-dd5a6bc3f6f1" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101322", 
+            "y" : "-99501"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.2", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit_7", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandos.man"
+         }
+      }, 
+      "59879785-6f3a-42fb-8092-1457a9d44a7f" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101196", 
+            "y" : "-99499"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.3", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit_7", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandos.man"
+         }
+      }, 
+      "472c9cf4-c333-4952-b48f-d931033afde9" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101067", 
+            "y" : "-99497"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.4", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit_7", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandos.man"
+         }
+      }, 
+      "eae56f43-0a0a-4430-99dc-c4592cca312f" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100938", 
+            "y" : "-99497"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.5", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit_7", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandos.man"
+         }
+      }, 
+      "1dafddd0-0594-420b-9972-703e932c6590" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100810", 
+            "y" : "-99497"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.6", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit_7", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandos.man"
+         }
+      }, 
+      "5b6eef4e-2dff-4906-a926-8c98ce12971e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100821", 
+            "y" : "-99836", 
+            "comment" : "8"
+         }, 
+         "child" : [ 
+            "66491a9f-539f-4f4b-ac64-09f9e3d3694b", 
+            "4db3526a-0e90-4163-8688-b6ea1391152e", 
+            "a354abef-0234-4bf8-8b93-715f3ab83271"
+         ]
+      }, 
+      "4db3526a-0e90-4163-8688-b6ea1391152e" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100681", 
+            "y" : "-99495"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.7", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit_7", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandos.man"
+         }
+      }, 
+      "a354abef-0234-4bf8-8b93-715f3ab83271" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100552", 
+            "y" : "-99495"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.8", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit_7", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandos.man"
+         }
+      }, 
+      "07f37942-a149-41bd-afd9-b512faae17b4" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-102307", 
+            "y" : "-100361"
+         }, 
+         "child" : [ 
+            "22d1978b-1953-42d3-951f-6e3cde5c13a5", 
+            "809f58d3-1589-462e-aa06-c9fb23883aba"
+         ], 
+         "value" : "6", 
+         "modifier" : "Level"
+      }, 
+      "22d1978b-1953-42d3-951f-6e3cde5c13a5" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-102261", 
+            "y" : "-99886"
+         }, 
+         "child" : [ 
+            "21172a5b-07c9-4d95-8641-ffe016e4bf6f", 
+            "a6ced320-1998-4fe1-9a6d-5a06d083bbb9", 
+            "d8f4aa06-0436-4250-8e9b-f7743ae5d5bb", 
+            "fb10f283-f096-4cb4-822b-344f1fe6c4d3", 
+            "499424e3-7ae1-481f-91a1-59f36747dd30"
+         ]
+      }, 
+      "21172a5b-07c9-4d95-8641-ffe016e4bf6f" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103006", 
+            "y" : "-99706", 
+            "comment" : "4"
+         }, 
+         "child" : [ 
+            "29b97f93-a6f3-4c8d-9052-cead7dd2d92c", 
+            "90677c65-0ce9-4f32-8705-137c9cbf3ac4", 
+            "15d1c2b0-5d36-4429-992f-381c0e9ee812", 
+            "752bf5d4-ed48-46c5-9d9a-1a8c46dc9a58"
+         ]
+      }, 
+      "29b97f93-a6f3-4c8d-9052-cead7dd2d92c" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-103180", 
+            "y" : "-99520"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.1", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit_3", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandos.man"
+         }
+      }, 
+      "90677c65-0ce9-4f32-8705-137c9cbf3ac4" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-103062", 
+            "y" : "-99522"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.2", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit_3", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandos.man"
+         }
+      }, 
+      "15d1c2b0-5d36-4429-992f-381c0e9ee812" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102945", 
+            "y" : "-99523"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.3", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit_3", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandos.man"
+         }
+      }, 
+      "752bf5d4-ed48-46c5-9d9a-1a8c46dc9a58" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102828", 
+            "y" : "-99521"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.4", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit_3", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandos.man"
+         }
+      }, 
+      "a6ced320-1998-4fe1-9a6d-5a06d083bbb9" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102614", 
+            "y" : "-99635", 
+            "comment" : "5"
+         }, 
+         "child" : [ 
+            "21172a5b-07c9-4d95-8641-ffe016e4bf6f", 
+            "bb811513-9804-4f8f-b02b-dc57b1098fd8"
+         ]
+      }, 
+      "bb811513-9804-4f8f-b02b-dc57b1098fd8" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102607", 
+            "y" : "-99504"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.5", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandos.man"
+         }
+      }, 
+      "d8f4aa06-0436-4250-8e9b-f7743ae5d5bb" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102387", 
+            "y" : "-99733", 
+            "comment" : "6"
+         }, 
+         "child" : [ 
+            "a6ced320-1998-4fe1-9a6d-5a06d083bbb9", 
+            "a4b08729-46e6-4b7e-8935-1f9c235073c8"
+         ]
+      }, 
+      "a4b08729-46e6-4b7e-8935-1f9c235073c8" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102386", 
+            "y" : "-99506"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.6", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandos.man"
+         }
+      }, 
+      "fb10f283-f096-4cb4-822b-344f1fe6c4d3" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102194", 
+            "y" : "-99708", 
+            "comment" : "7"
+         }, 
+         "child" : [ 
+            "d8f4aa06-0436-4250-8e9b-f7743ae5d5bb", 
+            "dc4e890b-7667-45e9-958f-f3d70b1dafa4"
+         ]
+      }, 
+      "dc4e890b-7667-45e9-958f-f3d70b1dafa4" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102178", 
+            "y" : "-99501"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.7", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandos.man"
+         }
+      }, 
+      "499424e3-7ae1-481f-91a1-59f36747dd30" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102009", 
+            "y" : "-99735", 
+            "comment" : "8"
+         }, 
+         "child" : [ 
+            "fb10f283-f096-4cb4-822b-344f1fe6c4d3", 
+            "d284e866-5077-4f56-a21d-0ffb967f8d57"
+         ]
+      }, 
+      "d284e866-5077-4f56-a21d-0ffb967f8d57" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102012", 
+            "y" : "-99505"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.8", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandos.man"
+         }
+      }, 
+      "809f58d3-1589-462e-aa06-c9fb23883aba" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-102973", 
+            "y" : "-100234"
+         }, 
+         "child" : [ 
+            "7677c170-dc97-4c17-89ca-3d0d66b2c6d6", 
+            "98af2682-be48-4417-970f-996b4b540fcc", 
+            "34b33419-f0a0-4e06-b1e2-2bc59de36d40"
+         ]
+      }, 
+      "7677c170-dc97-4c17-89ca-3d0d66b2c6d6" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103766", 
+            "y" : "-100129", 
+            "comment" : "2"
+         }, 
+         "child" : [ 
+            "d2f25a2b-6b26-4b9c-85b6-1cda36f48ea6", 
+            "505b35d3-85ac-44e2-899b-ae20e668947b"
+         ]
+      }, 
+      "d2f25a2b-6b26-4b9c-85b6-1cda36f48ea6" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-103827", 
+            "y" : "-100018"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.1", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandos.man"
+         }
+      }, 
+      "505b35d3-85ac-44e2-899b-ae20e668947b" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-103685", 
+            "y" : "-100015"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.2", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandos.man"
+         }
+      }, 
+      "98af2682-be48-4417-970f-996b4b540fcc" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103274", 
+            "y" : "-100128", 
+            "comment" : "3"
+         }, 
+         "child" : [ 
+            "96380a99-36b8-4a26-b2a3-1a10b74309e2", 
+            "a0497c98-a4ce-4b4c-8ccc-39316154ca3b", 
+            "ba64e225-0d63-43d1-8db5-341505f1e4e1"
+         ]
+      }, 
+      "96380a99-36b8-4a26-b2a3-1a10b74309e2" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-103454", 
+            "y" : "-100022"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.1", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandos.man"
+         }
+      }, 
+      "a0497c98-a4ce-4b4c-8ccc-39316154ca3b" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-103337", 
+            "y" : "-100024"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.2", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandos.man"
+         }
+      }, 
+      "ba64e225-0d63-43d1-8db5-341505f1e4e1" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-103220", 
+            "y" : "-100025"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.3", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandos.man"
+         }
+      }, 
+      "34b33419-f0a0-4e06-b1e2-2bc59de36d40" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102785", 
+            "y" : "-100126", 
+            "comment" : "4"
+         }, 
+         "child" : [ 
+            "bfeadf0a-346f-4b1c-b68f-51a86f02c95d", 
+            "50563e5b-6353-4bf6-95eb-001052c44cc9", 
+            "80bb44f9-dd99-478d-a3a1-2247f3b5ace1", 
+            "3665e1ef-b452-42be-b955-ddd356f55f0d"
+         ]
+      }, 
+      "bfeadf0a-346f-4b1c-b68f-51a86f02c95d" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102965", 
+            "y" : "-100020"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.1", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandos.man"
+         }
+      }, 
+      "50563e5b-6353-4bf6-95eb-001052c44cc9" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102848", 
+            "y" : "-100022"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.2", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandos.man"
+         }
+      }, 
+      "80bb44f9-dd99-478d-a3a1-2247f3b5ace1" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102732", 
+            "y" : "-100023"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.3", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandos.man"
+         }
+      }, 
+      "3665e1ef-b452-42be-b955-ddd356f55f0d" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102614", 
+            "y" : "-100021"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.4", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandos.man"
+         }
+      }, 
+      "4d9dad1f-6d25-49a4-8a3a-311cee42304a" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-100807", 
+            "y" : "-100501"
+         }, 
+         "child" : [ 
+            "003cb9a5-4382-4c7b-ae56-db41dd5f457b", 
+            "59568486-7d2e-4df6-9097-6ca0c72e7329"
+         ], 
+         "note_key" : "PH_TRAP_1"
+      }, 
+      "003cb9a5-4382-4c7b-ae56-db41dd5f457b" : { 
+         "class" : "NotebookRemoveNoteNode", 
+         "desc" : { 
+            "x" : "-100920", 
+            "y" : "-100395"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "PH_TRAP_1"
+      }, 
+      "59568486-7d2e-4df6-9097-6ca0c72e7329" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100652", 
+            "y" : "-100392"
+         }, 
+         "child" : [ 
+         ]
+      }
+   }, 
+   "entry" : "d1f15558-3d0a-4817-bb24-1f69a5f0116e"
+}

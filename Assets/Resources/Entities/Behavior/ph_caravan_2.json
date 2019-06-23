@@ -1,0 +1,489 @@
+{ 
+   "states" : { 
+      "d8820f5f-ea1c-40c4-ad89-151da60bf624" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101054", 
+            "y" : "-99709"
+         }, 
+         "child" : [ 
+            "d6cf365d-0f3c-429a-b467-830be4f7809e", 
+            "3d65f86e-0fa3-4459-bea2-c2d652106f5a"
+         ]
+      }, 
+      "d6cf365d-0f3c-429a-b467-830be4f7809e" : { 
+         "class" : "FractionSetRelationshipNode", 
+         "desc" : { 
+            "x" : "-101237", 
+            "y" : "-99408"
+         }, 
+         "child" : [ 
+            "178edb75-97ac-48fe-a603-abdbfda1aaa2", 
+            "75b1d711-a9a3-4677-ba06-8a636098f685"
+         ], 
+         "fraction" : "~karavan", 
+         "value" : "100"
+      }, 
+      "178edb75-97ac-48fe-a603-abdbfda1aaa2" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101449", 
+            "y" : "-99260"
+         }, 
+         "child" : [ 
+            "f7b06e3c-8360-4ff5-bbe5-531d9c02d1b1", 
+            "7cf29ba0-aabd-486b-bd43-094d9cf95930", 
+            "175b0d70-dcc9-4112-91cb-9524efd82bcd"
+         ]
+      }, 
+      "f7b06e3c-8360-4ff5-bbe5-531d9c02d1b1" : { 
+         "class" : "SpawnEntityNode", 
+         "desc" : { 
+            "x" : "-101898", 
+            "y" : "-99071"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Karavan.Vehicle", 
+         "item" : { 
+            "class" : "Chest", 
+            "proto" : "citroe_ type45", 
+            "inventory" : [ 
+               { 
+                  "class" : "Item", 
+                  "count" : "1", 
+                  "proto" : "Medal"
+               }
+            ], 
+            "open" : "false", 
+            "touch" : "false", 
+            "lockLevel" : "200", 
+            "lockType" : "Mechanical", 
+            "pin" : "0"
+         }
+      }, 
+      "7cf29ba0-aabd-486b-bd43-094d9cf95930" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101655", 
+            "y" : "-98943"
+         }, 
+         "child" : [ 
+            "5574e83d-2a0c-4c53-8443-1d65a954ddcb", 
+            "8916c16c-0c64-48b4-b9e4-3b81c018a40b", 
+            "fc245ff3-9ed6-4081-8695-bea3c12e0f6f", 
+            "daabcf6c-0191-4da4-9b62-e64468ccb057", 
+            "9a0890e0-8fbf-46ed-a3ac-09c02455857c"
+         ]
+      }, 
+      "5574e83d-2a0c-4c53-8443-1d65a954ddcb" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102241", 
+            "y" : "-98681"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Karavan.4", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseFemale8", 
+            "character" : "ph_caravan_guard", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "~karavan", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "item1" : { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "SVU", 
+               "ammo" : { 
+                  "count" : "10", 
+                  "proto" : "7mm_54R"
+               }
+            }, 
+            "cap" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Kufiya"
+            }, 
+            "armor" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Armor57"
+            }, 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ]
+         }, 
+         "randomName" : "true"
+      }, 
+      "8916c16c-0c64-48b4-b9e4-3b81c018a40b" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102093", 
+            "y" : "-98680"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Karavan.3", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseFemale9", 
+            "character" : "ph_caravan_guard", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "~karavan", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "item1" : { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "DP_28", 
+               "ammo" : { 
+                  "count" : "47", 
+                  "proto" : "7mm_54R"
+               }
+            }, 
+            "armor" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Armor58_Stalker"
+            }, 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ]
+         }, 
+         "randomName" : "true"
+      }, 
+      "fc245ff3-9ed6-4081-8695-bea3c12e0f6f" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101941", 
+            "y" : "-98678"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Karavan.1", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale6", 
+            "character" : "ph_caravan_guard", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "~karavan", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "item1" : { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "mg3", 
+               "ammo" : { 
+                  "count" : "100", 
+                  "proto" : "7_62mm_JHP"
+               }
+            }, 
+            "cap" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "m42"
+            }, 
+            "armor" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Armor58_Stalker"
+            }, 
+            "head_mask" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Gasmass3"
+            }, 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ]
+         }, 
+         "randomName" : "true"
+      }, 
+      "daabcf6c-0191-4da4-9b62-e64468ccb057" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101801", 
+            "y" : "-98676"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Karavan.2", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseFemale9", 
+            "character" : "ph_caravan_guard", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "~karavan", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "item1" : { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "luger08", 
+               "ammo" : { 
+                  "count" : "8", 
+                  "proto" : "9mm_JHP"
+               }
+            }, 
+            "rucksack" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "TacticShield"
+            }, 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ]
+         }, 
+         "randomName" : "true"
+      }, 
+      "9a0890e0-8fbf-46ed-a3ac-09c02455857c" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-101638", 
+            "y" : "-98662"
+         }, 
+         "child" : [ 
+            "d4b15049-0bdd-460b-bb68-2f0d0bd8403c"
+         ], 
+         "objectName" : "Spawn.Karavan.1", 
+         "pos" : [ 
+            "6", 
+            "0", 
+            "0"
+         ]
+      }, 
+      "d4b15049-0bdd-460b-bb68-2f0d0bd8403c" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101635", 
+            "y" : "-98566"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Karavan.1", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale6", 
+            "character" : "ph_caravan_guard", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "~karavan", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "item1" : { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "MG34_LMG", 
+               "ammo" : { 
+                  "count" : "75", 
+                  "proto" : "7_62mm_JHP"
+               }
+            }, 
+            "cap" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Helmet_2"
+            }, 
+            "armor" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Armor57"
+            }, 
+            "head_mask" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Gasmass3"
+            }, 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ]
+         }, 
+         "randomName" : "true"
+      }, 
+      "175b0d70-dcc9-4112-91cb-9524efd82bcd" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101334", 
+            "y" : "-98917"
+         }, 
+         "child" : [ 
+            "264712d6-8837-4634-b722-a9692a9a8c46"
+         ], 
+         "spawnPoint" : "Spawn.Karavan.Trader", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale3", 
+            "character" : "Ph_caravan_2", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "~karavan", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "item2" : { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "PortableRadio"
+            }, 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "Skin_1", 
+            "beard" : "ShortBeard", 
+            "hair" : "Hairless", 
+            "hairColor" : "Dark", 
+            "behavior" : "ph_trade2.man"
+         }
+      }, 
+      "264712d6-8837-4634-b722-a9692a9a8c46" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101312", 
+            "y" : "-98794"
+         }, 
+         "child" : [ 
+            "74f3f448-bed4-4f35-8bcf-fd89cf9c9466"
+         ]
+      }, 
+      "74f3f448-bed4-4f35-8bcf-fd89cf9c9466" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-101365", 
+            "y" : "-98717"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/ph_armor_trade"
+      }, 
+      "75b1d711-a9a3-4677-ba06-8a636098f685" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-100862", 
+            "y" : "-99155"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "CARAVAN_ZIL"
+      }, 
+      "3d65f86e-0fa3-4459-bea2-c2d652106f5a" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100836", 
+            "y" : "-99581"
+         }, 
+         "child" : [ 
+            "77327b97-b24c-41b4-bbde-bc2e831315be", 
+            "5ad420c8-4399-4cb7-a272-5b9bde174be7"
+         ], 
+         "key" : "PH_TRADE2_DEAD"
+      }, 
+      "77327b97-b24c-41b4-bbde-bc2e831315be" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100886", 
+            "y" : "-99463"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "5ad420c8-4399-4cb7-a272-5b9bde174be7" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-100719", 
+            "y" : "-99462"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "PH_TRADE2_DEAD"
+      }, 
+      "59b92852-d145-4fb1-8ee0-3547ff461782" : { 
+         "class" : "QuestBeginNode", 
+         "desc" : { 
+            "x" : "-103693", 
+            "y" : "-100723"
+         }, 
+         "child" : [ 
+         ], 
+         "quest_key" : "CITY.BOOK_END"
+      }
+   }, 
+   "entry" : "d8820f5f-ea1c-40c4-ad89-151da60bf624"
+}

@@ -1,0 +1,333 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -861160848, guid: ba80931603c2dbc40ab113c533efa2ed, type: 3}
+  m_Name: worldmap_3
+  m_EditorClassIdentifier: 
+  encounters:
+  - _chance: 55
+    _type: Shift
+    _period: 1
+    _trigger: 
+    _triggerInvert: 0
+    _triggerReset: 0
+    _canSkip: 0
+    _canAttack: 1
+    _once: 0
+    _icon: {fileID: 21300000, guid: 4d8ec4c8e3ffb2a418fe346dd9c5d0a3, type: 3}
+    _desc: encounter.shift
+    _enter: encounter.attack
+    _showIntro: 0
+    _levels:
+    - Z_1_3
+    - Z_2_3
+    chances:
+    - _skill: 17
+      _skillModify: -10
+      _description: encounter.try_skip1
+      _success: encounter.success_skip1
+      _successButton: encounter.gotravel
+      _fail: encounter.fail_skip_bandits1
+      _failButton: encounter.gobattle
+      _invert: 0
+      _canAttack: 0
+      _condition:
+        _type: 0
+        _value: 0
+      _overrideEncounterType: 
+    - _skill: 14
+      _skillModify: -15
+      _description: encounter.try_skip2
+      _success: encounter.success_skip2
+      _successButton: encounter.gotravel
+      _fail: encounter.fail_skip_bandits2
+      _failButton: encounter.gobattle
+      _invert: 0
+      _canAttack: 0
+      _condition:
+        _type: 0
+        _value: 0
+      _overrideEncounterType: 
+    _requirements: []
+    _requirementsEx: []
+  - _chance: 60
+    _type: Muta
+    _period: 1
+    _trigger: 
+    _triggerInvert: 0
+    _triggerReset: 0
+    _canSkip: 0
+    _canAttack: 1
+    _once: 0
+    _icon: {fileID: 21300000, guid: 331e69559b3b212428ae23fc3d48865f, type: 3}
+    _desc: encounter.muta
+    _enter: encounter.attack
+    _showIntro: 0
+    _levels:
+    - Z_1_3
+    - Z_2_3
+    chances:
+    - _skill: 17
+      _skillModify: -10
+      _description: encounter.try_skip1
+      _success: encounter.success_skip1
+      _successButton: encounter.gotravel
+      _fail: encounter.fail_skip_muta
+      _failButton: encounter.gobattle
+      _invert: 0
+      _canAttack: 0
+      _condition:
+        _type: 0
+        _value: 0
+      _overrideEncounterType: 
+    _requirements: []
+    _requirementsEx: []
+  - _chance: 50
+    _type: Rats_2
+    _period: 1
+    _trigger: 
+    _triggerInvert: 0
+    _triggerReset: 0
+    _canSkip: 0
+    _canAttack: 1
+    _once: 0
+    _icon: {fileID: 21300000, guid: e3bed738228969d429ff9c12e2860dfe, type: 3}
+    _desc: encounter.rats_2
+    _enter: encounter.attack
+    _showIntro: 0
+    _levels:
+    - Z_1_3
+    - Z_2_3
+    chances:
+    - _skill: 17
+      _skillModify: 40
+      _description: encounter.try_skip1
+      _success: encounter.success_skip1
+      _successButton: encounter.gotravel
+      _fail: encounter.fail_skip_rats2
+      _failButton: encounter.gobattle
+      _invert: 0
+      _canAttack: 0
+      _condition:
+        _type: 0
+        _value: 0
+      _overrideEncounterType: 
+    _requirements: []
+    _requirementsEx: []
+  - _chance: 40
+    _type: MutaShift
+    _period: 1
+    _trigger: 
+    _triggerInvert: 0
+    _triggerReset: 0
+    _canSkip: 1
+    _canAttack: 1
+    _once: 0
+    _icon: {fileID: 21300000, guid: f2fd74d17b99e954082848dda0328a0d, type: 3}
+    _desc: encounter.mutashift
+    _enter: encounter.enter_raid
+    _showIntro: 0
+    _levels:
+    - Z_1_3
+    - Z_2_3
+    chances: []
+    _requirements: []
+    _requirementsEx: []
+  - _chance: 0
+    _type: Gubert
+    _period: 0
+    _trigger: REQUEST_GUBERT
+    _triggerInvert: 0
+    _triggerReset: 0
+    _canSkip: 0
+    _canAttack: 1
+    _once: 0
+    _icon: {fileID: 21300000, guid: 27451ec703393f246a8d5c23fb82bffb, type: 3}
+    _desc: encounter.gubert
+    _enter: encounter.attack
+    _showIntro: 0
+    _levels:
+    - Z_1_3
+    - Z_2_3
+    chances:
+    - _skill: 17
+      _skillModify: -30
+      _description: encounter.try_skip1
+      _success: encounter.success_skip1
+      _successButton: encounter.gotravel
+      _fail: encounter.fail_skip_bandits1
+      _failButton: encounter.gobattle
+      _invert: 0
+      _canAttack: 0
+      _condition:
+        _type: 0
+        _value: 0
+      _overrideEncounterType: 
+    - _skill: 14
+      _skillModify: -35
+      _description: encounter.try_skip2
+      _success: encounter.success_skip2
+      _successButton: encounter.gotravel
+      _fail: encounter.fail_skip_bandits2
+      _failButton: encounter.gobattle
+      _invert: 0
+      _canAttack: 0
+      _condition:
+        _type: 0
+        _value: 0
+      _overrideEncounterType: 
+    _requirements: []
+    _requirementsEx: []
+  - _chance: 1000
+    _type: Hallucinating
+    _period: 0
+    _trigger: REQUEST_HALLUCINATING
+    _triggerInvert: 0
+    _triggerReset: 1
+    _canSkip: 0
+    _canAttack: 0
+    _once: 1
+    _icon: {fileID: 21300000, guid: 271f693e6eb844f46ae875785344e737, type: 3}
+    _desc: encounter.hallucinating.title
+    _enter: encounter.hallucinating.enter
+    _showIntro: 0
+    _levels:
+    - Z_Hallucinating
+    chances: []
+    _requirements: []
+    _requirementsEx: []
+  - _chance: 60
+    _type: Mutanights
+    _period: 2
+    _trigger: 
+    _triggerInvert: 0
+    _triggerReset: 0
+    _canSkip: 0
+    _canAttack: 1
+    _once: 0
+    _icon: {fileID: 21300000, guid: cb98b586426df1841ab500f35146b50c, type: 3}
+    _desc: encounter.muta
+    _enter: encounter.attack
+    _showIntro: 0
+    _levels:
+    - Z_1_3
+    chances:
+    - _skill: 17
+      _skillModify: -50
+      _description: encounter.try_skip1
+      _success: encounter.success_skip1
+      _successButton: encounter.gotravel
+      _fail: encounter.fail_skip_muta
+      _failButton: encounter.gobattle
+      _invert: 0
+      _canAttack: 0
+      _condition:
+        _type: 0
+        _value: 0
+      _overrideEncounterType: 
+    _requirements: []
+    _requirementsEx: []
+  - _chance: 40
+    _type: Mutashiftnights
+    _period: 2
+    _trigger: 
+    _triggerInvert: 0
+    _triggerReset: 0
+    _canSkip: 1
+    _canAttack: 1
+    _once: 0
+    _icon: {fileID: 21300000, guid: 1e16ac61fd30df7458cc09edfc934d39, type: 3}
+    _desc: encounter.Mutashiftnights
+    _enter: encounter.enter_raid
+    _showIntro: 0
+    _levels:
+    - Z_1_3
+    chances: []
+    _requirements: []
+    _requirementsEx: []
+  - _chance: 40
+    _type: lizardnights
+    _period: 2
+    _trigger: 
+    _triggerInvert: 0
+    _triggerReset: 0
+    _canSkip: 1
+    _canAttack: 1
+    _once: 0
+    _icon: {fileID: 21300000, guid: a854e79182d6149478e1aef23b5fd96e, type: 3}
+    _desc: encounter.lizardnights
+    _enter: encounter.enter_raid
+    _showIntro: 0
+    _levels:
+    - Z_1_3
+    chances: []
+    _requirements: []
+    _requirementsEx: []
+  - _chance: 40
+    _type: bigratsnights
+    _period: 2
+    _trigger: 
+    _triggerInvert: 0
+    _triggerReset: 0
+    _canSkip: 1
+    _canAttack: 1
+    _once: 0
+    _icon: {fileID: 21300000, guid: 9b6b025c868032f46886cbdeb05186c3, type: 3}
+    _desc: encounter.bigratsnights
+    _enter: encounter.enter_raid
+    _showIntro: 0
+    _levels:
+    - Z_1_3
+    - Z_2_3
+    chances: []
+    _requirements: []
+    _requirementsEx: []
+  - _chance: 40
+    _type: lizardshiftnights
+    _period: 2
+    _trigger: 
+    _triggerInvert: 0
+    _triggerReset: 0
+    _canSkip: 1
+    _canAttack: 1
+    _once: 0
+    _icon: {fileID: 21300000, guid: 4ac848080aa2c8c4381d34a7f7f9f181, type: 3}
+    _desc: encounter.lizardshiftnights
+    _enter: encounter.enter_raid
+    _showIntro: 0
+    _levels:
+    - Z_1_3
+    - Z_2_3
+    chances: []
+    _requirements: []
+    _requirementsEx: []
+  - _chance: 400
+    _type: bigratshiftnights
+    _period: 2
+    _trigger: 
+    _triggerInvert: 0
+    _triggerReset: 0
+    _canSkip: 1
+    _canAttack: 1
+    _once: 0
+    _icon: {fileID: 21300000, guid: 86e0cb8e618989946806626095ccf626, type: 3}
+    _desc: encounter.bigratshiftnights
+    _enter: encounter.enter_raid
+    _showIntro: 0
+    _levels:
+    - Z_1_3
+    - Z_2_3
+    chances: []
+    _requirements: []
+    _requirementsEx: []
+  camping:
+    _levels:
+    - Z_1_3

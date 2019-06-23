@@ -1,0 +1,98 @@
+{ 
+   "states" : { 
+      "f92e9ad0-6a18-4883-947c-77873b5ebfa6" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100910", 
+            "y" : "-100695"
+         }, 
+         "child" : [ 
+            "7ef5aa2f-f735-4f0e-9f9b-59848af81d65", 
+            "0859ed16-d9b9-468e-83a6-2deaccfb8de2"
+         ]
+      }, 
+      "7ef5aa2f-f735-4f0e-9f9b-59848af81d65" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101239", 
+            "y" : "-100554"
+         }, 
+         "child" : [ 
+            "06c601ee-8ce5-45fe-aaf4-9c0c01b22cd0", 
+            "64527e07-7cc2-4008-9468-38adcccfa902"
+         ], 
+         "key" : "BIG"
+      }, 
+      "06c601ee-8ce5-45fe-aaf4-9c0c01b22cd0" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101430", 
+            "y" : "-100393"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "64527e07-7cc2-4008-9468-38adcccfa902" : { 
+         "class" : "TransformSetScaleNode", 
+         "desc" : { 
+            "x" : "-101088", 
+            "y" : "-100383"
+         }, 
+         "child" : [ 
+            "2c51e67d-4cda-4dfa-9463-248c83446b54"
+         ], 
+         "objectName" : "$SELF$", 
+         "worldSpace" : "false", 
+         "scale" : [ 
+            "2", 
+            "2", 
+            "2"
+         ]
+      }, 
+      "2c51e67d-4cda-4dfa-9463-248c83446b54" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-101077", 
+            "y" : "-100284"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "BIG"
+      }, 
+      "0859ed16-d9b9-468e-83a6-2deaccfb8de2" : { 
+         "class" : "CharacterInBattleNode", 
+         "desc" : { 
+            "x" : "-100380", 
+            "y" : "-100398"
+         }, 
+         "child" : [ 
+            "98c47f05-c638-48ae-9a47-da345fb20d2c", 
+            "6ff08d74-ef8b-4440-bd27-267bc0017d1e"
+         ]
+      }, 
+      "98c47f05-c638-48ae-9a47-da345fb20d2c" : { 
+         "class" : "WaitRandomNode", 
+         "desc" : { 
+            "x" : "-100475", 
+            "y" : "-100276"
+         }, 
+         "child" : [ 
+            "f92e9ad0-6a18-4883-947c-77873b5ebfa6"
+         ], 
+         "waitTimeMin" : "3", 
+         "waitTimeMax" : "10"
+      }, 
+      "6ff08d74-ef8b-4440-bd27-267bc0017d1e" : { 
+         "class" : "CharacterSwingNode", 
+         "desc" : { 
+            "x" : "-100274", 
+            "y" : "-100269"
+         }, 
+         "child" : [ 
+            "98c47f05-c638-48ae-9a47-da345fb20d2c"
+         ], 
+         "swingRadius" : "5"
+      }
+   }, 
+   "entry" : "f92e9ad0-6a18-4883-947c-77873b5ebfa6"
+}

@@ -1,0 +1,1991 @@
+{ 
+   "states" : { 
+      "c51f53ad-6037-43ac-9cc8-8b5d18b35514" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101197", 
+            "y" : "-100959"
+         }, 
+         "child" : [ 
+            "56852188-79e2-4e15-b89d-16b072bd1992"
+         ]
+      }, 
+      "56852188-79e2-4e15-b89d-16b072bd1992" : { 
+         "class" : "ObjectCheckNode", 
+         "desc" : { 
+            "x" : "-101316", 
+            "y" : "-100878"
+         }, 
+         "child" : [ 
+            "1b9caa2b-9fe0-4fff-9221-bf0238471a8c", 
+            "449f4e08-c345-4ef4-b975-5b10c94f3be6"
+         ], 
+         "objectName" : "Karavan.Vehicle_2Spawn.Karavan.Vehicle"
+      }, 
+      "1b9caa2b-9fe0-4fff-9221-bf0238471a8c" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101214", 
+            "y" : "-100651"
+         }, 
+         "child" : [ 
+            "79ad9b55-3721-47b2-b127-3a5871f8bebd", 
+            "32eafb4a-a3b2-4979-9d68-2f74735a6ebe", 
+            "55d81530-1c87-44f6-aa1d-18484fc48aa0", 
+            "8c549279-96c8-440a-9da5-945439ccb54f"
+         ]
+      }, 
+      "79ad9b55-3721-47b2-b127-3a5871f8bebd" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101848", 
+            "y" : "-101072"
+         }, 
+         "child" : [ 
+            "e0c40137-8645-451a-beab-ce61cb7ce9c9", 
+            "496f732b-8aaa-44ad-be85-a3d014e1c433"
+         ], 
+         "key" : "FUEL_TXT"
+      }, 
+      "e0c40137-8645-451a-beab-ce61cb7ce9c9" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101911", 
+            "y" : "-100899"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "496f732b-8aaa-44ad-be85-a3d014e1c433" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-101779", 
+            "y" : "-100968"
+         }, 
+         "child" : [ 
+            "9a2eb206-ecee-45db-9784-563bcf6dfc40"
+         ], 
+         "key" : "FUEL_TXT"
+      }, 
+      "9a2eb206-ecee-45db-9784-563bcf6dfc40" : { 
+         "class" : "DiceNode", 
+         "desc" : { 
+            "x" : "-101685", 
+            "y" : "-100915"
+         }, 
+         "child" : [ 
+            "f202ab45-8a00-4595-8edc-e167f4149bff", 
+            "e03a1e36-1f31-4bea-87d3-cde0f1affe19"
+         ], 
+         "max" : "100", 
+         "value" : "70"
+      }, 
+      "f202ab45-8a00-4595-8edc-e167f4149bff" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-101741", 
+            "y" : "-100809"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HAS_FUEL"
+      }, 
+      "e03a1e36-1f31-4bea-87d3-cde0f1affe19" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101615", 
+            "y" : "-100810"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "32eafb4a-a3b2-4979-9d68-2f74735a6ebe" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101710", 
+            "y" : "-100668"
+         }, 
+         "child" : [ 
+            "1c217108-ddd9-4fd6-9832-bc05b54e5b6a", 
+            "6f16defd-eed8-4e1d-b8ef-530648c4b096", 
+            "e847455d-a064-4484-8b0b-c16360dbed2f", 
+            "83440cd0-6ca9-46d5-b3a7-ded35d258b7e", 
+            "c2225f2b-599b-4908-93ae-fcba4cb741ac"
+         ]
+      }, 
+      "1c217108-ddd9-4fd6-9832-bc05b54e5b6a" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-102253", 
+            "y" : "-100202"
+         }, 
+         "child" : [ 
+            "161b52c2-dda0-4a85-8f29-34dd82a72b02", 
+            "e3e5aedc-9fc4-449b-9052-3615486ffe5e", 
+            "c154de76-958a-45cf-a410-61297743c642", 
+            "f66adb3c-f423-4352-ba8e-a04acc7ca5cb", 
+            "06e6e1b4-637b-4e15-9d37-7ce18a03b250"
+         ]
+      }, 
+      "161b52c2-dda0-4a85-8f29-34dd82a72b02" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-102465", 
+            "y" : "-100141"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_RISK", 
+         "text" : "#Auto.Car.161b52c2-dda0-4a85-8f29-34dd82a72b02"
+      }, 
+      "e3e5aedc-9fc4-449b-9052-3615486ffe5e" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-102414", 
+            "y" : "-100091"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_RISK", 
+         "text" : "#Auto.Car.e3e5aedc-9fc4-449b-9052-3615486ffe5e"
+      }, 
+      "c154de76-958a-45cf-a410-61297743c642" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-102364", 
+            "y" : "-100041"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_RISK", 
+         "text" : "#Auto.Car.c154de76-958a-45cf-a410-61297743c642"
+      }, 
+      "f66adb3c-f423-4352-ba8e-a04acc7ca5cb" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-102314", 
+            "y" : "-99991"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_RISK", 
+         "text" : "#Auto.Car.f66adb3c-f423-4352-ba8e-a04acc7ca5cb"
+      }, 
+      "06e6e1b4-637b-4e15-9d37-7ce18a03b250" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-102265", 
+            "y" : "-99942"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_RISK", 
+         "text" : "#Auto.Car.06e6e1b4-637b-4e15-9d37-7ce18a03b250"
+      }, 
+      "6f16defd-eed8-4e1d-b8ef-530648c4b096" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-102615", 
+            "y" : "-100515"
+         }, 
+         "child" : [ 
+            "f783598b-1c4c-4ead-8842-721e438b8a6f", 
+            "f0109103-6caa-498c-baea-acc5dcad864e", 
+            "ad9d50ea-e8e5-485a-afc7-043b9ba351ae", 
+            "26c23341-9d0b-403a-84aa-98052e880a88", 
+            "d746edf7-f133-4218-a1fd-c228281927f3"
+         ]
+      }, 
+      "f783598b-1c4c-4ead-8842-721e438b8a6f" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-102827", 
+            "y" : "-100454"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_HELP", 
+         "text" : "#Auto.Car.f783598b-1c4c-4ead-8842-721e438b8a6f"
+      }, 
+      "f0109103-6caa-498c-baea-acc5dcad864e" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-102776", 
+            "y" : "-100404"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_HELP", 
+         "text" : "#Auto.Car.f0109103-6caa-498c-baea-acc5dcad864e"
+      }, 
+      "ad9d50ea-e8e5-485a-afc7-043b9ba351ae" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-102726", 
+            "y" : "-100354"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_HELP", 
+         "text" : "#Auto.Car.ad9d50ea-e8e5-485a-afc7-043b9ba351ae"
+      }, 
+      "26c23341-9d0b-403a-84aa-98052e880a88" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-102676", 
+            "y" : "-100304"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_HELP", 
+         "text" : "#Auto.Car.26c23341-9d0b-403a-84aa-98052e880a88"
+      }, 
+      "d746edf7-f133-4218-a1fd-c228281927f3" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-102627", 
+            "y" : "-100255"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_HELP", 
+         "text" : "#Auto.Car.d746edf7-f133-4218-a1fd-c228281927f3"
+      }, 
+      "e847455d-a064-4484-8b0b-c16360dbed2f" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-102551", 
+            "y" : "-101614"
+         }, 
+         "child" : [ 
+            "684ee552-c3eb-4ea8-ae3a-3fbbfdf91e40", 
+            "38ac92fa-2fbd-4ff8-b337-3e7962db54dd"
+         ], 
+         "key" : "HELLO_PLACE"
+      }, 
+      "684ee552-c3eb-4ea8-ae3a-3fbbfdf91e40" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102608", 
+            "y" : "-101522"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "38ac92fa-2fbd-4ff8-b337-3e7962db54dd" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102491", 
+            "y" : "-101522"
+         }, 
+         "child" : [ 
+            "70cc5123-b221-41f2-b92b-e2025e3ea8de", 
+            "25ccd281-dcfc-4c4c-882f-f0aa14b4438e"
+         ]
+      }, 
+      "70cc5123-b221-41f2-b92b-e2025e3ea8de" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-103277", 
+            "y" : "-100885"
+         }, 
+         "child" : [ 
+            "beed93ab-6425-4e5a-9d10-8f3c85dd8264", 
+            "44254580-9147-448f-bc6e-d8a6467ee76d", 
+            "626024e0-e631-4e2f-9344-f4858af2e8a8", 
+            "da98eef5-a2d2-4830-9edd-53113ca4676a", 
+            "2c699b41-ff55-4759-b36c-3ca323290ead"
+         ]
+      }, 
+      "beed93ab-6425-4e5a-9d10-8f3c85dd8264" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-103585", 
+            "y" : "-100782"
+         }, 
+         "child" : [ 
+            "9a5b2350-df77-453a-be71-3a9bae8eabbc"
+         ], 
+         "key" : "HELLO_COST", 
+         "text" : "#Auto.Car.beed93ab-6425-4e5a-9d10-8f3c85dd8264"
+      }, 
+      "9a5b2350-df77-453a-be71-3a9bae8eabbc" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-103559", 
+            "y" : "-100712"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "COST_50"
+      }, 
+      "44254580-9147-448f-bc6e-d8a6467ee76d" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-103438", 
+            "y" : "-100722"
+         }, 
+         "child" : [ 
+            "90294a12-54f7-4e7b-bdca-4a58b4627ed2"
+         ], 
+         "key" : "HELLO_COST", 
+         "text" : "#Auto.Car.44254580-9147-448f-bc6e-d8a6467ee76d"
+      }, 
+      "90294a12-54f7-4e7b-bdca-4a58b4627ed2" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-103428", 
+            "y" : "-100652"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "COST_40"
+      }, 
+      "626024e0-e631-4e2f-9344-f4858af2e8a8" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-103298", 
+            "y" : "-100670"
+         }, 
+         "child" : [ 
+            "80099171-88a8-415e-8116-c5868c5487c5"
+         ], 
+         "key" : "HELLO_COST", 
+         "text" : "#Auto.Car.626024e0-e631-4e2f-9344-f4858af2e8a8"
+      }, 
+      "80099171-88a8-415e-8116-c5868c5487c5" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-103272", 
+            "y" : "-100612"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "COST_30"
+      }, 
+      "da98eef5-a2d2-4830-9edd-53113ca4676a" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-103124", 
+            "y" : "-100671"
+         }, 
+         "child" : [ 
+            "401d01b6-78a2-4157-9ccc-3cbf36601df2"
+         ], 
+         "key" : "HELLO_COST", 
+         "text" : "#Auto.Car.da98eef5-a2d2-4830-9edd-53113ca4676a"
+      }, 
+      "401d01b6-78a2-4157-9ccc-3cbf36601df2" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-103104", 
+            "y" : "-100613"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "COST_20"
+      }, 
+      "2c699b41-ff55-4759-b36c-3ca323290ead" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-103038", 
+            "y" : "-100800"
+         }, 
+         "child" : [ 
+            "6124f204-4774-4711-8237-4d00b4d9475c"
+         ], 
+         "key" : "HELLO_COST", 
+         "text" : "#Auto.Car.2c699b41-ff55-4759-b36c-3ca323290ead"
+      }, 
+      "6124f204-4774-4711-8237-4d00b4d9475c" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-103018", 
+            "y" : "-100740"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "COST_10"
+      }, 
+      "25ccd281-dcfc-4c4c-882f-f0aa14b4438e" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-102472", 
+            "y" : "-101399"
+         }, 
+         "child" : [ 
+            "1fdd6bb8-9406-4b02-9a41-e40a415ebcc2", 
+            "3cd0da51-5e41-4adf-8ff9-859efc97ed23", 
+            "943a79d9-a6e4-428f-93f9-654664caf9e8", 
+            "e40827e1-24ae-422c-8685-fc12640b4ef2"
+         ]
+      }, 
+      "1fdd6bb8-9406-4b02-9a41-e40a415ebcc2" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-102740", 
+            "y" : "-100931"
+         }, 
+         "child" : [ 
+            "7bcc0aab-7a3a-42a9-9ecb-e0dcb6d010e3"
+         ], 
+         "key" : "HELLO_PLACE", 
+         "text" : "#Auto.Car.1fdd6bb8-9406-4b02-9a41-e40a415ebcc2"
+      }, 
+      "7bcc0aab-7a3a-42a9-9ecb-e0dcb6d010e3" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-102728", 
+            "y" : "-100867"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "ROAD_TO_VILLAGE"
+      }, 
+      "3cd0da51-5e41-4adf-8ff9-859efc97ed23" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-102568", 
+            "y" : "-100933"
+         }, 
+         "child" : [ 
+            "98f95e20-1ad9-4c62-ac2f-53aee00fd93c"
+         ], 
+         "key" : "HELLO_PLACE", 
+         "text" : "#Auto.Car.3cd0da51-5e41-4adf-8ff9-859efc97ed23"
+      }, 
+      "98f95e20-1ad9-4c62-ac2f-53aee00fd93c" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-102516", 
+            "y" : "-100873"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "ROAD_TO_KRZ"
+      }, 
+      "943a79d9-a6e4-428f-93f9-654664caf9e8" : { 
+         "class" : "PlayerWhereMapLocationNode", 
+         "desc" : { 
+            "x" : "-102342", 
+            "y" : "-100975"
+         }, 
+         "child" : [ 
+            "25ccd281-dcfc-4c4c-882f-f0aa14b4438e", 
+            "45b89220-0f83-4975-b7cd-0722b284e2f7"
+         ], 
+         "mapName" : "Harbor_1"
+      }, 
+      "45b89220-0f83-4975-b7cd-0722b284e2f7" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-102260", 
+            "y" : "-100870"
+         }, 
+         "child" : [ 
+            "f00ed7f7-99b7-4ff1-ae05-fc04e0be9e59"
+         ], 
+         "key" : "HELLO_PLACE", 
+         "text" : "#Auto.Car.45b89220-0f83-4975-b7cd-0722b284e2f7"
+      }, 
+      "f00ed7f7-99b7-4ff1-ae05-fc04e0be9e59" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-102249", 
+            "y" : "-100813"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "ROAD_TO_HARBOR"
+      }, 
+      "e40827e1-24ae-422c-8685-fc12640b4ef2" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-102355", 
+            "y" : "-101350"
+         }, 
+         "child" : [ 
+            "2bfdf9d9-20ff-49f2-a908-5176c6cbd2dc", 
+            "8a556168-2f71-480f-bb8e-2e2c56f47fee"
+         ], 
+         "note_key" : "BAZE.MUTANTS.KILLED"
+      }, 
+      "2bfdf9d9-20ff-49f2-a908-5176c6cbd2dc" : { 
+         "class" : "PlayerWhereMapLocationNode", 
+         "desc" : { 
+            "x" : "-102221", 
+            "y" : "-101272"
+         }, 
+         "child" : [ 
+            "8a556168-2f71-480f-bb8e-2e2c56f47fee", 
+            "cb2b3444-2784-4d63-bcb9-d1ff951d5cb4"
+         ], 
+         "mapName" : "Baza_1_Ground"
+      }, 
+      "8a556168-2f71-480f-bb8e-2e2c56f47fee" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-102297", 
+            "y" : "-101194"
+         }, 
+         "child" : [ 
+            "1fdd6bb8-9406-4b02-9a41-e40a415ebcc2", 
+            "3cd0da51-5e41-4adf-8ff9-859efc97ed23", 
+            "943a79d9-a6e4-428f-93f9-654664caf9e8"
+         ]
+      }, 
+      "cb2b3444-2784-4d63-bcb9-d1ff951d5cb4" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-102184", 
+            "y" : "-101097"
+         }, 
+         "child" : [ 
+            "ebac576a-1c1f-406a-b263-e3419d028a98"
+         ], 
+         "key" : "HELLO_PLACE", 
+         "text" : "#Auto.Car.cb2b3444-2784-4d63-bcb9-d1ff951d5cb4"
+      }, 
+      "ebac576a-1c1f-406a-b263-e3419d028a98" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-102147", 
+            "y" : "-101042"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "ROAD_TO_BAZA"
+      }, 
+      "83440cd0-6ca9-46d5-b3a7-ded35d258b7e" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-102155", 
+            "y" : "-100590"
+         }, 
+         "child" : [ 
+            "f8b96507-c6e6-430c-bc72-0d8f3a884d34", 
+            "506cf6cc-2fcd-48a6-9497-7975e45706eb", 
+            "7d29eeaa-1e26-4b0e-b646-871b8eeb71b3", 
+            "b911f8c2-d620-40f4-aa4e-cc81f33927ac", 
+            "65006238-77bd-4781-90d2-dbb3442ec118"
+         ]
+      }, 
+      "f8b96507-c6e6-430c-bc72-0d8f3a884d34" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-102367", 
+            "y" : "-100529"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_WORLD", 
+         "text" : "#Auto.Car.f8b96507-c6e6-430c-bc72-0d8f3a884d34"
+      }, 
+      "506cf6cc-2fcd-48a6-9497-7975e45706eb" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-102316", 
+            "y" : "-100479"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_WORLD", 
+         "text" : "#Auto.Car.506cf6cc-2fcd-48a6-9497-7975e45706eb"
+      }, 
+      "7d29eeaa-1e26-4b0e-b646-871b8eeb71b3" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-102266", 
+            "y" : "-100429"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_WORLD", 
+         "text" : "#Auto.Car.7d29eeaa-1e26-4b0e-b646-871b8eeb71b3"
+      }, 
+      "b911f8c2-d620-40f4-aa4e-cc81f33927ac" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-102216", 
+            "y" : "-100379"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_WORLD", 
+         "text" : "#Auto.Car.b911f8c2-d620-40f4-aa4e-cc81f33927ac"
+      }, 
+      "65006238-77bd-4781-90d2-dbb3442ec118" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-102167", 
+            "y" : "-100330"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_WORLD", 
+         "text" : "#Auto.Car.65006238-77bd-4781-90d2-dbb3442ec118"
+      }, 
+      "c2225f2b-599b-4908-93ae-fcba4cb741ac" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-101739", 
+            "y" : "-100593"
+         }, 
+         "child" : [ 
+            "39432e56-68b4-47ae-9cbf-cbe3ad1eca74", 
+            "30de3952-d16a-4157-94a1-1bc874089a83", 
+            "dfb2347c-6a97-4282-9964-dde0da9dafa2", 
+            "e774d8d4-2582-43cb-8b9b-4c0c3094da08", 
+            "37971a94-c270-4f7d-b975-ba91c39cce9e"
+         ]
+      }, 
+      "39432e56-68b4-47ae-9cbf-cbe3ad1eca74" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-101951", 
+            "y" : "-100533"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_NEXT", 
+         "text" : "#Auto.Car.39432e56-68b4-47ae-9cbf-cbe3ad1eca74"
+      }, 
+      "30de3952-d16a-4157-94a1-1bc874089a83" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-101901", 
+            "y" : "-100483"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_NEXT", 
+         "text" : "#Auto.Car.30de3952-d16a-4157-94a1-1bc874089a83"
+      }, 
+      "dfb2347c-6a97-4282-9964-dde0da9dafa2" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-101851", 
+            "y" : "-100433"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_NEXT", 
+         "text" : "#Auto.Car.dfb2347c-6a97-4282-9964-dde0da9dafa2"
+      }, 
+      "e774d8d4-2582-43cb-8b9b-4c0c3094da08" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-101801", 
+            "y" : "-100383"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_NEXT", 
+         "text" : "#Auto.Car.e774d8d4-2582-43cb-8b9b-4c0c3094da08"
+      }, 
+      "37971a94-c270-4f7d-b975-ba91c39cce9e" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-101751", 
+            "y" : "-100333"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "HELLO_NEXT", 
+         "text" : "#Auto.Car.37971a94-c270-4f7d-b975-ba91c39cce9e"
+      }, 
+      "55d81530-1c87-44f6-aa1d-18484fc48aa0" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-101273", 
+            "y" : "-100552"
+         }, 
+         "child" : [ 
+            "9f180a89-f818-49f2-983a-dda6e4cdd59b", 
+            "063e561c-4f2e-4918-bf2e-3bf5ff2bd643", 
+            "171a513b-5397-4bea-986e-18712bc12030"
+         ]
+      }, 
+      "9f180a89-f818-49f2-983a-dda6e4cdd59b" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101538", 
+            "y" : "-100508"
+         }, 
+         "child" : [ 
+            "166410d1-c48c-482d-ae55-042e26075dc2"
+         ], 
+         "text" : "#Auto.Car.9f180a89-f818-49f2-983a-dda6e4cdd59b"
+      }, 
+      "166410d1-c48c-482d-ae55-042e26075dc2" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101290", 
+            "y" : "-100372"
+         }, 
+         "child" : [ 
+            "ff06e62d-5ebf-46d2-89f8-b0369fa9ab06", 
+            "47b8a469-a275-45bb-b1cb-a34be6a4c7f2", 
+            "a2fe65d5-8934-4188-bb9d-cf84f2281705"
+         ], 
+         "text" : "#Auto.Car.166410d1-c48c-482d-ae55-042e26075dc2"
+      }, 
+      "ff06e62d-5ebf-46d2-89f8-b0369fa9ab06" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101499", 
+            "y" : "-100182"
+         }, 
+         "child" : [ 
+            "f19c1a53-f3d8-4106-9c19-48a5f43b6892", 
+            "dd820331-46f6-42bc-a7d2-fac2a9ba51ed"
+         ], 
+         "key" : "COST_50"
+      }, 
+      "f19c1a53-f3d8-4106-9c19-48a5f43b6892" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-101704", 
+            "y" : "-100064"
+         }, 
+         "child" : [ 
+            "22ef14a7-a598-4aee-aedd-c4c0165adc48", 
+            "1378e14f-83df-4f52-aa21-b6534f76b796"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "50", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "22ef14a7-a598-4aee-aedd-c4c0165adc48" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101534", 
+            "y" : "-99560"
+         }, 
+         "child" : [ 
+            "dfbaced3-cfc0-4b91-a6c2-a68d231389f7"
+         ], 
+         "text" : "#Auto.Car.22ef14a7-a598-4aee-aedd-c4c0165adc48"
+      }, 
+      "dfbaced3-cfc0-4b91-a6c2-a68d231389f7" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101627", 
+            "y" : "-99462"
+         }, 
+         "child" : [ 
+            "7b205f14-a0b0-40b8-91ec-83b6437be887", 
+            "b3d9394c-faab-4e58-b0e9-194c6c77a758"
+         ], 
+         "key" : "COST_50"
+      }, 
+      "7b205f14-a0b0-40b8-91ec-83b6437be887" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-101735", 
+            "y" : "-99302"
+         }, 
+         "child" : [ 
+            "0b26edea-8315-4a8e-93b0-0cd96a7e8855"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "50", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "0b26edea-8315-4a8e-93b0-0cd96a7e8855" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-101645", 
+            "y" : "-98864"
+         }, 
+         "child" : [ 
+            "d0c7b225-505c-4069-b0dd-7da339d25db0", 
+            "bd442fe9-38a5-4a4f-a448-269597a4ee4d"
+         ]
+      }, 
+      "d0c7b225-505c-4069-b0dd-7da339d25db0" : { 
+         "class" : "PlayerVehicleOnLocationNode", 
+         "desc" : { 
+            "x" : "-102049", 
+            "y" : "-98833"
+         }, 
+         "child" : [ 
+            "8fdfa702-b8c4-4fa0-b6e1-7744ef34150f", 
+            "c7aa49a2-e934-44d2-b62f-5dde244242e3"
+         ]
+      }, 
+      "8fdfa702-b8c4-4fa0-b6e1-7744ef34150f" : { 
+         "class" : "VehicleDriveNode", 
+         "desc" : { 
+            "x" : "-102108", 
+            "y" : "-98737"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "c7aa49a2-e934-44d2-b62f-5dde244242e3" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101963", 
+            "y" : "-98744"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "bd442fe9-38a5-4a4f-a448-269597a4ee4d" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101780", 
+            "y" : "-98780"
+         }, 
+         "child" : [ 
+            "acc3489d-a30e-4512-be22-6e1e246c9c0a", 
+            "3403c039-162c-4b28-8240-c408ee96502f"
+         ], 
+         "key" : "ROAD_TO_VILLAGE"
+      }, 
+      "acc3489d-a30e-4512-be22-6e1e246c9c0a" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-101994", 
+            "y" : "-98641"
+         }, 
+         "child" : [ 
+            "8dc58672-bdf4-4515-b2db-c3eec3f80520", 
+            "f074265e-8eb8-4326-a732-e254172e724b"
+         ]
+      }, 
+      "8dc58672-bdf4-4515-b2db-c3eec3f80520" : { 
+         "class" : "PlayerToLocationNode", 
+         "desc" : { 
+            "x" : "-102098", 
+            "y" : "-98592"
+         }, 
+         "child" : [ 
+            "58218ba8-27a3-4f3c-9d4b-62492a2d43c6"
+         ], 
+         "levelName" : "Village_Ground_1", 
+         "entrance" : "EnterPoint"
+      }, 
+      "58218ba8-27a3-4f3c-9d4b-62492a2d43c6" : { 
+         "class" : "PlayerSetWorldPosNode", 
+         "desc" : { 
+            "x" : "-102156", 
+            "y" : "-98521"
+         }, 
+         "child" : [ 
+         ], 
+         "px" : "72", 
+         "py" : "118"
+      }, 
+      "f074265e-8eb8-4326-a732-e254172e724b" : { 
+         "class" : "PlayerToLocationNode", 
+         "desc" : { 
+            "x" : "-101980", 
+            "y" : "-98541"
+         }, 
+         "child" : [ 
+            "73c285b0-493d-4143-9392-15cda71bf28a"
+         ], 
+         "levelName" : "Village_Ground_1", 
+         "entrance" : "EnterPoint_2"
+      }, 
+      "73c285b0-493d-4143-9392-15cda71bf28a" : { 
+         "class" : "PlayerSetWorldPosNode", 
+         "desc" : { 
+            "x" : "-101984", 
+            "y" : "-98464"
+         }, 
+         "child" : [ 
+         ], 
+         "px" : "72", 
+         "py" : "118"
+      }, 
+      "3403c039-162c-4b28-8240-c408ee96502f" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101627", 
+            "y" : "-98654"
+         }, 
+         "child" : [ 
+            "7909a756-8de9-4424-bae5-d9041bf20a82", 
+            "5afe7db8-96d7-4035-9cce-33ee352f00e2"
+         ], 
+         "key" : "ROAD_TO_KRZ"
+      }, 
+      "7909a756-8de9-4424-bae5-d9041bf20a82" : { 
+         "class" : "PlayerToLocationNode", 
+         "desc" : { 
+            "x" : "-101724", 
+            "y" : "-98477"
+         }, 
+         "child" : [ 
+            "d0eaba01-dea1-411e-88e2-905e94295219"
+         ], 
+         "levelName" : "City_1", 
+         "entrance" : "EnterPoint"
+      }, 
+      "d0eaba01-dea1-411e-88e2-905e94295219" : { 
+         "class" : "PlayerSetWorldPosNode", 
+         "desc" : { 
+            "x" : "-101768", 
+            "y" : "-98409"
+         }, 
+         "child" : [ 
+         ], 
+         "px" : "89", 
+         "py" : "58"
+      }, 
+      "5afe7db8-96d7-4035-9cce-33ee352f00e2" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101481", 
+            "y" : "-98555"
+         }, 
+         "child" : [ 
+            "d27e2d43-667e-4611-b052-390f017082b8", 
+            "de1f6c01-b8fd-4bcf-b73e-9f365668489d"
+         ], 
+         "key" : "ROAD_TO_HARBOR"
+      }, 
+      "d27e2d43-667e-4611-b052-390f017082b8" : { 
+         "class" : "PlayerToLocationNode", 
+         "desc" : { 
+            "x" : "-101584", 
+            "y" : "-98389"
+         }, 
+         "child" : [ 
+            "0328aa20-7733-4032-8313-8beb6f47901a"
+         ], 
+         "levelName" : "Harbor_1", 
+         "entrance" : "EnterPoint"
+      }, 
+      "0328aa20-7733-4032-8313-8beb6f47901a" : { 
+         "class" : "PlayerSetWorldPosNode", 
+         "desc" : { 
+            "x" : "-101627", 
+            "y" : "-98320"
+         }, 
+         "child" : [ 
+         ], 
+         "px" : "42", 
+         "py" : "126"
+      }, 
+      "de1f6c01-b8fd-4bcf-b73e-9f365668489d" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101375", 
+            "y" : "-98433"
+         }, 
+         "child" : [ 
+            "48d08220-87d3-4b58-8fa5-22098194efb1", 
+            "085b0e2d-2d92-4189-ac2c-7b63e7dd8d06"
+         ], 
+         "key" : "ROAD_TO_BAZA"
+      }, 
+      "48d08220-87d3-4b58-8fa5-22098194efb1" : { 
+         "class" : "PlayerToLocationNode", 
+         "desc" : { 
+            "x" : "-101411", 
+            "y" : "-98297"
+         }, 
+         "child" : [ 
+            "7b2cde98-e6a1-4219-bc60-aa4f8ee86a40"
+         ], 
+         "levelName" : "Baza_1_Ground", 
+         "entrance" : "EnterPoint"
+      }, 
+      "7b2cde98-e6a1-4219-bc60-aa4f8ee86a40" : { 
+         "class" : "PlayerSetWorldPosNode", 
+         "desc" : { 
+            "x" : "-101472", 
+            "y" : "-98209"
+         }, 
+         "child" : [ 
+         ], 
+         "px" : "111", 
+         "py" : "86"
+      }, 
+      "085b0e2d-2d92-4189-ac2c-7b63e7dd8d06" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101218", 
+            "y" : "-98319"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "b3d9394c-faab-4e58-b0e9-194c6c77a758" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101497", 
+            "y" : "-99352"
+         }, 
+         "child" : [ 
+            "84e708c8-9eb0-476a-b565-8dbf7b6edda9", 
+            "87f09502-d6fd-45dd-8c46-5e3aa30c97f1"
+         ], 
+         "key" : "COST_40"
+      }, 
+      "84e708c8-9eb0-476a-b565-8dbf7b6edda9" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-101638", 
+            "y" : "-99186"
+         }, 
+         "child" : [ 
+            "0b26edea-8315-4a8e-93b0-0cd96a7e8855"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "40", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "87f09502-d6fd-45dd-8c46-5e3aa30c97f1" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101412", 
+            "y" : "-99243"
+         }, 
+         "child" : [ 
+            "b0022c26-9972-47ee-82ab-f5c2641d2238", 
+            "d582de36-dad4-44cc-b42d-187f52d38722"
+         ], 
+         "key" : "COST_30"
+      }, 
+      "b0022c26-9972-47ee-82ab-f5c2641d2238" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-101545", 
+            "y" : "-99095"
+         }, 
+         "child" : [ 
+            "0b26edea-8315-4a8e-93b0-0cd96a7e8855"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "30", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "d582de36-dad4-44cc-b42d-187f52d38722" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101319", 
+            "y" : "-99133"
+         }, 
+         "child" : [ 
+            "35537008-fe60-4579-b57c-4c5cc31a8b95", 
+            "eb74b474-66f3-45a1-896c-be6cf5cb68ab"
+         ], 
+         "key" : "COST_20"
+      }, 
+      "35537008-fe60-4579-b57c-4c5cc31a8b95" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-101416", 
+            "y" : "-99010"
+         }, 
+         "child" : [ 
+            "0b26edea-8315-4a8e-93b0-0cd96a7e8855"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "20", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "eb74b474-66f3-45a1-896c-be6cf5cb68ab" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-101227", 
+            "y" : "-99015"
+         }, 
+         "child" : [ 
+            "0b26edea-8315-4a8e-93b0-0cd96a7e8855"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "10", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "1378e14f-83df-4f52-aa21-b6534f76b796" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101627", 
+            "y" : "-99950"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "dd820331-46f6-42bc-a7d2-fac2a9ba51ed" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101369", 
+            "y" : "-100072"
+         }, 
+         "child" : [ 
+            "10da9ab6-da41-4fdb-8a04-48b68f24a17f", 
+            "c9ba2287-894f-4e09-8274-91ee939ecdc5"
+         ], 
+         "key" : "COST_40"
+      }, 
+      "10da9ab6-da41-4fdb-8a04-48b68f24a17f" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-101532", 
+            "y" : "-99945"
+         }, 
+         "child" : [ 
+            "22ef14a7-a598-4aee-aedd-c4c0165adc48", 
+            "b727f183-a707-46b1-aa5e-1d3aa032e0b9"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "40", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "b727f183-a707-46b1-aa5e-1d3aa032e0b9" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101446", 
+            "y" : "-99838"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "c9ba2287-894f-4e09-8274-91ee939ecdc5" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101284", 
+            "y" : "-99963"
+         }, 
+         "child" : [ 
+            "09ddb687-b690-4d08-9188-3a1e0121dd96", 
+            "9858cb99-d76b-426e-b5c1-3ac29f1afba7"
+         ], 
+         "key" : "COST_30"
+      }, 
+      "09ddb687-b690-4d08-9188-3a1e0121dd96" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-101421", 
+            "y" : "-99777"
+         }, 
+         "child" : [ 
+            "22ef14a7-a598-4aee-aedd-c4c0165adc48", 
+            "5abb1ad2-f0c6-466d-8d69-4cd485ca5138"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "30", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "5abb1ad2-f0c6-466d-8d69-4cd485ca5138" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101346", 
+            "y" : "-99654"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "9858cb99-d76b-426e-b5c1-3ac29f1afba7" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101191", 
+            "y" : "-99853"
+         }, 
+         "child" : [ 
+            "4019bfc0-6beb-49b9-b3f8-4c67c1fc726d", 
+            "920660a7-5271-49a1-9796-0165be44bb3d"
+         ], 
+         "key" : "COST_20"
+      }, 
+      "4019bfc0-6beb-49b9-b3f8-4c67c1fc726d" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-101252", 
+            "y" : "-99707"
+         }, 
+         "child" : [ 
+            "22ef14a7-a598-4aee-aedd-c4c0165adc48", 
+            "5a5ed6e5-492a-4faa-8227-75c54423caa7"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "20", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "5a5ed6e5-492a-4faa-8227-75c54423caa7" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101170", 
+            "y" : "-99582"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "920660a7-5271-49a1-9796-0165be44bb3d" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-101053", 
+            "y" : "-99701"
+         }, 
+         "child" : [ 
+            "22ef14a7-a598-4aee-aedd-c4c0165adc48", 
+            "8ea06d2d-0cc4-45ca-8dc9-8a502c0daab7"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "10", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "8ea06d2d-0cc4-45ca-8dc9-8a502c0daab7" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100984", 
+            "y" : "-99579"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "47b8a469-a275-45bb-b1cb-a34be6a4c7f2" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101208", 
+            "y" : "-100197"
+         }, 
+         "child" : [ 
+            "d4984764-c34b-4bf1-9ad9-4260aac190cd"
+         ], 
+         "text" : "#Auto.Car.47b8a469-a275-45bb-b1cb-a34be6a4c7f2"
+      }, 
+      "d4984764-c34b-4bf1-9ad9-4260aac190cd" : { 
+         "class" : "BarterBeginNode", 
+         "desc" : { 
+            "x" : "-101117", 
+            "y" : "-100096"
+         }, 
+         "child" : [ 
+            "b010579e-47e3-4a3a-a708-fb7f893e1652"
+         ]
+      }, 
+      "b010579e-47e3-4a3a-a708-fb7f893e1652" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101014", 
+            "y" : "-100427"
+         }, 
+         "child" : [ 
+            "166410d1-c48c-482d-ae55-042e26075dc2"
+         ]
+      }, 
+      "a2fe65d5-8934-4188-bb9d-cf84f2281705" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100958", 
+            "y" : "-100225"
+         }, 
+         "child" : [ 
+            "00644a83-df68-4188-bb24-6f21d28d274d"
+         ], 
+         "text" : "#Auto.Car.a2fe65d5-8934-4188-bb9d-cf84f2281705"
+      }, 
+      "00644a83-df68-4188-bb24-6f21d28d274d" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-100902", 
+            "y" : "-100135"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "063e561c-4f2e-4918-bf2e-3bf5ff2bd643" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101308", 
+            "y" : "-100479"
+         }, 
+         "child" : [ 
+            "166410d1-c48c-482d-ae55-042e26075dc2"
+         ], 
+         "text" : "#Auto.Car.063e561c-4f2e-4918-bf2e-3bf5ff2bd643"
+      }, 
+      "171a513b-5397-4bea-986e-18712bc12030" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101135", 
+            "y" : "-100521"
+         }, 
+         "child" : [ 
+            "166410d1-c48c-482d-ae55-042e26075dc2"
+         ], 
+         "text" : "#Auto.Car.171a513b-5397-4bea-986e-18712bc12030"
+      }, 
+      "8c549279-96c8-440a-9da5-945439ccb54f" : { 
+         "class" : "PlayerVehicleOnLocationNode", 
+         "desc" : { 
+            "x" : "-100726", 
+            "y" : "-100685"
+         }, 
+         "child" : [ 
+            "ecba0638-6a55-4c34-a38d-31670e7a1aa1", 
+            "931d07a5-d757-48b9-98b7-d9911b4b004d"
+         ]
+      }, 
+      "ecba0638-6a55-4c34-a38d-31670e7a1aa1" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100823", 
+            "y" : "-100593"
+         }, 
+         "child" : [ 
+            "d35550e8-fd1f-4e5d-8a15-58dbd0369196"
+         ], 
+         "text" : "#Auto.Car.ecba0638-6a55-4c34-a38d-31670e7a1aa1"
+      }, 
+      "d35550e8-fd1f-4e5d-8a15-58dbd0369196" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100750", 
+            "y" : "-100491"
+         }, 
+         "child" : [ 
+            "308d4bcc-92c1-4c07-9884-ae966e68f4a7", 
+            "fb39c740-1293-40cf-90ef-76f4644754f9"
+         ], 
+         "key" : "HAS_FUEL"
+      }, 
+      "308d4bcc-92c1-4c07-9884-ae966e68f4a7" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100410", 
+            "y" : "-100579"
+         }, 
+         "child" : [ 
+            "c7365d89-230c-4498-a707-609105657e6c", 
+            "cc63447e-3270-47ff-811a-7f3956a59ac7", 
+            "0f238248-f8ea-48e1-b533-ee43f9aa7aea", 
+            "6c93240f-a7e0-4d09-850f-14394bc66a4c", 
+            "fa9e4c19-5b63-4adc-8dbd-a7834a5c922a"
+         ], 
+         "text" : "#Auto.Car.308d4bcc-92c1-4c07-9884-ae966e68f4a7"
+      }, 
+      "c7365d89-230c-4498-a707-609105657e6c" : { 
+         "class" : "VehicleFuelFitInsideNode", 
+         "desc" : { 
+            "x" : "-100558", 
+            "y" : "-100439"
+         }, 
+         "child" : [ 
+            "1c52c94e-fd42-465a-a6a2-bb2877e6588c", 
+            "96be428c-3986-4ee7-ad8e-54d78cb7e253"
+         ], 
+         "fuel" : "5"
+      }, 
+      "1c52c94e-fd42-465a-a6a2-bb2877e6588c" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100614", 
+            "y" : "-100336"
+         }, 
+         "child" : [ 
+            "b3e01286-15db-469f-944d-04e552805c5a"
+         ], 
+         "text" : "#Auto.Car.1c52c94e-fd42-465a-a6a2-bb2877e6588c"
+      }, 
+      "b3e01286-15db-469f-944d-04e552805c5a" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100674", 
+            "y" : "-100119"
+         }, 
+         "child" : [ 
+            "1d64ddaa-f6cc-4d23-b306-6af9129015a6"
+         ], 
+         "text" : "Это обойдётся тебе в 1400 рублей."
+      }, 
+      "1d64ddaa-f6cc-4d23-b306-6af9129015a6" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-100518", 
+            "y" : "-99998"
+         }, 
+         "child" : [ 
+            "908b4119-27db-4935-876b-998edec4c480", 
+            "9d4fc80f-f5c8-41a8-863c-696017150646"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1400", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "908b4119-27db-4935-876b-998edec4c480" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100512", 
+            "y" : "-99871"
+         }, 
+         "child" : [ 
+            "723ffce1-a4e2-4c02-a955-13348a9f2ff4", 
+            "9d4fc80f-f5c8-41a8-863c-696017150646"
+         ]
+      }, 
+      "723ffce1-a4e2-4c02-a955-13348a9f2ff4" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100688", 
+            "y" : "-99789"
+         }, 
+         "child" : [ 
+            "59f2c5f7-6b76-4ad7-8370-6e2f7bebe43f"
+         ], 
+         "text" : "#Auto.Car.723ffce1-a4e2-4c02-a955-13348a9f2ff4"
+      }, 
+      "59f2c5f7-6b76-4ad7-8370-6e2f7bebe43f" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-100609", 
+            "y" : "-99693"
+         }, 
+         "child" : [ 
+            "acd06ba5-64e9-4727-ae98-40b354230567"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "100", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "acd06ba5-64e9-4727-ae98-40b354230567" : { 
+         "class" : "VehicleAddFuelNode", 
+         "desc" : { 
+            "x" : "-100599", 
+            "y" : "-99573"
+         }, 
+         "child" : [ 
+            "bb8a4df5-c688-4dda-a6c5-c11148a3922f"
+         ], 
+         "value" : "5"
+      }, 
+      "bb8a4df5-c688-4dda-a6c5-c11148a3922f" : { 
+         "class" : "FlashSplashNode", 
+         "desc" : { 
+            "x" : "-100619", 
+            "y" : "-99474"
+         }, 
+         "child" : [ 
+            "596d4bef-8b88-48f4-843a-648e617e0cf6"
+         ], 
+         "waitEnd" : "false", 
+         "waitTime" : "1.5"
+      }, 
+      "596d4bef-8b88-48f4-843a-648e617e0cf6" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-100630", 
+            "y" : "-99395"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "9d4fc80f-f5c8-41a8-863c-696017150646" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100393", 
+            "y" : "-99827"
+         }, 
+         "child" : [ 
+            "a2fe65d5-8934-4188-bb9d-cf84f2281705"
+         ]
+      }, 
+      "96be428c-3986-4ee7-ad8e-54d78cb7e253" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100207", 
+            "y" : "-100296"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "cc63447e-3270-47ff-811a-7f3956a59ac7" : { 
+         "class" : "VehicleFuelFitInsideNode", 
+         "desc" : { 
+            "x" : "-100400", 
+            "y" : "-100395"
+         }, 
+         "child" : [ 
+            "12b8f5fa-a91c-4526-9f6c-afc42818628d", 
+            "96be428c-3986-4ee7-ad8e-54d78cb7e253"
+         ], 
+         "fuel" : "10"
+      }, 
+      "12b8f5fa-a91c-4526-9f6c-afc42818628d" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100450", 
+            "y" : "-100186"
+         }, 
+         "child" : [ 
+            "aaf09c22-d42c-4e86-b824-1b0d1183fee2"
+         ], 
+         "text" : "#Auto.Car.12b8f5fa-a91c-4526-9f6c-afc42818628d"
+      }, 
+      "aaf09c22-d42c-4e86-b824-1b0d1183fee2" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100378", 
+            "y" : "-100114"
+         }, 
+         "child" : [ 
+            "32dfd901-90e6-4f12-ab79-f1b7d2f52450"
+         ], 
+         "text" : "Это обойдётся тебе в 2800 рублей."
+      }, 
+      "32dfd901-90e6-4f12-ab79-f1b7d2f52450" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-100153", 
+            "y" : "-99980"
+         }, 
+         "child" : [ 
+            "881a06e3-ba41-4092-9dcb-ab718c8471f6", 
+            "af8b5801-ab0d-4c62-9f96-b48f14e43c8b"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "2800", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "881a06e3-ba41-4092-9dcb-ab718c8471f6" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100147", 
+            "y" : "-99853"
+         }, 
+         "child" : [ 
+            "44d56310-02f5-4a99-b1ca-8259577c33b6", 
+            "af8b5801-ab0d-4c62-9f96-b48f14e43c8b"
+         ]
+      }, 
+      "44d56310-02f5-4a99-b1ca-8259577c33b6" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100323", 
+            "y" : "-99770"
+         }, 
+         "child" : [ 
+            "6cc6e0c5-2955-454e-818d-0c56147a1e4a"
+         ], 
+         "text" : "#Auto.Car.44d56310-02f5-4a99-b1ca-8259577c33b6"
+      }, 
+      "6cc6e0c5-2955-454e-818d-0c56147a1e4a" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-100244", 
+            "y" : "-99675"
+         }, 
+         "child" : [ 
+            "4b1c4ca3-a3a4-4a4d-9631-dfe2c0e87a9f"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "200", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "4b1c4ca3-a3a4-4a4d-9631-dfe2c0e87a9f" : { 
+         "class" : "VehicleAddFuelNode", 
+         "desc" : { 
+            "x" : "-100234", 
+            "y" : "-99555"
+         }, 
+         "child" : [ 
+            "ed955109-4083-4c1d-bd15-ec453b1a5e9a"
+         ], 
+         "value" : "10"
+      }, 
+      "ed955109-4083-4c1d-bd15-ec453b1a5e9a" : { 
+         "class" : "FlashSplashNode", 
+         "desc" : { 
+            "x" : "-100254", 
+            "y" : "-99456"
+         }, 
+         "child" : [ 
+            "cba248d6-f27d-4103-a626-712fbd665008"
+         ], 
+         "waitEnd" : "false", 
+         "waitTime" : "1.5"
+      }, 
+      "cba248d6-f27d-4103-a626-712fbd665008" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-100265", 
+            "y" : "-99377"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "af8b5801-ab0d-4c62-9f96-b48f14e43c8b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100028", 
+            "y" : "-99809"
+         }, 
+         "child" : [ 
+            "a2fe65d5-8934-4188-bb9d-cf84f2281705"
+         ]
+      }, 
+      "0f238248-f8ea-48e1-b533-ee43f9aa7aea" : { 
+         "class" : "VehicleFuelFitInsideNode", 
+         "desc" : { 
+            "x" : "-100201", 
+            "y" : "-100427"
+         }, 
+         "child" : [ 
+            "381801c5-8093-47df-a805-8695318b9cfd", 
+            "96be428c-3986-4ee7-ad8e-54d78cb7e253"
+         ], 
+         "fuel" : "20"
+      }, 
+      "381801c5-8093-47df-a805-8695318b9cfd" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100221", 
+            "y" : "-100223"
+         }, 
+         "child" : [ 
+            "1663bd1f-e5c1-4f77-a9c7-d0b9d6c68e2f"
+         ], 
+         "text" : "#Auto.Car.381801c5-8093-47df-a805-8695318b9cfd"
+      }, 
+      "1663bd1f-e5c1-4f77-a9c7-d0b9d6c68e2f" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100096", 
+            "y" : "-100127"
+         }, 
+         "child" : [ 
+            "d1879cdf-d161-40e9-9a48-077c1c8eaade"
+         ], 
+         "text" : "Это обойдётся тебе в 5600 рублей."
+      }, 
+      "d1879cdf-d161-40e9-9a48-077c1c8eaade" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-99844", 
+            "y" : "-99942"
+         }, 
+         "child" : [ 
+            "1ca0bef6-dcd4-46cc-a00b-2304c9e68262", 
+            "24175e9e-9abe-411b-9dc9-1a646c9d9ff7"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "5600", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "1ca0bef6-dcd4-46cc-a00b-2304c9e68262" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99838", 
+            "y" : "-99815"
+         }, 
+         "child" : [ 
+            "2ba31a71-35b4-4d6e-8234-852ac06fbdc3", 
+            "24175e9e-9abe-411b-9dc9-1a646c9d9ff7"
+         ]
+      }, 
+      "2ba31a71-35b4-4d6e-8234-852ac06fbdc3" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100014", 
+            "y" : "-99732"
+         }, 
+         "child" : [ 
+            "7a13b41f-7ec5-49ad-bdb2-f04eeeedb0c3"
+         ], 
+         "text" : "#Auto.Car.2ba31a71-35b4-4d6e-8234-852ac06fbdc3"
+      }, 
+      "7a13b41f-7ec5-49ad-bdb2-f04eeeedb0c3" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-99935", 
+            "y" : "-99637"
+         }, 
+         "child" : [ 
+            "00cc514f-f0a0-4352-8d4f-1a734e0b21a6"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "400", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "00cc514f-f0a0-4352-8d4f-1a734e0b21a6" : { 
+         "class" : "VehicleAddFuelNode", 
+         "desc" : { 
+            "x" : "-99925", 
+            "y" : "-99517"
+         }, 
+         "child" : [ 
+            "203eaf76-d2ae-4952-adc0-9870d2c578ed"
+         ], 
+         "value" : "20"
+      }, 
+      "203eaf76-d2ae-4952-adc0-9870d2c578ed" : { 
+         "class" : "FlashSplashNode", 
+         "desc" : { 
+            "x" : "-99945", 
+            "y" : "-99418"
+         }, 
+         "child" : [ 
+            "2517f294-2508-4dbc-bb84-70fa02973517"
+         ], 
+         "waitEnd" : "false", 
+         "waitTime" : "1.5"
+      }, 
+      "2517f294-2508-4dbc-bb84-70fa02973517" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-99956", 
+            "y" : "-99339"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "24175e9e-9abe-411b-9dc9-1a646c9d9ff7" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99719", 
+            "y" : "-99771"
+         }, 
+         "child" : [ 
+            "a2fe65d5-8934-4188-bb9d-cf84f2281705"
+         ]
+      }, 
+      "6c93240f-a7e0-4d09-850f-14394bc66a4c" : { 
+         "class" : "VehicleFuelFitInsideNode", 
+         "desc" : { 
+            "x" : "-100003", 
+            "y" : "-100449"
+         }, 
+         "child" : [ 
+            "6f62c87c-c33a-4178-a906-b5a03063eb71", 
+            "96be428c-3986-4ee7-ad8e-54d78cb7e253"
+         ], 
+         "fuel" : "50"
+      }, 
+      "6f62c87c-c33a-4178-a906-b5a03063eb71" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100042", 
+            "y" : "-100301"
+         }, 
+         "child" : [ 
+            "b53e3d48-8af9-458e-8e03-c4141123c7d3"
+         ], 
+         "text" : "#Auto.Car.6f62c87c-c33a-4178-a906-b5a03063eb71"
+      }, 
+      "b53e3d48-8af9-458e-8e03-c4141123c7d3" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99822", 
+            "y" : "-100133"
+         }, 
+         "child" : [ 
+            "05da0054-3e58-4956-a1fd-6e1e0ae0f701"
+         ], 
+         "text" : "Это обойдётся тебе в 14000 рублей."
+      }, 
+      "05da0054-3e58-4956-a1fd-6e1e0ae0f701" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-99516", 
+            "y" : "-99911"
+         }, 
+         "child" : [ 
+            "58cf4735-0b59-445e-a588-ce67bd79d367", 
+            "1a881f1b-6367-483b-9aae-0575fd1c8b55"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "14000", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "58cf4735-0b59-445e-a588-ce67bd79d367" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99510", 
+            "y" : "-99784"
+         }, 
+         "child" : [ 
+            "ca4c5a87-9c4c-4b0f-bd43-80c2bc95d74c", 
+            "1a881f1b-6367-483b-9aae-0575fd1c8b55"
+         ]
+      }, 
+      "ca4c5a87-9c4c-4b0f-bd43-80c2bc95d74c" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99686", 
+            "y" : "-99701"
+         }, 
+         "child" : [ 
+            "e09644e4-4069-4b2c-898c-bc075aeec77e"
+         ], 
+         "text" : "#Auto.Car.ca4c5a87-9c4c-4b0f-bd43-80c2bc95d74c"
+      }, 
+      "e09644e4-4069-4b2c-898c-bc075aeec77e" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-99607", 
+            "y" : "-99606"
+         }, 
+         "child" : [ 
+            "29f77c57-7bbb-4a9b-a4eb-1362eb1312bd"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1000", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "29f77c57-7bbb-4a9b-a4eb-1362eb1312bd" : { 
+         "class" : "VehicleAddFuelNode", 
+         "desc" : { 
+            "x" : "-99597", 
+            "y" : "-99486"
+         }, 
+         "child" : [ 
+            "c05837c0-132d-4553-a2ca-27c06fac8916"
+         ], 
+         "value" : "50"
+      }, 
+      "c05837c0-132d-4553-a2ca-27c06fac8916" : { 
+         "class" : "FlashSplashNode", 
+         "desc" : { 
+            "x" : "-99617", 
+            "y" : "-99387"
+         }, 
+         "child" : [ 
+            "7752403b-cb6e-4a7a-8826-b76049311160"
+         ], 
+         "waitEnd" : "false", 
+         "waitTime" : "1.5"
+      }, 
+      "7752403b-cb6e-4a7a-8826-b76049311160" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-99628", 
+            "y" : "-99308"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "1a881f1b-6367-483b-9aae-0575fd1c8b55" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99391", 
+            "y" : "-99740"
+         }, 
+         "child" : [ 
+            "a2fe65d5-8934-4188-bb9d-cf84f2281705"
+         ]
+      }, 
+      "fa9e4c19-5b63-4adc-8dbd-a7834a5c922a" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99872", 
+            "y" : "-100521"
+         }, 
+         "child" : [ 
+            "5831625f-7233-40cf-9be0-65f0f96c6bd0"
+         ], 
+         "text" : "#Auto.Car.fa9e4c19-5b63-4adc-8dbd-a7834a5c922a"
+      }, 
+      "5831625f-7233-40cf-9be0-65f0f96c6bd0" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-99816", 
+            "y" : "-100418"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "fb39c740-1293-40cf-90ef-76f4644754f9" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100837", 
+            "y" : "-100366"
+         }, 
+         "child" : [ 
+            "a2fe65d5-8934-4188-bb9d-cf84f2281705"
+         ], 
+         "text" : "#Auto.Car.fb39c740-1293-40cf-90ef-76f4644754f9"
+      }, 
+      "931d07a5-d757-48b9-98b7-d9911b4b004d" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100598", 
+            "y" : "-100583"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "449f4e08-c345-4ef4-b975-5b10c94f3be6" : { 
+         "class" : "ObjectCheckNode", 
+         "desc" : { 
+            "x" : "-101142", 
+            "y" : "-100775"
+         }, 
+         "child" : [ 
+            "1b9caa2b-9fe0-4fff-9221-bf0238471a8c", 
+            "c7db860b-49aa-41f7-b279-0dab3a178029"
+         ], 
+         "objectName" : "Сaravan_Vehicle"
+      }, 
+      "c7db860b-49aa-41f7-b279-0dab3a178029" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101001", 
+            "y" : "-100675"
+         }, 
+         "child" : [ 
+         ]
+      }
+   }, 
+   "entry" : "c51f53ad-6037-43ac-9cc8-8b5d18b35514"
+}

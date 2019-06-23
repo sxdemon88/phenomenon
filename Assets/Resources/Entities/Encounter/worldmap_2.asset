@@ -43,6 +43,7 @@ MonoBehaviour:
       _condition:
         _type: 0
         _value: 0
+      _overrideEncounterType: 
     _requirements: []
     _requirementsEx: []
   - _chance: 33
@@ -73,6 +74,7 @@ MonoBehaviour:
       _condition:
         _type: 0
         _value: 0
+      _overrideEncounterType: 
     _requirements: []
     _requirementsEx: []
   - _chance: 5
@@ -105,6 +107,7 @@ MonoBehaviour:
       _condition:
         _type: 0
         _value: 0
+      _overrideEncounterType: 
     _requirements: []
     _requirementsEx: []
   - _chance: 33
@@ -137,6 +140,7 @@ MonoBehaviour:
       _condition:
         _type: 0
         _value: 0
+      _overrideEncounterType: 
     - _skill: 14
       _skillModify: -25
       _description: encounter.try_skip2
@@ -149,6 +153,7 @@ MonoBehaviour:
       _condition:
         _type: 0
         _value: 0
+      _overrideEncounterType: 
     _requirements: []
     _requirementsEx: []
   - _chance: 33
@@ -181,6 +186,7 @@ MonoBehaviour:
       _condition:
         _type: 0
         _value: 0
+      _overrideEncounterType: 
     - _skill: 14
       _skillModify: -35
       _description: encounter.try_skip2
@@ -193,6 +199,7 @@ MonoBehaviour:
       _condition:
         _type: 0
         _value: 0
+      _overrideEncounterType: 
     _requirements: []
     _requirementsEx: []
   - _chance: 60
@@ -265,6 +272,7 @@ MonoBehaviour:
       _condition:
         _type: 0
         _value: 0
+      _overrideEncounterType: 
     _requirements: []
     _requirementsEx: []
   - _chance: 33
@@ -295,6 +303,7 @@ MonoBehaviour:
       _condition:
         _type: 0
         _value: 0
+      _overrideEncounterType: 
     _requirements: []
     _requirementsEx: []
   - _chance: 33
@@ -325,6 +334,7 @@ MonoBehaviour:
       _condition:
         _type: 0
         _value: 0
+      _overrideEncounterType: 
     _requirements: []
     _requirementsEx: []
   - _chance: 20
@@ -357,6 +367,7 @@ MonoBehaviour:
       _condition:
         _type: 0
         _value: 0
+      _overrideEncounterType: 
     _requirements: []
     _requirementsEx: []
   - _chance: 50
@@ -389,6 +400,7 @@ MonoBehaviour:
       _condition:
         _type: 0
         _value: 0
+      _overrideEncounterType: 
     _requirements: []
     _requirementsEx: []
   - _chance: 50
@@ -421,6 +433,7 @@ MonoBehaviour:
       _condition:
         _type: 0
         _value: 0
+      _overrideEncounterType: 
     _requirements: []
     _requirementsEx: []
   - _chance: 50
@@ -453,6 +466,7 @@ MonoBehaviour:
       _condition:
         _type: 0
         _value: 0
+      _overrideEncounterType: 
     _requirements: []
     _requirementsEx: []
   - _chance: 50
@@ -485,6 +499,7 @@ MonoBehaviour:
       _condition:
         _type: 0
         _value: 0
+      _overrideEncounterType: 
     _requirements: []
     _requirementsEx: []
   - _chance: 33
@@ -604,6 +619,24 @@ MonoBehaviour:
     - Z_1_2
     - Z_2_2
     - Z_3_2
+    chances: []
+    _requirements: []
+    _requirementsEx: []
+  - _chance: 20
+    _type: Medvedka
+    _period: 1
+    _trigger: 
+    _triggerInvert: 0
+    _triggerReset: 0
+    _canSkip: 1
+    _canAttack: 0
+    _once: 0
+    _icon: {fileID: 21300000, guid: b3ea9bc4012c72340b8460b33072a743, type: 3}
+    _desc: encounter.medveka
+    _enter: encounter.check
+    _showIntro: 0
+    _levels:
+    - Z_5_2
     chances: []
     _requirements: []
     _requirementsEx: []

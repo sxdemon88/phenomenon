@@ -1,0 +1,3494 @@
+{ 
+   "states" : { 
+      "a759d743-331d-4e3f-a1e5-a468d24bf7e9" : { 
+         "class" : "InteractiveBeginNode", 
+         "desc" : { 
+            "x" : "762", 
+            "y" : "-1276"
+         }, 
+         "child" : [ 
+            "47e8fdaa-c75d-4c16-bc48-b009d349a3a4", 
+            "689379af-996d-4519-8aaf-925dec6fa583", 
+            "a9448742-aaf6-4eaf-a1f9-a7940c3cdc86"
+         ]
+      }, 
+      "47e8fdaa-c75d-4c16-bc48-b009d349a3a4" : { 
+         "class" : "InteractiveNoneNode", 
+         "desc" : { 
+            "x" : "459", 
+            "y" : "-1227"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "689379af-996d-4519-8aaf-925dec6fa583" : { 
+         "class" : "InteractiveRepairNode", 
+         "desc" : { 
+            "x" : "594", 
+            "y" : "-1214"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "a9448742-aaf6-4eaf-a1f9-a7940c3cdc86" : { 
+         "class" : "InteractiveUseNode", 
+         "desc" : { 
+            "x" : "920", 
+            "y" : "-1213"
+         }, 
+         "child" : [ 
+            "1cec526b-0bc6-41e4-a73b-cdc1497a8a82"
+         ]
+      }, 
+      "1cec526b-0bc6-41e4-a73b-cdc1497a8a82" : { 
+         "class" : "DialogBeginNode", 
+         "desc" : { 
+            "x" : "911", 
+            "y" : "-1168"
+         }, 
+         "child" : [ 
+            "a39e573c-0a63-4528-bebd-a860b67f48ed"
+         ], 
+         "canBarter" : "true"
+      }, 
+      "a39e573c-0a63-4528-bebd-a860b67f48ed" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "680", 
+            "y" : "-544"
+         }, 
+         "child" : [ 
+            "33816f19-9c29-48bf-b9a6-cc7db2a2b405"
+         ], 
+         "text" : "#Cooker.a39e573c-0a63-4528-bebd-a860b67f48ed"
+      }, 
+      "33816f19-9c29-48bf-b9a6-cc7db2a2b405" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "706", 
+            "y" : "-356"
+         }, 
+         "child" : [ 
+            "680ea259-b1c3-4ce2-8db3-b05506f144e1"
+         ], 
+         "key" : "SHOW_INDEX_MIN", 
+         "value" : "1"
+      }, 
+      "680ea259-b1c3-4ce2-8db3-b05506f144e1" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "704", 
+            "y" : "-276"
+         }, 
+         "child" : [ 
+            "dd121f2c-96e2-49b2-8427-8b15b34bcbdb"
+         ], 
+         "key" : "SHOW_INDEX_MAX", 
+         "value" : "4"
+      }, 
+      "dd121f2c-96e2-49b2-8427-8b15b34bcbdb" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "672", 
+            "y" : "-160"
+         }, 
+         "child" : [ 
+            "edeaf44b-27f4-48f7-b5c7-4c27979f7bcc", 
+            "62923a8a-b19c-496e-acb1-91040a989645"
+         ]
+      }, 
+      "edeaf44b-27f4-48f7-b5c7-4c27979f7bcc" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "366", 
+            "y" : "-286"
+         }, 
+         "child" : [ 
+            "845aa98a-c96c-477e-a4f1-a4c9aca362e6"
+         ], 
+         "key" : "SHOW_INDEX", 
+         "value" : "0"
+      }, 
+      "845aa98a-c96c-477e-a4f1-a4c9aca362e6" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-201", 
+            "y" : "-179"
+         }, 
+         "child" : [ 
+            "2e78bb9f-26c9-40e4-b09a-e6b7e64d9d4c", 
+            "5b83523a-1bc3-4fe1-9424-0dca7e8da97e", 
+            "686ceb61-a4ff-481a-b742-d0090d4d87c2", 
+            "a7d9dd94-b908-48f3-85fe-06d300a3a079", 
+            "6e10123a-22ac-4120-81b8-6544b92b7d07", 
+            "3355ea7a-4537-423e-ae1e-8cb950929849", 
+            "dc58c409-9bf7-492b-8624-062f8e935223", 
+            "d77e2117-322e-4508-a62c-756924e2651b", 
+            "3c43baaf-29e4-4aa0-9d28-b162114c6a1a", 
+            "6980ee6e-12e6-48f1-b439-b66832bc6cbe", 
+            "731221a7-84c6-4fc0-a426-ceab7fdfafa8", 
+            "bc3af2b6-d4c8-41fb-b614-af053ad1d6b3", 
+            "a26001a8-d5d4-4490-a79e-281f27075647", 
+            "3229d7c4-c4ed-4f06-9b53-f08fef5ddfea", 
+            "7d0af582-23f8-4076-975a-fc62231ca309", 
+            "b823b757-b147-4471-aeef-39b80ee25b9f"
+         ]
+      }, 
+      "2e78bb9f-26c9-40e4-b09a-e6b7e64d9d4c" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-3252", 
+            "y" : "-788"
+         }, 
+         "child" : [ 
+            "a78befc5-12b1-49bf-affa-6505cac682cb", 
+            "2a3cfb5e-4815-471b-bea5-583193171985"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Carrot"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "a78befc5-12b1-49bf-affa-6505cac682cb" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-3394", 
+            "y" : "-699"
+         }, 
+         "child" : [ 
+            "f1bf2cd9-1f0e-451b-b885-3392f0e848ad", 
+            "2a3cfb5e-4815-471b-bea5-583193171985"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Cabbage"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "f1bf2cd9-1f0e-451b-b885-3392f0e848ad" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-3452", 
+            "y" : "-625"
+         }, 
+         "child" : [ 
+            "35d13ee9-af80-46e2-952d-e646e6ef1c01", 
+            "2a3cfb5e-4815-471b-bea5-583193171985"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Onion"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "35d13ee9-af80-46e2-952d-e646e6ef1c01" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-3504", 
+            "y" : "-549"
+         }, 
+         "child" : [ 
+            "1349353c-1b13-4286-ac2b-65f401e3b88e", 
+            "2a3cfb5e-4815-471b-bea5-583193171985"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "3", 
+            "proto" : "Meat"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "1349353c-1b13-4286-ac2b-65f401e3b88e" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-3620", 
+            "y" : "-471"
+         }, 
+         "child" : [ 
+            "a3b00807-3139-4298-b480-da994c10689b", 
+            "2a3cfb5e-4815-471b-bea5-583193171985"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Potato"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "a3b00807-3139-4298-b480-da994c10689b" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-3684", 
+            "y" : "-369"
+         }, 
+         "child" : [ 
+            "6b1d5dc5-6ec1-4f4f-92d3-1ebe30a0b3da", 
+            "2a3cfb5e-4815-471b-bea5-583193171985"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Beetroot"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "6b1d5dc5-6ec1-4f4f-92d3-1ebe30a0b3da" : { 
+         "class" : "MathKeyValueNode", 
+         "desc" : { 
+            "x" : "-3676", 
+            "y" : "-257"
+         }, 
+         "child" : [ 
+            "485d732f-0ee3-43ac-87b0-189e23d66616"
+         ], 
+         "key" : "SHOW_INDEX", 
+         "value" : "1", 
+         "opp" : "Add"
+      }, 
+      "485d732f-0ee3-43ac-87b0-189e23d66616" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-3734", 
+            "y" : "-169"
+         }, 
+         "child" : [ 
+            "fc47432b-db56-4c6e-b995-72da83c2a6d4", 
+            "916c497e-290b-447d-883c-fed332296c5f"
+         ], 
+         "key" : "SHOW_INDEX", 
+         "value" : "$SHOW_INDEX_MIN$", 
+         "opp" : "GreaterEqual"
+      }, 
+      "fc47432b-db56-4c6e-b995-72da83c2a6d4" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-3838", 
+            "y" : "-35"
+         }, 
+         "child" : [ 
+            "dc853a38-ebd7-483f-a6e4-ff544f12d3ce", 
+            "916c497e-290b-447d-883c-fed332296c5f"
+         ], 
+         "key" : "SHOW_INDEX", 
+         "value" : "$SHOW_INDEX_MAX$", 
+         "opp" : "LessEqual"
+      }, 
+      "dc853a38-ebd7-483f-a6e4-ff544f12d3ce" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-3822", 
+            "y" : "125"
+         }, 
+         "child" : [ 
+            "c62f4a7d-ea4e-49da-876c-4798db28ad0e"
+         ], 
+         "text" : "Атомный борщ (группа): Готовить борщ на весь отряд. (Лечение здоровья +40)"
+      }, 
+      "c62f4a7d-ea4e-49da-876c-4798db28ad0e" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-3822", 
+            "y" : "215"
+         }, 
+         "child" : [ 
+            "ea8218b8-6ba7-48f7-b06d-02a827515861"
+         ], 
+         "text" : "Приготовив Атомный борщ Вы восстановите своё здоровье и здоровье членов отряда."
+      }, 
+      "ea8218b8-6ba7-48f7-b06d-02a827515861" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-3822", 
+            "y" : "307"
+         }, 
+         "child" : [ 
+            "d78a7607-745e-4e9f-995f-37c354b02e74"
+         ], 
+         "text" : "#Campfire.6617a887-df76-4973-a45d-b56e2e859fb0"
+      }, 
+      "d78a7607-745e-4e9f-995f-37c354b02e74" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-3770", 
+            "y" : "375"
+         }, 
+         "child" : [ 
+            "1001ca6c-4e6a-4ea7-a3bb-898c6a458dad", 
+            "27738f77-73e2-41db-93c8-7ef6053ed5a7", 
+            "e6d9ecca-e3b4-4e3c-8d6b-ba6cc61841b6"
+         ]
+      }, 
+      "1001ca6c-4e6a-4ea7-a3bb-898c6a458dad" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-3880", 
+            "y" : "423"
+         }, 
+         "child" : [ 
+            "f1fb27f9-2069-4862-ad0e-aec047e70653"
+         ], 
+         "exp" : "40"
+      }, 
+      "f1fb27f9-2069-4862-ad0e-aec047e70653" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-3794", 
+            "y" : "495"
+         }, 
+         "child" : [ 
+            "5f7fdefe-eacd-4b77-a1fd-ba262a977856"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Carrot"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "5f7fdefe-eacd-4b77-a1fd-ba262a977856" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-3794", 
+            "y" : "571"
+         }, 
+         "child" : [ 
+            "be44fdc7-291b-497c-9848-9d81e8b475d6"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "3", 
+            "proto" : "Meat"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "be44fdc7-291b-497c-9848-9d81e8b475d6" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-3794", 
+            "y" : "645"
+         }, 
+         "child" : [ 
+            "e94ae5a7-d4dd-43c1-a2e2-8162e6d590f5"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Onion"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "e94ae5a7-d4dd-43c1-a2e2-8162e6d590f5" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-3792", 
+            "y" : "721"
+         }, 
+         "child" : [ 
+            "c82382a2-24ad-484d-adf1-65b4f6006a8c"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Beetroot"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "c82382a2-24ad-484d-adf1-65b4f6006a8c" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-3792", 
+            "y" : "799"
+         }, 
+         "child" : [ 
+            "8c26139d-5c25-4b7f-b0bb-bfac0ea2b300"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Cabbage"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "8c26139d-5c25-4b7f-b0bb-bfac0ea2b300" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-3790", 
+            "y" : "879"
+         }, 
+         "child" : [ 
+            "2ef1db8d-74df-4ac4-b7b4-1a1adbdfe0a4"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Potato"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "2ef1db8d-74df-4ac4-b7b4-1a1adbdfe0a4" : { 
+         "class" : "HealNode", 
+         "desc" : { 
+            "x" : "-3784", 
+            "y" : "981"
+         }, 
+         "child" : [ 
+            "96b16f14-3240-4fdb-8a04-fd7922a2f696"
+         ], 
+         "hp" : "40", 
+         "withTeammate" : "true"
+      }, 
+      "96b16f14-3240-4fdb-8a04-fd7922a2f696" : { 
+         "class" : "PlayerResetHungerNode", 
+         "desc" : { 
+            "x" : "-3776", 
+            "y" : "1061"
+         }, 
+         "child" : [ 
+            "4f16c1fe-dde2-4c34-8ce7-263b6d246e21"
+         ]
+      }, 
+      "4f16c1fe-dde2-4c34-8ce7-263b6d246e21" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-1790", 
+            "y" : "1582"
+         }, 
+         "child" : [ 
+            "3fd02cd2-1202-4810-85e3-9046fc72c9d9", 
+            "f79f9816-f9c0-4753-a620-77fadc3ec506"
+         ], 
+         "text" : "Олично приготовленная еда наполнила животы всех членов команды и приятно согрела душу всей компании."
+      }, 
+      "3fd02cd2-1202-4810-85e3-9046fc72c9d9" : { 
+         "class" : "PlaySoundNode", 
+         "desc" : { 
+            "x" : "-1668", 
+            "y" : "1930"
+         }, 
+         "child" : [ 
+            "b2b40550-99f6-4718-8c22-d11e5a405326"
+         ], 
+         "sound" : "Sounds/SFX/Misc/Eating/eating_meat", 
+         "playOnObject" : "false", 
+         "saveStateOnSaveAndLoad" : "false"
+      }, 
+      "b2b40550-99f6-4718-8c22-d11e5a405326" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "1835", 
+            "y" : "2155"
+         }, 
+         "child" : [ 
+            "c95fb566-f1e4-43a5-a508-6344d4a59f32"
+         ], 
+         "text" : "#Cooker.b2b40550-99f6-4718-8c22-d11e5a405326"
+      }, 
+      "c95fb566-f1e4-43a5-a508-6344d4a59f32" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "1988", 
+            "y" : "2286"
+         }, 
+         "child" : [ 
+            "8221cd64-a1fd-44c6-942c-ef01f8feb030"
+         ]
+      }, 
+      "8221cd64-a1fd-44c6-942c-ef01f8feb030" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "1113", 
+            "y" : "-948"
+         }, 
+         "child" : [ 
+            "a39e573c-0a63-4528-bebd-a860b67f48ed"
+         ]
+      }, 
+      "f79f9816-f9c0-4753-a620-77fadc3ec506" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-1253", 
+            "y" : "1804"
+         }, 
+         "child" : [ 
+            "01da36f3-6c22-4563-9c2b-6d49654762e4"
+         ]
+      }, 
+      "01da36f3-6c22-4563-9c2b-6d49654762e4" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "1380", 
+            "y" : "-172"
+         }, 
+         "child" : [ 
+            "81b3785f-2a2c-4a83-b030-6c0b9fc745a1"
+         ], 
+         "text" : "#Campfire.2c33d94d-d632-4a03-9942-7edaf512994d"
+      }, 
+      "81b3785f-2a2c-4a83-b030-6c0b9fc745a1" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "1460", 
+            "y" : "-76"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "27738f77-73e2-41db-93c8-7ef6053ed5a7" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-3768", 
+            "y" : "425"
+         }, 
+         "child" : [ 
+            "f1fb27f9-2069-4862-ad0e-aec047e70653"
+         ], 
+         "exp" : "70"
+      }, 
+      "e6d9ecca-e3b4-4e3c-8d6b-ba6cc61841b6" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-3654", 
+            "y" : "425"
+         }, 
+         "child" : [ 
+            "f1fb27f9-2069-4862-ad0e-aec047e70653"
+         ], 
+         "exp" : "100"
+      }, 
+      "916c497e-290b-447d-883c-fed332296c5f" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-3512", 
+            "y" : "95"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "2a3cfb5e-4815-471b-bea5-583193171985" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-3346", 
+            "y" : "-265"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "5b83523a-1bc3-4fe1-9424-0dca7e8da97e" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-2572", 
+            "y" : "-243"
+         }, 
+         "child" : [ 
+            "2aa6ceb7-c1e2-41e4-b34a-ec8447632e46", 
+            "50d99777-4655-462d-a689-1e93328453e6"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Cabbage"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "2aa6ceb7-c1e2-41e4-b34a-ec8447632e46" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-2660", 
+            "y" : "-97"
+         }, 
+         "child" : [ 
+            "fb14c78e-b600-4a06-b87e-4cd21e9f2172", 
+            "50d99777-4655-462d-a689-1e93328453e6"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "2", 
+            "proto" : "Potato"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "fb14c78e-b600-4a06-b87e-4cd21e9f2172" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-2744", 
+            "y" : "35"
+         }, 
+         "child" : [ 
+            "2e5b6931-ab44-43f6-81b0-24ff4ea75443", 
+            "50d99777-4655-462d-a689-1e93328453e6"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "3", 
+            "proto" : "Meat"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "2e5b6931-ab44-43f6-81b0-24ff4ea75443" : { 
+         "class" : "MathKeyValueNode", 
+         "desc" : { 
+            "x" : "-2766", 
+            "y" : "157"
+         }, 
+         "child" : [ 
+            "62d3998e-b066-4774-9d6c-24e82eb8fe2d"
+         ], 
+         "key" : "SHOW_INDEX", 
+         "value" : "1", 
+         "opp" : "Add"
+      }, 
+      "62d3998e-b066-4774-9d6c-24e82eb8fe2d" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-2836", 
+            "y" : "267"
+         }, 
+         "child" : [ 
+            "c8d2ebb4-434c-4632-9ae9-7c9fa3df1d81", 
+            "8f2b673f-d97e-46bc-a755-e82daa3436ba"
+         ], 
+         "key" : "SHOW_INDEX", 
+         "value" : "$SHOW_INDEX_MIN$", 
+         "opp" : "GreaterEqual"
+      }, 
+      "c8d2ebb4-434c-4632-9ae9-7c9fa3df1d81" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-2914", 
+            "y" : "413"
+         }, 
+         "child" : [ 
+            "26dd8cbf-4968-4eb9-887e-201edc345349", 
+            "8f2b673f-d97e-46bc-a755-e82daa3436ba"
+         ], 
+         "key" : "SHOW_INDEX", 
+         "value" : "$SHOW_INDEX_MAX$", 
+         "opp" : "LessEqual"
+      }, 
+      "26dd8cbf-4968-4eb9-887e-201edc345349" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-2940", 
+            "y" : "535"
+         }, 
+         "child" : [ 
+            "16864119-7698-4142-933d-5d16d33f2b80"
+         ], 
+         "text" : "Бигус (группа): Готовить бигус на весь отряд. (Лечение здоровья +25)"
+      }, 
+      "16864119-7698-4142-933d-5d16d33f2b80" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-2942", 
+            "y" : "619"
+         }, 
+         "child" : [ 
+            "85476c3c-43e9-426f-a72b-f1ba8c9aca2f"
+         ], 
+         "text" : "Приготовив бигус Вы восстановите свое здоровье и здоровье членов команды."
+      }, 
+      "85476c3c-43e9-426f-a72b-f1ba8c9aca2f" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-2942", 
+            "y" : "697"
+         }, 
+         "child" : [ 
+            "6885bc14-01c8-44e9-8ab0-b1c1b19e881f"
+         ], 
+         "text" : "#Campfire.6617a887-df76-4973-a45d-b56e2e859fb0"
+      }, 
+      "6885bc14-01c8-44e9-8ab0-b1c1b19e881f" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-2890", 
+            "y" : "753"
+         }, 
+         "child" : [ 
+            "39cf736e-7a60-4451-b17e-08b1bec6dcc4", 
+            "a3d8eda1-19ab-46e2-9e32-f0f75e856ed6", 
+            "0a767f51-76da-40f8-ac8e-6e47ffd0f8d7"
+         ]
+      }, 
+      "39cf736e-7a60-4451-b17e-08b1bec6dcc4" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-3004", 
+            "y" : "795"
+         }, 
+         "child" : [ 
+            "b27ffda7-63ad-4db3-b88f-cd5773178f19"
+         ], 
+         "exp" : "20"
+      }, 
+      "b27ffda7-63ad-4db3-b88f-cd5773178f19" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-2930", 
+            "y" : "891"
+         }, 
+         "child" : [ 
+            "3fc0e0d1-0b51-44e2-bd7e-3a7f07483f26"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "3", 
+            "proto" : "Meat"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "3fc0e0d1-0b51-44e2-bd7e-3a7f07483f26" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-2930", 
+            "y" : "961"
+         }, 
+         "child" : [ 
+            "08dd5b41-cfe5-46cb-9de0-2c54b947368f"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "2", 
+            "proto" : "Potato"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "08dd5b41-cfe5-46cb-9de0-2c54b947368f" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-2930", 
+            "y" : "1039"
+         }, 
+         "child" : [ 
+            "ece69ebd-d87e-4c1c-8797-357764a7771c"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Cabbage"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "ece69ebd-d87e-4c1c-8797-357764a7771c" : { 
+         "class" : "HealNode", 
+         "desc" : { 
+            "x" : "-2924", 
+            "y" : "1119"
+         }, 
+         "child" : [ 
+            "503fa93f-1974-444d-bc03-82222b0dcfb3"
+         ], 
+         "hp" : "25", 
+         "withTeammate" : "true"
+      }, 
+      "503fa93f-1974-444d-bc03-82222b0dcfb3" : { 
+         "class" : "PlayerResetHungerNode", 
+         "desc" : { 
+            "x" : "-2914", 
+            "y" : "1189"
+         }, 
+         "child" : [ 
+            "4f16c1fe-dde2-4c34-8ce7-263b6d246e21"
+         ]
+      }, 
+      "a3d8eda1-19ab-46e2-9e32-f0f75e856ed6" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-2892", 
+            "y" : "797"
+         }, 
+         "child" : [ 
+            "b27ffda7-63ad-4db3-b88f-cd5773178f19"
+         ], 
+         "exp" : "30"
+      }, 
+      "0a767f51-76da-40f8-ac8e-6e47ffd0f8d7" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-2778", 
+            "y" : "797"
+         }, 
+         "child" : [ 
+            "b27ffda7-63ad-4db3-b88f-cd5773178f19"
+         ], 
+         "exp" : "50"
+      }, 
+      "8f2b673f-d97e-46bc-a755-e82daa3436ba" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-2686", 
+            "y" : "551"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "50d99777-4655-462d-a689-1e93328453e6" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-2524", 
+            "y" : "133"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "686ceb61-a4ff-481a-b742-d0090d4d87c2" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-3136", 
+            "y" : "-317"
+         }, 
+         "child" : [ 
+            "f323e497-aee0-41e0-8c40-d9112b3efcef", 
+            "c1f2c304-3b5d-42e9-b12e-fb597c0bcb74"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "3", 
+            "proto" : "Stew"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "f323e497-aee0-41e0-8c40-d9112b3efcef" : { 
+         "class" : "MathKeyValueNode", 
+         "desc" : { 
+            "x" : "-3270", 
+            "y" : "43"
+         }, 
+         "child" : [ 
+            "9babcbad-fd37-4df5-b2fd-fa6687e3bfc9"
+         ], 
+         "key" : "SHOW_INDEX", 
+         "value" : "1", 
+         "opp" : "Add"
+      }, 
+      "9babcbad-fd37-4df5-b2fd-fa6687e3bfc9" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-3344", 
+            "y" : "197"
+         }, 
+         "child" : [ 
+            "14095ebd-cf7b-4ba0-a8b1-7e0256ed4661", 
+            "5cb1d382-0e76-4029-8591-e23e1636805e"
+         ], 
+         "key" : "SHOW_INDEX", 
+         "value" : "$SHOW_INDEX_MIN$", 
+         "opp" : "GreaterEqual"
+      }, 
+      "14095ebd-cf7b-4ba0-a8b1-7e0256ed4661" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-3420", 
+            "y" : "355"
+         }, 
+         "child" : [ 
+            "a89a3605-9259-42a4-9cfa-518f20881eb6", 
+            "5cb1d382-0e76-4029-8591-e23e1636805e"
+         ], 
+         "key" : "SHOW_INDEX", 
+         "value" : "$SHOW_INDEX_MAX$", 
+         "opp" : "LessEqual"
+      }, 
+      "a89a3605-9259-42a4-9cfa-518f20881eb6" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-3448", 
+            "y" : "477"
+         }, 
+         "child" : [ 
+            "699becc8-452d-4755-8a8b-fd159fbf3282"
+         ], 
+         "text" : "Горячие консервы (группа): Готовить консервы на весь отряд. (Лечение здоровья +20)"
+      }, 
+      "699becc8-452d-4755-8a8b-fd159fbf3282" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-3448", 
+            "y" : "559"
+         }, 
+         "child" : [ 
+            "24c2f3d7-9806-400a-bf0f-0bba48a00c06"
+         ], 
+         "text" : "Приготовив горячие консервы Вы восстановите своё здоровье и здоровье членов команды"
+      }, 
+      "24c2f3d7-9806-400a-bf0f-0bba48a00c06" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-3450", 
+            "y" : "639"
+         }, 
+         "child" : [ 
+            "1d1c3470-33d4-4b0b-9782-903baa1b1786"
+         ], 
+         "text" : "#Campfire.6617a887-df76-4973-a45d-b56e2e859fb0"
+      }, 
+      "1d1c3470-33d4-4b0b-9782-903baa1b1786" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-3398", 
+            "y" : "695"
+         }, 
+         "child" : [ 
+            "530faf7d-228f-409e-bfb3-6174db1f923a", 
+            "d8502faa-441c-4469-a4f7-010b57a23fdf", 
+            "cf3ee026-a43e-4f16-b3b1-529961b368f3"
+         ]
+      }, 
+      "530faf7d-228f-409e-bfb3-6174db1f923a" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-3512", 
+            "y" : "737"
+         }, 
+         "child" : [ 
+            "da470aa5-7d02-4bcd-ada2-351a90ceca69"
+         ], 
+         "exp" : "20"
+      }, 
+      "da470aa5-7d02-4bcd-ada2-351a90ceca69" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-3434", 
+            "y" : "809"
+         }, 
+         "child" : [ 
+            "2cdab253-39a6-4eaf-ad48-e4d3c95f604d"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "3", 
+            "proto" : "Stew"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "2cdab253-39a6-4eaf-ad48-e4d3c95f604d" : { 
+         "class" : "HealNode", 
+         "desc" : { 
+            "x" : "-3432", 
+            "y" : "893"
+         }, 
+         "child" : [ 
+            "836efbdd-909d-4579-bff8-d0b89deeac8d"
+         ], 
+         "hp" : "20", 
+         "withTeammate" : "true"
+      }, 
+      "836efbdd-909d-4579-bff8-d0b89deeac8d" : { 
+         "class" : "PlayerResetHungerNode", 
+         "desc" : { 
+            "x" : "-3424", 
+            "y" : "975"
+         }, 
+         "child" : [ 
+            "4f16c1fe-dde2-4c34-8ce7-263b6d246e21"
+         ]
+      }, 
+      "d8502faa-441c-4469-a4f7-010b57a23fdf" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-3398", 
+            "y" : "739"
+         }, 
+         "child" : [ 
+            "da470aa5-7d02-4bcd-ada2-351a90ceca69"
+         ], 
+         "exp" : "30"
+      }, 
+      "cf3ee026-a43e-4f16-b3b1-529961b368f3" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-3284", 
+            "y" : "741"
+         }, 
+         "child" : [ 
+            "da470aa5-7d02-4bcd-ada2-351a90ceca69"
+         ], 
+         "exp" : "50"
+      }, 
+      "5cb1d382-0e76-4029-8591-e23e1636805e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-3188", 
+            "y" : "463"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "c1f2c304-3b5d-42e9-b12e-fb597c0bcb74" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-3090", 
+            "y" : "63"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "a7d9dd94-b908-48f3-85fe-06d300a3a079" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-2096", 
+            "y" : "-115"
+         }, 
+         "child" : [ 
+            "b8a961a1-32ea-4f45-9997-f28da827e072", 
+            "f08a599b-b8c3-4926-980d-bfb65218417d"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "3", 
+            "proto" : "Potato"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "b8a961a1-32ea-4f45-9997-f28da827e072" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-2198", 
+            "y" : "17"
+         }, 
+         "child" : [ 
+            "7c86784d-9ab5-4bf8-99bf-632ee9e5ca6a", 
+            "f08a599b-b8c3-4926-980d-bfb65218417d"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "3", 
+            "proto" : "Meat"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "7c86784d-9ab5-4bf8-99bf-632ee9e5ca6a" : { 
+         "class" : "MathKeyValueNode", 
+         "desc" : { 
+            "x" : "-2214", 
+            "y" : "157"
+         }, 
+         "child" : [ 
+            "0676c57f-1313-4e6a-9ee7-327ae9b5f78c"
+         ], 
+         "key" : "SHOW_INDEX", 
+         "value" : "1", 
+         "opp" : "Add"
+      }, 
+      "0676c57f-1313-4e6a-9ee7-327ae9b5f78c" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-2296", 
+            "y" : "281"
+         }, 
+         "child" : [ 
+            "15e43fef-0dc2-4c39-b5ea-28e13471d12b", 
+            "dea2a43f-0496-405e-94d2-3b3c119ee400"
+         ], 
+         "key" : "SHOW_INDEX", 
+         "value" : "$SHOW_INDEX_MIN$", 
+         "opp" : "GreaterEqual"
+      }, 
+      "15e43fef-0dc2-4c39-b5ea-28e13471d12b" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-2372", 
+            "y" : "427"
+         }, 
+         "child" : [ 
+            "98310d1f-6a89-4d8c-90ed-03bd151a151c", 
+            "dea2a43f-0496-405e-94d2-3b3c119ee400"
+         ], 
+         "key" : "SHOW_INDEX", 
+         "value" : "$SHOW_INDEX_MAX$", 
+         "opp" : "LessEqual"
+      }, 
+      "98310d1f-6a89-4d8c-90ed-03bd151a151c" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-2400", 
+            "y" : "549"
+         }, 
+         "child" : [ 
+            "fb2b3d6b-3791-4a73-b9f0-94edc215d7d4"
+         ], 
+         "text" : "Мясное рагу (группа): Готовить рагу на весь отряд. (Лечение здоровья +25)"
+      }, 
+      "fb2b3d6b-3791-4a73-b9f0-94edc215d7d4" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-2400", 
+            "y" : "629"
+         }, 
+         "child" : [ 
+            "049d92bf-31f5-4235-93df-ca6de74f0685"
+         ], 
+         "text" : "Приготовив мясное рагу Вы восстановите свое здоровье и здоровье членов команды."
+      }, 
+      "049d92bf-31f5-4235-93df-ca6de74f0685" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-2402", 
+            "y" : "711"
+         }, 
+         "child" : [ 
+            "6c1059ad-dd8b-4f82-a802-594986cdf5ba"
+         ], 
+         "text" : "#Campfire.6617a887-df76-4973-a45d-b56e2e859fb0"
+      }, 
+      "6c1059ad-dd8b-4f82-a802-594986cdf5ba" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-2350", 
+            "y" : "767"
+         }, 
+         "child" : [ 
+            "2cc7cc60-a250-4cd9-b9b0-198053b530e7", 
+            "be6b260c-bf5c-453c-aa93-1e3f01823e50", 
+            "102253fa-7546-4b0f-9bc1-a4781ff7fe7d"
+         ]
+      }, 
+      "2cc7cc60-a250-4cd9-b9b0-198053b530e7" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-2464", 
+            "y" : "809"
+         }, 
+         "child" : [ 
+            "40cb20d9-c672-4f3a-b49b-278c5a1d5959"
+         ], 
+         "exp" : "20"
+      }, 
+      "40cb20d9-c672-4f3a-b49b-278c5a1d5959" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-2390", 
+            "y" : "905"
+         }, 
+         "child" : [ 
+            "53e5fa16-9fb2-40dc-951d-5437cea052f3"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "3", 
+            "proto" : "Meat"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "53e5fa16-9fb2-40dc-951d-5437cea052f3" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-2390", 
+            "y" : "975"
+         }, 
+         "child" : [ 
+            "a6e031a0-596c-4ac7-aed3-7506a94abede"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "3", 
+            "proto" : "Potato"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "a6e031a0-596c-4ac7-aed3-7506a94abede" : { 
+         "class" : "HealNode", 
+         "desc" : { 
+            "x" : "-2390", 
+            "y" : "1049"
+         }, 
+         "child" : [ 
+            "45648102-99ba-4555-bf96-bd43df205736"
+         ], 
+         "hp" : "25", 
+         "withTeammate" : "true"
+      }, 
+      "45648102-99ba-4555-bf96-bd43df205736" : { 
+         "class" : "PlayerResetHungerNode", 
+         "desc" : { 
+            "x" : "-2382", 
+            "y" : "1119"
+         }, 
+         "child" : [ 
+            "4f16c1fe-dde2-4c34-8ce7-263b6d246e21"
+         ]
+      }, 
+      "be6b260c-bf5c-453c-aa93-1e3f01823e50" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-2350", 
+            "y" : "811"
+         }, 
+         "child" : [ 
+            "40cb20d9-c672-4f3a-b49b-278c5a1d5959"
+         ], 
+         "exp" : "30"
+      }, 
+      "102253fa-7546-4b0f-9bc1-a4781ff7fe7d" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-2236", 
+            "y" : "811"
+         }, 
+         "child" : [ 
+            "40cb20d9-c672-4f3a-b49b-278c5a1d5959"
+         ], 
+         "exp" : "50"
+      }, 
+      "dea2a43f-0496-405e-94d2-3b3c119ee400" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-2144", 
+            "y" : "565"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "f08a599b-b8c3-4926-980d-bfb65218417d" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-1982", 
+            "y" : "147"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "6e10123a-22ac-4120-81b8-6544b92b7d07" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-1538", 
+            "y" : "51"
+         }, 
+         "child" : [ 
+            "576abea1-3ebd-43bb-b1b9-ac790b5b95f4", 
+            "ac93667e-227d-4ccf-b6ca-0812c23ac562"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "4", 
+            "proto" : "Meat"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "576abea1-3ebd-43bb-b1b9-ac790b5b95f4" : { 
+         "class" : "MathKeyValueNode", 
+         "desc" : { 
+            "x" : "-1554", 
+            "y" : "191"
+         }, 
+         "child" : [ 
+            "707c2159-26ea-493a-bbd1-0eef89dd083e"
+         ], 
+         "key" : "SHOW_INDEX", 
+         "value" : "1", 
+         "opp" : "Add"
+      }, 
+      "707c2159-26ea-493a-bbd1-0eef89dd083e" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-1630", 
+            "y" : "347"
+         }, 
+         "child" : [ 
+            "0a271e6d-efba-419a-a14f-330b3c8a68ec", 
+            "a57f32b4-a3d1-4272-8ce7-71dbdbe3977f"
+         ], 
+         "key" : "SHOW_INDEX", 
+         "value" : "$SHOW_INDEX_MIN$", 
+         "opp" : "GreaterEqual"
+      }, 
+      "0a271e6d-efba-419a-a14f-330b3c8a68ec" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-1706", 
+            "y" : "505"
+         }, 
+         "child" : [ 
+            "269017b8-b9dc-4236-a68e-a0211911871f", 
+            "a57f32b4-a3d1-4272-8ce7-71dbdbe3977f"
+         ], 
+         "key" : "SHOW_INDEX", 
+         "value" : "$SHOW_INDEX_MAX$", 
+         "opp" : "LessEqual"
+      }, 
+      "269017b8-b9dc-4236-a68e-a0211911871f" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-1732", 
+            "y" : "627"
+         }, 
+         "child" : [ 
+            "cb3b32da-f13c-460f-a0ed-7bbc4e4ea977"
+         ], 
+         "text" : "Мясной бульон (группа): Готовить бульон на весь отряд. (Лечение здоровья +15)"
+      }, 
+      "cb3b32da-f13c-460f-a0ed-7bbc4e4ea977" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-1734", 
+            "y" : "707"
+         }, 
+         "child" : [ 
+            "5f2688ce-0e25-4450-9371-833b519df181"
+         ], 
+         "text" : "Приготовив мясной бульон Вы восстановите свое здоровье и здоровье членов команды."
+      }, 
+      "5f2688ce-0e25-4450-9371-833b519df181" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-1734", 
+            "y" : "789"
+         }, 
+         "child" : [ 
+            "ffcc74ad-cc1b-4167-bbeb-cd88977197c3"
+         ], 
+         "text" : "#Campfire.6617a887-df76-4973-a45d-b56e2e859fb0"
+      }, 
+      "ffcc74ad-cc1b-4167-bbeb-cd88977197c3" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-1682", 
+            "y" : "845"
+         }, 
+         "child" : [ 
+            "f2a26cee-9a7c-443d-85ca-8318090d42cd", 
+            "7a8e709a-1210-4529-854e-6b1cf86a884a", 
+            "cdab677f-c417-4677-80d1-27c0b531c47b"
+         ]
+      }, 
+      "f2a26cee-9a7c-443d-85ca-8318090d42cd" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-1796", 
+            "y" : "887"
+         }, 
+         "child" : [ 
+            "99b264a2-f37b-4212-adc4-c73ffcdacde3"
+         ], 
+         "exp" : "20"
+      }, 
+      "99b264a2-f37b-4212-adc4-c73ffcdacde3" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-1718", 
+            "y" : "959"
+         }, 
+         "child" : [ 
+            "615939e0-fc4e-4f43-8250-3871f394b56a"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "4", 
+            "proto" : "Meat"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "615939e0-fc4e-4f43-8250-3871f394b56a" : { 
+         "class" : "HealNode", 
+         "desc" : { 
+            "x" : "-1716", 
+            "y" : "1043"
+         }, 
+         "child" : [ 
+            "0563f921-ebe4-411f-97ad-7b5ab1f69b7a"
+         ], 
+         "hp" : "15", 
+         "withTeammate" : "true"
+      }, 
+      "0563f921-ebe4-411f-97ad-7b5ab1f69b7a" : { 
+         "class" : "PlayerResetHungerNode", 
+         "desc" : { 
+            "x" : "-1710", 
+            "y" : "1123"
+         }, 
+         "child" : [ 
+            "4f16c1fe-dde2-4c34-8ce7-263b6d246e21"
+         ]
+      }, 
+      "7a8e709a-1210-4529-854e-6b1cf86a884a" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-1684", 
+            "y" : "889"
+         }, 
+         "child" : [ 
+            "99b264a2-f37b-4212-adc4-c73ffcdacde3"
+         ], 
+         "exp" : "30"
+      }, 
+      "cdab677f-c417-4677-80d1-27c0b531c47b" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-1570", 
+            "y" : "889"
+         }, 
+         "child" : [ 
+            "99b264a2-f37b-4212-adc4-c73ffcdacde3"
+         ], 
+         "exp" : "50"
+      }, 
+      "a57f32b4-a3d1-4272-8ce7-71dbdbe3977f" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-1472", 
+            "y" : "611"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "ac93667e-227d-4ccf-b6ca-0812c23ac562" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-1322", 
+            "y" : "183"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "3355ea7a-4537-423e-ae1e-8cb950929849" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-972", 
+            "y" : "-35"
+         }, 
+         "child" : [ 
+            "b67dbf8d-f25e-495e-91e1-5fc591e7e51c", 
+            "d243f3e3-c23f-4e05-9801-44a5d6f1e1fd"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Fish.Som"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "b67dbf8d-f25e-495e-91e1-5fc591e7e51c" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-1052", 
+            "y" : "99"
+         }, 
+         "child" : [ 
+            "e0c84eac-af8f-4c19-ac65-0530b95bd465", 
+            "d243f3e3-c23f-4e05-9801-44a5d6f1e1fd"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Fish.Korushka"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "e0c84eac-af8f-4c19-ac65-0530b95bd465" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-1050", 
+            "y" : "175"
+         }, 
+         "child" : [ 
+            "c8e1ed22-d1f5-4a64-8947-da1564745122", 
+            "d243f3e3-c23f-4e05-9801-44a5d6f1e1fd"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Fish.Gorbach"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "c8e1ed22-d1f5-4a64-8947-da1564745122" : { 
+         "class" : "MathKeyValueNode", 
+         "desc" : { 
+            "x" : "-1064", 
+            "y" : "275"
+         }, 
+         "child" : [ 
+            "26b0fecd-b2e1-4668-b695-7069614311b7"
+         ], 
+         "key" : "SHOW_INDEX", 
+         "value" : "1", 
+         "opp" : "Add"
+      }, 
+      "26b0fecd-b2e1-4668-b695-7069614311b7" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-1122", 
+            "y" : "357"
+         }, 
+         "child" : [ 
+            "0c3a687c-dc77-4b66-b988-0ca9d3633b30", 
+            "6c9a5d37-41a6-47c1-8d75-daea574021fe"
+         ], 
+         "key" : "SHOW_INDEX", 
+         "value" : "$SHOW_INDEX_MIN$", 
+         "opp" : "GreaterEqual"
+      }, 
+      "0c3a687c-dc77-4b66-b988-0ca9d3633b30" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-1198", 
+            "y" : "515"
+         }, 
+         "child" : [ 
+            "5bbd7236-f44e-4b0f-a210-ff3d7735416b", 
+            "6c9a5d37-41a6-47c1-8d75-daea574021fe"
+         ], 
+         "key" : "SHOW_INDEX", 
+         "value" : "$SHOW_INDEX_MAX$", 
+         "opp" : "LessEqual"
+      }, 
+      "5bbd7236-f44e-4b0f-a210-ff3d7735416b" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-1224", 
+            "y" : "637"
+         }, 
+         "child" : [ 
+            "8724a7be-9a51-4ca2-9a94-b030bbf9551d"
+         ], 
+         "text" : "Рыбный суп (группа): Готовить суп на весь отряд. (Лечение здоровья +20)"
+      }, 
+      "8724a7be-9a51-4ca2-9a94-b030bbf9551d" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-1226", 
+            "y" : "717"
+         }, 
+         "child" : [ 
+            "7701948d-1133-4583-b7eb-0d236cb3a681"
+         ], 
+         "text" : "Приготовив рыбный суп Вы восстановите свое здоровье и здоровье членов команды."
+      }, 
+      "7701948d-1133-4583-b7eb-0d236cb3a681" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-1226", 
+            "y" : "799"
+         }, 
+         "child" : [ 
+            "a8cd35a0-23f6-43a8-ae49-8a7944b5abef"
+         ], 
+         "text" : "#Campfire.6617a887-df76-4973-a45d-b56e2e859fb0"
+      }, 
+      "a8cd35a0-23f6-43a8-ae49-8a7944b5abef" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-1174", 
+            "y" : "855"
+         }, 
+         "child" : [ 
+            "0022fbf2-4300-4eb8-a4a3-496d7739fc81", 
+            "82745ca3-72dc-40ac-8bf9-7fc508647fa5", 
+            "6bf4e1e9-5b55-45a8-969a-d3787b4ed8e8"
+         ]
+      }, 
+      "0022fbf2-4300-4eb8-a4a3-496d7739fc81" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-1288", 
+            "y" : "897"
+         }, 
+         "child" : [ 
+            "b54f9592-fe19-4a33-b50f-deb919221e7b"
+         ], 
+         "exp" : "20"
+      }, 
+      "b54f9592-fe19-4a33-b50f-deb919221e7b" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-1210", 
+            "y" : "969"
+         }, 
+         "child" : [ 
+            "fa2fe1d2-280f-4470-9f9a-f438e22cde3b"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Fish.Gorbach"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "fa2fe1d2-280f-4470-9f9a-f438e22cde3b" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-1210", 
+            "y" : "1043"
+         }, 
+         "child" : [ 
+            "32de6cd1-3247-435f-a875-956be83db0c6"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Fish.Korushka"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "32de6cd1-3247-435f-a875-956be83db0c6" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-1210", 
+            "y" : "1117"
+         }, 
+         "child" : [ 
+            "543c713a-6d5c-4dc3-b78e-9b2f3ec7f348"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Fish.Som"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "543c713a-6d5c-4dc3-b78e-9b2f3ec7f348" : { 
+         "class" : "HealNode", 
+         "desc" : { 
+            "x" : "-1160", 
+            "y" : "1221"
+         }, 
+         "child" : [ 
+            "edf59046-d338-40ea-80c1-44dbf659bb31"
+         ], 
+         "hp" : "20", 
+         "withTeammate" : "true"
+      }, 
+      "edf59046-d338-40ea-80c1-44dbf659bb31" : { 
+         "class" : "PlayerResetHungerNode", 
+         "desc" : { 
+            "x" : "-1136", 
+            "y" : "1317"
+         }, 
+         "child" : [ 
+            "4f16c1fe-dde2-4c34-8ce7-263b6d246e21"
+         ]
+      }, 
+      "82745ca3-72dc-40ac-8bf9-7fc508647fa5" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-1176", 
+            "y" : "899"
+         }, 
+         "child" : [ 
+            "b54f9592-fe19-4a33-b50f-deb919221e7b"
+         ], 
+         "exp" : "30"
+      }, 
+      "6bf4e1e9-5b55-45a8-969a-d3787b4ed8e8" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-1062", 
+            "y" : "899"
+         }, 
+         "child" : [ 
+            "b54f9592-fe19-4a33-b50f-deb919221e7b"
+         ], 
+         "exp" : "50"
+      }, 
+      "6c9a5d37-41a6-47c1-8d75-daea574021fe" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-964", 
+            "y" : "621"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "d243f3e3-c23f-4e05-9801-44a5d6f1e1fd" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-766", 
+            "y" : "299"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "dc58c409-9bf7-492b-8624-062f8e935223" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-383", 
+            "y" : "77"
+         }, 
+         "child" : [ 
+            "180cfa6a-366f-4556-be9f-9846fdef0efa", 
+            "33dc497b-497c-4122-9de4-e06b1f50836b"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Corn"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "180cfa6a-366f-4556-be9f-9846fdef0efa" : { 
+         "class" : "MathKeyValueNode", 
+         "desc" : { 
+            "x" : "-421", 
+            "y" : "201"
+         }, 
+         "child" : [ 
+            "d17e88f5-d157-4968-aa67-a4ae7c229703"
+         ], 
+         "key" : "SHOW_INDEX", 
+         "value" : "1", 
+         "opp" : "Add"
+      }, 
+      "d17e88f5-d157-4968-aa67-a4ae7c229703" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-505", 
+            "y" : "275"
+         }, 
+         "child" : [ 
+            "f6b1e136-94fd-421b-91fa-56873dbc4b3c", 
+            "edd76e68-555e-47de-bc57-4b991987db59"
+         ], 
+         "key" : "SHOW_INDEX", 
+         "value" : "$SHOW_INDEX_MIN$", 
+         "opp" : "GreaterEqual"
+      }, 
+      "f6b1e136-94fd-421b-91fa-56873dbc4b3c" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-599", 
+            "y" : "377"
+         }, 
+         "child" : [ 
+            "e3072c37-5acb-4bf9-bcae-50ac6159977a", 
+            "edd76e68-555e-47de-bc57-4b991987db59"
+         ], 
+         "key" : "SHOW_INDEX", 
+         "value" : "$SHOW_INDEX_MAX$", 
+         "opp" : "LessEqual"
+      }, 
+      "e3072c37-5acb-4bf9-bcae-50ac6159977a" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-547", 
+            "y" : "493"
+         }, 
+         "child" : [ 
+            "c6ed64d5-93ee-48ba-b794-db13ed4b0dcf"
+         ], 
+         "text" : "#Cooker.e3072c37-5acb-4bf9-bcae-50ac6159977a"
+      }, 
+      "c6ed64d5-93ee-48ba-b794-db13ed4b0dcf" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-612", 
+            "y" : "654"
+         }, 
+         "child" : [ 
+            "2ccd44c6-df39-4485-a7ad-64f086ce011c", 
+            "ecc1144c-676c-4e1b-8fe1-644bc75ee7ff", 
+            "f79f9816-f9c0-4753-a620-77fadc3ec506"
+         ], 
+         "text" : "#Cooker.c6ed64d5-93ee-48ba-b794-db13ed4b0dcf"
+      }, 
+      "2ccd44c6-df39-4485-a7ad-64f086ce011c" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-658", 
+            "y" : "760"
+         }, 
+         "child" : [ 
+            "4ef12d2f-a82b-45bd-9ecc-fca4df88674d"
+         ], 
+         "text" : "#Cooker.2ccd44c6-df39-4485-a7ad-64f086ce011c"
+      }, 
+      "4ef12d2f-a82b-45bd-9ecc-fca4df88674d" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-616", 
+            "y" : "830"
+         }, 
+         "child" : [ 
+            "29f602ec-889e-495c-8e2f-82f1f46564a7"
+         ], 
+         "exp" : "5"
+      }, 
+      "29f602ec-889e-495c-8e2f-82f1f46564a7" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-640", 
+            "y" : "912"
+         }, 
+         "child" : [ 
+            "604fa73f-507e-4414-a568-d0bac95c0130"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Corn"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "604fa73f-507e-4414-a568-d0bac95c0130" : { 
+         "class" : "CharacterAddEffectNode", 
+         "desc" : { 
+            "x" : "-658", 
+            "y" : "1044"
+         }, 
+         "child" : [ 
+            "67fe27a2-bfb3-420f-a22a-e5aa6546c9dc"
+         ], 
+         "proto" : "CornEat_2", 
+         "objectName" : "Player"
+      }, 
+      "67fe27a2-bfb3-420f-a22a-e5aa6546c9dc" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-642", 
+            "y" : "1162"
+         }, 
+         "child" : [ 
+            "e7f003da-db1f-401b-b818-0e70aa1032ce", 
+            "1d954b09-aa40-4b37-b3c0-3880892114ad"
+         ], 
+         "text" : "#Cooker.67fe27a2-bfb3-420f-a22a-e5aa6546c9dc"
+      }, 
+      "e7f003da-db1f-401b-b818-0e70aa1032ce" : { 
+         "class" : "PlaySoundNode", 
+         "desc" : { 
+            "x" : "1205", 
+            "y" : "1364"
+         }, 
+         "child" : [ 
+            "ecc1144c-676c-4e1b-8fe1-644bc75ee7ff"
+         ], 
+         "sound" : "Sounds/SFX/Misc/Eating/eating_meat", 
+         "playOnObject" : "false", 
+         "saveStateOnSaveAndLoad" : "false"
+      }, 
+      "ecc1144c-676c-4e1b-8fe1-644bc75ee7ff" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "720", 
+            "y" : "1415"
+         }, 
+         "child" : [ 
+            "798af017-6940-4055-8ee6-1d3e1dfc5950"
+         ], 
+         "text" : "#Cooker.ecc1144c-676c-4e1b-8fe1-644bc75ee7ff"
+      }, 
+      "798af017-6940-4055-8ee6-1d3e1dfc5950" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "922", 
+            "y" : "1521"
+         }, 
+         "child" : [ 
+            "a39e573c-0a63-4528-bebd-a860b67f48ed"
+         ]
+      }, 
+      "1d954b09-aa40-4b37-b3c0-3880892114ad" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "1493", 
+            "y" : "-328"
+         }, 
+         "child" : [ 
+            "01da36f3-6c22-4563-9c2b-6d49654762e4"
+         ]
+      }, 
+      "edd76e68-555e-47de-bc57-4b991987db59" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-307", 
+            "y" : "515"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "33dc497b-497c-4122-9de4-e06b1f50836b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-241", 
+            "y" : "279"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "d77e2117-322e-4508-a62c-756924e2651b" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-67", 
+            "y" : "33"
+         }, 
+         "child" : [ 
+            "6317529c-696c-4cb6-974f-90dd78177627", 
+            "c1e603e1-2c7a-48e8-a518-e849655e5593"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Potato"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "6317529c-696c-4cb6-974f-90dd78177627" : { 
+         "class" : "MathKeyValueNode", 
+         "desc" : { 
+            "x" : "-83", 
+            "y" : "163"
+         }, 
+         "child" : [ 
+            "60899468-a778-4f2a-a7a9-49a0a2f89986"
+         ], 
+         "key" : "SHOW_INDEX", 
+         "value" : "1", 
+         "opp" : "Add"
+      }, 
+      "60899468-a778-4f2a-a7a9-49a0a2f89986" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-101", 
+            "y" : "235"
+         }, 
+         "child" : [ 
+            "5d2592a6-1fde-4304-b1a6-453e6e60aadd", 
+            "26292b5d-229d-4eb5-9fb9-b334f6daf577"
+         ], 
+         "key" : "SHOW_INDEX", 
+         "value" : "$SHOW_INDEX_MIN$", 
+         "opp" : "GreaterEqual"
+      }, 
+      "5d2592a6-1fde-4304-b1a6-453e6e60aadd" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-199", 
+            "y" : "353"
+         }, 
+         "child" : [ 
+            "a1ca9d3f-d9c0-4510-81cc-57d01bfcadcb", 
+            "26292b5d-229d-4eb5-9fb9-b334f6daf577"
+         ], 
+         "key" : "SHOW_INDEX", 
+         "value" : "$SHOW_INDEX_MAX$", 
+         "opp" : "LessEqual"
+      }, 
+      "a1ca9d3f-d9c0-4510-81cc-57d01bfcadcb" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-152", 
+            "y" : "491"
+         }, 
+         "child" : [ 
+            "0f1c8c39-e2a0-48f7-bc45-0f2063fcd7a7"
+         ], 
+         "text" : "#Cooker.a1ca9d3f-d9c0-4510-81cc-57d01bfcadcb"
+      }, 
+      "0f1c8c39-e2a0-48f7-bc45-0f2063fcd7a7" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-128", 
+            "y" : "639"
+         }, 
+         "child" : [ 
+            "119162a7-2766-4ac6-8f1a-5f22cec3de8c", 
+            "ecc1144c-676c-4e1b-8fe1-644bc75ee7ff", 
+            "f79f9816-f9c0-4753-a620-77fadc3ec506"
+         ], 
+         "text" : "#Cooker.0f1c8c39-e2a0-48f7-bc45-0f2063fcd7a7"
+      }, 
+      "119162a7-2766-4ac6-8f1a-5f22cec3de8c" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-252", 
+            "y" : "757"
+         }, 
+         "child" : [ 
+            "ecfa82d4-abca-49fd-8241-37a1f7ccfabb"
+         ], 
+         "text" : "#Cooker.119162a7-2766-4ac6-8f1a-5f22cec3de8c"
+      }, 
+      "ecfa82d4-abca-49fd-8241-37a1f7ccfabb" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-210", 
+            "y" : "827"
+         }, 
+         "child" : [ 
+            "c9782566-894b-4560-8b33-0c96bacd5a17"
+         ], 
+         "exp" : "1"
+      }, 
+      "c9782566-894b-4560-8b33-0c96bacd5a17" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-234", 
+            "y" : "909"
+         }, 
+         "child" : [ 
+            "4e67ff22-f594-4b94-a46d-76eb47743de8"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Potato"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "4e67ff22-f594-4b94-a46d-76eb47743de8" : { 
+         "class" : "CharacterAddEffectNode", 
+         "desc" : { 
+            "x" : "-252", 
+            "y" : "1041"
+         }, 
+         "child" : [ 
+            "3675a13b-f5eb-43b4-bc37-8b8590e30e54"
+         ], 
+         "proto" : "PotatoEat_2", 
+         "objectName" : "Player"
+      }, 
+      "3675a13b-f5eb-43b4-bc37-8b8590e30e54" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-236", 
+            "y" : "1159"
+         }, 
+         "child" : [ 
+            "e7f003da-db1f-401b-b818-0e70aa1032ce", 
+            "1d954b09-aa40-4b37-b3c0-3880892114ad"
+         ], 
+         "text" : "#Cooker.3675a13b-f5eb-43b4-bc37-8b8590e30e54"
+      }, 
+      "26292b5d-229d-4eb5-9fb9-b334f6daf577" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "97", 
+            "y" : "475"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "c1e603e1-2c7a-48e8-a518-e849655e5593" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "167", 
+            "y" : "179"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "3c43baaf-29e4-4aa0-9d28-b162114c6a1a" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "536", 
+            "y" : "0"
+         }, 
+         "child" : [ 
+            "8b15ce47-38af-4263-a810-dc3a16194e24", 
+            "905a0ce1-3efc-44ad-a395-cb0094eea7a5"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Coffe"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "8b15ce47-38af-4263-a810-dc3a16194e24" : { 
+         "class" : "MathKeyValueNode", 
+         "desc" : { 
+            "x" : "488", 
+            "y" : "112"
+         }, 
+         "child" : [ 
+            "7668be96-f90d-4408-b058-c6a790dcc143"
+         ], 
+         "key" : "SHOW_INDEX", 
+         "value" : "1", 
+         "opp" : "Add"
+      }, 
+      "7668be96-f90d-4408-b058-c6a790dcc143" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "470", 
+            "y" : "198"
+         }, 
+         "child" : [ 
+            "a6d56f64-f27b-47e4-ad12-d610fa0b8ef1", 
+            "d4868b61-1877-4f03-ba21-2209ff511590"
+         ], 
+         "key" : "SHOW_INDEX", 
+         "value" : "$SHOW_INDEX_MIN$", 
+         "opp" : "GreaterEqual"
+      }, 
+      "a6d56f64-f27b-47e4-ad12-d610fa0b8ef1" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "372", 
+            "y" : "316"
+         }, 
+         "child" : [ 
+            "a14a1867-ec6b-4e94-80ac-451e3f0b384a", 
+            "d4868b61-1877-4f03-ba21-2209ff511590"
+         ], 
+         "key" : "SHOW_INDEX", 
+         "value" : "$SHOW_INDEX_MAX$", 
+         "opp" : "LessEqual"
+      }, 
+      "a14a1867-ec6b-4e94-80ac-451e3f0b384a" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "341", 
+            "y" : "564"
+         }, 
+         "child" : [ 
+            "6614f767-59b6-4acb-9d29-b0b05a77e916"
+         ], 
+         "text" : "#Cooker.a14a1867-ec6b-4e94-80ac-451e3f0b384a"
+      }, 
+      "6614f767-59b6-4acb-9d29-b0b05a77e916" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "330", 
+            "y" : "719"
+         }, 
+         "child" : [ 
+            "68ae6c7d-d5f3-40cd-87a3-fa108b5e9f90", 
+            "ecc1144c-676c-4e1b-8fe1-644bc75ee7ff", 
+            "f79f9816-f9c0-4753-a620-77fadc3ec506"
+         ], 
+         "text" : "#Cooker.6614f767-59b6-4acb-9d29-b0b05a77e916"
+      }, 
+      "68ae6c7d-d5f3-40cd-87a3-fa108b5e9f90" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "265", 
+            "y" : "826"
+         }, 
+         "child" : [ 
+            "57fb2250-f107-4ba0-9e0e-125339b3218a"
+         ], 
+         "text" : "#Cooker.68ae6c7d-d5f3-40cd-87a3-fa108b5e9f90"
+      }, 
+      "57fb2250-f107-4ba0-9e0e-125339b3218a" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "250", 
+            "y" : "888"
+         }, 
+         "child" : [ 
+            "bd7a03ef-6a9d-4313-8a5e-8cb9a45dfa79"
+         ], 
+         "exp" : "5"
+      }, 
+      "bd7a03ef-6a9d-4313-8a5e-8cb9a45dfa79" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "249", 
+            "y" : "948"
+         }, 
+         "child" : [ 
+            "887c3b00-87fb-41c3-9af6-bfbd29c8495d"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Coffe"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "887c3b00-87fb-41c3-9af6-bfbd29c8495d" : { 
+         "class" : "CharacterAddEffectNode", 
+         "desc" : { 
+            "x" : "208", 
+            "y" : "1056"
+         }, 
+         "child" : [ 
+            "888afff3-b9a7-4641-b3a1-05222043837f"
+         ], 
+         "proto" : "CoffeeTime_2", 
+         "objectName" : "Player"
+      }, 
+      "888afff3-b9a7-4641-b3a1-05222043837f" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "234", 
+            "y" : "1156"
+         }, 
+         "child" : [ 
+            "3c92735a-2793-40fa-991c-33e3486ec658", 
+            "1d954b09-aa40-4b37-b3c0-3880892114ad"
+         ], 
+         "text" : "#Cooker.888afff3-b9a7-4641-b3a1-05222043837f"
+      }, 
+      "3c92735a-2793-40fa-991c-33e3486ec658" : { 
+         "class" : "PlaySoundNode", 
+         "desc" : { 
+            "x" : "498", 
+            "y" : "1335"
+         }, 
+         "child" : [ 
+            "ecc1144c-676c-4e1b-8fe1-644bc75ee7ff"
+         ], 
+         "sound" : "Sounds/SFX/Consumables/drinking", 
+         "playOnObject" : "false", 
+         "saveStateOnSaveAndLoad" : "false"
+      }, 
+      "d4868b61-1877-4f03-ba21-2209ff511590" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "668", 
+            "y" : "438"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "905a0ce1-3efc-44ad-a395-cb0094eea7a5" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "614", 
+            "y" : "138"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "6980ee6e-12e6-48f1-b439-b66832bc6cbe" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "846", 
+            "y" : "-4"
+         }, 
+         "child" : [ 
+            "7a8a21c0-07d3-4b11-99b6-a038a5f4b540", 
+            "85174a87-3b8e-4392-bb3f-346c5e4eaa20"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Tea"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "7a8a21c0-07d3-4b11-99b6-a038a5f4b540" : { 
+         "class" : "MathKeyValueNode", 
+         "desc" : { 
+            "x" : "820", 
+            "y" : "120"
+         }, 
+         "child" : [ 
+            "261649c0-a914-4fd1-bc39-6c0e16c5338a"
+         ], 
+         "key" : "SHOW_INDEX", 
+         "value" : "1", 
+         "opp" : "Add"
+      }, 
+      "261649c0-a914-4fd1-bc39-6c0e16c5338a" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "802", 
+            "y" : "206"
+         }, 
+         "child" : [ 
+            "d271a352-5130-4f10-b8ef-6c88b026d480", 
+            "bd761442-5229-46f2-b1fc-31f6d9c35e57"
+         ], 
+         "key" : "SHOW_INDEX", 
+         "value" : "$SHOW_INDEX_MIN$", 
+         "opp" : "GreaterEqual"
+      }, 
+      "d271a352-5130-4f10-b8ef-6c88b026d480" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "704", 
+            "y" : "322"
+         }, 
+         "child" : [ 
+            "14cac5e5-b9aa-4dd3-9cdb-b065b4737a04", 
+            "bd761442-5229-46f2-b1fc-31f6d9c35e57"
+         ], 
+         "key" : "SHOW_INDEX", 
+         "value" : "$SHOW_INDEX_MAX$", 
+         "opp" : "LessEqual"
+      }, 
+      "14cac5e5-b9aa-4dd3-9cdb-b065b4737a04" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "695", 
+            "y" : "585"
+         }, 
+         "child" : [ 
+            "343283aa-0fb9-4644-ba5d-94c3089400a1"
+         ], 
+         "text" : "#Cooker.14cac5e5-b9aa-4dd3-9cdb-b065b4737a04"
+      }, 
+      "343283aa-0fb9-4644-ba5d-94c3089400a1" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "693", 
+            "y" : "690"
+         }, 
+         "child" : [ 
+            "bdfb888b-bc9d-4f68-acb1-b71102bb79ff", 
+            "ecc1144c-676c-4e1b-8fe1-644bc75ee7ff", 
+            "f79f9816-f9c0-4753-a620-77fadc3ec506"
+         ], 
+         "text" : "#Cooker.343283aa-0fb9-4644-ba5d-94c3089400a1"
+      }, 
+      "bdfb888b-bc9d-4f68-acb1-b71102bb79ff" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "565", 
+            "y" : "806"
+         }, 
+         "child" : [ 
+            "e9aac740-2ace-4109-a9b8-7d036bb990dc"
+         ], 
+         "text" : "#Cooker.bdfb888b-bc9d-4f68-acb1-b71102bb79ff"
+      }, 
+      "e9aac740-2ace-4109-a9b8-7d036bb990dc" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "674", 
+            "y" : "883"
+         }, 
+         "child" : [ 
+            "03c69444-0aa7-4fb3-911e-c8318a9268df"
+         ], 
+         "exp" : "5"
+      }, 
+      "03c69444-0aa7-4fb3-911e-c8318a9268df" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "661", 
+            "y" : "942"
+         }, 
+         "child" : [ 
+            "0b3c9c87-5620-456f-9333-e4362d961e59"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Tea"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "0b3c9c87-5620-456f-9333-e4362d961e59" : { 
+         "class" : "CharacterAddEffectNode", 
+         "desc" : { 
+            "x" : "578", 
+            "y" : "1037"
+         }, 
+         "child" : [ 
+            "ab734a88-edf0-45cb-a291-f23532623be0"
+         ], 
+         "proto" : "Chifir_2", 
+         "objectName" : "Player"
+      }, 
+      "ab734a88-edf0-45cb-a291-f23532623be0" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "585", 
+            "y" : "1137"
+         }, 
+         "child" : [ 
+            "3c92735a-2793-40fa-991c-33e3486ec658", 
+            "1d954b09-aa40-4b37-b3c0-3880892114ad"
+         ], 
+         "text" : "#Cooker.ab734a88-edf0-45cb-a291-f23532623be0"
+      }, 
+      "bd761442-5229-46f2-b1fc-31f6d9c35e57" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "1000", 
+            "y" : "446"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "85174a87-3b8e-4392-bb3f-346c5e4eaa20" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "968", 
+            "y" : "150"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "731221a7-84c6-4fc0-a426-ceab7fdfafa8" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "1162", 
+            "y" : "16"
+         }, 
+         "child" : [ 
+            "73e54845-9938-4480-aee3-8661090f461b", 
+            "291e8ce9-088e-4b96-803a-3378c936efd3"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Herbal"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "73e54845-9938-4480-aee3-8661090f461b" : { 
+         "class" : "MathKeyValueNode", 
+         "desc" : { 
+            "x" : "1164", 
+            "y" : "130"
+         }, 
+         "child" : [ 
+            "fd69697c-1130-48de-814d-dd26dd7fdfc4"
+         ], 
+         "key" : "SHOW_INDEX", 
+         "value" : "1", 
+         "opp" : "Add"
+      }, 
+      "fd69697c-1130-48de-814d-dd26dd7fdfc4" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "1144", 
+            "y" : "216"
+         }, 
+         "child" : [ 
+            "bbfe4a96-db69-4b65-98b5-da7479e7a25c", 
+            "5f05402a-319e-4a6e-9c72-339519762cea"
+         ], 
+         "key" : "SHOW_INDEX", 
+         "value" : "$SHOW_INDEX_MIN$", 
+         "opp" : "GreaterEqual"
+      }, 
+      "bbfe4a96-db69-4b65-98b5-da7479e7a25c" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "1046", 
+            "y" : "330"
+         }, 
+         "child" : [ 
+            "3a25680b-6d3b-45fa-adaa-404df57ee003", 
+            "5f05402a-319e-4a6e-9c72-339519762cea"
+         ], 
+         "key" : "SHOW_INDEX", 
+         "value" : "$SHOW_INDEX_MAX$", 
+         "opp" : "LessEqual"
+      }, 
+      "3a25680b-6d3b-45fa-adaa-404df57ee003" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "1038", 
+            "y" : "608"
+         }, 
+         "child" : [ 
+            "74ec65f5-ab8e-4f4b-874d-cd36e8992caf"
+         ], 
+         "text" : "#Cooker.3a25680b-6d3b-45fa-adaa-404df57ee003"
+      }, 
+      "74ec65f5-ab8e-4f4b-874d-cd36e8992caf" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "974", 
+            "y" : "723"
+         }, 
+         "child" : [ 
+            "8ad1d903-2c30-4394-baf4-84ae6dfdbddb", 
+            "ecc1144c-676c-4e1b-8fe1-644bc75ee7ff", 
+            "f79f9816-f9c0-4753-a620-77fadc3ec506"
+         ], 
+         "text" : "#Cooker.74ec65f5-ab8e-4f4b-874d-cd36e8992caf"
+      }, 
+      "8ad1d903-2c30-4394-baf4-84ae6dfdbddb" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "857", 
+            "y" : "830"
+         }, 
+         "child" : [ 
+            "7ef14414-fcfd-41b4-a2ee-1e2a9bf4648c"
+         ], 
+         "text" : "#Cooker.8ad1d903-2c30-4394-baf4-84ae6dfdbddb"
+      }, 
+      "7ef14414-fcfd-41b4-a2ee-1e2a9bf4648c" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "1064", 
+            "y" : "891"
+         }, 
+         "child" : [ 
+            "796e40a8-e8cc-40f4-8dcb-6e48773504e5"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Herbal"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "796e40a8-e8cc-40f4-8dcb-6e48773504e5" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "1124", 
+            "y" : "975"
+         }, 
+         "child" : [ 
+            "b4020b1d-e726-4669-b5d3-914caa7a8824"
+         ], 
+         "exp" : "10"
+      }, 
+      "b4020b1d-e726-4669-b5d3-914caa7a8824" : { 
+         "class" : "HealNode", 
+         "desc" : { 
+            "x" : "988", 
+            "y" : "1075"
+         }, 
+         "child" : [ 
+            "a1c1b48a-cd99-4741-89fd-a822b1254110"
+         ], 
+         "hp" : "20"
+      }, 
+      "a1c1b48a-cd99-4741-89fd-a822b1254110" : { 
+         "class" : "CharacterAddEffectNode", 
+         "desc" : { 
+            "x" : "934", 
+            "y" : "1134"
+         }, 
+         "child" : [ 
+            "4fac82b1-3bed-4cd8-99eb-d68e22da77f4"
+         ], 
+         "proto" : "Herb_2", 
+         "objectName" : "Player"
+      }, 
+      "4fac82b1-3bed-4cd8-99eb-d68e22da77f4" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "935", 
+            "y" : "1216"
+         }, 
+         "child" : [ 
+            "3c92735a-2793-40fa-991c-33e3486ec658", 
+            "1d954b09-aa40-4b37-b3c0-3880892114ad"
+         ], 
+         "text" : "#Cooker.4fac82b1-3bed-4cd8-99eb-d68e22da77f4"
+      }, 
+      "5f05402a-319e-4a6e-9c72-339519762cea" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "1344", 
+            "y" : "456"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "291e8ce9-088e-4b96-803a-3378c936efd3" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "1304", 
+            "y" : "182"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "bc3af2b6-d4c8-41fb-b614-af053ad1d6b3" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "1516", 
+            "y" : "36"
+         }, 
+         "child" : [ 
+            "7c82d373-357e-4bdd-8315-97783954cb3c", 
+            "64d884cc-446b-425d-b45a-23daf454eac6"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Stew"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "7c82d373-357e-4bdd-8315-97783954cb3c" : { 
+         "class" : "MathKeyValueNode", 
+         "desc" : { 
+            "x" : "1496", 
+            "y" : "148"
+         }, 
+         "child" : [ 
+            "5a550c06-51c3-4495-9b1a-69fdac568b3f"
+         ], 
+         "key" : "SHOW_INDEX", 
+         "value" : "1", 
+         "opp" : "Add"
+      }, 
+      "5a550c06-51c3-4495-9b1a-69fdac568b3f" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "1478", 
+            "y" : "234"
+         }, 
+         "child" : [ 
+            "6aaebd46-5bdf-4203-8c51-c4235b7cd895", 
+            "a805fec8-3a5c-4981-a21b-8e3281223830"
+         ], 
+         "key" : "SHOW_INDEX", 
+         "value" : "$SHOW_INDEX_MIN$", 
+         "opp" : "GreaterEqual"
+      }, 
+      "6aaebd46-5bdf-4203-8c51-c4235b7cd895" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "1440", 
+            "y" : "354"
+         }, 
+         "child" : [ 
+            "bf9235e5-3db1-4d1e-88c8-26717363ba59", 
+            "a805fec8-3a5c-4981-a21b-8e3281223830"
+         ], 
+         "key" : "SHOW_INDEX", 
+         "value" : "$SHOW_INDEX_MAX$", 
+         "opp" : "LessEqual"
+      }, 
+      "bf9235e5-3db1-4d1e-88c8-26717363ba59" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "1431", 
+            "y" : "610"
+         }, 
+         "child" : [ 
+            "0021e95a-dcc8-4408-a89d-c91d2240625e"
+         ], 
+         "text" : "#Cooker.bf9235e5-3db1-4d1e-88c8-26717363ba59"
+      }, 
+      "0021e95a-dcc8-4408-a89d-c91d2240625e" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "1483", 
+            "y" : "715"
+         }, 
+         "child" : [ 
+            "d2864350-9c35-476a-8b5c-ac5ed2a0daaa", 
+            "ecc1144c-676c-4e1b-8fe1-644bc75ee7ff", 
+            "f79f9816-f9c0-4753-a620-77fadc3ec506"
+         ], 
+         "text" : "#Cooker.0021e95a-dcc8-4408-a89d-c91d2240625e"
+      }, 
+      "d2864350-9c35-476a-8b5c-ac5ed2a0daaa" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "1409", 
+            "y" : "853"
+         }, 
+         "child" : [ 
+            "eb5d598b-c1f1-423b-8d5a-6c5dca448ce3"
+         ], 
+         "text" : "#Cooker.d2864350-9c35-476a-8b5c-ac5ed2a0daaa"
+      }, 
+      "eb5d598b-c1f1-423b-8d5a-6c5dca448ce3" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "1651", 
+            "y" : "911"
+         }, 
+         "child" : [ 
+            "e1f1041b-1bea-4a05-a388-c2808f04ee90"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Stew"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "e1f1041b-1bea-4a05-a388-c2808f04ee90" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "1609", 
+            "y" : "986"
+         }, 
+         "child" : [ 
+            "7cf0c4b0-0991-4ff4-9423-5c1446401932"
+         ], 
+         "exp" : "5"
+      }, 
+      "7cf0c4b0-0991-4ff4-9423-5c1446401932" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "1450", 
+            "y" : "991"
+         }, 
+         "child" : [ 
+            "2792e9b5-35aa-4718-90ce-f80a3d767f66"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Stew_Empty"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "2792e9b5-35aa-4718-90ce-f80a3d767f66" : { 
+         "class" : "CharacterAddEffectNode", 
+         "desc" : { 
+            "x" : "1544", 
+            "y" : "1086"
+         }, 
+         "child" : [ 
+            "89130327-3eb1-4a25-ac34-d83e9bc3725b"
+         ], 
+         "proto" : "CannedStew_2", 
+         "objectName" : "Player"
+      }, 
+      "89130327-3eb1-4a25-ac34-d83e9bc3725b" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "1493", 
+            "y" : "1205"
+         }, 
+         "child" : [ 
+            "e7f003da-db1f-401b-b818-0e70aa1032ce", 
+            "1d954b09-aa40-4b37-b3c0-3880892114ad"
+         ], 
+         "text" : "#Cooker.89130327-3eb1-4a25-ac34-d83e9bc3725b"
+      }, 
+      "a805fec8-3a5c-4981-a21b-8e3281223830" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "1676", 
+            "y" : "474"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "64d884cc-446b-425d-b45a-23daf454eac6" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "1650", 
+            "y" : "196"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "a26001a8-d5d4-4490-a79e-281f27075647" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "1882", 
+            "y" : "-40"
+         }, 
+         "child" : [ 
+            "1df5536f-189e-49e6-8e46-c77dccf973a1", 
+            "742d2557-5205-4f9f-8566-ca75fb2b5f03"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Meat"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "1df5536f-189e-49e6-8e46-c77dccf973a1" : { 
+         "class" : "MathKeyValueNode", 
+         "desc" : { 
+            "x" : "1864", 
+            "y" : "116"
+         }, 
+         "child" : [ 
+            "3ee5b472-53db-426a-bc29-9fc9459f437f"
+         ], 
+         "key" : "SHOW_INDEX", 
+         "value" : "1", 
+         "opp" : "Add"
+      }, 
+      "3ee5b472-53db-426a-bc29-9fc9459f437f" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "1844", 
+            "y" : "202"
+         }, 
+         "child" : [ 
+            "a7eb03f0-e087-410f-838f-3f2512a8cba4", 
+            "c9cc6a05-8cbb-44e3-aabf-21d0e0545230"
+         ], 
+         "key" : "SHOW_INDEX", 
+         "value" : "$SHOW_INDEX_MIN$", 
+         "opp" : "GreaterEqual"
+      }, 
+      "a7eb03f0-e087-410f-838f-3f2512a8cba4" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "1808", 
+            "y" : "326"
+         }, 
+         "child" : [ 
+            "261385ac-33c6-42dc-9c48-c6e68cd45f81", 
+            "c9cc6a05-8cbb-44e3-aabf-21d0e0545230"
+         ], 
+         "key" : "SHOW_INDEX", 
+         "value" : "$SHOW_INDEX_MAX$", 
+         "opp" : "LessEqual"
+      }, 
+      "261385ac-33c6-42dc-9c48-c6e68cd45f81" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "1774", 
+            "y" : "737"
+         }, 
+         "child" : [ 
+            "45a75f34-e479-4266-a285-031d8821cd4d"
+         ], 
+         "text" : "#Cooker.261385ac-33c6-42dc-9c48-c6e68cd45f81"
+      }, 
+      "45a75f34-e479-4266-a285-031d8821cd4d" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "1789", 
+            "y" : "826"
+         }, 
+         "child" : [ 
+            "86c7c784-0870-4b48-961d-2d8e5ef370d4", 
+            "b2b40550-99f6-4718-8c22-d11e5a405326", 
+            "f79f9816-f9c0-4753-a620-77fadc3ec506"
+         ], 
+         "text" : "#Cooker.45a75f34-e479-4266-a285-031d8821cd4d"
+      }, 
+      "86c7c784-0870-4b48-961d-2d8e5ef370d4" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "1777", 
+            "y" : "936"
+         }, 
+         "child" : [ 
+            "a57c4bad-e4f8-4918-a52d-f41e9359d23b"
+         ], 
+         "text" : "#Cooker.86c7c784-0870-4b48-961d-2d8e5ef370d4"
+      }, 
+      "a57c4bad-e4f8-4918-a52d-f41e9359d23b" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "1729", 
+            "y" : "1087"
+         }, 
+         "child" : [ 
+            "45937f35-c2a8-486e-b115-bdc50a124a4c", 
+            "1d954b09-aa40-4b37-b3c0-3880892114ad"
+         ], 
+         "text" : "#Cooker.a57c4bad-e4f8-4918-a52d-f41e9359d23b"
+      }, 
+      "45937f35-c2a8-486e-b115-bdc50a124a4c" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "1777", 
+            "y" : "1217"
+         }, 
+         "child" : [ 
+            "4c4dd7a2-2845-4ef8-af7e-ab5c1b5ed04b"
+         ], 
+         "exp" : "10"
+      }, 
+      "4c4dd7a2-2845-4ef8-af7e-ab5c1b5ed04b" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "1634", 
+            "y" : "1329"
+         }, 
+         "child" : [ 
+            "4739f9fa-c711-4ed6-b731-5504b6288da2"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Meat"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "4739f9fa-c711-4ed6-b731-5504b6288da2" : { 
+         "class" : "CharacterAddEffectNode", 
+         "desc" : { 
+            "x" : "1456", 
+            "y" : "1442"
+         }, 
+         "child" : [ 
+            "3fd02cd2-1202-4810-85e3-9046fc72c9d9"
+         ], 
+         "proto" : "CannedMeat_2", 
+         "objectName" : "Player"
+      }, 
+      "c9cc6a05-8cbb-44e3-aabf-21d0e0545230" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "2006", 
+            "y" : "458"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "742d2557-5205-4f9f-8566-ca75fb2b5f03" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "1996", 
+            "y" : "68"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "3229d7c4-c4ed-4f06-9b53-f08fef5ddfea" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "2224", 
+            "y" : "-218"
+         }, 
+         "child" : [ 
+            "95e8c9de-ccc4-403d-948d-b9d4796ab7f3", 
+            "968a5367-240c-410b-ae6f-7229bf28d1af"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Fish.Gorbach"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "95e8c9de-ccc4-403d-948d-b9d4796ab7f3" : { 
+         "class" : "MathKeyValueNode", 
+         "desc" : { 
+            "x" : "2276", 
+            "y" : "146"
+         }, 
+         "child" : [ 
+            "e2cf45b9-7fc5-4588-a86f-ed1b2ff9002d"
+         ], 
+         "key" : "SHOW_INDEX", 
+         "value" : "1", 
+         "opp" : "Add"
+      }, 
+      "e2cf45b9-7fc5-4588-a86f-ed1b2ff9002d" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "2244", 
+            "y" : "240"
+         }, 
+         "child" : [ 
+            "5b4f6e51-7760-4211-a989-dc49c3e7205f", 
+            "20b0b3ea-daa1-4d56-888e-e7160801540e"
+         ], 
+         "key" : "SHOW_INDEX", 
+         "value" : "$SHOW_INDEX_MIN$", 
+         "opp" : "GreaterEqual"
+      }, 
+      "5b4f6e51-7760-4211-a989-dc49c3e7205f" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "2149", 
+            "y" : "392"
+         }, 
+         "child" : [ 
+            "a9c3c115-1f1b-4834-bc94-aafb59dc4d64", 
+            "20b0b3ea-daa1-4d56-888e-e7160801540e"
+         ], 
+         "key" : "SHOW_INDEX", 
+         "value" : "$SHOW_INDEX_MAX$", 
+         "opp" : "LessEqual"
+      }, 
+      "a9c3c115-1f1b-4834-bc94-aafb59dc4d64" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "1967", 
+            "y" : "1037"
+         }, 
+         "child" : [ 
+            "6a4cd94b-c66f-4c7e-a906-943b417ac7ff"
+         ], 
+         "text" : "#Cooker.a9c3c115-1f1b-4834-bc94-aafb59dc4d64"
+      }, 
+      "6a4cd94b-c66f-4c7e-a906-943b417ac7ff" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "1951", 
+            "y" : "1175"
+         }, 
+         "child" : [ 
+            "2d4e6b65-a456-4a5c-b6b7-1475e74475a4", 
+            "b2b40550-99f6-4718-8c22-d11e5a405326", 
+            "f79f9816-f9c0-4753-a620-77fadc3ec506"
+         ], 
+         "text" : "#Cooker.6a4cd94b-c66f-4c7e-a906-943b417ac7ff"
+      }, 
+      "2d4e6b65-a456-4a5c-b6b7-1475e74475a4" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "1815", 
+            "y" : "1361"
+         }, 
+         "child" : [ 
+            "95cbde67-852d-4fa8-9831-290575f2aae0"
+         ], 
+         "text" : "#Cooker.2d4e6b65-a456-4a5c-b6b7-1475e74475a4"
+      }, 
+      "95cbde67-852d-4fa8-9831-290575f2aae0" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "1696", 
+            "y" : "1477"
+         }, 
+         "child" : [ 
+            "4a2adc3e-0ff5-45d9-ace4-0166977112db"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Fish.Gorbach"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "4a2adc3e-0ff5-45d9-ace4-0166977112db" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "1681", 
+            "y" : "1593"
+         }, 
+         "child" : [ 
+            "fa7b2101-4d83-404c-b002-f9dd4335ee1a", 
+            "1d954b09-aa40-4b37-b3c0-3880892114ad"
+         ], 
+         "text" : "#Cooker.4a2adc3e-0ff5-45d9-ace4-0166977112db"
+      }, 
+      "fa7b2101-4d83-404c-b002-f9dd4335ee1a" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "1742", 
+            "y" : "1741"
+         }, 
+         "child" : [ 
+            "8905cbf6-e94d-4020-9d8d-dce752ee44aa"
+         ], 
+         "exp" : "10"
+      }, 
+      "8905cbf6-e94d-4020-9d8d-dce752ee44aa" : { 
+         "class" : "HealNode", 
+         "desc" : { 
+            "x" : "1742", 
+            "y" : "1858"
+         }, 
+         "child" : [ 
+            "49509bc8-9161-4ebf-9ab8-dabf4bb80bd7"
+         ], 
+         "hp" : "40"
+      }, 
+      "49509bc8-9161-4ebf-9ab8-dabf4bb80bd7" : { 
+         "class" : "CharacterAddEffectNode", 
+         "desc" : { 
+            "x" : "2015", 
+            "y" : "1983"
+         }, 
+         "child" : [ 
+            "3fd02cd2-1202-4810-85e3-9046fc72c9d9"
+         ], 
+         "proto" : "CannedFish_2", 
+         "objectName" : "Player"
+      }, 
+      "20b0b3ea-daa1-4d56-888e-e7160801540e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "2327", 
+            "y" : "573"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "968a5367-240c-410b-ae6f-7229bf28d1af" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "2306", 
+            "y" : "-92"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "7d0af582-23f8-4076-975a-fc62231ca309" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "2472", 
+            "y" : "-224"
+         }, 
+         "child" : [ 
+            "db0e243b-af81-44e5-89f1-6b55ebaabf29", 
+            "ffb2dd55-b381-480f-bbfd-4f2860bad882"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Fish.Korushka"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "db0e243b-af81-44e5-89f1-6b55ebaabf29" : { 
+         "class" : "MathKeyValueNode", 
+         "desc" : { 
+            "x" : "2538", 
+            "y" : "110"
+         }, 
+         "child" : [ 
+            "b7d4690d-dde6-4b2f-be5e-425ba6ff7756"
+         ], 
+         "key" : "SHOW_INDEX", 
+         "value" : "1", 
+         "opp" : "Add"
+      }, 
+      "b7d4690d-dde6-4b2f-be5e-425ba6ff7756" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "2506", 
+            "y" : "210"
+         }, 
+         "child" : [ 
+            "95181e54-a1bc-4c91-95dc-01c203c4c652", 
+            "77eb7110-fd73-421b-bd68-4bb571457ea4"
+         ], 
+         "key" : "SHOW_INDEX", 
+         "value" : "$SHOW_INDEX_MIN$", 
+         "opp" : "GreaterEqual"
+      }, 
+      "95181e54-a1bc-4c91-95dc-01c203c4c652" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "2474", 
+            "y" : "350"
+         }, 
+         "child" : [ 
+            "d958555e-3907-4aab-b6ef-5f4e105de883", 
+            "77eb7110-fd73-421b-bd68-4bb571457ea4"
+         ], 
+         "key" : "SHOW_INDEX", 
+         "value" : "$SHOW_INDEX_MAX$", 
+         "opp" : "LessEqual"
+      }, 
+      "d958555e-3907-4aab-b6ef-5f4e105de883" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "2237", 
+            "y" : "1032"
+         }, 
+         "child" : [ 
+            "0fe62b25-76d4-47f3-b167-95fc7938ca26"
+         ], 
+         "text" : "#Cooker.d958555e-3907-4aab-b6ef-5f4e105de883"
+      }, 
+      "0fe62b25-76d4-47f3-b167-95fc7938ca26" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "2248", 
+            "y" : "1175"
+         }, 
+         "child" : [ 
+            "e632e026-4372-4a03-8d8c-1281e855115a", 
+            "b2b40550-99f6-4718-8c22-d11e5a405326", 
+            "f79f9816-f9c0-4753-a620-77fadc3ec506"
+         ], 
+         "text" : "#Cooker.0fe62b25-76d4-47f3-b167-95fc7938ca26"
+      }, 
+      "e632e026-4372-4a03-8d8c-1281e855115a" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "2197", 
+            "y" : "1346"
+         }, 
+         "child" : [ 
+            "2ae0a96b-61a0-48c0-a973-4461965ace54"
+         ], 
+         "text" : "#Cooker.e632e026-4372-4a03-8d8c-1281e855115a"
+      }, 
+      "2ae0a96b-61a0-48c0-a973-4461965ace54" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "2197", 
+            "y" : "1502"
+         }, 
+         "child" : [ 
+            "6dce7982-8633-455f-bc7d-fa7d468cfa1f"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Fish.Korushka"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "6dce7982-8633-455f-bc7d-fa7d468cfa1f" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "2163", 
+            "y" : "1623"
+         }, 
+         "child" : [ 
+            "f3a7b5d7-cbb0-4c3e-9c65-dbb47a3e22d8", 
+            "1d954b09-aa40-4b37-b3c0-3880892114ad"
+         ], 
+         "text" : "#Cooker.6dce7982-8633-455f-bc7d-fa7d468cfa1f"
+      }, 
+      "f3a7b5d7-cbb0-4c3e-9c65-dbb47a3e22d8" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "2243", 
+            "y" : "1766"
+         }, 
+         "child" : [ 
+            "bd19ffeb-5f85-4074-84f4-d0a37bc326cb"
+         ], 
+         "exp" : "10"
+      }, 
+      "bd19ffeb-5f85-4074-84f4-d0a37bc326cb" : { 
+         "class" : "HealNode", 
+         "desc" : { 
+            "x" : "2243", 
+            "y" : "1867"
+         }, 
+         "child" : [ 
+            "49509bc8-9161-4ebf-9ab8-dabf4bb80bd7"
+         ], 
+         "hp" : "35"
+      }, 
+      "77eb7110-fd73-421b-bd68-4bb571457ea4" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "2694", 
+            "y" : "466"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "ffb2dd55-b381-480f-bbfd-4f2860bad882" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "2598", 
+            "y" : "-86"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "b823b757-b147-4471-aeef-39b80ee25b9f" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "2752", 
+            "y" : "-236"
+         }, 
+         "child" : [ 
+            "318b8a2b-8079-44b7-8a76-505fb3fe6d72", 
+            "f0b17f84-8163-4fce-a2d8-707027d1b7d8"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Fish.Som"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "318b8a2b-8079-44b7-8a76-505fb3fe6d72" : { 
+         "class" : "MathKeyValueNode", 
+         "desc" : { 
+            "x" : "2850", 
+            "y" : "124"
+         }, 
+         "child" : [ 
+            "078e4b58-4d66-473e-9ebe-6703319d9721"
+         ], 
+         "key" : "SHOW_INDEX", 
+         "value" : "1", 
+         "opp" : "Add"
+      }, 
+      "078e4b58-4d66-473e-9ebe-6703319d9721" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "2818", 
+            "y" : "223"
+         }, 
+         "child" : [ 
+            "dd26483c-49eb-4487-ac34-948f80decf91", 
+            "8b046e3b-18b1-45e6-9cc8-43a033b53f37"
+         ], 
+         "key" : "SHOW_INDEX", 
+         "value" : "$SHOW_INDEX_MIN$", 
+         "opp" : "GreaterEqual"
+      }, 
+      "dd26483c-49eb-4487-ac34-948f80decf91" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "2786", 
+            "y" : "362"
+         }, 
+         "child" : [ 
+            "e6194703-5cbe-41ce-a22f-d6e13f89cfe2", 
+            "8b046e3b-18b1-45e6-9cc8-43a033b53f37"
+         ], 
+         "key" : "SHOW_INDEX", 
+         "value" : "$SHOW_INDEX_MAX$", 
+         "opp" : "LessEqual"
+      }, 
+      "e6194703-5cbe-41ce-a22f-d6e13f89cfe2" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "2537", 
+            "y" : "1019"
+         }, 
+         "child" : [ 
+            "c042cd04-619d-41b4-90e6-0baf1cfa5ed3"
+         ], 
+         "text" : "#Cooker.e6194703-5cbe-41ce-a22f-d6e13f89cfe2"
+      }, 
+      "c042cd04-619d-41b4-90e6-0baf1cfa5ed3" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "2531", 
+            "y" : "1176"
+         }, 
+         "child" : [ 
+            "26fd9ef2-9d1e-4304-9d09-d26f3a9af863", 
+            "b2b40550-99f6-4718-8c22-d11e5a405326", 
+            "f79f9816-f9c0-4753-a620-77fadc3ec506"
+         ], 
+         "text" : "#Cooker.c042cd04-619d-41b4-90e6-0baf1cfa5ed3"
+      }, 
+      "26fd9ef2-9d1e-4304-9d09-d26f3a9af863" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "2481", 
+            "y" : "1344"
+         }, 
+         "child" : [ 
+            "ed295257-4426-4b6e-85d4-a0fd5a9ad8bd"
+         ], 
+         "text" : "#Cooker.26fd9ef2-9d1e-4304-9d09-d26f3a9af863"
+      }, 
+      "ed295257-4426-4b6e-85d4-a0fd5a9ad8bd" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "2515", 
+            "y" : "1525"
+         }, 
+         "child" : [ 
+            "7ee621da-7d8c-4ecb-ba59-aba72d3bf468"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Fish.Som"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "7ee621da-7d8c-4ecb-ba59-aba72d3bf468" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "2498", 
+            "y" : "1652"
+         }, 
+         "child" : [ 
+            "3804b82c-f2e4-4567-befb-7a46c3edb457", 
+            "1d954b09-aa40-4b37-b3c0-3880892114ad"
+         ], 
+         "text" : "#Cooker.7ee621da-7d8c-4ecb-ba59-aba72d3bf468"
+      }, 
+      "3804b82c-f2e4-4567-befb-7a46c3edb457" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "2562", 
+            "y" : "1789"
+         }, 
+         "child" : [ 
+            "a0526825-6d37-49e1-baab-b6d1d6a0aecb"
+         ], 
+         "exp" : "20"
+      }, 
+      "a0526825-6d37-49e1-baab-b6d1d6a0aecb" : { 
+         "class" : "HealNode", 
+         "desc" : { 
+            "x" : "2561", 
+            "y" : "1859"
+         }, 
+         "child" : [ 
+            "c6d76622-ec38-40f2-910f-0c1e0254076e"
+         ], 
+         "hp" : "45"
+      }, 
+      "c6d76622-ec38-40f2-910f-0c1e0254076e" : { 
+         "class" : "CharacterAddEffectNode", 
+         "desc" : { 
+            "x" : "2535", 
+            "y" : "1983"
+         }, 
+         "child" : [ 
+            "49509bc8-9161-4ebf-9ab8-dabf4bb80bd7"
+         ], 
+         "proto" : "SomTime_2", 
+         "objectName" : "Player"
+      }, 
+      "8b046e3b-18b1-45e6-9cc8-43a033b53f37" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "3006", 
+            "y" : "480"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "f0b17f84-8163-4fce-a2d8-707027d1b7d8" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "2908", 
+            "y" : "-88"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "62923a8a-b19c-496e-acb1-91040a989645" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "1182", 
+            "y" : "-308"
+         }, 
+         "child" : [ 
+            "a6c56554-c590-4cf4-a6f0-e7616ee44310", 
+            "01da36f3-6c22-4563-9c2b-6d49654762e4"
+         ], 
+         "key" : "SHOW_INDEX", 
+         "value" : "$SHOW_INDEX_MAX$", 
+         "opp" : "Greater"
+      }, 
+      "a6c56554-c590-4cf4-a6f0-e7616ee44310" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "1092", 
+            "y" : "-160"
+         }, 
+         "child" : [ 
+            "991bdb96-c302-48ae-9fd7-f669572a0568"
+         ], 
+         "text" : "#Campfire.e489adc9-3cca-4313-bd3b-a3e7aa737c96"
+      }, 
+      "991bdb96-c302-48ae-9fd7-f669572a0568" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "939", 
+            "y" : "-439"
+         }, 
+         "child" : [ 
+            "147f7556-2b7d-4828-8f7e-b488fa74f86b"
+         ], 
+         "text" : "#Cooker.a39e573c-0a63-4528-bebd-a860b67f48ed"
+      }, 
+      "147f7556-2b7d-4828-8f7e-b488fa74f86b" : { 
+         "class" : "MathKeyValueNode", 
+         "desc" : { 
+            "x" : "940", 
+            "y" : "-300"
+         }, 
+         "child" : [ 
+            "7ede18c8-4f4f-4187-8a4f-043b82847be4"
+         ], 
+         "key" : "SHOW_INDEX_MIN", 
+         "value" : "4", 
+         "opp" : "Add"
+      }, 
+      "7ede18c8-4f4f-4187-8a4f-043b82847be4" : { 
+         "class" : "MathKeyValueNode", 
+         "desc" : { 
+            "x" : "934", 
+            "y" : "-224"
+         }, 
+         "child" : [ 
+            "dd121f2c-96e2-49b2-8427-8b15b34bcbdb"
+         ], 
+         "key" : "SHOW_INDEX_MAX", 
+         "value" : "4", 
+         "opp" : "Add"
+      }
+   }, 
+   "entry" : "a759d743-331d-4e3f-a1e5-a468d24bf7e9"
+}

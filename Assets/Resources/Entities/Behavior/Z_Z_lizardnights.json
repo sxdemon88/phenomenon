@@ -1,0 +1,1253 @@
+{ 
+   "states" : { 
+      "89e73491-2f58-4f79-a52e-56f7286b2ecb" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101219", 
+            "y" : "-100897"
+         }, 
+         "child" : [ 
+            "e9c03229-3ae1-4424-9814-92ab3c2ef9b6", 
+            "d3bbf53d-78fa-4811-91c9-309a17253a30", 
+            "d8c8e286-c7a5-4be5-b147-c73eefdaa4d6"
+         ]
+      }, 
+      "e9c03229-3ae1-4424-9814-92ab3c2ef9b6" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-101781", 
+            "y" : "-100447"
+         }, 
+         "child" : [ 
+            "b0665fd8-9213-48c3-8af9-a9305cfd6dc0", 
+            "78e59e72-18d9-4cd1-9a9d-a0ed020920eb", 
+            "3674622d-2e99-4153-882d-b7564e5fb5a8"
+         ]
+      }, 
+      "b0665fd8-9213-48c3-8af9-a9305cfd6dc0" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102247", 
+            "y" : "-100196", 
+            "comment" : "4"
+         }, 
+         "child" : [ 
+            "501ce502-ebeb-44b0-9af1-6deedc4a4181"
+         ]
+      }, 
+      "501ce502-ebeb-44b0-9af1-6deedc4a4181" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-102522", 
+            "y" : "-100050"
+         }, 
+         "child" : [ 
+            "ae91657b-d0e4-4947-9e8e-895e0952b61c", 
+            "6e8559aa-6f79-4b51-a389-df0465d4e46e"
+         ], 
+         "value" : "20", 
+         "modifier" : "Level"
+      }, 
+      "ae91657b-d0e4-4947-9e8e-895e0952b61c" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-102694", 
+            "y" : "-99948"
+         }, 
+         "child" : [ 
+            "f79dbaa7-58f9-4998-bdb7-d891bdad0d9b", 
+            "6e8559aa-6f79-4b51-a389-df0465d4e46e"
+         ]
+      }, 
+      "f79dbaa7-58f9-4998-bdb7-d891bdad0d9b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102967", 
+            "y" : "-99756"
+         }, 
+         "child" : [ 
+            "3536181b-efed-4461-bcac-dc5d6a86c646", 
+            "665482af-5518-4c1f-a336-4757be63d96a", 
+            "8a9785d4-328f-4dd5-965c-02f547a0a47c", 
+            "9ecb6368-cccd-4bd9-b1da-f9f3a87bcbaa"
+         ]
+      }, 
+      "3536181b-efed-4461-bcac-dc5d6a86c646" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-103169", 
+            "y" : "-99601"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.1", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Lizard", 
+            "character" : "Lizard", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "665482af-5518-4c1f-a336-4757be63d96a" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-103056", 
+            "y" : "-99600"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.2", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Lizard_Small", 
+            "character" : "Lizard_Small", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "8a9785d4-328f-4dd5-965c-02f547a0a47c" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102935", 
+            "y" : "-99598"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.3", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Lizard_Small", 
+            "character" : "Lizard_Small", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "9ecb6368-cccd-4bd9-b1da-f9f3a87bcbaa" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102823", 
+            "y" : "-99598"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.4", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Lizard_Small", 
+            "character" : "Lizard_Small", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "6e8559aa-6f79-4b51-a389-df0465d4e46e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102231", 
+            "y" : "-99669"
+         }, 
+         "child" : [ 
+            "9be322da-3676-439f-b81c-fa5868604a9b", 
+            "22309e18-210c-45e8-8baf-26dbc4a7df71", 
+            "c0da7cbb-9dc9-4379-80ef-00f297339cad", 
+            "fba56182-03fe-43b9-8f3a-4b645dbe57f3"
+         ]
+      }, 
+      "9be322da-3676-439f-b81c-fa5868604a9b" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102415", 
+            "y" : "-99608"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.1", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Lizard", 
+            "character" : "lizard20", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "22309e18-210c-45e8-8baf-26dbc4a7df71" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102296", 
+            "y" : "-99610"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.2", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Lizard_Small", 
+            "character" : "lizard_small20", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "c0da7cbb-9dc9-4379-80ef-00f297339cad" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102179", 
+            "y" : "-99608"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.3", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Lizard_Small", 
+            "character" : "lizard_small20", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "fba56182-03fe-43b9-8f3a-4b645dbe57f3" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102063", 
+            "y" : "-99608"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.4", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Lizard_Small", 
+            "character" : "lizard_small20", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "78e59e72-18d9-4cd1-9a9d-a0ed020920eb" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101761", 
+            "y" : "-100248", 
+            "comment" : "6"
+         }, 
+         "child" : [ 
+            "b0665fd8-9213-48c3-8af9-a9305cfd6dc0", 
+            "969f01a5-c1f2-471a-b04c-df7b55fc568f"
+         ]
+      }, 
+      "969f01a5-c1f2-471a-b04c-df7b55fc568f" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-101760", 
+            "y" : "-100078"
+         }, 
+         "child" : [ 
+            "0c2c04a7-478a-486b-836f-957c8ff7fae0", 
+            "2d988e56-78ba-4312-81d4-28d27d21dbba"
+         ], 
+         "value" : "20", 
+         "modifier" : "Level"
+      }, 
+      "0c2c04a7-478a-486b-836f-957c8ff7fae0" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101900", 
+            "y" : "-99896"
+         }, 
+         "child" : [ 
+            "86b57408-2445-4334-a72d-e54c46627742", 
+            "b0498415-54c9-4766-b549-12c523a7f31b"
+         ]
+      }, 
+      "86b57408-2445-4334-a72d-e54c46627742" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101959", 
+            "y" : "-99740"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.5", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Lizard", 
+            "character" : "lizard20", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "b0498415-54c9-4766-b549-12c523a7f31b" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101839", 
+            "y" : "-99739"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.6", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Lizard_Small", 
+            "character" : "lizard_small20", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "2d988e56-78ba-4312-81d4-28d27d21dbba" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101611", 
+            "y" : "-99879"
+         }, 
+         "child" : [ 
+            "3191629f-5eb4-407c-b4b1-88f7cc9ead9c", 
+            "9f2a7eb4-2655-4921-86a0-cc5dae9b90de"
+         ]
+      }, 
+      "3191629f-5eb4-407c-b4b1-88f7cc9ead9c" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101669", 
+            "y" : "-99747"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.5", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Lizard_Small", 
+            "character" : "Lizard_Small", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "9f2a7eb4-2655-4921-86a0-cc5dae9b90de" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101549", 
+            "y" : "-99747"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.6", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Lizard_Small", 
+            "character" : "Lizard_Small", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "3674622d-2e99-4153-882d-b7564e5fb5a8" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101314", 
+            "y" : "-100346", 
+            "comment" : "8"
+         }, 
+         "child" : [ 
+            "78e59e72-18d9-4cd1-9a9d-a0ed020920eb", 
+            "dd82ca24-e308-46b3-9eda-4aabd64d733a"
+         ]
+      }, 
+      "dd82ca24-e308-46b3-9eda-4aabd64d733a" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-101133", 
+            "y" : "-99739"
+         }, 
+         "child" : [ 
+            "de84a1ce-e04c-4a93-85fc-07bccd8418b1", 
+            "b470a116-857d-45bf-8e28-26114bf0b61e"
+         ], 
+         "value" : "20", 
+         "modifier" : "Level"
+      }, 
+      "de84a1ce-e04c-4a93-85fc-07bccd8418b1" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101206", 
+            "y" : "-99588"
+         }, 
+         "child" : [ 
+            "66a0c3f8-cd8d-4758-9efd-52b1086d1766", 
+            "7b26d72f-4157-4c3c-977b-de6271e3e48a"
+         ]
+      }, 
+      "66a0c3f8-cd8d-4758-9efd-52b1086d1766" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101361", 
+            "y" : "-99447"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.7", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Lizard", 
+            "character" : "lizard20", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "7b26d72f-4157-4c3c-977b-de6271e3e48a" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101241", 
+            "y" : "-99450"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.8", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Lizard_Small", 
+            "character" : "lizard_small20", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "b470a116-857d-45bf-8e28-26114bf0b61e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100953", 
+            "y" : "-99585"
+         }, 
+         "child" : [ 
+            "4d24cc5e-ac3a-4c0c-b371-ea4e8d64fd24", 
+            "cf8607bc-14ae-46ef-9814-f33c99ce419d"
+         ]
+      }, 
+      "4d24cc5e-ac3a-4c0c-b371-ea4e8d64fd24" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101012", 
+            "y" : "-99453"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.7", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Lizard_Small", 
+            "character" : "Lizard_Small", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "cf8607bc-14ae-46ef-9814-f33c99ce419d" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100891", 
+            "y" : "-99453"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.8", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Lizard_Small", 
+            "character" : "Lizard_Small", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "d3bbf53d-78fa-4811-91c9-309a17253a30" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100818", 
+            "y" : "-100356"
+         }, 
+         "child" : [ 
+            "46fdea54-1728-44a5-9ac5-519b758659b9"
+         ]
+      }, 
+      "46fdea54-1728-44a5-9ac5-519b758659b9" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-100094", 
+            "y" : "-100252"
+         }, 
+         "child" : [ 
+            "fb9a5cef-d4f8-407c-8f4c-1b9d4b2dcf76", 
+            "5c42ee02-e77b-4f39-ae4e-d818f5624063"
+         ], 
+         "value" : "20", 
+         "modifier" : "Level"
+      }, 
+      "fb9a5cef-d4f8-407c-8f4c-1b9d4b2dcf76" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-100168", 
+            "y" : "-100094"
+         }, 
+         "child" : [ 
+            "875a6175-197e-4acf-95b1-04ff1aa78895", 
+            "b4bfb2e5-7d45-4da1-ab23-be6bdd7e5c5b", 
+            "57c519da-ed0e-4940-979b-9f815fda082a"
+         ]
+      }, 
+      "875a6175-197e-4acf-95b1-04ff1aa78895" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100311", 
+            "y" : "-99936", 
+            "comment" : "4"
+         }, 
+         "child" : [ 
+            "67ae7bec-fec1-40a1-adf5-65c33753c3b8", 
+            "5c4203f8-db6d-43d6-bae7-1c2b3c3215e0", 
+            "bd54ac7f-bbb9-4f16-b30a-6b4de00f6f6c", 
+            "0add1be1-7174-4770-a180-7288dcf30623"
+         ]
+      }, 
+      "67ae7bec-fec1-40a1-adf5-65c33753c3b8" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-100317", 
+            "y" : "-99750"
+         }, 
+         "child" : [ 
+            "90c73159-ae97-44f7-ba1b-5ecbf4888ee0", 
+            "21bc2fb7-670d-4294-b447-54f7792ce2d6", 
+            "23aaec56-2682-47d8-8e39-6b7da6fa8c2b", 
+            "0acb222e-f3cb-4378-9885-d2f918606be7", 
+            "126f914f-116f-4618-aeab-d3f1d3b0c4e5"
+         ]
+      }, 
+      "90c73159-ae97-44f7-ba1b-5ecbf4888ee0" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-100390", 
+            "y" : "-99630"
+         }, 
+         "child" : [ 
+            "e9971d24-4334-46df-9651-50a3e8301e24"
+         ], 
+         "objectName" : "Spawn.Enemy.8", 
+         "pos" : [ 
+            "-3", 
+            "0", 
+            "6"
+         ]
+      }, 
+      "e9971d24-4334-46df-9651-50a3e8301e24" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100390", 
+            "y" : "-99522"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.8", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Lizard", 
+            "character" : "lizard20", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "21bc2fb7-670d-4294-b447-54f7792ce2d6" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-100249", 
+            "y" : "-99632"
+         }, 
+         "child" : [ 
+            "a6405a63-678e-4fb0-8bd2-616f2243b176"
+         ], 
+         "objectName" : "Spawn.Enemy.7", 
+         "pos" : [ 
+            "11", 
+            "0", 
+            "7"
+         ]
+      }, 
+      "a6405a63-678e-4fb0-8bd2-616f2243b176" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100244", 
+            "y" : "-99520"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.7", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Lizard_Small", 
+            "character" : "lizard_small20", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "23aaec56-2682-47d8-8e39-6b7da6fa8c2b" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-100104", 
+            "y" : "-99634"
+         }, 
+         "child" : [ 
+            "06d643b0-94c9-47dd-976e-372f5ffab4ad"
+         ], 
+         "objectName" : "Spawn.Enemy.6", 
+         "pos" : [ 
+            "5", 
+            "0", 
+            "9"
+         ]
+      }, 
+      "06d643b0-94c9-47dd-976e-372f5ffab4ad" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100100", 
+            "y" : "-99515"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.6", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Lizard_Small", 
+            "character" : "Lizard_Small", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "0acb222e-f3cb-4378-9885-d2f918606be7" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-99959", 
+            "y" : "-99634"
+         }, 
+         "child" : [ 
+            "8a770e07-b717-4472-a5db-0634173ffe47"
+         ], 
+         "objectName" : "Spawn.Enemy.5", 
+         "pos" : [ 
+            "-6", 
+            "0", 
+            "-11"
+         ]
+      }, 
+      "8a770e07-b717-4472-a5db-0634173ffe47" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-99949", 
+            "y" : "-99515"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.5", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Lizard", 
+            "character" : "Lizard", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "126f914f-116f-4618-aeab-d3f1d3b0c4e5" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-99804", 
+            "y" : "-99632"
+         }, 
+         "child" : [ 
+            "24ad226e-f427-41a7-b5db-0869d7525959"
+         ], 
+         "objectName" : "Spawn.Enemy.4", 
+         "pos" : [ 
+            "-15", 
+            "0", 
+            "-6"
+         ]
+      }, 
+      "24ad226e-f427-41a7-b5db-0869d7525959" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-99803", 
+            "y" : "-99512"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.4", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Lizard_Small", 
+            "character" : "Lizard_Small", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "5c4203f8-db6d-43d6-bae7-1c2b3c3215e0" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-100162", 
+            "y" : "-99750"
+         }, 
+         "child" : [ 
+            "90c73159-ae97-44f7-ba1b-5ecbf4888ee0", 
+            "21bc2fb7-670d-4294-b447-54f7792ce2d6", 
+            "23aaec56-2682-47d8-8e39-6b7da6fa8c2b", 
+            "0acb222e-f3cb-4378-9885-d2f918606be7", 
+            "126f914f-116f-4618-aeab-d3f1d3b0c4e5"
+         ]
+      }, 
+      "bd54ac7f-bbb9-4f16-b30a-6b4de00f6f6c" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-100018", 
+            "y" : "-99748"
+         }, 
+         "child" : [ 
+            "90c73159-ae97-44f7-ba1b-5ecbf4888ee0", 
+            "21bc2fb7-670d-4294-b447-54f7792ce2d6", 
+            "23aaec56-2682-47d8-8e39-6b7da6fa8c2b", 
+            "0acb222e-f3cb-4378-9885-d2f918606be7", 
+            "126f914f-116f-4618-aeab-d3f1d3b0c4e5"
+         ]
+      }, 
+      "0add1be1-7174-4770-a180-7288dcf30623" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-99862", 
+            "y" : "-99748"
+         }, 
+         "child" : [ 
+            "90c73159-ae97-44f7-ba1b-5ecbf4888ee0", 
+            "21bc2fb7-670d-4294-b447-54f7792ce2d6", 
+            "23aaec56-2682-47d8-8e39-6b7da6fa8c2b", 
+            "0acb222e-f3cb-4378-9885-d2f918606be7", 
+            "126f914f-116f-4618-aeab-d3f1d3b0c4e5"
+         ]
+      }, 
+      "b4bfb2e5-7d45-4da1-ab23-be6bdd7e5c5b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100103", 
+            "y" : "-99937", 
+            "comment" : "3"
+         }, 
+         "child" : [ 
+            "67ae7bec-fec1-40a1-adf5-65c33753c3b8", 
+            "5c4203f8-db6d-43d6-bae7-1c2b3c3215e0", 
+            "bd54ac7f-bbb9-4f16-b30a-6b4de00f6f6c"
+         ]
+      }, 
+      "57c519da-ed0e-4940-979b-9f815fda082a" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99917", 
+            "y" : "-99940", 
+            "comment" : "2"
+         }, 
+         "child" : [ 
+            "bd54ac7f-bbb9-4f16-b30a-6b4de00f6f6c", 
+            "0add1be1-7174-4770-a180-7288dcf30623"
+         ]
+      }, 
+      "5c42ee02-e77b-4f39-ae4e-d818f5624063" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99712", 
+            "y" : "-100094"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "d8c8e286-c7a5-4be5-b147-c73eefdaa4d6" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-100649", 
+            "y" : "-100860"
+         }, 
+         "child" : [ 
+            "813c223d-acba-4e77-8fb6-78084645b03c", 
+            "be775718-c37a-45bd-b27d-18c0d81711d8"
+         ]
+      }, 
+      "813c223d-acba-4e77-8fb6-78084645b03c" : { 
+         "class" : "MoveObjectNode", 
+         "desc" : { 
+            "x" : "-100668", 
+            "y" : "-100704"
+         }, 
+         "child" : [ 
+            "d636aab0-70f7-4972-9afd-f7c0633177d9"
+         ], 
+         "objectName" : "Spawn.Enemy.5", 
+         "pos" : [ 
+            "-6", 
+            "0", 
+            "-11"
+         ]
+      }, 
+      "d636aab0-70f7-4972-9afd-f7c0633177d9" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100665", 
+            "y" : "-100607"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.5", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Lizard", 
+            "character" : "Lizard", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "Rat.Swing"
+         }, 
+         "randomName" : "true"
+      }, 
+      "be775718-c37a-45bd-b27d-18c0d81711d8" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100533", 
+            "y" : "-100729"
+         }, 
+         "child" : [ 
+         ]
+      }
+   }, 
+   "entry" : "89e73491-2f58-4f79-a52e-56f7286b2ecb"
+}

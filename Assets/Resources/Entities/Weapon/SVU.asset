@@ -25,11 +25,13 @@ MonoBehaviour:
     path: entities/ammo/7mm_54r
   AmmoCapacity: 10
   BothHands: 1
+  Stack: 0
   DamageMin: 14
   DamageMax: 25
   DamageRadius: 1
   Fatality: 25
   Perks: 1073742850
+  PerksEx: 0
   DamageType: 0
   Single:
     AP: 5
@@ -71,3 +73,10 @@ MonoBehaviour:
   NoAmmoSounds:
   - path: Sounds/SFX/Weapons/M24/m24_empty
   PreAttackSounds: []
+  MissSounds:
+  - path: Sounds/SFX/Weapons/Miss/shoot_missing1
+  - path: Sounds/SFX/Weapons/Miss/shoot_missing2
+  - path: Sounds/SFX/Weapons/Miss/shoot_missing3
+  - path: Sounds/SFX/Weapons/Miss/shoot_missing4
+  - path: Sounds/SFX/Weapons/Miss/shoot_missing5
+  - path: Sounds/SFX/Weapons/Miss/shoot_missing6

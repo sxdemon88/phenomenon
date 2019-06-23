@@ -1,0 +1,596 @@
+{ 
+   "states" : { 
+      "ada14cd0-e838-4da6-9fe5-83772f3cb07e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100697", 
+            "y" : "-100846"
+         }, 
+         "child" : [ 
+            "3a050113-4804-400e-bee5-b16788816dbf", 
+            "e3e8b30d-b12d-4f90-a15e-3a7215e677ab", 
+            "7191a7ac-2910-4fb9-a599-b0cd6193fcb9"
+         ]
+      }, 
+      "3a050113-4804-400e-bee5-b16788816dbf" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-99861", 
+            "y" : "-101009"
+         }, 
+         "child" : [ 
+            "ca6edc89-d88f-49d5-a74c-db7f0128826a", 
+            "898821f3-e1c6-4aa2-b33d-b09ccd825ecd"
+         ], 
+         "key" : "GOT_DISCOUNT"
+      }, 
+      "ca6edc89-d88f-49d5-a74c-db7f0128826a" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99961", 
+            "y" : "-100867"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "898821f3-e1c6-4aa2-b33d-b09ccd825ecd" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-99821", 
+            "y" : "-100865"
+         }, 
+         "child" : [ 
+            "4adc9cc7-39cb-42fe-9184-c27ed8e10af2"
+         ], 
+         "key" : "GOT_DISCOUNT"
+      }, 
+      "4adc9cc7-39cb-42fe-9184-c27ed8e10af2" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-100071", 
+            "y" : "-100712"
+         }, 
+         "child" : [ 
+            "4deb38a3-d688-41cc-874f-a91435e7eb24", 
+            "fcb9aa0a-42cb-4520-b452-317c546ef078"
+         ], 
+         "value" : "130", 
+         "modifier" : "Barter"
+      }, 
+      "4deb38a3-d688-41cc-874f-a91435e7eb24" : { 
+         "class" : "BarterDiscountNode", 
+         "desc" : { 
+            "x" : "-100223", 
+            "y" : "-100530"
+         }, 
+         "child" : [ 
+         ], 
+         "discount" : "-80"
+      }, 
+      "fcb9aa0a-42cb-4520-b452-317c546ef078" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-99917", 
+            "y" : "-100588"
+         }, 
+         "child" : [ 
+            "3ce7c0bc-4569-4467-80d1-c5cb3eb3ea24", 
+            "9552d162-240b-424e-a09c-85352dd701dd"
+         ], 
+         "value" : "130", 
+         "modifier" : "Speech"
+      }, 
+      "3ce7c0bc-4569-4467-80d1-c5cb3eb3ea24" : { 
+         "class" : "BarterDiscountNode", 
+         "desc" : { 
+            "x" : "-100083", 
+            "y" : "-100398"
+         }, 
+         "child" : [ 
+         ], 
+         "discount" : "-90"
+      }, 
+      "9552d162-240b-424e-a09c-85352dd701dd" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-99673", 
+            "y" : "-100484"
+         }, 
+         "child" : [ 
+            "ff6dd39e-cb86-4cb4-92c9-5c7159c32387", 
+            "57ff82c0-ba12-49d6-b3c5-7ddf04fd303e"
+         ], 
+         "value" : "9", 
+         "modifier" : "Charisma"
+      }, 
+      "ff6dd39e-cb86-4cb4-92c9-5c7159c32387" : { 
+         "class" : "BarterDiscountNode", 
+         "desc" : { 
+            "x" : "-99835", 
+            "y" : "-100302"
+         }, 
+         "child" : [ 
+         ], 
+         "discount" : "-100"
+      }, 
+      "57ff82c0-ba12-49d6-b3c5-7ddf04fd303e" : { 
+         "class" : "BarterDiscountNode", 
+         "desc" : { 
+            "x" : "-99483", 
+            "y" : "-100301"
+         }, 
+         "child" : [ 
+         ], 
+         "discount" : "-110"
+      }, 
+      "e3e8b30d-b12d-4f90-a15e-3a7215e677ab" : { 
+         "class" : "CharacterDistanceTriggerNode", 
+         "desc" : { 
+            "x" : "-101079", 
+            "y" : "-100555"
+         }, 
+         "child" : [ 
+            "a0265286-6d71-4714-844c-400532f94fee"
+         ], 
+         "distanceCondition" : "LessThan", 
+         "distance" : "20", 
+         "checkVisibility" : "true"
+      }, 
+      "a0265286-6d71-4714-844c-400532f94fee" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101027", 
+            "y" : "-100351"
+         }, 
+         "child" : [ 
+            "da42929c-a3a4-4b99-b6fa-bcfadb62318b", 
+            "737728f0-9544-4538-90cc-58d2468a7566"
+         ], 
+         "key" : "WHOOP"
+      }, 
+      "da42929c-a3a4-4b99-b6fa-bcfadb62318b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101220", 
+            "y" : "-100191"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "737728f0-9544-4538-90cc-58d2468a7566" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-100864", 
+            "y" : "-100240"
+         }, 
+         "child" : [ 
+            "2814b4a7-63cb-4f19-8db0-281e78a32eca"
+         ], 
+         "key" : "WHOOP"
+      }, 
+      "2814b4a7-63cb-4f19-8db0-281e78a32eca" : { 
+         "class" : "CharacterRotateToNode", 
+         "desc" : { 
+            "x" : "-100874", 
+            "y" : "-100161"
+         }, 
+         "child" : [ 
+            "523aa1ec-d9bb-458b-bbd9-69e950448d08"
+         ], 
+         "pointName" : "Player", 
+         "waitEnd" : "false"
+      }, 
+      "523aa1ec-d9bb-458b-bbd9-69e950448d08" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-100864", 
+            "y" : "-100063"
+         }, 
+         "child" : [ 
+            "d2bf169f-fca5-4155-ae74-d9601808fd68"
+         ], 
+         "waitTime" : "0.1"
+      }, 
+      "d2bf169f-fca5-4155-ae74-d9601808fd68" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-100899", 
+            "y" : "-100000"
+         }, 
+         "child" : [ 
+            "2470dcef-10b3-45d1-8b31-72a538873b26", 
+            "b5c0acc9-e7f0-427b-923e-e73442b45271"
+         ], 
+         "note_key" : "TORGOVEC2VSTRECHA2"
+      }, 
+      "2470dcef-10b3-45d1-8b31-72a538873b26" : { 
+         "class" : "IsFemaleNode", 
+         "desc" : { 
+            "x" : "-100559", 
+            "y" : "-99732"
+         }, 
+         "child" : [ 
+            "e7ab1d99-53b2-475c-a786-188b0838c534", 
+            "edc849eb-f277-4b6f-919a-0193d141b5a9"
+         ]
+      }, 
+      "e7ab1d99-53b2-475c-a786-188b0838c534" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-100683", 
+            "y" : "-99649"
+         }, 
+         "child" : [ 
+            "d53c6790-a83c-495e-8cbb-d9a9b631c3dd", 
+            "3b2a58c8-1730-4145-b731-44ff805e10c6", 
+            "99bd55fe-4834-446f-a357-5a5311bc499c"
+         ]
+      }, 
+      "d53c6790-a83c-495e-8cbb-d9a9b631c3dd" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100742", 
+            "y" : "-99455"
+         }, 
+         "child" : [ 
+            "36c76865-c21e-4e57-8dde-9a8ffddff55d"
+         ], 
+         "text" : "Новый товар подвезли, глянешь?", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "36c76865-c21e-4e57-8dde-9a8ffddff55d" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100513", 
+            "y" : "-99309"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "3b2a58c8-1730-4145-b731-44ff805e10c6" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100740", 
+            "y" : "-99534"
+         }, 
+         "child" : [ 
+            "36c76865-c21e-4e57-8dde-9a8ffddff55d"
+         ], 
+         "text" : "Какая встреча...", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "99bd55fe-4834-446f-a357-5a5311bc499c" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100737", 
+            "y" : "-99612"
+         }, 
+         "child" : [ 
+            "36c76865-c21e-4e57-8dde-9a8ffddff55d"
+         ], 
+         "text" : "Оооо панi!", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "edc849eb-f277-4b6f-919a-0193d141b5a9" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-100362", 
+            "y" : "-99645"
+         }, 
+         "child" : [ 
+            "f6a287d1-1cf8-421d-89a4-db2b93171ec9", 
+            "ca0c43a6-e971-4ef2-9f4c-658a78871a83", 
+            "200fddc5-b769-4711-b735-2e3d16b8c11d"
+         ]
+      }, 
+      "f6a287d1-1cf8-421d-89a4-db2b93171ec9" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100410", 
+            "y" : "-99601"
+         }, 
+         "child" : [ 
+            "36c76865-c21e-4e57-8dde-9a8ffddff55d"
+         ], 
+         "text" : "Оооо пан!", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "ca0c43a6-e971-4ef2-9f4c-658a78871a83" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100412", 
+            "y" : "-99519"
+         }, 
+         "child" : [ 
+            "36c76865-c21e-4e57-8dde-9a8ffddff55d"
+         ], 
+         "text" : "Какая встреча...", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "200fddc5-b769-4711-b735-2e3d16b8c11d" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100412", 
+            "y" : "-99450"
+         }, 
+         "child" : [ 
+            "36c76865-c21e-4e57-8dde-9a8ffddff55d"
+         ], 
+         "text" : "Новый товар подвезли, глянешь?", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "b5c0acc9-e7f0-427b-923e-e73442b45271" : { 
+         "class" : "IsFemaleNode", 
+         "desc" : { 
+            "x" : "-101398", 
+            "y" : "-99891"
+         }, 
+         "child" : [ 
+            "2a0abc62-6505-4703-8912-8ffbd2b89318", 
+            "9242bca1-9db5-4752-b356-62e233fd3f1f"
+         ]
+      }, 
+      "2a0abc62-6505-4703-8912-8ffbd2b89318" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-101568", 
+            "y" : "-99828"
+         }, 
+         "child" : [ 
+            "40a34f4f-e962-49c4-965a-967ccd9bcc6b", 
+            "31ca3d55-5648-434c-8551-0cf73e4f83c9", 
+            "6ee219c5-3e83-45e6-a90d-2291e22cadd3"
+         ]
+      }, 
+      "40a34f4f-e962-49c4-965a-967ccd9bcc6b" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-101624", 
+            "y" : "-99585"
+         }, 
+         "child" : [ 
+            "bbbb1f24-ed48-4328-9e85-78dc009cc535"
+         ], 
+         "text" : "Девушка, без резких движений.", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "bbbb1f24-ed48-4328-9e85-78dc009cc535" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101384", 
+            "y" : "-99404"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "31ca3d55-5648-434c-8551-0cf73e4f83c9" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-101625", 
+            "y" : "-99690"
+         }, 
+         "child" : [ 
+            "bbbb1f24-ed48-4328-9e85-78dc009cc535"
+         ], 
+         "text" : "Привіт дівчина.", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "6ee219c5-3e83-45e6-a90d-2291e22cadd3" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-101629", 
+            "y" : "-99779"
+         }, 
+         "child" : [ 
+            "bbbb1f24-ed48-4328-9e85-78dc009cc535"
+         ], 
+         "text" : "Панi, подходите, не стесняйтесь", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "9242bca1-9db5-4752-b356-62e233fd3f1f" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-101194", 
+            "y" : "-99831"
+         }, 
+         "child" : [ 
+            "6b5f8092-cb81-429b-a63d-b65e150a6346", 
+            "40593ea7-b9b8-429d-ac3e-4bfb5b665bd7", 
+            "428ec4ed-5bf1-4ed7-b034-548d0f154298"
+         ]
+      }, 
+      "6b5f8092-cb81-429b-a63d-b65e150a6346" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-101256", 
+            "y" : "-99786"
+         }, 
+         "child" : [ 
+            "bbbb1f24-ed48-4328-9e85-78dc009cc535"
+         ], 
+         "text" : "Подходите, отличный товар.", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "40593ea7-b9b8-429d-ac3e-4bfb5b665bd7" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-101253", 
+            "y" : "-99699"
+         }, 
+         "child" : [ 
+            "bbbb1f24-ed48-4328-9e85-78dc009cc535"
+         ], 
+         "text" : "Только без резких движений.", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "428ec4ed-5bf1-4ed7-b034-548d0f154298" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-101253", 
+            "y" : "-99609"
+         }, 
+         "child" : [ 
+            "bbbb1f24-ed48-4328-9e85-78dc009cc535"
+         ], 
+         "text" : "Как жизнь?", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "7191a7ac-2910-4fb9-a599-b0cd6193fcb9" : { 
+         "class" : "CharacterDistanceTriggerNode", 
+         "desc" : { 
+            "x" : "-100483", 
+            "y" : "-100561"
+         }, 
+         "child" : [ 
+            "b7642559-4591-4d64-bf80-2935958d5231"
+         ], 
+         "distanceCondition" : "GreaterThan", 
+         "distance" : "20"
+      }, 
+      "b7642559-4591-4d64-bf80-2935958d5231" : { 
+         "class" : "WaitRandomNode", 
+         "desc" : { 
+            "x" : "-100281", 
+            "y" : "-100397"
+         }, 
+         "child" : [ 
+            "3bcead1e-9c43-498d-8ab0-836520c81d24"
+         ], 
+         "waitTimeMin" : "5", 
+         "waitTimeMax" : "20"
+      }, 
+      "3bcead1e-9c43-498d-8ab0-836520c81d24" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-100262", 
+            "y" : "-100289"
+         }, 
+         "child" : [ 
+            "c275cf53-db5d-4808-a9b9-5f8ad914b973", 
+            "8c34c711-4596-4957-a281-6a678847241e", 
+            "c1fa7c3f-0230-48e6-8faa-7e1084c687df", 
+            "bdfcf689-4d05-4592-aa8a-d866542c0b21", 
+            "9e6fa57b-1933-4b6e-a5bd-f4cfa38f2a76", 
+            "2b00bc89-b186-40f8-b473-5bb7b6934564"
+         ]
+      }, 
+      "c275cf53-db5d-4808-a9b9-5f8ad914b973" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100235", 
+            "y" : "-100019"
+         }, 
+         "child" : [ 
+            "02b0d19d-b239-4c48-aa6e-ff9a9228b6f1"
+         ], 
+         "text" : "Чтож так больно то.", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "02b0d19d-b239-4c48-aa6e-ff9a9228b6f1" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99581", 
+            "y" : "-99820"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "8c34c711-4596-4957-a281-6a678847241e" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100014", 
+            "y" : "-100021"
+         }, 
+         "child" : [ 
+            "02b0d19d-b239-4c48-aa6e-ff9a9228b6f1"
+         ], 
+         "text" : "*зевает*", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "c1fa7c3f-0230-48e6-8faa-7e1084c687df" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-99796", 
+            "y" : "-100020"
+         }, 
+         "child" : [ 
+            "02b0d19d-b239-4c48-aa6e-ff9a9228b6f1"
+         ], 
+         "text" : "*напевает* На краю села хатина... Загляда в вікно смерека...", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "bdfcf689-4d05-4592-aa8a-d866542c0b21" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-99575", 
+            "y" : "-100020"
+         }, 
+         "child" : [ 
+            "02b0d19d-b239-4c48-aa6e-ff9a9228b6f1"
+         ], 
+         "text" : "*напевает* Стара ба, стара баба як халера... А ще хо, а ще хоче кавалера!", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "9e6fa57b-1933-4b6e-a5bd-f4cfa38f2a76" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-99334", 
+            "y" : "-100014"
+         }, 
+         "child" : [ 
+            "02b0d19d-b239-4c48-aa6e-ff9a9228b6f1"
+         ], 
+         "text" : "Горилки бы...", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "2b00bc89-b186-40f8-b473-5bb7b6934564" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-99086", 
+            "y" : "-100012"
+         }, 
+         "child" : [ 
+            "02b0d19d-b239-4c48-aa6e-ff9a9228b6f1"
+         ], 
+         "text" : "*задумчиво что-то записывает в старый пожелтевший блокнот*", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }
+   }, 
+   "entry" : "ada14cd0-e838-4da6-9fe5-83772f3cb07e"
+}

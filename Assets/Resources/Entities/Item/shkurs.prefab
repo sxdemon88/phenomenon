@@ -30,7 +30,7 @@ Transform:
   m_LocalPosition: {x: 74.29036, y: 0, z: 59.561813}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 2999732632855336019}
+  - {fileID: 469594733311935765}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -54,7 +54,7 @@ MonoBehaviour:
   m_Script: {fileID: -1865410960, guid: ba80931603c2dbc40ab113c533efa2ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mEntityData: '{"class":"Item", "count":"1", "proto":"shkurs"}'
+  mEntityData: '{"class":"Item", "count":"1", "proto":"koja"}'
 --- !u!65 &7692932345543852972
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -75,6 +75,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 911581051777206138}
     m_Modifications:
+    - target: {fileID: 100002, guid: b52ede896550a514691b5a12c24b29c4, type: 3}
+      propertyPath: m_Name
+      value: Koja
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b52ede896550a514691b5a12c24b29c4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: b52ede896550a514691b5a12c24b29c4, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0
@@ -131,21 +139,13 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.03
       objectReference: {fileID: 0}
-    - target: {fileID: 100002, guid: b52ede896550a514691b5a12c24b29c4, type: 3}
-      propertyPath: m_Name
-      value: Koja
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: b52ede896550a514691b5a12c24b29c4, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: b52ede896550a514691b5a12c24b29c4, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 3982d61087b820e44aa5f1eef7c1e3f5, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b52ede896550a514691b5a12c24b29c4, type: 3}
---- !u!4 &2999732632855336019 stripped
+--- !u!4 &469594733311935765 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: b52ede896550a514691b5a12c24b29c4,
     type: 3}

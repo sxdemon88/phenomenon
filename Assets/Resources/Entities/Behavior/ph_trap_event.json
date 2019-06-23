@@ -1,0 +1,58 @@
+{ 
+   "states" : { 
+      "c4677c96-9247-46c1-84d9-ba1187e6a1f4" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101601", 
+            "y" : "-101998"
+         }, 
+         "child" : [ 
+            "22fdf3ed-f27c-4445-b5df-0c9e959023c9"
+         ]
+      }, 
+      "22fdf3ed-f27c-4445-b5df-0c9e959023c9" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-101607", 
+            "y" : "-101937"
+         }, 
+         "child" : [ 
+            "3961a60c-9643-44d3-8458-6cfb07708aa7", 
+            "2ea0536f-60e0-4d09-9461-8189a940287f"
+         ], 
+         "note_key" : "PH_TRAP_1"
+      }, 
+      "3961a60c-9643-44d3-8458-6cfb07708aa7" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101451", 
+            "y" : "-101596"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "2ea0536f-60e0-4d09-9461-8189a940287f" : { 
+         "class" : "HasRandomDiceNode", 
+         "desc" : { 
+            "x" : "-101632", 
+            "y" : "-101788"
+         }, 
+         "child" : [ 
+            "1274ab42-5adb-4a96-a5fb-9263f7cdb2c4", 
+            "3961a60c-9643-44d3-8458-6cfb07708aa7"
+         ], 
+         "dice" : "99"
+      }, 
+      "1274ab42-5adb-4a96-a5fb-9263f7cdb2c4" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-101715", 
+            "y" : "-101661"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "PH_TRAP_1"
+      }
+   }, 
+   "entry" : "c4677c96-9247-46c1-84d9-ba1187e6a1f4"
+}

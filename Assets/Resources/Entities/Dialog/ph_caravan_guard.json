@@ -1,0 +1,112 @@
+{ 
+   "states" : { 
+      "cfb2b948-4bce-42ed-b582-cf29186f69e4" : { 
+         "class" : "HasStatNode", 
+         "desc" : { 
+            "x" : "-101027", 
+            "y" : "-100951"
+         }, 
+         "child" : [ 
+            "a116f977-83d0-4e71-a3bf-09bd00fa9c22", 
+            "7b3109f9-2355-487e-b90e-74dfde08d406"
+         ], 
+         "value" : "3", 
+         "stat" : "Intelligence"
+      }, 
+      "a116f977-83d0-4e71-a3bf-09bd00fa9c22" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101388", 
+            "y" : "-100696"
+         }, 
+         "child" : [ 
+            "afc3d7b6-6884-4e69-b080-f1d2a51bfec8"
+         ]
+      }, 
+      "afc3d7b6-6884-4e69-b080-f1d2a51bfec8" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-101592", 
+            "y" : "-100540"
+         }, 
+         "child" : [ 
+            "efd5e6e2-8a27-4a03-889f-5c99c81cca07", 
+            "5261ca46-570b-4373-9b32-8bc5f3ba7f53", 
+            "79662a21-94a3-4ea4-8353-dcf2d06efb42", 
+            "bc2d3678-f541-429e-ae7c-aa0c676ba527", 
+            "fd8310ca-f316-4c62-a4b0-ab2418cc770e"
+         ]
+      }, 
+      "efd5e6e2-8a27-4a03-889f-5c99c81cca07" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-102055", 
+            "y" : "-100437"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Вон главный стоит, все вопросы к нему.", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "5261ca46-570b-4373-9b32-8bc5f3ba7f53" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-101838", 
+            "y" : "-100438"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "До КРЗ еще далеко?", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "79662a21-94a3-4ea4-8353-dcf2d06efb42" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-101187", 
+            "y" : "-100433"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "[Молча смотрит на вас]", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "bc2d3678-f541-429e-ae7c-aa0c676ba527" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-101405", 
+            "y" : "-100434"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Обратитесь к старшему.", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "fd8310ca-f316-4c62-a4b0-ab2418cc770e" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-101622", 
+            "y" : "-100435"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Тут у вас поспокойнее чем у нас.", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "7b3109f9-2355-487e-b90e-74dfde08d406" : { 
+         "class" : "PlayDialogNode", 
+         "desc" : { 
+            "x" : "-100776", 
+            "y" : "-100771"
+         }, 
+         "child" : [ 
+         ], 
+         "dialog" : "entities/dialog/balwannpc"
+      }
+   }, 
+   "entry" : "cfb2b948-4bce-42ed-b582-cf29186f69e4"
+}

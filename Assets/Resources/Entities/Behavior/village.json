@@ -1,0 +1,4349 @@
+{ 
+   "states" : { 
+      "ed473657-e2ca-4ca3-83e9-733c2c91cf32" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101112", 
+            "y" : "-100684"
+         }, 
+         "child" : [ 
+            "ab420b81-3497-4af3-b5d4-0ae5c266de7b", 
+            "2dae469a-d237-46e9-9ad0-5050cfa0b9fe", 
+            "59a38981-17cd-4eb5-9b09-79b571da00f9", 
+            "4a502b05-ab78-4920-9e74-ed7be1341f38", 
+            "2fd25935-7712-43b5-8978-e2ba628090b6", 
+            "8e5a2664-4e28-4b4f-93c8-a330cbecde81", 
+            "1f0197cc-6be1-4ade-b766-0f83232699f3", 
+            "deb61830-ff7d-41cc-9ea3-210c068e7bcc", 
+            "d6a1b1ea-fbf9-4141-821b-6c41ed1dd972", 
+            "10da8ea8-e669-4514-98f7-21c7e3323acf", 
+            "0e1ea216-e146-46a2-86ac-98f140a8c217", 
+            "e9eaaa63-41c0-47a3-a7d1-6e2901e2b28d", 
+            "91ae7f00-cd36-47a3-9016-0f63e5720144", 
+            "a72fbb6c-27c9-4916-9fa2-ceeab8836006", 
+            "bc3aa966-4913-4550-871f-7f29520945d2", 
+            "db93422f-4f43-47fb-bfb9-33cfd0df78c6", 
+            "3406b1a1-f430-4c4d-8611-b38caf5f85bd", 
+            "63794273-f4e6-48a4-99aa-1a393dfcd254", 
+            "debac0d0-60a0-461d-865b-7615f272cc40", 
+            "7d80b8de-055b-43f8-8c59-3076d1974a1b", 
+            "2d2b533d-25e2-467c-ae9e-1f532daa7f82", 
+            "20c72d3a-0f57-47e8-8eda-98261dde0c55"
+         ]
+      }, 
+      "ab420b81-3497-4af3-b5d4-0ae5c266de7b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103625", 
+            "y" : "-102196"
+         }, 
+         "child" : [ 
+            "65b33724-7281-486b-8b74-25a1339a7b61", 
+            "878efcbe-9990-4189-9a13-9e1d6aaa30cc"
+         ]
+      }, 
+      "65b33724-7281-486b-8b74-25a1339a7b61" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-103763", 
+            "y" : "-102131"
+         }, 
+         "child" : [ 
+            "be340cb2-6d0e-4e59-987b-75cccd000856", 
+            "7e080a14-bf60-4a5e-82f3-dfe5c654d22a"
+         ], 
+         "key" : "EXIT_TIME"
+      }, 
+      "be340cb2-6d0e-4e59-987b-75cccd000856" : { 
+         "class" : "HasTimeDateComeNode", 
+         "desc" : { 
+            "x" : "-103843", 
+            "y" : "-102053"
+         }, 
+         "child" : [ 
+            "8e5bde26-94a1-422e-938d-6315936b5167", 
+            "7e080a14-bf60-4a5e-82f3-dfe5c654d22a"
+         ], 
+         "time" : "7", 
+         "mode" : "Hour", 
+         "offsetValue" : "EXIT_TIME"
+      }, 
+      "8e5bde26-94a1-422e-938d-6315936b5167" : { 
+         "class" : "RemoveKeywordNode", 
+         "desc" : { 
+            "x" : "-103863", 
+            "y" : "-101939"
+         }, 
+         "child" : [ 
+            "d7e43e0d-ea27-4f2e-85ed-7a545cbae272"
+         ], 
+         "key" : "EXIT_TIME"
+      }, 
+      "d7e43e0d-ea27-4f2e-85ed-7a545cbae272" : { 
+         "class" : "CleanCorpsesNode", 
+         "desc" : { 
+            "x" : "-103987", 
+            "y" : "-101872"
+         }, 
+         "child" : [ 
+            "fc91c342-d67d-47f9-848a-c2bcf3a24264", 
+            "fa6ef267-ffea-40ee-ae46-4a64162d28d8"
+         ], 
+         "filterFractionName" : "village_mob"
+      }, 
+      "fc91c342-d67d-47f9-848a-c2bcf3a24264" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-104075", 
+            "y" : "-101769"
+         }, 
+         "child" : [ 
+            "1fc86a90-e4e4-4b38-9f4c-9e5e15c90355", 
+            "bfe13644-c672-476b-9d24-5e44b1fb71f1"
+         ], 
+         "objectName" : "Fisher"
+      }, 
+      "1fc86a90-e4e4-4b38-9f4c-9e5e15c90355" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-104145", 
+            "y" : "-101688"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Fisher", 
+         "active" : "false"
+      }, 
+      "bfe13644-c672-476b-9d24-5e44b1fb71f1" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-104030", 
+            "y" : "-101687"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "fa6ef267-ffea-40ee-ae46-4a64162d28d8" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-103876", 
+            "y" : "-101780"
+         }, 
+         "child" : [ 
+            "66502ec9-ce06-4b17-8a10-3f07b22146d8", 
+            "7e080a14-bf60-4a5e-82f3-dfe5c654d22a"
+         ], 
+         "note_key" : "VILLAGE.GRISHKA.DEAD"
+      }, 
+      "66502ec9-ce06-4b17-8a10-3f07b22146d8" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-103912", 
+            "y" : "-101701"
+         }, 
+         "child" : [ 
+            "d60e4b5e-757a-4462-992e-c88aa1fad4e6", 
+            "ba1bffff-a8ef-4368-a654-d03491f0a3af"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Quest.Factory.Pass"
+         }, 
+         "objectName" : "Grisha"
+      }, 
+      "d60e4b5e-757a-4462-992e-c88aa1fad4e6" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103979", 
+            "y" : "-101600"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "ba1bffff-a8ef-4368-a654-d03491f0a3af" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-103864", 
+            "y" : "-101605"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Grisha", 
+         "active" : "false"
+      }, 
+      "7e080a14-bf60-4a5e-82f3-dfe5c654d22a" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103745", 
+            "y" : "-101686"
+         }, 
+         "child" : [ 
+            "a8cdfaff-4105-4235-bb0a-cf1bd724e7d0"
+         ]
+      }, 
+      "a8cdfaff-4105-4235-bb0a-cf1bd724e7d0" : { 
+         "class" : "RemoveKeywordNode", 
+         "desc" : { 
+            "x" : "-103750", 
+            "y" : "-101648"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "EXIT_TIME"
+      }, 
+      "878efcbe-9990-4189-9a13-9e1d6aaa30cc" : { 
+         "class" : "QuestStatusNode", 
+         "desc" : { 
+            "x" : "-103514", 
+            "y" : "-102116"
+         }, 
+         "child" : [ 
+            "c2d922f8-54b2-46bb-b70e-fe4dcd3b4568", 
+            "c641639e-5a6d-4d0b-b517-9e704d3c40c7", 
+            "32e65f6b-be5b-489a-b02f-9d5b036ead50"
+         ], 
+         "quest_key" : "KOVAL.PETROL"
+      }, 
+      "c2d922f8-54b2-46bb-b70e-fe4dcd3b4568" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103579", 
+            "y" : "-102030"
+         }, 
+         "child" : [ 
+            "32e65f6b-be5b-489a-b02f-9d5b036ead50"
+         ]
+      }, 
+      "32e65f6b-be5b-489a-b02f-9d5b036ead50" : { 
+         "class" : "QuestStatusNode", 
+         "desc" : { 
+            "x" : "-103389", 
+            "y" : "-101980"
+         }, 
+         "child" : [ 
+            "684790e2-f6d3-4b45-8bb6-ad92708c2ce2", 
+            "d8ddf456-6928-4762-9799-87c3a4867563", 
+            "468d14a5-f10e-4d93-8e51-3de4faa17bb8"
+         ], 
+         "quest_key" : "KOVAL.MOVE"
+      }, 
+      "684790e2-f6d3-4b45-8bb6-ad92708c2ce2" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103506", 
+            "y" : "-101881"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "d8ddf456-6928-4762-9799-87c3a4867563" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-103390", 
+            "y" : "-101885"
+         }, 
+         "child" : [ 
+            "acaf9bd3-9a9a-4604-8f64-1ae785d573f5", 
+            "7f049b1c-cccd-4dda-964b-8946dd8a539c"
+         ], 
+         "note_key" : "KOVAL.CAR.FIX"
+      }, 
+      "acaf9bd3-9a9a-4604-8f64-1ae785d573f5" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-103437", 
+            "y" : "-101794"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Koval_2140", 
+         "active" : "true"
+      }, 
+      "7f049b1c-cccd-4dda-964b-8946dd8a539c" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-103313", 
+            "y" : "-101793"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Koval_2140_Dmg", 
+         "active" : "true"
+      }, 
+      "468d14a5-f10e-4d93-8e51-3de4faa17bb8" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103251", 
+            "y" : "-101879"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "c641639e-5a6d-4d0b-b517-9e704d3c40c7" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103505", 
+            "y" : "-101968"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "2dae469a-d237-46e9-9ad0-5050cfa0b9fe" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-103630", 
+            "y" : "-101429"
+         }, 
+         "child" : [ 
+            "0dafa51f-2d13-478e-8523-cf028eb5fb77", 
+            "7ac2451f-f3f4-4a91-b30c-5e565de3d7cc"
+         ], 
+         "key" : "ROJO_INIT"
+      }, 
+      "0dafa51f-2d13-478e-8523-cf028eb5fb77" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103683", 
+            "y" : "-101323"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "7ac2451f-f3f4-4a91-b30c-5e565de3d7cc" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-103565", 
+            "y" : "-101330"
+         }, 
+         "child" : [ 
+            "005cc013-6e41-4bd3-a6eb-4ba018cc5011"
+         ], 
+         "key" : "ROJO_INIT"
+      }, 
+      "005cc013-6e41-4bd3-a6eb-4ba018cc5011" : { 
+         "class" : "SpawnEntityNode", 
+         "desc" : { 
+            "x" : "-103565", 
+            "y" : "-101274"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Rojo.stone.place", 
+         "item" : { 
+            "class" : "Interactive", 
+            "proto" : "RojoStone", 
+            "inventory" : [ 
+               { 
+                  "class" : "Item", 
+                  "count" : "1", 
+                  "proto" : "Rojo_part"
+               }, 
+               { 
+                  "class" : "Memo", 
+                  "count" : "1", 
+                  "proto" : "Rojo_Memo_1"
+               }
+            ]
+         }
+      }, 
+      "59a38981-17cd-4eb5-9b09-79b571da00f9" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-103853", 
+            "y" : "-101124"
+         }, 
+         "child" : [ 
+            "bc47e9ae-70d6-4917-9945-028856dbb3c5", 
+            "d9f64e92-bbb0-47de-841d-a3bb1e6b9713"
+         ], 
+         "key" : "SEKTA"
+      }, 
+      "bc47e9ae-70d6-4917-9945-028856dbb3c5" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103901", 
+            "y" : "-101026"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "d9f64e92-bbb0-47de-841d-a3bb1e6b9713" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-103777", 
+            "y" : "-101038"
+         }, 
+         "child" : [ 
+            "6939d367-c780-40d6-b256-c41379e4f1af", 
+            "66d1a098-5337-426e-bda8-87a04c81e9bd"
+         ], 
+         "note_key" : "SEKTA_PATH"
+      }, 
+      "6939d367-c780-40d6-b256-c41379e4f1af" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-103838", 
+            "y" : "-100947"
+         }, 
+         "child" : [ 
+            "f33fae48-2488-4c43-b6a7-0468615983df"
+         ], 
+         "key" : "SEKTA"
+      }, 
+      "f33fae48-2488-4c43-b6a7-0468615983df" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-103842", 
+            "y" : "-100885"
+         }, 
+         "child" : [ 
+            "4f249e76-5a4d-479a-80dc-cb34c26bc324"
+         ], 
+         "spawnPoint" : "Sekta_1", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale17", 
+            "character" : "SektaMan_1", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "sekta", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "head_mask" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Glasses"
+            }, 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "NoSkin", 
+            "beard" : "Shaved", 
+            "hair" : "Businessman", 
+            "hairColor" : "Gray", 
+            "behavior" : "Sekta.Sitting"
+         }
+      }, 
+      "4f249e76-5a4d-479a-80dc-cb34c26bc324" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-103842", 
+            "y" : "-100791"
+         }, 
+         "child" : [ 
+            "cb2c311b-178e-4432-8142-7f456b24aea4"
+         ], 
+         "spawnPoint" : "Sekta_2", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale17", 
+            "character" : "SektaMan_2", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "sekta", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "NoSkin", 
+            "beard" : "Mustache", 
+            "hair" : "Tail", 
+            "hairColor" : "Foxy", 
+            "behavior" : "Sekta.Sitting"
+         }
+      }, 
+      "cb2c311b-178e-4432-8142-7f456b24aea4" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-103842", 
+            "y" : "-100695"
+         }, 
+         "child" : [ 
+            "75d9d2d5-d8d7-4d51-98c4-23ea187df364"
+         ], 
+         "spawnPoint" : "Sekta_3", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale17", 
+            "character" : "SektaMan_3", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "sekta", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "NoSkin", 
+            "beard" : "Shaved", 
+            "hair" : "Facon", 
+            "hairColor" : "Blond", 
+            "behavior" : "Sekta.Sitting"
+         }
+      }, 
+      "75d9d2d5-d8d7-4d51-98c4-23ea187df364" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-103841", 
+            "y" : "-100600"
+         }, 
+         "child" : [ 
+            "9b029f56-4823-4cb2-b4bc-ebb06c54a524"
+         ], 
+         "spawnPoint" : "Sekta_4", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseFemale13", 
+            "character" : "SektaGirl", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "sekta", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "NoSkin", 
+            "hair" : "Girl_Wavy", 
+            "hairColor" : "Brown", 
+            "behavior" : "Sekta.Sitting"
+         }
+      }, 
+      "9b029f56-4823-4cb2-b4bc-ebb06c54a524" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-103841", 
+            "y" : "-100502"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Sekta_5", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseFemale13", 
+            "character" : "SektaHead", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "sekta", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+               { 
+                  "class" : "Item", 
+                  "count" : "1", 
+                  "proto" : "Wastepaper"
+               }, 
+               { 
+                  "class" : "Consumable", 
+                  "count" : "1", 
+                  "proto" : "Moonshine"
+               }, 
+               { 
+                  "class" : "Item", 
+                  "count" : "1", 
+                  "proto" : "Ganja"
+               }
+            ], 
+            "mainItemIndex" : "0", 
+            "cap" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "SektaHat"
+            }, 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "NoSkin", 
+            "behavior" : "Sekta.Head"
+         }
+      }, 
+      "66d1a098-5337-426e-bda8-87a04c81e9bd" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103689", 
+            "y" : "-100939"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "4a502b05-ab78-4920-9e74-ed7be1341f38" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102179", 
+            "y" : "-102727"
+         }, 
+         "child" : [ 
+            "db74b67a-0c08-4bf5-becb-02338a3549fa", 
+            "2e08f57b-643a-4916-801e-ac2d61644de5", 
+            "5d7f6a6a-61fc-4b6d-9ca4-5b1c219cb9d0"
+         ]
+      }, 
+      "db74b67a-0c08-4bf5-becb-02338a3549fa" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-102459", 
+            "y" : "-102596"
+         }, 
+         "child" : [ 
+            "a38d618b-5776-4d42-8d04-d02d95e7addc", 
+            "7b47699a-fc87-4beb-9974-51b2eda6a4c1"
+         ], 
+         "note_key" : "VILLAGE_NEWSTATE"
+      }, 
+      "a38d618b-5776-4d42-8d04-d02d95e7addc" : { 
+         "class" : "FractionIsEnemyRelationshipNode", 
+         "desc" : { 
+            "x" : "-102579", 
+            "y" : "-102498"
+         }, 
+         "child" : [ 
+            "9dc9b1e5-860f-49d6-b475-29cb96ec11cf", 
+            "dfa2454f-29ab-4475-b657-a18be8f5cc0a"
+         ], 
+         "fractionA" : "player", 
+         "fractionB" : "village"
+      }, 
+      "9dc9b1e5-860f-49d6-b475-29cb96ec11cf" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102625", 
+            "y" : "-102390"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "dfa2454f-29ab-4475-b657-a18be8f5cc0a" : { 
+         "class" : "TimeDatePeriodNode", 
+         "desc" : { 
+            "x" : "-102499", 
+            "y" : "-102394"
+         }, 
+         "child" : [ 
+            "78fe7821-d8fa-41cc-ad99-6239d457d47a", 
+            "45e5d39d-bbeb-4987-b836-5eacbdad538c"
+         ], 
+         "timeStart" : "3", 
+         "modeStart" : "Day", 
+         "timeLen" : "4", 
+         "modeLen" : "Hour", 
+         "offsetValue" : "RANDOM_TRADE"
+      }, 
+      "78fe7821-d8fa-41cc-ad99-6239d457d47a" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-103006", 
+            "y" : "-102145"
+         }, 
+         "child" : [ 
+            "8316062b-c787-4de3-a9f6-0cb06d4c05e7", 
+            "cf97b064-7f12-400b-a091-4b4f32d87265"
+         ], 
+         "key" : "INIT_RANDOM_TRADE"
+      }, 
+      "8316062b-c787-4de3-a9f6-0cb06d4c05e7" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103082", 
+            "y" : "-102048"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "cf97b064-7f12-400b-a091-4b4f32d87265" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-102961", 
+            "y" : "-102058"
+         }, 
+         "child" : [ 
+            "6f4017dd-ff42-410d-b6d2-24f5e545e124"
+         ], 
+         "key" : "INIT_RANDOM_TRADE"
+      }, 
+      "6f4017dd-ff42-410d-b6d2-24f5e545e124" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-102974", 
+            "y" : "-102000"
+         }, 
+         "child" : [ 
+            "2aa24007-2a56-44db-abf0-5a7e2442cb7b", 
+            "461f5eaa-35f8-448d-934d-c7fae45fcae2"
+         ], 
+         "note_key" : "VILLAGE_NEWSTATE_KATE"
+      }, 
+      "2aa24007-2a56-44db-abf0-5a7e2442cb7b" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-103106", 
+            "y" : "-101894"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/Village.Scavenger"
+      }, 
+      "461f5eaa-35f8-448d-934d-c7fae45fcae2" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-102870", 
+            "y" : "-101896"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/Village_Caravan"
+      }, 
+      "45e5d39d-bbeb-4987-b836-5eacbdad538c" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-102439", 
+            "y" : "-102221"
+         }, 
+         "child" : [ 
+            "da122db8-addd-4db0-b761-8268c118a067", 
+            "88bebeb5-48c6-448a-baa9-531c7409508c"
+         ], 
+         "key" : "INIT_RANDOM_TRADE"
+      }, 
+      "da122db8-addd-4db0-b761-8268c118a067" : { 
+         "class" : "RemoveKeywordNode", 
+         "desc" : { 
+            "x" : "-102526", 
+            "y" : "-102134"
+         }, 
+         "child" : [ 
+            "a1e9d4a9-c9bd-44a7-9aa9-fed73edb4a9e"
+         ], 
+         "key" : "INIT_RANDOM_TRADE"
+      }, 
+      "a1e9d4a9-c9bd-44a7-9aa9-fed73edb4a9e" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-102539", 
+            "y" : "-102075"
+         }, 
+         "child" : [ 
+            "438335ed-2dc7-433f-865e-a51c3c083549", 
+            "4477571e-8e46-47e6-9843-76cdd22d680d"
+         ], 
+         "note_key" : "VILLAGE_NEWSTATE_KATE"
+      }, 
+      "438335ed-2dc7-433f-865e-a51c3c083549" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102594", 
+            "y" : "-101989"
+         }, 
+         "child" : [ 
+            "4f10d3cb-5636-48a9-bab2-475d8526f825"
+         ]
+      }, 
+      "4f10d3cb-5636-48a9-bab2-475d8526f825" : { 
+         "class" : "ObjectRemoveNode", 
+         "desc" : { 
+            "x" : "-102600", 
+            "y" : "-101949"
+         }, 
+         "child" : [ 
+            "0930c2e7-0800-468d-afa2-06dc64be0b8b"
+         ], 
+         "objName" : "Spawn.Karavan.2"
+      }, 
+      "0930c2e7-0800-468d-afa2-06dc64be0b8b" : { 
+         "class" : "ObjectRemoveNode", 
+         "desc" : { 
+            "x" : "-102599", 
+            "y" : "-101891"
+         }, 
+         "child" : [ 
+            "c25da39d-95f8-4d3d-ba61-8b3fc3ca587a"
+         ], 
+         "objName" : "Spawn.Karavan.3"
+      }, 
+      "c25da39d-95f8-4d3d-ba61-8b3fc3ca587a" : { 
+         "class" : "ObjectRemoveNode", 
+         "desc" : { 
+            "x" : "-102613", 
+            "y" : "-101832"
+         }, 
+         "child" : [ 
+         ], 
+         "objName" : "Spawn.Karavan.Trader"
+      }, 
+      "4477571e-8e46-47e6-9843-76cdd22d680d" : { 
+         "class" : "ObjectRemoveNode", 
+         "desc" : { 
+            "x" : "-102438", 
+            "y" : "-101988"
+         }, 
+         "child" : [ 
+            "2c5aa073-ef90-49b2-ab59-8310d8823cda"
+         ], 
+         "objName" : "Spawn.Karavan.1"
+      }, 
+      "2c5aa073-ef90-49b2-ab59-8310d8823cda" : { 
+         "class" : "ObjectRemoveNode", 
+         "desc" : { 
+            "x" : "-102438", 
+            "y" : "-101932"
+         }, 
+         "child" : [ 
+            "a9f076c0-8f25-4f56-857b-82c33c13f18e"
+         ], 
+         "objName" : "Spawn.Karavan.2"
+      }, 
+      "a9f076c0-8f25-4f56-857b-82c33c13f18e" : { 
+         "class" : "ObjectRemoveNode", 
+         "desc" : { 
+            "x" : "-102437", 
+            "y" : "-101876"
+         }, 
+         "child" : [ 
+            "270911f1-ca3c-4d34-998e-36d96ac4eb7d"
+         ], 
+         "objName" : "Spawn.Karavan.3"
+      }, 
+      "270911f1-ca3c-4d34-998e-36d96ac4eb7d" : { 
+         "class" : "ObjectRemoveNode", 
+         "desc" : { 
+            "x" : "-102436", 
+            "y" : "-101818"
+         }, 
+         "child" : [ 
+            "43f5d88b-9e75-4c65-bcad-4430be1b0fae"
+         ], 
+         "objName" : "Spawn.Karavan.4"
+      }, 
+      "43f5d88b-9e75-4c65-bcad-4430be1b0fae" : { 
+         "class" : "ObjectRemoveNode", 
+         "desc" : { 
+            "x" : "-102444", 
+            "y" : "-101760"
+         }, 
+         "child" : [ 
+            "865bb234-3a20-436b-b779-ed22d69a1865"
+         ], 
+         "objName" : "Spawn.Karavan.Cow"
+      }, 
+      "865bb234-3a20-436b-b779-ed22d69a1865" : { 
+         "class" : "ObjectRemoveNode", 
+         "desc" : { 
+            "x" : "-102449", 
+            "y" : "-101702"
+         }, 
+         "child" : [ 
+            "8d5e8714-2cda-47a9-82a9-c92835b8db74"
+         ], 
+         "objName" : "Spawn.Karavan.Trader"
+      }, 
+      "8d5e8714-2cda-47a9-82a9-c92835b8db74" : { 
+         "class" : "ObjectRemoveNode", 
+         "desc" : { 
+            "x" : "-102496", 
+            "y" : "-101639"
+         }, 
+         "child" : [ 
+         ], 
+         "objName" : "Karavan.VehicleSpawn.Karavan.Vehicle"
+      }, 
+      "88bebeb5-48c6-448a-baa9-531c7409508c" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102357", 
+            "y" : "-102129"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "7b47699a-fc87-4beb-9974-51b2eda6a4c1" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102357", 
+            "y" : "-102492"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "2e08f57b-643a-4916-801e-ac2d61644de5" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-102059", 
+            "y" : "-102483"
+         }, 
+         "child" : [ 
+            "c40cf125-5cb6-4fb0-9b7b-6660b46d4b76", 
+            "5a5a4e3d-1d0b-4f23-bf24-92cc5a94575c"
+         ], 
+         "note_key" : "REQUEST_DEN_GUARD"
+      }, 
+      "c40cf125-5cb6-4fb0-9b7b-6660b46d4b76" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-102103", 
+            "y" : "-102387"
+         }, 
+         "child" : [ 
+            "53fb0bb2-1830-4b1c-885a-5f66c4b971dd", 
+            "0b952a94-95d1-4ac7-abb9-6b23c28089b4"
+         ], 
+         "key" : "INIT_DEN_GUARD"
+      }, 
+      "53fb0bb2-1830-4b1c-885a-5f66c4b971dd" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102171", 
+            "y" : "-102280"
+         }, 
+         "child" : [ 
+            "cded02e4-a7d2-4bdd-9cd0-4564077c8649"
+         ]
+      }, 
+      "cded02e4-a7d2-4bdd-9cd0-4564077c8649" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-102200", 
+            "y" : "-102144"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Bandit.campfire_static", 
+         "active" : "true"
+      }, 
+      "0b952a94-95d1-4ac7-abb9-6b23c28089b4" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-102037", 
+            "y" : "-102287"
+         }, 
+         "child" : [ 
+            "918764e1-8642-4608-9b08-4287a9ab07fb"
+         ], 
+         "key" : "INIT_DEN_GUARD"
+      }, 
+      "918764e1-8642-4608-9b08-4287a9ab07fb" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-102088", 
+            "y" : "-102214"
+         }, 
+         "child" : [ 
+            "cded02e4-a7d2-4bdd-9cd0-4564077c8649"
+         ], 
+         "script" : "Entities/Behavior/Village.DenGuards"
+      }, 
+      "5a5a4e3d-1d0b-4f23-bf24-92cc5a94575c" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101965", 
+            "y" : "-102376"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "5d7f6a6a-61fc-4b6d-9ca4-5b1c219cb9d0" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-101679", 
+            "y" : "-102556", 
+            "comment" : "если механик вернулся -- автоматически завершать квест по починке генератора"
+         }, 
+         "child" : [ 
+            "1648cf2c-0f3f-4367-b151-a2791741e223", 
+            "6df14f1b-ad52-4457-b104-160f552f4d51"
+         ], 
+         "note_key" : "VILLAGE.MECH.BACK"
+      }, 
+      "1648cf2c-0f3f-4367-b151-a2791741e223" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-101773", 
+            "y" : "-102449"
+         }, 
+         "child" : [ 
+            "1bf0a7d6-e6c8-47aa-aaee-0346ec95f7ba"
+         ], 
+         "note_key" : "VILLAGE.WATTER.PUMP.ENABLED"
+      }, 
+      "1bf0a7d6-e6c8-47aa-aaee-0346ec95f7ba" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-101743", 
+            "y" : "-102395"
+         }, 
+         "child" : [ 
+         ], 
+         "quest_key" : "VILLAGE.PUMP.ENGINE"
+      }, 
+      "6df14f1b-ad52-4457-b104-160f552f4d51" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101548", 
+            "y" : "-102446"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "2fd25935-7712-43b5-8978-e2ba628090b6" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101021", 
+            "y" : "-101173"
+         }, 
+         "child" : [ 
+            "e4db873d-89d6-4ca6-9242-6455c22dd780"
+         ]
+      }, 
+      "e4db873d-89d6-4ca6-9242-6455c22dd780" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100984", 
+            "y" : "-101109"
+         }, 
+         "child" : [ 
+            "79efb1cd-56b5-445f-a612-70c404306c14", 
+            "d60b2248-82c0-4658-b591-5369f9e777dd"
+         ], 
+         "key" : "SEMEN_OUT"
+      }, 
+      "79efb1cd-56b5-445f-a612-70c404306c14" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101041", 
+            "y" : "-100998"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Grave_Mesto_Open", 
+         "active" : "false"
+      }, 
+      "d60b2248-82c0-4658-b591-5369f9e777dd" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100889", 
+            "y" : "-101004"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "8e5a2664-4e28-4b4f-93c8-a330cbecde81" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100294", 
+            "y" : "-100462"
+         }, 
+         "child" : [ 
+            "7fc0e8aa-6b1d-43df-8059-d706b1d958dc", 
+            "e061d45c-b5eb-4e61-9341-517e8f09a93d"
+         ], 
+         "key" : "FIX_0_6_5"
+      }, 
+      "7fc0e8aa-6b1d-43df-8059-d706b1d958dc" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100341", 
+            "y" : "-100365"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "e061d45c-b5eb-4e61-9341-517e8f09a93d" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-100201", 
+            "y" : "-100368"
+         }, 
+         "child" : [ 
+            "5cc69796-a533-4934-999c-b79f50c66168"
+         ], 
+         "key" : "FIX_0_6_5"
+      }, 
+      "5cc69796-a533-4934-999c-b79f50c66168" : { 
+         "class" : "CharacterTeleportNode", 
+         "desc" : { 
+            "x" : "-100209", 
+            "y" : "-100262"
+         }, 
+         "child" : [ 
+            "eb1192b0-c0be-4fff-a92e-7edb34b88ea4"
+         ], 
+         "objectName" : "BarOwner", 
+         "pointName" : "Way.Kate.Fix"
+      }, 
+      "eb1192b0-c0be-4fff-a92e-7edb34b88ea4" : { 
+         "class" : "CharacterTeleportNode", 
+         "desc" : { 
+            "x" : "-100208", 
+            "y" : "-100185"
+         }, 
+         "child" : [ 
+            "9b066719-807c-497f-b796-23376d81d607"
+         ], 
+         "objectName" : "Village.Mayor", 
+         "pointName" : "Way.Village.Mayor"
+      }, 
+      "9b066719-807c-497f-b796-23376d81d607" : { 
+         "class" : "CharacterResetBackPositionNode", 
+         "desc" : { 
+            "x" : "-100234", 
+            "y" : "-100111"
+         }, 
+         "child" : [ 
+            "623fce1d-21db-4ba0-b32e-64e00441ad47"
+         ], 
+         "objectName" : "BarOwner"
+      }, 
+      "623fce1d-21db-4ba0-b32e-64e00441ad47" : { 
+         "class" : "CharacterResetBackPositionNode", 
+         "desc" : { 
+            "x" : "-100234", 
+            "y" : "-100056"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Village.Mayor"
+      }, 
+      "1f0197cc-6be1-4ade-b766-0f83232699f3" : { 
+         "class" : "QuestStatusNode", 
+         "desc" : { 
+            "x" : "-100618", 
+            "y" : "-100538"
+         }, 
+         "child" : [ 
+            "0322a223-f1a7-4d6f-bd28-3a76f13d2030", 
+            "93ae8975-52d1-4ba2-9717-3d0556d4269f", 
+            "71f180ad-bd22-437b-8b4c-11a523451858"
+         ], 
+         "quest_key" : "FACTORY.IVAN2"
+      }, 
+      "0322a223-f1a7-4d6f-bd28-3a76f13d2030" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100739", 
+            "y" : "-100446"
+         }, 
+         "child" : [ 
+            "8b3f5bef-1523-481a-96d0-d416573fa51c", 
+            "0997a822-e8e7-42b1-9039-2f165759cdcc"
+         ], 
+         "key" : "SHOW_IVAN_CAR"
+      }, 
+      "8b3f5bef-1523-481a-96d0-d416573fa51c" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100797", 
+            "y" : "-100322"
+         }, 
+         "child" : [ 
+            "27e2fefa-39cb-4791-a04b-2eeeeee58569"
+         ]
+      }, 
+      "27e2fefa-39cb-4791-a04b-2eeeeee58569" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100797", 
+            "y" : "-100276"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "katia_misc", 
+         "active" : "false"
+      }, 
+      "0997a822-e8e7-42b1-9039-2f165759cdcc" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-100636", 
+            "y" : "-100360"
+         }, 
+         "child" : [ 
+            "a54858a8-6986-4671-9766-92252b643959"
+         ], 
+         "key" : "SHOW_IVAN_CAR"
+      }, 
+      "a54858a8-6986-4671-9766-92252b643959" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100643", 
+            "y" : "-100307"
+         }, 
+         "child" : [ 
+            "668edc19-ec20-412f-bd65-d95772c645b5"
+         ], 
+         "spawnPoint" : "Village_Ivan.place_1", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale6", 
+            "character" : "Harbor_IvanGuard1", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "village", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+               { 
+                  "class" : "Consumable", 
+                  "count" : "3", 
+                  "proto" : "StimFEN2"
+               }, 
+               { 
+                  "class" : "Consumable", 
+                  "count" : "1", 
+                  "proto" : "Kasparamid"
+               }, 
+               { 
+                  "class" : "Item", 
+                  "count" : "146", 
+                  "proto" : "Money"
+               }
+            ], 
+            "mainItemIndex" : "0", 
+            "item2" : { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "AKS74U", 
+               "ammo" : { 
+                  "count" : "30", 
+                  "proto" : "5_45mm_AP"
+               }
+            }, 
+            "armor" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ArmorLJ"
+            }, 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "NoSkin", 
+            "beard" : "Shaved", 
+            "hair" : "Hairless"
+         }
+      }, 
+      "668edc19-ec20-412f-bd65-d95772c645b5" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100642", 
+            "y" : "-100216"
+         }, 
+         "child" : [ 
+            "2b8dd472-9c43-46c4-bffb-9dd78205f256"
+         ], 
+         "spawnPoint" : "Village_Ivan.place_2", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale6", 
+            "character" : "Harbor_IvanGuard2", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "village", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+               { 
+                  "class" : "Consumable", 
+                  "count" : "4", 
+                  "proto" : "StimFEN2"
+               }, 
+               { 
+                  "class" : "Consumable", 
+                  "count" : "3", 
+                  "proto" : "Kasparamid"
+               }, 
+               { 
+                  "class" : "Weapon", 
+                  "count" : "1", 
+                  "proto" : "Grenade"
+               }, 
+               { 
+                  "class" : "Consumable", 
+                  "count" : "1", 
+                  "proto" : "Biscuit"
+               }, 
+               { 
+                  "class" : "Item", 
+                  "count" : "167", 
+                  "proto" : "Money"
+               }
+            ], 
+            "mainItemIndex" : "0", 
+            "item1" : { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "AKS74U", 
+               "ammo" : { 
+                  "count" : "30", 
+                  "proto" : "5_45mm_AP"
+               }
+            }, 
+            "item2" : { 
+               "class" : "Ammo", 
+               "count" : "30", 
+               "proto" : "5_45mm_AP"
+            }, 
+            "cap" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ArmyHat"
+            }, 
+            "armor" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Armor46"
+            }, 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ]
+         }
+      }, 
+      "2b8dd472-9c43-46c4-bffb-9dd78205f256" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100636", 
+            "y" : "-100126"
+         }, 
+         "child" : [ 
+            "50f04528-b061-4105-b50e-056c8e1d9881"
+         ], 
+         "spawnPoint" : "Village_Ivan.place", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale18", 
+            "character" : "Village_Ivan", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "village", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "NoSkin", 
+            "beard" : "BeardAndMustache", 
+            "hair" : "Businessman", 
+            "hairColor" : "Dark"
+         }
+      }, 
+      "50f04528-b061-4105-b50e-056c8e1d9881" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100643", 
+            "y" : "-100038"
+         }, 
+         "child" : [ 
+            "92625b72-2d3e-49e4-99a0-5b1746692cbe"
+         ], 
+         "spawnPoint" : "Village_Ivan.place_3", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale15", 
+            "character" : "Village_Raider_Guard", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "village", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+               { 
+                  "class" : "Consumable", 
+                  "count" : "1", 
+                  "proto" : "Vodka"
+               }, 
+               { 
+                  "class" : "Ammo", 
+                  "count" : "5", 
+                  "proto" : "7_62mm_JHP"
+               }, 
+               { 
+                  "class" : "Consumable", 
+                  "count" : "3", 
+                  "proto" : "Kasparamid"
+               }
+            ], 
+            "mainItemIndex" : "0", 
+            "item1" : { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "AK47_Rust", 
+               "ammo" : { 
+                  "count" : "30", 
+                  "proto" : "7_62mm_AP"
+               }
+            }, 
+            "item2" : { 
+               "class" : "Ammo", 
+               "count" : "10", 
+               "proto" : "7_62mm_AP"
+            }, 
+            "armor" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ArmorLJ"
+            }, 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "Skin_2", 
+            "beard" : "Shaved", 
+            "hair" : "Hairless"
+         }
+      }, 
+      "92625b72-2d3e-49e4-99a0-5b1746692cbe" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100645", 
+            "y" : "-99949"
+         }, 
+         "child" : [ 
+            "b3372e40-7505-449c-a742-31c19ce6c4e0"
+         ], 
+         "spawnPoint" : "Village_Ivan.place_4", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale15", 
+            "character" : "Village_Raider_Guard2", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "village", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+               { 
+                  "class" : "Item", 
+                  "count" : "10", 
+                  "proto" : "Money"
+               }, 
+               { 
+                  "class" : "Consumable", 
+                  "count" : "1", 
+                  "proto" : "Brandy"
+               }, 
+               { 
+                  "class" : "Consumable", 
+                  "count" : "2", 
+                  "proto" : "Kasparamid"
+               }
+            ], 
+            "mainItemIndex" : "0", 
+            "item1" : { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "AK47_Rust", 
+               "ammo" : { 
+                  "count" : "30", 
+                  "proto" : "7_62mm_AP"
+               }
+            }, 
+            "item2" : { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Hatchet"
+            }, 
+            "cap" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "FishCap"
+            }, 
+            "armor" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ArmorLJ"
+            }, 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "Skin_5", 
+            "beard" : "ShortBeardAndMustache", 
+            "hair" : "Hairless", 
+            "hairColor" : "Brown", 
+            "behavior" : "Village.RaiderGuard"
+         }
+      }, 
+      "b3372e40-7505-449c-a742-31c19ce6c4e0" : { 
+         "class" : "CharacterTeleportNode", 
+         "desc" : { 
+            "x" : "-100488", 
+            "y" : "-100357"
+         }, 
+         "child" : [ 
+            "65e7e15f-a74b-49a4-9f82-4bd9a1bdef8a"
+         ], 
+         "objectName" : "BarOwner", 
+         "pointName" : "Way.Kate.Main"
+      }, 
+      "65e7e15f-a74b-49a4-9f82-4bd9a1bdef8a" : { 
+         "class" : "CharacterTeleportNode", 
+         "desc" : { 
+            "x" : "-100431", 
+            "y" : "-100265"
+         }, 
+         "child" : [ 
+            "9c4abfb7-c500-41c3-99d3-a4b3a72aea53"
+         ], 
+         "objectName" : "Village.Mayor", 
+         "pointName" : "Way.Mayor.Bar"
+      }, 
+      "9c4abfb7-c500-41c3-99d3-a4b3a72aea53" : { 
+         "class" : "CharacterResetBackPositionNode", 
+         "desc" : { 
+            "x" : "-100464", 
+            "y" : "-100194"
+         }, 
+         "child" : [ 
+            "a5752e0e-cafb-4cee-bb0e-f394fd88b939"
+         ], 
+         "objectName" : "BarOwner"
+      }, 
+      "a5752e0e-cafb-4cee-bb0e-f394fd88b939" : { 
+         "class" : "CharacterResetBackPositionNode", 
+         "desc" : { 
+            "x" : "-100462", 
+            "y" : "-100140"
+         }, 
+         "child" : [ 
+            "6be25af6-8a32-4318-8cf2-3cf88b3f84d0"
+         ], 
+         "objectName" : "Village.Mayor"
+      }, 
+      "6be25af6-8a32-4318-8cf2-3cf88b3f84d0" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100414", 
+            "y" : "-100083"
+         }, 
+         "child" : [ 
+            "b627c955-f8a8-4914-804c-cc8bb8c272d0"
+         ], 
+         "objectName" : "katia_misc", 
+         "active" : "false"
+      }, 
+      "b627c955-f8a8-4914-804c-cc8bb8c272d0" : { 
+         "class" : "CharacterTeleportNode", 
+         "desc" : { 
+            "x" : "-100408", 
+            "y" : "-99948"
+         }, 
+         "child" : [ 
+            "18af28ce-6b87-41e6-8095-ff65249267f4"
+         ], 
+         "objectName" : "Ahmed", 
+         "pointName" : "Ahmed.sleep"
+      }, 
+      "18af28ce-6b87-41e6-8095-ff65249267f4" : { 
+         "class" : "StopBehaviorNode", 
+         "desc" : { 
+            "x" : "-100388", 
+            "y" : "-99874"
+         }, 
+         "child" : [ 
+            "68e98b39-feb5-414d-934c-d48a10aece1c"
+         ], 
+         "objectName" : "Ahmed"
+      }, 
+      "68e98b39-feb5-414d-934c-d48a10aece1c" : { 
+         "class" : "PlayBehaviorNode", 
+         "desc" : { 
+            "x" : "-100434", 
+            "y" : "-99816"
+         }, 
+         "child" : [ 
+            "c2368f4d-d0ea-4f6d-81a2-8eb5e0590f9a"
+         ], 
+         "objectName" : "Ahmed", 
+         "behavior" : "Entities/Behavior/Village.Ahmed"
+      }, 
+      "c2368f4d-d0ea-4f6d-81a2-8eb5e0590f9a" : { 
+         "class" : "CharacterTeleportNode", 
+         "desc" : { 
+            "x" : "-100396", 
+            "y" : "-99708"
+         }, 
+         "child" : [ 
+            "139f8e4f-cbf6-43e6-9bab-846a05bc25c8"
+         ], 
+         "objectName" : "Karina", 
+         "pointName" : "Karina.sleep"
+      }, 
+      "139f8e4f-cbf6-43e6-9bab-846a05bc25c8" : { 
+         "class" : "StopBehaviorNode", 
+         "desc" : { 
+            "x" : "-100387", 
+            "y" : "-99630"
+         }, 
+         "child" : [ 
+            "f4fdee8e-eab0-4cb4-8786-239d368cea1b"
+         ], 
+         "objectName" : "Karina"
+      }, 
+      "f4fdee8e-eab0-4cb4-8786-239d368cea1b" : { 
+         "class" : "PlayBehaviorNode", 
+         "desc" : { 
+            "x" : "-100433", 
+            "y" : "-99570"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Karina", 
+         "behavior" : "Entities/Behavior/Village.Karina"
+      }, 
+      "93ae8975-52d1-4ba2-9717-3d0556d4269f" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100609", 
+            "y" : "-100431"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "71f180ad-bd22-437b-8b4c-11a523451858" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100538", 
+            "y" : "-100464"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "deb61830-ff7d-41cc-9ea3-210c068e7bcc" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-101437", 
+            "y" : "-100877"
+         }, 
+         "child" : [ 
+            "ad801cca-99fc-4a3c-b429-4fdcdeb6ea46", 
+            "503acb34-96be-499f-a600-9bd6e422771b"
+         ], 
+         "note_key" : "REQUEST_CLOSE_DIALOG"
+      }, 
+      "ad801cca-99fc-4a3c-b429-4fdcdeb6ea46" : { 
+         "class" : "NotebookRemoveNoteNode", 
+         "desc" : { 
+            "x" : "-101507", 
+            "y" : "-100787"
+         }, 
+         "child" : [ 
+            "6fb7736d-9fa6-4c61-9a69-09e6871190b8"
+         ], 
+         "note_key" : "REQUEST_CLOSE_DIALOG"
+      }, 
+      "6fb7736d-9fa6-4c61-9a69-09e6871190b8" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-101475", 
+            "y" : "-100729"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "503acb34-96be-499f-a600-9bd6e422771b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101326", 
+            "y" : "-100779"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "d6a1b1ea-fbf9-4141-821b-6c41ed1dd972" : { 
+         "class" : "QuestStatusNode", 
+         "desc" : { 
+            "x" : "-103231", 
+            "y" : "-101462"
+         }, 
+         "child" : [ 
+            "3da97657-c276-435e-adca-ad0841d17e36", 
+            "13d79004-185b-4462-82ac-475acc402cb0", 
+            "92f5ccdc-936b-4a91-bbc2-0e3b122285c3"
+         ], 
+         "quest_key" : "CITY.STRATEG3"
+      }, 
+      "3da97657-c276-435e-adca-ad0841d17e36" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-103334", 
+            "y" : "-101371"
+         }, 
+         "child" : [ 
+            "5330755b-0abe-4c41-b452-c96a70384434", 
+            "639cde0c-d96e-4015-8865-de946c23e851"
+         ], 
+         "key" : "SMIRNOV"
+      }, 
+      "5330755b-0abe-4c41-b452-c96a70384434" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103409", 
+            "y" : "-101288"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "639cde0c-d96e-4015-8865-de946c23e851" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-103275", 
+            "y" : "-101286"
+         }, 
+         "child" : [ 
+            "8d1bfcb1-9e8e-4dbd-bc8a-dd839d4b38a2"
+         ], 
+         "key" : "SMIRNOV"
+      }, 
+      "8d1bfcb1-9e8e-4dbd-bc8a-dd839d4b38a2" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-103295", 
+            "y" : "-101229"
+         }, 
+         "child" : [ 
+            "c21a141a-bbae-4109-8a24-54fc44289659"
+         ], 
+         "spawnPoint" : "Village_Smirnov.place", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale7", 
+            "character" : "Village_Smirnov", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "village", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+               { 
+                  "class" : "Weapon", 
+                  "count" : "1", 
+                  "proto" : "Knife_War"
+               }, 
+               { 
+                  "class" : "Consumable", 
+                  "count" : "1", 
+                  "proto" : "StimFEN1"
+               }, 
+               { 
+                  "class" : "Consumable", 
+                  "count" : "1", 
+                  "proto" : "Kasparamid"
+               }, 
+               { 
+                  "class" : "Item", 
+                  "count" : "1", 
+                  "proto" : "Medal"
+               }
+            ], 
+            "mainItemIndex" : "0", 
+            "item1" : { 
+               "class" : "Ammo", 
+               "count" : "5", 
+               "proto" : "12_AP"
+            }, 
+            "item2" : { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Tulyak", 
+               "ammo" : { 
+                  "count" : "1", 
+                  "proto" : "12_AP"
+               }
+            }, 
+            "rucksack" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "KitBag"
+            }, 
+            "cap" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Shlemofon"
+            }, 
+            "armor" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ArmorLJ"
+            }, 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "Skin_4", 
+            "beard" : "Mustache", 
+            "hair" : "Businessman", 
+            "hairColor" : "Dark", 
+            "behavior" : "Village_Smirnov"
+         }
+      }, 
+      "c21a141a-bbae-4109-8a24-54fc44289659" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-103275", 
+            "y" : "-101135"
+         }, 
+         "child" : [ 
+            "b63c7ca0-2916-4411-a38d-40739860b6e6"
+         ], 
+         "objectName" : "Smirnovka_2", 
+         "active" : "true"
+      }, 
+      "b63c7ca0-2916-4411-a38d-40739860b6e6" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-103275", 
+            "y" : "-101059"
+         }, 
+         "child" : [ 
+            "e77626a3-e697-4033-a8e9-4594d9fc587b"
+         ], 
+         "objectName" : "Smirnovka_1", 
+         "active" : "true"
+      }, 
+      "e77626a3-e697-4033-a8e9-4594d9fc587b" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-103275", 
+            "y" : "-100983"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Smirnovka_3", 
+         "active" : "true"
+      }, 
+      "13d79004-185b-4462-82ac-475acc402cb0" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103220", 
+            "y" : "-101353"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "92f5ccdc-936b-4a91-bbc2-0e3b122285c3" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103105", 
+            "y" : "-101351"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "10da8ea8-e669-4514-98f7-21c7e3323acf" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100554", 
+            "y" : "-102098"
+         }, 
+         "child" : [ 
+            "4a67a8d5-c974-4775-8efa-119a7cc47562", 
+            "d4586bc8-54f5-4680-9c4e-67e329681ed3"
+         ]
+      }, 
+      "4a67a8d5-c974-4775-8efa-119a7cc47562" : { 
+         "class" : "ObjectCheckNode", 
+         "desc" : { 
+            "x" : "-100529", 
+            "y" : "-101949"
+         }, 
+         "child" : [ 
+            "7e8d0a36-9991-4b29-be95-39b907ad1250", 
+            "4481c158-7517-4723-86ac-23ac43677636"
+         ], 
+         "objectName" : "trashcon_1"
+      }, 
+      "7e8d0a36-9991-4b29-be95-39b907ad1250" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100702", 
+            "y" : "-101841"
+         }, 
+         "child" : [ 
+            "47a6ee6f-27e0-4511-a17e-2e82144e1e6a", 
+            "d3181e5d-b37e-4ae9-b330-f290e0d5b868"
+         ], 
+         "key" : "TRASH_UP"
+      }, 
+      "47a6ee6f-27e0-4511-a17e-2e82144e1e6a" : { 
+         "class" : "TimeDateTriggerNode", 
+         "desc" : { 
+            "x" : "-100609", 
+            "y" : "-101766"
+         }, 
+         "child" : [ 
+            "d3181e5d-b37e-4ae9-b330-f290e0d5b868"
+         ], 
+         "time" : "24", 
+         "mode" : "Hour", 
+         "offsetValue" : "TRASH_UP"
+      }, 
+      "d3181e5d-b37e-4ae9-b330-f290e0d5b868" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-100809", 
+            "y" : "-101594"
+         }, 
+         "child" : [ 
+            "f577715e-c690-44fc-8d83-caa7969d1b61", 
+            "064903b7-0eaa-4c5f-8064-da6856eda16d", 
+            "56bd13f7-8fc6-4281-9bfc-50aabe824ce6"
+         ], 
+         "key" : "TRASH_UP", 
+         "value" : "$TIME$"
+      }, 
+      "f577715e-c690-44fc-8d83-caa7969d1b61" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-101000", 
+            "y" : "-101497"
+         }, 
+         "child" : [ 
+            "576c78ce-888a-4613-a754-946da6fdb1ab"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "trashcon_1"
+      }, 
+      "576c78ce-888a-4613-a754-946da6fdb1ab" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-100857", 
+            "y" : "-101338"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/TrashLoot_1"
+      }, 
+      "064903b7-0eaa-4c5f-8064-da6856eda16d" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-100872", 
+            "y" : "-101425"
+         }, 
+         "child" : [ 
+            "576c78ce-888a-4613-a754-946da6fdb1ab"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "trashcon_2"
+      }, 
+      "56bd13f7-8fc6-4281-9bfc-50aabe824ce6" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-100737", 
+            "y" : "-101495"
+         }, 
+         "child" : [ 
+            "576c78ce-888a-4613-a754-946da6fdb1ab"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "trashcon_3"
+      }, 
+      "4481c158-7517-4723-86ac-23ac43677636" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100454", 
+            "y" : "-101827"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "d4586bc8-54f5-4680-9c4e-67e329681ed3" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-100114", 
+            "y" : "-102016"
+         }, 
+         "child" : [ 
+            "25489520-ac27-45a4-a8fd-2834c0f34da8", 
+            "5d284c8d-6eb4-4a03-9fc3-b5c05274a324"
+         ], 
+         "objectName" : "Fisher"
+      }, 
+      "25489520-ac27-45a4-a8fd-2834c0f34da8" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100088", 
+            "y" : "-101840"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "5d284c8d-6eb4-4a03-9fc3-b5c05274a324" : { 
+         "class" : "CharacterInBattleNode", 
+         "desc" : { 
+            "x" : "-100039", 
+            "y" : "-101938"
+         }, 
+         "child" : [ 
+            "25489520-ac27-45a4-a8fd-2834c0f34da8", 
+            "4158547e-01c1-4e42-b9f8-6a0dd2acae6c"
+         ], 
+         "objectName" : "Fisher"
+      }, 
+      "4158547e-01c1-4e42-b9f8-6a0dd2acae6c" : { 
+         "class" : "DayNightNode", 
+         "desc" : { 
+            "x" : "-99967", 
+            "y" : "-101852"
+         }, 
+         "child" : [ 
+            "ed2b6cc9-8ba2-4980-a72d-73b567145fa0", 
+            "423a3e59-7e3a-469a-b544-92b4ba233be8"
+         ]
+      }, 
+      "ed2b6cc9-8ba2-4980-a72d-73b567145fa0" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100156", 
+            "y" : "-101760"
+         }, 
+         "child" : [ 
+            "d6a7c59c-1aca-49ce-a8a6-fa5e2d1ae27f", 
+            "d0099689-2f63-4535-8ed0-11f5f8d6a60c"
+         ]
+      }, 
+      "d6a7c59c-1aca-49ce-a8a6-fa5e2d1ae27f" : { 
+         "class" : "ObjectCheckNode", 
+         "desc" : { 
+            "x" : "-100249", 
+            "y" : "-101701"
+         }, 
+         "child" : [ 
+            "c2edfac9-827e-4c1d-b12d-94306c567044", 
+            "58a7b324-ebdd-4d80-86c1-76a7f9ad9db8"
+         ], 
+         "objectName" : "Chair_03_blocker"
+      }, 
+      "c2edfac9-827e-4c1d-b12d-94306c567044" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100266", 
+            "y" : "-101617"
+         }, 
+         "child" : [ 
+            "48bd260c-f59a-4057-95c2-37998ba3ee97"
+         ], 
+         "objectName" : "Chair_03_blocker", 
+         "active" : "false"
+      }, 
+      "48bd260c-f59a-4057-95c2-37998ba3ee97" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100180", 
+            "y" : "-101533"
+         }, 
+         "child" : [ 
+            "e46b9798-4e4a-4e10-bedd-de5a28b03cdb"
+         ], 
+         "objectName" : "Fisher", 
+         "active" : "true"
+      }, 
+      "e46b9798-4e4a-4e10-bedd-de5a28b03cdb" : { 
+         "class" : "CharacterTeleportNode", 
+         "desc" : { 
+            "x" : "-100189", 
+            "y" : "-101462"
+         }, 
+         "child" : [ 
+            "8e0b52b0-5016-416f-bd72-cec39fe2b9a6"
+         ], 
+         "objectName" : "Fisher", 
+         "pointName" : "Fisher.way"
+      }, 
+      "8e0b52b0-5016-416f-bd72-cec39fe2b9a6" : { 
+         "class" : "CharacterNeedUpdateNode", 
+         "desc" : { 
+            "x" : "-100200", 
+            "y" : "-101389"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Fisher", 
+         "stopState" : "false"
+      }, 
+      "58a7b324-ebdd-4d80-86c1-76a7f9ad9db8" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100122", 
+            "y" : "-101612"
+         }, 
+         "child" : [ 
+            "48bd260c-f59a-4057-95c2-37998ba3ee97"
+         ]
+      }, 
+      "d0099689-2f63-4535-8ed0-11f5f8d6a60c" : { 
+         "class" : "ObjectCheckNode", 
+         "desc" : { 
+            "x" : "-100049", 
+            "y" : "-101699"
+         }, 
+         "child" : [ 
+            "a1f5e665-0f28-4662-8949-ab44686c43b9", 
+            "44e0e337-65cf-4e4a-96f5-3beb40ca5673"
+         ], 
+         "objectName" : "Chair_02_day"
+      }, 
+      "a1f5e665-0f28-4662-8949-ab44686c43b9" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100007", 
+            "y" : "-101608"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Chair_02_day", 
+         "active" : "true"
+      }, 
+      "44e0e337-65cf-4e4a-96f5-3beb40ca5673" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99745", 
+            "y" : "-101589"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "423a3e59-7e3a-469a-b544-92b4ba233be8" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-99752", 
+            "y" : "-101778"
+         }, 
+         "child" : [ 
+            "67cd802c-535a-45bd-a59c-d9154ed505b5", 
+            "c3e2a3f8-3e07-4966-9e13-bd50ddaf6dd3"
+         ], 
+         "objectName" : "Fisher", 
+         "active" : "false"
+      }, 
+      "67cd802c-535a-45bd-a59c-d9154ed505b5" : { 
+         "class" : "ObjectCheckNode", 
+         "desc" : { 
+            "x" : "-99869", 
+            "y" : "-101697"
+         }, 
+         "child" : [ 
+            "78180a36-2594-4af5-8a48-7ffa858b7415", 
+            "44e0e337-65cf-4e4a-96f5-3beb40ca5673"
+         ], 
+         "objectName" : "Chair_03_blocker"
+      }, 
+      "78180a36-2594-4af5-8a48-7ffa858b7415" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-99887", 
+            "y" : "-101601"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Chair_03_blocker", 
+         "active" : "true"
+      }, 
+      "c3e2a3f8-3e07-4966-9e13-bd50ddaf6dd3" : { 
+         "class" : "ObjectCheckNode", 
+         "desc" : { 
+            "x" : "-99669", 
+            "y" : "-101696"
+         }, 
+         "child" : [ 
+            "fde5be1d-52bf-410b-a977-0a2f4441b9dd", 
+            "44e0e337-65cf-4e4a-96f5-3beb40ca5673"
+         ], 
+         "objectName" : "Chair_02_day"
+      }, 
+      "fde5be1d-52bf-410b-a977-0a2f4441b9dd" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-99627", 
+            "y" : "-101599"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Chair_02_day", 
+         "active" : "false"
+      }, 
+      "0e1ea216-e146-46a2-86ac-98f140a8c217" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101109", 
+            "y" : "-100005"
+         }, 
+         "child" : [ 
+            "3fe5b0ac-f0d3-43af-a5f4-75ef7e9c4c2a", 
+            "37628f8f-e17d-40a9-bceb-cd069ba6b57e"
+         ], 
+         "key" : "ALEX_TIME"
+      }, 
+      "3fe5b0ac-f0d3-43af-a5f4-75ef7e9c4c2a" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101180", 
+            "y" : "-99888", 
+            "comment" : "гг enter location"
+         }, 
+         "child" : [ 
+            "b35bdf88-8019-41e5-902e-d319b71456f9", 
+            "56715612-115c-438e-9d75-48ac458301bf"
+         ], 
+         "key" : "ALX_PLAYER_OUT"
+      }, 
+      "b35bdf88-8019-41e5-902e-d319b71456f9" : { 
+         "class" : "RemoveKeywordNode", 
+         "desc" : { 
+            "x" : "-101236", 
+            "y" : "-99800"
+         }, 
+         "child" : [ 
+            "8b4732a8-e3cf-49ca-8b73-be1f9e645b44"
+         ], 
+         "key" : "ALX_PLAYER_OUT"
+      }, 
+      "8b4732a8-e3cf-49ca-8b73-be1f9e645b44" : { 
+         "class" : "HasTimeDateComeNode", 
+         "desc" : { 
+            "x" : "-101265", 
+            "y" : "-99743", 
+            "comment" : "прошло 3 дня, в 5 утра Александр исчезает"
+         }, 
+         "child" : [ 
+            "0acd3580-c7f1-46ec-8dda-5cc3fe087a95", 
+            "8e5cc0bd-e317-4d9f-a01f-a6c4de1f99b6"
+         ], 
+         "time" : "53", 
+         "mode" : "Hour"
+      }, 
+      "0acd3580-c7f1-46ec-8dda-5cc3fe087a95" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101257", 
+            "y" : "-99091"
+         }, 
+         "child" : [ 
+            "49c6773b-955b-45e8-9f2a-e1d6bbcea03f"
+         ], 
+         "objectName" : "Alex", 
+         "active" : "false"
+      }, 
+      "49c6773b-955b-45e8-9f2a-e1d6bbcea03f" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101287", 
+            "y" : "-98727"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "8e5cc0bd-e317-4d9f-a01f-a6c4de1f99b6" : { 
+         "class" : "HasTimeDateComeNode", 
+         "desc" : { 
+            "x" : "-101231", 
+            "y" : "-99630", 
+            "comment" : "прошло 2 дня, в 5 утра Александр в баре"
+         }, 
+         "child" : [ 
+            "4ba35018-71f0-4e64-bcf7-dde54a0c1df2", 
+            "56715612-115c-438e-9d75-48ac458301bf"
+         ], 
+         "time" : "29", 
+         "mode" : "Hour"
+      }, 
+      "4ba35018-71f0-4e64-bcf7-dde54a0c1df2" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-101293", 
+            "y" : "-99520"
+         }, 
+         "child" : [ 
+            "2752f575-1059-41c2-a08f-48087c758085"
+         ], 
+         "objectName" : "Alex", 
+         "key" : "PLAYER_DRINK_KATYA_POTION", 
+         "value" : "1"
+      }, 
+      "2752f575-1059-41c2-a08f-48087c758085" : { 
+         "class" : "CharacterTeleportNode", 
+         "desc" : { 
+            "x" : "-101193", 
+            "y" : "-99421"
+         }, 
+         "child" : [ 
+            "56715612-115c-438e-9d75-48ac458301bf"
+         ], 
+         "objectName" : "Alex", 
+         "pointName" : "Alex.way"
+      }, 
+      "56715612-115c-438e-9d75-48ac458301bf" : { 
+         "class" : "RemoveKeywordNode", 
+         "desc" : { 
+            "x" : "-101054", 
+            "y" : "-99341"
+         }, 
+         "child" : [ 
+            "06948d13-d838-46b4-bd5d-10ec531d52ff", 
+            "fa315373-6e44-4662-826a-c713eee6b18c"
+         ], 
+         "key" : "ALX_PLAYER_OUT"
+      }, 
+      "06948d13-d838-46b4-bd5d-10ec531d52ff" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-101174", 
+            "y" : "-99197"
+         }, 
+         "child" : [ 
+            "49c6773b-955b-45e8-9f2a-e1d6bbcea03f", 
+            "2d07db23-c887-4468-9aff-40a4f577e93a"
+         ], 
+         "objectName" : "Alex"
+      }, 
+      "2d07db23-c887-4468-9aff-40a4f577e93a" : { 
+         "class" : "TimeDatePeriodNode", 
+         "desc" : { 
+            "x" : "-101094", 
+            "y" : "-99095"
+         }, 
+         "child" : [ 
+            "642f6cc4-2d33-4f8e-99f8-2042831cf4f5", 
+            "34df6d55-60c2-49df-814c-c127c8ee75ec"
+         ], 
+         "timeStart" : "29", 
+         "modeStart" : "Hour", 
+         "timeLen" : "24", 
+         "modeLen" : "Hour"
+      }, 
+      "642f6cc4-2d33-4f8e-99f8-2042831cf4f5" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101146", 
+            "y" : "-98963"
+         }, 
+         "child" : [ 
+            "49c6773b-955b-45e8-9f2a-e1d6bbcea03f", 
+            "6709ca5b-2c7a-4592-8341-bc5daa76fa3f"
+         ], 
+         "key" : "ALEX_SHOW"
+      }, 
+      "6709ca5b-2c7a-4592-8341-bc5daa76fa3f" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-101129", 
+            "y" : "-98885"
+         }, 
+         "child" : [ 
+            "6f7a5ce1-cfcc-41ec-98d8-d01f740bf95c"
+         ], 
+         "key" : "ALEX_SHOW"
+      }, 
+      "6f7a5ce1-cfcc-41ec-98d8-d01f740bf95c" : { 
+         "class" : "CharacterInOutNode", 
+         "desc" : { 
+            "x" : "-101130", 
+            "y" : "-98825"
+         }, 
+         "child" : [ 
+            "13083414-3449-46ce-aad8-8be3287d8835"
+         ], 
+         "objectName" : "Alex", 
+         "active" : "true", 
+         "effectDuration" : "1.5"
+      }, 
+      "13083414-3449-46ce-aad8-8be3287d8835" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-101177", 
+            "y" : "-98731"
+         }, 
+         "child" : [ 
+            "43e52356-0edd-40c5-96e4-9716d36773d7"
+         ], 
+         "objectName" : "Alex", 
+         "key" : "ALEX_APPEAR", 
+         "value" : "1"
+      }, 
+      "43e52356-0edd-40c5-96e4-9716d36773d7" : { 
+         "class" : "CharacterNeedUpdateNode", 
+         "desc" : { 
+            "x" : "-101120", 
+            "y" : "-98641"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Alex", 
+         "stopState" : "true"
+      }, 
+      "34df6d55-60c2-49df-814c-c127c8ee75ec" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-101061", 
+            "y" : "-98729"
+         }, 
+         "child" : [ 
+            "43e52356-0edd-40c5-96e4-9716d36773d7"
+         ], 
+         "objectName" : "Alex", 
+         "key" : "ALEX_APPEAR", 
+         "value" : "0"
+      }, 
+      "fa315373-6e44-4662-826a-c713eee6b18c" : { 
+         "class" : "OnMinuteTimeEventNode", 
+         "desc" : { 
+            "x" : "-101002", 
+            "y" : "-99265", 
+            "comment" : "тикает каждую минуту"
+         }, 
+         "child" : [ 
+            "06948d13-d838-46b4-bd5d-10ec531d52ff"
+         ]
+      }, 
+      "37628f8f-e17d-40a9-bceb-cd069ba6b57e" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-101048", 
+            "y" : "-99864"
+         }, 
+         "child" : [ 
+            "56715612-115c-438e-9d75-48ac458301bf"
+         ], 
+         "key" : "ALEX_TIME", 
+         "value" : "$TIME$"
+      }, 
+      "e9eaaa63-41c0-47a3-a7d1-6e2901e2b28d" : { 
+         "class" : "FractionIsEnemyRelationshipNode", 
+         "desc" : { 
+            "x" : "-101776", 
+            "y" : "-101682"
+         }, 
+         "child" : [ 
+            "54ffe111-9658-4263-9bfe-c9a1ad7fd88b", 
+            "29bd7eae-3278-4e7d-8153-d5b5a15a9e3a"
+         ], 
+         "fractionA" : "player", 
+         "fractionB" : "village"
+      }, 
+      "54ffe111-9658-4263-9bfe-c9a1ad7fd88b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101779", 
+            "y" : "-101576"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "29bd7eae-3278-4e7d-8153-d5b5a15a9e3a" : { 
+         "class" : "DayNightNode", 
+         "desc" : { 
+            "x" : "-101651", 
+            "y" : "-101588"
+         }, 
+         "child" : [ 
+            "58c15efd-0c02-42ed-a6ff-71a58ba02481", 
+            "bc11d1a4-65fe-48e8-9241-07ce19d3fd8f"
+         ]
+      }, 
+      "58c15efd-0c02-42ed-a6ff-71a58ba02481" : { 
+         "class" : "TimeDatePeriodNode", 
+         "desc" : { 
+            "x" : "-101793", 
+            "y" : "-101523"
+         }, 
+         "child" : [ 
+            "35333ac9-33cc-43d8-9f75-50dd95ae5b8a", 
+            "bc11d1a4-65fe-48e8-9241-07ce19d3fd8f"
+         ], 
+         "timeStart" : "1", 
+         "modeStart" : "Day", 
+         "timeLen" : "1", 
+         "modeLen" : "Day", 
+         "offsetValue" : "RANDOM_MAN"
+      }, 
+      "35333ac9-33cc-43d8-9f75-50dd95ae5b8a" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101970", 
+            "y" : "-101486"
+         }, 
+         "child" : [ 
+            "bc11d1a4-65fe-48e8-9241-07ce19d3fd8f", 
+            "1da83490-fd3e-4f99-91c0-626a5aecd607"
+         ]
+      }, 
+      "bc11d1a4-65fe-48e8-9241-07ce19d3fd8f" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101631", 
+            "y" : "-101213"
+         }, 
+         "child" : [ 
+            "c2097803-5a51-4411-9405-d7cda540c9bb", 
+            "c451807b-e61b-4e77-9ca9-4f513d95ceec", 
+            "a64a4c84-4d25-43ea-a052-aec02fa6c854", 
+            "f02bfa03-6da5-4423-8700-35c270dac2a3", 
+            "171b28e7-3480-4fc4-a32d-2e422b8309e8", 
+            "e52933c8-eda0-45d5-a199-bb4e877e4cd8", 
+            "a348b036-0a78-4f52-8d91-a0a29c6b48ed"
+         ]
+      }, 
+      "c2097803-5a51-4411-9405-d7cda540c9bb" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101920", 
+            "y" : "-101086"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Village_TVMan", 
+         "active" : "false"
+      }, 
+      "c451807b-e61b-4e77-9ca9-4f513d95ceec" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101909", 
+            "y" : "-100986"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Village_Educator", 
+         "active" : "false"
+      }, 
+      "a64a4c84-4d25-43ea-a052-aec02fa6c854" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101771", 
+            "y" : "-100985"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Village_Mag", 
+         "active" : "false"
+      }, 
+      "f02bfa03-6da5-4423-8700-35c270dac2a3" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101649", 
+            "y" : "-100983"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Village_Hunt", 
+         "active" : "false"
+      }, 
+      "171b28e7-3480-4fc4-a32d-2e422b8309e8" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101520", 
+            "y" : "-100988"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Village_CrazyPig", 
+         "active" : "false"
+      }, 
+      "e52933c8-eda0-45d5-a199-bb4e877e4cd8" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101366", 
+            "y" : "-100993"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Village_Crazy", 
+         "active" : "false"
+      }, 
+      "a348b036-0a78-4f52-8d91-a0a29c6b48ed" : { 
+         "class" : "PlayBehaviorNode", 
+         "desc" : { 
+            "x" : "-101282", 
+            "y" : "-101076"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "TV_00", 
+         "behavior" : "Entities/Behavior/TV.Show.On"
+      }, 
+      "1da83490-fd3e-4f99-91c0-626a5aecd607" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-102169", 
+            "y" : "-101417"
+         }, 
+         "child" : [ 
+            "7796968e-8147-4062-ac2e-b00169095da0", 
+            "c16a3f1e-a931-4b56-9ed3-2041c9c1ae91", 
+            "ff9ee192-5499-4298-b4b1-2c29a9058e2a", 
+            "4b31f388-b7d2-4ab7-918b-0dbe10d3957b", 
+            "a616ecb3-2be8-4645-b996-34a16428ba4e", 
+            "bc11d1a4-65fe-48e8-9241-07ce19d3fd8f"
+         ]
+      }, 
+      "7796968e-8147-4062-ac2e-b00169095da0" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-102682", 
+            "y" : "-101289"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Village_Educator", 
+         "active" : "true"
+      }, 
+      "c16a3f1e-a931-4b56-9ed3-2041c9c1ae91" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-102539", 
+            "y" : "-101291"
+         }, 
+         "child" : [ 
+            "94ca441d-dab5-4845-8b63-065cdbbc5fc7"
+         ], 
+         "objectName" : "Village_TVMan", 
+         "active" : "true"
+      }, 
+      "94ca441d-dab5-4845-8b63-065cdbbc5fc7" : { 
+         "class" : "PlayBehaviorNode", 
+         "desc" : { 
+            "x" : "-102600", 
+            "y" : "-101207"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "TV_00", 
+         "behavior" : "Entities/Behavior/TV.Show.NoSignal"
+      }, 
+      "ff9ee192-5499-4298-b4b1-2c29a9058e2a" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-102348", 
+            "y" : "-101291"
+         }, 
+         "child" : [ 
+            "00b6afcb-9d90-4051-98ec-6b270bda611f"
+         ], 
+         "objectName" : "Village_Crazy", 
+         "active" : "true"
+      }, 
+      "00b6afcb-9d90-4051-98ec-6b270bda611f" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-102359", 
+            "y" : "-101208"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Village_CrazyPig", 
+         "active" : "true"
+      }, 
+      "4b31f388-b7d2-4ab7-918b-0dbe10d3957b" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-102236", 
+            "y" : "-101292"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Village_Mag", 
+         "active" : "true"
+      }, 
+      "a616ecb3-2be8-4645-b996-34a16428ba4e" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-102119", 
+            "y" : "-101292"
+         }, 
+         "child" : [ 
+            "7c9ca1f2-4a68-47f7-aa40-28feaa322b3d"
+         ], 
+         "objectName" : "Village_Hunt", 
+         "active" : "true"
+      }, 
+      "7c9ca1f2-4a68-47f7-aa40-28feaa322b3d" : { 
+         "class" : "CharacterSetStateNode", 
+         "desc" : { 
+            "x" : "-102114", 
+            "y" : "-101192"
+         }, 
+         "child" : [ 
+            "9b9d3faf-4f56-4781-86ec-e239b9b6b432"
+         ], 
+         "objectName" : "Village_Hunt", 
+         "stateName" : ""
+      }, 
+      "9b9d3faf-4f56-4781-86ec-e239b9b6b432" : { 
+         "class" : "CharacterNeedUpdateNode", 
+         "desc" : { 
+            "x" : "-102122", 
+            "y" : "-101104"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Village_Hunt", 
+         "stopState" : "false"
+      }, 
+      "91ae7f00-cd36-47a3-9016-0f63e5720144" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101965", 
+            "y" : "-100693"
+         }, 
+         "child" : [ 
+            "eb1fcdc0-37e1-43f4-94fe-30fa59d784b3", 
+            "9d21f505-6911-4926-924c-15beb0cf2ee1"
+         ], 
+         "key" : "RAIDER.PREPARE"
+      }, 
+      "eb1fcdc0-37e1-43f4-94fe-30fa59d784b3" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-102298", 
+            "y" : "-100602"
+         }, 
+         "child" : [ 
+            "bae0427d-5005-45ec-8122-6573837f8f69"
+         ], 
+         "note_key" : "VILLAGE.RAIDER.ATTACK"
+      }, 
+      "bae0427d-5005-45ec-8122-6573837f8f69" : { 
+         "class" : "RemoveKeywordNode", 
+         "desc" : { 
+            "x" : "-102275", 
+            "y" : "-100548"
+         }, 
+         "child" : [ 
+            "5fd9c567-f9c4-4a07-8096-859e3a3ba9ff"
+         ], 
+         "key" : "RAIDER.PREPARE"
+      }, 
+      "5fd9c567-f9c4-4a07-8096-859e3a3ba9ff" : { 
+         "class" : "LogNode", 
+         "desc" : { 
+            "x" : "-102970", 
+            "y" : "-100490"
+         }, 
+         "child" : [ 
+            "288cde21-a8fc-4015-b52d-c6718d5f4c1b", 
+            "d599f027-dfd2-4b3f-ac15-8b11b9669106", 
+            "9079b1b3-8fcd-4634-9ec5-dcd55c7022db", 
+            "aaf8f3e6-6e19-42cb-9cd4-054f3927dc5d", 
+            "255e9d14-c64a-4a19-9104-fb5f0f5df5bf", 
+            "5f7a1a64-a724-402d-8569-df8f9803a7b0"
+         ], 
+         "text" : "#Village.5fd9c567-f9c4-4a07-8096-859e3a3ba9ff"
+      }, 
+      "288cde21-a8fc-4015-b52d-c6718d5f4c1b" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-102971", 
+            "y" : "-100396"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Raid_1", 
+         "active" : "true"
+      }, 
+      "d599f027-dfd2-4b3f-ac15-8b11b9669106" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-102900", 
+            "y" : "-100324"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Raid_2", 
+         "active" : "true"
+      }, 
+      "9079b1b3-8fcd-4634-9ec5-dcd55c7022db" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-102837", 
+            "y" : "-100394"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Raid_3", 
+         "active" : "true"
+      }, 
+      "aaf8f3e6-6e19-42cb-9cd4-054f3927dc5d" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-102757", 
+            "y" : "-100327"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Raid_4", 
+         "active" : "true"
+      }, 
+      "255e9d14-c64a-4a19-9104-fb5f0f5df5bf" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-102692", 
+            "y" : "-100398"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Raid_5", 
+         "active" : "true"
+      }, 
+      "5f7a1a64-a724-402d-8569-df8f9803a7b0" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-102603", 
+            "y" : "-100326"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Raid_6", 
+         "active" : "true"
+      }, 
+      "9d21f505-6911-4926-924c-15beb0cf2ee1" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101929", 
+            "y" : "-100612"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "a72fbb6c-27c9-4916-9fa2-ceeab8836006" : { 
+         "class" : "PlayerLevelOutNode", 
+         "desc" : { 
+            "x" : "-102082", 
+            "y" : "-100900"
+         }, 
+         "child" : [ 
+            "a578c6f8-daf8-431d-b1a6-08da0633d2b4", 
+            "0a1049e4-a632-4bd3-8d06-2864320a1b23", 
+            "bb449446-a675-462b-9757-6e3aec41c191", 
+            "55ed73a9-3bfb-4361-a096-0b66605a6036", 
+            "9be6dae9-f9fd-4837-adba-a152359bce2a", 
+            "9668e87d-a35f-4fab-9553-c7b9cde04460", 
+            "0d41cb82-4085-4d6e-87b9-eb68f4833718", 
+            "c0cc3703-1b37-4ba7-918f-0f01962f5616", 
+            "776a101c-26e3-4eda-9ebe-1b3fda631145"
+         ]
+      }, 
+      "a578c6f8-daf8-431d-b1a6-08da0633d2b4" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-102685", 
+            "y" : "-100874"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/ph_trap_event"
+      }, 
+      "0a1049e4-a632-4bd3-8d06-2864320a1b23" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-102736", 
+            "y" : "-100746"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "entities/behavior/check.rojo"
+      }, 
+      "bb449446-a675-462b-9757-6e3aec41c191" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-102511", 
+            "y" : "-100752"
+         }, 
+         "child" : [ 
+            "759b694f-7bc3-4c2a-81a8-185ffd17b901", 
+            "0672a3c4-2298-4f42-9911-e6c4ba1431f4"
+         ], 
+         "note_key" : "VILLAGE.RAIDER.INIT"
+      }, 
+      "759b694f-7bc3-4c2a-81a8-185ffd17b901" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-102552", 
+            "y" : "-100678"
+         }, 
+         "child" : [ 
+            "2eef8cb2-310e-48af-8c60-134cd73a53b5"
+         ], 
+         "key" : "RAIDER.PREPARE"
+      }, 
+      "2eef8cb2-310e-48af-8c60-134cd73a53b5" : { 
+         "class" : "NotebookRemoveNoteNode", 
+         "desc" : { 
+            "x" : "-102571", 
+            "y" : "-100623"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "VILLAGE.RAIDER.INIT"
+      }, 
+      "0672a3c4-2298-4f42-9911-e6c4ba1431f4" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102421", 
+            "y" : "-100680"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "55ed73a9-3bfb-4361-a096-0b66605a6036" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-102922", 
+            "y" : "-100750"
+         }, 
+         "child" : [ 
+            "c45f73d8-310f-4838-a924-045677482d8f", 
+            "140f8798-2f1c-420b-9e86-acb8a2bf2c72"
+         ], 
+         "note_key" : "VILLAGE.RAIDER.ATTACK"
+      }, 
+      "c45f73d8-310f-4838-a924-045677482d8f" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103305", 
+            "y" : "-100576"
+         }, 
+         "child" : [ 
+            "91623fde-7528-4d50-96fe-ddfc96514d30", 
+            "8111b658-6cc5-42c2-82fd-d768372342f0", 
+            "32c0484b-555e-43b5-aa2f-e9b16302b283", 
+            "007a8f3a-ebdb-49c9-9558-13a357152a13"
+         ]
+      }, 
+      "91623fde-7528-4d50-96fe-ddfc96514d30" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-103511", 
+            "y" : "-100500"
+         }, 
+         "child" : [ 
+            "9c85c71d-81d3-44b6-b90e-17ad474628b5", 
+            "ae3a7b70-e89d-4d14-8480-bf0d98be800a"
+         ], 
+         "objectName" : "Raid_1"
+      }, 
+      "9c85c71d-81d3-44b6-b90e-17ad474628b5" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-103553", 
+            "y" : "-100412"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Raid_1", 
+         "active" : "false"
+      }, 
+      "ae3a7b70-e89d-4d14-8480-bf0d98be800a" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103092", 
+            "y" : "-100281"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "8111b658-6cc5-42c2-82fd-d768372342f0" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-103381", 
+            "y" : "-100499"
+         }, 
+         "child" : [ 
+            "5d3666bb-d76a-41ea-8980-91bee40a08a7", 
+            "ae3a7b70-e89d-4d14-8480-bf0d98be800a"
+         ], 
+         "objectName" : "Raid_2"
+      }, 
+      "5d3666bb-d76a-41ea-8980-91bee40a08a7" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-103418", 
+            "y" : "-100410"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Raid_2", 
+         "active" : "false"
+      }, 
+      "32c0484b-555e-43b5-aa2f-e9b16302b283" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-103251", 
+            "y" : "-100498"
+         }, 
+         "child" : [ 
+            "0356ef56-f92d-45e6-9d95-dd12da0326b1", 
+            "ae3a7b70-e89d-4d14-8480-bf0d98be800a"
+         ], 
+         "objectName" : "Raid_3"
+      }, 
+      "0356ef56-f92d-45e6-9d95-dd12da0326b1" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-103276", 
+            "y" : "-100409"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Raid_3", 
+         "active" : "false"
+      }, 
+      "007a8f3a-ebdb-49c9-9558-13a357152a13" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-103121", 
+            "y" : "-100496"
+         }, 
+         "child" : [ 
+            "0f9314ba-2a9b-4275-b990-496891b64ba6", 
+            "ae3a7b70-e89d-4d14-8480-bf0d98be800a"
+         ], 
+         "objectName" : "Raid_6"
+      }, 
+      "0f9314ba-2a9b-4275-b990-496891b64ba6" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-103157", 
+            "y" : "-100409"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Raid_6", 
+         "active" : "false"
+      }, 
+      "140f8798-2f1c-420b-9e86-acb8a2bf2c72" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102865", 
+            "y" : "-100651"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "9be6dae9-f9fd-4837-adba-a152359bce2a" : { 
+         "class" : "CharacterSetStateNode", 
+         "desc" : { 
+            "x" : "-101421", 
+            "y" : "-100061"
+         }, 
+         "child" : [ 
+            "5fbf72cf-6e45-4158-9aef-43f0b6102ef5"
+         ], 
+         "objectName" : "Village_Postman", 
+         "stateName" : ""
+      }, 
+      "5fbf72cf-6e45-4158-9aef-43f0b6102ef5" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101415", 
+            "y" : "-99988"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Village_Postman", 
+         "active" : "false"
+      }, 
+      "9668e87d-a35f-4fab-9553-c7b9cde04460" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-102525", 
+            "y" : "-100192"
+         }, 
+         "child" : [ 
+            "016344aa-c6c0-4eb0-858c-567a089a7e6e", 
+            "aa4ac4eb-46d7-436d-ae53-21a7400a948e"
+         ], 
+         "key" : "SEMEN_OUT"
+      }, 
+      "016344aa-c6c0-4eb0-858c-567a089a7e6e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102595", 
+            "y" : "-100088"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "aa4ac4eb-46d7-436d-ae53-21a7400a948e" : { 
+         "class" : "QuestStatusNode", 
+         "desc" : { 
+            "x" : "-102464", 
+            "y" : "-100096"
+         }, 
+         "child" : [ 
+            "d3e35a08-5a26-4595-8ba4-f4c03f0a3630", 
+            "90ab8d5b-ec6b-4a85-8150-87116525c21c", 
+            "2499b129-f1cb-4a67-86b3-786a265f40a4"
+         ], 
+         "quest_key" : "FACTORY.IVAN3"
+      }, 
+      "d3e35a08-5a26-4595-8ba4-f4c03f0a3630" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102531", 
+            "y" : "-100002"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "90ab8d5b-ec6b-4a85-8150-87116525c21c" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-102458", 
+            "y" : "-99959"
+         }, 
+         "child" : [ 
+            "220a9d35-f821-4438-89ba-61e51e4b6521"
+         ], 
+         "objectName" : "OldMan", 
+         "active" : "false"
+      }, 
+      "220a9d35-f821-4438-89ba-61e51e4b6521" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-102458", 
+            "y" : "-99880"
+         }, 
+         "child" : [ 
+            "f1822298-f2b0-4e26-98cd-98d7af40081e"
+         ], 
+         "key" : "SEMEN_OUT"
+      }, 
+      "f1822298-f2b0-4e26-98cd-98d7af40081e" : { 
+         "class" : "SpawnEntityNode", 
+         "desc" : { 
+            "x" : "-102458", 
+            "y" : "-99820"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Civil_Grave_Place", 
+         "item" : { 
+            "class" : "Interactive", 
+            "proto" : "Grave_11"
+         }
+      }, 
+      "2499b129-f1cb-4a67-86b3-786a265f40a4" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102389", 
+            "y" : "-100002"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "0d41cb82-4085-4d6e-87b9-eb68f4833718" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-101852", 
+            "y" : "-99938"
+         }, 
+         "child" : [ 
+            "7c70a382-2918-42f4-b899-47c9ac50fc3d", 
+            "396723cf-1dfa-4eb9-854f-98fdc220cde2"
+         ], 
+         "note_key" : "SEKTA_PATH"
+      }, 
+      "7c70a382-2918-42f4-b899-47c9ac50fc3d" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-101910", 
+            "y" : "-99855"
+         }, 
+         "child" : [ 
+            "1cc73540-f822-4a89-89cb-1fbbf34a4de3", 
+            "28fc4b0b-4ff2-4312-b08a-9a304f368106"
+         ], 
+         "note_key" : "SEKTA_PATH_2"
+      }, 
+      "1cc73540-f822-4a89-89cb-1fbbf34a4de3" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101971", 
+            "y" : "-99770"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "28fc4b0b-4ff2-4312-b08a-9a304f368106" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-101849", 
+            "y" : "-99777"
+         }, 
+         "child" : [ 
+            "0206bf11-3df4-445c-9f0c-6e001037c645", 
+            "cdddad4d-264c-4067-b870-c738f01885bc"
+         ], 
+         "objectName" : "Sekta_5"
+      }, 
+      "0206bf11-3df4-445c-9f0c-6e001037c645" : { 
+         "class" : "QuestBeginNode", 
+         "desc" : { 
+            "x" : "-101926", 
+            "y" : "-99689"
+         }, 
+         "child" : [ 
+            "ea070d8c-d6e0-4898-a8e2-58b24833590e"
+         ], 
+         "quest_key" : "CULT_OBSERVER_FAIL"
+      }, 
+      "ea070d8c-d6e0-4898-a8e2-58b24833590e" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-101911", 
+            "y" : "-99633"
+         }, 
+         "child" : [ 
+            "ca79b71c-304f-4585-b658-74a9ab7db7a3"
+         ], 
+         "quest_key" : "CULT_OBSERVER"
+      }, 
+      "ca79b71c-304f-4585-b658-74a9ab7db7a3" : { 
+         "class" : "ObjectRemoveNode", 
+         "desc" : { 
+            "x" : "-101908", 
+            "y" : "-99579"
+         }, 
+         "child" : [ 
+            "ac12aa23-c330-4404-9b93-f1b7f1b253c1"
+         ], 
+         "objName" : "Sekta_1"
+      }, 
+      "ac12aa23-c330-4404-9b93-f1b7f1b253c1" : { 
+         "class" : "ObjectRemoveNode", 
+         "desc" : { 
+            "x" : "-101906", 
+            "y" : "-99522"
+         }, 
+         "child" : [ 
+            "a2251fad-10a1-4329-8c5a-51d8c1dad605"
+         ], 
+         "objName" : "Sekta_2"
+      }, 
+      "a2251fad-10a1-4329-8c5a-51d8c1dad605" : { 
+         "class" : "ObjectRemoveNode", 
+         "desc" : { 
+            "x" : "-101906", 
+            "y" : "-99464"
+         }, 
+         "child" : [ 
+            "09906b13-9a41-4a01-8112-330ede7e3afb"
+         ], 
+         "objName" : "Sekta_3"
+      }, 
+      "09906b13-9a41-4a01-8112-330ede7e3afb" : { 
+         "class" : "ObjectRemoveNode", 
+         "desc" : { 
+            "x" : "-101906", 
+            "y" : "-99406"
+         }, 
+         "child" : [ 
+            "316cac04-ff9e-4253-bf84-d72b270f9141"
+         ], 
+         "objName" : "Sekta_4"
+      }, 
+      "316cac04-ff9e-4253-bf84-d72b270f9141" : { 
+         "class" : "ObjectRemoveNode", 
+         "desc" : { 
+            "x" : "-101906", 
+            "y" : "-99349"
+         }, 
+         "child" : [ 
+         ], 
+         "objName" : "Sekta_5"
+      }, 
+      "cdddad4d-264c-4067-b870-c738f01885bc" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101765", 
+            "y" : "-99684"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "396723cf-1dfa-4eb9-854f-98fdc220cde2" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101771", 
+            "y" : "-99852"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "c0cc3703-1b37-4ba7-918f-0f01962f5616" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-101772", 
+            "y" : "-100647"
+         }, 
+         "child" : [ 
+            "3abb956c-7a95-487d-880c-61ba74d2eb77", 
+            "e245cdcd-f7fe-42c5-830f-9f9b92908a54"
+         ], 
+         "objectName" : "Doctor"
+      }, 
+      "3abb956c-7a95-487d-880c-61ba74d2eb77" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-101868", 
+            "y" : "-100535"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "VILLAGE.DOCTOR.DEAD"
+      }, 
+      "e245cdcd-f7fe-42c5-830f-9f9b92908a54" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101695", 
+            "y" : "-100525"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "776a101c-26e3-4eda-9ebe-1b3fda631145" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102080", 
+            "y" : "-100463"
+         }, 
+         "child" : [ 
+            "c1f61075-e727-42fc-ac90-4959af8360db", 
+            "a7c720d3-74ad-4e14-bd64-0735b82a552e", 
+            "f85249e6-2ac3-42f7-ab7d-7f7a8be02c11"
+         ]
+      }, 
+      "c1f61075-e727-42fc-ac90-4959af8360db" : { 
+         "class" : "ObjectCheckNode", 
+         "desc" : { 
+            "x" : "-102157", 
+            "y" : "-100405"
+         }, 
+         "child" : [ 
+            "eccdf4be-4db1-4405-8faa-0af39583cc2a", 
+            "daf8e701-586d-465d-a1cc-d14e27123269"
+         ], 
+         "objectName" : "Grisha"
+      }, 
+      "eccdf4be-4db1-4405-8faa-0af39583cc2a" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-102207", 
+            "y" : "-100327"
+         }, 
+         "child" : [ 
+            "4ba5c480-a68e-44bf-a582-cc9e6a643b9d", 
+            "daf8e701-586d-465d-a1cc-d14e27123269"
+         ], 
+         "objectName" : "Grisha"
+      }, 
+      "4ba5c480-a68e-44bf-a582-cc9e6a643b9d" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102256", 
+            "y" : "-100243"
+         }, 
+         "child" : [ 
+            "ee38687d-6d6b-4e0a-be70-9f351ec66830"
+         ]
+      }, 
+      "ee38687d-6d6b-4e0a-be70-9f351ec66830" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-102283", 
+            "y" : "-100204"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "VILLAGE.GRISHKA.DEAD"
+      }, 
+      "daf8e701-586d-465d-a1cc-d14e27123269" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102122", 
+            "y" : "-100237"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "a7c720d3-74ad-4e14-bd64-0735b82a552e" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-102077", 
+            "y" : "-100118"
+         }, 
+         "child" : [ 
+            "42586357-405c-4464-b034-fa3d9de4df50", 
+            "5c483e74-fbb1-4f38-8065-3a2976f32963"
+         ], 
+         "key" : "SMIRNOV"
+      }, 
+      "42586357-405c-4464-b034-fa3d9de4df50" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-102181", 
+            "y" : "-100030"
+         }, 
+         "child" : [ 
+            "57aa3bec-9399-48ad-b3d1-39f008dc38e6", 
+            "5c483e74-fbb1-4f38-8065-3a2976f32963"
+         ], 
+         "objectName" : "Village_Smirnov.place"
+      }, 
+      "57aa3bec-9399-48ad-b3d1-39f008dc38e6" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-102238", 
+            "y" : "-99945"
+         }, 
+         "child" : [ 
+            "06b5a121-5c8d-4e1b-8a73-3063e4a472aa"
+         ], 
+         "note_key" : "VILLAGE_SMIRNOV_DIED"
+      }, 
+      "06b5a121-5c8d-4e1b-8a73-3063e4a472aa" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-102211", 
+            "y" : "-99887"
+         }, 
+         "child" : [ 
+         ], 
+         "quest_key" : "CITY.STRATEG3"
+      }, 
+      "5c483e74-fbb1-4f38-8065-3a2976f32963" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102060", 
+            "y" : "-99938"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "f85249e6-2ac3-42f7-ab7d-7f7a8be02c11" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-101995", 
+            "y" : "-100193"
+         }, 
+         "child" : [ 
+            "c898d62d-0d96-43bf-8f70-478c5fa3c03b"
+         ], 
+         "key" : "ALX_PLAYER_OUT"
+      }, 
+      "c898d62d-0d96-43bf-8f70-478c5fa3c03b" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-101936", 
+            "y" : "-100126"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "EXIT_TIME", 
+         "value" : "$TIME$"
+      }, 
+      "bc3aa966-4913-4550-871f-7f29520945d2" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-101664", 
+            "y" : "-100460"
+         }, 
+         "child" : [ 
+            "626eaf48-b8a5-47ee-967b-9670ec2b4c0c", 
+            "68a0b7b0-f58a-4042-861a-f330c54d53e6"
+         ], 
+         "objectName" : "Village_Postman"
+      }, 
+      "626eaf48-b8a5-47ee-967b-9670ec2b4c0c" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101673", 
+            "y" : "-100361"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "68a0b7b0-f58a-4042-861a-f330c54d53e6" : { 
+         "class" : "DayNightNode", 
+         "desc" : { 
+            "x" : "-101497", 
+            "y" : "-100325"
+         }, 
+         "child" : [ 
+            "4e33f6e7-103c-441a-8155-19044f81aa21", 
+            "9be6dae9-f9fd-4837-adba-a152359bce2a"
+         ]
+      }, 
+      "4e33f6e7-103c-441a-8155-19044f81aa21" : { 
+         "class" : "TimeDatePeriodNode", 
+         "desc" : { 
+            "x" : "-101550", 
+            "y" : "-100266"
+         }, 
+         "child" : [ 
+            "002499e7-3ca0-4d8e-bf0d-a343fed32edc", 
+            "9be6dae9-f9fd-4837-adba-a152359bce2a"
+         ], 
+         "timeStart" : "4", 
+         "modeStart" : "Hour", 
+         "timeLen" : "4", 
+         "modeLen" : "Day", 
+         "offsetValue" : "POST_MAN"
+      }, 
+      "002499e7-3ca0-4d8e-bf0d-a343fed32edc" : { 
+         "class" : "CharacterSetStateNode", 
+         "desc" : { 
+            "x" : "-101594", 
+            "y" : "-100102"
+         }, 
+         "child" : [ 
+            "8c7da6cb-8244-418a-bd8f-d6355d7a7770"
+         ], 
+         "objectName" : "Village_Postman", 
+         "stateName" : ""
+      }, 
+      "8c7da6cb-8244-418a-bd8f-d6355d7a7770" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101595", 
+            "y" : "-100032"
+         }, 
+         "child" : [ 
+            "75c50b5d-d7d4-475a-8bc6-4151bfaebdfa"
+         ], 
+         "objectName" : "Village_Postman", 
+         "active" : "true"
+      }, 
+      "75c50b5d-d7d4-475a-8bc6-4151bfaebdfa" : { 
+         "class" : "CharacterNeedUpdateNode", 
+         "desc" : { 
+            "x" : "-101629", 
+            "y" : "-99959"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Village_Postman", 
+         "stopState" : "false"
+      }, 
+      "db93422f-4f43-47fb-bfb9-33cfd0df78c6" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101914", 
+            "y" : "-100432"
+         }, 
+         "child" : [ 
+            "5ef256d2-1d3b-4b33-a709-f663d0439254", 
+            "a01bdebf-abd2-4b3f-adfb-99213d6185b4"
+         ], 
+         "key" : "INIT"
+      }, 
+      "5ef256d2-1d3b-4b33-a709-f663d0439254" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101935", 
+            "y" : "-100352"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "a01bdebf-abd2-4b3f-adfb-99213d6185b4" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-101808", 
+            "y" : "-100346"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "INIT"
+      }, 
+      "3406b1a1-f430-4c4d-8611-b38caf5f85bd" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-100887", 
+            "y" : "-100165"
+         }, 
+         "child" : [ 
+            "6bbd6313-538d-4ef2-a963-7c23ea118e9c", 
+            "4d06cf3d-2998-4c1c-8822-580f0ac87939"
+         ], 
+         "note_key" : "VILLAGE.MECH.BACK"
+      }, 
+      "6bbd6313-538d-4ef2-a963-7c23ea118e9c" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100892", 
+            "y" : "-100072"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Mech", 
+         "active" : "true"
+      }, 
+      "4d06cf3d-2998-4c1c-8822-580f0ac87939" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100777", 
+            "y" : "-100068"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "63794273-f4e6-48a4-99aa-1a393dfcd254" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-99936", 
+            "y" : "-100496"
+         }, 
+         "child" : [ 
+            "18787bec-9f76-4bec-b72c-89d2dd68b67d", 
+            "2e2f60b1-c0e8-4328-b120-9827ce68aa46"
+         ], 
+         "key" : "SHOW_IVAN_CAR"
+      }, 
+      "18787bec-9f76-4bec-b72c-89d2dd68b67d" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-100016", 
+            "y" : "-100417"
+         }, 
+         "child" : [ 
+            "2c670ea2-ece9-4b42-9c9c-c4aee39a30e2", 
+            "66ba5752-db89-4ffd-baad-c0eb1b1d7654"
+         ], 
+         "note_key" : "VILLAGE_NEWSTATE"
+      }, 
+      "2c670ea2-ece9-4b42-9c9c-c4aee39a30e2" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100069", 
+            "y" : "-100329"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "66ba5752-db89-4ffd-baad-c0eb1b1d7654" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-99953", 
+            "y" : "-100327"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Ivan_Car", 
+         "active" : "true"
+      }, 
+      "2e2f60b1-c0e8-4328-b120-9827ce68aa46" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-99866", 
+            "y" : "-100416"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Ivan_Car", 
+         "active" : "false"
+      }, 
+      "debac0d0-60a0-461d-865b-7615f272cc40" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99625", 
+            "y" : "-99933"
+         }, 
+         "child" : [ 
+            "09840043-0865-4ae1-86b8-eee92a175b0d"
+         ]
+      }, 
+      "09840043-0865-4ae1-86b8-eee92a175b0d" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-99658", 
+            "y" : "-99855"
+         }, 
+         "child" : [ 
+            "a53b3b6c-4dff-44b9-bbdb-10d41f56da56", 
+            "760e849b-c606-4639-a2ec-258d3d1ba10f"
+         ], 
+         "key" : "SPAWN_AMANITA"
+      }, 
+      "a53b3b6c-4dff-44b9-bbdb-10d41f56da56" : { 
+         "class" : "TimeDateTriggerNode", 
+         "desc" : { 
+            "x" : "-99820", 
+            "y" : "-99746"
+         }, 
+         "child" : [ 
+            "760e849b-c606-4639-a2ec-258d3d1ba10f"
+         ], 
+         "time" : "1", 
+         "mode" : "Week", 
+         "offsetValue" : "SPAWN_AMANITA"
+      }, 
+      "760e849b-c606-4639-a2ec-258d3d1ba10f" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-99617", 
+            "y" : "-99639"
+         }, 
+         "child" : [ 
+            "db954d85-651a-4bcf-817a-9568f93af6ba", 
+            "cb80278e-2719-42f7-baf5-af1905c1a7ca", 
+            "8733a9bb-6c96-4b19-b5a4-9b6322de0d1e", 
+            "b722ce05-489f-4882-ba29-76ec4390167e", 
+            "4c8f5726-bae8-4f3b-80e7-eec72f45ac9e"
+         ], 
+         "key" : "SPAWN_AMANITA", 
+         "value" : "$TIME$"
+      }, 
+      "db954d85-651a-4bcf-817a-9568f93af6ba" : { 
+         "class" : "ObjectCheckNode", 
+         "desc" : { 
+            "x" : "-99759", 
+            "y" : "-99569"
+         }, 
+         "child" : [ 
+            "cdb9b9fb-155b-4c15-a608-2e8d242d2325", 
+            "952fa67b-192f-4b00-ad65-e6ec4976cfae"
+         ], 
+         "objectName" : "AmanitaEatspawn.amanita_1"
+      }, 
+      "cdb9b9fb-155b-4c15-a608-2e8d242d2325" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99840", 
+            "y" : "-99449"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "952fa67b-192f-4b00-ad65-e6ec4976cfae" : { 
+         "class" : "SpawnEntityNode", 
+         "desc" : { 
+            "x" : "-99744", 
+            "y" : "-99406"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "spawn.amanita_1", 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "AmanitaEat"
+         }
+      }, 
+      "cb80278e-2719-42f7-baf5-af1905c1a7ca" : { 
+         "class" : "ObjectCheckNode", 
+         "desc" : { 
+            "x" : "-99621", 
+            "y" : "-99460"
+         }, 
+         "child" : [ 
+            "b0e300e4-644b-4fbc-8ba5-5bcafeebb7d2", 
+            "9b385a0b-4a49-4d69-8e21-ddbc31297981"
+         ], 
+         "objectName" : "AmanitaEatspawn.amanita_2"
+      }, 
+      "b0e300e4-644b-4fbc-8ba5-5bcafeebb7d2" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99664", 
+            "y" : "-99340"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "9b385a0b-4a49-4d69-8e21-ddbc31297981" : { 
+         "class" : "SpawnEntityNode", 
+         "desc" : { 
+            "x" : "-99568", 
+            "y" : "-99297"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "spawn.amanita_2", 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "AmanitaEat"
+         }
+      }, 
+      "8733a9bb-6c96-4b19-b5a4-9b6322de0d1e" : { 
+         "class" : "ObjectCheckNode", 
+         "desc" : { 
+            "x" : "-99413", 
+            "y" : "-99482"
+         }, 
+         "child" : [ 
+            "beff60f9-04e0-4713-ad28-0f5d5b0a58b5", 
+            "06b28844-5518-4e71-a9bb-c297efd7878f"
+         ], 
+         "objectName" : "AmanitaEatspawn.amanita_3"
+      }, 
+      "beff60f9-04e0-4713-ad28-0f5d5b0a58b5" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99494", 
+            "y" : "-99362"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "06b28844-5518-4e71-a9bb-c297efd7878f" : { 
+         "class" : "SpawnEntityNode", 
+         "desc" : { 
+            "x" : "-99398", 
+            "y" : "-99319"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "spawn.amanita_3", 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "AmanitaEat"
+         }
+      }, 
+      "b722ce05-489f-4882-ba29-76ec4390167e" : { 
+         "class" : "ObjectCheckNode", 
+         "desc" : { 
+            "x" : "-99250", 
+            "y" : "-99499"
+         }, 
+         "child" : [ 
+            "d103d3f2-ece7-4a42-9dfe-4576ee921b9c", 
+            "07ef46c6-8aeb-424f-ab4c-35845e3bcc22"
+         ], 
+         "objectName" : "AmanitaEatspawn.amanita_4"
+      }, 
+      "d103d3f2-ece7-4a42-9dfe-4576ee921b9c" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99331", 
+            "y" : "-99379"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "07ef46c6-8aeb-424f-ab4c-35845e3bcc22" : { 
+         "class" : "SpawnEntityNode", 
+         "desc" : { 
+            "x" : "-99235", 
+            "y" : "-99336"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "spawn.amanita_4", 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "AmanitaEat"
+         }
+      }, 
+      "4c8f5726-bae8-4f3b-80e7-eec72f45ac9e" : { 
+         "class" : "ObjectCheckNode", 
+         "desc" : { 
+            "x" : "-99087", 
+            "y" : "-99532"
+         }, 
+         "child" : [ 
+            "29972637-36db-4fe9-98c7-f1d86831dc2f", 
+            "b930b5ff-ad4c-448e-8479-2dbe666adb2a"
+         ], 
+         "objectName" : "AmanitaEatspawn.amanita_5"
+      }, 
+      "29972637-36db-4fe9-98c7-f1d86831dc2f" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99168", 
+            "y" : "-99412"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "b930b5ff-ad4c-448e-8479-2dbe666adb2a" : { 
+         "class" : "SpawnEntityNode", 
+         "desc" : { 
+            "x" : "-99072", 
+            "y" : "-99369"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "spawn.amanita_5", 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "AmanitaEat"
+         }
+      }, 
+      "7d80b8de-055b-43f8-8c59-3076d1974a1b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100271", 
+            "y" : "-101229"
+         }, 
+         "child" : [ 
+            "116cccc4-3639-453a-ad26-31cd95314542", 
+            "02f05dd2-333e-476e-8753-61e9c0ee4b28", 
+            "60cecce6-0e51-4519-acce-57e8ab670713", 
+            "e99a3e64-d8c1-4729-b8bb-468ca0dbf68d"
+         ]
+      }, 
+      "116cccc4-3639-453a-ad26-31cd95314542" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-100457", 
+            "y" : "-101092"
+         }, 
+         "child" : [ 
+            "a7334719-496c-4a12-b7c6-7a43143d8c82", 
+            "ab6b7a60-1421-4705-87e9-d71055ed365d"
+         ], 
+         "objectName" : "Trader"
+      }, 
+      "a7334719-496c-4a12-b7c6-7a43143d8c82" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-100525", 
+            "y" : "-100980"
+         }, 
+         "child" : [ 
+            "608889d0-75a6-497b-b0c0-ffd2e6a11fba", 
+            "a1671981-4e77-4428-80ea-eef3c93be761"
+         ], 
+         "note_key" : "VILLAGE_TRADER_YASHIN_KILLED"
+      }, 
+      "608889d0-75a6-497b-b0c0-ffd2e6a11fba" : { 
+         "class" : "QuestStatusNode", 
+         "desc" : { 
+            "x" : "-100594", 
+            "y" : "-100917"
+         }, 
+         "child" : [ 
+            "f32289d7-5e67-4b74-9c3b-8a7fa70ef9f9", 
+            "1d5aa3fc-bc51-4b6f-b943-bd8500a69513", 
+            "3240c52d-65db-4fc5-a1be-47008b25ac98"
+         ], 
+         "quest_key" : "VILLAGE.TRADER.ALEX.END"
+      }, 
+      "f32289d7-5e67-4b74-9c3b-8a7fa70ef9f9" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-100678", 
+            "y" : "-100794"
+         }, 
+         "child" : [ 
+         ], 
+         "quest_key" : "VILLAGE.TRADER.ALEX.END"
+      }, 
+      "1d5aa3fc-bc51-4b6f-b943-bd8500a69513" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100562", 
+            "y" : "-100825"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "3240c52d-65db-4fc5-a1be-47008b25ac98" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100484", 
+            "y" : "-100794"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "a1671981-4e77-4428-80ea-eef3c93be761" : { 
+         "class" : "QuestStatusNode", 
+         "desc" : { 
+            "x" : "-100412", 
+            "y" : "-100919"
+         }, 
+         "child" : [ 
+            "4556bea6-3e9a-467a-9614-a0bbb0c98bbb", 
+            "1d5aa3fc-bc51-4b6f-b943-bd8500a69513", 
+            "3240c52d-65db-4fc5-a1be-47008b25ac98"
+         ], 
+         "quest_key" : "VILLAGE.TRADER.ALEX"
+      }, 
+      "4556bea6-3e9a-467a-9614-a0bbb0c98bbb" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-100370", 
+            "y" : "-100796"
+         }, 
+         "child" : [ 
+         ], 
+         "quest_key" : "VILLAGE.TRADER.ALEX"
+      }, 
+      "ab6b7a60-1421-4705-87e9-d71055ed365d" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100397", 
+            "y" : "-101013"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "02f05dd2-333e-476e-8753-61e9c0ee4b28" : { 
+         "class" : "CharacterKillEventNode", 
+         "desc" : { 
+            "x" : "-100362", 
+            "y" : "-101167"
+         }, 
+         "child" : [ 
+            "116cccc4-3639-453a-ad26-31cd95314542"
+         ], 
+         "targetName" : "Trader", 
+         "targetFractionName" : ""
+      }, 
+      "60cecce6-0e51-4519-acce-57e8ab670713" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-100116", 
+            "y" : "-101080"
+         }, 
+         "child" : [ 
+            "93b9c445-b801-4625-8284-2f770b787572", 
+            "9cb5ff21-3e6d-49c2-94a6-6e8fe0f56513"
+         ], 
+         "objectName" : "Barman"
+      }, 
+      "93b9c445-b801-4625-8284-2f770b787572" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-100182", 
+            "y" : "-100970"
+         }, 
+         "child" : [ 
+            "97722dbe-2184-40cb-b3dc-241fb821e7c0", 
+            "4086b351-13d9-452e-b176-0ec2d625026d"
+         ], 
+         "note_key" : "VILLAGE_BARMAN_VASYA_KILLED"
+      }, 
+      "97722dbe-2184-40cb-b3dc-241fb821e7c0" : { 
+         "class" : "QuestStatusNode", 
+         "desc" : { 
+            "x" : "-100216", 
+            "y" : "-100916"
+         }, 
+         "child" : [ 
+            "e6fb986d-b071-424a-bd8b-dc1b48efc523", 
+            "0483ab15-dd25-4f32-a047-2504d0e737d2", 
+            "a6e04327-6367-4721-97a7-a8775bca6274"
+         ], 
+         "quest_key" : "VILLAGE.BARMAN.BOOK_END"
+      }, 
+      "e6fb986d-b071-424a-bd8b-dc1b48efc523" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-100217", 
+            "y" : "-100795"
+         }, 
+         "child" : [ 
+         ], 
+         "quest_key" : "VILLAGE.BARMAN.BOOK_END"
+      }, 
+      "0483ab15-dd25-4f32-a047-2504d0e737d2" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100094", 
+            "y" : "-100827"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "a6e04327-6367-4721-97a7-a8775bca6274" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100019", 
+            "y" : "-100790"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "4086b351-13d9-452e-b176-0ec2d625026d" : { 
+         "class" : "QuestStatusNode", 
+         "desc" : { 
+            "x" : "-100013", 
+            "y" : "-100915"
+         }, 
+         "child" : [ 
+            "65cb86b9-b3d7-4dca-b5bf-11aad4112748", 
+            "0483ab15-dd25-4f32-a047-2504d0e737d2", 
+            "a6e04327-6367-4721-97a7-a8775bca6274"
+         ], 
+         "quest_key" : "VILLAGE.BARMAN.BOOK"
+      }, 
+      "65cb86b9-b3d7-4dca-b5bf-11aad4112748" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-99911", 
+            "y" : "-100796"
+         }, 
+         "child" : [ 
+         ], 
+         "quest_key" : "VILLAGE.BARMAN.BOOK"
+      }, 
+      "9cb5ff21-3e6d-49c2-94a6-6e8fe0f56513" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100058", 
+            "y" : "-101006"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "e99a3e64-d8c1-4729-b8bb-468ca0dbf68d" : { 
+         "class" : "CharacterKillEventNode", 
+         "desc" : { 
+            "x" : "-100209", 
+            "y" : "-101166"
+         }, 
+         "child" : [ 
+            "60cecce6-0e51-4519-acce-57e8ab670713"
+         ], 
+         "targetName" : "Barman", 
+         "targetFractionName" : ""
+      }, 
+      "2d2b533d-25e2-467c-ae9e-1f532daa7f82" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-101067", 
+            "y" : "-100401"
+         }, 
+         "child" : [ 
+            "b04c2802-7f8d-473c-8973-aa0d3b5c0b8d"
+         ], 
+         "script" : "Entities/Behavior/Try.Chaos"
+      }, 
+      "b04c2802-7f8d-473c-8973-aa0d3b5c0b8d" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-101080", 
+            "y" : "-100347"
+         }, 
+         "child" : [ 
+            "9c288ca4-f2b5-4b68-b8a7-744664997b9e"
+         ], 
+         "key" : "CHECK_FRACTION_NAME", 
+         "value" : "village"
+      }, 
+      "9c288ca4-f2b5-4b68-b8a7-744664997b9e" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-101076", 
+            "y" : "-100274"
+         }, 
+         "child" : [ 
+            "726a44a4-f48d-4b6c-94d7-09a1c8647629"
+         ], 
+         "key" : "PLACE_PLAYER_NEAR_VEHICLE"
+      }, 
+      "726a44a4-f48d-4b6c-94d7-09a1c8647629" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-101104", 
+            "y" : "-100212", 
+            "comment" : "поставить машину ГГ, если доступна"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/PlacePobeda"
+      }, 
+      "20c72d3a-0f57-47e8-8eda-98261dde0c55" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99591", 
+            "y" : "-100696"
+         }, 
+         "child" : [ 
+            "f52953e8-312f-410f-a6ba-00b4233ba6ba"
+         ]
+      }, 
+      "f52953e8-312f-410f-a6ba-00b4233ba6ba" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-99591", 
+            "y" : "-100661"
+         }, 
+         "child" : [ 
+            "082546bb-7bfe-4d60-8b2e-7b63df84c2db", 
+            "08be7ff8-6bc1-42b9-936a-640e19e4c0bf"
+         ], 
+         "key" : "MSG_PORTAL"
+      }, 
+      "082546bb-7bfe-4d60-8b2e-7b63df84c2db" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99639", 
+            "y" : "-100565"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "08be7ff8-6bc1-42b9-936a-640e19e4c0bf" : { 
+         "class" : "CharacterDistanceTriggerNode", 
+         "desc" : { 
+            "x" : "-99528", 
+            "y" : "-100573"
+         }, 
+         "child" : [ 
+            "59abd86e-ea40-459a-875d-e069ed07da5f"
+         ], 
+         "distanceCondition" : "LessThan", 
+         "distance" : "10", 
+         "objectName" : "Portal.center"
+      }, 
+      "59abd86e-ea40-459a-875d-e069ed07da5f" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-99493", 
+            "y" : "-100463"
+         }, 
+         "child" : [ 
+            "94b16b83-b838-4d68-9010-adb044cf561e"
+         ], 
+         "key" : "MSG_PORTAL"
+      }, 
+      "94b16b83-b838-4d68-9010-adb044cf561e" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-99544", 
+            "y" : "-100407"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "#Village.94b16b83-b838-4d68-9010-adb044cf561e", 
+         "customObject" : "Player", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "56b117f5-4b27-4867-862e-228ec97cb14d" : { 
+         "class" : "MemoBeginNode", 
+         "desc" : { 
+            "x" : "-101304", 
+            "y" : "-100373"
+         }, 
+         "child" : [ 
+            "fb008a8f-2e3c-42ff-afc0-2689bc91822f"
+         ]
+      }, 
+      "fb008a8f-2e3c-42ff-afc0-2689bc91822f" : { 
+         "class" : "MemoPageNode", 
+         "desc" : { 
+            "x" : "-101358", 
+            "y" : "-100305"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "#Village.intro2"
+      }
+   }, 
+   "entry" : "ed473657-e2ca-4ca3-83e9-733c2c91cf32"
+}

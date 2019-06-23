@@ -82,7 +82,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
+  m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 0
@@ -143,6 +143,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 977b78297256fce4a9e6dc0bb4a63bf6, type: 3}
       propertyPath: m_Name
       value: male
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 977b78297256fce4a9e6dc0bb4a63bf6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 977b78297256fce4a9e6dc0bb4a63bf6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -224,6 +228,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 977b78297256fce4a9e6dc0bb4a63bf6, type: 3}
       propertyPath: m_Name
       value: female
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 977b78297256fce4a9e6dc0bb4a63bf6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 977b78297256fce4a9e6dc0bb4a63bf6, type: 3}
       propertyPath: m_LocalPosition.x

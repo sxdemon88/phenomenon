@@ -17,8 +17,10 @@ MonoBehaviour:
   m_Localization: character.farmer1
   Takeable: 1
   aiBehavior: 4
-  Dialog:
+  aiBehaviorTree:
     path: 
+  Dialog:
+    path: Entities/Dialog/ph_rescuefarme
   OnPocket:
     path: 
   TalkAddDist: 0
@@ -31,6 +33,7 @@ MonoBehaviour:
   Shiftable: 0
   SpecTreeView:
     path: 
+  AgroNonvisibleTarget: 0
   AcceptingRestriction: 3
   specialtyMask: 0
   Stats:

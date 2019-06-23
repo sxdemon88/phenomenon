@@ -1,0 +1,455 @@
+{ 
+   "states" : { 
+      "9e253e69-f506-450c-af64-62bd6730c7dd" : { 
+         "class" : "HasStatNode", 
+         "desc" : { 
+            "x" : "-100654", 
+            "y" : "-100848"
+         }, 
+         "child" : [ 
+            "d228a7a3-450e-4d31-a0f5-81f61dcaf843", 
+            "f5cc91e3-75b0-4c2c-b166-980f57d4b8ae"
+         ], 
+         "value" : "3", 
+         "stat" : "Intelligence"
+      }, 
+      "d228a7a3-450e-4d31-a0f5-81f61dcaf843" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-101275", 
+            "y" : "-100658"
+         }, 
+         "child" : [ 
+            "ecca6863-5d2e-481d-8ee9-fe5f41eb7381", 
+            "74ef9d89-ea4c-4b92-92c5-5400de7550c2", 
+            "45191634-10b3-418f-85b4-9ad4d33516ac", 
+            "9a8ff37d-122a-4622-93b3-456091ea4c96", 
+            "3aa3178b-1828-41d0-a1cc-78a32e37f1e7", 
+            "01e7003f-5797-40cc-8f6d-0c62c1e4b013", 
+            "41fd60ee-5209-4e49-835b-7d052ccffe93", 
+            "c112f283-fb03-4d2f-9606-33b489dd2775", 
+            "3017456d-2adc-4833-901d-e6f6019104a9", 
+            "8c6a7ad6-65f3-43c6-83d4-13164e65c9b5", 
+            "f05604a1-55af-4184-8de6-fca9829032da", 
+            "0bf55287-ee01-4c21-a206-11c5c8e4bf37", 
+            "53631a67-a410-4c20-a35d-50634195fba4", 
+            "95eccaa9-1ad9-446e-924b-047c1ea000ec", 
+            "400143fa-22aa-495c-af3e-5aed3d181576", 
+            "afce48ad-e27c-4d68-be91-d50a79d21cba", 
+            "c2a18142-7466-4ce0-87a0-79bc8fdfa8ff", 
+            "082ddc54-9416-46ed-9194-44f188de30a9"
+         ]
+      }, 
+      "ecca6863-5d2e-481d-8ee9-fe5f41eb7381" : { 
+         "class" : "IsFemaleNode", 
+         "desc" : { 
+            "x" : "-100765", 
+            "y" : "-99808"
+         }, 
+         "child" : [ 
+            "77a62e3d-3d2a-46ff-bd16-6ae455ed4525", 
+            "1641e23e-194e-424b-869f-d3a26e640618"
+         ]
+      }, 
+      "77a62e3d-3d2a-46ff-bd16-6ae455ed4525" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100710", 
+            "y" : "-99657"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Всех благ тебе земных, добрая путешественница. Дай Бог тебе здоровья! Храни Господь!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "1641e23e-194e-424b-869f-d3a26e640618" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100452", 
+            "y" : "-99661"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Всех благ тебе земных, добрый путник. Дай Бог тебе здоровья! Храни Господь!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "74ef9d89-ea4c-4b92-92c5-5400de7550c2" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-102091", 
+            "y" : "-100335"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Не могу в себя прийти. Уф...", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "45191634-10b3-418f-85b4-9ad4d33516ac" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-99220", 
+            "y" : "-100140"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Офигеть! Вся жизнь перед глазами пролетела...", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "9a8ff37d-122a-4622-93b3-456091ea4c96" : { 
+         "class" : "IsFemaleNode", 
+         "desc" : { 
+            "x" : "-101080", 
+            "y" : "-99828"
+         }, 
+         "child" : [ 
+            "7a4d445d-9eb6-483d-b781-476d2c6070a1", 
+            "08072f1f-7d91-4f5f-a6ea-a07944c1fcf3"
+         ]
+      }, 
+      "7a4d445d-9eb6-483d-b781-476d2c6070a1" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-101198", 
+            "y" : "-99632"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Попутных ветров тебе, наш спаситель. ", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "08072f1f-7d91-4f5f-a6ea-a07944c1fcf3" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100964", 
+            "y" : "-99628"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Попутных ветров тебе, наша спасительница. ", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "3aa3178b-1828-41d0-a1cc-78a32e37f1e7" : { 
+         "class" : "IsFemaleNode", 
+         "desc" : { 
+            "x" : "-102126", 
+            "y" : "-99798"
+         }, 
+         "child" : [ 
+            "0c9569f1-aad3-45b9-9a9f-ae7f4edb7180", 
+            "befa38eb-0f28-43af-a8ff-876bd2af58ab"
+         ]
+      }, 
+      "0c9569f1-aad3-45b9-9a9f-ae7f4edb7180" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-102244", 
+            "y" : "-99662"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Вовремя ты появилась! Еще бы чуть-чуть и кирдык. Отдышаться не могу.", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "befa38eb-0f28-43af-a8ff-876bd2af58ab" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-102018", 
+            "y" : "-99660"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Вовремя ты появился! Еще бы чуть-чуть и кирдык. Отдышаться не могу.", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "01e7003f-5797-40cc-8f6d-0c62c1e4b013" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100762", 
+            "y" : "-100133"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Мы спасены! Благодарим Вас!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "41fd60ee-5209-4e49-835b-7d052ccffe93" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100551", 
+            "y" : "-100135"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "О боги, всё закончилось! Спасибо Вам!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "c112f283-fb03-4d2f-9606-33b489dd2775" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100329", 
+            "y" : "-100137"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Спасибо Вам большое! Вы спасли нас!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "3017456d-2adc-4833-901d-e6f6019104a9" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100104", 
+            "y" : "-100141"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "[Громко плачет] Спасибо... Спасибо... Спасибо!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "8c6a7ad6-65f3-43c6-83d4-13164e65c9b5" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-99885", 
+            "y" : "-100139"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Спасибо Вам!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "f05604a1-55af-4184-8de6-fca9829032da" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-99672", 
+            "y" : "-100139"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "[Слёзы радости] Вы спасли нас, благодарю.", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "0bf55287-ee01-4c21-a206-11c5c8e4bf37" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-99451", 
+            "y" : "-100138"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Спасибо за спасение!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "53631a67-a410-4c20-a35d-50634195fba4" : { 
+         "class" : "IsFemaleNode", 
+         "desc" : { 
+            "x" : "-101538", 
+            "y" : "-99777"
+         }, 
+         "child" : [ 
+            "7edc8c92-634b-4fca-ba15-6f084bd4b8b7", 
+            "f906c11e-de39-4e24-8203-58f688e5cd40"
+         ]
+      }, 
+      "7edc8c92-634b-4fca-ba15-6f084bd4b8b7" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-101712", 
+            "y" : "-99661"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Спасибо, друг! Как тебя зовут? Назову дочь твоим именем.", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "f906c11e-de39-4e24-8203-58f688e5cd40" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-101482", 
+            "y" : "-99659"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Спасибо, друг! Как тебя зовут? Назову сына твоим именем.", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "95eccaa9-1ad9-446e-924b-047c1ea000ec" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-98993", 
+            "y" : "-100133"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Расскажу семье дома о спасении.", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "400143fa-22aa-495c-af3e-5aed3d181576" : { 
+         "class" : "IsFemaleNode", 
+         "desc" : { 
+            "x" : "-101821", 
+            "y" : "-100248"
+         }, 
+         "child" : [ 
+            "135ff686-1b01-416a-85a1-9ee0d0bf36b9", 
+            "ca018473-7885-4fe6-a054-85927747bbfa"
+         ]
+      }, 
+      "135ff686-1b01-416a-85a1-9ee0d0bf36b9" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-101955", 
+            "y" : "-100075"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Вот это приключение! Будет что в семье рассказать!\r\n\rУдачи тебе, героиня!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "ca018473-7885-4fe6-a054-85927747bbfa" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-101722", 
+            "y" : "-100076"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Вот это приключение! Будет что в семье рассказать!\r\n\rУдачи тебе, герой!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "afce48ad-e27c-4d68-be91-d50a79d21cba" : { 
+         "class" : "IsFemaleNode", 
+         "desc" : { 
+            "x" : "-102864", 
+            "y" : "-100237"
+         }, 
+         "child" : [ 
+            "cc08abbd-96fb-4f00-b52f-6fecd8f5772f", 
+            "5a3a7542-2f94-4301-9bd2-2867c7198273"
+         ]
+      }, 
+      "cc08abbd-96fb-4f00-b52f-6fecd8f5772f" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-103025", 
+            "y" : "-100073"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Сегодня мой день! А ты моя ангел-хранитель. От всего сердца благодарю!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "5a3a7542-2f94-4301-9bd2-2867c7198273" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-102770", 
+            "y" : "-100077"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Сегодня мой день! А ты мой ангел-хранитель. От всего сердца благодарю!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "c2a18142-7466-4ce0-87a0-79bc8fdfa8ff" : { 
+         "class" : "IsFemaleNode", 
+         "desc" : { 
+            "x" : "-102406", 
+            "y" : "-100244"
+         }, 
+         "child" : [ 
+            "a20553a8-9d89-4f6a-a814-98a829df2f5b", 
+            "a78cf628-a38f-4e6f-b36c-b9509e6e4497"
+         ]
+      }, 
+      "a20553a8-9d89-4f6a-a814-98a829df2f5b" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-102520", 
+            "y" : "-100069"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Спасибо тебе, милушка! Спасла нас!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "a78cf628-a38f-4e6f-b36c-b9509e6e4497" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-102286", 
+            "y" : "-100060"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Спасибо тебе, мил человек! Спас нас!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "082ddc54-9416-46ed-9194-44f188de30a9" : { 
+         "class" : "IsFemaleNode", 
+         "desc" : { 
+            "x" : "-102590", 
+            "y" : "-99796"
+         }, 
+         "child" : [ 
+            "58c35509-7497-46f2-aed6-8b16b56fd415", 
+            "070d8b40-5043-4164-a8f2-14112b158203"
+         ]
+      }, 
+      "58c35509-7497-46f2-aed6-8b16b56fd415" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-102750", 
+            "y" : "-99654"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Попутных ветров тебе, храбрая воительница. ", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "070d8b40-5043-4164-a8f2-14112b158203" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-102481", 
+            "y" : "-99664"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Попутных ветров тебе, храбрый воин. ", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "f5cc91e3-75b0-4c2c-b166-980f57d4b8ae" : { 
+         "class" : "PlayDialogNode", 
+         "desc" : { 
+            "x" : "-100330", 
+            "y" : "-100669"
+         }, 
+         "child" : [ 
+         ], 
+         "dialog" : "entities/dialog/balwannpc"
+      }
+   }, 
+   "entry" : "9e253e69-f506-450c-af64-62bd6730c7dd"
+}

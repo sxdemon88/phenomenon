@@ -1,0 +1,209 @@
+{ 
+   "states" : { 
+      "c4677c96-9247-46c1-84d9-ba1187e6a1f4" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100725", 
+            "y" : "-102828"
+         }, 
+         "child" : [ 
+            "7912f4aa-4d88-4da8-842b-1a90953caca8", 
+            "7b134e56-407f-4a6a-82b1-97cf05203dc7", 
+            "571a0918-ea6f-498d-a051-845b68bfed4d", 
+            "36a8e4ce-bb05-4261-b2e0-035b379c172c", 
+            "d8672173-9727-467c-9ea7-7d6edc9704b1", 
+            "3d8427b7-15b1-47f0-a091-76a43c856286"
+         ]
+      }, 
+      "7912f4aa-4d88-4da8-842b-1a90953caca8" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-101658", 
+            "y" : "-102615"
+         }, 
+         "child" : [ 
+            "e3e8cdde-8c97-45f6-b4a1-3146a6047aff"
+         ], 
+         "encType" : "Mutanights"
+      }, 
+      "e3e8cdde-8c97-45f6-b4a1-3146a6047aff" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-101788", 
+            "y" : "-102464"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/z_z_mutanights"
+      }, 
+      "7b134e56-407f-4a6a-82b1-97cf05203dc7" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-101491", 
+            "y" : "-102610"
+         }, 
+         "child" : [ 
+            "7920c59b-790d-4fca-8e3e-62c8ae0fd275"
+         ], 
+         "encType" : "lizardnights"
+      }, 
+      "7920c59b-790d-4fca-8e3e-62c8ae0fd275" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-101566", 
+            "y" : "-102466"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/Z_Z_lizardnights"
+      }, 
+      "571a0918-ea6f-498d-a051-845b68bfed4d" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-101242", 
+            "y" : "-102599"
+         }, 
+         "child" : [ 
+            "987ed5c9-7400-4ff9-9a50-88d358ae7baf"
+         ], 
+         "encType" : "bigratsnights"
+      }, 
+      "987ed5c9-7400-4ff9-9a50-88d358ae7baf" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-101326", 
+            "y" : "-102468"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/Z_Z_bigratsnights"
+      }, 
+      "36a8e4ce-bb05-4261-b2e0-035b379c172c" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-100953", 
+            "y" : "-102609"
+         }, 
+         "child" : [ 
+            "66b78613-16ce-4f64-a128-ba272977f8c1"
+         ], 
+         "encType" : "Mutashiftnights"
+      }, 
+      "66b78613-16ce-4f64-a128-ba272977f8c1" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100951", 
+            "y" : "-102543"
+         }, 
+         "child" : [ 
+            "f44b68cd-1088-437b-8cb2-1c5f563141ab", 
+            "10e3269e-8a59-4ed2-8ab7-9b570a0a9317"
+         ]
+      }, 
+      "f44b68cd-1088-437b-8cb2-1c5f563141ab" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-101083", 
+            "y" : "-102465"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "entities/behavior/z_z_shift"
+      }, 
+      "10e3269e-8a59-4ed2-8ab7-9b570a0a9317" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-100883", 
+            "y" : "-102465"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/z_z_mutanights"
+      }, 
+      "d8672173-9727-467c-9ea7-7d6edc9704b1" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-100531", 
+            "y" : "-102595"
+         }, 
+         "child" : [ 
+            "1b2a55f2-dbb8-497e-97c4-7349343a6359"
+         ], 
+         "encType" : "lizardshiftnights"
+      }, 
+      "1b2a55f2-dbb8-497e-97c4-7349343a6359" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100527", 
+            "y" : "-102535"
+         }, 
+         "child" : [ 
+            "fe808fd5-3ef8-43f8-8070-e24f38aa1d6b", 
+            "d594ecbd-00b6-48cb-b706-de2cc5075ba8"
+         ]
+      }, 
+      "fe808fd5-3ef8-43f8-8070-e24f38aa1d6b" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-100659", 
+            "y" : "-102459"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "entities/behavior/z_z_shift"
+      }, 
+      "d594ecbd-00b6-48cb-b706-de2cc5075ba8" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-100461", 
+            "y" : "-102459"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/Z_Z_lizardnights"
+      }, 
+      "3d8427b7-15b1-47f0-a091-76a43c856286" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-100239", 
+            "y" : "-102600"
+         }, 
+         "child" : [ 
+            "f9c03fe0-cdc0-4d40-9494-08835c26eda4"
+         ], 
+         "encType" : "bigratshiftnights"
+      }, 
+      "f9c03fe0-cdc0-4d40-9494-08835c26eda4" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100190", 
+            "y" : "-102537"
+         }, 
+         "child" : [ 
+            "9fe08e77-3cf1-41f2-8e0a-7535a3c8068b", 
+            "6100ce8c-aa52-4f47-b18e-9ff570c3660a"
+         ]
+      }, 
+      "9fe08e77-3cf1-41f2-8e0a-7535a3c8068b" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-100223", 
+            "y" : "-102457"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "entities/behavior/z_z_shift"
+      }, 
+      "6100ce8c-aa52-4f47-b18e-9ff570c3660a" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-100025", 
+            "y" : "-102457"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/Z_Z_bigratsnights"
+      }
+   }, 
+   "entry" : "c4677c96-9247-46c1-84d9-ba1187e6a1f4"
+}

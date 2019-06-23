@@ -1,0 +1,908 @@
+{ 
+   "states" : { 
+      "d60fd1c1-9aa6-4368-bd7e-dea33ddf63a4" : { 
+         "class" : "HasStatNode", 
+         "desc" : { 
+            "x" : "-136", 
+            "y" : "-1103"
+         }, 
+         "child" : [ 
+            "003b1853-8d50-4fc7-b7fd-99d51e800921", 
+            "36e5abd2-4476-4935-b073-f398adc2f319"
+         ], 
+         "value" : "3", 
+         "stat" : "Intelligence"
+      }, 
+      "003b1853-8d50-4fc7-b7fd-99d51e800921" : { 
+         "class" : "DialogBeginNode", 
+         "desc" : { 
+            "x" : "-443", 
+            "y" : "-950"
+         }, 
+         "child" : [ 
+            "83b3ac12-4441-4869-9cbe-ffcca15088cc"
+         ], 
+         "canBarter" : "false"
+      }, 
+      "83b3ac12-4441-4869-9cbe-ffcca15088cc" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-691", 
+            "y" : "-813"
+         }, 
+         "child" : [ 
+            "ca99b51a-5325-4097-8c4a-3a56edcc31e7", 
+            "79d1460c-31fe-40e0-a8a1-1048035b3b41"
+         ], 
+         "key" : "VICTORY"
+      }, 
+      "ca99b51a-5325-4097-8c4a-3a56edcc31e7" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-971", 
+            "y" : "-532"
+         }, 
+         "child" : [ 
+            "95730168-4956-4f4c-8f64-2b67b5cd39af"
+         ], 
+         "text" : "Ещё раз спасибо тебе!"
+      }, 
+      "95730168-4956-4f4c-8f64-2b67b5cd39af" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-972", 
+            "y" : "-409"
+         }, 
+         "child" : [ 
+            "6da7846b-4923-4de8-82fd-25edf19f18d1"
+         ], 
+         "text" : "Всегда пожалуйста."
+      }, 
+      "6da7846b-4923-4de8-82fd-25edf19f18d1" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-920", 
+            "y" : "-307"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "79d1460c-31fe-40e0-a8a1-1048035b3b41" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-379", 
+            "y" : "-793"
+         }, 
+         "child" : [ 
+            "2748dbd2-49a6-4c72-9737-82213be3f8a9"
+         ], 
+         "key" : "VICTORY"
+      }, 
+      "2748dbd2-49a6-4c72-9737-82213be3f8a9" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-170", 
+            "y" : "-751"
+         }, 
+         "child" : [ 
+            "1", 
+            "6caf0be5-e330-4d52-b2e7-7caabbf0f876", 
+            "4f1437a1-aae0-4318-a322-57ce387c7f8b"
+         ]
+      }, 
+      "1" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-456", 
+            "y" : "-601"
+         }, 
+         "child" : [ 
+            "3f79ba67-7359-4a1e-89bf-3a0579eee468"
+         ], 
+         "text" : "Привет дружище. Спасибо что не прошёл мимо и помог! Гадом буду не забуду!"
+      }, 
+      "3f79ba67-7359-4a1e-89bf-3a0579eee468" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-226", 
+            "y" : "-417"
+         }, 
+         "child" : [ 
+            "5d3e10b3-9c4a-423e-b1e7-a253916f25bc"
+         ], 
+         "text" : "Да было бы за что."
+      }, 
+      "5d3e10b3-9c4a-423e-b1e7-a253916f25bc" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-220", 
+            "y" : "-307"
+         }, 
+         "child" : [ 
+            "b10c1bed-26ec-4919-a992-7199a8b9740c", 
+            "5021a220-e4dd-4f3a-98a8-6659265409b2", 
+            "b1a17b40-2b2d-4bd5-8440-65cba5f0ead4", 
+            "7630bbe8-b040-4957-a57b-8c4ef34a811f"
+         ], 
+         "text" : "Не скромничай. Прими мою скромную благодарность за спасение. Может что конретное тебе необходимо?"
+      }, 
+      "b10c1bed-26ec-4919-a992-7199a8b9740c" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-718", 
+            "y" : "46"
+         }, 
+         "child" : [ 
+            "dd1a2951-1fc8-47fd-866a-02afbcb67527", 
+            "eb44fe58-4ff2-4ce8-b395-d3b803615d4a", 
+            "80f58056-69e0-4406-9dd0-386195058322"
+         ], 
+         "text" : "Патронов бы не помешало."
+      }, 
+      "dd1a2951-1fc8-47fd-866a-02afbcb67527" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-1316", 
+            "y" : "220"
+         }, 
+         "child" : [ 
+            "cffee0eb-b8c0-4012-8aad-90b188ff8753", 
+            "ff6adc9c-2718-4817-b1bb-b29689ad875d", 
+            "12b0241f-ea11-44c5-838c-62b02930c00a", 
+            "326a1aad-3234-45ce-b1c7-040b9beaa527", 
+            "bef4fd72-17ea-4871-a730-fd1119e219ec", 
+            "8bab17f4-68a5-404e-b8df-454e5b70f507", 
+            "91a09fbc-a3be-455b-812b-1c456dfebfa0", 
+            "6083251f-08a1-4ce1-8659-5b154133f07b"
+         ]
+      }, 
+      "cffee0eb-b8c0-4012-8aad-90b188ff8753" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-1549", 
+            "y" : "726"
+         }, 
+         "child" : [ 
+            "ee841ddb-c478-437a-b82e-27a452deb33c"
+         ], 
+         "item" : { 
+            "class" : "Ammo", 
+            "count" : "8", 
+            "proto" : "356cal_JHP"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "ee841ddb-c478-437a-b82e-27a452deb33c" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-367", 
+            "y" : "970"
+         }, 
+         "child" : [ 
+            "54a15ddd-4a58-452c-81c5-65b2b7ff1272"
+         ], 
+         "text" : "Держи конечно. Всего доброго."
+      }, 
+      "54a15ddd-4a58-452c-81c5-65b2b7ff1272" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-366", 
+            "y" : "1097"
+         }, 
+         "child" : [ 
+            "404fdad7-b345-4f40-ac8f-5fbbd88949f1"
+         ], 
+         "text" : "Спасибо. Удачи!"
+      }, 
+      "404fdad7-b345-4f40-ac8f-5fbbd88949f1" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-323", 
+            "y" : "1216"
+         }, 
+         "child" : [ 
+            "8afe9147-bf31-489c-9d13-260f05f55216", 
+            "333fb4ec-b6f8-4d69-aa58-e48016776567", 
+            "8597ee68-34ad-43ba-bb21-0396621cd7fe", 
+            "7079f9f2-1cd3-4dad-a36e-352ddd880a08"
+         ]
+      }, 
+      "8afe9147-bf31-489c-9d13-260f05f55216" : { 
+         "class" : "CharacterAddExpNode", 
+         "desc" : { 
+            "x" : "-579", 
+            "y" : "1295"
+         }, 
+         "child" : [ 
+            "5a5b444a-f528-4d3c-bd99-40a7dc5ff002"
+         ], 
+         "objectName" : "Player", 
+         "value" : "100"
+      }, 
+      "5a5b444a-f528-4d3c-bd99-40a7dc5ff002" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-316", 
+            "y" : "1513"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "333fb4ec-b6f8-4d69-aa58-e48016776567" : { 
+         "class" : "CharacterAddExpNode", 
+         "desc" : { 
+            "x" : "-423", 
+            "y" : "1295"
+         }, 
+         "child" : [ 
+            "5a5b444a-f528-4d3c-bd99-40a7dc5ff002"
+         ], 
+         "objectName" : "Player", 
+         "value" : "150"
+      }, 
+      "8597ee68-34ad-43ba-bb21-0396621cd7fe" : { 
+         "class" : "CharacterAddExpNode", 
+         "desc" : { 
+            "x" : "-260", 
+            "y" : "1293"
+         }, 
+         "child" : [ 
+            "5a5b444a-f528-4d3c-bd99-40a7dc5ff002"
+         ], 
+         "objectName" : "Player", 
+         "value" : "200"
+      }, 
+      "7079f9f2-1cd3-4dad-a36e-352ddd880a08" : { 
+         "class" : "CharacterAddExpNode", 
+         "desc" : { 
+            "x" : "-102", 
+            "y" : "1298"
+         }, 
+         "child" : [ 
+            "5a5b444a-f528-4d3c-bd99-40a7dc5ff002"
+         ], 
+         "objectName" : "Player", 
+         "value" : "250"
+      }, 
+      "ff6adc9c-2718-4817-b1bb-b29689ad875d" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-1414", 
+            "y" : "728"
+         }, 
+         "child" : [ 
+            "ee841ddb-c478-437a-b82e-27a452deb33c"
+         ], 
+         "item" : { 
+            "class" : "Ammo", 
+            "count" : "7", 
+            "proto" : "307cal_JHP"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "12b0241f-ea11-44c5-838c-62b02930c00a" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-1277", 
+            "y" : "727"
+         }, 
+         "child" : [ 
+            "ee841ddb-c478-437a-b82e-27a452deb33c"
+         ], 
+         "item" : { 
+            "class" : "Ammo", 
+            "count" : "8", 
+            "proto" : "5_45mm_JHP"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "326a1aad-3234-45ce-b1c7-040b9beaa527" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-1145", 
+            "y" : "722"
+         }, 
+         "child" : [ 
+            "ee841ddb-c478-437a-b82e-27a452deb33c"
+         ], 
+         "item" : { 
+            "class" : "Ammo", 
+            "count" : "7", 
+            "proto" : "7_62mm_JHP"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "bef4fd72-17ea-4871-a730-fd1119e219ec" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-1011", 
+            "y" : "720"
+         }, 
+         "child" : [ 
+            "ee841ddb-c478-437a-b82e-27a452deb33c"
+         ], 
+         "item" : { 
+            "class" : "Ammo", 
+            "count" : "8", 
+            "proto" : "7mm_54R"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "8bab17f4-68a5-404e-b8df-454e5b70f507" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-876", 
+            "y" : "717"
+         }, 
+         "child" : [ 
+            "ee841ddb-c478-437a-b82e-27a452deb33c"
+         ], 
+         "item" : { 
+            "class" : "Ammo", 
+            "count" : "7", 
+            "proto" : "9mm_JHP"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "91a09fbc-a3be-455b-812b-1c456dfebfa0" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-737", 
+            "y" : "712"
+         }, 
+         "child" : [ 
+            "ee841ddb-c478-437a-b82e-27a452deb33c"
+         ], 
+         "item" : { 
+            "class" : "Ammo", 
+            "count" : "8", 
+            "proto" : "12_JHP"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "6083251f-08a1-4ce1-8659-5b154133f07b" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-597", 
+            "y" : "715"
+         }, 
+         "child" : [ 
+            "ee841ddb-c478-437a-b82e-27a452deb33c"
+         ], 
+         "item" : { 
+            "class" : "Ammo", 
+            "count" : "7", 
+            "proto" : "10mm_AP"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "eb44fe58-4ff2-4ce8-b395-d3b803615d4a" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-1127", 
+            "y" : "278"
+         }, 
+         "child" : [ 
+            "cffee0eb-b8c0-4012-8aad-90b188ff8753", 
+            "ff6adc9c-2718-4817-b1bb-b29689ad875d", 
+            "12b0241f-ea11-44c5-838c-62b02930c00a", 
+            "326a1aad-3234-45ce-b1c7-040b9beaa527", 
+            "bef4fd72-17ea-4871-a730-fd1119e219ec", 
+            "8bab17f4-68a5-404e-b8df-454e5b70f507", 
+            "91a09fbc-a3be-455b-812b-1c456dfebfa0", 
+            "6083251f-08a1-4ce1-8659-5b154133f07b"
+         ]
+      }, 
+      "80f58056-69e0-4406-9dd0-386195058322" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-794", 
+            "y" : "279"
+         }, 
+         "child" : [ 
+            "cffee0eb-b8c0-4012-8aad-90b188ff8753", 
+            "ff6adc9c-2718-4817-b1bb-b29689ad875d", 
+            "12b0241f-ea11-44c5-838c-62b02930c00a", 
+            "326a1aad-3234-45ce-b1c7-040b9beaa527", 
+            "bef4fd72-17ea-4871-a730-fd1119e219ec", 
+            "8bab17f4-68a5-404e-b8df-454e5b70f507", 
+            "91a09fbc-a3be-455b-812b-1c456dfebfa0", 
+            "6083251f-08a1-4ce1-8659-5b154133f07b"
+         ]
+      }, 
+      "5021a220-e4dd-4f3a-98a8-6659265409b2" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-258", 
+            "y" : "189"
+         }, 
+         "child" : [ 
+            "6f5bd8d3-1b44-4694-bd5e-6158aa26e032", 
+            "d72245d3-47bd-404c-ac5b-30bd74ce53be", 
+            "deaa1f1d-78e7-4429-b20f-a6c73419985e"
+         ], 
+         "text" : "Лекарства сейчас в цене. Поэтому не откажусь."
+      }, 
+      "6f5bd8d3-1b44-4694-bd5e-6158aa26e032" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-318", 
+            "y" : "347"
+         }, 
+         "child" : [ 
+            "78b87adf-48e5-4e2f-af50-dffff846f95e", 
+            "c059d1c3-fd32-49f4-845e-bf2e23461d1d", 
+            "88eeee10-6c3f-4704-af47-97480edbb361"
+         ]
+      }, 
+      "78b87adf-48e5-4e2f-af50-dffff846f95e" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-460", 
+            "y" : "713"
+         }, 
+         "child" : [ 
+            "ee841ddb-c478-437a-b82e-27a452deb33c"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "StimFEN1"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "c059d1c3-fd32-49f4-845e-bf2e23461d1d" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-321", 
+            "y" : "711"
+         }, 
+         "child" : [ 
+            "ee841ddb-c478-437a-b82e-27a452deb33c"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "StimFEN2"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "88eeee10-6c3f-4704-af47-97480edbb361" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-185", 
+            "y" : "710"
+         }, 
+         "child" : [ 
+            "ee841ddb-c478-437a-b82e-27a452deb33c"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "MedKit"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "d72245d3-47bd-404c-ac5b-30bd74ce53be" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-207", 
+            "y" : "347"
+         }, 
+         "child" : [ 
+            "78b87adf-48e5-4e2f-af50-dffff846f95e", 
+            "c059d1c3-fd32-49f4-845e-bf2e23461d1d", 
+            "88eeee10-6c3f-4704-af47-97480edbb361", 
+            "4beb627c-69e4-4072-8565-ac463bde7d97"
+         ]
+      }, 
+      "4beb627c-69e4-4072-8565-ac463bde7d97" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-48", 
+            "y" : "712"
+         }, 
+         "child" : [ 
+            "ee841ddb-c478-437a-b82e-27a452deb33c"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Kasparamid"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "deaa1f1d-78e7-4429-b20f-a6c73419985e" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-92", 
+            "y" : "348"
+         }, 
+         "child" : [ 
+            "78b87adf-48e5-4e2f-af50-dffff846f95e", 
+            "4beb627c-69e4-4072-8565-ac463bde7d97"
+         ]
+      }, 
+      "b1a17b40-2b2d-4bd5-8440-65cba5f0ead4" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "335", 
+            "y" : "132"
+         }, 
+         "child" : [ 
+            "4b0213db-3b75-4aa1-861a-1a1f3b67cebd", 
+            "1db1e1b6-28c4-4729-a60b-e962491836cd", 
+            "54c1e883-c5a5-4788-90c1-42cf38febd8a"
+         ], 
+         "text" : "Продовльствия нехватает."
+      }, 
+      "4b0213db-3b75-4aa1-861a-1a1f3b67cebd" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "296", 
+            "y" : "443"
+         }, 
+         "child" : [ 
+            "5b6f0c6d-0a8c-4483-8f6b-85e200a5350e", 
+            "08628553-22b6-4373-8a63-a1bcc8ee5fc5", 
+            "b3031959-38cd-4867-af0d-46c5aa2becb7", 
+            "47850081-5cc0-40f6-965a-754fed9ec22f", 
+            "a699a8f9-314e-4a1d-82ed-7513f8424d06", 
+            "ffab9445-bc74-4125-b580-9afba8874537", 
+            "2f5e4995-8af4-4538-9a59-c8c7c1cfb1eb", 
+            "bbbbc18c-62a4-40f1-a486-111a19453027"
+         ]
+      }, 
+      "5b6f0c6d-0a8c-4483-8f6b-85e200a5350e" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "95", 
+            "y" : "711"
+         }, 
+         "child" : [ 
+            "ee841ddb-c478-437a-b82e-27a452deb33c"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Corned_Fish"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "08628553-22b6-4373-8a63-a1bcc8ee5fc5" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "251", 
+            "y" : "709"
+         }, 
+         "child" : [ 
+            "ee841ddb-c478-437a-b82e-27a452deb33c"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "2", 
+            "proto" : "Carrot"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "b3031959-38cd-4867-af0d-46c5aa2becb7" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "413", 
+            "y" : "710"
+         }, 
+         "child" : [ 
+            "ee841ddb-c478-437a-b82e-27a452deb33c"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "2", 
+            "proto" : "Cheese"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "47850081-5cc0-40f6-965a-754fed9ec22f" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "580", 
+            "y" : "708"
+         }, 
+         "child" : [ 
+            "ee841ddb-c478-437a-b82e-27a452deb33c"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "3", 
+            "proto" : "Meat"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "a699a8f9-314e-4a1d-82ed-7513f8424d06" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "743", 
+            "y" : "706"
+         }, 
+         "child" : [ 
+            "ee841ddb-c478-437a-b82e-27a452deb33c"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "2", 
+            "proto" : "Vodka"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "ffab9445-bc74-4125-b580-9afba8874537" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "906", 
+            "y" : "709"
+         }, 
+         "child" : [ 
+            "ee841ddb-c478-437a-b82e-27a452deb33c"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "2", 
+            "proto" : "Stew"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "2f5e4995-8af4-4538-9a59-c8c7c1cfb1eb" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "1069", 
+            "y" : "706"
+         }, 
+         "child" : [ 
+            "ee841ddb-c478-437a-b82e-27a452deb33c"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "3", 
+            "proto" : "Onion"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "bbbbc18c-62a4-40f1-a486-111a19453027" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "1235", 
+            "y" : "706"
+         }, 
+         "child" : [ 
+            "ee841ddb-c478-437a-b82e-27a452deb33c"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "3", 
+            "proto" : "Biscuit"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "1db1e1b6-28c4-4729-a60b-e962491836cd" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "417", 
+            "y" : "444"
+         }, 
+         "child" : [ 
+            "5b6f0c6d-0a8c-4483-8f6b-85e200a5350e", 
+            "08628553-22b6-4373-8a63-a1bcc8ee5fc5", 
+            "b3031959-38cd-4867-af0d-46c5aa2becb7", 
+            "47850081-5cc0-40f6-965a-754fed9ec22f", 
+            "a699a8f9-314e-4a1d-82ed-7513f8424d06", 
+            "ffab9445-bc74-4125-b580-9afba8874537", 
+            "2f5e4995-8af4-4538-9a59-c8c7c1cfb1eb", 
+            "bbbbc18c-62a4-40f1-a486-111a19453027"
+         ]
+      }, 
+      "54c1e883-c5a5-4788-90c1-42cf38febd8a" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "546", 
+            "y" : "443"
+         }, 
+         "child" : [ 
+            "5b6f0c6d-0a8c-4483-8f6b-85e200a5350e", 
+            "08628553-22b6-4373-8a63-a1bcc8ee5fc5", 
+            "b3031959-38cd-4867-af0d-46c5aa2becb7", 
+            "47850081-5cc0-40f6-965a-754fed9ec22f", 
+            "a699a8f9-314e-4a1d-82ed-7513f8424d06", 
+            "ffab9445-bc74-4125-b580-9afba8874537", 
+            "2f5e4995-8af4-4538-9a59-c8c7c1cfb1eb", 
+            "bbbbc18c-62a4-40f1-a486-111a19453027"
+         ]
+      }, 
+      "7630bbe8-b040-4957-a57b-8c4ef34a811f" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "1744", 
+            "y" : "206"
+         }, 
+         "child" : [ 
+            "c8c719aa-3813-4876-98c6-574014236ddb", 
+            "cbe737e7-8867-4e7f-aade-2dbc6fb99b97"
+         ], 
+         "text" : "Немного денег хватит."
+      }, 
+      "c8c719aa-3813-4876-98c6-574014236ddb" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "1660", 
+            "y" : "386"
+         }, 
+         "child" : [ 
+            "9f2ff2a7-70b6-43fc-8215-67b8e5d448e5", 
+            "198ca0ef-cb6c-4a06-a44f-83cba0b5a3b8", 
+            "20c7e1f6-88fe-45f5-9939-1be284e81025", 
+            "d3f7a878-b55c-4563-8572-101d5ed08b38", 
+            "26b1dfa1-5018-4133-8692-04951e75629b", 
+            "594482a6-f5da-48cc-9a28-bcaffe6b323f", 
+            "8847495a-8268-4a0a-b569-98481213b56d"
+         ]
+      }, 
+      "9f2ff2a7-70b6-43fc-8215-67b8e5d448e5" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "1392", 
+            "y" : "706"
+         }, 
+         "child" : [ 
+            "ee841ddb-c478-437a-b82e-27a452deb33c"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "177", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "198ca0ef-cb6c-4a06-a44f-83cba0b5a3b8" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "1530", 
+            "y" : "706"
+         }, 
+         "child" : [ 
+            "ee841ddb-c478-437a-b82e-27a452deb33c"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "188", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "20c7e1f6-88fe-45f5-9939-1be284e81025" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "1668", 
+            "y" : "704"
+         }, 
+         "child" : [ 
+            "ee841ddb-c478-437a-b82e-27a452deb33c"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "199", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "d3f7a878-b55c-4563-8572-101d5ed08b38" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "1802", 
+            "y" : "704"
+         }, 
+         "child" : [ 
+            "ee841ddb-c478-437a-b82e-27a452deb33c"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "155", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "26b1dfa1-5018-4133-8692-04951e75629b" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "1940", 
+            "y" : "704"
+         }, 
+         "child" : [ 
+            "ee841ddb-c478-437a-b82e-27a452deb33c"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "189", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "594482a6-f5da-48cc-9a28-bcaffe6b323f" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "2080", 
+            "y" : "702"
+         }, 
+         "child" : [ 
+            "ee841ddb-c478-437a-b82e-27a452deb33c"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "144", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "8847495a-8268-4a0a-b569-98481213b56d" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "2216", 
+            "y" : "702"
+         }, 
+         "child" : [ 
+            "ee841ddb-c478-437a-b82e-27a452deb33c"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "255", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "cbe737e7-8867-4e7f-aade-2dbc6fb99b97" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "2005", 
+            "y" : "402"
+         }, 
+         "child" : [ 
+            "9f2ff2a7-70b6-43fc-8215-67b8e5d448e5", 
+            "198ca0ef-cb6c-4a06-a44f-83cba0b5a3b8", 
+            "20c7e1f6-88fe-45f5-9939-1be284e81025", 
+            "d3f7a878-b55c-4563-8572-101d5ed08b38", 
+            "26b1dfa1-5018-4133-8692-04951e75629b", 
+            "594482a6-f5da-48cc-9a28-bcaffe6b323f", 
+            "8847495a-8268-4a0a-b569-98481213b56d"
+         ]
+      }, 
+      "6caf0be5-e330-4d52-b2e7-7caabbf0f876" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-183", 
+            "y" : "-623"
+         }, 
+         "child" : [ 
+            "3f79ba67-7359-4a1e-89bf-3a0579eee468"
+         ], 
+         "text" : "Это вы очень вовремя тут оказались. Без вашей помощи нас бы тут положили. Спасибо тебе!"
+      }, 
+      "4f1437a1-aae0-4318-a322-57ce387c7f8b" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "84", 
+            "y" : "-628"
+         }, 
+         "child" : [ 
+            "3f79ba67-7359-4a1e-89bf-3a0579eee468"
+         ], 
+         "text" : "Мастер! Браво! Таких бы вояк побольше в пустоши мир был бы безопаснее. От чистого сердца, большое спасибо !"
+      }, 
+      "36e5abd2-4476-4935-b073-f398adc2f319" : { 
+         "class" : "PlayDialogNode", 
+         "desc" : { 
+            "x" : "165", 
+            "y" : "-989"
+         }, 
+         "child" : [ 
+         ], 
+         "dialog" : "entities/dialog/balwannpc"
+      }
+   }, 
+   "entry" : "d60fd1c1-9aa6-4368-bd7e-dea33ddf63a4"
+}

@@ -64,8 +64,8 @@
          "spawnPoint" : "Spawn.Enemy.1", 
          "item" : { 
             "class" : "Character", 
-            "proto" : "gaintspider", 
-            "character" : "gaintspider", 
+            "proto" : "GaintSpider", 
+            "character" : "GaintSpider", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -101,8 +101,8 @@
          "spawnPoint" : "Spawn.Enemy.2", 
          "item" : { 
             "class" : "Character", 
-            "proto" : "gaintspider", 
-            "character" : "gaintspider", 
+            "proto" : "GaintSpider", 
+            "character" : "GaintSpider", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -162,8 +162,8 @@
          "spawnPoint" : "Spawn.Enemy.5", 
          "item" : { 
             "class" : "Character", 
-            "proto" : "gaintspider", 
-            "character" : "gaintspider_strong", 
+            "proto" : "GaintSpider", 
+            "character" : "GaintSpider_Strong", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -199,8 +199,8 @@
          "spawnPoint" : "Spawn.Enemy.5", 
          "item" : { 
             "class" : "Character", 
-            "proto" : "gaintspider", 
-            "character" : "gaintspider_strong", 
+            "proto" : "GaintSpider", 
+            "character" : "GaintSpider_Strong", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -236,8 +236,8 @@
          "spawnPoint" : "Spawn.Enemy.5", 
          "item" : { 
             "class" : "Character", 
-            "proto" : "gaintspider", 
-            "character" : "gaintspider_strong", 
+            "proto" : "GaintSpider", 
+            "character" : "GaintSpider_Strong", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -304,8 +304,8 @@
          "spawnPoint" : "Spawn.Enemy.3", 
          "item" : { 
             "class" : "Character", 
-            "proto" : "gaintspider", 
-            "character" : "gaintspider", 
+            "proto" : "GaintSpider", 
+            "character" : "GaintSpider", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -355,8 +355,8 @@
          "spawnPoint" : "Spawn.Enemy.4", 
          "item" : { 
             "class" : "Character", 
-            "proto" : "gaintspider", 
-            "character" : "gaintspider", 
+            "proto" : "GaintSpider", 
+            "character" : "GaintSpider", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -465,7 +465,7 @@
          "item" : { 
             "class" : "Character", 
             "proto" : "Spider", 
-            "character" : "spider_big", 
+            "character" : "Spider_Big", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -502,7 +502,7 @@
          "item" : { 
             "class" : "Character", 
             "proto" : "Spider", 
-            "character" : "spider_big", 
+            "character" : "Spider_Big", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -539,7 +539,7 @@
          "item" : { 
             "class" : "Character", 
             "proto" : "Spider", 
-            "character" : "spider_big", 
+            "character" : "Spider_Big", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -576,7 +576,7 @@
          "item" : { 
             "class" : "Character", 
             "proto" : "Spider", 
-            "character" : "spider_big", 
+            "character" : "Spider_Big", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -613,7 +613,7 @@
          "item" : { 
             "class" : "Character", 
             "proto" : "Spider", 
-            "character" : "spider_big", 
+            "character" : "Spider_Big", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -650,7 +650,7 @@
          "item" : { 
             "class" : "Character", 
             "proto" : "Spider", 
-            "character" : "spider_big", 
+            "character" : "Spider_Big", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -687,7 +687,7 @@
          "item" : { 
             "class" : "Character", 
             "proto" : "Spider", 
-            "character" : "spider_small_strong", 
+            "character" : "Spider_small_strong", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -4366,7 +4366,7 @@
          "class" : "SpawnCharacterNode", 
          "desc" : { 
             "x" : "-100712", 
-            "y" : "-100171"
+            "y" : "-100172"
          }, 
          "child" : [ 
          ], 
@@ -4601,7 +4601,7 @@
       "3de70b85-a0f1-4e92-bf59-1b21ea77a8bb" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-100229", 
+            "x" : "-100228", 
             "y" : "-100170"
          }, 
          "child" : [ 
@@ -4726,7 +4726,7 @@
       "3fc2c0f0-8caf-4b7a-bb33-87ff778feb97" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-99984", 
+            "x" : "-99983", 
             "y" : "-100165"
          }, 
          "child" : [ 

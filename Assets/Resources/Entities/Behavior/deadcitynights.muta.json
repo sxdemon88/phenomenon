@@ -1,0 +1,505 @@
+{ 
+   "states" : { 
+      "f92e9ad0-6a18-4883-947c-77873b5ebfa6" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101127", 
+            "y" : "-100778"
+         }, 
+         "child" : [ 
+            "9609fd3a-4b20-4b97-a858-c2a4f448fd26", 
+            "0859ed16-d9b9-468e-83a6-2deaccfb8de2"
+         ]
+      }, 
+      "9609fd3a-4b20-4b97-a858-c2a4f448fd26" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101538", 
+            "y" : "-100567"
+         }, 
+         "child" : [ 
+            "3179922f-9a96-4e94-b720-1a6cadcf5da5", 
+            "734411ca-967f-4a0b-96bf-bc46062fbd2f"
+         ], 
+         "key" : "CALL"
+      }, 
+      "3179922f-9a96-4e94-b720-1a6cadcf5da5" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101758", 
+            "y" : "-100428"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "734411ca-967f-4a0b-96bf-bc46062fbd2f" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-101311", 
+            "y" : "-100434"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "CALL", 
+         "value" : "0"
+      }, 
+      "0859ed16-d9b9-468e-83a6-2deaccfb8de2" : { 
+         "class" : "CharacterInBattleNode", 
+         "desc" : { 
+            "x" : "-100920", 
+            "y" : "-100438"
+         }, 
+         "child" : [ 
+            "d026645a-3b6e-4dce-a8a5-a6d306c2d12b", 
+            "6ff08d74-ef8b-4440-bd27-267bc0017d1e"
+         ]
+      }, 
+      "d026645a-3b6e-4dce-a8a5-a6d306c2d12b" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-101186", 
+            "y" : "-100257"
+         }, 
+         "child" : [ 
+            "621bb9a0-ad5a-4737-bacf-b79936803573", 
+            "ffe4683c-0a18-417f-bc02-25c1bd255dc2"
+         ], 
+         "key" : "CALL", 
+         "value" : "3", 
+         "opp" : "GreaterEqual"
+      }, 
+      "621bb9a0-ad5a-4737-bacf-b79936803573" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101396", 
+            "y" : "-100072"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "ffe4683c-0a18-417f-bc02-25c1bd255dc2" : { 
+         "class" : "BattleWaitTimeNode", 
+         "desc" : { 
+            "x" : "-101123", 
+            "y" : "-100037"
+         }, 
+         "child" : [ 
+            "9ffa5a5f-9253-4901-a3b0-f16676586b9d"
+         ], 
+         "waitTimeMin" : "40", 
+         "waitTimeMax" : "200"
+      }, 
+      "9ffa5a5f-9253-4901-a3b0-f16676586b9d" : { 
+         "class" : "MathKeyValueNode", 
+         "desc" : { 
+            "x" : "-101093", 
+            "y" : "-99930"
+         }, 
+         "child" : [ 
+            "93292f03-21aa-42ac-9c87-93deacc0c664"
+         ], 
+         "key" : "CALL", 
+         "value" : "1", 
+         "opp" : "Add"
+      }, 
+      "93292f03-21aa-42ac-9c87-93deacc0c664" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-100974", 
+            "y" : "-99781"
+         }, 
+         "child" : [ 
+            "058a5a37-5d92-4b0a-8b33-66e25dc984ea", 
+            "9596fa8e-af8e-4d57-a92f-93ae557b9375", 
+            "daba7953-41a0-411c-bd37-1f29fdc0c773", 
+            "42f3061b-7c15-45cb-b0e9-f47c24b8a5b8", 
+            "9ba24342-174f-42e9-870b-379c014444db", 
+            "6a36a846-3a17-4af6-aaee-3a0e85b9feec", 
+            "b2e7e616-fd22-44e6-982d-cf3e45e9dd92", 
+            "0db244b7-0f14-4d50-a9fd-43031dd5bc96", 
+            "6be09872-9390-4b0c-8855-c23da7013857", 
+            "00f2330e-236e-4b4c-b0c4-b00eb047fc16"
+         ]
+      }, 
+      "058a5a37-5d92-4b0a-8b33-66e25dc984ea" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-101285", 
+            "y" : "-99548"
+         }, 
+         "child" : [ 
+            "432b6dd0-b14c-4c95-beff-0a419519548f"
+         ], 
+         "text" : "#DeadCity.Muta.058a5a37-5d92-4b0a-8b33-66e25dc984ea", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "432b6dd0-b14c-4c95-beff-0a419519548f" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-100943", 
+            "y" : "-99428"
+         }, 
+         "child" : [ 
+            "834a7527-bf26-4471-85e9-26864dde4eae", 
+            "e19f03d0-a6b4-4fe2-91ec-29bdec5ea241", 
+            "7e7f8eaf-6b38-4318-aea1-802dd53bcfbb", 
+            "214086f1-0603-49b7-af71-0f11d1c769e3", 
+            "52738a37-e7f2-4b5e-a37a-9d23fc018d57", 
+            "fea27de2-e034-433e-b40d-a2d280e7d307", 
+            "4fa9f5cb-4a00-42d5-a558-ab0ceea86be0"
+         ]
+      }, 
+      "834a7527-bf26-4471-85e9-26864dde4eae" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101321", 
+            "y" : "-99190"
+         }, 
+         "child" : [ 
+            "8e67da5b-2c1d-4c42-9665-03792daae1a0", 
+            "094bcfc3-cc09-4339-ae63-3285b356d900"
+         ]
+      }, 
+      "8e67da5b-2c1d-4c42-9665-03792daae1a0" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-101531", 
+            "y" : "-98985"
+         }, 
+         "child" : [ 
+            "d5205653-060c-4f7a-8036-6c44ef7609d7"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "SHADOWS.SPAWN1"
+      }, 
+      "d5205653-060c-4f7a-8036-6c44ef7609d7" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100923", 
+            "y" : "-98618"
+         }, 
+         "child" : [ 
+            "630064df-d2ae-4846-a645-29bb865730c1"
+         ], 
+         "spawnPoint" : "$SPAWN_GENERATOR$", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Muta", 
+            "character" : "Muta", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "DeadCity.MutaHelp"
+         }, 
+         "randomName" : "true"
+      }, 
+      "630064df-d2ae-4846-a645-29bb865730c1" : { 
+         "class" : "CharacterNeedUpdateNode", 
+         "desc" : { 
+            "x" : "-100944", 
+            "y" : "-98473"
+         }, 
+         "child" : [ 
+         ], 
+         "stopState" : "false"
+      }, 
+      "094bcfc3-cc09-4339-ae63-3285b356d900" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-101015", 
+            "y" : "-98989"
+         }, 
+         "child" : [ 
+            "d5205653-060c-4f7a-8036-6c44ef7609d7"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "SHADOWS.SPAWN3"
+      }, 
+      "e19f03d0-a6b4-4fe2-91ec-29bdec5ea241" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101187", 
+            "y" : "-99189"
+         }, 
+         "child" : [ 
+            "160272de-2bb9-499e-9aa0-4148b93001db", 
+            "dc646848-da30-4af6-b13d-897d528d5972"
+         ]
+      }, 
+      "160272de-2bb9-499e-9aa0-4148b93001db" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-101272", 
+            "y" : "-98990"
+         }, 
+         "child" : [ 
+            "d5205653-060c-4f7a-8036-6c44ef7609d7"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "SHADOWS.SPAWN2"
+      }, 
+      "dc646848-da30-4af6-b13d-897d528d5972" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-100760", 
+            "y" : "-98987"
+         }, 
+         "child" : [ 
+            "d5205653-060c-4f7a-8036-6c44ef7609d7"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "SHADOWS.SPAWN4"
+      }, 
+      "7e7f8eaf-6b38-4318-aea1-802dd53bcfbb" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100812", 
+            "y" : "-99185"
+         }, 
+         "child" : [ 
+            "dc646848-da30-4af6-b13d-897d528d5972", 
+            "ef59c2bc-b2ca-4cb4-964c-274f62330431"
+         ]
+      }, 
+      "ef59c2bc-b2ca-4cb4-964c-274f62330431" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-99985", 
+            "y" : "-98985"
+         }, 
+         "child" : [ 
+            "d5205653-060c-4f7a-8036-6c44ef7609d7"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "SHADOWS.SPAWN7"
+      }, 
+      "214086f1-0603-49b7-af71-0f11d1c769e3" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100941", 
+            "y" : "-99186"
+         }, 
+         "child" : [ 
+            "8e67da5b-2c1d-4c42-9665-03792daae1a0", 
+            "869c7b39-3f8e-4b22-9fa2-cb74bcfc125e", 
+            "ef59c2bc-b2ca-4cb4-964c-274f62330431"
+         ]
+      }, 
+      "869c7b39-3f8e-4b22-9fa2-cb74bcfc125e" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-100242", 
+            "y" : "-98989"
+         }, 
+         "child" : [ 
+            "d5205653-060c-4f7a-8036-6c44ef7609d7"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "SHADOWS.SPAWN6"
+      }, 
+      "52738a37-e7f2-4b5e-a37a-9d23fc018d57" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101062", 
+            "y" : "-99187"
+         }, 
+         "child" : [ 
+            "8e67da5b-2c1d-4c42-9665-03792daae1a0", 
+            "42274524-9661-4cc6-b3e6-b47ec200fa39"
+         ]
+      }, 
+      "42274524-9661-4cc6-b3e6-b47ec200fa39" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-100502", 
+            "y" : "-98988"
+         }, 
+         "child" : [ 
+            "d5205653-060c-4f7a-8036-6c44ef7609d7"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "SHADOWS.SPAWN5"
+      }, 
+      "fea27de2-e034-433e-b40d-a2d280e7d307" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100690", 
+            "y" : "-99185"
+         }, 
+         "child" : [ 
+            "160272de-2bb9-499e-9aa0-4148b93001db", 
+            "869c7b39-3f8e-4b22-9fa2-cb74bcfc125e"
+         ]
+      }, 
+      "4fa9f5cb-4a00-42d5-a558-ab0ceea86be0" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100554", 
+            "y" : "-99184"
+         }, 
+         "child" : [ 
+            "094bcfc3-cc09-4339-ae63-3285b356d900", 
+            "869c7b39-3f8e-4b22-9fa2-cb74bcfc125e"
+         ]
+      }, 
+      "9596fa8e-af8e-4d57-a92f-93ae557b9375" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-101061", 
+            "y" : "-99510"
+         }, 
+         "child" : [ 
+            "432b6dd0-b14c-4c95-beff-0a419519548f"
+         ], 
+         "text" : "#DeadCity.Muta.9596fa8e-af8e-4d57-a92f-93ae557b9375", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "daba7953-41a0-411c-bd37-1f29fdc0c773" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100905", 
+            "y" : "-99568"
+         }, 
+         "child" : [ 
+            "432b6dd0-b14c-4c95-beff-0a419519548f"
+         ], 
+         "text" : "#DeadCity.Muta.daba7953-41a0-411c-bd37-1f29fdc0c773", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "42f3061b-7c15-45cb-b0e9-f47c24b8a5b8" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100809", 
+            "y" : "-99508"
+         }, 
+         "child" : [ 
+            "432b6dd0-b14c-4c95-beff-0a419519548f"
+         ], 
+         "text" : "#DeadCity.Muta.42f3061b-7c15-45cb-b0e9-f47c24b8a5b8", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "9ba24342-174f-42e9-870b-379c014444db" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100585", 
+            "y" : "-99472"
+         }, 
+         "child" : [ 
+            "432b6dd0-b14c-4c95-beff-0a419519548f"
+         ], 
+         "text" : "#DeadCity.Muta.9ba24342-174f-42e9-870b-379c014444db", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "6a36a846-3a17-4af6-aaee-3a0e85b9feec" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100429", 
+            "y" : "-99528"
+         }, 
+         "child" : [ 
+            "432b6dd0-b14c-4c95-beff-0a419519548f"
+         ], 
+         "text" : "#DeadCity.Muta.6a36a846-3a17-4af6-aaee-3a0e85b9feec", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "b2e7e616-fd22-44e6-982d-cf3e45e9dd92" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100311", 
+            "y" : "-99476"
+         }, 
+         "child" : [ 
+            "432b6dd0-b14c-4c95-beff-0a419519548f"
+         ], 
+         "text" : "#DeadCity.Muta.b2e7e616-fd22-44e6-982d-cf3e45e9dd92", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "0db244b7-0f14-4d50-a9fd-43031dd5bc96" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100189", 
+            "y" : "-99528"
+         }, 
+         "child" : [ 
+            "432b6dd0-b14c-4c95-beff-0a419519548f"
+         ], 
+         "text" : "#DeadCity.Muta.0db244b7-0f14-4d50-a9fd-43031dd5bc96", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "6be09872-9390-4b0c-8855-c23da7013857" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100003", 
+            "y" : "-99478"
+         }, 
+         "child" : [ 
+            "432b6dd0-b14c-4c95-beff-0a419519548f"
+         ], 
+         "text" : "#DeadCity.Muta.6be09872-9390-4b0c-8855-c23da7013857", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "00f2330e-236e-4b4c-b0c4-b00eb047fc16" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-99935", 
+            "y" : "-99552"
+         }, 
+         "child" : [ 
+            "432b6dd0-b14c-4c95-beff-0a419519548f"
+         ], 
+         "text" : "#DeadCity.Muta.00f2330e-236e-4b4c-b0c4-b00eb047fc16", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "6ff08d74-ef8b-4440-bd27-267bc0017d1e" : { 
+         "class" : "CharacterSwingNode", 
+         "desc" : { 
+            "x" : "-100361", 
+            "y" : "-100505"
+         }, 
+         "child" : [ 
+            "db1b5f4f-0fd3-4c2c-ba57-1b25414dd7b3"
+         ], 
+         "swingRadius" : "5"
+      }, 
+      "db1b5f4f-0fd3-4c2c-ba57-1b25414dd7b3" : { 
+         "class" : "WaitRandomNode", 
+         "desc" : { 
+            "x" : "-100354", 
+            "y" : "-100370"
+         }, 
+         "child" : [ 
+            "0859ed16-d9b9-468e-83a6-2deaccfb8de2"
+         ], 
+         "waitTimeMin" : "3", 
+         "waitTimeMax" : "10"
+      }
+   }, 
+   "entry" : "f92e9ad0-6a18-4883-947c-77873b5ebfa6"
+}

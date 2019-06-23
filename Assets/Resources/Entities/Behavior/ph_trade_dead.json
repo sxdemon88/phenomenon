@@ -1,0 +1,124 @@
+{ 
+   "states" : { 
+      "c4677c96-9247-46c1-84d9-ba1187e6a1f4" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100176", 
+            "y" : "-102597"
+         }, 
+         "child" : [ 
+            "e31873c1-9a1a-4363-975e-6e16e2bf5581", 
+            "d0f9bfdd-1880-4aac-af75-e0ca94af66bc"
+         ]
+      }, 
+      "e31873c1-9a1a-4363-975e-6e16e2bf5581" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100603", 
+            "y" : "-102397"
+         }, 
+         "child" : [ 
+            "b9f7c282-cf43-448a-b534-d92844ff09e2", 
+            "bded3271-c16e-4b23-8e3f-7b596d60d4fd"
+         ], 
+         "key" : "PH_TRADE2_DEAD"
+      }, 
+      "b9f7c282-cf43-448a-b534-d92844ff09e2" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-100854", 
+            "y" : "-102307"
+         }, 
+         "child" : [ 
+            "832a13ab-7ac5-4a45-93a8-883729397ea4", 
+            "e38ddbd0-b12d-4d88-9b64-c01f711e5ae5"
+         ], 
+         "objectName" : "Spawn.Karavan.Trader"
+      }, 
+      "832a13ab-7ac5-4a45-93a8-883729397ea4" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-100970", 
+            "y" : "-102155"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "PH_TRADE2_DEAD"
+      }, 
+      "e38ddbd0-b12d-4d88-9b64-c01f711e5ae5" : { 
+         "class" : "RemoveKeywordNode", 
+         "desc" : { 
+            "x" : "-100711", 
+            "y" : "-102195"
+         }, 
+         "child" : [ 
+            "bded3271-c16e-4b23-8e3f-7b596d60d4fd"
+         ], 
+         "key" : "PH_TRADE2_DEAD"
+      }, 
+      "bded3271-c16e-4b23-8e3f-7b596d60d4fd" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100500", 
+            "y" : "-102097"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "d0f9bfdd-1880-4aac-af75-e0ca94af66bc" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100046", 
+            "y" : "-102381"
+         }, 
+         "child" : [ 
+            "bb05686c-39af-40a8-b578-54d156811f74", 
+            "13f05c29-40ff-4593-9086-1eaf246c8365"
+         ], 
+         "key" : "PH_TRADE1_DEAD"
+      }, 
+      "bb05686c-39af-40a8-b578-54d156811f74" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-100184", 
+            "y" : "-102263"
+         }, 
+         "child" : [ 
+            "e00b450a-106a-4035-9441-e855d287ce9d", 
+            "0c2c829c-62f7-4d8b-8362-dbae5fc69291"
+         ], 
+         "objectName" : "Spawn.Karavan.Trader"
+      }, 
+      "e00b450a-106a-4035-9441-e855d287ce9d" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-100282", 
+            "y" : "-102125"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "PH_TRADE1_DEAD"
+      }, 
+      "0c2c829c-62f7-4d8b-8362-dbae5fc69291" : { 
+         "class" : "RemoveKeywordNode", 
+         "desc" : { 
+            "x" : "-100122", 
+            "y" : "-102167"
+         }, 
+         "child" : [ 
+            "13f05c29-40ff-4593-9086-1eaf246c8365"
+         ], 
+         "key" : "PH_TRADE1_DEAD"
+      }, 
+      "13f05c29-40ff-4593-9086-1eaf246c8365" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99976", 
+            "y" : "-102059"
+         }, 
+         "child" : [ 
+         ]
+      }
+   }, 
+   "entry" : "c4677c96-9247-46c1-84d9-ba1187e6a1f4"
+}

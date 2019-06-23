@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 395181009, guid: ba80931603c2dbc40ab113c533efa2ed, type: 3}
+  m_Name: ph_caravan_guard
+  m_EditorClassIdentifier: 
+  Icon:
+    path: 
+  m_Localization: character.ph_caravan_guard
+  Takeable: 1
+  aiBehavior: 0
+  aiBehaviorTree:
+    path: 
+  Dialog:
+    path: Entities/Dialog/ph_caravan_guard
+  OnPocket:
+    path: 
+  TalkAddDist: 0
+  BackToPosition: 0
+  StoreStats: 0
+  Summon: 1
+  SummonAddDist: 200
+  SummonCheckVisibility: 1
+  BattleAddDist: 200
+  Shiftable: 0
+  SpecTreeView:
+    path: 
+  AgroNonvisibleTarget: 0
+  AcceptingRestriction: 3
+  specialtyMask: 0
+  Stats:
+    _modifiers:
+    - _type: 19
+      _value: 50
+    - _type: 32
+      _value: 100
+    - _type: 26
+      _value: 3
+    - _type: 30
+      _value: 30
+    Level: 30
+    ExperiencePoints: 600
+    Strength: 9
+    Perception: 9
+    Endurance: 9
+    Charisma: 4
+    Intelligence: 4
+    Agility: 10
+    Luck: 6
+    skillsBonus:
+      SmallGuns: 90
+      BigGuns: 90
+      AutomaticFirearms: 90
+      Unarmed: 90
+      MeleeWeapons: 90
+      Throwing: 90
+      FirstAid: 90
+      Crafting: 0
+      Sneak: 0
+      Lockpick: 0
+      Steal: 0
+      Alertness: 200
+      Science: 0
+      Speech: 0
+      Barter: 0
+      Gambling: 0
+      Outdoorsman: 90
+    Perks: 
+    FreeSkillPoints: 0
+    FreeStatPoints: 0
+    FreeSpecPoints: 0
+    SpecLevel: 1

@@ -1,0 +1,421 @@
+{ 
+   "states" : { 
+      "89e73491-2f58-4f79-a52e-56f7286b2ecb" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101114", 
+            "y" : "-100817"
+         }, 
+         "child" : [ 
+            "e9c03229-3ae1-4424-9814-92ab3c2ef9b6", 
+            "5b1466ea-309d-49e4-8cd0-61824bfa135a"
+         ]
+      }, 
+      "e9c03229-3ae1-4424-9814-92ab3c2ef9b6" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-101339", 
+            "y" : "-100672"
+         }, 
+         "child" : [ 
+            "b0665fd8-9213-48c3-8af9-a9305cfd6dc0", 
+            "78e59e72-18d9-4cd1-9a9d-a0ed020920eb", 
+            "3674622d-2e99-4153-882d-b7564e5fb5a8"
+         ]
+      }, 
+      "b0665fd8-9213-48c3-8af9-a9305cfd6dc0" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101868", 
+            "y" : "-100444", 
+            "comment" : "2"
+         }, 
+         "child" : [ 
+            "9ecb6368-cccd-4bd9-b1da-f9f3a87bcbaa", 
+            "0f0379ee-ccae-412d-980d-f53c5e55cf16"
+         ]
+      }, 
+      "9ecb6368-cccd-4bd9-b1da-f9f3a87bcbaa" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101949", 
+            "y" : "-100368"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.1", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GiantRat_RAD", 
+            "character" : "big_giantrat_rad", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bigmonster.swiming"
+         }, 
+         "randomName" : "true"
+      }, 
+      "0f0379ee-ccae-412d-980d-f53c5e55cf16" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101793", 
+            "y" : "-100356"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.2", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GiantRat_RAD", 
+            "character" : "big_giantrat_rad", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bigmonster.swiming"
+         }, 
+         "randomName" : "true"
+      }, 
+      "78e59e72-18d9-4cd1-9a9d-a0ed020920eb" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101381", 
+            "y" : "-100495", 
+            "comment" : "3"
+         }, 
+         "child" : [ 
+            "b0665fd8-9213-48c3-8af9-a9305cfd6dc0", 
+            "639bf87b-7618-42a4-960a-9949f402160a"
+         ]
+      }, 
+      "639bf87b-7618-42a4-960a-9949f402160a" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101386", 
+            "y" : "-100375"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.3", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GiantRat_RAD", 
+            "character" : "big_giantrat_rad", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bigmonster.swiming"
+         }, 
+         "randomName" : "true"
+      }, 
+      "3674622d-2e99-4153-882d-b7564e5fb5a8" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101087", 
+            "y" : "-100534", 
+            "comment" : "4"
+         }, 
+         "child" : [ 
+            "78e59e72-18d9-4cd1-9a9d-a0ed020920eb", 
+            "629565c6-e702-4275-b612-88cb20a208f3"
+         ]
+      }, 
+      "629565c6-e702-4275-b612-88cb20a208f3" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101035", 
+            "y" : "-100443"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.4", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GiantRat_RAD", 
+            "character" : "big_giantrat_rad", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bigmonster.swiming"
+         }, 
+         "randomName" : "true"
+      }, 
+      "5b1466ea-309d-49e4-8cd0-61824bfa135a" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-100763", 
+            "y" : "-100679"
+         }, 
+         "child" : [ 
+            "b0373387-8919-4ebc-897b-1407e438a838", 
+            "9fa15d5c-f90d-4fa7-8ece-15c2dfbb7116"
+         ], 
+         "value" : "35", 
+         "modifier" : "Level"
+      }, 
+      "b0373387-8919-4ebc-897b-1407e438a838" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100768", 
+            "y" : "-100537"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.5", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GiantRat_RAD", 
+            "character" : "big_giantrat_rad", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bigmonster.swiming"
+         }, 
+         "randomName" : "true"
+      }, 
+      "9fa15d5c-f90d-4fa7-8ece-15c2dfbb7116" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-100433", 
+            "y" : "-100552"
+         }, 
+         "child" : [ 
+            "39cc6fb8-317f-41c7-9fd2-c3868c45fe09", 
+            "26ff2e5d-725d-41d2-a260-4a0dcf38ff7b"
+         ], 
+         "value" : "30", 
+         "modifier" : "Level"
+      }, 
+      "39cc6fb8-317f-41c7-9fd2-c3868c45fe09" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100571", 
+            "y" : "-100417"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.6", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GiantRat_RAD", 
+            "character" : "big_giantrat_rad", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bigmonster.swiming"
+         }, 
+         "randomName" : "true"
+      }, 
+      "26ff2e5d-725d-41d2-a260-4a0dcf38ff7b" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-100202", 
+            "y" : "-100451"
+         }, 
+         "child" : [ 
+            "753ad0a9-216c-40dc-9b8c-e9a7114eacc7", 
+            "ecb18a44-0229-49ec-8703-3af5e3e9acfe"
+         ], 
+         "value" : "25", 
+         "modifier" : "Level"
+      }, 
+      "753ad0a9-216c-40dc-9b8c-e9a7114eacc7" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100337", 
+            "y" : "-100274"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.7", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GiantRat_RAD", 
+            "character" : "big_giantrat_rad", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bigmonster.swiming"
+         }, 
+         "randomName" : "true"
+      }, 
+      "ecb18a44-0229-49ec-8703-3af5e3e9acfe" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-100079", 
+            "y" : "-100275"
+         }, 
+         "child" : [ 
+            "da28ee68-069d-48e4-8fa2-52dec312f2ef", 
+            "5c42ee02-e77b-4f39-ae4e-d818f5624063"
+         ], 
+         "value" : "20", 
+         "modifier" : "Level"
+      }, 
+      "da28ee68-069d-48e4-8fa2-52dec312f2ef" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-100146", 
+            "y" : "-100118"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Enemy.8", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "GiantRat_RAD", 
+            "character" : "big_giantrat_rad", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~team1", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bigmonster.swiming"
+         }, 
+         "randomName" : "true"
+      }, 
+      "5c42ee02-e77b-4f39-ae4e-d818f5624063" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99749", 
+            "y" : "-100092"
+         }, 
+         "child" : [ 
+         ]
+      }
+   }, 
+   "entry" : "89e73491-2f58-4f79-a52e-56f7286b2ecb"
+}

@@ -1,0 +1,70 @@
+{ 
+   "states" : { 
+      "7920ef58-463b-4978-84be-f385410fa3c8" : { 
+         "class" : "MemoBeginNode", 
+         "desc" : { 
+            "x" : "-100811", 
+            "y" : "-100569"
+         }, 
+         "child" : [ 
+            "65f736be-aef3-4cb9-bdd9-dd5fb3be759d"
+         ]
+      }, 
+      "65f736be-aef3-4cb9-bdd9-dd5fb3be759d" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100825", 
+            "y" : "-100487"
+         }, 
+         "child" : [ 
+            "fc735716-187a-4c28-807c-3321d548214e", 
+            "6f7c8efe-1b03-42a2-b7b6-fdae4e3ab683"
+         ], 
+         "key" : "PH_CRAFT_BOOK2"
+      }, 
+      "fc735716-187a-4c28-807c-3321d548214e" : { 
+         "class" : "MemoImageNode", 
+         "desc" : { 
+            "x" : "-100832", 
+            "y" : "-100047"
+         }, 
+         "child" : [ 
+         ], 
+         "img" : "ph_craft_2"
+      }, 
+      "6f7c8efe-1b03-42a2-b7b6-fdae4e3ab683" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100644", 
+            "y" : "-100380"
+         }, 
+         "child" : [ 
+            "f6682ad6-1e2a-4915-adea-2a7d2c4276c3"
+         ]
+      }, 
+      "f6682ad6-1e2a-4915-adea-2a7d2c4276c3" : { 
+         "class" : "PlayerAddRecipeNode", 
+         "desc" : { 
+            "x" : "-100590", 
+            "y" : "-100302"
+         }, 
+         "child" : [ 
+            "2339286d-181f-4453-b736-b1f8e822618c"
+         ], 
+         "recipe" : "backpack5", 
+         "showMsg" : "true"
+      }, 
+      "2339286d-181f-4453-b736-b1f8e822618c" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-100600", 
+            "y" : "-100221"
+         }, 
+         "child" : [ 
+            "fc735716-187a-4c28-807c-3321d548214e"
+         ], 
+         "key" : "PH_CRAFT_BOOK2"
+      }
+   }, 
+   "entry" : "7920ef58-463b-4978-84be-f385410fa3c8"
+}
