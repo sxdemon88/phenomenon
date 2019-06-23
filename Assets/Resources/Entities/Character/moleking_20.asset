@@ -28,9 +28,9 @@ MonoBehaviour:
   BackToPosition: 0
   StoreStats: 0
   Summon: 1
-  SummonAddDist: 40
+  SummonAddDist: 500
   SummonCheckVisibility: 1
-  BattleAddDist: 0
+  BattleAddDist: 200
   Shiftable: 0
   SpecTreeView:
     path: 

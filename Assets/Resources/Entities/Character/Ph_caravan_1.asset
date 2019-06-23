@@ -16,6 +16,7 @@ MonoBehaviour:
     path: Entities/Character/Ph_caravan_1
   m_Localization: character.ph_caravan_1
   Takeable: 1
+  AIDontUseCover: 0
   aiBehavior: 0
   aiBehaviorTree:
     path: 

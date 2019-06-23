@@ -30,7 +30,7 @@ MonoBehaviour:
   Summon: 1
   SummonAddDist: 800
   SummonCheckVisibility: 0
-  BattleAddDist: 0
+  BattleAddDist: 200
   Shiftable: 0
   SpecTreeView:
     path: 

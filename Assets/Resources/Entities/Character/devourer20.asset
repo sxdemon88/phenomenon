@@ -16,7 +16,10 @@ MonoBehaviour:
     path: 
   m_Localization: character.devourer20
   Takeable: 1
+  AIDontUseCover: 0
   aiBehavior: 0
+  aiBehaviorTree:
+    path: 
   Dialog:
     path: 
   OnPocket:
@@ -27,10 +30,11 @@ MonoBehaviour:
   Summon: 1
   SummonAddDist: 100
   SummonCheckVisibility: 1
-  BattleAddDist: 0
+  BattleAddDist: 400
   Shiftable: 0
   SpecTreeView:
     path: 
+  AgroNonvisibleTarget: 0
   AcceptingRestriction: 3
   specialtyMask: 0
   Stats:
