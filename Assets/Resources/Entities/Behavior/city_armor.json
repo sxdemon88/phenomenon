@@ -198,7 +198,7 @@
             "9f67019f-48f9-46a6-b615-a9bed9ecf1d0", 
             "92248edf-dcc8-4d10-a5f1-424be10bde09"
          ], 
-         "dice" : "30"
+         "dice" : "35"
       }, 
       "9f67019f-48f9-46a6-b615-a9bed9ecf1d0" : { 
          "class" : "RandomNode", 
@@ -207,36 +207,15 @@
             "y" : "-99255"
          }, 
          "child" : [ 
-            "504dc716-94d1-4e44-a407-b9135186b128", 
-            "aada0d91-9f4e-4b1c-8fc0-83732add2c97", 
             "77945223-b23a-4d35-9657-d6f11ba0605b", 
-            "ea904477-8590-469a-a188-ae42dd489be8", 
             "dda1bc11-6909-4a5b-9950-9c06e45c2667"
-         ]
-      }, 
-      "504dc716-94d1-4e44-a407-b9135186b128" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-99821", 
-            "y" : "-98845"
-         }, 
-         "child" : [ 
-         ]
-      }, 
-      "aada0d91-9f4e-4b1c-8fc0-83732add2c97" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-100073", 
-            "y" : "-98887"
-         }, 
-         "child" : [ 
          ]
       }, 
       "77945223-b23a-4d35-9657-d6f11ba0605b" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-99963", 
-            "y" : "-98824"
+            "x" : "-100146", 
+            "y" : "-99137"
          }, 
          "child" : [ 
          ], 
@@ -250,20 +229,11 @@
          "inventoryObject" : "", 
          "random" : "true"
       }, 
-      "ea904477-8590-469a-a188-ae42dd489be8" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-99717", 
-            "y" : "-98877"
-         }, 
-         "child" : [ 
-         ]
-      }, 
       "dda1bc11-6909-4a5b-9950-9c06e45c2667" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-99591", 
-            "y" : "-98821"
+            "x" : "-99997", 
+            "y" : "-99132"
          }, 
          "child" : [ 
          ], 
@@ -301,8 +271,8 @@
       "3e62e260-7391-4b9f-881d-f9282abe64ba" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-101382", 
-            "y" : "-99007"
+            "x" : "-101394", 
+            "y" : "-98961"
          }, 
          "child" : [ 
          ]
@@ -368,7 +338,7 @@
       "e7eb1303-7cbb-416b-8835-f627c5889fff" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-101552", 
+            "x" : "-101551", 
             "y" : "-98492"
          }, 
          "child" : [ 
@@ -628,7 +598,7 @@
             "2bc01e48-6e1a-4023-abc0-4a39c2d953fa", 
             "216281e5-6e25-4e6c-9e50-299ab4e87c2a"
          ], 
-         "dice" : "30"
+         "dice" : "70"
       }, 
       "2bc01e48-6e1a-4023-abc0-4a39c2d953fa" : { 
          "class" : "InventorySetNode", 
@@ -642,32 +612,32 @@
             { 
                "class" : "Uniform", 
                "count" : "1", 
-               "proto" : "craftdogarmor_1"
+               "proto" : "CraftDogArmor_1"
             }, 
             { 
                "class" : "Uniform", 
                "count" : "1", 
-               "proto" : "craftdogarmor_2"
+               "proto" : "CraftDogArmor_2"
             }, 
             { 
                "class" : "Uniform", 
                "count" : "1", 
-               "proto" : "craftdoghelmet_1"
+               "proto" : "CraftDogHelmet_1"
             }, 
             { 
                "class" : "Uniform", 
                "count" : "1", 
-               "proto" : "craftdoghelmet_2"
+               "proto" : "CraftDogHelmet_2"
             }, 
             { 
                "class" : "Uniform", 
                "count" : "1", 
-               "proto" : "craftdogtop_1"
+               "proto" : "CraftDogTop_1"
             }, 
             { 
                "class" : "Uniform", 
                "count" : "1", 
-               "proto" : "craftdogtop_2"
+               "proto" : "CraftDogTop_2"
             }
          ], 
          "inventoryObject" : "", 
@@ -676,8 +646,8 @@
       "216281e5-6e25-4e6c-9e50-299ab4e87c2a" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100442", 
-            "y" : "-99201"
+            "x" : "-100449", 
+            "y" : "-99185"
          }, 
          "child" : [ 
          ]
@@ -739,11 +709,6 @@
                "class" : "Uniform", 
                "count" : "1", 
                "proto" : "Helmet_2"
-            }, 
-            { 
-               "class" : "Uniform", 
-               "count" : "1", 
-               "proto" : "Helmet_3"
             }, 
             { 
                "class" : "Uniform", 
