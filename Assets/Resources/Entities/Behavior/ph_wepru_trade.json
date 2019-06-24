@@ -492,7 +492,7 @@
                "proto" : "Amd65", 
                "ammo" : { 
                   "count" : "30", 
-                  "proto" : "7_62mm_JHP"
+                  "proto" : "5_45mm_JHP"
                }
             }, 
             { 
@@ -501,7 +501,7 @@
                "proto" : "Amd65N", 
                "ammo" : { 
                   "count" : "30", 
-                  "proto" : "5_45mm_JHP"
+                  "proto" : "7_62mm_JHP"
                }
             }, 
             { 
