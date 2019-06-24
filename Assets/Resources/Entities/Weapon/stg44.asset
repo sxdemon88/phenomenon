@@ -21,7 +21,7 @@ MonoBehaviour:
   Collectable: 0
   Modifiers: []
   HasModel: 1
-  weaponType: 1
+  weaponType: 8
   Ammo:
     path: entities/ammo/7_62mm_jhp
   AmmoCapacity: 30

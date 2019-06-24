@@ -1476,7 +1476,7 @@
          ], 
          "item" : { 
             "class" : "Item", 
-            "count" : "100", 
+            "count" : "1400", 
             "proto" : "Money"
          }, 
          "objectName" : "Player"
@@ -1616,7 +1616,7 @@
          ], 
          "item" : { 
             "class" : "Item", 
-            "count" : "200", 
+            "count" : "2800", 
             "proto" : "Money"
          }, 
          "objectName" : "Player"
@@ -1747,7 +1747,7 @@
          ], 
          "item" : { 
             "class" : "Item", 
-            "count" : "400", 
+            "count" : "5600", 
             "proto" : "Money"
          }, 
          "objectName" : "Player"
@@ -1878,7 +1878,7 @@
          ], 
          "item" : { 
             "class" : "Item", 
-            "count" : "1000", 
+            "count" : "14000", 
             "proto" : "Money"
          }, 
          "objectName" : "Player"

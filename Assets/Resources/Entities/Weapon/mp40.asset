@@ -20,6 +20,7 @@ MonoBehaviour:
   Weight: 4800
   Collectable: 0
   Modifiers: []
+  HasModel: 1
   weaponType: 1
   Ammo:
     path: entities/ammo/9mm_jhp

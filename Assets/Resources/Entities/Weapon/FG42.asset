@@ -20,7 +20,8 @@ MonoBehaviour:
   Weight: 4950
   Collectable: 0
   Modifiers: []
-  weaponType: 1
+  HasModel: 1
+  weaponType: 2
   Ammo:
     path: entities/ammo/7_62mm_jhp
   AmmoCapacity: 20

@@ -146,7 +146,8 @@
             "59f7d22e-0702-43be-9ff2-a2bf797664cc", 
             "98b25f0a-5d5b-45d0-9510-908bfebd6447", 
             "12951a73-9423-43ec-a217-ea599760d47d", 
-            "6d867a6a-bea9-42f6-b07d-57e3e778bf42"
+            "6d867a6a-bea9-42f6-b07d-57e3e778bf42", 
+            "b94cb962-a9e4-475b-af0e-4a57a2ed4c70"
          ]
       }, 
       "49e1d699-f21f-4765-99da-934e09ac096c" : { 
@@ -184,7 +185,7 @@
       "8e7dc372-8d70-47ab-9893-98b1b95080c0" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-102164", 
+            "x" : "-102163", 
             "y" : "-99400"
          }, 
          "child" : [ 
@@ -1533,8 +1534,8 @@
       "6d867a6a-bea9-42f6-b07d-57e3e778bf42" : { 
          "class" : "NotebookHasNoteNode", 
          "desc" : { 
-            "x" : "-102129", 
-            "y" : "-100356"
+            "x" : "-102293", 
+            "y" : "-100306"
          }, 
          "child" : [ 
             "fc1309da-b0bb-474c-a54b-6f5906d1c240", 
@@ -1755,6 +1756,70 @@
          ], 
          "inventoryObject" : "", 
          "random" : "true"
+      }, 
+      "b94cb962-a9e4-475b-af0e-4a57a2ed4c70" : { 
+         "class" : "HasRandomDiceNode", 
+         "desc" : { 
+            "x" : "-100130", 
+            "y" : "-99658"
+         }, 
+         "child" : [ 
+            "77166794-6ef1-4b40-b44d-a0a3cebdf411", 
+            "847820d0-d3c2-4d62-a882-6743bb15e493"
+         ], 
+         "dice" : "30"
+      }, 
+      "77166794-6ef1-4b40-b44d-a0a3cebdf411" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100175", 
+            "y" : "-99547"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "CraftDogArmor_1"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "CraftDogArmor_2"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "CraftDogHelmet_1"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "CraftDogHelmet_2"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "CraftDogTop_1"
+            }, 
+            { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "CraftDogTop_2"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "847820d0-d3c2-4d62-a882-6743bb15e493" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99989", 
+            "y" : "-99537"
+         }, 
+         "child" : [ 
+         ]
       }, 
       "51b8dabb-84fb-4ae2-8a23-93d36bf4910e" : { 
          "class" : "DummyNode", 
