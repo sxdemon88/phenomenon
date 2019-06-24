@@ -1,0 +1,2365 @@
+{ 
+   "states" : { 
+      "10435e87-f027-4ce6-aad9-69ff1c74827b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101212", 
+            "y" : "-101059"
+         }, 
+         "child" : [ 
+            "e361dd93-0c73-4145-bafa-901429eee4f5"
+         ]
+      }, 
+      "e361dd93-0c73-4145-bafa-901429eee4f5" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101212", 
+            "y" : "-101015"
+         }, 
+         "child" : [ 
+            "4967df38-9447-48e1-bd28-e6aec99beca7", 
+            "78bc2798-46f2-468a-aaa4-4c600b6ca7bd", 
+            "d4863d51-4686-47a7-8fed-f148323cc83b", 
+            "2882e6d8-1f81-42b8-822f-7ae96c2b0514", 
+            "553679da-4741-4934-badb-ddb6c4bc9330", 
+            "bc2b7d83-8491-45b0-838d-e342f4429f9b", 
+            "43ce25a8-696b-48e8-9042-3574b85bf38b", 
+            "d3d4cdb1-266d-477d-816c-0e8bdcfade9f", 
+            "a27c76a5-31db-4f5f-9fc3-081a8fb61782"
+         ]
+      }, 
+      "4967df38-9447-48e1-bd28-e6aec99beca7" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101883", 
+            "y" : "-100846"
+         }, 
+         "child" : [ 
+            "249b3e5f-93ca-42a5-96ac-889932e09dd6", 
+            "f46704b7-d228-464c-9a00-3aa5b1324e4f"
+         ], 
+         "key" : "0_9"
+      }, 
+      "249b3e5f-93ca-42a5-96ac-889932e09dd6" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102716", 
+            "y" : "-100600"
+         }, 
+         "child" : [ 
+            "a5073a9f-6077-42b2-b497-b321b11c525c", 
+            "6aef5a9d-d370-4335-a97b-bd643381fe67"
+         ]
+      }, 
+      "a5073a9f-6077-42b2-b497-b321b11c525c" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-102919", 
+            "y" : "-100432"
+         }, 
+         "child" : [ 
+            "86ff8624-9b41-4f31-972a-b665323efe3b", 
+            "702dba22-c9d8-4170-8d6f-7d067246d816"
+         ], 
+         "note_key" : "IL_CLEAR"
+      }, 
+      "86ff8624-9b41-4f31-972a-b665323efe3b" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-102931", 
+            "y" : "-100127"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Postman", 
+         "active" : "false"
+      }, 
+      "702dba22-c9d8-4170-8d6f-7d067246d816" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-102858", 
+            "y" : "-100352"
+         }, 
+         "child" : [ 
+            "86ff8624-9b41-4f31-972a-b665323efe3b", 
+            "9dc53e50-2dcb-40ae-9a20-93ae42b776e0"
+         ], 
+         "note_key" : "IL_KILLED"
+      }, 
+      "9dc53e50-2dcb-40ae-9a20-93ae42b776e0" : { 
+         "class" : "FractionIsEnemyRelationshipNode", 
+         "desc" : { 
+            "x" : "-102814", 
+            "y" : "-100269"
+         }, 
+         "child" : [ 
+            "86ff8624-9b41-4f31-972a-b665323efe3b", 
+            "9c6e4044-8592-410b-8da5-9ea5d92777b3"
+         ], 
+         "fractionA" : "Player", 
+         "fractionB" : "il"
+      }, 
+      "9c6e4044-8592-410b-8da5-9ea5d92777b3" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102737", 
+            "y" : "-100188"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "6aef5a9d-d370-4335-a97b-bd643381fe67" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-102532", 
+            "y" : "-100333"
+         }, 
+         "child" : [ 
+            "e0aadc22-3a0b-4a8a-814b-f7e0e22aef4d", 
+            "14cfbb26-b4b1-472d-bcc0-4afd166b5754"
+         ], 
+         "objectName" : "Fogelevka_Gusev"
+      }, 
+      "e0aadc22-3a0b-4a8a-814b-f7e0e22aef4d" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102590", 
+            "y" : "-100184"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "14cfbb26-b4b1-472d-bcc0-4afd166b5754" : { 
+         "class" : "DayNightNode", 
+         "desc" : { 
+            "x" : "-102442", 
+            "y" : "-100246"
+         }, 
+         "child" : [ 
+            "ac3b50f5-0db3-4994-924b-e6cba79cfc48", 
+            "e0aadc22-3a0b-4a8a-814b-f7e0e22aef4d"
+         ]
+      }, 
+      "ac3b50f5-0db3-4994-924b-e6cba79cfc48" : { 
+         "class" : "CharacterInOutNode", 
+         "desc" : { 
+            "x" : "-102473", 
+            "y" : "-100182"
+         }, 
+         "child" : [ 
+            "db9415d9-2b9a-4b54-90fa-0ae7dd46ffc1"
+         ], 
+         "objectName" : "Fogelevka_Gusev", 
+         "active" : "true", 
+         "effectDuration" : "1.5"
+      }, 
+      "db9415d9-2b9a-4b54-90fa-0ae7dd46ffc1" : { 
+         "class" : "CharacterNeedUpdateNode", 
+         "desc" : { 
+            "x" : "-102479", 
+            "y" : "-100109"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Fogelevka_Gusev", 
+         "stopState" : "false"
+      }, 
+      "f46704b7-d228-464c-9a00-3aa5b1324e4f" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-101866", 
+            "y" : "-100766"
+         }, 
+         "child" : [ 
+            "3d8a93bc-8286-445b-bd02-18db36377692", 
+            "df5666f9-b9ba-49c6-9a36-7e2e6478274c", 
+            "fcdfd73b-863b-4157-b13a-ebf1c69e6e43", 
+            "3d0eeb01-5d8a-4e91-9bee-ba56256a0ffe", 
+            "96e901dc-375f-4020-902b-198c6aababd9", 
+            "7363e929-3fb8-4eec-8a09-6eb1962250ee", 
+            "557b4cd5-4bee-4f13-ac8e-48e05525b314"
+         ], 
+         "key" : "0_9"
+      }, 
+      "3d8a93bc-8286-445b-bd02-18db36377692" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102589", 
+            "y" : "-100628"
+         }, 
+         "child" : [ 
+            "a5073a9f-6077-42b2-b497-b321b11c525c"
+         ], 
+         "spawnPoint" : "Postman", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale18", 
+            "character" : "Fogelevka_Postman", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "fogelevka", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+               { 
+                  "class" : "Ammo", 
+                  "count" : "16", 
+                  "proto" : "307cal_AP"
+               }, 
+               { 
+                  "class" : "Consumable", 
+                  "count" : "4", 
+                  "proto" : "Kasparamid"
+               }, 
+               { 
+                  "class" : "Consumable", 
+                  "count" : "5", 
+                  "proto" : "Craft_Heal"
+               }
+            ], 
+            "mainItemIndex" : "0", 
+            "item2" : { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Quest.Drug"
+            }, 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "NoSkin", 
+            "beard" : "BeardAndMustache", 
+            "hair" : "Businessman", 
+            "hairColor" : "Brown", 
+            "behavior" : "Fogelevka.Postman"
+         }
+      }, 
+      "df5666f9-b9ba-49c6-9a36-7e2e6478274c" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102447", 
+            "y" : "-100539"
+         }, 
+         "child" : [ 
+            "243c2bab-a35a-4156-9094-7eeaf348967f"
+         ], 
+         "spawnPoint" : "Fogelevka_Gusev", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale13", 
+            "character" : "Fogelevka_Gusev", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "fogelevka", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "rucksack" : { 
+               "class" : "Uniform", 
+               "skin" : "Skin_1", 
+               "count" : "1", 
+               "proto" : "Backpack"
+            }, 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "Skin_5", 
+            "beard" : "Shaved", 
+            "hair" : "Businessman", 
+            "hairColor" : "Foxy", 
+            "behavior" : "Fogelevka_Gusev", 
+            "keywords" : { 
+               "MOVE_OUT_MODE" : "1", 
+               "_ENTITY_STATE" : "OUT_OF_MAP"
+            }
+         }
+      }, 
+      "243c2bab-a35a-4156-9094-7eeaf348967f" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-102451", 
+            "y" : "-100446"
+         }, 
+         "child" : [ 
+            "6aef5a9d-d370-4335-a97b-bd643381fe67"
+         ], 
+         "objectName" : "Fogelevka_Gusev", 
+         "active" : "false"
+      }, 
+      "fcdfd73b-863b-4157-b13a-ebf1c69e6e43" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101971", 
+            "y" : "-100631"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Host", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale5", 
+            "character" : "Fogelevka_Host", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "fogelevka", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+               { 
+                  "class" : "Item", 
+                  "count" : "1", 
+                  "proto" : "Tea"
+               }, 
+               { 
+                  "class" : "Consumable", 
+                  "count" : "5", 
+                  "proto" : "Corned_Meat"
+               }, 
+               { 
+                  "class" : "Consumable", 
+                  "count" : "4", 
+                  "proto" : "Corned_Fish"
+               }, 
+               { 
+                  "class" : "Consumable", 
+                  "count" : "1", 
+                  "proto" : "Biscuit"
+               }, 
+               { 
+                  "class" : "Item", 
+                  "count" : "2", 
+                  "proto" : "Herbal"
+               }, 
+               { 
+                  "class" : "Consumable", 
+                  "count" : "3", 
+                  "proto" : "Beer"
+               }, 
+               { 
+                  "class" : "Consumable", 
+                  "count" : "3", 
+                  "proto" : "Moonshine"
+               }, 
+               { 
+                  "class" : "Consumable", 
+                  "count" : "5", 
+                  "proto" : "Gorilka"
+               }, 
+               { 
+                  "class" : "Consumable", 
+                  "count" : "4", 
+                  "proto" : "Vodka"
+               }, 
+               { 
+                  "class" : "Consumable", 
+                  "count" : "3", 
+                  "proto" : "Razsol"
+               }, 
+               { 
+                  "class" : "Item", 
+                  "count" : "100", 
+                  "proto" : "Money"
+               }
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "Skin_3", 
+            "beard" : "Shaved", 
+            "hair" : "Tail", 
+            "hairColor" : "DarkGray", 
+            "behavior" : "Fogelevka.Host"
+         }
+      }, 
+      "3d0eeb01-5d8a-4e91-9bee-ba56256a0ffe" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101847", 
+            "y" : "-100631"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Fam3", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseFemale2", 
+            "character" : "Fogelevka_Fam3", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "fogelevka", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+               { 
+                  "class" : "Item", 
+                  "count" : "2", 
+                  "proto" : "Money"
+               }, 
+               { 
+                  "class" : "Item", 
+                  "count" : "1", 
+                  "proto" : "Wastepaper"
+               }, 
+               { 
+                  "class" : "Item", 
+                  "count" : "1", 
+                  "proto" : "Herbal"
+               }, 
+               { 
+                  "class" : "Item", 
+                  "count" : "1", 
+                  "proto" : "Whetstone"
+               }
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "Skin_1", 
+            "beard" : "Shaved", 
+            "hair" : "Girl_MediumBangs", 
+            "hairColor" : "Blond", 
+            "behavior" : "ASim.Crowd_v2"
+         }
+      }, 
+      "96e901dc-375f-4020-902b-198c6aababd9" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101718", 
+            "y" : "-100631"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Fam2", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseFemale11", 
+            "character" : "Fogelevka_Fam2", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "fogelevka", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+               { 
+                  "class" : "Item", 
+                  "count" : "1", 
+                  "proto" : "Soap"
+               }, 
+               { 
+                  "class" : "Item", 
+                  "count" : "1", 
+                  "proto" : "Herbal"
+               }, 
+               { 
+                  "class" : "Item", 
+                  "count" : "1", 
+                  "proto" : "Amanita"
+               }, 
+               { 
+                  "class" : "Uniform", 
+                  "count" : "1", 
+                  "proto" : "Platok_1"
+               }
+            ], 
+            "mainItemIndex" : "0", 
+            "item2" : { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "Condon"
+            }, 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "NoSkin", 
+            "beard" : "Shaved", 
+            "hair" : "Girl_HighBangs", 
+            "hairColor" : "Dark", 
+            "behavior" : "ASim.Crowd_v2"
+         }
+      }, 
+      "7363e929-3fb8-4eec-8a09-6eb1962250ee" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101591", 
+            "y" : "-100631"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Fam1", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale7", 
+            "character" : "Fogelevka_Fam1", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "fogelevka", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+               { 
+                  "class" : "Item", 
+                  "count" : "2", 
+                  "proto" : "Gun_Powder"
+               }, 
+               { 
+                  "class" : "Item", 
+                  "count" : "1", 
+                  "proto" : "Wood"
+               }, 
+               { 
+                  "class" : "Item", 
+                  "count" : "1", 
+                  "proto" : "Nails"
+               }
+            ], 
+            "mainItemIndex" : "0", 
+            "item2" : { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Knife_Sharp"
+            }, 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "NoSkin", 
+            "beard" : "Shaved", 
+            "hair" : "Businessman", 
+            "hairColor" : "DarkGray", 
+            "behavior" : "ASim.Crowd_v2", 
+            "keywords" : { 
+               "MIRROR_SLEEP" : "1"
+            }
+         }
+      }, 
+      "557b4cd5-4bee-4f13-ac8e-48e05525b314" : { 
+         "class" : "SpawnEntityNode", 
+         "desc" : { 
+            "x" : "-101512", 
+            "y" : "-100689"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Fogelevka_Zil", 
+         "item" : { 
+            "class" : "Interactive", 
+            "proto" : "FogelevkaZil"
+         }
+      }, 
+      "78bc2798-46f2-468a-aaa4-4c600b6ca7bd" : { 
+         "class" : "PlayerLevelOutNode", 
+         "desc" : { 
+            "x" : "-101752", 
+            "y" : "-100478"
+         }, 
+         "child" : [ 
+            "c44ad01b-8ddd-4dd9-be30-19327a446a4c", 
+            "fcc5e40c-951c-4507-9446-0547d698135f", 
+            "59d6b7ee-a438-48f6-acb7-c80a5a42ba87", 
+            "49a59da6-2c77-458a-9087-37ddebaf16de", 
+            "d8b13638-637f-4c67-863f-61164a007ff8", 
+            "ce041a5c-e2cd-4f0d-b49e-18aa73ca3e85", 
+            "013fd850-4136-4227-bed5-e029fd56cfb2", 
+            "b33e8053-a235-461a-916b-322041730dc0"
+         ]
+      }, 
+      "c44ad01b-8ddd-4dd9-be30-19327a446a4c" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-102077", 
+            "y" : "-100447"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/ph_trap_event"
+      }, 
+      "fcc5e40c-951c-4507-9446-0547d698135f" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-102018", 
+            "y" : "-100322"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/ph_trade_event"
+      }, 
+      "59d6b7ee-a438-48f6-acb7-c80a5a42ba87" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-102292", 
+            "y" : "-100195", 
+            "comment" : "Законник"
+         }, 
+         "child" : [ 
+            "90c0015a-55fd-433c-b76d-6a70c31376bb", 
+            "428ce211-f980-4c95-a9f5-f9fb621321ac"
+         ], 
+         "note_key" : "FOGELEVKA_ZAKONNIK_FAIL"
+      }, 
+      "90c0015a-55fd-433c-b76d-6a70c31376bb" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102281", 
+            "y" : "-99806"
+         }, 
+         "child" : [ 
+            "dc2be620-55af-48ff-ae33-4f0e55a1bbea"
+         ]
+      }, 
+      "dc2be620-55af-48ff-ae33-4f0e55a1bbea" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-102322", 
+            "y" : "-99767"
+         }, 
+         "child" : [ 
+            "40d33281-5d4b-445d-8348-b41670bf04a8"
+         ], 
+         "note_key" : "FOGELEVKA_ZAKONNIK_FAIL"
+      }, 
+      "40d33281-5d4b-445d-8348-b41670bf04a8" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-102295", 
+            "y" : "-99708"
+         }, 
+         "child" : [ 
+            "a8b9178e-1ed4-4bd5-9b90-3d71c971c540"
+         ], 
+         "quest_key" : "FOGELEVKA.S1.END"
+      }, 
+      "a8b9178e-1ed4-4bd5-9b90-3d71c971c540" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-102296", 
+            "y" : "-99651"
+         }, 
+         "child" : [ 
+            "3ef1449a-6c11-47ea-8b60-27c6f58db247"
+         ], 
+         "quest_key" : "FOGELEVKA.S2.END"
+      }, 
+      "3ef1449a-6c11-47ea-8b60-27c6f58db247" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-102296", 
+            "y" : "-99594"
+         }, 
+         "child" : [ 
+         ], 
+         "quest_key" : "FOGELEVKA.S3.END"
+      }, 
+      "428ce211-f980-4c95-a9f5-f9fb621321ac" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102068", 
+            "y" : "-100036"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "49a59da6-2c77-458a-9087-37ddebaf16de" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-102174", 
+            "y" : "-100123", 
+            "comment" : "Законник"
+         }, 
+         "child" : [ 
+            "de2dcfd2-4b47-47d7-8fe6-ecb5ffb6ae70", 
+            "428ce211-f980-4c95-a9f5-f9fb621321ac"
+         ], 
+         "objectName" : "SMan"
+      }, 
+      "de2dcfd2-4b47-47d7-8fe6-ecb5ffb6ae70" : { 
+         "class" : "AreAllAroundDeadNode", 
+         "desc" : { 
+            "x" : "-102196", 
+            "y" : "-100039"
+         }, 
+         "child" : [ 
+            "46c21456-b84c-474e-9d70-d9d78f353ecd", 
+            "e36c2f76-b5e8-4a9c-8795-7899dc9ba6e3"
+         ], 
+         "filterFractionName" : "fogelevka"
+      }, 
+      "46c21456-b84c-474e-9d70-d9d78f353ecd" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-102250", 
+            "y" : "-99885"
+         }, 
+         "child" : [ 
+            "90c0015a-55fd-433c-b76d-6a70c31376bb"
+         ], 
+         "note_key" : "FOGELEVKA_ZAKONNIK_DEAD"
+      }, 
+      "e36c2f76-b5e8-4a9c-8795-7899dc9ba6e3" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-102138", 
+            "y" : "-99965"
+         }, 
+         "child" : [ 
+            "46c21456-b84c-474e-9d70-d9d78f353ecd"
+         ], 
+         "objectName" : "SMan", 
+         "active" : "false"
+      }, 
+      "d8b13638-637f-4c67-863f-61164a007ff8" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101924", 
+            "y" : "-100004", 
+            "comment" : "TOFFIK"
+         }, 
+         "child" : [ 
+            "3c140b66-3815-4acb-ad9b-ef1ccd866fa4", 
+            "4becefe8-3c7d-4b86-88e5-1f7b5b9e7fd3"
+         ], 
+         "key" : "TOFIK_WAS_SUMMONED"
+      }, 
+      "3c140b66-3815-4acb-ad9b-ef1ccd866fa4" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-101970", 
+            "y" : "-99930"
+         }, 
+         "child" : [ 
+            "30cda029-7d22-48be-ae6e-f8011da66e79", 
+            "f1dcac57-f78d-4cd8-97a7-78e6121db65b"
+         ], 
+         "note_key" : "FOGELEVKA_TOFIK_OFFENCE"
+      }, 
+      "30cda029-7d22-48be-ae6e-f8011da66e79" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102006", 
+            "y" : "-99822"
+         }, 
+         "child" : [ 
+            "3687b51a-fd67-4031-866b-bc5f6e7f57f0", 
+            "3dc2d8d2-288a-4c7d-8865-7512c47c5b8c", 
+            "4ea73771-244e-4a3e-b963-b514b69121b4"
+         ]
+      }, 
+      "3687b51a-fd67-4031-866b-bc5f6e7f57f0" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-102133", 
+            "y" : "-99184"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Fogelevka_Tofik", 
+         "active" : "false"
+      }, 
+      "3dc2d8d2-288a-4c7d-8865-7512c47c5b8c" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-101944", 
+            "y" : "-99680"
+         }, 
+         "child" : [ 
+            "e8d7f7ea-1309-430c-8305-49b226eed420", 
+            "de2d07f3-fc89-48ab-b2cb-a6a4d8fedca7"
+         ], 
+         "quest_key" : "FOGELEVKA.TOFIK.QUEST.ZOLOTOY"
+      }, 
+      "e8d7f7ea-1309-430c-8305-49b226eed420" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-101998", 
+            "y" : "-99619"
+         }, 
+         "child" : [ 
+            "abd498d3-e50c-4e17-94ea-4053d4accaee"
+         ], 
+         "quest_key" : "FOGELEVKA.TOFIK.QUEST.ZOLOTOY.DEAD"
+      }, 
+      "abd498d3-e50c-4e17-94ea-4053d4accaee" : { 
+         "class" : "NotebookRemoveNoteNode", 
+         "desc" : { 
+            "x" : "-101968", 
+            "y" : "-99566"
+         }, 
+         "child" : [ 
+            "deb125ab-b16d-48db-9747-0955aaacadaa"
+         ], 
+         "note_key" : "FOGELEVKA_TOFIK_SYNDICATE"
+      }, 
+      "deb125ab-b16d-48db-9747-0955aaacadaa" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-101993", 
+            "y" : "-99508"
+         }, 
+         "child" : [ 
+            "54b45d38-928a-424b-a30b-59701dec12b5"
+         ], 
+         "quest_key" : "FOGELEVKA.TOFIK.QUEST.FIGHT2.BEGIN"
+      }, 
+      "54b45d38-928a-424b-a30b-59701dec12b5" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-102015", 
+            "y" : "-99452"
+         }, 
+         "child" : [ 
+            "76c18b66-657f-4a9e-abcc-c6336a5cabbd"
+         ], 
+         "quest_key" : "FOGELEVKA.TOFIK.QUEST.DECAPITATION.BEGIN"
+      }, 
+      "76c18b66-657f-4a9e-abcc-c6336a5cabbd" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-102026", 
+            "y" : "-99399"
+         }, 
+         "child" : [ 
+            "b3540233-acd9-4a63-a111-8d3687b1f0f0"
+         ], 
+         "quest_key" : "FOGELEVKA.TOFIK.QUEST.DECAPITATION.END.GOOD"
+      }, 
+      "b3540233-acd9-4a63-a111-8d3687b1f0f0" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-102023", 
+            "y" : "-99344"
+         }, 
+         "child" : [ 
+            "dcc79eb4-ed41-4138-9e9d-6d47c9617282", 
+            "bfe42657-c393-46e3-b79e-238017349a99"
+         ], 
+         "quest_key" : "FOGELEVKA.TOFIK.QUEST.DECAPITATION.END.BAD"
+      }, 
+      "dcc79eb4-ed41-4138-9e9d-6d47c9617282" : { 
+         "class" : "AreAllAroundDeadNode", 
+         "desc" : { 
+            "x" : "-102033", 
+            "y" : "-99267"
+         }, 
+         "child" : [ 
+            "2b76758e-1b4c-4cbb-8472-66f545c9cfd0", 
+            "3687b51a-fd67-4031-866b-bc5f6e7f57f0"
+         ], 
+         "filterFractionName" : "fogelevka"
+      }, 
+      "2b76758e-1b4c-4cbb-8472-66f545c9cfd0" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101817", 
+            "y" : "-99149"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "bfe42657-c393-46e3-b79e-238017349a99" : { 
+         "class" : "NotebookRemoveNoteNode", 
+         "desc" : { 
+            "x" : "-101888", 
+            "y" : "-99290"
+         }, 
+         "child" : [ 
+            "4b9e1ab7-d964-4689-b6a2-9e59c7e4c03d"
+         ], 
+         "note_key" : "ZOLOTOY_ENCOUNTER"
+      }, 
+      "4b9e1ab7-d964-4689-b6a2-9e59c7e4c03d" : { 
+         "class" : "QuestStatusNode", 
+         "desc" : { 
+            "x" : "-101893", 
+            "y" : "-99236"
+         }, 
+         "child" : [ 
+            "bb18bc53-4581-4281-92f0-9b25fbbab5ed", 
+            "c9296c90-edf2-4e94-91f0-3697dcda23a6", 
+            "2b76758e-1b4c-4cbb-8472-66f545c9cfd0"
+         ], 
+         "quest_key" : "CITYSUB.QUEST.TOFIK"
+      }, 
+      "bb18bc53-4581-4281-92f0-9b25fbbab5ed" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-101998", 
+            "y" : "-99147"
+         }, 
+         "child" : [ 
+            "b24b075b-776a-4978-8e43-948e25a2cbf6"
+         ], 
+         "quest_key" : "CITYSUB.QUEST.TOFIK"
+      }, 
+      "b24b075b-776a-4978-8e43-948e25a2cbf6" : { 
+         "class" : "QuestBeginNode", 
+         "desc" : { 
+            "x" : "-102016", 
+            "y" : "-99092"
+         }, 
+         "child" : [ 
+         ], 
+         "quest_key" : "CITYSUB.QUEST.TOFIK.DIED"
+      }, 
+      "c9296c90-edf2-4e94-91f0-3697dcda23a6" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101816", 
+            "y" : "-99110"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "de2d07f3-fc89-48ab-b2cb-a6a4d8fedca7" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101761", 
+            "y" : "-99922"
+         }, 
+         "child" : [ 
+            "d943ba1f-3366-45a2-9528-683d41736560", 
+            "447bbf0c-be66-4011-9bf5-3ceb7de47580"
+         ], 
+         "key" : "HOOK_WAS_SUMMONED"
+      }, 
+      "d943ba1f-3366-45a2-9528-683d41736560" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101687", 
+            "y" : "-99604"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Fogelevka_Hook", 
+         "active" : "false"
+      }, 
+      "447bbf0c-be66-4011-9bf5-3ceb7de47580" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101489", 
+            "y" : "-99578"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "4ea73771-244e-4a3e-b963-b514b69121b4" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-101657", 
+            "y" : "-99243"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "SWTTCH_OFF_TOFIK"
+      }, 
+      "f1dcac57-f78d-4cd8-97a7-78e6121db65b" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-101892", 
+            "y" : "-99854"
+         }, 
+         "child" : [ 
+            "bf96fac2-30ef-4b83-a18b-0eae7936d6c1", 
+            "4becefe8-3c7d-4b86-88e5-1f7b5b9e7fd3"
+         ], 
+         "objectName" : "Fogelevka_Tofik"
+      }, 
+      "bf96fac2-30ef-4b83-a18b-0eae7936d6c1" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-101948", 
+            "y" : "-99744"
+         }, 
+         "child" : [ 
+            "3dc2d8d2-288a-4c7d-8865-7512c47c5b8c"
+         ], 
+         "note_key" : "FOGELEVKA_TOFIK_DEAD"
+      }, 
+      "4becefe8-3c7d-4b86-88e5-1f7b5b9e7fd3" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101837", 
+            "y" : "-99780"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "ce041a5c-e2cd-4f0d-b49e-18aa73ca3e85" : { 
+         "class" : "QuestStatusNode", 
+         "desc" : { 
+            "x" : "-101620", 
+            "y" : "-99446"
+         }, 
+         "child" : [ 
+            "4ea73771-244e-4a3e-b963-b514b69121b4", 
+            "0c4ff4fc-6634-48e1-9798-feb07bf0d6c0", 
+            "a035544b-3857-48d4-8adf-913241e7bf37"
+         ], 
+         "quest_key" : "FOGELEVKA.TOFIK.QUEST.FIGHT2.BEGIN"
+      }, 
+      "0c4ff4fc-6634-48e1-9798-feb07bf0d6c0" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101546", 
+            "y" : "-99311"
+         }, 
+         "child" : [ 
+            "4ea73771-244e-4a3e-b963-b514b69121b4"
+         ]
+      }, 
+      "a035544b-3857-48d4-8adf-913241e7bf37" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101482", 
+            "y" : "-99352"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "013fd850-4136-4227-bed5-e029fd56cfb2" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101558", 
+            "y" : "-99992", 
+            "comment" : "UNKLE HOOK"
+         }, 
+         "child" : [ 
+            "4d2a950a-b089-4127-ad4a-4ef9c7fdcf52", 
+            "447bbf0c-be66-4011-9bf5-3ceb7de47580"
+         ], 
+         "key" : "HOOK_WAS_SUMMONED"
+      }, 
+      "4d2a950a-b089-4127-ad4a-4ef9c7fdcf52" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-101590", 
+            "y" : "-99920"
+         }, 
+         "child" : [ 
+            "d943ba1f-3366-45a2-9528-683d41736560", 
+            "ae49dc25-a10c-497c-b1ad-66b84a0c5b64"
+         ], 
+         "note_key" : "FOGELEVKA_TOFIK_OFFENCE"
+      }, 
+      "ae49dc25-a10c-497c-b1ad-66b84a0c5b64" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-101538", 
+            "y" : "-99844"
+         }, 
+         "child" : [ 
+            "cefcd666-ccfd-47c5-bb91-70660adb0df0", 
+            "447bbf0c-be66-4011-9bf5-3ceb7de47580"
+         ], 
+         "objectName" : "Fogelevka_Hook"
+      }, 
+      "cefcd666-ccfd-47c5-bb91-70660adb0df0" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-101587", 
+            "y" : "-99764"
+         }, 
+         "child" : [ 
+            "618b8b3d-a8b0-4464-9ada-bf571a6e56c5"
+         ], 
+         "note_key" : "FOGELEVKA_HOOK_DEAD"
+      }, 
+      "618b8b3d-a8b0-4464-9ada-bf571a6e56c5" : { 
+         "class" : "AreAllAroundDeadNode", 
+         "desc" : { 
+            "x" : "-101604", 
+            "y" : "-99696"
+         }, 
+         "child" : [ 
+            "447bbf0c-be66-4011-9bf5-3ceb7de47580", 
+            "d943ba1f-3366-45a2-9528-683d41736560"
+         ], 
+         "filterFractionName" : "fogelevka"
+      }, 
+      "b33e8053-a235-461a-916b-322041730dc0" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-101601", 
+            "y" : "-100354"
+         }, 
+         "child" : [ 
+            "771c01a2-8852-41ae-a640-700e8a97140a", 
+            "404bd872-6475-4754-982b-7e53bd42225f"
+         ], 
+         "objectName" : "Kostya"
+      }, 
+      "771c01a2-8852-41ae-a640-700e8a97140a" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-101630", 
+            "y" : "-100229"
+         }, 
+         "child" : [ 
+            "dd1b6a5e-2d71-420f-906e-3434147e84f2"
+         ], 
+         "quest_key" : "GASSTATION_1.HEAD"
+      }, 
+      "dd1b6a5e-2d71-420f-906e-3434147e84f2" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-101647", 
+            "y" : "-100171"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "FOGELEVKA_KOSTYA_DEAD"
+      }, 
+      "404bd872-6475-4754-982b-7e53bd42225f" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101463", 
+            "y" : "-100193"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "d4863d51-4686-47a7-8fed-f148323cc83b" : { 
+         "class" : "ObjectCheckNode", 
+         "desc" : { 
+            "x" : "-101457", 
+            "y" : "-100465"
+         }, 
+         "child" : [ 
+            "0503a454-4946-4825-ab28-7529a6375d21", 
+            "404bd872-6475-4754-982b-7e53bd42225f"
+         ], 
+         "objectName" : "Fogelevka_Dana"
+      }, 
+      "0503a454-4946-4825-ab28-7529a6375d21" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-101463", 
+            "y" : "-100357"
+         }, 
+         "child" : [ 
+            "404bd872-6475-4754-982b-7e53bd42225f", 
+            "9047e5f4-5625-4a32-a0d7-d91f00f185bf"
+         ], 
+         "objectName" : "Fogelevka_Dana"
+      }, 
+      "9047e5f4-5625-4a32-a0d7-d91f00f185bf" : { 
+         "class" : "DayNightNode", 
+         "desc" : { 
+            "x" : "-101367", 
+            "y" : "-100263"
+         }, 
+         "child" : [ 
+            "404bd872-6475-4754-982b-7e53bd42225f", 
+            "4a15d5bb-7a62-4c37-b000-6f368a18cc52"
+         ]
+      }, 
+      "4a15d5bb-7a62-4c37-b000-6f368a18cc52" : { 
+         "class" : "CharacterInOutNode", 
+         "desc" : { 
+            "x" : "-101324", 
+            "y" : "-100196"
+         }, 
+         "child" : [ 
+            "4175ac5e-31ee-4382-9f34-56081eb1be7b"
+         ], 
+         "objectName" : "Fogelevka_Dana", 
+         "active" : "true", 
+         "effectDuration" : "1.5"
+      }, 
+      "4175ac5e-31ee-4382-9f34-56081eb1be7b" : { 
+         "class" : "CharacterNeedUpdateNode", 
+         "desc" : { 
+            "x" : "-101354", 
+            "y" : "-100121"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Fogelevka_Dana", 
+         "stopState" : "true"
+      }, 
+      "2882e6d8-1f81-42b8-822f-7ae96c2b0514" : { 
+         "class" : "SetWorldMapIDNode", 
+         "desc" : { 
+            "x" : "-101222", 
+            "y" : "-100494"
+         }, 
+         "child" : [ 
+            "4ba4f48c-394e-44bc-af32-956f10d2dfaa"
+         ], 
+         "worldmapID" : ""
+      }, 
+      "4ba4f48c-394e-44bc-af32-956f10d2dfaa" : { 
+         "class" : "PlayerSetWorldPosNode", 
+         "desc" : { 
+            "x" : "-101230", 
+            "y" : "-100435"
+         }, 
+         "child" : [ 
+         ], 
+         "px" : "43", 
+         "py" : "26"
+      }, 
+      "553679da-4741-4934-badb-ddb6c4bc9330" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-100845", 
+            "y" : "-100452", 
+            "comment" : "Законник"
+         }, 
+         "child" : [ 
+            "bed64eb0-75ec-41c4-b02e-e389562f96fa", 
+            "b99a48b4-4e36-48a9-a66f-9f7a56df2f56"
+         ], 
+         "note_key" : "LOSTZIL_RIHARD_DEAD"
+      }, 
+      "bed64eb0-75ec-41c4-b02e-e389562f96fa" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-100828", 
+            "y" : "-100223"
+         }, 
+         "child" : [ 
+            "3a469fa8-24a8-4f22-8bf9-9af61563dc51", 
+            "a96b0560-ac6c-4d65-a8bd-acff2ce2dd76"
+         ], 
+         "objectName" : "SMan"
+      }, 
+      "3a469fa8-24a8-4f22-8bf9-9af61563dc51" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100896", 
+            "y" : "-100112"
+         }, 
+         "child" : [ 
+            "4b9e54e7-ff6a-4fd4-b638-9d2a2c3d41c6"
+         ]
+      }, 
+      "4b9e54e7-ff6a-4fd4-b638-9d2a2c3d41c6" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-100871", 
+            "y" : "-100025"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "FOGELEVKA_ZAKONNIK_FAIL"
+      }, 
+      "a96b0560-ac6c-4d65-a8bd-acff2ce2dd76" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100782", 
+            "y" : "-100127"
+         }, 
+         "child" : [ 
+            "4b9e54e7-ff6a-4fd4-b638-9d2a2c3d41c6"
+         ], 
+         "objectName" : "SMan", 
+         "active" : "false"
+      }, 
+      "b99a48b4-4e36-48a9-a66f-9f7a56df2f56" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-100827", 
+            "y" : "-100379"
+         }, 
+         "child" : [ 
+            "bed64eb0-75ec-41c4-b02e-e389562f96fa", 
+            "05426f77-1434-4f87-80ac-52d74a942325"
+         ], 
+         "note_key" : "HARBOR_KALINDRA_DEAD"
+      }, 
+      "05426f77-1434-4f87-80ac-52d74a942325" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-100790", 
+            "y" : "-100305"
+         }, 
+         "child" : [ 
+            "bed64eb0-75ec-41c4-b02e-e389562f96fa", 
+            "373d02a5-061c-42d8-8d83-2c7014674128"
+         ], 
+         "note_key" : "CASTLE_MATVEY_DEAD"
+      }, 
+      "373d02a5-061c-42d8-8d83-2c7014674128" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100703", 
+            "y" : "-100217"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "bc2b7d83-8491-45b0-838d-e342f4429f9b" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-101060", 
+            "y" : "-100437"
+         }, 
+         "child" : [ 
+            "f5919a73-afc3-4186-a990-372945573c58", 
+            "dcdca1f3-e1c3-4c42-8be3-2d2e15df4e7a"
+         ], 
+         "note_key" : "KOSTYA_RIP"
+      }, 
+      "f5919a73-afc3-4186-a990-372945573c58" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101131", 
+            "y" : "-100321"
+         }, 
+         "child" : [ 
+            "4d993cc3-1f04-46b4-9bf5-8a6cecd85848"
+         ], 
+         "objectName" : "KostyaXamON", 
+         "active" : "false"
+      }, 
+      "4d993cc3-1f04-46b4-9bf5-8a6cecd85848" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101135", 
+            "y" : "-100248"
+         }, 
+         "child" : [ 
+            "c626e29b-1519-4fcc-9be4-20ae696689a4"
+         ], 
+         "objectName" : "KostyaXamOFF", 
+         "active" : "true"
+      }, 
+      "c626e29b-1519-4fcc-9be4-20ae696689a4" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101131", 
+            "y" : "-100173"
+         }, 
+         "child" : [ 
+            "cda54cf9-be4a-441c-9e02-2224894543e0"
+         ], 
+         "objectName" : "Kostya", 
+         "active" : "false"
+      }, 
+      "cda54cf9-be4a-441c-9e02-2224894543e0" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101132", 
+            "y" : "-100096"
+         }, 
+         "child" : [ 
+            "5945ce19-1c3c-403b-aacb-2b9e9dfd5b04"
+         ], 
+         "objectName" : "Kostya_Grave", 
+         "active" : "true"
+      }, 
+      "5945ce19-1c3c-403b-aacb-2b9e9dfd5b04" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101137", 
+            "y" : "-100019"
+         }, 
+         "child" : [ 
+            "263c5350-920f-49dc-9dee-1fb1b9632508", 
+            "56b8bf52-2e58-4267-bb61-7bd77baf7cae"
+         ], 
+         "key" : "DAUGHTER_WIFE"
+      }, 
+      "263c5350-920f-49dc-9dee-1fb1b9632508" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101194", 
+            "y" : "-99916"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "56b8bf52-2e58-4267-bb61-7bd77baf7cae" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-101072", 
+            "y" : "-99920"
+         }, 
+         "child" : [ 
+            "c41bddcf-be92-4aa9-a8ef-df169ff5f22d"
+         ], 
+         "key" : "DAUGHTER_WIFE"
+      }, 
+      "c41bddcf-be92-4aa9-a8ef-df169ff5f22d" : { 
+         "class" : "ResetCharacterNode", 
+         "desc" : { 
+            "x" : "-101081", 
+            "y" : "-99861"
+         }, 
+         "child" : [ 
+            "a14a8803-6770-4e14-9af2-9b7378080b8c"
+         ], 
+         "objectName" : "Daughter", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseFemale7", 
+            "character" : "Fogelevka_Daughter", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "fogelevka", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "cap" : { 
+               "class" : "Uniform", 
+               "skin" : "NoSkin", 
+               "count" : "1", 
+               "proto" : "KosinkaBig"
+            }, 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "Unique1", 
+            "beard" : "Shaved", 
+            "hair" : "Girl_PonyTail", 
+            "hairColor" : "Brown", 
+            "behavior" : "ASim.Crowd_v2"
+         }
+      }, 
+      "a14a8803-6770-4e14-9af2-9b7378080b8c" : { 
+         "class" : "ResetCharacterNode", 
+         "desc" : { 
+            "x" : "-101066", 
+            "y" : "-99768"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Wife", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseFemale2", 
+            "character" : "Fogelevka_Wife", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "fogelevka", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "cap" : { 
+               "class" : "Uniform", 
+               "skin" : "NoSkin", 
+               "count" : "1", 
+               "proto" : "KosinkaBig"
+            }, 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "Unique1", 
+            "beard" : "Shaved", 
+            "hair" : "Girl_HighBangs", 
+            "hairColor" : "Dark", 
+            "behavior" : "ASim.Crowd_v2"
+         }
+      }, 
+      "dcdca1f3-e1c3-4c42-8be3-2d2e15df4e7a" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100965", 
+            "y" : "-100311"
+         }, 
+         "child" : [ 
+            "c761b5fb-6c28-49e9-a3a9-8691291c184f"
+         ], 
+         "objectName" : "KostyaXamON", 
+         "active" : "true"
+      }, 
+      "c761b5fb-6c28-49e9-a3a9-8691291c184f" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100969", 
+            "y" : "-100223"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "KostyaXamOFF", 
+         "active" : "false"
+      }, 
+      "43ce25a8-696b-48e8-9042-3574b85bf38b" : { 
+         "class" : "FractionIsEnemyRelationshipNode", 
+         "desc" : { 
+            "x" : "-100560", 
+            "y" : "-100454"
+         }, 
+         "child" : [ 
+            "f6e535de-a9a7-4429-a04e-7422e973132a", 
+            "2b7ec734-1746-4d1e-a7a0-fe3f81639496"
+         ], 
+         "fractionA" : "player", 
+         "fractionB" : "fogelevka"
+      }, 
+      "f6e535de-a9a7-4429-a04e-7422e973132a" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100588", 
+            "y" : "-100359"
+         }, 
+         "child" : [ 
+            "74c83465-20d9-4153-98ff-f97864ee00f8"
+         ]
+      }, 
+      "74c83465-20d9-4153-98ff-f97864ee00f8" : { 
+         "class" : "FractionSetRelationshipNode", 
+         "desc" : { 
+            "x" : "-100611", 
+            "y" : "-100316"
+         }, 
+         "child" : [ 
+         ], 
+         "fraction" : "tofik", 
+         "value" : "0"
+      }, 
+      "2b7ec734-1746-4d1e-a7a0-fe3f81639496" : { 
+         "class" : "DayNightNode", 
+         "desc" : { 
+            "x" : "-100444", 
+            "y" : "-100316"
+         }, 
+         "child" : [ 
+            "55ffe586-b725-44f8-b67e-ddfdc1fd9148", 
+            "7e272942-084e-4b55-9c55-e09bc8e13f77"
+         ]
+      }, 
+      "55ffe586-b725-44f8-b67e-ddfdc1fd9148" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-100490", 
+            "y" : "-100231"
+         }, 
+         "child" : [ 
+            "7189400f-195f-4424-822f-e584aff9f5fd"
+         ], 
+         "objectName" : "Hunter", 
+         "active" : "true"
+      }, 
+      "7189400f-195f-4424-822f-e584aff9f5fd" : { 
+         "class" : "CharacterNeedUpdateNode", 
+         "desc" : { 
+            "x" : "-100529", 
+            "y" : "-100158"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Hunter", 
+         "stopState" : "true"
+      }, 
+      "7e272942-084e-4b55-9c55-e09bc8e13f77" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100371", 
+            "y" : "-100228"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "d3d4cdb1-266d-477d-816c-0e8bdcfade9f" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100130", 
+            "y" : "-100455"
+         }, 
+         "child" : [ 
+            "7993a730-c75b-4a98-b344-2a2e2143460f", 
+            "122ecd4d-d66e-4d1b-a913-96cdfbb3522b"
+         ], 
+         "key" : "TRASH_UP"
+      }, 
+      "7993a730-c75b-4a98-b344-2a2e2143460f" : { 
+         "class" : "TimeDateTriggerNode", 
+         "desc" : { 
+            "x" : "-100236", 
+            "y" : "-100349"
+         }, 
+         "child" : [ 
+            "122ecd4d-d66e-4d1b-a913-96cdfbb3522b"
+         ], 
+         "time" : "24", 
+         "mode" : "Hour", 
+         "offsetValue" : "TRASH_UP"
+      }, 
+      "122ecd4d-d66e-4d1b-a913-96cdfbb3522b" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-100122", 
+            "y" : "-100225"
+         }, 
+         "child" : [ 
+            "ff40775e-0f0e-4093-b950-84592d6a0c37", 
+            "3dbe3d78-01c8-4159-b38d-e22e7d9a8040", 
+            "23e96f6c-3125-41f5-a1c9-3cf4cca7c9c2", 
+            "ce8b9cac-b53c-4e1f-a3df-3e1d2c4ecc19"
+         ], 
+         "key" : "TRASH_UP", 
+         "value" : "$TIME$"
+      }, 
+      "ff40775e-0f0e-4093-b950-84592d6a0c37" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-100310", 
+            "y" : "-100128"
+         }, 
+         "child" : [ 
+            "5bc4797e-c5a2-45be-9eec-210376bb5d0e"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "Trashcon_1 (1)"
+      }, 
+      "5bc4797e-c5a2-45be-9eec-210376bb5d0e" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-100147", 
+            "y" : "-99808"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/TrashLoot_1"
+      }, 
+      "3dbe3d78-01c8-4159-b38d-e22e7d9a8040" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-100267", 
+            "y" : "-100033"
+         }, 
+         "child" : [ 
+            "5bc4797e-c5a2-45be-9eec-210376bb5d0e"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "Trashcon_2"
+      }, 
+      "23e96f6c-3125-41f5-a1c9-3cf4cca7c9c2" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-100048", 
+            "y" : "-100032"
+         }, 
+         "child" : [ 
+            "5bc4797e-c5a2-45be-9eec-210376bb5d0e"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "Trashcon_1"
+      }, 
+      "ce8b9cac-b53c-4e1f-a3df-3e1d2c4ecc19" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-100014", 
+            "y" : "-100122"
+         }, 
+         "child" : [ 
+            "5bc4797e-c5a2-45be-9eec-210376bb5d0e"
+         ], 
+         "key" : "SPAWN_GENERATOR", 
+         "value" : "Trashcon_2 (1)"
+      }, 
+      "a27c76a5-31db-4f5f-9fc3-081a8fb61782" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-99454", 
+            "y" : "-100742"
+         }, 
+         "child" : [ 
+            "7d7ee67d-d5a9-44f6-83c0-ffaa2c004c4c", 
+            "a604ac1a-72f0-4b4c-8afa-ce3d573df80b"
+         ], 
+         "key" : "SWTTCH_OFF_TOFIK"
+      }, 
+      "7d7ee67d-d5a9-44f6-83c0-ffaa2c004c4c" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99491", 
+            "y" : "-100661"
+         }, 
+         "child" : [ 
+            "d26d003c-36e0-4eab-a28f-8ebea594ad7d", 
+            "45bc86d7-0e4a-419d-ba4d-b01866268e37"
+         ]
+      }, 
+      "d26d003c-36e0-4eab-a28f-8ebea594ad7d" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-99850", 
+            "y" : "-100573"
+         }, 
+         "child" : [ 
+            "14e997f6-b513-461c-ae59-c4f17a99924f", 
+            "5c716081-1edf-432c-acf6-f1f95aead61c"
+         ], 
+         "note_key" : "FOGELEVKA_TOFIK_DEAD"
+      }, 
+      "14e997f6-b513-461c-ae59-c4f17a99924f" : { 
+         "class" : "AreAllAroundDeadNode", 
+         "desc" : { 
+            "x" : "-99752", 
+            "y" : "-100475"
+         }, 
+         "child" : [ 
+            "555d68b7-40b2-4a30-bdd2-ecb9c1cc19f4", 
+            "5c716081-1edf-432c-acf6-f1f95aead61c"
+         ], 
+         "filterFractionName" : "fogelevka"
+      }, 
+      "555d68b7-40b2-4a30-bdd2-ecb9c1cc19f4" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99786", 
+            "y" : "-100363"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "5c716081-1edf-432c-acf6-f1f95aead61c" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-99923", 
+            "y" : "-100375"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Fogelevka_Tofik", 
+         "active" : "false"
+      }, 
+      "45bc86d7-0e4a-419d-ba4d-b01866268e37" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-99677", 
+            "y" : "-100571"
+         }, 
+         "child" : [ 
+            "7757b728-43e2-4864-a8ae-2d493fdbc692", 
+            "5daa30d1-2ec4-4942-932d-851aa81fd6ce"
+         ], 
+         "note_key" : "FOGELEVKA_HOOK_DEAD"
+      }, 
+      "7757b728-43e2-4864-a8ae-2d493fdbc692" : { 
+         "class" : "AreAllAroundDeadNode", 
+         "desc" : { 
+            "x" : "-99557", 
+            "y" : "-100476"
+         }, 
+         "child" : [ 
+            "6d2880ea-d39d-4035-ac22-8572319774a1", 
+            "5daa30d1-2ec4-4942-932d-851aa81fd6ce"
+         ], 
+         "filterFractionName" : "fogelevka"
+      }, 
+      "6d2880ea-d39d-4035-ac22-8572319774a1" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99526", 
+            "y" : "-100368"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "5daa30d1-2ec4-4942-932d-851aa81fd6ce" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-99670", 
+            "y" : "-100375"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Fogelevka_Hook", 
+         "active" : "false"
+      }, 
+      "a604ac1a-72f0-4b4c-8afa-ce3d573df80b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99159", 
+            "y" : "-100405", 
+            "comment" : "TOFFIK"
+         }, 
+         "child" : [ 
+            "bc3c12a2-4c0a-4608-a1a0-b8b9c9c250be", 
+            "7466d3c0-eacf-41ce-a0d0-374db00c44e4", 
+            "70832de6-7138-470a-9de7-dd1072df35a7", 
+            "016df6eb-636c-4b51-a7e4-9e6ccc239ab0", 
+            "088b98de-8162-46c3-a715-0da357ced857"
+         ]
+      }, 
+      "bc3c12a2-4c0a-4608-a1a0-b8b9c9c250be" : { 
+         "class" : "OnCharacterWantBattleEventNode", 
+         "desc" : { 
+            "x" : "-99722", 
+            "y" : "-100217"
+         }, 
+         "child" : [ 
+            "da81e30d-59c1-4047-8edf-af7a78412b50"
+         ], 
+         "filterMode" : "Victim", 
+         "victimName" : "", 
+         "victimFractionName" : "fogelevka", 
+         "victimPrototypeName" : ""
+      }, 
+      "da81e30d-59c1-4047-8edf-af7a78412b50" : { 
+         "class" : "FractionSetRelationshipNode", 
+         "desc" : { 
+            "x" : "-99706", 
+            "y" : "-100125"
+         }, 
+         "child" : [ 
+         ], 
+         "fraction" : "tofik", 
+         "value" : "0"
+      }, 
+      "7466d3c0-eacf-41ce-a0d0-374db00c44e4" : { 
+         "class" : "OnCharacterWantBattleEventNode", 
+         "desc" : { 
+            "x" : "-99514", 
+            "y" : "-100221"
+         }, 
+         "child" : [ 
+            "a6a214a1-8624-43d4-8fc6-9bf465b9cfbe"
+         ], 
+         "filterMode" : "Victim", 
+         "victimName" : "", 
+         "victimFractionName" : "tofik", 
+         "victimPrototypeName" : ""
+      }, 
+      "a6a214a1-8624-43d4-8fc6-9bf465b9cfbe" : { 
+         "class" : "CharacterIsInStateNode", 
+         "desc" : { 
+            "x" : "-99504", 
+            "y" : "-100133", 
+            "comment" : "жители не агрятся"
+         }, 
+         "child" : [ 
+            "c6dd07c7-3639-4592-87a6-b98a1263a2ce", 
+            "4184505b-4a97-4bf7-b202-001d3fd3cb2b"
+         ], 
+         "objectName" : "Fogelevka_Tofik", 
+         "stateName" : "STAY_ON_TOCHKA"
+      }, 
+      "c6dd07c7-3639-4592-87a6-b98a1263a2ce" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99504", 
+            "y" : "-100033"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "4184505b-4a97-4bf7-b202-001d3fd3cb2b" : { 
+         "class" : "FractionSetRelationshipNode", 
+         "desc" : { 
+            "x" : "-99470", 
+            "y" : "-99995"
+         }, 
+         "child" : [ 
+         ], 
+         "fraction" : "fogelevka", 
+         "value" : "0"
+      }, 
+      "70832de6-7138-470a-9de7-dd1072df35a7" : { 
+         "class" : "QuestStatusNode", 
+         "desc" : { 
+            "x" : "-99266", 
+            "y" : "-100239"
+         }, 
+         "child" : [ 
+            "e9116e89-8b11-4f7f-9309-c44ce64ff19e", 
+            "fd7f431f-9d14-489d-a97c-f8964f47b1b0", 
+            "1fc59bfb-3c95-4ece-8e1c-9157a2136dc5"
+         ], 
+         "quest_key" : "CITYSUB.QUEST.TOFIK"
+      }, 
+      "e9116e89-8b11-4f7f-9309-c44ce64ff19e" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-99306", 
+            "y" : "-100083"
+         }, 
+         "child" : [ 
+            "415a5212-8138-4ef6-877e-c5ee74f4caf1", 
+            "afbcff5d-e58c-46b8-8913-59fee8bd2cce"
+         ], 
+         "key" : "TOFIK_WAS_SUMMONED"
+      }, 
+      "415a5212-8138-4ef6-877e-c5ee74f4caf1" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99304", 
+            "y" : "-99855"
+         }, 
+         "child" : [ 
+            "b62e654d-81cb-4ded-805e-2fec6d2dd2c0"
+         ]
+      }, 
+      "b62e654d-81cb-4ded-805e-2fec6d2dd2c0" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-99340", 
+            "y" : "-99819"
+         }, 
+         "child" : [ 
+            "f43bd1eb-a058-4dee-83d1-835afa5f87b8", 
+            "8bea7dba-2c21-4bdd-bce3-674911134059"
+         ], 
+         "key" : "DONT_CHECK_SIMON_DEAD"
+      }, 
+      "f43bd1eb-a058-4dee-83d1-835afa5f87b8" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99368", 
+            "y" : "-99665"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "8bea7dba-2c21-4bdd-bce3-674911134059" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-99276", 
+            "y" : "-99747"
+         }, 
+         "child" : [ 
+            "c6fa7cb8-a99f-4927-8c9b-6f2c652c56bc", 
+            "f43bd1eb-a058-4dee-83d1-835afa5f87b8"
+         ], 
+         "note_key" : "CITYSUB_SIMON_DEAD"
+      }, 
+      "c6fa7cb8-a99f-4927-8c9b-6f2c652c56bc" : { 
+         "class" : "QuestStatusNode", 
+         "desc" : { 
+            "x" : "-99338", 
+            "y" : "-99629"
+         }, 
+         "child" : [ 
+            "9fdcb707-e797-4b6e-97f4-1c8e2cfa4de0", 
+            "aa829ae8-ce9d-42ac-aec2-a77b532a2306", 
+            "af74ca9f-6417-4ed4-a0d3-2741f10bf0e0"
+         ], 
+         "quest_key" : "FOGELEVKA.TOFIK.QUEST.ZOLOTOY"
+      }, 
+      "9fdcb707-e797-4b6e-97f4-1c8e2cfa4de0" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99374", 
+            "y" : "-99531"
+         }, 
+         "child" : [ 
+            "99e5642c-6e02-4a36-a22b-35a87b43f908"
+         ]
+      }, 
+      "99e5642c-6e02-4a36-a22b-35a87b43f908" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-99354", 
+            "y" : "-99441"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "DONT_CHECK_SIMON_DEAD"
+      }, 
+      "aa829ae8-ce9d-42ac-aec2-a77b532a2306" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99318", 
+            "y" : "-99499"
+         }, 
+         "child" : [ 
+            "99e5642c-6e02-4a36-a22b-35a87b43f908"
+         ]
+      }, 
+      "af74ca9f-6417-4ed4-a0d3-2741f10bf0e0" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-99202", 
+            "y" : "-99531"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Fogelevka_Tofik", 
+         "active" : "false"
+      }, 
+      "afbcff5d-e58c-46b8-8913-59fee8bd2cce" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-99240", 
+            "y" : "-100003"
+         }, 
+         "child" : [ 
+            "199a95a7-a716-497d-8c3a-00fe8156acb2"
+         ], 
+         "key" : "TOFIK_WAS_SUMMONED"
+      }, 
+      "199a95a7-a716-497d-8c3a-00fe8156acb2" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-99218", 
+            "y" : "-99951", 
+            "comment" : "продаёт Косяки, ФЕН, Супер-ФЕН, Травку, Каспарамид, Мухоморы и Тарен"
+         }, 
+         "child" : [ 
+            "415a5212-8138-4ef6-877e-c5ee74f4caf1"
+         ], 
+         "spawnPoint" : "Fogelevka_Tofik", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale20", 
+            "character" : "Fogelevka_Tofik", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "tofik", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+               { 
+                  "class" : "Consumable", 
+                  "count" : "5", 
+                  "proto" : "Ganja_Ciggy"
+               }, 
+               { 
+                  "class" : "Item", 
+                  "count" : "3", 
+                  "proto" : "Ganja"
+               }, 
+               { 
+                  "class" : "Consumable", 
+                  "count" : "2", 
+                  "proto" : "StimFEN1"
+               }, 
+               { 
+                  "class" : "Consumable", 
+                  "count" : "2", 
+                  "proto" : "StimFEN2"
+               }, 
+               { 
+                  "class" : "Consumable", 
+                  "count" : "3", 
+                  "proto" : "Kasparamid"
+               }, 
+               { 
+                  "class" : "Consumable", 
+                  "count" : "2", 
+                  "proto" : "Taren"
+               }, 
+               { 
+                  "class" : "Consumable", 
+                  "count" : "5", 
+                  "proto" : "AmanitaEat"
+               }
+            ], 
+            "mainItemIndex" : "0", 
+            "item2" : { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Nagant", 
+               "ammo" : { 
+                  "count" : "7", 
+                  "proto" : "307cal_JHP"
+               }
+            }, 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "Skin_2", 
+            "beard" : "Mustache", 
+            "hair" : "Businessman", 
+            "hairColor" : "DarkGray", 
+            "behavior" : "Fogelevka_Tofik"
+         }
+      }, 
+      "fd7f431f-9d14-489d-a97c-f8964f47b1b0" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99244", 
+            "y" : "-100165"
+         }, 
+         "child" : [ 
+            "e9116e89-8b11-4f7f-9309-c44ce64ff19e"
+         ]
+      }, 
+      "1fc59bfb-3c95-4ece-8e1c-9157a2136dc5" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99202", 
+            "y" : "-100135"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "016df6eb-636c-4b51-a7e4-9e6ccc239ab0" : { 
+         "class" : "QuestStatusNode", 
+         "desc" : { 
+            "x" : "-99060", 
+            "y" : "-100239"
+         }, 
+         "child" : [ 
+            "09e3cfff-25ae-41da-a8c0-db757237b089", 
+            "92b69a30-4c72-422b-8eff-560e2fe47522", 
+            "1f3cf25d-67ca-49a3-bba5-501a293497e6"
+         ], 
+         "quest_key" : "FOGELEVKA.TOFIK.QUEST.ZOLOTOY.DEAD"
+      }, 
+      "09e3cfff-25ae-41da-a8c0-db757237b089" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-99070", 
+            "y" : "-100087"
+         }, 
+         "child" : [ 
+            "3d6e2bb2-9ef2-492d-b89a-a53b552e1528", 
+            "e555a792-f059-4ff5-bf4d-1216f9b07565"
+         ], 
+         "key" : "HOOK_WAS_SUMMONED"
+      }, 
+      "3d6e2bb2-9ef2-492d-b89a-a53b552e1528" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99068", 
+            "y" : "-99843"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "e555a792-f059-4ff5-bf4d-1216f9b07565" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-98978", 
+            "y" : "-100001"
+         }, 
+         "child" : [ 
+            "0c765a40-5492-4f75-8677-f7dc2218e34f"
+         ], 
+         "key" : "HOOK_WAS_SUMMONED"
+      }, 
+      "0c765a40-5492-4f75-8677-f7dc2218e34f" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-98986", 
+            "y" : "-99949"
+         }, 
+         "child" : [ 
+            "3d6e2bb2-9ef2-492d-b89a-a53b552e1528"
+         ], 
+         "spawnPoint" : "Fogelevka_Hook", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale20", 
+            "character" : "Tunnel_2_Sub_Uncle_Hook", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "fogelevka", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+               { 
+                  "class" : "Item", 
+                  "count" : "100", 
+                  "proto" : "Money"
+               }
+            ], 
+            "mainItemIndex" : "0", 
+            "item2" : { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Glove_3"
+            }, 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "Skin_1", 
+            "beard" : "Shaved", 
+            "hair" : "Facon", 
+            "hairColor" : "Brown", 
+            "behavior" : "Fogelevka_Uncle_Hook"
+         }
+      }, 
+      "92b69a30-4c72-422b-8eff-560e2fe47522" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-98980", 
+            "y" : "-100165"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "1f3cf25d-67ca-49a3-bba5-501a293497e6" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-98918", 
+            "y" : "-100131"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "088b98de-8162-46c3-a715-0da357ced857" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-98610", 
+            "y" : "-100251"
+         }, 
+         "child" : [ 
+            "8b28bf8e-5f62-49fa-b8c1-eb2a245aa81e", 
+            "61ffe7d2-9967-4038-90db-417a8af8d61d"
+         ], 
+         "key" : "TOFIK_OUT_TIME"
+      }, 
+      "8b28bf8e-5f62-49fa-b8c1-eb2a245aa81e" : { 
+         "class" : "HasTimeDateComeNode", 
+         "desc" : { 
+            "x" : "-98744", 
+            "y" : "-100157"
+         }, 
+         "child" : [ 
+            "a03c1d5e-cce6-4230-9f0d-83537c07586d", 
+            "61ffe7d2-9967-4038-90db-417a8af8d61d"
+         ], 
+         "time" : "1", 
+         "mode" : "Day", 
+         "offsetValue" : "TOFIK_OUT_TIME"
+      }, 
+      "a03c1d5e-cce6-4230-9f0d-83537c07586d" : { 
+         "class" : "CharacterIsInStateNode", 
+         "desc" : { 
+            "x" : "-98756", 
+            "y" : "-100047"
+         }, 
+         "child" : [ 
+            "57295f1f-5714-40a1-bab1-1e54027f0419", 
+            "61ffe7d2-9967-4038-90db-417a8af8d61d"
+         ], 
+         "objectName" : "Fogelevka_Tofik", 
+         "stateName" : "OUT_1_DAY"
+      }, 
+      "57295f1f-5714-40a1-bab1-1e54027f0419" : { 
+         "class" : "CharacterSetStateNode", 
+         "desc" : { 
+            "x" : "-98782", 
+            "y" : "-99951"
+         }, 
+         "child" : [ 
+            "a7791389-db71-45d3-94fa-72141e10ee46"
+         ], 
+         "objectName" : "Fogelevka_Tofik", 
+         "stateName" : "MOVE_TO_BAR"
+      }, 
+      "a7791389-db71-45d3-94fa-72141e10ee46" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-98782", 
+            "y" : "-99881"
+         }, 
+         "child" : [ 
+            "cc86e91b-df9b-4fe7-b798-cf4a5ae83d5f"
+         ], 
+         "objectName" : "Fogelevka_Tofik", 
+         "active" : "true"
+      }, 
+      "cc86e91b-df9b-4fe7-b798-cf4a5ae83d5f" : { 
+         "class" : "CharacterNeedUpdateNode", 
+         "desc" : { 
+            "x" : "-98810", 
+            "y" : "-99809"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Fogelevka_Tofik", 
+         "stopState" : "true"
+      }, 
+      "61ffe7d2-9967-4038-90db-417a8af8d61d" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-98572", 
+            "y" : "-99937"
+         }, 
+         "child" : [ 
+         ]
+      }
+   }, 
+   "entry" : "10435e87-f027-4ce6-aad9-69ff1c74827b"
+}

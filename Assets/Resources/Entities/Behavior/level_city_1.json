@@ -2136,12 +2136,33 @@
             "y" : "-101134"
          }, 
          "child" : [ 
+            "b027dcd6-c036-423c-8196-9d2818b01338", 
+            "8cd66c55-bd1a-4f24-bfdd-47e3f5db1623", 
             "568d4bad-14c5-4d03-b5e4-f5c4300efe40", 
             "c1051324-4f28-4dda-8ecd-3954da4ca06d", 
             "951a73c0-7d69-40aa-9902-d8870034c35a", 
-            "a3cbec52-de18-4066-9bef-eb3fd9dd803d", 
-            "8cd66c55-bd1a-4f24-bfdd-47e3f5db1623"
+            "a3cbec52-de18-4066-9bef-eb3fd9dd803d"
          ]
+      }, 
+      "b027dcd6-c036-423c-8196-9d2818b01338" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-102790", 
+            "y" : "-101091"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/ph_trade_event"
+      }, 
+      "8cd66c55-bd1a-4f24-bfdd-47e3f5db1623" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-102731", 
+            "y" : "-101039"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/ph_trap_event"
       }, 
       "568d4bad-14c5-4d03-b5e4-f5c4300efe40" : { 
          "class" : "NotebookHasNoteNode", 
@@ -2471,16 +2492,6 @@
          ], 
          "objectName" : "Avraam_Door_Close", 
          "active" : "true"
-      }, 
-      "8cd66c55-bd1a-4f24-bfdd-47e3f5db1623" : { 
-         "class" : "PlayStateNode", 
-         "desc" : { 
-            "x" : "-102216", 
-            "y" : "-101091"
-         }, 
-         "child" : [ 
-         ], 
-         "script" : "Entities/Behavior/ph_trap_event"
       }, 
       "ceb1422b-c523-413f-a781-146284a0376a" : { 
          "class" : "HasKeywordNode", 

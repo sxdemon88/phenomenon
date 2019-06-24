@@ -17,15 +17,15 @@ MonoBehaviour:
   m_Localization: uniform.dog_backpack
   Takeable: 1
   Cost: 1000
-  Weight: 1500
+  Weight: 2100
   Collectable: 1
   Modifiers:
   - _type: 30
-    _value: 5
+    _value: 16
   - _type: 40
-    _value: 1
+    _value: 2
   - _type: 27
-    _value: 0
+    _value: -4
   - _type: 28
     _value: 30000
   UniformType: 1

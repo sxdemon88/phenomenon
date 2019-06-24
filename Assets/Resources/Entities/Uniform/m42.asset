@@ -28,7 +28,7 @@ MonoBehaviour:
     _value: 5
   UniformType: 0
   HideMask: -1
-  ArmorDurability: 550
+  ArmorDurability: 41
   rules: []
   rulesEx: 0
   Perks: 0

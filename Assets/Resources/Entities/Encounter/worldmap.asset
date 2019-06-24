@@ -95,7 +95,7 @@ MonoBehaviour:
       _overrideEncounterType: 
     _requirements: []
     _requirementsEx: []
-  - _chance: 10
+  - _chance: 20
     _type: Rats_2
     _period: 1
     _trigger: 
@@ -206,7 +206,7 @@ MonoBehaviour:
       _overrideEncounterType: 
     _requirements: []
     _requirementsEx: []
-  - _chance: 10
+  - _chance: 20
     _type: Spiders_2
     _period: 1
     _trigger: 
@@ -247,7 +247,7 @@ MonoBehaviour:
       _overrideEncounterType: 
     _requirements: []
     _requirementsEx: []
-  - _chance: 16
+  - _chance: 20
     _type: Monster
     _period: 1
     _trigger: 
@@ -288,7 +288,7 @@ MonoBehaviour:
       _overrideEncounterType: 
     _requirements: []
     _requirementsEx: []
-  - _chance: 33
+  - _chance: 40
     _type: Bandits
     _period: 1
     _trigger: 
@@ -558,7 +558,7 @@ MonoBehaviour:
       _overrideEncounterType: 
     _requirements: []
     _requirementsEx: []
-  - _chance: 20
+  - _chance: 25
     _type: Fanatics
     _period: 1
     _trigger: 
@@ -1027,7 +1027,7 @@ MonoBehaviour:
       _overrideEncounterType: 
     _requirements: []
     _requirementsEx: []
-  - _chance: 33
+  - _chance: 40
     _type: Caravan
     _period: 1
     _trigger: 
@@ -1055,7 +1055,7 @@ MonoBehaviour:
     chances: []
     _requirements: []
     _requirementsEx: []
-  - _chance: 5
+  - _chance: 10
     _type: Caravan_2
     _period: 1
     _trigger: 
@@ -1114,7 +1114,7 @@ MonoBehaviour:
       _overrideEncounterType: 
     _requirements: []
     _requirementsEx: []
-  - _chance: 33
+  - _chance: 40
     _type: Scavenger
     _period: 1
     _trigger: 
@@ -1142,7 +1142,7 @@ MonoBehaviour:
     chances: []
     _requirements: []
     _requirementsEx: []
-  - _chance: 15
+  - _chance: 25
     _type: Raid
     _period: 0
     _trigger: 
@@ -1364,7 +1364,7 @@ MonoBehaviour:
     - _type: 25
       _value: 35
     _requirementsEx: []
-  - _chance: 33
+  - _chance: 40
     _type: Traveler
     _period: 1
     _trigger: 
@@ -2034,7 +2034,7 @@ MonoBehaviour:
       _overrideEncounterType: 
     _requirements: []
     _requirementsEx: []
-  - _chance: 33
+  - _chance: 35
     _type: fight_1
     _period: 0
     _trigger: 
@@ -2062,7 +2062,7 @@ MonoBehaviour:
     chances: []
     _requirements: []
     _requirementsEx: []
-  - _chance: 33
+  - _chance: 35
     _type: fight_2
     _period: 0
     _trigger: 
@@ -2090,7 +2090,7 @@ MonoBehaviour:
     chances: []
     _requirements: []
     _requirementsEx: []
-  - _chance: 33
+  - _chance: 35
     _type: fight_3
     _period: 0
     _trigger: 
@@ -2118,7 +2118,7 @@ MonoBehaviour:
     chances: []
     _requirements: []
     _requirementsEx: []
-  - _chance: 33
+  - _chance: 35
     _type: fight_4
     _period: 0
     _trigger: 
@@ -2146,7 +2146,7 @@ MonoBehaviour:
     chances: []
     _requirements: []
     _requirementsEx: []
-  - _chance: 33
+  - _chance: 35
     _type: defence_1
     _period: 0
     _trigger: 
@@ -2174,7 +2174,7 @@ MonoBehaviour:
     chances: []
     _requirements: []
     _requirementsEx: []
-  - _chance: 33
+  - _chance: 35
     _type: fight_5
     _period: 0
     _trigger: 
@@ -2202,7 +2202,7 @@ MonoBehaviour:
     chances: []
     _requirements: []
     _requirementsEx: []
-  - _chance: 33
+  - _chance: 35
     _type: fight_6
     _period: 2
     _trigger: 
@@ -2230,7 +2230,7 @@ MonoBehaviour:
     chances: []
     _requirements: []
     _requirementsEx: []
-  - _chance: 33
+  - _chance: 35
     _type: defence_1
     _period: 0
     _trigger: 
@@ -2258,7 +2258,7 @@ MonoBehaviour:
     chances: []
     _requirements: []
     _requirementsEx: []
-  - _chance: 11
+  - _chance: 15
     _type: devourer
     _period: 2
     _trigger: 
@@ -2299,7 +2299,7 @@ MonoBehaviour:
       _overrideEncounterType: 
     _requirements: []
     _requirementsEx: []
-  - _chance: 11
+  - _chance: 15
     _type: deidont
     _period: 2
     _trigger: 
@@ -2340,7 +2340,7 @@ MonoBehaviour:
       _overrideEncounterType: 
     _requirements: []
     _requirementsEx: []
-  - _chance: 11
+  - _chance: 15
     _type: wolflider
     _period: 2
     _trigger: 
@@ -2422,12 +2422,12 @@ MonoBehaviour:
       _overrideEncounterType: 
     _requirements: []
     _requirementsEx: []
-  - _chance: 500
+  - _chance: 40
     _type: ph_caravan
     _period: 1
-    _trigger: 
+    _trigger: PH_TRADE_ON_1
     _triggerInvert: 0
-    _triggerReset: 0
+    _triggerReset: 1
     _canSkip: 1
     _canAttack: 1
     _once: 0
@@ -2444,28 +2444,41 @@ MonoBehaviour:
     chances: []
     _requirements: []
     _requirementsEx: []
-  - _chance: 50
+  - _chance: 30
     _type: mole
     _period: 2
     _trigger: 
     _triggerInvert: 0
     _triggerReset: 0
-    _canSkip: 1
+    _canSkip: 0
     _canAttack: 1
     _once: 0
     _icon: {fileID: 21300000, guid: bbb1c81dc879d4b44bc0fafe5a8baf94, type: 3}
     _desc: encounter.mole
-    _enter: encounter.meet_caravan
+    _enter: encounter.attack
     _showIntro: 0
     _levels:
     - Z_1_Cave
     - Z_1_Mine
-    chances: []
+    chances:
+    - _skill: 17
+      _skillModify: -40
+      _description: encounter.try_skip1
+      _success: encounter.success_skip1
+      _successButton: encounter.gotravel
+      _fail: encounter.fail_skip_ph
+      _failButton: encounter.gobattle
+      _invert: 0
+      _canAttack: 0
+      _condition:
+        _type: 0
+        _value: 0
+      _overrideEncounterType: 
     _requirements: []
     _requirementsEx: []
   - _chance: 40
     _type: defence_2
-    _period: 0
+    _period: 1
     _trigger: 
     _triggerInvert: 0
     _triggerReset: 0
@@ -2491,7 +2504,7 @@ MonoBehaviour:
     chances: []
     _requirements: []
     _requirementsEx: []
-  - _chance: 50
+  - _chance: 30
     _type: lacodon
     _period: 2
     _trigger: 
@@ -2502,7 +2515,7 @@ MonoBehaviour:
     _once: 0
     _icon: {fileID: 21300000, guid: dfefa27bcde089e47a0f6b03ab2879e0, type: 3}
     _desc: encounter.lacodon
-    _enter: encounter.meet_caravan
+    _enter: encounter.attack
     _showIntro: 0
     _levels:
     - Z_7
@@ -2516,7 +2529,20 @@ MonoBehaviour:
     - Z_1_Cave
     - Z_1_Mine
     - Z_1_Bunker
-    chances: []
+    chances:
+    - _skill: 17
+      _skillModify: -50
+      _description: encounter.try_skip1
+      _success: encounter.success_skip1
+      _successButton: encounter.gotravel
+      _fail: encounter.fail_skip_ph
+      _failButton: encounter.gobattle
+      _invert: 0
+      _canAttack: 0
+      _condition:
+        _type: 0
+        _value: 0
+      _overrideEncounterType: 
     _requirements: []
     _requirementsEx: []
   - _chance: 800
@@ -2541,18 +2567,18 @@ MonoBehaviour:
     chances: []
     _requirements: []
     _requirementsEx: []
-  - _chance: 500
+  - _chance: 40
     _type: ph_caravan_2
     _period: 1
-    _trigger: 
+    _trigger: PH_TRADE_ON_2
     _triggerInvert: 0
-    _triggerReset: 0
+    _triggerReset: 1
     _canSkip: 1
     _canAttack: 1
     _once: 0
     _icon: {fileID: 21300000, guid: 1297d0436080e1949a112cc2f7db97b1, type: 3}
     _desc: encounter.ph_caravan_2
-    _enter: encounter.enter_help
+    _enter: encounter.meet_caravan
     _showIntro: 0
     _levels:
     - Z_7
@@ -2563,9 +2589,9 @@ MonoBehaviour:
     chances: []
     _requirements: []
     _requirementsEx: []
-  - _chance: 40
+  - _chance: 30
     _type: defence_2night
-    _period: 0
+    _period: 2
     _trigger: 
     _triggerInvert: 0
     _triggerReset: 0

@@ -77,7 +77,7 @@ MonoBehaviour:
       _overrideEncounterType: 
     _requirements: []
     _requirementsEx: []
-  - _chance: 5
+  - _chance: 10
     _type: Monster
     _period: 0
     _trigger: 
@@ -622,7 +622,7 @@ MonoBehaviour:
     chances: []
     _requirements: []
     _requirementsEx: []
-  - _chance: 20
+  - _chance: 30
     _type: Medvedka
     _period: 1
     _trigger: 

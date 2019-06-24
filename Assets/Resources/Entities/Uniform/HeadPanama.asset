@@ -16,12 +16,12 @@ MonoBehaviour:
     path: Entities/Uniform/Uniform models/PH_helmet/HeadPanama/panamas
   m_Localization: uniform.headpanama
   Takeable: 1
-  Cost: 500
-  Weight: 0
+  Cost: 350
+  Weight: 600
   Collectable: 1
   Modifiers:
   - _type: 25
-    _value: 10
+    _value: 12
   UniformType: 0
   HideMask: 1
   ArmorDurability: 0

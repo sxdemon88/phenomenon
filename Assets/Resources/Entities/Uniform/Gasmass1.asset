@@ -16,8 +16,8 @@ MonoBehaviour:
     path: Entities/Uniform/Uniform models/PH_mask/maskpack/mask1
   m_Localization: uniform.gasmass1
   Takeable: 1
-  Cost: 1000
-  Weight: 1000
+  Cost: 960
+  Weight: 1050
   Collectable: 1
   Modifiers:
   - _type: 35

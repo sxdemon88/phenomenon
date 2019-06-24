@@ -219,6 +219,7 @@ MonoBehaviour:
     _showIntro: 0
     _levels:
     - Z_1_3
+    - Z_2_3
     chances:
     - _skill: 17
       _skillModify: -50
@@ -246,7 +247,7 @@ MonoBehaviour:
     _once: 0
     _icon: {fileID: 21300000, guid: 1e16ac61fd30df7458cc09edfc934d39, type: 3}
     _desc: encounter.Mutashiftnights
-    _enter: encounter.enter_raid
+    _enter: encounter.attack
     _showIntro: 0
     _levels:
     - Z_1_3
@@ -264,11 +265,25 @@ MonoBehaviour:
     _once: 0
     _icon: {fileID: 21300000, guid: a854e79182d6149478e1aef23b5fd96e, type: 3}
     _desc: encounter.lizardnights
-    _enter: encounter.enter_raid
+    _enter: encounter.attack
     _showIntro: 0
     _levels:
     - Z_1_3
-    chances: []
+    - Z_2_3
+    chances:
+    - _skill: 17
+      _skillModify: -50
+      _description: encounter.try_skip1
+      _success: encounter.success_skip1
+      _successButton: encounter.gotravel
+      _fail: encounter.fail_skip_muta
+      _failButton: encounter.gobattle
+      _invert: 0
+      _canAttack: 0
+      _condition:
+        _type: 0
+        _value: 0
+      _overrideEncounterType: 
     _requirements: []
     _requirementsEx: []
   - _chance: 40
@@ -282,12 +297,25 @@ MonoBehaviour:
     _once: 0
     _icon: {fileID: 21300000, guid: 9b6b025c868032f46886cbdeb05186c3, type: 3}
     _desc: encounter.bigratsnights
-    _enter: encounter.enter_raid
+    _enter: encounter.attack
     _showIntro: 0
     _levels:
     - Z_1_3
     - Z_2_3
-    chances: []
+    chances:
+    - _skill: 17
+      _skillModify: -40
+      _description: encounter.try_skip1
+      _success: encounter.success_skip1
+      _successButton: encounter.gotravel
+      _fail: encounter.fail_skip_muta
+      _failButton: encounter.gobattle
+      _invert: 0
+      _canAttack: 0
+      _condition:
+        _type: 0
+        _value: 0
+      _overrideEncounterType: 
     _requirements: []
     _requirementsEx: []
   - _chance: 40
@@ -301,7 +329,7 @@ MonoBehaviour:
     _once: 0
     _icon: {fileID: 21300000, guid: 4ac848080aa2c8c4381d34a7f7f9f181, type: 3}
     _desc: encounter.lizardshiftnights
-    _enter: encounter.enter_raid
+    _enter: encounter.attack
     _showIntro: 0
     _levels:
     - Z_1_3
@@ -320,7 +348,7 @@ MonoBehaviour:
     _once: 0
     _icon: {fileID: 21300000, guid: 86e0cb8e618989946806626095ccf626, type: 3}
     _desc: encounter.bigratshiftnights
-    _enter: encounter.enter_raid
+    _enter: encounter.attack
     _showIntro: 0
     _levels:
     - Z_1_3

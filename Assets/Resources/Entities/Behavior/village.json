@@ -2917,6 +2917,7 @@
             "y" : "-100900"
          }, 
          "child" : [ 
+            "63970e8a-62e2-405f-909f-1d91c2f0f40c", 
             "a578c6f8-daf8-431d-b1a6-08da0633d2b4", 
             "0a1049e4-a632-4bd3-8d06-2864320a1b23", 
             "bb449446-a675-462b-9757-6e3aec41c191", 
@@ -2928,11 +2929,21 @@
             "776a101c-26e3-4eda-9ebe-1b3fda631145"
          ]
       }, 
+      "63970e8a-62e2-405f-909f-1d91c2f0f40c" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-102624", 
+            "y" : "-100957"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/ph_trade_event"
+      }, 
       "a578c6f8-daf8-431d-b1a6-08da0633d2b4" : { 
          "class" : "PlayStateNode", 
          "desc" : { 
-            "x" : "-102685", 
-            "y" : "-100874"
+            "x" : "-102625", 
+            "y" : "-100900"
          }, 
          "child" : [ 
          ], 

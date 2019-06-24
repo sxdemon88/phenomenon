@@ -1342,13 +1342,34 @@
             "y" : "-100699"
          }, 
          "child" : [ 
+            "2e56be6a-cb41-4361-977b-adef1c680532", 
+            "702a5f56-a16f-4c52-9ab2-8770b5387270", 
             "74558227-087e-40d9-8988-41bcd92d7a32", 
             "e54c7822-7106-44bf-93f3-67a15435a56b", 
             "d53519be-1b2a-4655-8396-2d9761c491f1", 
             "f559316d-cd09-4da3-99e0-39a906e2ad5b", 
-            "f29ebeed-e143-44c6-8253-fc5a2c586b2c", 
-            "702a5f56-a16f-4c52-9ab2-8770b5387270"
+            "f29ebeed-e143-44c6-8253-fc5a2c586b2c"
          ]
+      }, 
+      "2e56be6a-cb41-4361-977b-adef1c680532" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-102155", 
+            "y" : "-100649"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/ph_trade_event"
+      }, 
+      "702a5f56-a16f-4c52-9ab2-8770b5387270" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-102069", 
+            "y" : "-100576"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/ph_trap_event"
       }, 
       "74558227-087e-40d9-8988-41bcd92d7a32" : { 
          "class" : "HasPlayerPerkNode", 
@@ -1907,16 +1928,6 @@
          }, 
          "child" : [ 
          ]
-      }, 
-      "702a5f56-a16f-4c52-9ab2-8770b5387270" : { 
-         "class" : "PlayStateNode", 
-         "desc" : { 
-            "x" : "-101750", 
-            "y" : "-100511"
-         }, 
-         "child" : [ 
-         ], 
-         "script" : "Entities/Behavior/ph_trap_event"
       }, 
       "e33dac7f-abb3-4698-98c2-22d9db23cbf2" : { 
          "class" : "PlayStateNode", 

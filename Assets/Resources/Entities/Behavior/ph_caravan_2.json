@@ -7,8 +7,40 @@
             "y" : "-99709"
          }, 
          "child" : [ 
+            "6ca31503-8a20-43eb-9a7a-acea410eb1c8", 
             "d6cf365d-0f3c-429a-b467-830be4f7809e", 
             "3d65f86e-0fa3-4459-bea2-c2d652106f5a"
+         ]
+      }, 
+      "6ca31503-8a20-43eb-9a7a-acea410eb1c8" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-101506", 
+            "y" : "-99657"
+         }, 
+         "child" : [ 
+            "a595675a-b722-40da-a8a9-3dbebff59538", 
+            "fc9ab95a-127c-49d5-bdd8-0b9fba27f888"
+         ], 
+         "note_key" : "PH_TRADE_ON_2"
+      }, 
+      "a595675a-b722-40da-a8a9-3dbebff59538" : { 
+         "class" : "NotebookRemoveNoteNode", 
+         "desc" : { 
+            "x" : "-101637", 
+            "y" : "-99549"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "PH_TRADE_ON_2"
+      }, 
+      "fc9ab95a-127c-49d5-bdd8-0b9fba27f888" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101367", 
+            "y" : "-99537"
+         }, 
+         "child" : [ 
          ]
       }, 
       "d6cf365d-0f3c-429a-b467-830be4f7809e" : { 

@@ -944,11 +944,22 @@
             "y" : "-100794"
          }, 
          "child" : [ 
+            "4662e230-c3fa-4fe1-b5c9-8e0e315e7952", 
             "443261c8-bdc2-433a-ae4d-2be49ffb23ba", 
             "168c7d3e-c306-4b12-897e-f0551d5b350e", 
             "84fb51f4-0882-46c3-87ed-1b3f55a30ec1", 
             "dd99b5b0-07bf-45fe-b1cd-8a55e9c185bb"
          ]
+      }, 
+      "4662e230-c3fa-4fe1-b5c9-8e0e315e7952" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-100207", 
+            "y" : "-100730"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/ph_trade_event"
       }, 
       "443261c8-bdc2-433a-ae4d-2be49ffb23ba" : { 
          "class" : "AreAllAroundDeadNode", 
@@ -1031,8 +1042,8 @@
       "dd99b5b0-07bf-45fe-b1cd-8a55e9c185bb" : { 
          "class" : "PlayStateNode", 
          "desc" : { 
-            "x" : "-99629", 
-            "y" : "-100689"
+            "x" : "-99624", 
+            "y" : "-100705"
          }, 
          "child" : [ 
          ], 
