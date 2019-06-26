@@ -925,8 +925,8 @@
       "9572c7cf-071d-44a6-b6ac-3e1285e78cae" : { 
          "class" : "DialogPhraseNode", 
          "desc" : { 
-            "x" : "-105320", 
-            "y" : "-94714"
+            "x" : "-105321", 
+            "y" : "-94544"
          }, 
          "child" : [ 
             "e6938a8d-e514-42f9-afa5-afc50e38ff8a", 
@@ -937,8 +937,8 @@
       "e6938a8d-e514-42f9-afa5-afc50e38ff8a" : { 
          "class" : "InventoryHasItemNode", 
          "desc" : { 
-            "x" : "-105472", 
-            "y" : "-94248"
+            "x" : "-105433", 
+            "y" : "-94371"
          }, 
          "child" : [ 
             "7f6963b7-35fc-47e3-bf23-858de22e13f4", 
@@ -954,8 +954,8 @@
       "7f6963b7-35fc-47e3-bf23-858de22e13f4" : { 
          "class" : "DialogAnswerNode", 
          "desc" : { 
-            "x" : "-105557", 
-            "y" : "-94029"
+            "x" : "-105559", 
+            "y" : "-94217"
          }, 
          "child" : [ 
             "023938ed-fd10-4891-b8a5-b8162634762a"
@@ -965,18 +965,115 @@
       "023938ed-fd10-4891-b8a5-b8162634762a" : { 
          "class" : "QuestDoneNode", 
          "desc" : { 
-            "x" : "-105521", 
-            "y" : "-93942"
+            "x" : "-105518", 
+            "y" : "-94120"
          }, 
          "child" : [ 
+            "2e7c9f9e-2c75-43bc-8980-570b9eb6f887"
          ], 
          "quest_key" : "PH_TRADE1_QUEST"
+      }, 
+      "2e7c9f9e-2c75-43bc-8980-570b9eb6f887" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-105506", 
+            "y" : "-94017"
+         }, 
+         "child" : [ 
+            "511aecf2-a8f1-4197-93b4-efce7fde3794"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "50", 
+            "proto" : "Petrol"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "511aecf2-a8f1-4197-93b4-efce7fde3794" : { 
+         "class" : "IsFemaleNode", 
+         "desc" : { 
+            "x" : "-105372", 
+            "y" : "-93887"
+         }, 
+         "child" : [ 
+            "f2b40723-473a-4b28-b280-de2dc625cbbc", 
+            "9ff7b906-9835-4705-bd05-4e77eb5dab7f"
+         ]
+      }, 
+      "f2b40723-473a-4b28-b280-de2dc625cbbc" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-105526", 
+            "y" : "-93778"
+         }, 
+         "child" : [ 
+            "c18098d5-241b-4276-ad9b-21f435d4968b"
+         ], 
+         "text" : "#ph_trader1_dia.f2b40723-473a-4b28-b280-de2dc625cbbc"
+      }, 
+      "c18098d5-241b-4276-ad9b-21f435d4968b" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-105361", 
+            "y" : "-93654"
+         }, 
+         "child" : [ 
+            "139a33a7-c780-41c2-bdb2-256c4a64f674"
+         ], 
+         "text" : "#ph_trader1_dia.c18098d5-241b-4276-ad9b-21f435d4968b"
+      }, 
+      "139a33a7-c780-41c2-bdb2-256c4a64f674" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-105303", 
+            "y" : "-93568"
+         }, 
+         "child" : [ 
+            "a1ad0ce2-8be5-4ab4-b95c-78143ff96893"
+         ], 
+         "exp" : "2000"
+      }, 
+      "a1ad0ce2-8be5-4ab4-b95c-78143ff96893" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-105337", 
+            "y" : "-93481"
+         }, 
+         "child" : [ 
+            "8afc0eb5-e39f-4a93-ab42-c81ae335b306"
+         ], 
+         "item" : { 
+            "class" : "Memo", 
+            "count" : "1", 
+            "proto" : "ph_craft_book1"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "8afc0eb5-e39f-4a93-ab42-c81ae335b306" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-105332", 
+            "y" : "-93373"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "9ff7b906-9835-4705-bd05-4e77eb5dab7f" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-105256", 
+            "y" : "-93788"
+         }, 
+         "child" : [ 
+            "c18098d5-241b-4276-ad9b-21f435d4968b"
+         ], 
+         "text" : "#ph_trader1_dia.9ff7b906-9835-4705-bd05-4e77eb5dab7f"
       }, 
       "f1ced4c0-47d5-4367-8666-49b95f2fb74c" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-105230", 
-            "y" : "-94066"
+            "x" : "-105264", 
+            "y" : "-94195"
          }, 
          "child" : [ 
          ]
@@ -1307,102 +1404,6 @@
          "child" : [ 
          ], 
          "dialog" : "entities/dialog/balwannpc"
-      }, 
-      "2e7c9f9e-2c75-43bc-8980-570b9eb6f887" : { 
-         "class" : "InventoryRemoveItemNode", 
-         "desc" : { 
-            "x" : "-105518", 
-            "y" : "-93863"
-         }, 
-         "child" : [ 
-            "511aecf2-a8f1-4197-93b4-efce7fde3794"
-         ], 
-         "item" : { 
-            "class" : "Consumable", 
-            "count" : "50", 
-            "proto" : "Petrol"
-         }, 
-         "objectName" : "Player"
-      }, 
-      "511aecf2-a8f1-4197-93b4-efce7fde3794" : { 
-         "class" : "IsFemaleNode", 
-         "desc" : { 
-            "x" : "-105282", 
-            "y" : "-93762"
-         }, 
-         "child" : [ 
-            "f2b40723-473a-4b28-b280-de2dc625cbbc", 
-            "9ff7b906-9835-4705-bd05-4e77eb5dab7f"
-         ]
-      }, 
-      "f2b40723-473a-4b28-b280-de2dc625cbbc" : { 
-         "class" : "DialogPhraseNode", 
-         "desc" : { 
-            "x" : "-105475", 
-            "y" : "-93649"
-         }, 
-         "child" : [ 
-            "c18098d5-241b-4276-ad9b-21f435d4968b"
-         ], 
-         "text" : "#ph_trader1_dia.f2b40723-473a-4b28-b280-de2dc625cbbc"
-      }, 
-      "c18098d5-241b-4276-ad9b-21f435d4968b" : { 
-         "class" : "DialogAnswerNode", 
-         "desc" : { 
-            "x" : "-105299", 
-            "y" : "-93514"
-         }, 
-         "child" : [ 
-            "139a33a7-c780-41c2-bdb2-256c4a64f674"
-         ], 
-         "text" : "#ph_trader1_dia.c18098d5-241b-4276-ad9b-21f435d4968b"
-      }, 
-      "139a33a7-c780-41c2-bdb2-256c4a64f674" : { 
-         "class" : "AddExpNode", 
-         "desc" : { 
-            "x" : "-105244", 
-            "y" : "-93443"
-         }, 
-         "child" : [ 
-            "a1ad0ce2-8be5-4ab4-b95c-78143ff96893"
-         ], 
-         "exp" : "2000"
-      }, 
-      "a1ad0ce2-8be5-4ab4-b95c-78143ff96893" : { 
-         "class" : "InventoryAddItemNode", 
-         "desc" : { 
-            "x" : "-105263", 
-            "y" : "-93378"
-         }, 
-         "child" : [ 
-            "8afc0eb5-e39f-4a93-ab42-c81ae335b306"
-         ], 
-         "item" : { 
-            "class" : "Memo", 
-            "count" : "1", 
-            "proto" : "ph_craft_book1"
-         }, 
-         "objectName" : "Player"
-      }, 
-      "8afc0eb5-e39f-4a93-ab42-c81ae335b306" : { 
-         "class" : "DialogEndNode", 
-         "desc" : { 
-            "x" : "-105200", 
-            "y" : "-93250"
-         }, 
-         "child" : [ 
-         ]
-      }, 
-      "9ff7b906-9835-4705-bd05-4e77eb5dab7f" : { 
-         "class" : "DialogPhraseNode", 
-         "desc" : { 
-            "x" : "-105108", 
-            "y" : "-93649"
-         }, 
-         "child" : [ 
-            "c18098d5-241b-4276-ad9b-21f435d4968b"
-         ], 
-         "text" : "#ph_trader1_dia.9ff7b906-9835-4705-bd05-4e77eb5dab7f"
       }
    }, 
    "entry" : "6704a9d7-9403-4e59-8fcc-ccfd8cf43855"

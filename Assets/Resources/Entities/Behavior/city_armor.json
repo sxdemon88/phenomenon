@@ -89,7 +89,7 @@
       "59dcd861-be40-42d2-bfbb-4d0cc37da96c" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-101191", 
+            "x" : "-101190", 
             "y" : "-99648"
          }, 
          "child" : [ 
@@ -679,11 +679,6 @@
                "class" : "Uniform", 
                "count" : "1", 
                "proto" : "Armor58"
-            }, 
-            { 
-               "class" : "Uniform", 
-               "count" : "1", 
-               "proto" : "Armor58_Stalker"
             }, 
             { 
                "class" : "Uniform", 

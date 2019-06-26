@@ -21,7 +21,7 @@ MonoBehaviour:
   Collectable: 1
   Modifiers:
   - _type: 28
-    _value: 4
+    _value: 6000
   - _type: 30
     _value: 40
   - _type: 40
@@ -34,3 +34,7 @@ MonoBehaviour:
   rules: []
   rulesEx: 0
   Perks: 0
+  ClothesForMale:
+    path: 
+  ClothesForFemale:
+    path: 
