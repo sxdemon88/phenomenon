@@ -622,7 +622,7 @@ MonoBehaviour:
     chances: []
     _requirements: []
     _requirementsEx: []
-  - _chance: 30
+  - _chance: 33
     _type: Medvedka
     _period: 1
     _trigger: 

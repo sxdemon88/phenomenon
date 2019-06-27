@@ -34,14 +34,14 @@
       "2ea0536f-60e0-4d09-9461-8189a940287f" : { 
          "class" : "HasRandomDiceNode", 
          "desc" : { 
-            "x" : "-101632", 
-            "y" : "-101788"
+            "x" : "-101659", 
+            "y" : "-101782"
          }, 
          "child" : [ 
             "1274ab42-5adb-4a96-a5fb-9263f7cdb2c4", 
             "3961a60c-9643-44d3-8458-6cfb07708aa7"
          ], 
-         "dice" : "30"
+         "dice" : "25"
       }, 
       "1274ab42-5adb-4a96-a5fb-9263f7cdb2c4" : { 
          "class" : "NotebookAddNoteNode", 

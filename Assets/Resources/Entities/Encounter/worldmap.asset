@@ -1116,7 +1116,7 @@ MonoBehaviour:
     _requirementsEx: []
   - _chance: 40
     _type: Scavenger
-    _period: 1
+    _period: 0
     _trigger: 
     _triggerInvert: 0
     _triggerReset: 0
