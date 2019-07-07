@@ -20,6 +20,7 @@ MonoBehaviour:
   Weight: 950
   Collectable: 0
   Modifiers: []
+  HasModel: 1
   weaponType: 1
   Ammo:
     path: entities/ammo/9mm_jhp
@@ -30,7 +31,7 @@ MonoBehaviour:
   DamageMax: 16
   DamageRadius: 1
   Fatality: 10
-  Perks: 0
+  Perks: 134217728
   PerksEx: 0
   DamageType: 0
   Single:

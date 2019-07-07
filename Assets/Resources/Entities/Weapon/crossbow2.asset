@@ -20,16 +20,19 @@ MonoBehaviour:
   Weight: 3000
   Collectable: 0
   Modifiers: []
+  HasModel: 1
   weaponType: 7
   Ammo:
     path: entities/ammo/bolt
   AmmoCapacity: 1
   BothHands: 1
+  Stack: 0
   DamageMin: 8
   DamageMax: 15
   DamageRadius: 1
   Fatality: 10
-  Perks: 0
+  Perks: 32768
+  PerksEx: 0
   DamageType: 0
   Single:
     AP: 3
@@ -71,3 +74,4 @@ MonoBehaviour:
   NoAmmoSounds:
   - path: Sounds/SFX/Weapons/Crossbow/crossbow_empty4
   PreAttackSounds: []
+  MissSounds: []

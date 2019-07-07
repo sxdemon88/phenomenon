@@ -698,7 +698,8 @@
             "y" : "777"
          }, 
          "child" : [ 
-            "6956c564-35c2-4ddc-b89e-4da2e7c13b91"
+            "6956c564-35c2-4ddc-b89e-4da2e7c13b91", 
+            "23fe0681-dec0-471e-a358-3adaa64ef856"
          ], 
          "item" : { 
             "class" : "Consumable", 
@@ -728,6 +729,21 @@
          "child" : [ 
             "63cc21a5-2591-425e-b6b9-b19816707448"
          ]
+      }, 
+      "23fe0681-dec0-471e-a358-3adaa64ef856" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-3094", 
+            "y" : "862"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "3", 
+            "proto" : "stew_empty"
+         }, 
+         "objectName" : "Player"
       }, 
       "b125026d-d64e-4776-b6b4-6d2142a643a1" : { 
          "class" : "AddExpNode", 

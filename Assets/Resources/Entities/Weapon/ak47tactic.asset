@@ -20,6 +20,7 @@ MonoBehaviour:
   Weight: 3150
   Collectable: 0
   Modifiers: []
+  HasModel: 1
   weaponType: 8
   Ammo:
     path: entities/ammo/7_62mm_jhp
@@ -30,7 +31,7 @@ MonoBehaviour:
   DamageMax: 23
   DamageRadius: 1
   Fatality: 20
-  Perks: 16
+  Perks: 134217744
   PerksEx: 0
   DamageType: 0
   Single:

@@ -55,12 +55,12 @@
          "full": "Huge rat mutant"
       }, 
       "lacodon10" : { 
-         "short": "Evil Tuber", 
-         "full": "Evil Tuber"
+         "short": "Evil Bloodroot", 
+         "full": "Evil Bloodroot"
       }, 
       "lacodon5" : { 
-         "short": "Fast Tuber", 
-         "full": "Fast Tuber"
+         "short": "Fast Bloodroot", 
+         "full": "Fast Bloodroot"
       }, 
       "lizard20" : { 
          "short": "Dangerous demon", 
@@ -79,8 +79,8 @@
          "full": "Queen mutant"
       }, 
       "ph_bandit" : { 
-         "short" : "Бандит", 
-         "full" : "Бандит"
+         "short" : "Bandit", 
+         "full" : "Bandit"
       }, 
       "ph_bandit_14" : { 
          "short": "Bandit", 
@@ -122,11 +122,11 @@
    "weapon" : { 
       "ak47tactic" : { 
          "         short" : "AKM", 
-         "full" : "Foreign copy of the Soviet AKM of the sample of 1959, with the workings of foreign specialists. The case is made of steel and impact-resistant plastic. Materials from foreign rifles were used in the creation. It is supplied by traders from Europe."
+         "full" : "Foreign copy of the Soviet AKM of the sample of 1959, with the workings of foreign specialists. The case is made of steel and impact-resistant plastic. Materials from foreign rifles were used in its creation. It is supplied by traders from Europe."
       }, 
       "beretta" : { 
          "         short" : "Beretta 92", 
-         "full" : "A family of self-loading pistols, developed in 1972 by Carlo Beretta, Giuseppe Mazetti and Vittorio Valle - by the most experienced firearms masters from the Italian company Beretta. A 9 mm Beretta 92F pistol was replaced by a 45-caliber M1911 pistol as a standard US Army pistol with the designation M9."
+         "full" : "A family of self-loading pistols, developed in 1972 by Carlo Beretta, Giuseppe Mazetti and Vittorio Valle - the most experienced firearms masters from the Italian company Beretta. A 9 mm Beretta 92F pistol was replaced by a 45-caliber M1911 pistol as a standard US Army pistol with the designation M9."
       }, 
       "crossbow1" : { 
          "         short" : "Military Crossbow", 
@@ -134,7 +134,7 @@
       }, 
       "crossbow2" : { 
          "         short" : "Hunting crossbow", 
-         "full" : "The crossbow used in hunting for different game. The country of production is unknown."
+         "full" : "The crossbow used in game hunting for all kinds of animals. The country of production is unknown."
       }, 
       "dp_28" : { 
          "         short" : "DP-28", 
@@ -142,15 +142,15 @@
       }, 
       "mg3" : { 
          "short" : "MG 3", 
-         "full" : "German single machine gun. It is an improved version of the MG 42 machine gun. People's craftsmen remade under the mass cartridge."
+         "full" : "German single machine gun. It is an improved version of the MG 42 machine gun. People's craftsmen remade for the mass cartridge."
       }, 
       "mg34_lmg" : { 
          "short" : "MG 34", 
-         "full" : "A German single machine gun from the time of the Second World War. It was developed by the German company Rheinmetall-Borsig AG at the request of the Wehrmacht. In the USSR, it fell in huge numbers after the war. It was remade by popular craftsmen under the mass cartridge 7.62."
+         "full" : "A German single machine gun from the time of the Second World War. It was developed by the German company Rheinmetall-Borsig AG at the request of the Wehrmacht. In the USSR, it fell in huge numbers after the war. It was remade by popular craftsmen for the mass cartridge 7.62."
       }, 
       "mp40" : { 
          "short" : "MP 40", 
-         "full" : "The submachine gun developed by Heinrich Vollmer on the basis of the earlier MP 36 and used as a personal weapon. It was in service with the Wehrmacht during World War II. In the USSR, it was in large quantities in warehouses."
+         "full" : "The submachine gun developed by Heinrich Vollmer on the basis of the earlier MP 38 and used as a personal weapon. It was in service with the Wehrmacht during World War II. In the USSR, it was in large quantities in warehouses."
       }, 
       "svu" : { 
          "short" : "SVU", 
@@ -158,31 +158,31 @@
       }, 
       "amd65" : { 
          "short": "Handicraft Amd-65", 
-         "full": "The Hungarian copy of a Kalashnikov for motor-shooters and airborne forces. On a handguard the front handle for convenience of firing is installed by short and long lines. National handymen deprived the automatic machine of a folding butt and removed single fire, having turned it into the killing tool for fight on are short or the closed space. It is adapted under 5:45."
+         "full": "The Hungarian copy of a Kalashnikov for motorized infanty and airborne forces. On a handguard there is the front handle installed for convenience of firing in short and long bursts. The people's craftsmen deprived the automatic machine of a folding butt and removed single fire, having turned it into the killing tool for close quarters combat. It is adapted for 5.45."
       }, 
       "amd65n" : { 
          "short" : "Amd-65", 
-         "full": "The Hungarian copy of a Kalashnikov for motor-shooters and airborne forces. On a handguard the front handle for convenience of firing is installed by short and long lines."
+         "full": "The Hungarian copy of a Kalashnikov for motorized infantry and airborne forces. On a handguard there is the front handle installed for convenience of firing in short and long bursts."
       }, 
       "dp_28rust" : { 
          "short": "Rusty DP-28", 
-         "full": "Rusty machine gun. Perhaps waste of cartridges, but can kill also an elephant, in skillful hands."
+         "full": "Rusty machine gun. Perhaps, just a waste of cartridges, but this will kill an elephant, in skillful hands."
       }, 
       "fg42" : { 
          "short" : "FG-42", 
-         "full": "Rifle of the parachutist of a sample of 1942. After World War II thousands of FG-42 as trophies got to the USSR, and after Thirds, were plundered by stalkers from warehouses RAV. Handymen remade a rifle under an intermediate Soviet cartridge, and because of a lack of shops and complexity of their production, transferred it to food from integral shop for which fast filling holders from SKS are used."
+         "full": "Rifle of the airborne troops of a 1942 sample. After World War II thousands of salvaged FG-42 were brought to the USSR, and after the Third were plundered by stalkers from RAV warehouses. Handymen remade a rifle for an intermediate Soviet cartridge, and because of a lack of cartridges and complexity of their production, transferred it to feed from integrated cartridge for which fast filling holders from SKS are used."
       }, 
       "g43" : { 
          "short" : "G-43 (Gewehr 43)", 
-         "full": "The German autoloading rifle of times of World War II which is modification of earlier Gewehr 41 rifle with the changed exhaust system similar to that at the Soviet SVT-40 rifle. It is adapted for a mass cartridge."
+         "full": "The German autoloading rifle, used in World War II. G-43 is modification of earlier Gewehr 41 rifle with the changed exhaust system similar to that at the Soviet SVT-40 rifle. It is adapted for a mass cartridge."
       }, 
       "g43s" : { 
          "short": "G-43 (Gewehr 43) with a sight", 
-         "full": "The German autoloading rifle with a sight, times of World War II which is modification of earlier Gewehr 41 rifle with the changed exhaust system similar to that at the Soviet SVT-40 rifle. It is adapted for a mass cartridge."
+         "full": "The German autoloading rifle with a sight, used in  World War II. G-43 is modification of earlier Gewehr 41 rifle with the changed exhaust system similar to that at the Soviet SVT-40 rifle. It is adapted for a mass cartridge."
       }, 
       "luger08" : { 
          "short": "Lugger", 
-         "full": "The legendary German gun of World War II which appeared in huge quantities in warehouses RAV USSR as a trophy. After Thirds world, was remade under the Pmovsky cartridge 9х18 for unification and cartridges, differently it is more."
+         "full": "The legendary German gun, used in World War II. Lugger appeared in huge quantities in RAV warehouses as a trophy. After Third war, was remade for the Pmovsky cartridge 9х18 for unification and cartridges."
       },
       "luger08rust" : { 
          "short": "Rusty Lugger", 
@@ -194,11 +194,11 @@
       }, 
       "mg34_lmgrust" : { 
          "short": "Rusty MG-34", 
-         "full": "Rusty machine gun. Perhaps waste of cartridges, but can kill also an elephant, in skillful hands."
+         "full": "Rusty machine gun. Perhaps waste of cartridges, but can kill an elephant, in skillful hands."
       }, 
       "mg3rust" : { 
          "short": "Rusty MG-3", 
-         "full": "Rusty machine gun. Perhaps waste of cartridges, but can kill also an elephant, in skillful hands."
+         "full": "Rusty machine gun. Perhaps waste of cartridges, but can kill an elephant, in skillful hands."
       }, 
       "mp40rust" : { 
          "short": "Rusty MP-40", 
@@ -210,15 +210,15 @@
       }, 
       "pmmd63" : { 
          "short" : "PM md. 63", 
-         "full": "Romanian copy of the Soviet AKMA. In a pursuit of comfort Romanians changed a standard handguard, having integrated into it the handle and by that having increased convenience of firing. Among military the handle got a playful nickname of donkey-Dong (an asinine penis)."
+         "full": "Romanian copy of the Soviet AKMA. In a pursuit of comfort Romanians changed a standard handguard, having integrated into it the handle and by that having increased convenience of firing. Among military the handle got a playful nickname of donkey-Dong."
       },
       "pmmd65" : { 
          "short" : "PM md. 65", 
-         "full": "Romanian copy of the Soviet AKMA. The option of 1965 different from md 63 the metal butt and a form of the front handle developing down-forward (it is recurved, but not forward)."
+         "full": "Romanian copy of the Soviet AKMA. 1965 variant, The only difference from md 63 is the metal butt and form of the front handle which is curved backwards, not forward."
       }, 
       "stg44" : { 
          "short" : "StG 44 (Sturmgewehr 44)", 
-         "full": "An echo of World War II on heathlands of the Third. The German automatic machine remade by handymen under the Soviet intermediate cartridge. Fans of conspiracy theories call him the primogenitor of joint stock company, however, linear configuration with a returnable spring in a butt and the scheme of dismantling completely corresponds to the American M16."
+         "full": "An echo of World War II in the aftermath of the Third war. The German automatic machine gun remade by handymen for the Soviet intermediate cartridge. Fans of conspiracy theories call him the primogenitor of joint stock company, however, linear configuration with a returnable spring in a butt and the scheme of dismantling completely corresponds to the American M16."
       }, 
       "stg44rust" : { 
          "short": "Rusty STG-44", 
@@ -238,7 +238,7 @@
    "consumable" : { 
       "petrol" : { 
          "short": "Gasoline", 
-         "full": "This classical fuel appeared in Heathlands thanks to Central Asian Petrol barons. It is considered rare.", 
+         "full": "This classical fuel appeared in the Wastes thanks to Central Asian Petrol barons. It is considered rare.", 
          "fail": "You managed to pierce a plastic bottle with gasoline and its invaluable contents poured out on the earth, having soiled your boots..."
       }
    }, 
@@ -263,42 +263,42 @@
    "encounter" : { 
       "   wolfsnights" : "You fell into the trap of a wolf pack. A huge pack of wolves is now approaching you.", 
       "   spidernights" : "You have fallen into a spider's lair. Spiders are coming swiftly towards you.", 
-      "   bearhigh" : "A huge roar of bears is heard nearby. You have noticed that bears are rapidly approaching you,", 
-      "   wolflider" : "A wolf pack surrounded you, among them you noticed a strange Leader.", 
-      "   deidont" : "Something or someone is approaching you, making very loud sounds as you move.", 
+      "   bearhigh" : "A loud bear roar is heard nearby. You have noticed that bears are rapidly approaching you,", 
+      "   wolflider" : "A wolf pack surrounds you, among them you notice a strange Leader.", 
+      "   deidont" : "Something or someone is approaching you, making very loud sounds as it moves.", 
       "   devourer" : "You heard the terrible sounds of an unknown animal, and noticed that something was approaching you from the thicket, towards the meeting.", 
       "   defence_1" : "In the distance, the sounds of gunfire and fighting are heard. Having listened, you can hear the clear cries of people who are asking for help", 
       "   fight_6" : "You hear the whining sounds of some animals and the terrible roar of a monster", 
       "   fight_5" : "The sounds of the struggle of wild animals are heard. Having listened, you hear a loud howl and a squeak of mice.", 
-      "   fight_4" : "Surprisingly, you have witnessed the hunt of wolves for hunted prey.", 
-      "   fight_3" : "Surprisingly, you have witnessed the hunt of wolves for hunted prey.", 
-      "   fight_2" : "Surprisingly, you have witnessed the hunt of wolves for hunted prey.", 
-      "   fight_1" : "You heard the sounds of a fight, especially the loud howling of wolves and the bear's roar is especially audible.", 
+      "   fight_4" : "Surprisingly, you have witnessed wolves hunting their prey.", 
+      "   fight_3" : "Surprisingly, you have witnessed wolves hunting their prey.", 
+      "   fight_2" : "Surprisingly, you have witnessed wolves hunting their prey.",
+      "   fight_1" : "You heard the sounds of a fight, especially the loud howling of wolves and the bear's roar.", 
       "   ratsnights" : "You have fallen into a rat trap. A huge number of rats are rapidly approaching you.", 
       "   roi" : "You have noticed the rapid approach of small shadows from the thicket to you.", 
-      "   Ants_2" : "You have fallen into the Mimrikov anthill. A large number of Mimriks are approaching you.", 
+      "   Ants_2" : "You have fallen into the Mimrik anthill. A large number of Mimriks are approaching you.", 
       "   enter_help" : "Help!", 
       "fail_skip_ph": "You did not manage to avoid battle!", 
       "ph_caravan_1": "You have noticed the car with well armed group.", 
-      "mole": "In you hear as under legs the earth begins to shiver. From all directions on surface some huge aggressive bugs get out.", 
-      "defence2": "The cannonade is in the distance heard. Having approached slightly closer, you have noticed that hunters fight for the lives with local fauna.", 
-      "lacodon": "You go on heathland by strange hillocks in the earth. Suddenly hillocks come to life, similar to huge iguanas with full mouths of poisonous cogs.", 
-      "trap_1": "After exit from the city you have noticed that someone watches you. These are local bandits and they quickly gets closer to you.",
-      "ph_caravan_2": "You have noticed the old car with the armed group.", 
-      "defence_2night": "Who hunts at night? The cannonade is in the distance heard. Having approached slightly closer, you have noticed that hunters fight for the lives with awful monsters.", 
-      "Mutashiftnights": "You hear firing, shouts, howl. Probably someone has run on pack of mouth.", 
-      "lizardnights": "At night in the dead city became too hot. On you sharply from darkness monsters come nearer.", 
+      "mole": "You hear as earth beneath you begins to shiver. Agressive bugs get on the surface from all directions.", 
+      "defence2": "The cannonade is heard in the distance. Having approached slightly closer, you have noticed that hunters fight for their lives with local fauna.", 
+      "lacodon": "You notice strange hillocks in the earth. Suddenly hillocks come to life, similar to huge iguanas with full mouths of poisonous teeth.", 
+      "trap_1": "After you leave the city you have noticed that someone watches you. These are local bandits and they quickly get closer to you.",
+      "ph_caravan_2": "You have noticed an old car with a group of armed men.", 
+      "defence_2night": "The cannonade is in the distance heard. Having approached slightly closer, you have noticed that hunters fight for their lives with awful monsters.", 
+      "Mutashiftnights": "You hear firing, shouts and howling. Probably someone has stumbled upon a pack of wolves", 
+      "lizardnights": "At night it becomes too hot in the Dead City. Monsters come out of darkness and close in on to you.", 
       "bigratsnights": "The pack of huge rats attacks you.", 
-      "lizardshiftnights": "You hear firing and shouts. Probably someone has run on terrible monsters.",
-   "Mutanights": "The pack of hungry mouth attacks your group.",
+      "lizardshiftnights": "You hear firing and shouts. Probably someone has run into terrible monsters.",
+   "Mutanights": "The pack of hungry wolves attacks your group.",
       "bigratshiftnights": "You see as the pack of huge rats attacks shift workers."
    }, 
    "door" : { 
    }, 
    "memo" : { 
       "ph_craft_book1" : { 
-         "short": "Scheme of stalkersky backpack", 
-         "full": "Detailed pattern of stalkersky backpack."
+         "short": "Scheme of stalker backpack", 
+         "full": "Detailed pattern of stalker backpack."
       }, 
       "ph_craft_book2" : { 
          "short": "Scheme of multiple-purpose backpack", 
@@ -446,7 +446,7 @@
       "1" : ".1"
    }, 
    "quests" : { 
-      "ph_trade1_quest": "[Phenomenon] the Dealer Alexander asked to adjust to it fuels, for its organization, 50 liters have to be enough.", 
-      "ph_trade2_quest": "[Phenomenon] the Dealer Bogdan asked to bring it resources for craft, 50 pieces of skin and 30 skins. It has many clients on such resources." 
+      "ph_trade1_quest": "[Phenomenon] Alexander, the trader, asked you to bring him fuel for his organization. 50 liters should be enough.", 
+      "ph_trade2_quest": "[Phenomenon] Bogdan, the trader, asked you for crafting resources, 50 pieces of leather and 30 furs. He has many buyers for such things." 
    } 
 }
