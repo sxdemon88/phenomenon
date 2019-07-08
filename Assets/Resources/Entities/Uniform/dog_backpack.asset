@@ -16,7 +16,7 @@ MonoBehaviour:
     path: Entities/Uniform/Uniform models/PH_backpack/backpack5/dog
   m_Localization: uniform.dog_backpack
   Takeable: 1
-  Cost: 1000
+  Cost: 2400
   Weight: 2100
   Collectable: 1
   Modifiers:

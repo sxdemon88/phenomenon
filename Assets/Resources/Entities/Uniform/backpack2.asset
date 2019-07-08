@@ -16,8 +16,8 @@ MonoBehaviour:
     path: Entities/Uniform/Uniform models/PH_backpack/backpack2/backpack2
   m_Localization: uniform.backpack2
   Takeable: 1
-  Cost: 500
-  Weight: 0
+  Cost: 2600
+  Weight: 700
   Collectable: 1
   Modifiers:
   - _type: 28
