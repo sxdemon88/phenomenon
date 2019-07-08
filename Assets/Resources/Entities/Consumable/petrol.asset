@@ -23,7 +23,8 @@ MonoBehaviour:
   _effects:
   - path: entities/effect/petrol
   canUseInBattle: 1
-  waste: {fileID: 11400000, guid: c6708c1913fab6e4fa6846ce756783d0, type: 2}
+  waste:
+    path: entities/item/bottle_empty2
   useSounds:
   - path: Sounds/SFX/Consumables/drinking
   UseAP: 2

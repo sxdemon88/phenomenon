@@ -121,7 +121,10 @@
             "beard" : "Shaved", 
             "hair" : "Girl_Bob", 
             "hairColor" : "Foxy", 
-            "behavior" : "Baza.Larisa"
+            "behavior" : "Baza.Larisa", 
+            "keywords" : { 
+               "MIRROR_SLEEP" : "1"
+            }
          }
       }, 
       "b42dc35d-532c-4dc8-98f5-bbb4736da822" : { 
@@ -752,59 +755,59 @@
             "y" : "-99736"
          }, 
          "child" : [ 
-            "b514189b-5ee6-4984-9b0b-4e39ebe07edf"
+            "38f31d99-f6a3-4e7d-bd2d-579d27d73783"
          ], 
          "key" : "INIT_RANDOM_S_TRADE"
       }, 
-      "b514189b-5ee6-4984-9b0b-4e39ebe07edf" : { 
-         "class" : "ObjectRemoveNode", 
+      "38f31d99-f6a3-4e7d-bd2d-579d27d73783" : { 
+         "class" : "CharacterRemoveNode", 
          "desc" : { 
-            "x" : "-98552", 
-            "y" : "-99664"
+            "x" : "-98547", 
+            "y" : "-99674"
          }, 
          "child" : [ 
-            "a46727a6-da6e-4c1e-b382-b40d47f6e2dc"
+            "459f1dd6-1fae-49a3-a6f5-09f8f5095f62"
          ], 
          "objName" : "Spawn.Scavenger.1"
       }, 
-      "a46727a6-da6e-4c1e-b382-b40d47f6e2dc" : { 
-         "class" : "ObjectRemoveNode", 
+      "459f1dd6-1fae-49a3-a6f5-09f8f5095f62" : { 
+         "class" : "CharacterRemoveNode", 
          "desc" : { 
-            "x" : "-98552", 
-            "y" : "-99608"
+            "x" : "-98547", 
+            "y" : "-99622"
          }, 
          "child" : [ 
-            "a7e7555c-d684-4d46-a0a1-f408744bc66d"
+            "9ce04c14-fdf2-4dfd-84da-5d2df0f0ef86"
          ], 
          "objName" : "Spawn.Scavenger.2"
       }, 
-      "a7e7555c-d684-4d46-a0a1-f408744bc66d" : { 
-         "class" : "ObjectRemoveNode", 
+      "9ce04c14-fdf2-4dfd-84da-5d2df0f0ef86" : { 
+         "class" : "CharacterRemoveNode", 
          "desc" : { 
-            "x" : "-98552", 
-            "y" : "-99552"
+            "x" : "-98548", 
+            "y" : "-99568"
          }, 
          "child" : [ 
-            "b9459c07-6d61-45f1-973f-87cea51bfc7c"
+            "ed15ae02-f79a-4a98-8346-b5a1fc00603a"
          ], 
          "objName" : "Spawn.Scavenger.3"
       }, 
-      "b9459c07-6d61-45f1-973f-87cea51bfc7c" : { 
-         "class" : "ObjectRemoveNode", 
+      "ed15ae02-f79a-4a98-8346-b5a1fc00603a" : { 
+         "class" : "CharacterRemoveNode", 
          "desc" : { 
-            "x" : "-98406", 
-            "y" : "-99664"
+            "x" : "-98407", 
+            "y" : "-99672"
          }, 
          "child" : [ 
-            "44fae83b-63aa-40f1-92a0-2d8ef9273b01"
+            "e7d6a459-b54c-44bb-9aab-2d433713e4a9"
          ], 
          "objName" : "Spawn.Scavenger.4"
       }, 
-      "44fae83b-63aa-40f1-92a0-2d8ef9273b01" : { 
-         "class" : "ObjectRemoveNode", 
+      "e7d6a459-b54c-44bb-9aab-2d433713e4a9" : { 
+         "class" : "CharacterRemoveNode", 
          "desc" : { 
-            "x" : "-98414", 
-            "y" : "-99551"
+            "x" : "-98412", 
+            "y" : "-99566"
          }, 
          "child" : [ 
          ], 
@@ -1081,7 +1084,7 @@
             "451f4a5b-15a5-4f4a-a55a-b968caa08508", 
             "5affd9f8-8f31-493d-a1ee-29a825276ca0", 
             "288eacfb-39c8-49be-aab7-b63a4a39a2db", 
-            "eecfb143-15a8-41e0-a995-37552baeac22"
+            "7c53f109-a411-43ca-8b4e-634fcf34a46c"
          ]
       }, 
       "f0ce46a1-f417-418b-8e30-cfc0f1c8d822" : { 
@@ -1846,11 +1849,11 @@
          ], 
          "waitTime" : "5"
       }, 
-      "eecfb143-15a8-41e0-a995-37552baeac22" : { 
+      "7c53f109-a411-43ca-8b4e-634fcf34a46c" : { 
          "class" : "PlayStateNode", 
          "desc" : { 
-            "x" : "-100676", 
-            "y" : "-100267"
+            "x" : "-100656", 
+            "y" : "-100238"
          }, 
          "child" : [ 
          ], 
@@ -1908,8 +1911,88 @@
             "y" : "-100269"
          }, 
          "child" : [ 
+            "fc75df39-df2f-4a23-89dc-143742a58700"
          ], 
          "quest_key" : "BAZA_VISIT_GODGIN"
+      }, 
+      "fc75df39-df2f-4a23-89dc-143742a58700" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100101", 
+            "y" : "-99549"
+         }, 
+         "child" : [ 
+            "92b7d0f1-669b-4b1d-9cf0-8cc797897892", 
+            "6d90ede2-f7bc-49f1-af2c-e7d832257729"
+         ], 
+         "key" : "FIRST_TIME_GODGIN"
+      }, 
+      "92b7d0f1-669b-4b1d-9cf0-8cc797897892" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100142", 
+            "y" : "-99465"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "6d90ede2-f7bc-49f1-af2c-e7d832257729" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-100027", 
+            "y" : "-99470"
+         }, 
+         "child" : [ 
+            "202036cf-982d-4cb8-8b8a-8954e3f58141"
+         ], 
+         "key" : "FIRST_TIME_GODGIN"
+      }, 
+      "202036cf-982d-4cb8-8b8a-8954e3f58141" : { 
+         "class" : "ObjectCheckNode", 
+         "desc" : { 
+            "x" : "-100048", 
+            "y" : "-99419", 
+            "comment" : "если ГГ приехал на машине"
+         }, 
+         "child" : [ 
+            "0ec04fb2-b9b1-4037-a17b-74ef0f792516", 
+            "bff3262a-3c19-489d-a76a-b4cbb0611c6c"
+         ], 
+         "objectName" : "OutVehiclePoint"
+      }, 
+      "0ec04fb2-b9b1-4037-a17b-74ef0f792516" : { 
+         "class" : "CharacterIsStayOnPointNode", 
+         "desc" : { 
+            "x" : "-100062", 
+            "y" : "-99352"
+         }, 
+         "child" : [ 
+            "f6e8a2bc-73fd-4958-85df-ccd5caff734f", 
+            "bff3262a-3c19-489d-a76a-b4cbb0611c6c"
+         ], 
+         "objectName" : "Player", 
+         "pointName" : "OutVehiclePoint", 
+         "relative" : "false"
+      }, 
+      "f6e8a2bc-73fd-4958-85df-ccd5caff734f" : { 
+         "class" : "CharacterTeleportNode", 
+         "desc" : { 
+            "x" : "-100071", 
+            "y" : "-99262"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Godgin", 
+         "pointName" : "AntMan_1"
+      }, 
+      "bff3262a-3c19-489d-a76a-b4cbb0611c6c" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99940", 
+            "y" : "-99241"
+         }, 
+         "child" : [ 
+         ]
       }, 
       "ce15f3f4-79f3-41e4-b069-9e1111ef705e" : { 
          "class" : "ActiveObjectNode", 
@@ -2751,8 +2834,8 @@
       "611eebf8-cc45-4c7d-83d2-741e5bf5a228" : { 
          "class" : "NotebookHasNoteNode", 
          "desc" : { 
-            "x" : "-98692", 
-            "y" : "-100894"
+            "x" : "-98663", 
+            "y" : "-100878"
          }, 
          "child" : [ 
             "05c51d7a-aadc-43da-9395-a3f27880f61a", 
@@ -2801,8 +2884,8 @@
       "bb1bdd17-b16e-4414-8d3d-597c25502cf2" : { 
          "class" : "HasKeywordNode", 
          "desc" : { 
-            "x" : "-98590", 
-            "y" : "-100528"
+            "x" : "-98660", 
+            "y" : "-100513"
          }, 
          "child" : [ 
             "a8ea5d01-6abe-428b-aae0-8b0e373ed5a9", 
@@ -2833,8 +2916,8 @@
       "9117ef96-ab3c-42ae-94db-81526c539208" : { 
          "class" : "PlayStateNode", 
          "desc" : { 
-            "x" : "-98630", 
-            "y" : "-100314"
+            "x" : "-98613", 
+            "y" : "-100324"
          }, 
          "child" : [ 
          ], 
@@ -2859,70 +2942,82 @@
             "y" : "-100438"
          }, 
          "child" : [ 
-            "414aacb1-0de1-4d43-ad2d-057fc9149f44"
+            "21281c5c-898c-490e-8473-238208169df2"
          ], 
          "key" : "INIT_RANDOM_TRADE"
       }, 
-      "414aacb1-0de1-4d43-ad2d-057fc9149f44" : { 
-         "class" : "ObjectRemoveNode", 
+      "21281c5c-898c-490e-8473-238208169df2" : { 
+         "class" : "CharacterRemoveNode", 
          "desc" : { 
-            "x" : "-98404", 
-            "y" : "-100366"
+            "x" : "-98401", 
+            "y" : "-100377"
          }, 
          "child" : [ 
-            "d4208411-61ac-4762-8891-0d6f9ef3ee93"
+            "47c27a29-61b4-4885-bb67-e823de583b10"
          ], 
          "objName" : "Spawn.Karavan.1"
       }, 
-      "d4208411-61ac-4762-8891-0d6f9ef3ee93" : { 
-         "class" : "ObjectRemoveNode", 
+      "47c27a29-61b4-4885-bb67-e823de583b10" : { 
+         "class" : "CharacterRemoveNode", 
          "desc" : { 
-            "x" : "-98404", 
-            "y" : "-100310"
+            "x" : "-98401", 
+            "y" : "-100325"
          }, 
          "child" : [ 
-            "a0ee48e4-73ca-4a87-88f7-df7824c7628e"
+            "246b37ed-8ff7-4454-8d93-75275ef3dd58"
          ], 
          "objName" : "Spawn.Karavan.2"
       }, 
-      "a0ee48e4-73ca-4a87-88f7-df7824c7628e" : { 
-         "class" : "ObjectRemoveNode", 
+      "246b37ed-8ff7-4454-8d93-75275ef3dd58" : { 
+         "class" : "CharacterRemoveNode", 
          "desc" : { 
-            "x" : "-98404", 
-            "y" : "-100254"
+            "x" : "-98400", 
+            "y" : "-100271"
          }, 
          "child" : [ 
-            "7344f3d9-c952-4015-a9f7-6bd043d8b4a7"
+            "3eccbc60-d334-4de0-9fe2-89438b8c8005"
          ], 
          "objName" : "Spawn.Karavan.3"
       }, 
-      "7344f3d9-c952-4015-a9f7-6bd043d8b4a7" : { 
-         "class" : "ObjectRemoveNode", 
+      "3eccbc60-d334-4de0-9fe2-89438b8c8005" : { 
+         "class" : "CharacterRemoveNode", 
          "desc" : { 
-            "x" : "-98266", 
-            "y" : "-100368"
+            "x" : "-98270", 
+            "y" : "-100375"
          }, 
          "child" : [ 
-            "b23d90eb-3f1a-4a14-bc36-7beb90699bcf"
+            "2dfd2ece-3aed-4906-a54d-c02172f763fc"
          ], 
          "objName" : "Spawn.Karavan.4"
       }, 
-      "b23d90eb-3f1a-4a14-bc36-7beb90699bcf" : { 
-         "class" : "ObjectRemoveNode", 
+      "2dfd2ece-3aed-4906-a54d-c02172f763fc" : { 
+         "class" : "CharacterRemoveNode", 
          "desc" : { 
-            "x" : "-98278", 
-            "y" : "-100252"
+            "x" : "-98266", 
+            "y" : "-100269"
+         }, 
+         "child" : [ 
+            "f34366e6-0584-448e-966d-694173d7ae70"
+         ], 
+         "objName" : "Spawn.Karavan.Trader"
+      }, 
+      "f34366e6-0584-448e-966d-694173d7ae70" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-98386", 
+            "y" : "-100195"
          }, 
          "child" : [ 
             "4d8d79f3-8ddc-40ab-a5a2-648a7adf18f0"
          ], 
-         "objName" : "Spawn.Karavan.Trader"
+         "objectName" : "Karavan.Vehicle_2Spawn.Karavan.Vehicle", 
+         "active" : "false"
       }, 
       "4d8d79f3-8ddc-40ab-a5a2-648a7adf18f0" : { 
          "class" : "ObjectRemoveNode", 
          "desc" : { 
-            "x" : "-98398", 
-            "y" : "-100160"
+            "x" : "-98370", 
+            "y" : "-100124"
          }, 
          "child" : [ 
          ], 

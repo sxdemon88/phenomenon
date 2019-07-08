@@ -29,6 +29,7 @@ MonoBehaviour:
     _levels:
     - Z_1_3
     - Z_2_3
+    - Z_3_3
     chances:
     - _skill: 17
       _skillModify: -10
@@ -74,6 +75,7 @@ MonoBehaviour:
     _levels:
     - Z_1_3
     - Z_2_3
+    - Z_3_3
     chances:
     - _skill: 17
       _skillModify: -10
@@ -106,6 +108,7 @@ MonoBehaviour:
     _levels:
     - Z_1_3
     - Z_2_3
+    - Z_3_3
     chances:
     - _skill: 17
       _skillModify: 40
@@ -138,6 +141,7 @@ MonoBehaviour:
     _levels:
     - Z_1_3
     - Z_2_3
+    - Z_3_3
     chances: []
     _requirements: []
     _requirementsEx: []
@@ -157,6 +161,7 @@ MonoBehaviour:
     _levels:
     - Z_1_3
     - Z_2_3
+    - Z_3_3
     chances:
     - _skill: 17
       _skillModify: -30
@@ -220,6 +225,7 @@ MonoBehaviour:
     _levels:
     - Z_1_3
     - Z_2_3
+    - Z_3_3
     chances:
     - _skill: 17
       _skillModify: -50
@@ -251,6 +257,8 @@ MonoBehaviour:
     _showIntro: 0
     _levels:
     - Z_1_3
+    - Z_2_3
+    - Z_3_3
     chances: []
     _requirements: []
     _requirementsEx: []
@@ -270,6 +278,7 @@ MonoBehaviour:
     _levels:
     - Z_1_3
     - Z_2_3
+    - Z_3_3
     chances:
     - _skill: 17
       _skillModify: -50
@@ -302,6 +311,7 @@ MonoBehaviour:
     _levels:
     - Z_1_3
     - Z_2_3
+    - Z_3_3
     chances:
     - _skill: 17
       _skillModify: -40
@@ -334,6 +344,7 @@ MonoBehaviour:
     _levels:
     - Z_1_3
     - Z_2_3
+    - Z_3_3
     chances: []
     _requirements: []
     _requirementsEx: []
@@ -353,6 +364,7 @@ MonoBehaviour:
     _levels:
     - Z_1_3
     - Z_2_3
+    - Z_3_3
     chances: []
     _requirements: []
     _requirementsEx: []
