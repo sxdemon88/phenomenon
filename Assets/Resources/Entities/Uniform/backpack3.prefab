@@ -1,5 +1,31 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &5956592664598818658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 48244173905373901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -775546215, guid: ba80931603c2dbc40ab113c533efa2ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gender: 0
+--- !u!114 &7576166385337196000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 230309247263176693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -775546215, guid: ba80931603c2dbc40ab113c533efa2ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gender: 1
 --- !u!1 &4941414590752275785
 GameObject:
   m_ObjectHideFlags: 0
@@ -43,7 +69,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4941414590752275785}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 0}
 --- !u!23 &5139367894627191077
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -107,32 +133,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mEntityData: '{"class":"Uniform", "count":"1", "proto":"backpack3"}'
---- !u!114 &5956592664598818658
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 48244173905373901}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -775546215, guid: ba80931603c2dbc40ab113c533efa2ed, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gender: 0
---- !u!114 &7576166385337196000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 230309247263176693}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -775546215, guid: ba80931603c2dbc40ab113c533efa2ed, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gender: 1
 --- !u!1001 &48244173905407085
 PrefabInstance:
   m_ObjectHideFlags: 0
