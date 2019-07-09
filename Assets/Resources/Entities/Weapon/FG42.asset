@@ -39,7 +39,7 @@ MonoBehaviour:
     Range: 21
     Shots: 1
     Dispersion: 0
-    ModeType: 10
+    ModeType: 0
     Sounds:
     - path: Entities/Weapon/weapon models/FG42/FG42_FIRE
   Aimed:
