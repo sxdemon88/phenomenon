@@ -8,7 +8,6 @@
          }, 
          "child" : [ 
             "56d1c14f-831e-4282-a14a-de6dc9593535", 
-            "b80aa2ab-6a2b-4c7f-9eef-6bd29ab85006", 
             "161da581-3ea1-47f6-84a0-bd2b9360a551", 
             "c1943a21-107f-48e4-89f6-3ea2b0a2c4c1"
          ]
@@ -88,16 +87,6 @@
          ], 
          "inventoryObject" : "Spawn.Karavan.Trader", 
          "random" : "true"
-      }, 
-      "b80aa2ab-6a2b-4c7f-9eef-6bd29ab85006" : { 
-         "class" : "PlayStateNode", 
-         "desc" : { 
-            "x" : "-100602", 
-            "y" : "-102091"
-         }, 
-         "child" : [ 
-         ], 
-         "script" : "Entities/Behavior/ph_recipe"
       }, 
       "161da581-3ea1-47f6-84a0-bd2b9360a551" : { 
          "class" : "DummyNode", 
