@@ -39,7 +39,7 @@ MonoBehaviour:
     Range: 14
     Shots: 3
     Dispersion: 1
-    ModeType: 0
+    ModeType: 10
     Sounds:
     - path: Entities/Weapon/weapon models/PMmd65/pmmd65
   Aimed:

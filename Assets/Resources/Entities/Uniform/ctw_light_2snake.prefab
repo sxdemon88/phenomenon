@@ -6,7 +6,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 715534906766166132}
+  m_GameObject: {fileID: 787940560593763722}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -775546215, guid: ba80931603c2dbc40ab113c533efa2ed, type: 3}
@@ -22,8 +22,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5748011009836807533}
-  - component: {fileID: 2487836573754024542}
-  - component: {fileID: 2466708270693645101}
   - component: {fileID: 5311860553421867517}
   - component: {fileID: 6434417182796956481}
   m_Layer: 0
@@ -44,56 +42,11 @@ Transform:
   m_LocalPosition: {x: -25.838272, y: -49.040478, z: 46.97995}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 3577330091836253704}
-  - {fileID: 7800963625836081859}
+  - {fileID: 6271541852190766433}
+  - {fileID: 787940560594248106}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &2487836573754024542
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4974272186923831536}
-  m_Mesh: {fileID: 0}
---- !u!23 &2466708270693645101
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4974272186923831536}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
 --- !u!65 &5311860553421867517
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -126,7 +79,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6055576650072218815}
+  m_GameObject: {fileID: 6271541852190861633}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -775546215, guid: ba80931603c2dbc40ab113c533efa2ed, type: 3}
@@ -210,13 +163,13 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 343bb3813f05d4646855aa34bc35a625, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60abc2a08abd4f348b18315aa28d6a4c, type: 3}
---- !u!1 &715534906766166132 stripped
+--- !u!1 &787940560593763722 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 60abc2a08abd4f348b18315aa28d6a4c,
     type: 3}
   m_PrefabInstance: {fileID: 787940560593861418}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &7800963625836081859 stripped
+--- !u!4 &787940560594248106 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 60abc2a08abd4f348b18315aa28d6a4c,
     type: 3}
@@ -299,13 +252,13 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 343bb3813f05d4646855aa34bc35a625, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60abc2a08abd4f348b18315aa28d6a4c, type: 3}
---- !u!1 &6055576650072218815 stripped
+--- !u!1 &6271541852190861633 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 60abc2a08abd4f348b18315aa28d6a4c,
     type: 3}
   m_PrefabInstance: {fileID: 6271541852190896097}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &3577330091836253704 stripped
+--- !u!4 &6271541852190766433 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 60abc2a08abd4f348b18315aa28d6a4c,
     type: 3}

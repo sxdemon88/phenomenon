@@ -9,8 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5748011009836807533}
-  - component: {fileID: 2487836573754024542}
-  - component: {fileID: 2466708270693645101}
   - component: {fileID: 6434417182796956481}
   - component: {fileID: 7510584155272504470}
   m_Layer: 0
@@ -31,56 +29,11 @@ Transform:
   m_LocalPosition: {x: -25.838272, y: -49.040478, z: 46.97995}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 6218086692900261092}
-  - {fileID: 4693675167823234504}
+  - {fileID: 2801812176214790940}
+  - {fileID: 415872904414934130}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &2487836573754024542
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4974272186923831536}
-  m_Mesh: {fileID: 0}
---- !u!23 &2466708270693645101
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4974272186923831536}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
 --- !u!114 &6434417182796956481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -191,7 +144,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 65881b3681288d346b3e6251b7f2e89e, type: 3}
---- !u!4 &4693675167823234504 stripped
+--- !u!4 &415872904414934130 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 65881b3681288d346b3e6251b7f2e89e,
     type: 3}
@@ -306,7 +259,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce09aba98a24fc8449175d90458bea55, type: 3}
---- !u!4 &6218086692900261092 stripped
+--- !u!4 &2801812176214790940 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: ce09aba98a24fc8449175d90458bea55,
     type: 3}
