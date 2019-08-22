@@ -32,5 +32,5 @@ MonoBehaviour:
   - count: 4
     variants:
     - path: entities/item/wires
-    consumable: 0
+    consumable: 1
   dependencies: []
