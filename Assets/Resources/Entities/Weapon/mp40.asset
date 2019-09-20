@@ -16,7 +16,7 @@ MonoBehaviour:
     path: Entities/Weapon/weapon models/mp40/mp40_icon
   m_Localization: weapon.mp40
   Takeable: 1
-  Cost: 3760
+  Cost: 3675
   Weight: 4800
   Collectable: 0
   Modifiers: []
@@ -68,7 +68,7 @@ MonoBehaviour:
   Effects: []
   Requirements:
   - _type: 1
-    _value: 6
+    _value: 5
   - _type: 8
     _value: 70
   NoAmmoSounds:

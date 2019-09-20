@@ -16,7 +16,7 @@ MonoBehaviour:
     path: Entities/Weapon/weapon models/Amd65/amd65N
   m_Localization: weapon.amd65n
   Takeable: 1
-  Cost: 7900
+  Cost: 7080
   Weight: 3120
   Collectable: 0
   Modifiers: []
@@ -27,16 +27,16 @@ MonoBehaviour:
   AmmoCapacity: 30
   BothHands: 1
   Stack: 0
-  DamageMin: 8
-  DamageMax: 21
+  DamageMin: 9
+  DamageMax: 22
   DamageRadius: 1
   Fatality: 20
-  Perks: 16
+  Perks: 32784
   PerksEx: 0
   DamageType: 0
   Single:
-    AP: 4
-    Range: 17
+    AP: 5
+    Range: 18
     Shots: 1
     Dispersion: 0
     ModeType: 0
@@ -44,7 +44,7 @@ MonoBehaviour:
     - path: Entities/Weapon/weapon models/PMmd65/pmmd65
   Aimed:
     AP: 5
-    Range: 21
+    Range: 18
     Shots: 1
     Dispersion: 0
     ModeType: 0

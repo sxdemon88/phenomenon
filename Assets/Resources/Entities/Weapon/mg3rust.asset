@@ -20,22 +20,23 @@ MonoBehaviour:
   Weight: 11500
   Collectable: 0
   Modifiers: []
+  HasModel: 1
   weaponType: 9
   Ammo:
     path: entities/ammo/7_62mm_jhp
   AmmoCapacity: 100
   BothHands: 1
   Stack: 0
-  DamageMin: 4
-  DamageMax: 11
+  DamageMin: 5
+  DamageMax: 16
   DamageRadius: 1
-  Fatality: 5
+  Fatality: 15
   Perks: 2048
   PerksEx: 0
   DamageType: 0
   Single:
     AP: 7
-    Range: 14
+    Range: 16
     Shots: 7
     Dispersion: 5
     ModeType: 10
@@ -52,12 +53,12 @@ MonoBehaviour:
     AP: 8
     Range: 14
     Shots: 15
-    Dispersion: 6
+    Dispersion: 5
     ModeType: 10
     Sounds:
     - path: Entities/Weapon/weapon models/mg3/MG3_SHOT_3
   Reload:
-    AP: 6
+    AP: 4
     Range: 0
     Shots: 0
     Dispersion: 0
@@ -67,9 +68,11 @@ MonoBehaviour:
   Effects: []
   Requirements:
   - _type: 1
-    _value: 6
+    _value: 9
   - _type: 10
     _value: 60
+  - _type: 2
+    _value: 7
   NoAmmoSounds:
   - path: Sounds/SFX/Weapons/m249/m249_empty
   PreAttackSounds: []

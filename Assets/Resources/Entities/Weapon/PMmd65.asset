@@ -16,7 +16,7 @@ MonoBehaviour:
     path: Entities/Weapon/weapon models/PMmd65/PMmd65
   m_Localization: weapon.pmmd65
   Takeable: 1
-  Cost: 7100
+  Cost: 7290
   Weight: 3600
   Collectable: 0
   Modifiers: []
@@ -27,15 +27,15 @@ MonoBehaviour:
   AmmoCapacity: 30
   BothHands: 1
   Stack: 0
-  DamageMin: 8
-  DamageMax: 21
+  DamageMin: 10
+  DamageMax: 22
   DamageRadius: 1
   Fatality: 15
-  Perks: 16
+  Perks: 32784
   PerksEx: 0
   DamageType: 0
   Single:
-    AP: 4
+    AP: 5
     Range: 18
     Shots: 1
     Dispersion: 0
@@ -44,17 +44,17 @@ MonoBehaviour:
     - path: Entities/Weapon/weapon models/PMmd65/pmmd65
   Aimed:
     AP: 6
-    Range: 22
+    Range: 18
     Shots: 1
     Dispersion: 1
     ModeType: 0
     Sounds:
     - path: Entities/Weapon/weapon models/PMmd65/pmmd65
   Burst:
-    AP: 7
+    AP: 6
     Range: 18
     Shots: 3
-    Dispersion: 4
+    Dispersion: 3
     ModeType: 0
     Sounds:
     - path: Entities/Weapon/weapon models/PMmd65/pmmd65

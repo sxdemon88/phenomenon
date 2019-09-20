@@ -16,7 +16,7 @@ MonoBehaviour:
     path: Entities/Weapon/weapon models/mp40/mp40_RUST_icon
   m_Localization: weapon.mp40rust
   Takeable: 1
-  Cost: 1200
+  Cost: 402
   Weight: 4800
   Collectable: 0
   Modifiers: []
@@ -51,9 +51,9 @@ MonoBehaviour:
     Sounds: []
   Burst:
     AP: 6
-    Range: 9
+    Range: 10
     Shots: 6
-    Dispersion: 3
+    Dispersion: 2
     ModeType: 9
     Sounds:
     - path: Entities/Weapon/weapon models/mp40/MP40_SHOOT
@@ -68,7 +68,7 @@ MonoBehaviour:
   Effects: []
   Requirements:
   - _type: 1
-    _value: 4
+    _value: 5
   - _type: 8
     _value: 50
   NoAmmoSounds:

@@ -16,10 +16,11 @@ MonoBehaviour:
     path: Entities/Weapon/weapon models/SVU/SVU
   m_Localization: weapon.svu
   Takeable: 1
-  Cost: 10360
-  Weight: 5600
+  Cost: 12690
+  Weight: 5900
   Collectable: 0
   Modifiers: []
+  HasModel: 1
   weaponType: 2
   Ammo:
     path: entities/ammo/7mm_54r
@@ -67,9 +68,11 @@ MonoBehaviour:
   Effects: []
   Requirements:
   - _type: 1
-    _value: 7
+    _value: 5
   - _type: 9
     _value: 100
+  - _type: 2
+    _value: 4
   NoAmmoSounds:
   - path: Sounds/SFX/Weapons/M24/m24_empty
   PreAttackSounds: []

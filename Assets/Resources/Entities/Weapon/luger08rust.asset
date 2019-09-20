@@ -16,7 +16,7 @@ MonoBehaviour:
     path: Entities/Weapon/weapon models/Luger_P08/luggerp08rust
   m_Localization: weapon.luger08rust
   Takeable: 1
-  Cost: 700
+  Cost: 149
   Weight: 880
   Collectable: 0
   Modifiers: []
@@ -36,7 +36,7 @@ MonoBehaviour:
   DamageType: 0
   Single:
     AP: 3
-    Range: 12
+    Range: 10
     Shots: 1
     Dispersion: 0
     ModeType: 0
@@ -44,7 +44,7 @@ MonoBehaviour:
     - path: Entities/Weapon/weapon models/Luger_P08/LUGER
   Aimed:
     AP: 4
-    Range: 13
+    Range: 10
     Shots: 1
     Dispersion: 1
     ModeType: 0
@@ -58,7 +58,7 @@ MonoBehaviour:
     ModeType: 0
     Sounds: []
   Reload:
-    AP: 3
+    AP: 2
     Range: 0
     Shots: 0
     Dispersion: 0
@@ -68,7 +68,7 @@ MonoBehaviour:
   Effects: []
   Requirements:
   - _type: 1
-    _value: 5
+    _value: 3
   - _type: 8
     _value: 70
   NoAmmoSounds:

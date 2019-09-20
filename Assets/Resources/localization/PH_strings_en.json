@@ -1,452 +1,450 @@
-{
-  "ammo": {
-    "energy": {
-      "short": "Charge",
-      "full": "Charge"
-    }
-  },
-  "character": {
-    "ant10": {
-      "short": "Myrmic-soldier",
-      "full": "Myrmic-soldier"
-    },
-    "ant5": {
-      "short": "Myrmic-worker",
-      "full": "Myrmic-worker"
-    },
-    "bear_10": {
-      "short": "Bear mutant",
-      "full": "Bear mutant"
-    },
-    "bear_20": {
-      "short": "Full-grown bear",
-      "full": "Full-grown bear"
-    },
-    "bear_5": {
-      "short": "Young bear",
-      "full": "Young bear"
-    },
-    "bumblebee10": {
-      "short": "Scolia-soldier",
-      "full": "Scolia-soldier"
-    },
-    "bumblebee5": {
-      "short": "Scolia-mutant",
-      "full": "Scolia-mutant"
-    },
-    "deinodonte20": {
-      "short": "Grown morlock",
-      "full": "Grown morlock"
-    },
-    "devourer20": {
-      "short": "Blind Horror",
-      "full": "Blind Horror"
-    },
-    "spider_big5": {
-      "short": "Nimble spider",
-      "full": "Nimble spider"
-    },
-    "farmer1": {
-      "short": "Farmer",
-      "full": "Farmer"
-    },
-    "big_giantrat_rad": {
-      "short": "Huge rat-mutant",
-      "full": "Huge rat-mutant"
-    },
-    "lacodon10": {
-      "short": "Evil Bloodroot",
-      "full": "Evil Bloodroot"
-    },
-    "lacodon5": {
-      "short": "Fast Bloodroot",
-      "full": "Fast Bloodroot"
-    },
-    "lizard20": {
-      "short": "Dangerous demon",
-      "full": "Dangerous demon"
-    },
-    "lizard_small20": {
-      "short": "Mutant demon",
-      "full": "Mutant demon"
-    },
-    "mole_10": {
-      "short": "Bug-mutant",
-      "full": "Bug-mutant"
-    },
-    "moleking_20": {
-      "short": "Queen-mutant",
-      "full": "Queen-mutant"
-    },
-    "ph_bandit": {
-      "short": "Bandit",
-      "full": "Bandit"
-    },
-    "ph_bandit_14": {
-      "short": "Bandit",
-      "full": "Bandit"
-    },
-    "ph_bandit_21": {
-      "short": "Bandit",
-      "full": "Bandit"
-    },
-    "ph_bandit_3": {
-      "short": "Bandit",
-      "full": "Bandit"
-    },
-    "ph_bandit_7": {
-      "short": "Bandit",
-      "full": "Bandit"
-    },
-    "ph_caravan_1": {
-      "short": "Trader",
-      "full": "Alexander"
-    },
-    "ph_caravan_2": {
-      "short": "Trader",
-      "full": "Bogdan"
-    },
-    "ph_caravan_guard": {
-      "short": "Guard",
-      "full": "Guard"
-    },
-    "stalker1": {
-      "short": "Hunter",
-      "full": "Hunter"
-    },
-    "stalkertrader": {
-      "short": "Older hunter",
-      "full": "Older hunter"
-    }
-  },
-  "weapon": {
-    "ak47tactic": {
-      "         short": "AKM",
-      "full": "Foreign copy of the Soviet AKM of the sample of 1959, with the workings of foreign specialists. The case is made of steel and impact-resistant plastic. Materials from foreign rifles were used in its creation. It is supplied by traders from Europe."
-    },
-    "beretta": {
-      "         short": "Beretta 92",
-      "full": "A family of self-loading pistols, developed in 1972 by Carlo Beretta, Giuseppe Mazetti and Vittorio Valle - the most experienced firearms masters from the Italian company Beretta. A 9 mm Beretta 92F pistol was replaced by a 45-caliber M1911 pistol as a standard US Army pistol with the designation M9."
-    },
-    "crossbow1": {
-      "         short": "Military Crossbow",
-      "full": "Crossbow designed for military special forces. Delivered by traders from Europe."
-    },
-    "crossbow2": {
-      "         short": "Hunting crossbow",
-      "full": "The crossbow used in game hunting for all kinds of animals. The country of production is unknown."
-    },
-    "dp_28": {
-      "         short": "DP-28",
-      "full": "A handgun developed by Vasily Alekseevich Degtyarev. The DP was one of the first models of small arms created in the USSR."
-    },
-    "mg3": {
-      "short": "MG 3",
-      "full": "German single machine gun. It is an improved version of the MG 42 machine gun. People's craftsmen remade for the mass cartridge."
-    },
-    "mg34_lmg": {
-      "short": "MG 34",
-      "full": "A German single machine gun from the time of the Second World War. It was developed by the German company Rheinmetall-Borsig AG at the request of the Wehrmacht. In the USSR, it fell in huge numbers after the war. It was remade by popular craftsmen for the mass cartridge 7.62."
-    },
-    "mp40": {
-      "short": "MP 40",
-      "full": "The submachine gun developed by Heinrich Vollmer on the basis of the earlier MP 38 and used as a personal weapon. It was in service with the Wehrmacht during World War II. In the USSR, it was in large quantities in warehouses."
-    },
-    "svu": {
-      "short": "SVU",
-      "full": "The development of a shortened sniper rifle based on the SVD designed for airborne troops began at TsKIB SOO since the 1970s. In parts of the airborne troops, the first samples of the new sniper rifle, designated as SVU or OTs-03 (sample TsKIB third), were demonstrated in 1979. At the time of 1986 it was released in limited edition for special services."
-    },
-    "amd65": {
-      "short": "Handicraft Amd-65",
-      "full": "The Hungarian copy of a Kalashnikov for motorized infanty and airborne forces. On a handguard there is the front handle installed for convenience of firing in short and long bursts. The people's craftsmen deprived the automatic machine of a folding butt and removed single fire, having turned it into the killing tool for close quarters combat. It is adapted for 5.45."
-    },
-    "amd65n": {
-      "short": "Amd-65",
-      "full": "The Hungarian copy of a Kalashnikov for motorized infantry and airborne forces. On a handguard there is the front handle installed for convenience of firing in short and long bursts."
-    },
-    "dp_28rust": {
-      "short": "Rusty DP-28",
-      "full": "Rusty machine gun. Perhaps, just a waste of cartridges, but this will kill an elephant, in skillful hands."
-    },
-    "fg42": {
-      "short": "FG-42",
-      "full": "Rifle of the airborne troops of a 1942 sample. After World War II thousands of salvaged FG-42 were brought to the USSR, and after the Third were plundered by stalkers from RAV warehouses. Handymen remade a rifle for an intermediate Soviet cartridge, and because of a lack of cartridges and complexity of their production, transferred it to feed from integrated cartridge for which fast filling holders from SKS are used."
-    },
-    "g43": {
-      "short": "G-43 (Gewehr 43)",
-      "full": "The German autoloading rifle, used in World War II. G-43 is modification of earlier Gewehr 41 rifle with the changed exhaust system similar to that at the Soviet SVT-40 rifle. It is adapted for a mass cartridge."
-    },
-    "g43s": {
-      "short": "G-43 (Gewehr 43) with a sight",
-      "full": "The German autoloading rifle with a sight, used in  World War II. G-43 is modification of earlier Gewehr 41 rifle with the changed exhaust system similar to that at the Soviet SVT-40 rifle. It is adapted for a mass cartridge."
-    },
-    "luger08": {
-      "short": "Lugger",
-      "full": "The legendary German gun, used in World War II. Lugger appeared in huge quantities in RAV warehouses as a trophy. After Third war, was remade for the Pmovsky cartridge 9х18 for unification and cartridges."
-    },
-    "luger08rust": {
-      "short": "Rusty Lugger",
-      "full": "Rusty German gun of World War II."
-    },
-    "m76": {
-      "short": "Outpost M76",
-      "full": "The sniper rifle developed in Yugoslavia on the basis of a Kalashnikov is adapted for 7.62 × 54 mm"
-    },
-    "mg34_lmgrust": {
-      "short": "Rusty MG-34",
-      "full": "Rusty machine gun. Perhaps waste of cartridges, but can kill an elephant, in skillful hands."
-    },
-    "mg3rust": {
-      "short": "Rusty MG-3",
-      "full": "Rusty machine gun. Perhaps waste of cartridges, but can kill an elephant, in skillful hands."
-    },
-    "mp40rust": {
-      "short": "Rusty MP-40",
-      "full": "Rusty echo of World War II."
-    },
-    "oc2": {
-      "short": "OTs-02 «Cypress»",
-      "full": "The submachine gun developed in 1972 by request of the Ministry of Defence of the USSR (ROC «Bush») by designers of TsKIB SOO of Tula N.M. Afanasyev, D.P. Pleshkov and N.V. Trukhachev. The layout scheme of the Czechoslovak Scorpion Vz submachine gun was taken as a basis. 61 samples of 1961."
-    },
-    "pmmd63": {
-      "short": "PM md. 63",
-      "full": "Romanian copy of the Soviet AKMA. In a pursuit of comfort Romanians changed a standard handguard, having integrated into it the handle and by that having increased convenience of firing. Among military the handle got a playful nickname of donkey-Dong."
-    },
-    "pmmd65": {
-      "short": "PM md. 65",
-      "full": "Romanian copy of the Soviet AKMA. 1965 variant, The only difference from md 63 is the metal butt and form of the front handle which is curved backwards, not forward."
-    },
-    "stg44": {
-      "short": "StG 44 (Sturmgewehr 44)",
-      "full": "An echo of World War II in the aftermath of the Third war. The German automatic machine gun remade by handymen for the Soviet intermediate cartridge. Fans of conspiracy theories call him the primogenitor of joint stock company, however, linear configuration with a returnable spring in a butt and the scheme of dismantling completely corresponds to the American M16."
-    },
-    "stg44rust": {
-      "short": "Rusty STG-44",
-      "full": "Rusty echo of World War II."
-    }
-  },
-  "chest": {
-    "citroe_ type45": {
-      "short": "Citroen type 45",
-      "full": "Citroen type 45"
-    },
-    "gaz66back": {
-      "short": "Gas-66",
-      "full": "Gas-66"
-    }
-  },
-  "consumable": {
-    "petrol": {
-      "short": "Gasoline",
-      "full": "This classical fuel appeared in the Wastes thanks to Central Asian Petrol barons. It is considered rare.",
-      "fail": "You managed to pierce a plastic bottle with gasoline and its invaluable contents poured out on the earth, having soiled your boots..."
-    }
-  },
-  "interactive": {
-    "mymod_level": {
-      "short": "-",
-      "full": "-"
-    }
-  },
-  "item": {
-    "koja": {
-      "short": "Leather",
-      "full": "Well-cut pieces of leather. Can be sold or used in craft.",
-      "fail": "it is spoiled"
-    },
-    "shkurs": {
-      "short": "Fur",
-      "full": "The skin of a dead animal. Can be sold or crafted.",
-      "fail": "it is spoiled"
-    }
-  },
-  "encounter": {
-    "wolfsnights": "You fell into the trap of a wolf pack. A huge pack of wolves is now approaching you.",
-    "spidernights": "You have fallen into a spider's lair. Spiders are coming swiftly towards you.",
-    "bearhigh": "A loud bear roar is heard nearby. You have noticed that bears are rapidly approaching you,",
-    "wolflider": "A wolf pack surrounds you, among them you notice a strange Leader.",
-    "deidont": "Something or someone is approaching you, making very loud sounds as it moves.",
-    "devourer": "You heard the terrible sounds of an unknown animal, and noticed that something was approaching you from the thicket, towards the meeting.",
-    "defence_1": "In the distance, the sounds of gunfire and fighting are heard. Having listened, you can hear the clear cries of people who are asking for help",
-    "fight_6": "You hear the whining sounds of some animals and the terrible roar of a monster",
-    "fight_5": "The sounds of the struggle of wild animals are heard. Having listened, you hear a loud howl and a squeak of mice.",
-    "fight_4": "Surprisingly, you have witnessed wolves hunting their prey.",
-    "fight_3": "Surprisingly, you have witnessed wolves hunting their prey.",
-    "fight_2": "Surprisingly, you have witnessed wolves hunting their prey.",
-    "fight_1": "You heard the sounds of a fight, especially the loud howling of wolves and the bear's roar.",
-    "ratsnights": "You have fallen into a rat trap. A huge number of rats are rapidly approaching you.",
-    "roi": "You have noticed the rapid approach of small shadows from the thicket to you.",
-    "Ants_2": "You have fallen into the Mimrik anthill. A large number of Mimriks are approaching you.",
-    "enter_help": "Help!",
-    "fail_skip_ph": "You did not manage to avoid battle!",
-    "ph_caravan_1": "You have noticed the car with well armed group.",
-    "mole": "You hear as earth beneath you begins to shiver. Agressive bugs get on the surface from all directions.",
-    "defence2": "The cannonade is heard in the distance. Having approached slightly closer, you have noticed that hunters fight for their lives with local fauna.",
-    "lacodon": "You notice strange hillocks in the earth. Suddenly hillocks come to life, similar to huge iguanas with full mouths of poisonous teeth.",
-    "trap_1": "After you leave the city you have noticed that someone watches you. These are local bandits and they quickly get closer to you.",
-    "ph_caravan_2": "You have noticed an old car with a group of armed men.",
-    "defence_2night": "The cannonade is in the distance heard. Having approached slightly closer, you have noticed that hunters fight for their lives with awful monsters.",
-    "Mutashiftnights": "You hear firing, shouts and howling. Probably someone has stumbled upon a pack of wolves",
-    "lizardnights": "At night it becomes too hot in the Dead City. Monsters come out of darkness and close in on to you.",
-    "bigratsnights": "The pack of huge rats attacks you.",
-    "lizardshiftnights": "You hear firing and shouts. Probably someone has run into terrible monsters.",
-    "Mutanights": "The pack of hungry wolves attacks your group.",
-    "bigratshiftnights": "You see as the pack of huge rats attacks shift workers."
-  },
-  "door": {
-  },
-  "memo": {
-    "ph_craft_book1": {
-      "short": "Scheme of stalker backpack",
-      "full": "Detailed pattern of stalker backpack."
-    },
-    "ph_craft_book2": {
-      "short": "Scheme of multiple-purpose backpack",
-      "full": "Detailed pattern of multiple-purpose backpack."
-    },
-    "ph_craft_book2_dog": {
-      "short": "Scheme of backpack for dog",
-      "full": "Detailed pattern of backpack with armor for the pet"
-    },
-    "ph_craft_book3": {
-      "short": "Scheme of marching backpack",
-      "full": "Detailed pattern of marching backpack."
-    }
-  },
-  "uniform": {
-    "armor1": {
-      "short": "Civilian Bulletproof Vest",
-      "full": "Civic armor foreign production. Delivered by merchants from Europe."
-    },
-    "armor1black": {
-      "short": "Civilian Bulletproof Vest (Black)",
-      "full": "The dark version of civilian body armor."
-    },
-    "armor1green": {
-      "short": "Civilian Bulletproof Vest (Green)",
-      "full": "Hunting version of a civilian body armor."
-    },
-    "ctw_armor2": {
-      "short": "Police Vest",
-      "full": "Police bulletproof vest. In a good condition."
-    },
-    "ctw_head_1": {
-      "short": "Pilot's helmet",
-      "full": "Soviet pilot's helmet."
-    },
-    "ctw_head_1rust": {
-      "short": "Rusty pilot's helmet",
-      "full": "Old Soviet helmet of the pilot."
-    },
-    "ctw_head_2": {
-      "short": "Military cap",
-      "full": "Military cap"
-    },
-    "ctw_head_3": {
-      "short": "Old hat",
-      "full": "Very old military cap"
-    },
-    "ctw_head_4": {
-      "short": "Hat style",
-      "full": "Classic hat"
-    },
-    "ctw_light_1": {
-      "short": "Medium Tactical Vest",
-      "full": "Tactical vest with elements of armor. Good capacity and ease of use make it popular."
-    },
-    "ctw_light_2": {
-      "short": "Medium Tactical Vest",
-      "full": "High-tech military vest. Production is somewhere in the Middle East."
-    },
-    "ctw_light_2amer": {
-      "short": "Medium Tactical Vest in camouflage",
-      "full": "The trophy American flag is used in this vest."
-    },
-    "ctw_light_2digital": {
-      "short": "Medium Tactical Vest in camouflage",
-      "full": "The vest uses digital camouflage created in 1984. High efficiency and low profile make it popular among stalkers."
-    },
-    "ctw_light_2snake": {
-      "short": "Medium Tactical Vest in camouflage",
-      "full": "The vest uses gray digital camouflage created in 1984. High efficiency and low profile make it popular among stalkers."
-    },
-    "ctw_light_3": {
-      "short": "Medium Tactical Vest",
-      "full": "Vest of foreign sample of excellent quality. There is basic protection."
-    },
-    "ctw_light_4": {
-      "short": "Light Tactical Vest",
-      "full": "High-quality lightweight vest. Very comfortable and ergonomic."
-    },
-    "ctw_light_5": {
-      "short": "Experimental Armor",
-      "full": "The origin of this armor is unknown. For the first time delivered a merchant from the Middle East. The quality of materials and armor performance is fascinating."
-    },
-    "ctw_light_6": {
-      "short": "Heavy Tactical Vest",
-      "full": "Very roomy, complete with basic body armor."
-    },
-    "ctw_light_7": {
-      "short": "Light Tactical Vest",
-      "full": "It is in great demand among hunters and fishermen. Good capacity and comfortable pockets, what else is needed for a successful campaign."
-    },
-    "gasmass": {
-      "short": "Face-guard",
-      "full": "Protective mask with special points in good condition, delivered by traders from the Middle East."
-    },
-    "tacticshield": {
-      "short": "Metal shield",
-      "full": "Old shockproof shield in good condition, designed for use by special forces of various law enforcement agencies."
-    },
-    "backpack2": {
-      "short": "Stalker backpack",
-      "full": "Popular model at stalkers of a heathland. Say that it brings to the owners good luck."
-    },
-    "backpack3": {
-      "short": "Marching backpack",
-      "full": "Good capacious backpack."
-    },
-    "backpack5": {
-      "short": "Universal backpack",
-      "full": "An excellent backpack for distant travel.",
-      "fail": "The backpack tore"
-    },
-    "dog_backpack": {
-      "short": "Armor with a backpack",
-      "full": "Armor with a backpack for your pet. It is made manually the skilled handyman."
-    },
-    "gasmass1": {
-      "short": "M17 gas mask",
-      "full": "The American gas mask of M17 which is released in 1958. Passed the jungle of Vietnam and still, apparently, smells of napalm. The rare guest in Heathlands as it is delivered in small amounts by dealers from Europe, or remained as a trophy here."
-    },
-    "gasmass2": {
-      "short": "PMK-2",
-      "full": "The latest Soviet gas mask which came to army on the eve of war. In comparison with civil analogs has higher degree of protection and the increased viewing angle that allows to conduct aim firing and to work with optics."
-    },
-    "gasmass3": {
-      "short": "GP-5 gas mask",
-      "full": "Soviet civil gas mask, the best friend of all pioneers and workers. It was made since 1961 in such huge volumes, as now, many years later after war, he can still be met everywhere."
-    },
-    "headpanama": {
-      "short": "Army Afghan",
-      "full": "It was supposed that it can be used for combined socks with a steel helmet. In a popular speech the new headdress began to be called a hat. However, and in the order it was talked of a hat, however it is more preferable to speak about a subtropical helmet because this product it was developed on a sample of the cotton subtropical helmet entered in troops of People's Commissariat for Internal Affairs on December 27, 1935."
-    },
-    "m42": {
-      "short": "Steel M42 helmet",
-      "full": "A steel helmet of a sample of 1942 (German Stahlhelm Modell 42) — the infantry helmet approved as a standard general helmet of armed forces of the Third Reich in the summer of 1942."
-    },
-    "m42_rust": {
-      "short": "Rusty steel M42 helmet",
-      "full": "Rusty steel helmet."
-    }
-  },
-  "explosive": {
-  },
-  "location": {
-    "1": ".1"
-  },
-  "quests": {
-    "ph_trade1_quest": "[Phenomenon] Alexander, the trader, asked you to bring him fuel for his organization. 50 liters should be enough.",
-    "ph_trade2_quest": "[Phenomenon] Bogdan, the trader, asked you for crafting resources, 50 leather and 30 furs. He has many buyers for such things."
-  }
+﻿{
+	"ammo": {
+		"energy": {
+			"short": "Shot",
+			"full": "Shot"
+		}
+	},
+	"character": {
+		"ant10": {
+			"short": "Myrmica soldier",
+			"full": "Myrmica soldier "
+		},
+		"ant5": {
+			"short": "Myrmica worker ",
+			"full": "Myrmica worker "
+		},
+		"bear_10": {
+			"short": "Mutant Bear",
+			"full": "Mutant Bear"
+		},
+		"bear_20": {
+			"short": "Adult Bear",
+			"full": "Adult Bear"
+		},
+		"bear_5": {
+			"short": "Young Bear",
+			"full": "Young Bear"
+		},
+		"bumblebee10": {
+			"short": "Scoliidae soldier",
+			"full": "Scoliidae soldier"
+		},
+		"bumblebee5": {
+			"short": "Mutated Scoliidae",
+			"full": "Mutated Scoliidae"
+		},
+		"deinodonte20": {
+			"short": "Adult Morlock",
+			"full": "Adult Morlock"
+		},
+		"devourer20": {
+			"short": "Blind Horror",
+			"full": "Blind Horror"
+		},
+		"spider_big5": {
+			"short": "Nimble Spider",
+			"full": "Nimble Spider"
+		},
+		"farmer1": {
+			"short": "Farmer",
+			"full": "Farmer"
+		},
+		"big_giantrat_rad": {
+			"short": "Huge Mutated Rat",
+			"full": "Huge Mutated Rat"
+		},
+		"lacodon10": {
+			"short": "Evil Bloodroot",
+			"full": "Evil Bloodroot"
+		},
+		"lacodon5": {
+			"short": "Fast Bloodroot",
+			"full": "Fast Bloodroot"
+		},
+		"lizard20": {
+			"short": "Dangerous Demon",
+			"full": "Dangerous Demon"
+		},
+		"lizard_small20": {
+			"short": "Mutant Demon",
+			"full": "Mutant Demon"
+		},
+		"mole_10": {
+			"short": "Mutated Bug",
+			"full": "Mutated Bug"
+		},
+		"moleking_20": {
+			"short": "Mutated Queen",
+			"full": "Mutated Queen"
+		},
+		"ph_bandit": {
+			"short": "Bandit",
+			"full": "Bandit"
+		},
+		"ph_bandit_14": {
+			"short": "Brigand",
+			"full": "Brigand"
+		},
+		"ph_bandit_21": {
+			"short": "Bandit",
+			"full": "Bandit"
+		},
+		"ph_bandit_3": {
+			"short": "Gangster",
+			"full": "Gangster"
+		},
+		"ph_bandit_7": {
+			"short": "Outlaw",
+			"full": "Outlaw"
+		},
+		"ph_caravan_1": {
+			"short": "Trader",
+			"full": "Alexander"
+		},
+		"ph_caravan_2": {
+			"short": "Trader",
+			"full": "Bogdan"
+		},
+		"ph_caravan_guard": {
+			"short": "Caravan Guard",
+			"full": "Caravan Guard"
+		},
+		"stalker1": {
+			"short": "Hunter",
+			"full": "Hunter"
+		},
+		"stalkertrader": {
+			"short": "Hunter Lead",
+			"full": "Hunter Lead"
+		}
+	},
+	"weapon": {
+		"ak47tactic": {
+			"         short": "AKM",
+			"full": "Modernized variant of the AK-47. The case is made of steel and impact-resistant plastic. Introduced into service with the Soviet Army in 1959"
+		},
+		"beretta": {
+			"         short": "Beretta 92",
+			"full": "The model 92 was designed in 1972 by Carlo Beretta, Giuseppe Mazetti and Vittorio Valle - final design in 1975. A 9 mm Beretta 92F pistol replaced a 45-caliber M1911 pistol as a standard US Army pistol with the designation M9."
+		},
+		"crossbow1": {
+			"         short": "Military Crossbow",
+			"full": "The Crossbow was designed for military special forces. Delivered by traders from Europe."
+		},
+		"crossbow2": {
+			"         short": "Hunting crossbow",
+			"full": "This crossbow is for hunting all kinds of animals. Manufacturer is unknown."
+		},
+		"dp_28": {
+			"         short": "DP-28",
+			"full": "The Degtyaryov machine gun was accepted for Red Army service in 1927 with the official designation DP-27. For reasons that are unclear, it is often called the DP-28. It is possible, since the Soviets generally named equipment referring to the first year of use"
+		},
+		"mg3": {
+			"short": "MG 3",
+			"full": "The MG 3 is a German general-purpose machine gun. The MG 3 was standardized in the late 1950s and adopted into service with the newly formed Bundeswehr. Skilled craftsmen made it to use popular caliber."
+		},
+		"mg34_lmg": {
+			"short": "MG 34",
+			"full": "The Maschinengewehr 34, or MG 34, is a German recoil-operated air-cooled machine gun, first tested in 1929, introduced in 1934, and issued to units in 1936. Appeared in USSR after the WWII. Skilled craftsmen made it to use popular caliber."
+		},
+		"mp40": {
+			"short": "MP 40",
+			"full": "The MP 40 (Maschinenpistole 40) is a submachine gun developed in Nazi Germany and used extensively by the Axis powers vs USSR during World War II."
+		},
+		"svu": {
+			"short": "SVU (OTs-03)",
+			"full": "The OTs-03 SVU (Sniper Rifle Shortened) is a bullpup configuration of the SVD sniper rifle. The SVU was developed to meet the needs of the security forces of the Russian Ministry of Internal Affairs, such as OMON"
+		},
+		"amd65": {
+			"short": "Handicraft Amd-65",
+			"full": "AMD-65 is a Hungarian-manufactured licensed variant of the venerable AKM rifle. Skilled craftsmen removed the folding stock and single fire mode, turned it into the killing tool for close quarters combat. It is adapted for 5.45."
+		},
+		"amd65n": {
+			"short": "Amd-65",
+			"full": "AMD-65 is a Hungarian-manufactured licensed variant of the venerable AKM rifle. Front handle is installed for convenience of firing short and long bursts."
+		},
+		"dp_28rust": {
+			"short": "Rusty DP-28",
+			"full": "Rusty machinegun. Perhaps just a waste of ammo, but in skillful hands this can kill an elephant."
+		},
+		"fg42": {
+			"short": "FG-42",
+			"full": "The FG 42 - paratrooper rifle 42 is a selective-fire automatic rifle produced in Nazi Germany during World War II. After World War II thousands of salvaged FG-42 were brought to the USSR. After the Third World War guns were plundered by stalkers and Handymen remade rifles to shoot Soviet ammo."
+		},
+		"g43": {
+			"short": "G-43 (Gewehr 43)",
+			"full": "The Gewehr 43 is a semi-automatic rifle developed by Germany during World War II. G-43 is modification of earlier Gewehr 41 rifle with the changed exhaust system similar to the Soviet SVT-40 rifle. It is adapted for common ammo type."
+		},
+		"g43s": {
+			"short": "G-43 (Gewehr 43) with a sight",
+			"full": "The Gewehr 43 is a semi-automatic rifle with a developed by Germany during World War II. This particular model has a attached sight and adapted for common ammo type."
+		},
+		"luger08": {
+			"short": "Luger",
+			"full": "The Pistole Parabellum, commonly known as just Luger — is a toggle-locked recoil-operated semi-automatic pistol produced in several models and by several nations from 1898 to 1948. After Third war was adapted for common ammo type."
+		},
+		"luger08rust": {
+			"short": "Rusty Luger",
+			"full": "Rusty German World War II pistol. Was adapted for common ammo type."
+		},
+		"m76": {
+			"short": "Zastava M76",
+			"full": "The Zastava M76 is a military semi-automatic sniper/designated marksman rifle developed and manufactured by Zastava Arms in Yugoslavia."
+		},
+		"mg34_lmgrust": {
+			"short": "Rusty MG-34",
+			"full": "Rusty MG-34 machinegun. Perhaps it's just a waste of ammo, but in skillful hands can kill an elephant."
+		},
+		"mg3rust": {
+			"short": "Rusty MG-3",
+			"full": "Rusty MG-3 machinegun. Perhaps it's just a waste of ammo, but in skillful hands can kill an elephant."
+		},
+		"mp40rust": {
+			"short": "Rusty MP-40",
+			"full": "Rusty echo of World War II."
+		},
+		"oc2": {
+			"short": "OTs-02 Kiparis",
+			"full": "The OTS-02 Kiparis (ОЦ-02 Кипарис, Russian for cypress) submachine gun was designed by the TsKIB SOO design bureau of Tula during the early 1970s but was not introduced into service until 1972. It is primarily intended for internal security and police units."
+		},
+		"pmmd63": {
+			"short": "PM md. 63",
+			"full": "The Pistol Mitraliera model 1963 (abbreviated PM md. 63 or simply md. 63) is Romanian assault rifle patterned after the AKM, and chambered in the 7.62×39mm cartridge. "
+		},
+		"pmmd65": {
+			"short": "PM md. 65",
+			"full": "The Romanian Pistol Mitraliera model 1965 (abbreviated PM md. 65 or simply md. 65) is assault rifle patterned after the AKM.  This is the underfolding-stock version of the md. 63."
+		},
+		"stg44": {
+			"short": "StG 44 (Sturmgewehr 44)",
+			"full": "An echo of World War II in the aftermath of the Third war. The StG 44 is a German selective-fire rifle developed during World War II. It is also known as the MP 43 and MP 44. Remade for the Soviet common ammo. Fans of conspiracy theories call him the primogenitor of AK, however, it's built scheme completely corresponds the American M16."
+		},
+		"stg44rust": {
+			"short": "Rusty STG-44",
+			"full": "Rusty echo of World War II."
+		}
+	},
+	"chest": {
+		"citroe_ type45": {
+			"short": "Citroen type 45",
+			"full": "Citroen type 45"
+		},
+		"gaz66back": {
+			"short": "Gas-66",
+			"full": "Gas-66"
+		}
+	},
+	"consumable": {
+		"petrol": {
+			"short": "Gasoline",
+			"full": "This classical fuel appeared in the Wastes thanks to Central Asian Gas barons. It is considered rare.",
+			"fail": "You managed to damage a plastic bottle and invaluable gas poured on the ground and your boots..."
+		}
+	},
+	"interactive": {
+		"mymod_level": {
+			"short": "-",
+			"full": "-"
+		}
+	},
+	"item": {
+		"koja": {
+			"short": "Leather",
+			"full": "Well-cut pieces of leather. Can be sold or used in craft.",
+			"fail": "Damaged"
+		},
+		"shkurs": {
+			"short": "Fur",
+			"full": "The skin of a dead animal. Can be sold or used in craft.",
+			"fail": "Damaged"
+		}
+	},
+	"encounter": {
+		"wolfsnights": "You fell into the trap of a wolf pack. A huge pack of wolves is now approaching you.",
+		"spidernights": "You have fallen into the spider's lair. Spiders are coming close!",
+		"bearhigh": "You hear a loud bear roar nearby. Finally you noticed that bears are approaching you,",
+		"wolflider": "A wolf pack surrounds you, among them you notice a strange Leader.",
+		"deidont": "Something or someone is approaching you, making very loud sounds as it moves.",
+		"devourer": "You heard the terrible sounds of an unknown animal, and noticed that something was approaching you from the thicket.",
+		"defence_1": "In the distance, the sounds of gunfire and fighting are heard. Having listened, you can hear the clear cries of people who are asking for help",
+		"fight_6": "You hear the whining sounds of some animals and the terrible roar of a monster",
+		"fight_5": "You hear the sounds of the struggle. Having listened, you hear a loud howl and a squeak of mice.",
+		"fight_4": "Surprisingly, you have witnessed wolves hunting their prey.",
+		"fight_3": "Surprisingly, you have witnessed wolves hunting their prey.",
+		"fight_2": "Surprisingly, you have witnessed wolves hunting their prey.",
+		"fight_1": "You heard the sounds of a fight, especially the loud howling of wolves and the bear's roar.",
+		"ratsnights": "You have fallen into a rat trap. A huge number of rats are rapidly approaching you.",
+		"roi": "You have noticed the rapid approach of small shadows from the forest.",
+		"Ants_2": "You have fallen into the Myrmica anthill. A large number of Myrmicas are approaching you.",
+		"enter_help": "Help!",
+		"fail_skip_ph": "You did not manage to avoid battle!",
+		"ph_caravan_1": "You have noticed the car with well armed group.",
+		"mole": "You hear as earth beneath you begins to shiver. Agressive bugs get on the surface from all directions.",
+		"defence2": "The cannonade is heard in the distance. Having approached slightly closer, you have noticed that hunters fight for their lives with local fauna.",
+		"lacodon": "You notice strange hillocks in the earth. Suddenly hillocks come to life, similar to huge iguanas with full mouths of poisonous teeth.",
+		"trap_1": "After you leave the city you have noticed that someone watches you. These are local bandits and they quickly get closer to you.",
+		"ph_caravan_2": "You have noticed an old car with a group of armed men.",
+		"defence_2night": "The cannonade is in the distance heard. Having approached slightly closer, you have noticed that people fight for their lives with awful monsters.",
+		"Mutashiftnights": "You hear firing, shouts and howling. Probably someone has stumbled upon a pack of wolves",
+		"lizardnights": "At night it becomes too hot in the Dead City. Monsters come out of darkness and close in.",
+		"bigratsnights": "The pack of huge rats attacks you.",
+		"lizardshiftnights": "You hear firing and shouts. Probably someone has run into terrible monsters.",
+		"Mutanights": "The pack of hungry wolves attacks.",
+		"bigratshiftnights": "You see as the pack of huge rats attacks shift workers."
+	},
+	"door": {},
+	"memo": {
+		"ph_craft_book1": {
+			"short": "Scheme of stalker backpack",
+			"full": "Detailed pattern of stalker backpack."
+		},
+		"ph_craft_book2": {
+			"short": "Scheme of multi-purpose backpack",
+			"full": "Detailed pattern of multi-purpose backpack."
+		},
+		"ph_craft_book2_dog": {
+			"short": "Scheme of dog backpack",
+			"full": "Detailed pattern of dog backpack with armor for the pet"
+		},
+		"ph_craft_book3": {
+			"short": "Scheme of marching backpack",
+			"full": "Detailed pattern of marching backpack."
+		}
+	},
+	"uniform": {
+		"armor1": {
+			"short": "Civilian Bulletproof Vest",
+			"full": "Civilian armor of foreign production. Delivered by merchants from Europe."
+		},
+		"armor1black": {
+			"short": "Civilian Bulletproof Vest (Black)",
+			"full": "The black color version of civilian body armor."
+		},
+		"armor1green": {
+			"short": "Civilian Bulletproof Vest (Green)",
+			"full": "Hunting version of a civilian body armor."
+		},
+		"ctw_armor2": {
+			"short": "Police Vest",
+			"full": "Police bulletproof vest. In a good condition."
+		},
+		"ctw_head_1": {
+			"short": "Pilot's helmet",
+			"full": "Soviet pilot's helmet."
+		},
+		"ctw_head_1rust": {
+			"short": "Rusty pilot's helmet",
+			"full": "Rusty Soviet helmet of the pilot."
+		},
+		"ctw_head_2": {
+			"short": "Military cap",
+			"full": "Military cap"
+		},
+		"ctw_head_3": {
+			"short": "Old hat",
+			"full": "Very old military cap"
+		},
+		"ctw_head_4": {
+			"short": "Stylish Hat",
+			"full": "Classic hat"
+		},
+		"ctw_light_1": {
+			"short": "Medium Tactical Vest",
+			"full": "Tactical vest with elements of armor. Good capacity and ease of use make it popular."
+		},
+		"ctw_light_2": {
+			"short": "Medium Tactical Vest",
+			"full": "High-tech military vest. Production is somewhere in the Middle East."
+		},
+		"ctw_light_2amer": {
+			"short": "Camouflaged Medium Tactical Vest",
+			"full": "Captured as a trophy American flag is used in this vest."
+		},
+		"ctw_light_2digital": {
+			"short": "Camouflaged Medium Tactical Vest",
+			"full": "The vest uses digital camouflage created in 1984. High efficiency and low profile make it popular among stalkers."
+		},
+		"ctw_light_2snake": {
+			"short": "Camouflaged Medium Tactical Vest",
+			"full": "The vest uses gray digital camouflage created in 1984. High efficiency and low profile make it popular among stalkers."
+		},
+		"ctw_light_3": {
+			"short": "Medium Tactical Vest",
+			"full": "Vest of foreign production of excellent quality. There is a basic protection."
+		},
+		"ctw_light_4": {
+			"short": "Light Tactical Vest",
+			"full": "High-quality lightweight vest. Very comfortable and ergonomic."
+		},
+		"ctw_light_5": {
+			"short": "Experimental Armor",
+			"full": "The origin of this armor is unknown. For the first time was delivered by a merchant from the Middle East. The quality of materials and armor performance is fascinating."
+		},
+		"ctw_light_6": {
+			"short": "Heavy Tactical Vest",
+			"full": "Very versatile, completed with basic body armor."
+		},
+		"ctw_light_7": {
+			"short": "Light Tactical Vest",
+			"full": "It is in great demand among hunters and fishermen. Good capacity and comfortable pockets, what else is needed?"
+		},
+		"gasmass": {
+			"short": "Face-guard mask",
+			"full": "Protective mask with goggles in good condition, delivered by traders from the Middle East."
+		},
+		"tacticshield": {
+			"short": "Metal shield",
+			"full": "Old shockproof shield in good condition, designed for use by special forces of various law enforcement agencies."
+		},
+		"backpack2": {
+			"short": "Stalker backpack",
+			"full": "Popular model among wasteland stalkers. They say that it brings good luck."
+		},
+		"backpack3": {
+			"short": "Marching backpack",
+			"full": "Good capacity backpack."
+		},
+		"backpack5": {
+			"short": "Universal backpack",
+			"full": "An excellent backpack for distant travels.",
+			"fail": "The backpack tore"
+		},
+		"dog_backpack": {
+			"short": "Armor with a backpack",
+			"full": "Armor with a backpack for your pet. It is hand made."
+		},
+		"gasmass1": {
+			"short": "M17 gas mask",
+			"full": "The American M17 gas mask was released in 1958. Passed the Vietnam jungle and still, apparently, smells of napalm. The rare guest in Wastelands as it was delivered in small amounts by dealers from Europe, or remained as a trophy here."
+		},
+		"gasmass2": {
+			"short": "PMK-2",
+			"full": "The latest Soviet gas mask which came to the army on the eve of war. In comparison with civil analogs has higher degree of protection and the increased viewing angle that allows easy firing with weapons sights."
+		},
+		"gasmass3": {
+			"short": "GP-5 gas mask",
+			"full": "Soviet civilian gas mask, the best friend of all pioneers and workers. It was made since 1961 in such huge volumes, and now, many years after the war, it can still be found everywhere."
+		},
+		"headpanama": {
+			"short": "Army Afghan hat",
+			"full": "It was supposed to be used combined with a steel helmet. Then it was widespread named Panama. However it is more preferable to speak of a subtropical helmet because this product was developed on a sample of the 1935 cotton NKVD subtropical helmet."
+		},
+		"m42": {
+			"short": "M42 Steel helmet",
+			"full": "A German steel helmet created in 1942 (Stahlhelm Modell 42) — the infantry helmet approved as a standard general helmet for armed forces of the Third Reich in the summer of 1942."
+		},
+		"m42_rust": {
+			"short": "Rusty M42 steel helmet",
+			"full": "Rusty M42 steel helmet. Rusty German steel helmet created in 1942."
+		}
+	},
+	"explosive": {},
+	"location": {
+		"1": ".1"
+	},
+	"quests": {
+		"ph_trade1_quest": "[Phenomenon] Alexander, the trader, asked you to bring him fuel. 50 liters should be enough.",
+		"ph_trade2_quest": "[Phenomenon] Bogdan, the trader, asked you for crafting resources, 50 leather and 30 furs. He has many buyers for these products."
+	}
 }

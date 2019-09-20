@@ -16,7 +16,7 @@ MonoBehaviour:
     path: Entities/Weapon/weapon models/G-43/g43_icon2
   m_Localization: weapon.g43
   Takeable: 1
-  Cost: 3400
+  Cost: 7590
   Weight: 4300
   Collectable: 0
   Modifiers: []
@@ -36,7 +36,7 @@ MonoBehaviour:
   DamageType: 0
   Single:
     AP: 5
-    Range: 22
+    Range: 20
     Shots: 1
     Dispersion: 0
     ModeType: 0
@@ -44,7 +44,7 @@ MonoBehaviour:
     - path: Entities/Weapon/weapon models/G-43/G43
   Aimed:
     AP: 6
-    Range: 22
+    Range: 20
     Shots: 1
     Dispersion: 0
     ModeType: 0
@@ -68,7 +68,7 @@ MonoBehaviour:
   Effects: []
   Requirements:
   - _type: 1
-    _value: 6
+    _value: 5
   - _type: 9
     _value: 78
   NoAmmoSounds:

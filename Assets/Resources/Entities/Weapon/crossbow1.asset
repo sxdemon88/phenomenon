@@ -16,7 +16,7 @@ MonoBehaviour:
     path: Entities/Weapon/weapon models/crossbow1/crossbow1_icon
   m_Localization: weapon.crossbow1
   Takeable: 1
-  Cost: 1200
+  Cost: 7958
   Weight: 3460
   Collectable: 0
   Modifiers: []
@@ -27,16 +27,16 @@ MonoBehaviour:
   AmmoCapacity: 1
   BothHands: 1
   Stack: 0
-  DamageMin: 11
-  DamageMax: 21
+  DamageMin: 14
+  DamageMax: 23
   DamageRadius: 1
   Fatality: 20
-  Perks: 294928
+  Perks: 294930
   PerksEx: 0
   DamageType: 0
   Single:
     AP: 4
-    Range: 15
+    Range: 16
     Shots: 1
     Dispersion: 0
     ModeType: 0
@@ -58,7 +58,7 @@ MonoBehaviour:
     ModeType: 0
     Sounds: []
   Reload:
-    AP: 4
+    AP: 3
     Range: 0
     Shots: 0
     Dispersion: 0
@@ -68,7 +68,7 @@ MonoBehaviour:
   Effects: []
   Requirements:
   - _type: 1
-    _value: 6
+    _value: 4
   - _type: 13
     _value: 80
   NoAmmoSounds:

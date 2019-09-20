@@ -16,10 +16,11 @@ MonoBehaviour:
     path: Entities/Weapon/weapon models/m76/m76
   m_Localization: weapon.m76
   Takeable: 1
-  Cost: 11350
+  Cost: 11760
   Weight: 4400
   Collectable: 0
   Modifiers: []
+  HasModel: 1
   weaponType: 2
   Ammo:
     path: entities/ammo/7mm_54r
@@ -27,7 +28,7 @@ MonoBehaviour:
   BothHands: 1
   Stack: 0
   DamageMin: 12
-  DamageMax: 23
+  DamageMax: 22
   DamageRadius: 1
   Fatality: 25
   Perks: 1073742850
@@ -67,7 +68,7 @@ MonoBehaviour:
   Effects: []
   Requirements:
   - _type: 1
-    _value: 7
+    _value: 5
   - _type: 9
     _value: 90
   NoAmmoSounds:

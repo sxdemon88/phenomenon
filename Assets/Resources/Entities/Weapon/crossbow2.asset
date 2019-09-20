@@ -16,8 +16,8 @@ MonoBehaviour:
     path: Entities/Weapon/weapon models/crossbow2/Crossbow2_icon
   m_Localization: weapon.crossbow2
   Takeable: 1
-  Cost: 200
-  Weight: 3000
+  Cost: 2629
+  Weight: 3126
   Collectable: 0
   Modifiers: []
   HasModel: 1
@@ -31,12 +31,12 @@ MonoBehaviour:
   DamageMax: 15
   DamageRadius: 1
   Fatality: 10
-  Perks: 32768
+  Perks: 671121412
   PerksEx: 0
   DamageType: 0
   Single:
     AP: 3
-    Range: 10
+    Range: 11
     Shots: 1
     Dispersion: 0
     ModeType: 0
@@ -44,7 +44,7 @@ MonoBehaviour:
     - path: Sounds/SFX/Weapons/Crossbow/crossbow_shoot2
   Aimed:
     AP: 4
-    Range: 10
+    Range: 11
     Shots: 1
     Dispersion: 0
     ModeType: 0
@@ -58,7 +58,7 @@ MonoBehaviour:
     ModeType: 0
     Sounds: []
   Reload:
-    AP: 3
+    AP: 2
     Range: 0
     Shots: 0
     Dispersion: 0
@@ -68,7 +68,7 @@ MonoBehaviour:
   Effects: []
   Requirements:
   - _type: 1
-    _value: 5
+    _value: 4
   - _type: 13
     _value: 55
   NoAmmoSounds:

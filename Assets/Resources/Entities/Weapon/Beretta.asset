@@ -16,7 +16,7 @@ MonoBehaviour:
     path: Entities/Weapon/weapon models/Beretta/beretta_90_icon
   m_Localization: weapon.beretta
   Takeable: 1
-  Cost: 1430
+  Cost: 2170
   Weight: 950
   Collectable: 0
   Modifiers: []
@@ -36,7 +36,7 @@ MonoBehaviour:
   DamageType: 0
   Single:
     AP: 4
-    Range: 14
+    Range: 13
     Shots: 1
     Dispersion: 0
     ModeType: 0
@@ -44,7 +44,7 @@ MonoBehaviour:
     - path: Entities/Weapon/weapon models/Beretta/BERETTA 92 FS
   Aimed:
     AP: 5
-    Range: 14
+    Range: 13
     Shots: 1
     Dispersion: 0
     ModeType: 0
@@ -68,7 +68,7 @@ MonoBehaviour:
   Effects: []
   Requirements:
   - _type: 1
-    _value: 5
+    _value: 3
   - _type: 8
     _value: 80
   NoAmmoSounds:

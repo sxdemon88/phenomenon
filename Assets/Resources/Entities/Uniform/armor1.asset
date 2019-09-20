@@ -28,8 +28,6 @@ MonoBehaviour:
     _value: 4
   - _type: 22
     _value: 5
-  - _type: 40
-    _value: 4
   - _type: 28
     _value: 2000
   UniformType: 1
@@ -38,3 +36,9 @@ MonoBehaviour:
   rules: []
   rulesEx: 0
   Perks: 0
+  ClothesForMale:
+    path: 
+  ClothesForFemale:
+    path: 
+  EquipIcon:
+    path: 

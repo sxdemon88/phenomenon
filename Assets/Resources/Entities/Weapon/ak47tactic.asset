@@ -16,7 +16,7 @@ MonoBehaviour:
     path: Entities/Weapon/weapon models/ak47tactic/ak_tactical_icon
   m_Localization: weapon.ak47tactic
   Takeable: 1
-  Cost: 9130
+  Cost: 9000
   Weight: 3150
   Collectable: 0
   Modifiers: []
@@ -31,12 +31,12 @@ MonoBehaviour:
   DamageMax: 23
   DamageRadius: 1
   Fatality: 20
-  Perks: 134217744
+  Perks: 134250512
   PerksEx: 0
   DamageType: 0
   Single:
     AP: 5
-    Range: 18
+    Range: 20
     Shots: 1
     Dispersion: 0
     ModeType: 0
@@ -44,7 +44,7 @@ MonoBehaviour:
     - path: Sounds/SFX/Weapons/AK47/ak47_fp
   Aimed:
     AP: 6
-    Range: 22
+    Range: 20
     Shots: 1
     Dispersion: 0
     ModeType: 0
@@ -69,7 +69,7 @@ MonoBehaviour:
   Effects: []
   Requirements:
   - _type: 1
-    _value: 5
+    _value: 4
   - _type: 10
     _value: 80
   NoAmmoSounds:
