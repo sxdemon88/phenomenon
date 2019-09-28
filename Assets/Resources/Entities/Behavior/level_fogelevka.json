@@ -18,6 +18,7 @@
          }, 
          "child" : [ 
             "4967df38-9447-48e1-bd28-e6aec99beca7", 
+            "5a65214b-fb9e-485a-baa7-8ebaa8f1b4fd", 
             "78bc2798-46f2-468a-aaa4-4c600b6ca7bd", 
             "d4863d51-4686-47a7-8fed-f148323cc83b", 
             "2882e6d8-1f81-42b8-822f-7ae96c2b0514", 
@@ -25,7 +26,8 @@
             "bc2b7d83-8491-45b0-838d-e342f4429f9b", 
             "43ce25a8-696b-48e8-9042-3574b85bf38b", 
             "d3d4cdb1-266d-477d-816c-0e8bdcfade9f", 
-            "a27c76a5-31db-4f5f-9fc3-081a8fb61782"
+            "a27c76a5-31db-4f5f-9fc3-081a8fb61782", 
+            "abb2af27-c075-4306-b8ea-51225b1f2a80"
          ]
       }, 
       "4967df38-9447-48e1-bd28-e6aec99beca7" : { 
@@ -602,15 +604,100 @@
             "proto" : "FogelevkaZil"
          }
       }, 
+      "5a65214b-fb9e-485a-baa7-8ebaa8f1b4fd" : { 
+         "class" : "CharacterKillEventNode", 
+         "desc" : { 
+            "x" : "-101626", 
+            "y" : "-100842"
+         }, 
+         "child" : [ 
+            "1875f26f-8a90-4e0f-be08-f106039de302"
+         ], 
+         "targetName" : "Fogelevka_Tofik", 
+         "targetFractionName" : ""
+      }, 
+      "1875f26f-8a90-4e0f-be08-f106039de302" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102163", 
+            "y" : "-99486"
+         }, 
+         "child" : [ 
+            "e784dd98-213d-492a-ab17-72014c39f7a4"
+         ]
+      }, 
+      "e784dd98-213d-492a-ab17-72014c39f7a4" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-102197", 
+            "y" : "-99445"
+         }, 
+         "child" : [ 
+            "4b9e1ab7-d964-4689-b6a2-9e59c7e4c03d"
+         ], 
+         "note_key" : "FOGELEVKA_TOFIK_DEAD"
+      }, 
+      "4b9e1ab7-d964-4689-b6a2-9e59c7e4c03d" : { 
+         "class" : "QuestStatusNode", 
+         "desc" : { 
+            "x" : "-101911", 
+            "y" : "-99192"
+         }, 
+         "child" : [ 
+            "bb18bc53-4581-4281-92f0-9b25fbbab5ed", 
+            "c9296c90-edf2-4e94-91f0-3697dcda23a6", 
+            "2b76758e-1b4c-4cbb-8472-66f545c9cfd0"
+         ], 
+         "quest_key" : "CITYSUB.QUEST.TOFIK"
+      }, 
+      "bb18bc53-4581-4281-92f0-9b25fbbab5ed" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-102016", 
+            "y" : "-99103"
+         }, 
+         "child" : [ 
+            "b24b075b-776a-4978-8e43-948e25a2cbf6"
+         ], 
+         "quest_key" : "CITYSUB.QUEST.TOFIK"
+      }, 
+      "b24b075b-776a-4978-8e43-948e25a2cbf6" : { 
+         "class" : "QuestBeginNode", 
+         "desc" : { 
+            "x" : "-102034", 
+            "y" : "-99048"
+         }, 
+         "child" : [ 
+         ], 
+         "quest_key" : "CITYSUB.QUEST.TOFIK.DIED"
+      }, 
+      "c9296c90-edf2-4e94-91f0-3697dcda23a6" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101834", 
+            "y" : "-99066"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "2b76758e-1b4c-4cbb-8472-66f545c9cfd0" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101835", 
+            "y" : "-99105"
+         }, 
+         "child" : [ 
+         ]
+      }, 
       "78bc2798-46f2-468a-aaa4-4c600b6ca7bd" : { 
          "class" : "PlayerLevelOutNode", 
          "desc" : { 
-            "x" : "-101752", 
-            "y" : "-100478"
+            "x" : "-101758", 
+            "y" : "-100447"
          }, 
          "child" : [ 
-            "c44ad01b-8ddd-4dd9-be30-19327a446a4c", 
-            "fcc5e40c-951c-4507-9446-0547d698135f", 
+            "44118ab4-f4b2-4eb7-87df-969df7ac7353", 
+            "a692988b-a4f1-4cbd-95b4-75125e5ad09f", 
             "59d6b7ee-a438-48f6-acb7-c80a5a42ba87", 
             "49a59da6-2c77-458a-9087-37ddebaf16de", 
             "d8b13638-637f-4c67-863f-61164a007ff8", 
@@ -619,25 +706,25 @@
             "b33e8053-a235-461a-916b-322041730dc0"
          ]
       }, 
-      "c44ad01b-8ddd-4dd9-be30-19327a446a4c" : { 
+      "44118ab4-f4b2-4eb7-87df-969df7ac7353" : { 
          "class" : "PlayStateNode", 
          "desc" : { 
-            "x" : "-102077", 
-            "y" : "-100447"
-         }, 
-         "child" : [ 
-         ], 
-         "script" : "Entities/Behavior/ph_trap_event"
-      }, 
-      "fcc5e40c-951c-4507-9446-0547d698135f" : { 
-         "class" : "PlayStateNode", 
-         "desc" : { 
-            "x" : "-102018", 
-            "y" : "-100322"
+            "x" : "-101902", 
+            "y" : "-100312"
          }, 
          "child" : [ 
          ], 
          "script" : "Entities/Behavior/ph_trade_event"
+      }, 
+      "a692988b-a4f1-4cbd-95b4-75125e5ad09f" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-102112", 
+            "y" : "-100391"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/ph_trap_event"
       }, 
       "59d6b7ee-a438-48f6-acb7-c80a5a42ba87" : { 
          "class" : "NotebookHasNoteNode", 
@@ -802,8 +889,8 @@
       "3687b51a-fd67-4031-866b-bc5f6e7f57f0" : { 
          "class" : "ActiveObjectNode", 
          "desc" : { 
-            "x" : "-102133", 
-            "y" : "-99184"
+            "x" : "-102151", 
+            "y" : "-99140"
          }, 
          "child" : [ 
          ], 
@@ -901,15 +988,6 @@
          ], 
          "filterFractionName" : "fogelevka"
       }, 
-      "2b76758e-1b4c-4cbb-8472-66f545c9cfd0" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-101817", 
-            "y" : "-99149"
-         }, 
-         "child" : [ 
-         ]
-      }, 
       "bfe42657-c393-46e3-b79e-238017349a99" : { 
          "class" : "NotebookRemoveNoteNode", 
          "desc" : { 
@@ -920,49 +998,6 @@
             "4b9e1ab7-d964-4689-b6a2-9e59c7e4c03d"
          ], 
          "note_key" : "ZOLOTOY_ENCOUNTER"
-      }, 
-      "4b9e1ab7-d964-4689-b6a2-9e59c7e4c03d" : { 
-         "class" : "QuestStatusNode", 
-         "desc" : { 
-            "x" : "-101893", 
-            "y" : "-99236"
-         }, 
-         "child" : [ 
-            "bb18bc53-4581-4281-92f0-9b25fbbab5ed", 
-            "c9296c90-edf2-4e94-91f0-3697dcda23a6", 
-            "2b76758e-1b4c-4cbb-8472-66f545c9cfd0"
-         ], 
-         "quest_key" : "CITYSUB.QUEST.TOFIK"
-      }, 
-      "bb18bc53-4581-4281-92f0-9b25fbbab5ed" : { 
-         "class" : "QuestDoneNode", 
-         "desc" : { 
-            "x" : "-101998", 
-            "y" : "-99147"
-         }, 
-         "child" : [ 
-            "b24b075b-776a-4978-8e43-948e25a2cbf6"
-         ], 
-         "quest_key" : "CITYSUB.QUEST.TOFIK"
-      }, 
-      "b24b075b-776a-4978-8e43-948e25a2cbf6" : { 
-         "class" : "QuestBeginNode", 
-         "desc" : { 
-            "x" : "-102016", 
-            "y" : "-99092"
-         }, 
-         "child" : [ 
-         ], 
-         "quest_key" : "CITYSUB.QUEST.TOFIK.DIED"
-      }, 
-      "c9296c90-edf2-4e94-91f0-3697dcda23a6" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-101816", 
-            "y" : "-99110"
-         }, 
-         "child" : [ 
-         ]
       }, 
       "de2d07f3-fc89-48ab-b2cb-a6a4d8fedca7" : { 
          "class" : "HasKeywordNode", 
@@ -999,8 +1034,8 @@
       "4ea73771-244e-4a3e-b963-b514b69121b4" : { 
          "class" : "AddKeywordNode", 
          "desc" : { 
-            "x" : "-101657", 
-            "y" : "-99243"
+            "x" : "-101675", 
+            "y" : "-99199"
          }, 
          "child" : [ 
          ], 
@@ -1021,8 +1056,8 @@
       "bf96fac2-30ef-4b83-a18b-0eae7936d6c1" : { 
          "class" : "NotebookAddNoteNode", 
          "desc" : { 
-            "x" : "-101948", 
-            "y" : "-99744"
+            "x" : "-101957", 
+            "y" : "-99746"
          }, 
          "child" : [ 
             "3dc2d8d2-288a-4c7d-8865-7512c47c5b8c"
@@ -2356,6 +2391,104 @@
          "desc" : { 
             "x" : "-98572", 
             "y" : "-99937"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "abb2af27-c075-4306-b8ea-51225b1f2a80" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100723", 
+            "y" : "-100944"
+         }, 
+         "child" : [ 
+            "2de07fd4-1dfd-46f6-981a-c45e3777b2fe"
+         ]
+      }, 
+      "2de07fd4-1dfd-46f6-981a-c45e3777b2fe" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-100782", 
+            "y" : "-100841"
+         }, 
+         "child" : [ 
+            "c15a27cb-3ea0-4dfe-a723-1ff4810db9f3"
+         ], 
+         "key" : "CHECK_FRACTION_NAME", 
+         "value" : "fogelevka"
+      }, 
+      "c15a27cb-3ea0-4dfe-a723-1ff4810db9f3" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-100768", 
+            "y" : "-100770", 
+            "comment" : "поставить машину ГГ, если доступна"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/PlacePobeda"
+      }, 
+      "79ecd298-9a25-4648-b57a-3e6c14a36403" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-100614", 
+            "y" : "-100910"
+         }, 
+         "child" : [ 
+            "2de07fd4-1dfd-46f6-981a-c45e3777b2fe", 
+            "f9856479-2b4b-4195-b974-7a3263e7ec9c"
+         ], 
+         "script" : "Entities/Behavior/Try.Chaos"
+      }, 
+      "f9856479-2b4b-4195-b974-7a3263e7ec9c" : { 
+         "class" : "HasPlayerPerkNode", 
+         "desc" : { 
+            "x" : "-100412", 
+            "y" : "-100829"
+         }, 
+         "child" : [ 
+            "40dc23c1-b9db-4a0f-8c6f-c2e4f3fe5d52", 
+            "34996dc6-ae2e-41ac-bccc-627f593c6c73"
+         ], 
+         "perk" : "Chaos"
+      }, 
+      "40dc23c1-b9db-4a0f-8c6f-c2e4f3fe5d52" : { 
+         "class" : "ObjectCheckNode", 
+         "desc" : { 
+            "x" : "-100477", 
+            "y" : "-100724"
+         }, 
+         "child" : [ 
+            "aac69475-2520-4536-99b4-7859e7b73ecd", 
+            "998980e4-f6b4-4648-9fe7-88fae08bc15b"
+         ], 
+         "objectName" : "Wood_Door_1 (8)"
+      }, 
+      "aac69475-2520-4536-99b4-7859e7b73ecd" : { 
+         "class" : "LockDoorLockerNode", 
+         "desc" : { 
+            "x" : "-100477", 
+            "y" : "-100657"
+         }, 
+         "child" : [ 
+         ], 
+         "lockLevel" : "0", 
+         "objectName" : "Wood_Door_1 (8)"
+      }, 
+      "998980e4-f6b4-4648-9fe7-88fae08bc15b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100399", 
+            "y" : "-100590"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "34996dc6-ae2e-41ac-bccc-627f593c6c73" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100395", 
+            "y" : "-100759"
          }, 
          "child" : [ 
          ]

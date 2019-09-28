@@ -1338,12 +1338,13 @@
       "fdc58b52-edf9-42c3-8f92-ea14e76e84ec" : { 
          "class" : "PlayerLevelOutNode", 
          "desc" : { 
-            "x" : "-101841", 
-            "y" : "-100699"
+            "x" : "-101808", 
+            "y" : "-100768"
          }, 
          "child" : [ 
-            "2e56be6a-cb41-4361-977b-adef1c680532", 
-            "702a5f56-a16f-4c52-9ab2-8770b5387270", 
+            "306298b4-cc63-4da6-a0a7-1ebe7d80c671", 
+            "ed774a19-3868-4dbe-81ac-1a443497dbfc", 
+            "5c25862d-58c5-406d-b194-1f616be03494", 
             "74558227-087e-40d9-8988-41bcd92d7a32", 
             "e54c7822-7106-44bf-93f3-67a15435a56b", 
             "d53519be-1b2a-4655-8396-2d9761c491f1", 
@@ -1351,25 +1352,81 @@
             "f29ebeed-e143-44c6-8253-fc5a2c586b2c"
          ]
       }, 
-      "2e56be6a-cb41-4361-977b-adef1c680532" : { 
+      "306298b4-cc63-4da6-a0a7-1ebe7d80c671" : { 
          "class" : "PlayStateNode", 
          "desc" : { 
-            "x" : "-102155", 
-            "y" : "-100649"
+            "x" : "-102053", 
+            "y" : "-100609"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/ph_trap_event"
+      }, 
+      "ed774a19-3868-4dbe-81ac-1a443497dbfc" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-102108", 
+            "y" : "-100692"
          }, 
          "child" : [ 
          ], 
          "script" : "Entities/Behavior/ph_trade_event"
       }, 
-      "702a5f56-a16f-4c52-9ab2-8770b5387270" : { 
-         "class" : "PlayStateNode", 
+      "5c25862d-58c5-406d-b194-1f616be03494" : { 
+         "class" : "NotebookHasNoteNode", 
          "desc" : { 
-            "x" : "-102069", 
-            "y" : "-100576"
+            "x" : "-102644", 
+            "y" : "-100647", 
+            "comment" : "для Максимыча"
+         }, 
+         "child" : [ 
+            "a1c21c0c-6a6e-4afa-88d5-1dca9c453043", 
+            "9819bdb2-05d7-45da-8864-bec2caf3db90"
+         ], 
+         "note_key" : "HARBOR_NEWSTATE"
+      }, 
+      "a1c21c0c-6a6e-4afa-88d5-1dca9c453043" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-102732", 
+            "y" : "-100553", 
+            "comment" : "Максимыч убит"
+         }, 
+         "child" : [ 
+            "91ff18d6-01f8-4021-9940-5e33971cd28d", 
+            "9119306c-1d18-46ec-9d34-9e8bfefdb64d"
+         ], 
+         "note_key" : "HARBOR_SIDE_KILLED"
+      }, 
+      "91ff18d6-01f8-4021-9940-5e33971cd28d" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-102774", 
+            "y" : "-100477", 
+            "comment" : "убрать"
          }, 
          "child" : [ 
          ], 
-         "script" : "Entities/Behavior/ph_trap_event"
+         "objectName" : "Harbor_T7", 
+         "active" : "false"
+      }, 
+      "9119306c-1d18-46ec-9d34-9e8bfefdb64d" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102646", 
+            "y" : "-100473"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "9819bdb2-05d7-45da-8864-bec2caf3db90" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102564", 
+            "y" : "-100525"
+         }, 
+         "child" : [ 
+         ]
       }, 
       "74558227-087e-40d9-8988-41bcd92d7a32" : { 
          "class" : "HasPlayerPerkNode", 
@@ -3038,6 +3095,7 @@
          }, 
          "child" : [ 
             "55d202ba-a993-4896-9b1e-bf9cd0204f3b", 
+            "985d5811-8652-46b5-a4f7-d6a0d2dee607", 
             "2d70d6e0-8f58-4f33-8202-a47127ca6f7d"
          ]
       }, 
@@ -3287,6 +3345,105 @@
             "90da52eb-3018-494a-a828-cfc4266c920e"
          ]
       }, 
+      "985d5811-8652-46b5-a4f7-d6a0d2dee607" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99347", 
+            "y" : "-99433"
+         }, 
+         "child" : [ 
+            "cd86e534-6b6a-4a97-9539-e94d26cf2233", 
+            "1011ab0a-f97b-4760-a670-4683f5f8c808"
+         ]
+      }, 
+      "cd86e534-6b6a-4a97-9539-e94d26cf2233" : { 
+         "class" : "ObjectCheckNode", 
+         "desc" : { 
+            "x" : "-99657", 
+            "y" : "-99343"
+         }, 
+         "child" : [ 
+            "e5868ecc-0afd-47ed-b6ac-8a9862483482", 
+            "9fa56fc9-fd18-4aaf-bdb1-2feed9cd745c"
+         ], 
+         "objectName" : "Karavan.Vehicle_2Spawn.Karavan.Vehicle"
+      }, 
+      "e5868ecc-0afd-47ed-b6ac-8a9862483482" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-99689", 
+            "y" : "-99271"
+         }, 
+         "child" : [ 
+            "ad5748ee-6f9c-4906-81cc-f019ad17ed16"
+         ], 
+         "objectName" : "Karavan.Vehicle_2Spawn.Karavan.Vehicle", 
+         "active" : "false"
+      }, 
+      "ad5748ee-6f9c-4906-81cc-f019ad17ed16" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-99689", 
+            "y" : "-99199"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Karavan.Vehicle_2Spawn.Karavan.Vehicle", 
+         "active" : "true"
+      }, 
+      "9fa56fc9-fd18-4aaf-bdb1-2feed9cd745c" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99487", 
+            "y" : "-99126"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "1011ab0a-f97b-4760-a670-4683f5f8c808" : { 
+         "class" : "ObjectCheckNode", 
+         "desc" : { 
+            "x" : "-99013", 
+            "y" : "-99349"
+         }, 
+         "child" : [ 
+            "7891364b-742d-4b41-860d-d1df55d09d00", 
+            "54a81ee8-af86-4315-b828-3bc3c650ee3e"
+         ], 
+         "objectName" : "Karavan.VehicleSpawn.Karavan1.Vehicle"
+      }, 
+      "7891364b-742d-4b41-860d-d1df55d09d00" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-99045", 
+            "y" : "-99277"
+         }, 
+         "child" : [ 
+            "0e5c3549-eb7c-44d7-90a4-228a6563f7ca"
+         ], 
+         "objectName" : "Karavan.VehicleSpawn.Karavan1.Vehicle", 
+         "active" : "false"
+      }, 
+      "0e5c3549-eb7c-44d7-90a4-228a6563f7ca" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-99045", 
+            "y" : "-99206"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Karavan.VehicleSpawn.Karavan1.Vehicle", 
+         "active" : "true"
+      }, 
+      "54a81ee8-af86-4315-b828-3bc3c650ee3e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-98843", 
+            "y" : "-99132"
+         }, 
+         "child" : [ 
+         ]
+      }, 
       "2d70d6e0-8f58-4f33-8202-a47127ca6f7d" : { 
          "class" : "TimeDatePeriodNode", 
          "desc" : { 
@@ -3306,8 +3463,8 @@
       "33422f98-7ba6-42d5-a51b-405d9f986dc1" : { 
          "class" : "HasKeywordNode", 
          "desc" : { 
-            "x" : "-99369", 
-            "y" : "-100138"
+            "x" : "-99362", 
+            "y" : "-100145"
          }, 
          "child" : [ 
             "47a3b946-e206-4496-89c9-ca5868016d99", 
@@ -3486,8 +3643,8 @@
       "fcee1285-90e5-4dd7-8ffc-6b433cb8dcff" : { 
          "class" : "ObjectRemoveNode", 
          "desc" : { 
-            "x" : "-98982", 
-            "y" : "-99701"
+            "x" : "-98981", 
+            "y" : "-99702"
          }, 
          "child" : [ 
          ], 

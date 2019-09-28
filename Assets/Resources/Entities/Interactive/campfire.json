@@ -741,7 +741,7 @@
          "item" : { 
             "class" : "Item", 
             "count" : "3", 
-            "proto" : "stew_empty"
+            "proto" : "Stew_Empty"
          }, 
          "objectName" : "Player"
       }, 
@@ -2203,7 +2203,7 @@
             "888afff3-b9a7-4641-b3a1-05222043837f"
          ], 
          "proto" : "CoffeeTime", 
-         "objectName" : "Player"
+         "objectName" : "$TEAM$"
       }, 
       "888afff3-b9a7-4641-b3a1-05222043837f" : { 
          "class" : "DialogPhraseNode", 
@@ -2378,7 +2378,7 @@
             "ab734a88-edf0-45cb-a291-f23532623be0"
          ], 
          "proto" : "Chifir", 
-         "objectName" : "Player"
+         "objectName" : "$TEAM$"
       }, 
       "ab734a88-edf0-45cb-a291-f23532623be0" : { 
          "class" : "DialogPhraseNode", 
@@ -2562,7 +2562,7 @@
             "4fac82b1-3bed-4cd8-99eb-d68e22da77f4"
          ], 
          "proto" : "Herb", 
-         "objectName" : "Player"
+         "objectName" : "$TEAM$"
       }, 
       "4fac82b1-3bed-4cd8-99eb-d68e22da77f4" : { 
          "class" : "DialogPhraseNode", 

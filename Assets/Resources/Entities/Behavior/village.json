@@ -20,6 +20,7 @@
             "0e1ea216-e146-46a2-86ac-98f140a8c217", 
             "e9eaaa63-41c0-47a3-a7d1-6e2901e2b28d", 
             "91ae7f00-cd36-47a3-9016-0f63e5720144", 
+            "bc5f73d1-034b-430a-9f48-3038126748e2", 
             "a72fbb6c-27c9-4916-9fa2-ceeab8836006", 
             "bc3aa966-4913-4550-871f-7f29520945d2", 
             "db93422f-4f43-47fb-bfb9-33cfd0df78c6", 
@@ -2297,8 +2298,8 @@
       "b35bdf88-8019-41e5-902e-d319b71456f9" : { 
          "class" : "RemoveKeywordNode", 
          "desc" : { 
-            "x" : "-101236", 
-            "y" : "-99800"
+            "x" : "-101261", 
+            "y" : "-99799"
          }, 
          "child" : [ 
             "8b4732a8-e3cf-49ca-8b73-be1f9e645b44"
@@ -2322,20 +2323,31 @@
       "0acd3580-c7f1-46ec-8dda-5cc3fe087a95" : { 
          "class" : "ActiveObjectNode", 
          "desc" : { 
-            "x" : "-101257", 
-            "y" : "-99091"
+            "x" : "-101271", 
+            "y" : "-99090"
          }, 
          "child" : [ 
+            "b351cfb9-9edd-41a6-b542-d15520dbc068", 
             "49c6773b-955b-45e8-9f2a-e1d6bbcea03f"
          ], 
          "objectName" : "Alex", 
          "active" : "false"
       }, 
+      "b351cfb9-9edd-41a6-b542-d15520dbc068" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-101334", 
+            "y" : "-99000"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "ALEX_SHOW"
+      }, 
       "49c6773b-955b-45e8-9f2a-e1d6bbcea03f" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-101287", 
-            "y" : "-98727"
+            "x" : "-101254", 
+            "y" : "-98801"
          }, 
          "child" : [ 
          ]
@@ -2382,8 +2394,8 @@
       "56715612-115c-438e-9d75-48ac458301bf" : { 
          "class" : "RemoveKeywordNode", 
          "desc" : { 
-            "x" : "-101054", 
-            "y" : "-99341"
+            "x" : "-101043", 
+            "y" : "-99345"
          }, 
          "child" : [ 
             "06948d13-d838-46b4-bd5d-10ec531d52ff", 
@@ -2406,8 +2418,8 @@
       "2d07db23-c887-4468-9aff-40a4f577e93a" : { 
          "class" : "TimeDatePeriodNode", 
          "desc" : { 
-            "x" : "-101094", 
-            "y" : "-99095"
+            "x" : "-101079", 
+            "y" : "-99099"
          }, 
          "child" : [ 
             "642f6cc4-2d33-4f8e-99f8-2042831cf4f5", 
@@ -2910,6 +2922,276 @@
          "child" : [ 
          ]
       }, 
+      "bc5f73d1-034b-430a-9f48-3038126748e2" : { 
+         "class" : "PlayerHasHallucinationsNode", 
+         "desc" : { 
+            "x" : "-101557", 
+            "y" : "-102273", 
+            "comment" : "ШОГ"
+         }, 
+         "child" : [ 
+            "bd92a4a1-a104-4c4f-b4fd-674477fbb1a5", 
+            "db425f12-bc11-4fd9-a655-90813142ee33"
+         ]
+      }, 
+      "bd92a4a1-a104-4c4f-b4fd-674477fbb1a5" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101459", 
+            "y" : "-101785"
+         }, 
+         "child" : [ 
+            "b977956a-b562-49d0-bb90-a6a9b148428c"
+         ]
+      }, 
+      "b977956a-b562-49d0-bb90-a6a9b148428c" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101459", 
+            "y" : "-101751"
+         }, 
+         "child" : [ 
+            "f9300851-3e1a-43a7-b24b-1fc6a819827e", 
+            "defa8377-87b7-4b0e-876a-42cddc271361"
+         ], 
+         "key" : "SHOG_CHECK"
+      }, 
+      "f9300851-3e1a-43a7-b24b-1fc6a819827e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101510", 
+            "y" : "-101670"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "defa8377-87b7-4b0e-876a-42cddc271361" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-101385", 
+            "y" : "-101667"
+         }, 
+         "child" : [ 
+            "7823dd5c-7813-45d1-ac1b-bff967d68623"
+         ], 
+         "key" : "SHOG_CHECK"
+      }, 
+      "7823dd5c-7813-45d1-ac1b-bff967d68623" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-101385", 
+            "y" : "-101614"
+         }, 
+         "child" : [ 
+            "09bc3a7a-8f8a-434e-8e14-db779ad01149"
+         ], 
+         "waitTime" : "5"
+      }, 
+      "09bc3a7a-8f8a-434e-8e14-db779ad01149" : { 
+         "class" : "RemoveKeywordNode", 
+         "desc" : { 
+            "x" : "-101390", 
+            "y" : "-101561"
+         }, 
+         "child" : [ 
+            "bc5f73d1-034b-430a-9f48-3038126748e2"
+         ], 
+         "key" : "SHOG_CHECK"
+      }, 
+      "db425f12-bc11-4fd9-a655-90813142ee33" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101447", 
+            "y" : "-102192"
+         }, 
+         "child" : [ 
+            "23be7e96-58d0-4284-aca0-a06937b2f59a", 
+            "2b2704ae-e7b7-4ae9-a1fe-978be45d0952", 
+            "2cd1c0d6-714a-496c-8a38-607ba8745bee", 
+            "066559f3-ea49-4180-a6dd-90a86db6d8db", 
+            "7536ada3-c310-4ed7-8ebf-c0592bca7426"
+         ]
+      }, 
+      "23be7e96-58d0-4284-aca0-a06937b2f59a" : { 
+         "class" : "CharacterExistsNode", 
+         "desc" : { 
+            "x" : "-101824", 
+            "y" : "-102111"
+         }, 
+         "child" : [ 
+            "2ef025b9-2685-4bfe-a1ea-f21037e89f33", 
+            "bd92a4a1-a104-4c4f-b4fd-674477fbb1a5"
+         ], 
+         "objectName" : "Portal.place1", 
+         "fullCheck" : "false"
+      }, 
+      "2ef025b9-2685-4bfe-a1ea-f21037e89f33" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-101830", 
+            "y" : "-102010"
+         }, 
+         "child" : [ 
+            "526eb619-b38a-4b84-819f-3aaadb347c88", 
+            "bd92a4a1-a104-4c4f-b4fd-674477fbb1a5"
+         ], 
+         "objectName" : "Portal.place1"
+      }, 
+      "526eb619-b38a-4b84-819f-3aaadb347c88" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101842", 
+            "y" : "-101943"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Portal.place1", 
+         "active" : "false"
+      }, 
+      "2b2704ae-e7b7-4ae9-a1fe-978be45d0952" : { 
+         "class" : "CharacterExistsNode", 
+         "desc" : { 
+            "x" : "-101652", 
+            "y" : "-102110"
+         }, 
+         "child" : [ 
+            "17bedef6-c289-40bd-9ebf-85440f966304", 
+            "bd92a4a1-a104-4c4f-b4fd-674477fbb1a5"
+         ], 
+         "objectName" : "Portal.place2", 
+         "fullCheck" : "false"
+      }, 
+      "17bedef6-c289-40bd-9ebf-85440f966304" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-101657", 
+            "y" : "-102010"
+         }, 
+         "child" : [ 
+            "43d4444e-d877-45d0-bfc7-0106b037a62f", 
+            "bd92a4a1-a104-4c4f-b4fd-674477fbb1a5"
+         ], 
+         "objectName" : "Portal.place2"
+      }, 
+      "43d4444e-d877-45d0-bfc7-0106b037a62f" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101669", 
+            "y" : "-101942"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Portal.place2", 
+         "active" : "false"
+      }, 
+      "2cd1c0d6-714a-496c-8a38-607ba8745bee" : { 
+         "class" : "CharacterExistsNode", 
+         "desc" : { 
+            "x" : "-101479", 
+            "y" : "-102110"
+         }, 
+         "child" : [ 
+            "f761df6d-49e1-4b3f-9857-e1f6b6653d9d", 
+            "bd92a4a1-a104-4c4f-b4fd-674477fbb1a5"
+         ], 
+         "objectName" : "Portal.place3", 
+         "fullCheck" : "false"
+      }, 
+      "f761df6d-49e1-4b3f-9857-e1f6b6653d9d" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-101484", 
+            "y" : "-102011"
+         }, 
+         "child" : [ 
+            "687ee3a0-6251-4d02-9a9e-faff0a42f9cd", 
+            "bd92a4a1-a104-4c4f-b4fd-674477fbb1a5"
+         ], 
+         "objectName" : "Portal.place3"
+      }, 
+      "687ee3a0-6251-4d02-9a9e-faff0a42f9cd" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101497", 
+            "y" : "-101945"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Portal.place3", 
+         "active" : "false"
+      }, 
+      "066559f3-ea49-4180-a6dd-90a86db6d8db" : { 
+         "class" : "CharacterExistsNode", 
+         "desc" : { 
+            "x" : "-101308", 
+            "y" : "-102110"
+         }, 
+         "child" : [ 
+            "c7f09c3e-6a7d-4d22-a053-00b0f9457c1d", 
+            "bd92a4a1-a104-4c4f-b4fd-674477fbb1a5"
+         ], 
+         "objectName" : "Portal.place4", 
+         "fullCheck" : "false"
+      }, 
+      "c7f09c3e-6a7d-4d22-a053-00b0f9457c1d" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-101313", 
+            "y" : "-102008"
+         }, 
+         "child" : [ 
+            "784458ce-5b42-4051-9538-a942e82da2e3", 
+            "bd92a4a1-a104-4c4f-b4fd-674477fbb1a5"
+         ], 
+         "objectName" : "Portal.place4"
+      }, 
+      "784458ce-5b42-4051-9538-a942e82da2e3" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101326", 
+            "y" : "-101943"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Portal.place4", 
+         "active" : "false"
+      }, 
+      "7536ada3-c310-4ed7-8ebf-c0592bca7426" : { 
+         "class" : "CharacterExistsNode", 
+         "desc" : { 
+            "x" : "-101136", 
+            "y" : "-102110"
+         }, 
+         "child" : [ 
+            "4732c842-32e6-4e70-ac61-ec7cccf6a952", 
+            "bd92a4a1-a104-4c4f-b4fd-674477fbb1a5"
+         ], 
+         "objectName" : "Portal.place5", 
+         "fullCheck" : "false"
+      }, 
+      "4732c842-32e6-4e70-ac61-ec7cccf6a952" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-101141", 
+            "y" : "-102010"
+         }, 
+         "child" : [ 
+            "802b8f63-d45e-4055-8ca4-587b4b6f01d1", 
+            "bd92a4a1-a104-4c4f-b4fd-674477fbb1a5"
+         ], 
+         "objectName" : "Portal.place5"
+      }, 
+      "802b8f63-d45e-4055-8ca4-587b4b6f01d1" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101153", 
+            "y" : "-101942"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Portal.place5", 
+         "active" : "false"
+      }, 
       "a72fbb6c-27c9-4916-9fa2-ceeab8836006" : { 
          "class" : "PlayerLevelOutNode", 
          "desc" : { 
@@ -2917,11 +3199,12 @@
             "y" : "-100900"
          }, 
          "child" : [ 
-            "63970e8a-62e2-405f-909f-1d91c2f0f40c", 
-            "a578c6f8-daf8-431d-b1a6-08da0633d2b4", 
+            "64d67d6f-8c8f-49bc-aad8-8ce846a375f4", 
+            "497ac307-965b-49c1-9d59-2d4f5db0be3e", 
             "0a1049e4-a632-4bd3-8d06-2864320a1b23", 
             "bb449446-a675-462b-9757-6e3aec41c191", 
             "55ed73a9-3bfb-4361-a096-0b66605a6036", 
+            "68d9d768-e0e1-4922-8f41-910105e0c5f5", 
             "9be6dae9-f9fd-4837-adba-a152359bce2a", 
             "9668e87d-a35f-4fab-9553-c7b9cde04460", 
             "0d41cb82-4085-4d6e-87b9-eb68f4833718", 
@@ -2929,25 +3212,25 @@
             "776a101c-26e3-4eda-9ebe-1b3fda631145"
          ]
       }, 
-      "63970e8a-62e2-405f-909f-1d91c2f0f40c" : { 
+      "64d67d6f-8c8f-49bc-aad8-8ce846a375f4" : { 
          "class" : "PlayStateNode", 
          "desc" : { 
-            "x" : "-102624", 
-            "y" : "-100957"
-         }, 
-         "child" : [ 
-         ], 
-         "script" : "Entities/Behavior/ph_trade_event"
-      }, 
-      "a578c6f8-daf8-431d-b1a6-08da0633d2b4" : { 
-         "class" : "PlayStateNode", 
-         "desc" : { 
-            "x" : "-102625", 
-            "y" : "-100900"
+            "x" : "-102359", 
+            "y" : "-100806"
          }, 
          "child" : [ 
          ], 
          "script" : "Entities/Behavior/ph_trap_event"
+      }, 
+      "497ac307-965b-49c1-9d59-2d4f5db0be3e" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-102369", 
+            "y" : "-100888"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/ph_trade_event"
       }, 
       "0a1049e4-a632-4bd3-8d06-2864320a1b23" : { 
          "class" : "PlayStateNode", 
@@ -2957,7 +3240,7 @@
          }, 
          "child" : [ 
          ], 
-         "script" : "entities/behavior/check.rojo"
+         "script" : "Entities/Behavior/Check.Rojo"
       }, 
       "bb449446-a675-462b-9757-6e3aec41c191" : { 
          "class" : "NotebookHasNoteNode", 
@@ -3132,6 +3415,136 @@
          "desc" : { 
             "x" : "-102865", 
             "y" : "-100651"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "68d9d768-e0e1-4922-8f41-910105e0c5f5" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-102830", 
+            "y" : "-100089"
+         }, 
+         "child" : [ 
+            "fcc8d88e-2d99-4477-abaa-5901a39a5edb", 
+            "1319a916-2cdf-4ce5-ab63-657c18236b2f"
+         ], 
+         "objectName" : "Village.Mayor"
+      }, 
+      "fcc8d88e-2d99-4477-abaa-5901a39a5edb" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-102924", 
+            "y" : "-100003"
+         }, 
+         "child" : [ 
+            "d34d0e5c-9e8f-43ee-96fc-85ff494bda3b"
+         ], 
+         "note_key" : "VILLAGE_KOVALEV_DEAD"
+      }, 
+      "d34d0e5c-9e8f-43ee-96fc-85ff494bda3b" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-102893", 
+            "y" : "-99942"
+         }, 
+         "child" : [ 
+            "7a5ca6a5-00e2-4288-a5d9-43aac21cd20e"
+         ], 
+         "quest_key" : "KOVAL.AVTO"
+      }, 
+      "7a5ca6a5-00e2-4288-a5d9-43aac21cd20e" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-102893", 
+            "y" : "-99886"
+         }, 
+         "child" : [ 
+            "4e82d0ba-94dc-4f04-b452-16a4a21d0da1"
+         ], 
+         "quest_key" : "KOVAL.MOVE"
+      }, 
+      "4e82d0ba-94dc-4f04-b452-16a4a21d0da1" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-102893", 
+            "y" : "-99827"
+         }, 
+         "child" : [ 
+            "db8929b9-18de-4631-a793-090fd4e959df"
+         ], 
+         "quest_key" : "KOVAL.WIRES"
+      }, 
+      "db8929b9-18de-4631-a793-090fd4e959df" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-102908", 
+            "y" : "-99771"
+         }, 
+         "child" : [ 
+            "c0af231d-811f-40a6-be6d-e35016213ffc"
+         ], 
+         "quest_key" : "KOVAL.WASTEMETAL"
+      }, 
+      "c0af231d-811f-40a6-be6d-e35016213ffc" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-102906", 
+            "y" : "-99716"
+         }, 
+         "child" : [ 
+            "a35a69a7-060b-4a33-a592-19b0c38506b1"
+         ], 
+         "quest_key" : "KOVAL.CARB"
+      }, 
+      "a35a69a7-060b-4a33-a592-19b0c38506b1" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-102905", 
+            "y" : "-99662"
+         }, 
+         "child" : [ 
+            "02846625-9fde-48fe-bcf3-a1f4772e10cb"
+         ], 
+         "quest_key" : "KOVAL.STARTER"
+      }, 
+      "02846625-9fde-48fe-bcf3-a1f4772e10cb" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-102904", 
+            "y" : "-99608"
+         }, 
+         "child" : [ 
+            "9132bb56-3331-4f1a-8907-d52850f923c0"
+         ], 
+         "quest_key" : "KOVAL.PETROL"
+      }, 
+      "9132bb56-3331-4f1a-8907-d52850f923c0" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-102906", 
+            "y" : "-99550"
+         }, 
+         "child" : [ 
+            "f35d517f-94af-44d0-9534-3a2d6859b594"
+         ], 
+         "quest_key" : "FACTORY.KILL.HEAD"
+      }, 
+      "f35d517f-94af-44d0-9534-3a2d6859b594" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-102913", 
+            "y" : "-99491"
+         }, 
+         "child" : [ 
+         ], 
+         "quest_key" : "FACTORY.PRISON.HELP"
+      }, 
+      "1319a916-2cdf-4ce5-ab63-657c18236b2f" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102746", 
+            "y" : "-99999"
          }, 
          "child" : [ 
          ]

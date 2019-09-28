@@ -71,7 +71,7 @@ MonoBehaviour:
     _value: 9
   - _type: 10
     _value: 75
-  - _type: 2
+  - _type: 3
     _value: 7
   NoAmmoSounds:
   - path: Sounds/SFX/Weapons/m249/m249_empty

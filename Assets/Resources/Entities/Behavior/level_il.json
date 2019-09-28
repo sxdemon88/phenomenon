@@ -555,7 +555,7 @@
          "class" : "CharacterKillEventNode", 
          "desc" : { 
             "x" : "-100694", 
-            "y" : "-100442"
+            "y" : "-100438"
          }, 
          "child" : [ 
             "6ac1577a-413c-4482-9f4f-16c77eeb5aba"
@@ -579,8 +579,8 @@
       "a18c27f0-7f82-4a86-a782-5ddb10ac2278" : { 
          "class" : "QuestDoneNode", 
          "desc" : { 
-            "x" : "-100733", 
-            "y" : "-100266"
+            "x" : "-100771", 
+            "y" : "-100267"
          }, 
          "child" : [ 
             "41824855-683f-4ada-9dbe-17ea4b65c1d9"
@@ -590,8 +590,8 @@
       "41824855-683f-4ada-9dbe-17ea4b65c1d9" : { 
          "class" : "QuestBeginNode", 
          "desc" : { 
-            "x" : "-100732", 
-            "y" : "-100207"
+            "x" : "-100771", 
+            "y" : "-100211"
          }, 
          "child" : [ 
          ], 
@@ -600,8 +600,8 @@
       "eb712099-0775-4a91-ab7d-f7c35d5f4997" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100611", 
-            "y" : "-100249"
+            "x" : "-100660", 
+            "y" : "-100263"
          }, 
          "child" : [ 
          ]
@@ -609,8 +609,8 @@
       "71542f9d-5b2e-464d-85f2-529585a601bf" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100494", 
-            "y" : "-100249"
+            "x" : "-100546", 
+            "y" : "-100262"
          }, 
          "child" : [ 
          ]
@@ -630,19 +630,55 @@
       "b5e18094-b20c-4b37-a6da-adee49199465" : { 
          "class" : "NotebookAddNoteNode", 
          "desc" : { 
-            "x" : "-99948", 
-            "y" : "-100469"
+            "x" : "-99947", 
+            "y" : "-100358"
+         }, 
+         "child" : [ 
+            "47096c99-3caa-44b0-b7c7-d8e88bf9ca17"
+         ], 
+         "note_key" : "IL_SHURA_DEAD"
+      }, 
+      "47096c99-3caa-44b0-b7c7-d8e88bf9ca17" : { 
+         "class" : "QuestStatusNode", 
+         "desc" : { 
+            "x" : "-100159", 
+            "y" : "-99720"
+         }, 
+         "child" : [ 
+            "971adb28-3d8b-4545-9062-659d007e5a7e", 
+            "baea2569-db39-45ac-88f9-82fbf9d5e426", 
+            "a8406412-2407-4d7b-9534-a37182755085"
+         ], 
+         "quest_key" : "CITY.P603"
+      }, 
+      "971adb28-3d8b-4545-9062-659d007e5a7e" : { 
+         "class" : "QuestBeginNode", 
+         "desc" : { 
+            "x" : "-100189", 
+            "y" : "-99326", 
+            "comment" : "Союз двух влюблённых расторгнут"
+         }, 
+         "child" : [ 
+            "99c6b797-c0e3-40d4-af59-fcb876dfec40"
+         ], 
+         "quest_key" : "CITY.P603.BREAK"
+      }, 
+      "99c6b797-c0e3-40d4-af59-fcb876dfec40" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-100183", 
+            "y" : "-99202"
          }, 
          "child" : [ 
             "6339b24d-79b2-401b-9437-05030a225e48"
          ], 
-         "note_key" : "IL_SHURA_DEAD"
+         "quest_key" : "CITY.P603"
       }, 
       "6339b24d-79b2-401b-9437-05030a225e48" : { 
          "class" : "QuestDoneNode", 
          "desc" : { 
-            "x" : "-99875", 
-            "y" : "-100394"
+            "x" : "-100182", 
+            "y" : "-99149"
          }, 
          "child" : [ 
             "3e45479f-8163-4a3c-9b3d-8ab517c6f49c"
@@ -652,66 +688,79 @@
       "3e45479f-8163-4a3c-9b3d-8ab517c6f49c" : { 
          "class" : "QuestDoneNode", 
          "desc" : { 
-            "x" : "-99876", 
-            "y" : "-100341"
+            "x" : "-100183", 
+            "y" : "-99096"
          }, 
          "child" : [ 
-            "1b6674c7-8d9a-4999-b221-95e88452dc32"
          ], 
          "quest_key" : "CITY.P603.END"
       }, 
-      "1b6674c7-8d9a-4999-b221-95e88452dc32" : { 
-         "class" : "QuestDoneNode", 
-         "desc" : { 
-            "x" : "-99875", 
-            "y" : "-100284"
-         }, 
-         "child" : [ 
-            "c918042e-13fc-402b-a115-383d3eaec662"
-         ], 
-         "quest_key" : "CITY.P603"
-      }, 
-      "c918042e-13fc-402b-a115-383d3eaec662" : { 
-         "class" : "QuestStatusNode", 
-         "desc" : { 
-            "x" : "-100110", 
-            "y" : "-99570", 
-            "comment" : "Союз двух влюблённых расторгнут"
-         }, 
-         "child" : [ 
-            "046b1bf1-84a5-40fc-99c9-dd16a1144f83", 
-            "8a7ea0ff-189f-4115-9078-74510ee4186b", 
-            "18fd5222-7e9c-4e0a-8f74-f69740be6878"
-         ], 
-         "quest_key" : "CITY.P603.BREAK"
-      }, 
-      "046b1bf1-84a5-40fc-99c9-dd16a1144f83" : { 
+      "baea2569-db39-45ac-88f9-82fbf9d5e426" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100159", 
-            "y" : "-99483"
+            "x" : "-100149", 
+            "y" : "-99648"
          }, 
          "child" : [ 
+            "a8406412-2407-4d7b-9534-a37182755085"
          ]
       }, 
-      "8a7ea0ff-189f-4115-9078-74510ee4186b" : { 
-         "class" : "QuestDoneNode", 
+      "a8406412-2407-4d7b-9534-a37182755085" : { 
+         "class" : "QuestStatusNode", 
          "desc" : { 
-            "x" : "-100108", 
-            "y" : "-99439"
+            "x" : "-100128", 
+            "y" : "-99602", 
+            "comment" : "влюблённые теперь любят друг друга ещё больше"
          }, 
          "child" : [ 
+            "971adb28-3d8b-4545-9062-659d007e5a7e", 
+            "bef3acca-9674-4c4f-9b26-c2a9ecabc5f3", 
+            "f73e0d6b-252f-46c0-acd5-06a838d19381"
          ], 
-         "quest_key" : "CITY.P603.BREAK"
+         "quest_key" : "CITY.P603.END"
       }, 
-      "18fd5222-7e9c-4e0a-8f74-f69740be6878" : { 
+      "bef3acca-9674-4c4f-9b26-c2a9ecabc5f3" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100041", 
-            "y" : "-99482"
+            "x" : "-100118", 
+            "y" : "-99527"
          }, 
          "child" : [ 
-            "8a7ea0ff-189f-4115-9078-74510ee4186b"
+            "f73e0d6b-252f-46c0-acd5-06a838d19381"
+         ]
+      }, 
+      "f73e0d6b-252f-46c0-acd5-06a838d19381" : { 
+         "class" : "QuestStatusNode", 
+         "desc" : { 
+            "x" : "-100096", 
+            "y" : "-99481", 
+            "comment" : "Мне не удалось расторгнуть союз двух влюблённых"
+         }, 
+         "child" : [ 
+            "971adb28-3d8b-4545-9062-659d007e5a7e", 
+            "8cf4de96-7538-4885-8660-3cae01e4b394", 
+            "a305164a-9bca-4839-8e73-bff5b31536b1"
+         ], 
+         "quest_key" : "CITY.P603.FAIL"
+      }, 
+      "8cf4de96-7538-4885-8660-3cae01e4b394" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100087", 
+            "y" : "-99404"
+         }, 
+         "child" : [ 
+            "a305164a-9bca-4839-8e73-bff5b31536b1"
+         ]
+      }, 
+      "a305164a-9bca-4839-8e73-bff5b31536b1" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100058", 
+            "y" : "-99359"
+         }, 
+         "child" : [ 
+            "99c6b797-c0e3-40d4-af59-fcb876dfec40"
          ]
       }, 
       "108d18ad-afaa-42a5-a8ea-8ee4f229de30" : { 
@@ -729,11 +778,11 @@
       "2c731a53-f51e-418e-ab60-cc9c26f10cbf" : { 
          "class" : "NotebookAddNoteNode", 
          "desc" : { 
-            "x" : "-99811", 
-            "y" : "-100468"
+            "x" : "-99810", 
+            "y" : "-100357"
          }, 
          "child" : [ 
-            "6339b24d-79b2-401b-9437-05030a225e48"
+            "47096c99-3caa-44b0-b7c7-d8e88bf9ca17"
          ], 
          "note_key" : "IL_KESHA_DEAD"
       }, 
@@ -777,8 +826,8 @@
       "72fe0b4b-2653-4473-9130-8294fc8f6b69" : { 
          "class" : "QuestDoneNode", 
          "desc" : { 
-            "x" : "-100334", 
-            "y" : "-100394"
+            "x" : "-100354", 
+            "y" : "-100390"
          }, 
          "child" : [ 
             "486e2682-4378-445d-b538-1cfc1877241f"
@@ -788,8 +837,8 @@
       "486e2682-4378-445d-b538-1cfc1877241f" : { 
          "class" : "QuestBeginNode", 
          "desc" : { 
-            "x" : "-100334", 
-            "y" : "-100338"
+            "x" : "-100354", 
+            "y" : "-100334"
          }, 
          "child" : [ 
             "5bb86726-623e-4078-9039-3ff9b8de175b"
@@ -821,7 +870,7 @@
       "dda950df-72b1-4871-a080-95fc3ec1cdc4" : { 
          "class" : "QuestDoneNode", 
          "desc" : { 
-            "x" : "-100245", 
+            "x" : "-100246", 
             "y" : "-100113"
          }, 
          "child" : [ 
@@ -854,8 +903,8 @@
       "9fbf1063-de7d-421b-89d3-c78711e99ada" : { 
          "class" : "QuestDoneNode", 
          "desc" : { 
-            "x" : "-100232", 
-            "y" : "-99942"
+            "x" : "-100233", 
+            "y" : "-99944"
          }, 
          "child" : [ 
             "36bed48a-3502-43d8-bf09-c3a4521aad84"
@@ -865,62 +914,29 @@
       "36bed48a-3502-43d8-bf09-c3a4521aad84" : { 
          "class" : "QuestDoneNode", 
          "desc" : { 
-            "x" : "-100232", 
-            "y" : "-99886"
-         }, 
-         "child" : [ 
-            "99c6b797-c0e3-40d4-af59-fcb876dfec40"
-         ], 
-         "quest_key" : "IL.DRUG"
-      }, 
-      "99c6b797-c0e3-40d4-af59-fcb876dfec40" : { 
-         "class" : "QuestDoneNode", 
-         "desc" : { 
             "x" : "-100233", 
-            "y" : "-99827"
-         }, 
-         "child" : [ 
-            "fa8866c7-5a27-41d8-80bb-7f1d62290179"
-         ], 
-         "quest_key" : "CITY.P603"
-      }, 
-      "fa8866c7-5a27-41d8-80bb-7f1d62290179" : { 
-         "class" : "QuestDoneNode", 
-         "desc" : { 
-            "x" : "-100231", 
-            "y" : "-99772"
-         }, 
-         "child" : [ 
-            "f561e639-94d0-4b24-a75f-9d93fef9800d"
-         ], 
-         "quest_key" : "CITY.P603.END"
-      }, 
-      "f561e639-94d0-4b24-a75f-9d93fef9800d" : { 
-         "class" : "QuestDoneNode", 
-         "desc" : { 
-            "x" : "-100231", 
-            "y" : "-99719"
+            "y" : "-99886"
          }, 
          "child" : [ 
             "adbde548-0f18-44a6-94bf-1ac976c29bc0"
          ], 
-         "quest_key" : "CITY.P603.FAIL"
+         "quest_key" : "IL.DRUG"
       }, 
       "adbde548-0f18-44a6-94bf-1ac976c29bc0" : { 
          "class" : "NotebookAddNoteNode", 
          "desc" : { 
-            "x" : "-100237", 
-            "y" : "-99663"
+            "x" : "-100239", 
+            "y" : "-99829"
          }, 
          "child" : [ 
-            "c918042e-13fc-402b-a115-383d3eaec662"
+            "47096c99-3caa-44b0-b7c7-d8e88bf9ca17"
          ], 
          "note_key" : "IL_KILLED"
       }, 
       "06ecd6b6-decf-4c9f-8cc7-1f9240dfd87d" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100221", 
+            "x" : "-100237", 
             "y" : "-100390"
          }, 
          "child" : [ 
@@ -930,8 +946,8 @@
       "7adaa871-9c9c-4853-a48e-0fe53d805243" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100100", 
-            "y" : "-100390"
+            "x" : "-100120", 
+            "y" : "-100387"
          }, 
          "child" : [ 
             "5bb86726-623e-4078-9039-3ff9b8de175b"
@@ -944,18 +960,28 @@
             "y" : "-100794"
          }, 
          "child" : [ 
-            "4662e230-c3fa-4fe1-b5c9-8e0e315e7952", 
+            "7f2c6f19-7dcd-421c-b9dd-c2a5cecae4ad", 
+            "99602da9-0d9d-427a-8283-75103339f130", 
             "443261c8-bdc2-433a-ae4d-2be49ffb23ba", 
             "168c7d3e-c306-4b12-897e-f0551d5b350e", 
-            "84fb51f4-0882-46c3-87ed-1b3f55a30ec1", 
-            "dd99b5b0-07bf-45fe-b1cd-8a55e9c185bb"
+            "84fb51f4-0882-46c3-87ed-1b3f55a30ec1"
          ]
       }, 
-      "4662e230-c3fa-4fe1-b5c9-8e0e315e7952" : { 
+      "7f2c6f19-7dcd-421c-b9dd-c2a5cecae4ad" : { 
          "class" : "PlayStateNode", 
          "desc" : { 
-            "x" : "-100207", 
-            "y" : "-100730"
+            "x" : "-100167", 
+            "y" : "-100719"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/ph_trap_event"
+      }, 
+      "99602da9-0d9d-427a-8283-75103339f130" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-100220", 
+            "y" : "-100818"
          }, 
          "child" : [ 
          ], 
@@ -976,8 +1002,8 @@
       "691faf13-6658-48a4-b453-c1fb3108bc16" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100096", 
-            "y" : "-100532"
+            "x" : "-100114", 
+            "y" : "-100533"
          }, 
          "child" : [ 
          ]
@@ -1009,8 +1035,8 @@
       "6361a61a-6733-4645-aa46-24fde2e7b584" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-99848", 
-            "y" : "-100526"
+            "x" : "-99857", 
+            "y" : "-100510"
          }, 
          "child" : [ 
          ]
@@ -1038,16 +1064,6 @@
             "6361a61a-6733-4645-aa46-24fde2e7b584"
          ], 
          "objectName" : "BaseMale15"
-      }, 
-      "dd99b5b0-07bf-45fe-b1cd-8a55e9c185bb" : { 
-         "class" : "PlayStateNode", 
-         "desc" : { 
-            "x" : "-99624", 
-            "y" : "-100705"
-         }, 
-         "child" : [ 
-         ], 
-         "script" : "Entities/Behavior/ph_trap_event"
       }
    }, 
    "entry" : "665d16af-6cd1-408d-83f4-65bf5003d79d"

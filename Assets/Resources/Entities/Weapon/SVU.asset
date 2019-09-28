@@ -31,7 +31,7 @@ MonoBehaviour:
   DamageMax: 25
   DamageRadius: 1
   Fatality: 25
-  Perks: 1073742850
+  Perks: 1073774594
   PerksEx: 0
   DamageType: 0
   Single:
@@ -71,7 +71,7 @@ MonoBehaviour:
     _value: 5
   - _type: 9
     _value: 100
-  - _type: 2
+  - _type: 3
     _value: 4
   NoAmmoSounds:
   - path: Sounds/SFX/Weapons/M24/m24_empty

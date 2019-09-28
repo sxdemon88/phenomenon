@@ -1074,6 +1074,8 @@
             "y" : "-100485"
          }, 
          "child" : [ 
+            "7cfd85c9-c8de-4e20-8411-04ae79ba9bae", 
+            "5c14ff49-0a53-4b66-ab7c-6d7e85f77e90", 
             "f0ce46a1-f417-418b-8e30-cfc0f1c8d822", 
             "320a172f-b7dc-49e4-a147-d1ab3370c7cb", 
             "c7bc8fc5-8066-46f8-bbbd-2c7f8e31e05b", 
@@ -1083,9 +1085,28 @@
             "3d89eb80-8c69-47e2-b3a6-a40be618762b", 
             "451f4a5b-15a5-4f4a-a55a-b968caa08508", 
             "5affd9f8-8f31-493d-a1ee-29a825276ca0", 
-            "288eacfb-39c8-49be-aab7-b63a4a39a2db", 
-            "7c53f109-a411-43ca-8b4e-634fcf34a46c"
+            "288eacfb-39c8-49be-aab7-b63a4a39a2db"
          ]
+      }, 
+      "7cfd85c9-c8de-4e20-8411-04ae79ba9bae" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-101089", 
+            "y" : "-100330"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/ph_trap_event"
+      }, 
+      "5c14ff49-0a53-4b66-ab7c-6d7e85f77e90" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-101087", 
+            "y" : "-100384"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/ph_trade_event"
       }, 
       "f0ce46a1-f417-418b-8e30-cfc0f1c8d822" : { 
          "class" : "NotebookHasNoteNode", 
@@ -1500,7 +1521,7 @@
             "ap" : "0", 
             "bonusTurn" : "false", 
             "relationship" : "100", 
-            "fraction" : "baza", 
+            "fraction" : "baza_alex", 
             "shotMode" : "0", 
             "inventory" : [ 
                { 
@@ -1848,16 +1869,6 @@
             "288eacfb-39c8-49be-aab7-b63a4a39a2db"
          ], 
          "waitTime" : "5"
-      }, 
-      "7c53f109-a411-43ca-8b4e-634fcf34a46c" : { 
-         "class" : "PlayStateNode", 
-         "desc" : { 
-            "x" : "-100656", 
-            "y" : "-100238"
-         }, 
-         "child" : [ 
-         ], 
-         "script" : "Entities/Behavior/ph_trap_event"
       }, 
       "cb3d764c-2292-4cdc-8855-963c82ccea1d" : { 
          "class" : "NotebookHasNoteNode", 

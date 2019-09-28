@@ -847,8 +847,8 @@
       "ca349c78-2155-4594-9543-aa573b545db4" : { 
          "class" : "NotebookHasNoteNode", 
          "desc" : { 
-            "x" : "-101636", 
-            "y" : "-100725"
+            "x" : "-101706", 
+            "y" : "-100988"
          }, 
          "child" : [ 
             "58e14454-52b5-4c6f-8052-9034c85cde85", 
@@ -859,19 +859,128 @@
       "58e14454-52b5-4c6f-8052-9034c85cde85" : { 
          "class" : "NotebookRemoveNoteNode", 
          "desc" : { 
-            "x" : "-101746", 
-            "y" : "-100637"
+            "x" : "-101766", 
+            "y" : "-100896"
          }, 
          "child" : [ 
-            "2d237914-9875-4ee3-88ef-db0f1d0d430d"
+            "6c8662a6-7962-4d25-9905-8bcfbd236bde"
          ], 
          "note_key" : "ZVEZDA_HOSTAGE"
+      }, 
+      "6c8662a6-7962-4d25-9905-8bcfbd236bde" : { 
+         "class" : "CharacterExistsNode", 
+         "desc" : { 
+            "x" : "-101765", 
+            "y" : "-100844"
+         }, 
+         "child" : [ 
+            "a20a5b5d-5caf-42f9-9710-bb0f1527d357", 
+            "2d237914-9875-4ee3-88ef-db0f1d0d430d"
+         ], 
+         "objectName" : "Hostage", 
+         "fullCheck" : "false"
+      }, 
+      "a20a5b5d-5caf-42f9-9710-bb0f1527d357" : { 
+         "class" : "CharacterTeleportNode", 
+         "desc" : { 
+            "x" : "-101815", 
+            "y" : "-100761"
+         }, 
+         "child" : [ 
+            "13db1d30-d60b-4c96-b677-3ae57b8c6b0e"
+         ], 
+         "objectName" : "Hostage", 
+         "pointName" : "Hostage.place"
+      }, 
+      "13db1d30-d60b-4c96-b677-3ae57b8c6b0e" : { 
+         "class" : "CharacterSetRelationshipNode", 
+         "desc" : { 
+            "x" : "-101835", 
+            "y" : "-100685"
+         }, 
+         "child" : [ 
+            "faae5e80-f59d-4429-af89-e4c25f14fb15"
+         ], 
+         "objectName" : "Hostage", 
+         "fraction" : "krz", 
+         "value" : "100"
+      }, 
+      "faae5e80-f59d-4429-af89-e4c25f14fb15" : { 
+         "class" : "CharacterCapsNode", 
+         "desc" : { 
+            "x" : "-101807", 
+            "y" : "-100609"
+         }, 
+         "child" : [ 
+            "a2c4d482-bb9d-490e-bc3c-8a9e5d1279b5"
+         ], 
+         "objectName" : "Hostage", 
+         "caps" : "None"
+      }, 
+      "a2c4d482-bb9d-490e-bc3c-8a9e5d1279b5" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-101514", 
+            "y" : "-100842"
+         }, 
+         "child" : [ 
+            "0091042e-ed75-4a7a-93d2-70facc96ae08"
+         ], 
+         "objectName" : "Hostage", 
+         "key" : "EX_TEAMMATE", 
+         "value" : "1"
+      }, 
+      "0091042e-ed75-4a7a-93d2-70facc96ae08" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101508", 
+            "y" : "-100771"
+         }, 
+         "child" : [ 
+            "b6938da7-e979-4a9d-9a45-fdb4b98040b9"
+         ], 
+         "objectName" : "Hostage", 
+         "active" : "true"
+      }, 
+      "b6938da7-e979-4a9d-9a45-fdb4b98040b9" : { 
+         "class" : "StopBehaviorNode", 
+         "desc" : { 
+            "x" : "-101508", 
+            "y" : "-100702"
+         }, 
+         "child" : [ 
+            "9dad13d8-48a2-4f96-8349-f25fd5c8df52"
+         ], 
+         "objectName" : "Hostage"
+      }, 
+      "9dad13d8-48a2-4f96-8349-f25fd5c8df52" : { 
+         "class" : "PlayBehaviorNode", 
+         "desc" : { 
+            "x" : "-101561", 
+            "y" : "-100648"
+         }, 
+         "child" : [ 
+            "ba5effdc-59b5-45ff-b162-692f4038e897"
+         ], 
+         "objectName" : "Hostage", 
+         "behavior" : "Entities/Behavior/Zvezda.Hostage"
+      }, 
+      "ba5effdc-59b5-45ff-b162-692f4038e897" : { 
+         "class" : "CharacterNeedUpdateNode", 
+         "desc" : { 
+            "x" : "-101548", 
+            "y" : "-100577"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Hostage", 
+         "stopState" : "true"
       }, 
       "2d237914-9875-4ee3-88ef-db0f1d0d430d" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-101775", 
-            "y" : "-100572"
+            "x" : "-101674", 
+            "y" : "-100763"
          }, 
          "child" : [ 
          ], 
@@ -929,8 +1038,8 @@
       "9f6151c2-c304-4bf9-8b82-5c669d39d725" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-101565", 
-            "y" : "-100560"
+            "x" : "-101610", 
+            "y" : "-100891"
          }, 
          "child" : [ 
          ]
@@ -2136,33 +2245,33 @@
             "y" : "-101134"
          }, 
          "child" : [ 
-            "b027dcd6-c036-423c-8196-9d2818b01338", 
-            "8cd66c55-bd1a-4f24-bfdd-47e3f5db1623", 
+            "f94edb5f-43a3-4796-b7e8-eb75f3053aed", 
+            "3eee5395-88ed-40f9-be51-d7aa0f841acb", 
             "568d4bad-14c5-4d03-b5e4-f5c4300efe40", 
             "c1051324-4f28-4dda-8ecd-3954da4ca06d", 
             "951a73c0-7d69-40aa-9902-d8870034c35a", 
             "a3cbec52-de18-4066-9bef-eb3fd9dd803d"
          ]
       }, 
-      "b027dcd6-c036-423c-8196-9d2818b01338" : { 
+      "f94edb5f-43a3-4796-b7e8-eb75f3053aed" : { 
          "class" : "PlayStateNode", 
          "desc" : { 
-            "x" : "-102790", 
-            "y" : "-101091"
-         }, 
-         "child" : [ 
-         ], 
-         "script" : "Entities/Behavior/ph_trade_event"
-      }, 
-      "8cd66c55-bd1a-4f24-bfdd-47e3f5db1623" : { 
-         "class" : "PlayStateNode", 
-         "desc" : { 
-            "x" : "-102731", 
-            "y" : "-101039"
+            "x" : "-102742", 
+            "y" : "-101098"
          }, 
          "child" : [ 
          ], 
          "script" : "Entities/Behavior/ph_trap_event"
+      }, 
+      "3eee5395-88ed-40f9-be51-d7aa0f841acb" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-102832", 
+            "y" : "-101193"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/ph_trade_event"
       }, 
       "568d4bad-14c5-4d03-b5e4-f5c4300efe40" : { 
          "class" : "NotebookHasNoteNode", 
@@ -2352,52 +2461,124 @@
       "951a73c0-7d69-40aa-9902-d8870034c35a" : { 
          "class" : "NotebookHasNoteNode", 
          "desc" : { 
-            "x" : "-102325", 
-            "y" : "-100759"
+            "x" : "-102334", 
+            "y" : "-100949"
          }, 
          "child" : [ 
-            "88e6b8cb-bcac-4998-9f9f-3845f8774037", 
+            "5220ddf0-e4bd-4a47-8c26-3824df5806e8", 
             "4de1e9aa-19f4-4f45-b7e2-858dc7b45e9f"
          ], 
          "note_key" : "REQUEST_HOSTAGE_OUT"
       }, 
-      "88e6b8cb-bcac-4998-9f9f-3845f8774037" : { 
-         "class" : "NotebookAddNoteNode", 
-         "desc" : { 
-            "x" : "-102400", 
-            "y" : "-100676"
-         }, 
-         "child" : [ 
-            "5220ddf0-e4bd-4a47-8c26-3824df5806e8"
-         ], 
-         "note_key" : "REQUEST_BAZA_MAID"
-      }, 
       "5220ddf0-e4bd-4a47-8c26-3824df5806e8" : { 
          "class" : "NotebookRemoveNoteNode", 
          "desc" : { 
-            "x" : "-102408", 
-            "y" : "-100622"
+            "x" : "-102358", 
+            "y" : "-100846"
          }, 
          "child" : [ 
-            "15433897-c003-4289-8c5b-212da6746855"
+            "ab919f95-ec91-4b0e-a50c-b79ff99b9491"
          ], 
          "note_key" : "REQUEST_HOSTAGE_OUT"
       }, 
-      "15433897-c003-4289-8c5b-212da6746855" : { 
-         "class" : "ObjectRemoveNode", 
+      "ab919f95-ec91-4b0e-a50c-b79ff99b9491" : { 
+         "class" : "CharacterExistsNode", 
          "desc" : { 
-            "x" : "-102378", 
-            "y" : "-100565"
+            "x" : "-102347", 
+            "y" : "-100796"
+         }, 
+         "child" : [ 
+            "b2646951-3583-47ff-bdbc-2235da936652", 
+            "d2a71728-3608-48eb-a473-c6b2b185f5af"
+         ], 
+         "objectName" : "Hostage", 
+         "fullCheck" : "false"
+      }, 
+      "b2646951-3583-47ff-bdbc-2235da936652" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-102357", 
+            "y" : "-100727"
+         }, 
+         "child" : [ 
+            "9c099c25-548d-4dad-a232-4e9acd394e82", 
+            "7227e169-3fce-4bb1-91d5-d642fabba6e2"
+         ], 
+         "objectName" : "Hostage"
+      }, 
+      "9c099c25-548d-4dad-a232-4e9acd394e82" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102194", 
+            "y" : "-100478"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "7227e169-3fce-4bb1-91d5-d642fabba6e2" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-102411", 
+            "y" : "-100631"
+         }, 
+         "child" : [ 
+            "88e6b8cb-bcac-4998-9f9f-3845f8774037"
+         ], 
+         "objectName" : "Hostage", 
+         "active" : "false"
+      }, 
+      "88e6b8cb-bcac-4998-9f9f-3845f8774037" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-102430", 
+            "y" : "-100407"
          }, 
          "child" : [ 
          ], 
-         "objName" : "Hostage.place"
+         "note_key" : "REQUEST_BAZA_MAID"
+      }, 
+      "d2a71728-3608-48eb-a473-c6b2b185f5af" : { 
+         "class" : "CharacterExistsNode", 
+         "desc" : { 
+            "x" : "-102269", 
+            "y" : "-100657"
+         }, 
+         "child" : [ 
+            "e0d5ab04-57b7-4a7e-8bdf-c4c56d8d15f2", 
+            "9c099c25-548d-4dad-a232-4e9acd394e82"
+         ], 
+         "objectName" : "Hostage.place", 
+         "fullCheck" : "false"
+      }, 
+      "e0d5ab04-57b7-4a7e-8bdf-c4c56d8d15f2" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-102267", 
+            "y" : "-100581"
+         }, 
+         "child" : [ 
+            "9c099c25-548d-4dad-a232-4e9acd394e82", 
+            "7a214e03-7062-4c2c-ae0c-1caf32b6fe18"
+         ], 
+         "objectName" : "Hostage.place"
+      }, 
+      "7a214e03-7062-4c2c-ae0c-1caf32b6fe18" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-102312", 
+            "y" : "-100494"
+         }, 
+         "child" : [ 
+            "88e6b8cb-bcac-4998-9f9f-3845f8774037"
+         ], 
+         "objectName" : "Hostage.place", 
+         "active" : "false"
       }, 
       "4de1e9aa-19f4-4f45-b7e2-858dc7b45e9f" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-102224", 
-            "y" : "-100674"
+            "x" : "-102279", 
+            "y" : "-100881"
          }, 
          "child" : [ 
          ]
@@ -4442,8 +4623,8 @@
       "e7251132-3565-482b-baa9-20854a64fb7f" : { 
          "class" : "PlayStateNode", 
          "desc" : { 
-            "x" : "-101693", 
-            "y" : "-101064"
+            "x" : "-101560", 
+            "y" : "-101201"
          }, 
          "child" : [ 
             "c2615cc7-9665-49c4-a5f1-fbcbd393a3f5"
@@ -4453,8 +4634,8 @@
       "c2615cc7-9665-49c4-a5f1-fbcbd393a3f5" : { 
          "class" : "AddKeyValueNode", 
          "desc" : { 
-            "x" : "-101697", 
-            "y" : "-100980"
+            "x" : "-101565", 
+            "y" : "-101148"
          }, 
          "child" : [ 
             "68a6e777-4be1-4a68-9f18-df5599945610"
@@ -4465,8 +4646,8 @@
       "68a6e777-4be1-4a68-9f18-df5599945610" : { 
          "class" : "PlayStateNode", 
          "desc" : { 
-            "x" : "-101702", 
-            "y" : "-100903", 
+            "x" : "-101569", 
+            "y" : "-101076", 
             "comment" : "поставить машину ГГ, если доступна"
          }, 
          "child" : [ 
