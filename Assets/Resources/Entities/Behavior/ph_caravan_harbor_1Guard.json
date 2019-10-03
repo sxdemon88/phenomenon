@@ -1,0 +1,264 @@
+{ 
+   "states" : { 
+      "e0a83636-0c1f-4e7e-b60e-b47f5c9bbe38" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101150", 
+            "y" : "-100616"
+         }, 
+         "child" : [ 
+            "30327c26-c181-4b35-8ecd-af55696e34b2"
+         ]
+      }, 
+      "30327c26-c181-4b35-8ecd-af55696e34b2" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101253", 
+            "y" : "-100360"
+         }, 
+         "child" : [ 
+            "02fb6070-fd4d-4574-8843-6aac8c0fb8df", 
+            "da4f6484-0909-46da-b88c-f29a8f5dbdfd", 
+            "1ad194dc-4101-4961-8493-e6a1c0916edd", 
+            "32923998-e848-4aec-9030-1bdcf832257f"
+         ]
+      }, 
+      "02fb6070-fd4d-4574-8843-6aac8c0fb8df" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101738", 
+            "y" : "-100120"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Karavan.2", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale2", 
+            "character" : "ph_caravan_guard", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "harbor", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "item1" : { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "PKM", 
+               "ammo" : { 
+                  "count" : "100", 
+                  "proto" : "7mm_54R"
+               }
+            }, 
+            "cap" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Helmet_2"
+            }, 
+            "armor" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Armor81"
+            }, 
+            "head_mask" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Gasmass2"
+            }, 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ]
+         }
+      }, 
+      "da4f6484-0909-46da-b88c-f29a8f5dbdfd" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101592", 
+            "y" : "-100117"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Karavan.3", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale6", 
+            "character" : "ph_caravan_guard", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "harbor", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "item1" : { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "PKM", 
+               "ammo" : { 
+                  "count" : "100", 
+                  "proto" : "7mm_54R"
+               }
+            }, 
+            "cap" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Helmet_2"
+            }, 
+            "armor" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Armor81"
+            }, 
+            "head_mask" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Gasmass2"
+            }, 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ]
+         }
+      }, 
+      "1ad194dc-4101-4961-8493-e6a1c0916edd" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101450", 
+            "y" : "-100116"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Karavan.1", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale6", 
+            "character" : "ph_caravan_guard", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "harbor", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "item1" : { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "PKM", 
+               "ammo" : { 
+                  "count" : "100", 
+                  "proto" : "7mm_54R"
+               }
+            }, 
+            "cap" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Helmet_2"
+            }, 
+            "armor" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Armor81"
+            }, 
+            "head_mask" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Gasmass2"
+            }, 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ]
+         }
+      }, 
+      "32923998-e848-4aec-9030-1bdcf832257f" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101307", 
+            "y" : "-100114"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Karavan.4", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale6", 
+            "character" : "ph_caravan_guard", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "harbor", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "item1" : { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "PKM", 
+               "ammo" : { 
+                  "count" : "100", 
+                  "proto" : "7mm_54R"
+               }
+            }, 
+            "cap" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Helmet_2"
+            }, 
+            "armor" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Armor81"
+            }, 
+            "head_mask" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Gasmass2"
+            }, 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ]
+         }
+      }
+   }, 
+   "entry" : "e0a83636-0c1f-4e7e-b60e-b47f5c9bbe38"
+}

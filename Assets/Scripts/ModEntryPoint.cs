@@ -36,11 +36,19 @@ public class ModEntryPoint : MonoBehaviour // ModEntryPoint - RESERVED LOOKUP NA
     {
         Debug.Log(evnt.levelName);
     }
-
+	void PlayState(TextAsset asset, GameObject go)
+    {
+        if (asset != null && asset.text.Length > 0)
+        {
+            Game.World.PlayState(StateNode.LoadSequenceFromString(asset.text), go);
+        }
+    }
     void Update()
     {
-        
-    }
+            if (Input.GetKeyUp(KeyCode.F2))
+            PlayState(ResourceManager.Load<TextAsset>("Entities/Behavior/Ph_mod_manager", ResourceManager.EXT_SCRIPT), Game.World.Player.CharacterComponent.gameObject);
+	}    
+    
 }
 
 #if UNITY_EDITOR

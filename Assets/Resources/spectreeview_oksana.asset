@@ -1,0 +1,245 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1441834948, guid: ba80931603c2dbc40ab113c533efa2ed, type: 3}
+  m_Name: spectreeview_oksana
+  m_EditorClassIdentifier: 
+  specs:
+  - perk: 68
+    icon: {fileID: 21300000, guid: 460cf140d5cff7147b6505f233b3c884, type: 3}
+    parentPerk: 0
+    x: -1
+    y: -1
+  - perk: 59
+    icon: {fileID: 21300000, guid: 08f752522ac32dd45ac5c0c20d95b1be, type: 3}
+    parentPerk: 68
+    x: -1
+    y: -2
+  - perk: 37
+    icon: {fileID: 21300000, guid: 5d16c67b3a0a36d4783e57a213370e35, type: 3}
+    parentPerk: 0
+    x: -1
+    y: 0
+  - perk: 20
+    icon: {fileID: 21300000, guid: 08910dc3620ad2e4a8afb3069d26963c, type: 3}
+    parentPerk: 37
+    x: -1
+    y: 1
+  - perk: 18
+    icon: {fileID: 21300000, guid: 2b8fa3a7c2218c84e8b7a8f2e57e730d, type: 3}
+    parentPerk: 20
+    x: -1
+    y: 2
+  - perk: 63
+    icon: {fileID: 21300000, guid: 19cef6ccc371b4f409f37a18e20d2c06, type: 3}
+    parentPerk: 18
+    x: -1
+    y: 3
+  - perk: 45
+    icon: {fileID: 21300000, guid: 2bbe7ead9b34ac54dbf38acc64bb3ccb, type: 3}
+    parentPerk: 0
+    x: -2
+    y: 0
+  - perk: 29
+    icon: {fileID: 21300000, guid: a23bdbcd0dfe7d44b80d7ba143ca6307, type: 3}
+    parentPerk: 45
+    x: -2
+    y: 1
+  - perk: 30
+    icon: {fileID: 21300000, guid: 6c67f8a48ffd2934fb313476e7e2f7f2, type: 3}
+    parentPerk: 29
+    x: -2
+    y: 2
+  - perk: 62
+    icon: {fileID: 21300000, guid: b7bbba9e367e6684fb79a040492c12ea, type: 3}
+    parentPerk: 30
+    x: -2
+    y: 3
+  - perk: 33
+    icon: {fileID: 21300000, guid: ae4ddb1b49321fe409a1baf2b7cc18fb, type: 3}
+    parentPerk: 0
+    x: 2
+    y: 0
+  - perk: 36
+    icon: {fileID: 21300000, guid: e8d059470c03a1b478942feb693301bd, type: 3}
+    parentPerk: 33
+    x: 2
+    y: 1
+  - perk: 41
+    icon: {fileID: 21300000, guid: 48b864621f166ea40b1f8737b0f00ff2, type: 3}
+    parentPerk: 36
+    x: 2
+    y: 2
+  - perk: 137
+    icon: {fileID: 21300000, guid: 6fcde38b2920dc54ea2bab74ec2402f2, type: 3}
+    parentPerk: 0
+    x: 0
+    y: -1
+  - perk: 138
+    icon: {fileID: 21300000, guid: 55f35f1cac888794ea763d6c1105fa66, type: 3}
+    parentPerk: 137
+    x: 0
+    y: -2
+  - perk: 141
+    icon: {fileID: 21300000, guid: 4dc792ca50e6f7140a274c8cb71f0bdc, type: 3}
+    parentPerk: 138
+    x: 0
+    y: -3
+  - perk: 44
+    icon: {fileID: 21300000, guid: c3001fca644fc904aaa01783fbccd457, type: 3}
+    parentPerk: 0
+    x: 0
+    y: 1
+  - perk: 31
+    icon: {fileID: 21300000, guid: 2cb283a4bbaa9ef42a13596745bb9dfd, type: 3}
+    parentPerk: 0
+    x: 3
+    y: 0
+  - perk: 32
+    icon: {fileID: 21300000, guid: 32dd71dbaf3020d47ba97b4eeebf7cd7, type: 3}
+    parentPerk: 0
+    x: 1
+    y: 0
+  - perk: 69
+    icon: {fileID: 21300000, guid: 55c283a1cd07b074fa22ae855fbe2068, type: 3}
+    parentPerk: 31
+    x: 3
+    y: 1
+  - perk: 57
+    icon: {fileID: 21300000, guid: d14d0c14f7fb3d74ca5a7718d2863bf5, type: 3}
+    parentPerk: 44
+    x: 0
+    y: 2
+  - perk: 58
+    icon: {fileID: 21300000, guid: 1dadbf6a9a2a2864697c4e3b833ac1f1, type: 3}
+    parentPerk: 57
+    x: 0
+    y: 3
+  - perk: 70
+    icon: {fileID: 21300000, guid: b68451bc0c7da7f47949b75b83b94459, type: 3}
+    parentPerk: 69
+    x: 3
+    y: 2
+  - perk: 17
+    icon: {fileID: 21300000, guid: 2a93c2088adc7114dbc9ada4687147d9, type: 3}
+    parentPerk: 0
+    x: 4
+    y: 0
+  - perk: 19
+    icon: {fileID: 21300000, guid: 80f7e5a81d6479540ae1e03f76033416, type: 3}
+    parentPerk: 48
+    x: 2
+    y: -2
+  - perk: 22
+    icon: {fileID: 21300000, guid: f90c086e390e65b4290f13ae0980e432, type: 3}
+    parentPerk: 17
+    x: 4
+    y: 1
+  - perk: 43
+    icon: {fileID: 21300000, guid: 23a8d6e9c6b8cf84fa9d7c6f7539ea63, type: 3}
+    parentPerk: 32
+    x: 1
+    y: 1
+  - perk: 40
+    icon: {fileID: 21300000, guid: 2f4f7b58da9c9ce42b7486e651041179, type: 3}
+    parentPerk: 70
+    x: 3
+    y: 3
+  - perk: 48
+    icon: {fileID: 21300000, guid: 46e2ece738a517a489bb90b1f1fe8299, type: 3}
+    parentPerk: 0
+    x: 1
+    y: -1
+  - perk: 25
+    icon: {fileID: 21300000, guid: 4b16f6205d91e654190492e89548dd54, type: 3}
+    parentPerk: 48
+    x: 1
+    y: -2
+  - perk: 24
+    icon: {fileID: 21300000, guid: 6d3b947bd29e8b644acbaa5074504c1c, type: 3}
+    parentPerk: 25
+    x: 1
+    y: -3
+  - perk: 23
+    icon: {fileID: 21300000, guid: 1ae640175eecc2b4f9f7ad0753d436fb, type: 3}
+    parentPerk: 43
+    x: 1
+    y: 2
+  - perk: 34
+    icon: {fileID: 21300000, guid: 7a0f2e298dcb1d24189d3320a7263c57, type: 3}
+    parentPerk: 23
+    x: 1
+    y: 3
+  - perk: 27
+    icon: {fileID: 21300000, guid: 4c3a72f10d925084195d2a685964388e, type: 3}
+    parentPerk: 22
+    x: 4
+    y: 2
+  - perk: 35
+    icon: {fileID: 21300000, guid: 84b18445893f1a94eb4e53a8143faf2e, type: 3}
+    parentPerk: 27
+    x: 4
+    y: 3
+  - perk: 26
+    icon: {fileID: 21300000, guid: e78a2c3a4ed7d034e9872da7efaef1e1, type: 3}
+    parentPerk: 17
+    x: 4
+    y: -1
+  - perk: 21
+    icon: {fileID: 21300000, guid: fdc747167981bc54d8308b373749c8e7, type: 3}
+    parentPerk: 26
+    x: 4
+    y: -2
+  - perk: 61
+    icon: {fileID: 21300000, guid: 2a135d226e936ac41b2024f2d61d97cb, type: 3}
+    parentPerk: 21
+    x: 4
+    y: -3
+  - perk: 38
+    icon: {fileID: 21300000, guid: d87b1a6443993a547b2e0df68b2cc63d, type: 3}
+    parentPerk: 19
+    x: 2
+    y: -3
+  - perk: 42
+    icon: {fileID: 21300000, guid: ddc7df440e15b114bbd09e9947ef1c8a, type: 3}
+    parentPerk: 41
+    x: 2
+    y: 3
+  - perk: 66
+    icon: {fileID: 21300000, guid: 6fa09fb5747f9924586bcc09138118d4, type: 3}
+    parentPerk: 31
+    x: 3
+    y: -1
+  - perk: 47
+    icon: {fileID: 21300000, guid: 0688f7ec8ae55a94fbe27c3df878bfb0, type: 3}
+    parentPerk: 66
+    x: 3
+    y: -2
+  - perk: 50
+    icon: {fileID: 21300000, guid: d649ffad08834164db34aab6915499ae, type: 3}
+    parentPerk: 0
+    x: -3
+    y: 0
+  - perk: 51
+    icon: {fileID: 21300000, guid: 9680894b247fed141bbf46f6a0fb4a0a, type: 3}
+    parentPerk: 50
+    x: -3
+    y: 1
+  - perk: 52
+    icon: {fileID: 21300000, guid: 59ebd55955208a642bb78905ca30f0c2, type: 3}
+    parentPerk: 51
+    x: -3
+    y: 2
+  - perk: 67
+    icon: {fileID: 21300000, guid: 96b72a3ea5a3769439905c0f87128f89, type: 3}
+    parentPerk: 48
+    x: 2
+    y: -1

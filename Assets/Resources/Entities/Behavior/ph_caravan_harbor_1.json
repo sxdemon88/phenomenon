@@ -1,0 +1,168 @@
+{ 
+   "states" : { 
+      "5c39228c-4825-4520-9214-94b5216fa84f" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100917", 
+            "y" : "-100767"
+         }, 
+         "child" : [ 
+            "c2007f94-962b-44e1-bc24-e14eb83af873"
+         ]
+      }, 
+      "c2007f94-962b-44e1-bc24-e14eb83af873" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100917", 
+            "y" : "-100670"
+         }, 
+         "child" : [ 
+            "ce6d3489-124f-4d55-944e-85f9184f6565", 
+            "91e5d5ab-ea82-4dc2-ae9e-efdbd68aae1b", 
+            "316aa8af-062e-4415-afa7-13b5abc2dcb1"
+         ]
+      }, 
+      "ce6d3489-124f-4d55-944e-85f9184f6565" : { 
+         "class" : "SpawnEntityNode", 
+         "desc" : { 
+            "x" : "-101126", 
+            "y" : "-100578"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Karavan.Vehicle", 
+         "item" : { 
+            "class" : "Chest", 
+            "proto" : "gaz66back", 
+            "inventory" : [ 
+               { 
+                  "class" : "Item", 
+                  "count" : "1", 
+                  "proto" : "Medal"
+               }
+            ], 
+            "open" : "false", 
+            "touch" : "false", 
+            "lockLevel" : "100", 
+            "lockType" : "Mechanical", 
+            "pin" : "0", 
+            "fraction" : "harbor"
+         }
+      }, 
+      "91e5d5ab-ea82-4dc2-ae9e-efdbd68aae1b" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-100967", 
+            "y" : "-100447"
+         }, 
+         "child" : [ 
+            "696d90ac-15ad-49ed-a23a-0bb44a4d641f"
+         ]
+      }, 
+      "696d90ac-15ad-49ed-a23a-0bb44a4d641f" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101003", 
+            "y" : "-100340"
+         }, 
+         "child" : [ 
+            "67344d83-f8ca-4ef8-b09c-2ed946e1742f"
+         ], 
+         "spawnPoint" : "Spawn.Karavan.Trader", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale7", 
+            "character" : "Ph_caravan_1", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "harbor", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "item2" : { 
+               "class" : "Item", 
+               "count" : "1", 
+               "proto" : "PortableRadio"
+            }, 
+            "cap" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "ctw_head_4"
+            }, 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "Skin_1", 
+            "beard" : "ShortBeard", 
+            "hair" : "Hairless", 
+            "hairColor" : "Dark", 
+            "behavior" : "ph_trade1.man"
+         }
+      }, 
+      "67344d83-f8ca-4ef8-b09c-2ed946e1742f" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100987", 
+            "y" : "-100193"
+         }, 
+         "child" : [ 
+            "ec3e92ba-90fd-48a2-8f82-d69f499dac79", 
+            "ef529ab0-0ba2-421d-ac19-9227e12270b2"
+         ]
+      }, 
+      "ec3e92ba-90fd-48a2-8f82-d69f499dac79" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-101267", 
+            "y" : "-100108"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Spawn.Karavan.Trader", 
+         "key" : "DISABLE_KOVALEV_QUEST", 
+         "value" : "1"
+      }, 
+      "ef529ab0-0ba2-421d-ac19-9227e12270b2" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-100890", 
+            "y" : "-100028"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/ph_wepru_trade"
+      }, 
+      "316aa8af-062e-4415-afa7-13b5abc2dcb1" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100666", 
+            "y" : "-100582"
+         }, 
+         "child" : [ 
+            "bb638a12-992a-4580-b91c-a2797fc0e5cd"
+         ]
+      }, 
+      "bb638a12-992a-4580-b91c-a2797fc0e5cd" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-100484", 
+            "y" : "-100415"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/ph_caravan_harbor_1Guard"
+      }
+   }, 
+   "entry" : "5c39228c-4825-4520-9214-94b5216fa84f"
+}

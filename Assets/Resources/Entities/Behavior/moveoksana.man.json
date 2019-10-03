@@ -1,0 +1,132 @@
+{ 
+   "states" : { 
+      "7a91e538-4a60-4839-90c4-03ed8f8f5bcb" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-772", 
+            "y" : "-825"
+         }, 
+         "child" : [ 
+            "ec349257-ce8c-4355-a686-0d103b5fbe77", 
+            "4f01a85c-5dfc-48e1-858a-cba07b190ecd"
+         ]
+      }, 
+      "ec349257-ce8c-4355-a686-0d103b5fbe77" : { 
+         "class" : "CharacterDistanceTriggerNode", 
+         "desc" : { 
+            "x" : "-1160", 
+            "y" : "-756"
+         }, 
+         "child" : [ 
+            "c277e9db-a208-4daf-bc45-d1a2ff1ab132"
+         ], 
+         "distanceCondition" : "LessThan", 
+         "distance" : "6", 
+         "checkVisibility" : "true"
+      }, 
+      "c277e9db-a208-4daf-bc45-d1a2ff1ab132" : { 
+         "class" : "CharacterInBattleNode", 
+         "desc" : { 
+            "x" : "-1135", 
+            "y" : "-614"
+         }, 
+         "child" : [ 
+            "bb7d4c0c-01b6-410f-bff0-72bd1b3fb9d3", 
+            "71cb5d7b-ddee-4dfe-bb48-5e9b83fbbd06"
+         ]
+      }, 
+      "bb7d4c0c-01b6-410f-bff0-72bd1b3fb9d3" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-1291", 
+            "y" : "-505"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "71cb5d7b-ddee-4dfe-bb48-5e9b83fbbd06" : { 
+         "class" : "PlayDialogNode", 
+         "desc" : { 
+            "x" : "-1073", 
+            "y" : "-523"
+         }, 
+         "child" : [ 
+         ], 
+         "dialog" : "Entities/Dialog/ph_oksana"
+      }, 
+      "4f01a85c-5dfc-48e1-858a-cba07b190ecd" : { 
+         "class" : "CharacterMoveToNode", 
+         "desc" : { 
+            "x" : "-648", 
+            "y" : "-730"
+         }, 
+         "child" : [ 
+            "98b3be60-8076-453e-a5b9-995d7c743027"
+         ], 
+         "objectName" : "$SELF$", 
+         "pointName" : "Player", 
+         "waitEnd" : "false", 
+         "relative" : "false", 
+         "run" : "true", 
+         "keepCourse" : "false"
+      }, 
+      "98b3be60-8076-453e-a5b9-995d7c743027" : { 
+         "class" : "CharacterDistanceTriggerNode", 
+         "desc" : { 
+            "x" : "-684", 
+            "y" : "-624"
+         }, 
+         "child" : [ 
+            "5ddddfa8-fb4a-4d37-bd95-5ab78e42977c"
+         ], 
+         "distanceCondition" : "LessThan", 
+         "distance" : "25", 
+         "checkVisibility" : "true"
+      }, 
+      "5ddddfa8-fb4a-4d37-bd95-5ab78e42977c" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-701", 
+            "y" : "-436"
+         }, 
+         "child" : [ 
+            "32df8a1a-f899-4c10-8ded-07bde6fe1363", 
+            "7f20427e-4079-4ca0-afbc-8b46e2ccdeaa"
+         ], 
+         "key" : "WHOOP"
+      }, 
+      "32df8a1a-f899-4c10-8ded-07bde6fe1363" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-842", 
+            "y" : "-344"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "7f20427e-4079-4ca0-afbc-8b46e2ccdeaa" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-623", 
+            "y" : "-348"
+         }, 
+         "child" : [ 
+            "dc657c6b-1a4c-4c4c-a438-b946c6a11bde"
+         ], 
+         "key" : "WHOOP"
+      }, 
+      "dc657c6b-1a4c-4c4c-a438-b946c6a11bde" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-647", 
+            "y" : "-263"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Эй! Постойте. Подождите меня!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }
+   }, 
+   "entry" : "7a91e538-4a60-4839-90c4-03ed8f8f5bcb"
+}

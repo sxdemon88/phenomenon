@@ -2653,6 +2653,26 @@ MonoBehaviour:
     chances: []
     _requirements: []
     _requirementsEx: []
+  - _chance: 800
+    _type: oksana
+    _period: 0
+    _trigger: 
+    _triggerInvert: 0
+    _triggerReset: 0
+    _canSkip: 0
+    _canAttack: 0
+    _once: 1
+    _icon: {fileID: 21300000, guid: 6b3869748589aba4f90949b3ed011bb7, type: 3}
+    _desc: encounter.oksana
+    _enter: encounter.meet_caravan
+    _showIntro: 0
+    _levels:
+    - Z_10
+    chances: []
+    _requirements:
+    - _type: 39
+      _value: 5
+    _requirementsEx: []
   camping:
     _levels:
     - Z_1

@@ -1,0 +1,239 @@
+{ 
+   "states" : { 
+      "e0a83636-0c1f-4e7e-b60e-b47f5c9bbe38" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101150", 
+            "y" : "-100616"
+         }, 
+         "child" : [ 
+            "30327c26-c181-4b35-8ecd-af55696e34b2"
+         ]
+      }, 
+      "30327c26-c181-4b35-8ecd-af55696e34b2" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101253", 
+            "y" : "-100360"
+         }, 
+         "child" : [ 
+            "10ca36d3-ff14-40f5-879c-4c110b947b28", 
+            "947f9af3-e36b-418c-a067-94e08f18bb4a", 
+            "c9628aaf-abd2-4fae-a09e-015b17bbeeeb", 
+            "8de9069a-5ed3-48ba-9775-f83d3d37e8af"
+         ]
+      }, 
+      "10ca36d3-ff14-40f5-879c-4c110b947b28" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101470", 
+            "y" : "-100182"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Karavan.4", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseFemale8", 
+            "character" : "ph_caravan_guard", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "harbor", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "item1" : { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "SVU", 
+               "ammo" : { 
+                  "count" : "0", 
+                  "proto" : "7mm_54R"
+               }
+            }, 
+            "cap" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Kufiya"
+            }, 
+            "armor" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Armor57"
+            }, 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ]
+         }
+      }, 
+      "947f9af3-e36b-418c-a067-94e08f18bb4a" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101322", 
+            "y" : "-100181"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Karavan.3", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseFemale9", 
+            "character" : "ph_caravan_guard", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "harbor", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "item1" : { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "DP_28", 
+               "ammo" : { 
+                  "count" : "0", 
+                  "proto" : "7mm_54R"
+               }
+            }, 
+            "armor" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Armor58_Stalker"
+            }, 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ]
+         }
+      }, 
+      "c9628aaf-abd2-4fae-a09e-015b17bbeeeb" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101170", 
+            "y" : "-100179"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Karavan.1", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale6", 
+            "character" : "ph_caravan_guard", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "harbor", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "item1" : { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "mg3", 
+               "ammo" : { 
+                  "count" : "0", 
+                  "proto" : "7_62mm_JHP"
+               }
+            }, 
+            "cap" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "m42"
+            }, 
+            "armor" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Armor58_Stalker"
+            }, 
+            "head_mask" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "Gasmass3"
+            }, 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ]
+         }
+      }, 
+      "8de9069a-5ed3-48ba-9775-f83d3d37e8af" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101030", 
+            "y" : "-100177"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "Spawn.Karavan.2", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseFemale9", 
+            "character" : "ph_caravan_guard", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "harbor", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "item1" : { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "luger08", 
+               "ammo" : { 
+                  "count" : "0", 
+                  "proto" : "9mm_JHP"
+               }
+            }, 
+            "rucksack" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "TacticShield"
+            }, 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ]
+         }
+      }
+   }, 
+   "entry" : "e0a83636-0c1f-4e7e-b60e-b47f5c9bbe38"
+}

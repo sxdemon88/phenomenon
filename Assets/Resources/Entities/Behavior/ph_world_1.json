@@ -32,7 +32,8 @@
             "d3244b1d-33f7-4cbf-b9c3-afd9692343be", 
             "580b5757-05ce-4073-bb1e-8be15e005d3c", 
             "fad78121-6809-4eb8-836d-de7ffa696398", 
-            "cf3611a8-80f4-49f6-bf8f-82fd4aa57137"
+            "cf3611a8-80f4-49f6-bf8f-82fd4aa57137", 
+            "90cd123d-ec13-461d-ab71-f6027bb9c71f"
          ]
       }, 
       "af4ff4e2-ca9e-4f3b-b085-bbab52b78ff1" : { 
@@ -610,6 +611,27 @@
          "child" : [ 
          ], 
          "script" : "Entities/Behavior/Z_Z_fight_3"
+      }, 
+      "90cd123d-ec13-461d-ab71-f6027bb9c71f" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-99699", 
+            "y" : "-102155"
+         }, 
+         "child" : [ 
+            "dc249f98-fa42-4794-9193-1f5a823df197"
+         ], 
+         "encType" : "oksana"
+      }, 
+      "dc249f98-fa42-4794-9193-1f5a823df197" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-99747", 
+            "y" : "-102086"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/z_z_oksana"
       }
    }, 
    "entry" : "c4677c96-9247-46c1-84d9-ba1187e6a1f4"

@@ -1,0 +1,349 @@
+{ 
+   "states" : { 
+      "d8820f5f-ea1c-40c4-ad89-151da60bf624" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101111", 
+            "y" : "-100246"
+         }, 
+         "child" : [ 
+            "d6cf365d-0f3c-429a-b467-830be4f7809e", 
+            "8a67156a-a9f3-4f48-8c0b-07913ad7bde5"
+         ]
+      }, 
+      "d6cf365d-0f3c-429a-b467-830be4f7809e" : { 
+         "class" : "FractionSetRelationshipNode", 
+         "desc" : { 
+            "x" : "-101194", 
+            "y" : "-100010"
+         }, 
+         "child" : [ 
+            "178edb75-97ac-48fe-a603-abdbfda1aaa2"
+         ], 
+         "fraction" : "~karavan", 
+         "value" : "100"
+      }, 
+      "178edb75-97ac-48fe-a603-abdbfda1aaa2" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101171", 
+            "y" : "-99946"
+         }, 
+         "child" : [ 
+            "63e45194-ea34-490b-b6c6-3b5d01b55b3d"
+         ]
+      }, 
+      "63e45194-ea34-490b-b6c6-3b5d01b55b3d" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-101166", 
+            "y" : "-99901"
+         }, 
+         "child" : [ 
+            "175b0d70-dcc9-4112-91cb-9524efd82bcd"
+         ], 
+         "spawnName" : "oksana", 
+         "pos" : [ 
+            "0", 
+            "0", 
+            "0"
+         ], 
+         "angles" : [ 
+            "0", 
+            "0", 
+            "0"
+         ]
+      }, 
+      "175b0d70-dcc9-4112-91cb-9524efd82bcd" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101170", 
+            "y" : "-99800"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "oksana", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "oksana", 
+            "character" : "oksana", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "~karavan", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+               { 
+                  "class" : "Ammo", 
+                  "count" : "25", 
+                  "proto" : "7mm_54r_craft"
+               }
+            ], 
+            "mainItemIndex" : "0", 
+            "item1" : { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "svt38", 
+               "ammo" : { 
+                  "count" : "10", 
+                  "proto" : "7mm_54r_craft"
+               }
+            }, 
+            "armor" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "armor1black"
+            }, 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "Skin_1", 
+            "beard" : "ShortBeard", 
+            "hair" : "Girl_Wavy", 
+            "hairColor" : "Blond_2", 
+            "behavior" : "moveoksana.man"
+         }
+      }, 
+      "8a67156a-a9f3-4f48-8c0b-07913ad7bde5" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100823", 
+            "y" : "-100096"
+         }, 
+         "child" : [ 
+            "fb79dddd-a9a1-44cf-aac1-211491c5cee3", 
+            "f4750dff-5e80-4268-885a-3f5fc0c9fe39"
+         ], 
+         "key" : "INIT"
+      }, 
+      "fb79dddd-a9a1-44cf-aac1-211491c5cee3" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100869", 
+            "y" : "-99969"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "f4750dff-5e80-4268-885a-3f5fc0c9fe39" : { 
+         "class" : "HudCutSceneNode", 
+         "desc" : { 
+            "x" : "-100662", 
+            "y" : "-100007"
+         }, 
+         "child" : [ 
+            "9444d049-aed8-4156-a27e-c765b7495fc1"
+         ], 
+         "show" : "true"
+      }, 
+      "9444d049-aed8-4156-a27e-c765b7495fc1" : { 
+         "class" : "PlayerWaitNode", 
+         "desc" : { 
+            "x" : "-100578", 
+            "y" : "-99907"
+         }, 
+         "child" : [ 
+            "6bccda81-67af-4461-8e77-d0f6dca7e658"
+         ], 
+         "lock" : "true", 
+         "waitingState" : "true"
+      }, 
+      "6bccda81-67af-4461-8e77-d0f6dca7e658" : { 
+         "class" : "CinematicBeginNode", 
+         "desc" : { 
+            "x" : "-100533", 
+            "y" : "-99840"
+         }, 
+         "child" : [ 
+            "45176ccc-6ae7-4fab-a519-c9ed2518c7fc"
+         ]
+      }, 
+      "45176ccc-6ae7-4fab-a519-c9ed2518c7fc" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-100558", 
+            "y" : "-99786"
+         }, 
+         "child" : [ 
+            "f9d9d882-b4d8-4999-a2a6-ab0fe21cba6d", 
+            "bc8a5a44-be37-4c11-940a-88a633be81bc"
+         ], 
+         "key" : "INIT"
+      }, 
+      "f9d9d882-b4d8-4999-a2a6-ab0fe21cba6d" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100916", 
+            "y" : "-99719"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Я слышал какой то крик!", 
+         "customObject" : "Player", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "bc8a5a44-be37-4c11-940a-88a633be81bc" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-100625", 
+            "y" : "-99694"
+         }, 
+         "child" : [ 
+            "ece2afe4-9ab9-4aad-9621-1e9f5b46a4e6"
+         ], 
+         "waitTime" : "3"
+      }, 
+      "ece2afe4-9ab9-4aad-9621-1e9f5b46a4e6" : { 
+         "class" : "HasTeamMateNode", 
+         "desc" : { 
+            "x" : "-100533", 
+            "y" : "-99602"
+         }, 
+         "child" : [ 
+            "4d2f7943-2a7c-4159-9dec-f5dda96e5c09", 
+            "1cf6f00b-ce8d-4297-96c7-e343876153cd"
+         ], 
+         "teammate" : "Fidel"
+      }, 
+      "4d2f7943-2a7c-4159-9dec-f5dda96e5c09" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100818", 
+            "y" : "-99488"
+         }, 
+         "child" : [ 
+            "64e3aa82-7b0e-47a6-b21a-e4627c68ff6c"
+         ], 
+         "text" : "Незнаю, но я четко слышал женский голос.", 
+         "customObject" : "Fidel", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "64e3aa82-7b0e-47a6-b21a-e4627c68ff6c" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-100732", 
+            "y" : "-99348"
+         }, 
+         "child" : [ 
+            "1cf6f00b-ce8d-4297-96c7-e343876153cd"
+         ], 
+         "waitTime" : "3"
+      }, 
+      "1cf6f00b-ce8d-4297-96c7-e343876153cd" : { 
+         "class" : "HasTeamMateNode", 
+         "desc" : { 
+            "x" : "-100499", 
+            "y" : "-99259"
+         }, 
+         "child" : [ 
+            "9449b33f-d4e4-4e7e-8b4c-38f66df4ee02", 
+            "851ee6ce-aa41-4778-997d-723b54828e14"
+         ], 
+         "teammate" : "Gexogen"
+      }, 
+      "9449b33f-d4e4-4e7e-8b4c-38f66df4ee02" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100781", 
+            "y" : "-99165"
+         }, 
+         "child" : [ 
+            "65fb4ce4-7ade-422e-ab49-3b3ff8e9febb"
+         ], 
+         "text" : "Думаю это просто ветер. Ветер перемен.", 
+         "customObject" : "Gexogen", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "65fb4ce4-7ade-422e-ab49-3b3ff8e9febb" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-100716", 
+            "y" : "-99059"
+         }, 
+         "child" : [ 
+            "851ee6ce-aa41-4778-997d-723b54828e14"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "851ee6ce-aa41-4778-997d-723b54828e14" : { 
+         "class" : "HasTeamMateNode", 
+         "desc" : { 
+            "x" : "-100390", 
+            "y" : "-98996"
+         }, 
+         "child" : [ 
+            "d6a84832-1753-4ab4-aef7-67847eef68f5", 
+            "df7cbb19-a55d-4136-ad51-7595cd3b6a54"
+         ], 
+         "teammate" : "Alexander"
+      }, 
+      "d6a84832-1753-4ab4-aef7-67847eef68f5" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100564", 
+            "y" : "-98856"
+         }, 
+         "child" : [ 
+            "df7cbb19-a55d-4136-ad51-7595cd3b6a54"
+         ], 
+         "text" : "Я думал это у меня в голове червяк заговорил.", 
+         "customObject" : "Alexander", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "df7cbb19-a55d-4136-ad51-7595cd3b6a54" : { 
+         "class" : "CinematicEndNode", 
+         "desc" : { 
+            "x" : "-100290", 
+            "y" : "-98728"
+         }, 
+         "child" : [ 
+            "91bd67c3-dd7f-4117-9810-4a530a9848f8"
+         ]
+      }, 
+      "91bd67c3-dd7f-4117-9810-4a530a9848f8" : { 
+         "class" : "PlayerWaitNode", 
+         "desc" : { 
+            "x" : "-100284", 
+            "y" : "-98670"
+         }, 
+         "child" : [ 
+            "a1e49072-2ea0-437f-965a-0bc0ed37c101"
+         ], 
+         "lock" : "false", 
+         "waitingState" : "false"
+      }, 
+      "a1e49072-2ea0-437f-965a-0bc0ed37c101" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100276", 
+            "y" : "-98616"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "59b92852-d145-4fb1-8ee0-3547ff461782" : { 
+         "class" : "QuestBeginNode", 
+         "desc" : { 
+            "x" : "-103693", 
+            "y" : "-100723"
+         }, 
+         "child" : [ 
+         ], 
+         "quest_key" : "CITY.BOOK_END"
+      }
+   }, 
+   "entry" : "d8820f5f-ea1c-40c4-ad89-151da60bf624"
+}

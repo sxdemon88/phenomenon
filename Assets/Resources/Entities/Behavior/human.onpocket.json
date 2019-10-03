@@ -1,0 +1,2718 @@
+{ 
+   "states" : { 
+      "7cbe8496-63a7-48df-922c-8e2dd05ca7bc" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100876", 
+            "y" : "-101024"
+         }, 
+         "child" : [ 
+            "5931d529-3cf3-4a97-aca9-b7fd8ebf180b"
+         ]
+      }, 
+      "5931d529-3cf3-4a97-aca9-b7fd8ebf180b" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-100885", 
+            "y" : "-100889"
+         }, 
+         "child" : [ 
+            "05d864e6-204d-499e-8e11-1734bcffd7ac", 
+            "5d52daed-638d-4a8a-a49a-7c6401234e16"
+         ]
+      }, 
+      "05d864e6-204d-499e-8e11-1734bcffd7ac" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100998", 
+            "y" : "-100744"
+         }, 
+         "child" : [ 
+            "033bac8b-95ef-4969-994b-09c632e830c7", 
+            "c8989161-8580-43c5-8060-c4414a32e700"
+         ], 
+         "key" : "LOOTED"
+      }, 
+      "033bac8b-95ef-4969-994b-09c632e830c7" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101230", 
+            "y" : "-100615"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "c8989161-8580-43c5-8060-c4414a32e700" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-100562", 
+            "y" : "-100162"
+         }, 
+         "child" : [ 
+            "5e59cd9f-40cb-461d-8001-c57379736b1a", 
+            "ddcb7877-5110-4e14-bb79-4cd49dda1c2b"
+         ], 
+         "key" : "LOOTED"
+      }, 
+      "5e59cd9f-40cb-461d-8001-c57379736b1a" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-101261", 
+            "y" : "-99549"
+         }, 
+         "child" : [ 
+            "95ac2c64-5d9b-4055-8ae1-0f19debb991a", 
+            "6f604abd-530c-4cd5-8bbb-fd15f7778c72"
+         ], 
+         "key" : "BEGIN", 
+         "value" : "3", 
+         "opp" : "GreaterEqual"
+      }, 
+      "95ac2c64-5d9b-4055-8ae1-0f19debb991a" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101486", 
+            "y" : "-99416"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "6f604abd-530c-4cd5-8bbb-fd15f7778c72" : { 
+         "class" : "MathKeyValueNode", 
+         "desc" : { 
+            "x" : "-101151", 
+            "y" : "-99341"
+         }, 
+         "child" : [ 
+            "2ab998bd-ece0-4652-aa61-96ee489ad3f7"
+         ], 
+         "key" : "BEGIN", 
+         "value" : "1", 
+         "opp" : "Add"
+      }, 
+      "2ab998bd-ece0-4652-aa61-96ee489ad3f7" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-101100", 
+            "y" : "-99216"
+         }, 
+         "child" : [ 
+            "1bae8cec-9685-4b0a-b9c9-8ea0ae89c45f", 
+            "b0902ffa-c624-480d-bd13-278ac6ca4d22"
+         ], 
+         "value" : "190", 
+         "modifier" : "Science"
+      }, 
+      "1bae8cec-9685-4b0a-b9c9-8ea0ae89c45f" : { 
+         "class" : "HasRandomDiceNode", 
+         "desc" : { 
+            "x" : "-101108", 
+            "y" : "-97853"
+         }, 
+         "child" : [ 
+            "26ed811f-d2c2-4c75-baab-5daae0a9305b", 
+            "63abfbe5-daa0-4cf3-83d1-fa196dfe8a13"
+         ], 
+         "dice" : "65"
+      }, 
+      "26ed811f-d2c2-4c75-baab-5daae0a9305b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100932", 
+            "y" : "-97516"
+         }, 
+         "child" : [ 
+            "f372e1cc-a089-4803-81b8-bc860ca8acb6"
+         ]
+      }, 
+      "f372e1cc-a089-4803-81b8-bc860ca8acb6" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101050", 
+            "y" : "-97375"
+         }, 
+         "child" : [ 
+            "f204841e-5e90-458a-bd0f-c5a5e1b596c6", 
+            "907bb3c9-ee0e-491c-a1e3-999ef0b7ce6b"
+         ], 
+         "key" : "CAP_CHEK"
+      }, 
+      "f204841e-5e90-458a-bd0f-c5a5e1b596c6" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101442", 
+            "y" : "-97166"
+         }, 
+         "child" : [ 
+            "91f7a84f-009d-4bf1-93e0-1c1108ee5190", 
+            "2a17ec48-6270-42ea-b072-8d1f1198b788"
+         ], 
+         "key" : "ARMOR_CHEK"
+      }, 
+      "91f7a84f-009d-4bf1-93e0-1c1108ee5190" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101812", 
+            "y" : "-97011"
+         }, 
+         "child" : [ 
+            "acf1011e-8d33-477c-ac40-4581586db096", 
+            "493004f4-302b-405b-860c-141396f48c49"
+         ], 
+         "key" : "MASK_CHEK"
+      }, 
+      "acf1011e-8d33-477c-ac40-4581586db096" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102046", 
+            "y" : "-96865"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "493004f4-302b-405b-860c-141396f48c49" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-101740", 
+            "y" : "-96891"
+         }, 
+         "child" : [ 
+            "ccefdbc3-cd44-4745-b7bc-9f5c9754fb73"
+         ], 
+         "key" : "MASK_CHEK"
+      }, 
+      "ccefdbc3-cd44-4745-b7bc-9f5c9754fb73" : { 
+         "class" : "CharacterHasEquipTypeNode", 
+         "desc" : { 
+            "x" : "-101724", 
+            "y" : "-96785"
+         }, 
+         "child" : [ 
+            "86cfe8f3-1a54-42e7-b42e-d07ff540276e", 
+            "05689929-bb88-45c0-b221-ddd96c30f991"
+         ], 
+         "equipType" : "MaskItem"
+      }, 
+      "86cfe8f3-1a54-42e7-b42e-d07ff540276e" : { 
+         "class" : "LogNode", 
+         "desc" : { 
+            "x" : "-101764", 
+            "y" : "-96666"
+         }, 
+         "child" : [ 
+            "05689929-bb88-45c0-b221-ddd96c30f991"
+         ], 
+         "text" : "Маска уцелела."
+      }, 
+      "05689929-bb88-45c0-b221-ddd96c30f991" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101291", 
+            "y" : "-96572"
+         }, 
+         "child" : [ 
+            "5e59cd9f-40cb-461d-8001-c57379736b1a"
+         ]
+      }, 
+      "2a17ec48-6270-42ea-b072-8d1f1198b788" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-101305", 
+            "y" : "-97012"
+         }, 
+         "child" : [ 
+            "da98735e-9afe-41e4-8572-0cbf1c7b3f67"
+         ], 
+         "key" : "ARMOR_CHEK"
+      }, 
+      "da98735e-9afe-41e4-8572-0cbf1c7b3f67" : { 
+         "class" : "CharacterHasEquipTypeNode", 
+         "desc" : { 
+            "x" : "-101315", 
+            "y" : "-96894"
+         }, 
+         "child" : [ 
+            "926c32ca-e4cb-470b-8a74-8cff633f866f", 
+            "05689929-bb88-45c0-b221-ddd96c30f991"
+         ], 
+         "equipType" : "ArmorItem"
+      }, 
+      "926c32ca-e4cb-470b-8a74-8cff633f866f" : { 
+         "class" : "LogNode", 
+         "desc" : { 
+            "x" : "-101368", 
+            "y" : "-96764"
+         }, 
+         "child" : [ 
+            "05689929-bb88-45c0-b221-ddd96c30f991"
+         ], 
+         "text" : "Броня уцелела."
+      }, 
+      "907bb3c9-ee0e-491c-a1e3-999ef0b7ce6b" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-100938", 
+            "y" : "-97223"
+         }, 
+         "child" : [ 
+            "fa6aed23-c73b-409b-85f4-94eba82c7708"
+         ], 
+         "key" : "CAP_CHEK"
+      }, 
+      "fa6aed23-c73b-409b-85f4-94eba82c7708" : { 
+         "class" : "CharacterHasEquipTypeNode", 
+         "desc" : { 
+            "x" : "-100834", 
+            "y" : "-97139"
+         }, 
+         "child" : [ 
+            "4b0838ed-dcb3-4538-a89d-be2b7e2e802f", 
+            "05689929-bb88-45c0-b221-ddd96c30f991"
+         ], 
+         "equipType" : "CapItem"
+      }, 
+      "4b0838ed-dcb3-4538-a89d-be2b7e2e802f" : { 
+         "class" : "LogNode", 
+         "desc" : { 
+            "x" : "-100930", 
+            "y" : "-97019"
+         }, 
+         "child" : [ 
+            "05689929-bb88-45c0-b221-ddd96c30f991"
+         ], 
+         "text" : "Головной убор уцелел."
+      }, 
+      "63abfbe5-daa0-4cf3-83d1-fa196dfe8a13" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99695", 
+            "y" : "-97520"
+         }, 
+         "child" : [ 
+            "ff6c3a11-ea53-444b-bbae-7ac10f869f7d"
+         ]
+      }, 
+      "ff6c3a11-ea53-444b-bbae-7ac10f869f7d" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-98854", 
+            "y" : "-97404"
+         }, 
+         "child" : [ 
+            "0e832dad-59eb-40ef-93ce-c96cb25fc63c", 
+            "69f790a9-85b0-486e-8b10-c7ac75583493"
+         ], 
+         "value" : "11", 
+         "modifier" : "Luck"
+      }, 
+      "0e832dad-59eb-40ef-93ce-c96cb25fc63c" : { 
+         "class" : "HasRandomDiceNode", 
+         "desc" : { 
+            "x" : "-99008", 
+            "y" : "-97112"
+         }, 
+         "child" : [ 
+            "59111741-8f44-4d85-8653-1574ba5a3566", 
+            "692c69aa-c8c7-4df5-a5d1-eaf2a37c27bc"
+         ], 
+         "dice" : "30"
+      }, 
+      "59111741-8f44-4d85-8653-1574ba5a3566" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-99939", 
+            "y" : "-96893"
+         }, 
+         "child" : [ 
+            "3ef00932-5f94-463b-ba46-dfb54c44a0b9", 
+            "bab330df-1d67-4a11-b941-edffca48db80"
+         ], 
+         "key" : "CAP_CHEK"
+      }, 
+      "3ef00932-5f94-463b-ba46-dfb54c44a0b9" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100340", 
+            "y" : "-96621"
+         }, 
+         "child" : [ 
+            "14aa19db-89fc-454c-840d-7640ee81a7a2", 
+            "b045ec84-344e-486e-9554-b53d671d5453"
+         ], 
+         "key" : "ARMOR_CHEK"
+      }, 
+      "14aa19db-89fc-454c-840d-7640ee81a7a2" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100752", 
+            "y" : "-96416"
+         }, 
+         "child" : [ 
+            "e03aeead-0a04-40b2-b1a2-ea58b30c2b63", 
+            "63901577-af17-488c-b2ca-f1cd50f5d84d"
+         ], 
+         "key" : "MASK_CHEK"
+      }, 
+      "e03aeead-0a04-40b2-b1a2-ea58b30c2b63" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101038", 
+            "y" : "-96262"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "63901577-af17-488c-b2ca-f1cd50f5d84d" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-100666", 
+            "y" : "-96290"
+         }, 
+         "child" : [ 
+            "7b111c41-0d40-4bdc-bc29-fd7b6ae2e6f9"
+         ], 
+         "key" : "MASK_CHEK"
+      }, 
+      "7b111c41-0d40-4bdc-bc29-fd7b6ae2e6f9" : { 
+         "class" : "CharacterHasEquipTypeNode", 
+         "desc" : { 
+            "x" : "-100682", 
+            "y" : "-96207"
+         }, 
+         "child" : [ 
+            "bdbb40cc-714c-4305-8c71-372f69745240", 
+            "ee7b3e7e-b9bf-4f6b-ae96-0ae778c70616"
+         ], 
+         "equipType" : "MaskItem"
+      }, 
+      "bdbb40cc-714c-4305-8c71-372f69745240" : { 
+         "class" : "LogNode", 
+         "desc" : { 
+            "x" : "-100720", 
+            "y" : "-96073"
+         }, 
+         "child" : [ 
+            "ee7b3e7e-b9bf-4f6b-ae96-0ae778c70616"
+         ], 
+         "text" : "Удача! Маска уцелела."
+      }, 
+      "ee7b3e7e-b9bf-4f6b-ae96-0ae778c70616" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100000", 
+            "y" : "-95963"
+         }, 
+         "child" : [ 
+            "5e59cd9f-40cb-461d-8001-c57379736b1a"
+         ]
+      }, 
+      "b045ec84-344e-486e-9554-b53d671d5453" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-100178", 
+            "y" : "-96480"
+         }, 
+         "child" : [ 
+            "391d1fd3-9405-42bb-a6ef-d1c252b0f128"
+         ], 
+         "key" : "ARMOR_CHEK"
+      }, 
+      "391d1fd3-9405-42bb-a6ef-d1c252b0f128" : { 
+         "class" : "CharacterHasEquipTypeNode", 
+         "desc" : { 
+            "x" : "-100142", 
+            "y" : "-96379"
+         }, 
+         "child" : [ 
+            "33fcc458-dcc6-494d-8e3a-35b57e199815", 
+            "ee7b3e7e-b9bf-4f6b-ae96-0ae778c70616"
+         ], 
+         "equipType" : "ArmorItem"
+      }, 
+      "33fcc458-dcc6-494d-8e3a-35b57e199815" : { 
+         "class" : "LogNode", 
+         "desc" : { 
+            "x" : "-100236", 
+            "y" : "-96268"
+         }, 
+         "child" : [ 
+            "ee7b3e7e-b9bf-4f6b-ae96-0ae778c70616"
+         ], 
+         "text" : "Удача! Броня уцелела."
+      }, 
+      "bab330df-1d67-4a11-b941-edffca48db80" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-99872", 
+            "y" : "-96793"
+         }, 
+         "child" : [ 
+            "d26a675d-c96a-4a8f-9511-6741a27ea9e5"
+         ], 
+         "key" : "CAP_CHEK"
+      }, 
+      "d26a675d-c96a-4a8f-9511-6741a27ea9e5" : { 
+         "class" : "CharacterHasEquipTypeNode", 
+         "desc" : { 
+            "x" : "-99826", 
+            "y" : "-96657"
+         }, 
+         "child" : [ 
+            "f3454bde-bf4f-411e-aa65-1cfc97517a23", 
+            "ee7b3e7e-b9bf-4f6b-ae96-0ae778c70616"
+         ], 
+         "equipType" : "CapItem"
+      }, 
+      "f3454bde-bf4f-411e-aa65-1cfc97517a23" : { 
+         "class" : "LogNode", 
+         "desc" : { 
+            "x" : "-99935", 
+            "y" : "-96545"
+         }, 
+         "child" : [ 
+            "ee7b3e7e-b9bf-4f6b-ae96-0ae778c70616"
+         ], 
+         "text" : "Удача! Головной убор уцелел."
+      }, 
+      "692c69aa-c8c7-4df5-a5d1-eaf2a37c27bc" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-99010", 
+            "y" : "-95754"
+         }, 
+         "child" : [ 
+            "79dedace-d511-42d9-b9ce-94320459adc6", 
+            "1153b8b9-d571-4d01-bc23-d1a3cf4e821a"
+         ], 
+         "key" : "CAP_CHEK"
+      }, 
+      "79dedace-d511-42d9-b9ce-94320459adc6" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-99372", 
+            "y" : "-95329"
+         }, 
+         "child" : [ 
+            "108fb80e-aae8-4785-b9f1-b5e0fcc7fa49", 
+            "dbf86b68-464b-4ae5-9fe4-89dd5a142a4c"
+         ], 
+         "key" : "ARMOR_CHEK"
+      }, 
+      "108fb80e-aae8-4785-b9f1-b5e0fcc7fa49" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-99801", 
+            "y" : "-95123"
+         }, 
+         "child" : [ 
+            "56972e6e-26a3-4ac5-8c12-40fb1ef3834f", 
+            "ddc041ee-9cc4-4dbe-9031-feb6dcb2f6b8"
+         ], 
+         "key" : "MASK_CHEK"
+      }, 
+      "56972e6e-26a3-4ac5-8c12-40fb1ef3834f" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100049", 
+            "y" : "-94968"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "ddc041ee-9cc4-4dbe-9031-feb6dcb2f6b8" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-99677", 
+            "y" : "-94996"
+         }, 
+         "child" : [ 
+            "41844f26-7913-4b4d-8cb4-ac799c27fdf7"
+         ], 
+         "key" : "MASK_CHEK"
+      }, 
+      "41844f26-7913-4b4d-8cb4-ac799c27fdf7" : { 
+         "class" : "CharacterHasEquipTypeNode", 
+         "desc" : { 
+            "x" : "-99693", 
+            "y" : "-94913"
+         }, 
+         "child" : [ 
+            "eb587b85-c717-4b66-bd05-c67173882952", 
+            "8e3cdb2f-5a4a-4355-94f5-77a2c204788e"
+         ], 
+         "equipType" : "MaskItem"
+      }, 
+      "eb587b85-c717-4b66-bd05-c67173882952" : { 
+         "class" : "CharacterSetItemNode", 
+         "desc" : { 
+            "x" : "-99725", 
+            "y" : "-94793"
+         }, 
+         "child" : [ 
+            "5fd8e39b-5c97-4ef7-9383-92781a6881e8"
+         ], 
+         "modeType" : "Mask"
+      }, 
+      "5fd8e39b-5c97-4ef7-9383-92781a6881e8" : { 
+         "class" : "LogNode", 
+         "desc" : { 
+            "x" : "-99734", 
+            "y" : "-94685"
+         }, 
+         "child" : [ 
+            "538c51a7-71cd-44e7-a57e-3963c142a4f1"
+         ], 
+         "text" : "Маска повреждена."
+      }, 
+      "538c51a7-71cd-44e7-a57e-3963c142a4f1" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-99733", 
+            "y" : "-94618"
+         }, 
+         "child" : [ 
+            "8e3cdb2f-5a4a-4355-94f5-77a2c204788e"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Wastemetal"
+         }
+      }, 
+      "8e3cdb2f-5a4a-4355-94f5-77a2c204788e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-98687", 
+            "y" : "-94244"
+         }, 
+         "child" : [ 
+            "5e59cd9f-40cb-461d-8001-c57379736b1a"
+         ]
+      }, 
+      "dbf86b68-464b-4ae5-9fe4-89dd5a142a4c" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-99189", 
+            "y" : "-95186"
+         }, 
+         "child" : [ 
+            "c7c5e583-35d9-4cae-9105-371c935318f8"
+         ], 
+         "key" : "ARMOR_CHEK"
+      }, 
+      "c7c5e583-35d9-4cae-9105-371c935318f8" : { 
+         "class" : "CharacterHasEquipTypeNode", 
+         "desc" : { 
+            "x" : "-99207", 
+            "y" : "-95111"
+         }, 
+         "child" : [ 
+            "80ddcb1a-f838-41ea-9feb-4984245c10f2", 
+            "8e3cdb2f-5a4a-4355-94f5-77a2c204788e"
+         ], 
+         "equipType" : "ArmorItem"
+      }, 
+      "80ddcb1a-f838-41ea-9feb-4984245c10f2" : { 
+         "class" : "CharacterSetItemNode", 
+         "desc" : { 
+            "x" : "-99244", 
+            "y" : "-94991"
+         }, 
+         "child" : [ 
+            "ae9c1028-d168-4d88-b0ee-e2ab0ad3d818"
+         ], 
+         "modeType" : "Armor"
+      }, 
+      "ae9c1028-d168-4d88-b0ee-e2ab0ad3d818" : { 
+         "class" : "LogNode", 
+         "desc" : { 
+            "x" : "-99254", 
+            "y" : "-94887"
+         }, 
+         "child" : [ 
+            "9e01be6f-9d04-4152-b37a-ba00de5db550"
+         ], 
+         "text" : "Броня повреждена."
+      }, 
+      "9e01be6f-9d04-4152-b37a-ba00de5db550" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-98956", 
+            "y" : "-94785"
+         }, 
+         "child" : [ 
+            "ffebe647-9583-4adc-891f-ca493d0f8d59", 
+            "34f34a79-7460-4127-b594-f370b6886577"
+         ]
+      }, 
+      "ffebe647-9583-4adc-891f-ca493d0f8d59" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-99065", 
+            "y" : "-94720"
+         }, 
+         "child" : [ 
+            "8e3cdb2f-5a4a-4355-94f5-77a2c204788e"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "2", 
+            "proto" : "Wastemetal"
+         }
+      }, 
+      "34f34a79-7460-4127-b594-f370b6886577" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-98847", 
+            "y" : "-94715"
+         }, 
+         "child" : [ 
+            "8e3cdb2f-5a4a-4355-94f5-77a2c204788e"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "3", 
+            "proto" : "Wastemetal"
+         }
+      }, 
+      "1153b8b9-d571-4d01-bc23-d1a3cf4e821a" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-98911", 
+            "y" : "-95628"
+         }, 
+         "child" : [ 
+            "7f3581a9-8084-4c81-af30-0eaf889aa312"
+         ], 
+         "key" : "CAP_CHEK"
+      }, 
+      "7f3581a9-8084-4c81-af30-0eaf889aa312" : { 
+         "class" : "CharacterHasEquipTypeNode", 
+         "desc" : { 
+            "x" : "-98828", 
+            "y" : "-95523"
+         }, 
+         "child" : [ 
+            "505bfb83-3452-4c2c-a594-5c43a82b868d", 
+            "8e3cdb2f-5a4a-4355-94f5-77a2c204788e"
+         ], 
+         "equipType" : "CapItem"
+      }, 
+      "505bfb83-3452-4c2c-a594-5c43a82b868d" : { 
+         "class" : "CharacterSetItemNode", 
+         "desc" : { 
+            "x" : "-98919", 
+            "y" : "-95422"
+         }, 
+         "child" : [ 
+            "67575357-829c-425a-8613-37d53e957007"
+         ], 
+         "modeType" : "Cap"
+      }, 
+      "67575357-829c-425a-8613-37d53e957007" : { 
+         "class" : "LogNode", 
+         "desc" : { 
+            "x" : "-98912", 
+            "y" : "-95335"
+         }, 
+         "child" : [ 
+            "721d39b1-878a-4d21-953d-edc43ad121ff"
+         ], 
+         "text" : "Головной убор поврежден."
+      }, 
+      "721d39b1-878a-4d21-953d-edc43ad121ff" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-98829", 
+            "y" : "-95239"
+         }, 
+         "child" : [ 
+            "8e3cdb2f-5a4a-4355-94f5-77a2c204788e"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Wastemetal"
+         }
+      }, 
+      "69f790a9-85b0-486e-8b10-c7ac75583493" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-98713", 
+            "y" : "-97273"
+         }, 
+         "child" : [ 
+            "33ffe155-0192-4301-b3a6-73e52dfee2c0", 
+            "a1972083-f7b7-4811-bdab-a6a2fee792da"
+         ], 
+         "value" : "10", 
+         "modifier" : "Luck"
+      }, 
+      "33ffe155-0192-4301-b3a6-73e52dfee2c0" : { 
+         "class" : "HasRandomDiceNode", 
+         "desc" : { 
+            "x" : "-98842", 
+            "y" : "-97021"
+         }, 
+         "child" : [ 
+            "59111741-8f44-4d85-8653-1574ba5a3566", 
+            "692c69aa-c8c7-4df5-a5d1-eaf2a37c27bc"
+         ], 
+         "dice" : "25"
+      }, 
+      "a1972083-f7b7-4811-bdab-a6a2fee792da" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-98553", 
+            "y" : "-97175"
+         }, 
+         "child" : [ 
+            "39cb909b-9876-4056-984b-3e6553808658", 
+            "703a385d-88c9-43f2-b9be-70e27a8b9c0e"
+         ], 
+         "value" : "9", 
+         "modifier" : "Luck"
+      }, 
+      "39cb909b-9876-4056-984b-3e6553808658" : { 
+         "class" : "HasRandomDiceNode", 
+         "desc" : { 
+            "x" : "-98683", 
+            "y" : "-96898"
+         }, 
+         "child" : [ 
+            "59111741-8f44-4d85-8653-1574ba5a3566", 
+            "692c69aa-c8c7-4df5-a5d1-eaf2a37c27bc"
+         ], 
+         "dice" : "20"
+      }, 
+      "703a385d-88c9-43f2-b9be-70e27a8b9c0e" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-98422", 
+            "y" : "-97052"
+         }, 
+         "child" : [ 
+            "d7d8b918-8b23-4bcf-84e2-d6b926a9770f", 
+            "3920faf1-4409-405d-94bf-bee314684102"
+         ], 
+         "value" : "8", 
+         "modifier" : "Luck"
+      }, 
+      "d7d8b918-8b23-4bcf-84e2-d6b926a9770f" : { 
+         "class" : "HasRandomDiceNode", 
+         "desc" : { 
+            "x" : "-98515", 
+            "y" : "-96824"
+         }, 
+         "child" : [ 
+            "59111741-8f44-4d85-8653-1574ba5a3566", 
+            "692c69aa-c8c7-4df5-a5d1-eaf2a37c27bc"
+         ], 
+         "dice" : "15"
+      }, 
+      "3920faf1-4409-405d-94bf-bee314684102" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-98272", 
+            "y" : "-96902"
+         }, 
+         "child" : [ 
+            "d5f4ca3f-acbe-4766-802b-4efc9549c090", 
+            "56352626-feed-45aa-90e6-a48d71915023"
+         ], 
+         "value" : "7", 
+         "modifier" : "Luck"
+      }, 
+      "d5f4ca3f-acbe-4766-802b-4efc9549c090" : { 
+         "class" : "HasRandomDiceNode", 
+         "desc" : { 
+            "x" : "-98372", 
+            "y" : "-96732"
+         }, 
+         "child" : [ 
+            "59111741-8f44-4d85-8653-1574ba5a3566", 
+            "692c69aa-c8c7-4df5-a5d1-eaf2a37c27bc"
+         ], 
+         "dice" : "14"
+      }, 
+      "56352626-feed-45aa-90e6-a48d71915023" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-98075", 
+            "y" : "-96753"
+         }, 
+         "child" : [ 
+            "5678238c-693e-459c-beb1-fdf2d83ca1fc", 
+            "2ec39326-393b-4ad9-801c-7a9ac99d1763"
+         ], 
+         "value" : "6", 
+         "modifier" : "Luck"
+      }, 
+      "5678238c-693e-459c-beb1-fdf2d83ca1fc" : { 
+         "class" : "HasRandomDiceNode", 
+         "desc" : { 
+            "x" : "-98195", 
+            "y" : "-96628"
+         }, 
+         "child" : [ 
+            "59111741-8f44-4d85-8653-1574ba5a3566", 
+            "692c69aa-c8c7-4df5-a5d1-eaf2a37c27bc"
+         ], 
+         "dice" : "13"
+      }, 
+      "2ec39326-393b-4ad9-801c-7a9ac99d1763" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-97891", 
+            "y" : "-96646"
+         }, 
+         "child" : [ 
+            "10a2e71c-781b-4cbc-bc0f-ff507e2d64f9", 
+            "692c69aa-c8c7-4df5-a5d1-eaf2a37c27bc"
+         ], 
+         "value" : "5", 
+         "modifier" : "Luck"
+      }, 
+      "10a2e71c-781b-4cbc-bc0f-ff507e2d64f9" : { 
+         "class" : "HasRandomDiceNode", 
+         "desc" : { 
+            "x" : "-98007", 
+            "y" : "-96514"
+         }, 
+         "child" : [ 
+            "59111741-8f44-4d85-8653-1574ba5a3566", 
+            "692c69aa-c8c7-4df5-a5d1-eaf2a37c27bc"
+         ], 
+         "dice" : "10"
+      }, 
+      "b0902ffa-c624-480d-bd13-278ac6ca4d22" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-100908", 
+            "y" : "-99122"
+         }, 
+         "child" : [ 
+            "e475e863-a42b-449d-ab23-7e6e96cb0fce", 
+            "29644272-c777-47b3-ad85-1dd921769193"
+         ], 
+         "value" : "170", 
+         "modifier" : "Science"
+      }, 
+      "e475e863-a42b-449d-ab23-7e6e96cb0fce" : { 
+         "class" : "HasRandomDiceNode", 
+         "desc" : { 
+            "x" : "-100937", 
+            "y" : "-97849"
+         }, 
+         "child" : [ 
+            "26ed811f-d2c2-4c75-baab-5daae0a9305b", 
+            "63abfbe5-daa0-4cf3-83d1-fa196dfe8a13"
+         ], 
+         "dice" : "60"
+      }, 
+      "29644272-c777-47b3-ad85-1dd921769193" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-100707", 
+            "y" : "-98938"
+         }, 
+         "child" : [ 
+            "fb60cb48-6cee-4042-9a58-5eb63fa7acf0", 
+            "c8183ef0-4525-4269-adde-1b55ac377479"
+         ], 
+         "value" : "150", 
+         "modifier" : "Science"
+      }, 
+      "fb60cb48-6cee-4042-9a58-5eb63fa7acf0" : { 
+         "class" : "HasRandomDiceNode", 
+         "desc" : { 
+            "x" : "-100749", 
+            "y" : "-97850"
+         }, 
+         "child" : [ 
+            "26ed811f-d2c2-4c75-baab-5daae0a9305b", 
+            "63abfbe5-daa0-4cf3-83d1-fa196dfe8a13"
+         ], 
+         "dice" : "58"
+      }, 
+      "c8183ef0-4525-4269-adde-1b55ac377479" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-100535", 
+            "y" : "-98809"
+         }, 
+         "child" : [ 
+            "a762ded3-e4f6-4830-88ae-4786a1009d8c", 
+            "d8e92dcd-1e51-40a3-aced-e66b893b76b3"
+         ], 
+         "value" : "120", 
+         "modifier" : "Science"
+      }, 
+      "a762ded3-e4f6-4830-88ae-4786a1009d8c" : { 
+         "class" : "HasRandomDiceNode", 
+         "desc" : { 
+            "x" : "-100563", 
+            "y" : "-97849"
+         }, 
+         "child" : [ 
+            "26ed811f-d2c2-4c75-baab-5daae0a9305b", 
+            "63abfbe5-daa0-4cf3-83d1-fa196dfe8a13"
+         ], 
+         "dice" : "55"
+      }, 
+      "d8e92dcd-1e51-40a3-aced-e66b893b76b3" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-100348", 
+            "y" : "-98632"
+         }, 
+         "child" : [ 
+            "8f0bb7eb-9703-4d49-b4c3-9f6b28088cd7", 
+            "899e71fb-24f4-4bab-bdfe-ed04e1e3921a"
+         ], 
+         "value" : "100", 
+         "modifier" : "Science"
+      }, 
+      "8f0bb7eb-9703-4d49-b4c3-9f6b28088cd7" : { 
+         "class" : "HasRandomDiceNode", 
+         "desc" : { 
+            "x" : "-100377", 
+            "y" : "-97851"
+         }, 
+         "child" : [ 
+            "26ed811f-d2c2-4c75-baab-5daae0a9305b", 
+            "63abfbe5-daa0-4cf3-83d1-fa196dfe8a13"
+         ], 
+         "dice" : "50"
+      }, 
+      "899e71fb-24f4-4bab-bdfe-ed04e1e3921a" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-100176", 
+            "y" : "-98423"
+         }, 
+         "child" : [ 
+            "22849fe7-1049-4ae0-8cd1-a6452e8e1269", 
+            "b8782df7-b6e8-4269-b698-0451f74c096f"
+         ], 
+         "value" : "80", 
+         "modifier" : "Science"
+      }, 
+      "22849fe7-1049-4ae0-8cd1-a6452e8e1269" : { 
+         "class" : "HasRandomDiceNode", 
+         "desc" : { 
+            "x" : "-100194", 
+            "y" : "-97848"
+         }, 
+         "child" : [ 
+            "26ed811f-d2c2-4c75-baab-5daae0a9305b", 
+            "63abfbe5-daa0-4cf3-83d1-fa196dfe8a13"
+         ], 
+         "dice" : "45"
+      }, 
+      "b8782df7-b6e8-4269-b698-0451f74c096f" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-99981", 
+            "y" : "-98221"
+         }, 
+         "child" : [ 
+            "f9782101-dfb7-40a1-b61d-6c86f06b0d1b", 
+            "292ec662-641f-469b-a09e-9506f8cb99a7"
+         ], 
+         "value" : "60", 
+         "modifier" : "Science"
+      }, 
+      "f9782101-dfb7-40a1-b61d-6c86f06b0d1b" : { 
+         "class" : "HasRandomDiceNode", 
+         "desc" : { 
+            "x" : "-100007", 
+            "y" : "-97849"
+         }, 
+         "child" : [ 
+            "26ed811f-d2c2-4c75-baab-5daae0a9305b", 
+            "63abfbe5-daa0-4cf3-83d1-fa196dfe8a13"
+         ], 
+         "dice" : "40"
+      }, 
+      "292ec662-641f-469b-a09e-9506f8cb99a7" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-99787", 
+            "y" : "-98061"
+         }, 
+         "child" : [ 
+            "beb8e2f5-74f9-4822-9da1-97bf5700c10e", 
+            "a5768af9-7a33-4116-8fb2-0f686e306626"
+         ], 
+         "value" : "40", 
+         "modifier" : "Science"
+      }, 
+      "beb8e2f5-74f9-4822-9da1-97bf5700c10e" : { 
+         "class" : "HasRandomDiceNode", 
+         "desc" : { 
+            "x" : "-99837", 
+            "y" : "-97847"
+         }, 
+         "child" : [ 
+            "26ed811f-d2c2-4c75-baab-5daae0a9305b", 
+            "63abfbe5-daa0-4cf3-83d1-fa196dfe8a13"
+         ], 
+         "dice" : "35"
+      }, 
+      "a5768af9-7a33-4116-8fb2-0f686e306626" : { 
+         "class" : "HasRandomDiceNode", 
+         "desc" : { 
+            "x" : "-99264", 
+            "y" : "-97801"
+         }, 
+         "child" : [ 
+            "26ed811f-d2c2-4c75-baab-5daae0a9305b", 
+            "ff6c3a11-ea53-444b-bbae-7ac10f869f7d"
+         ], 
+         "dice" : "30"
+      }, 
+      "ddcb7877-5110-4e14-bb79-4cd49dda1c2b" : { 
+         "class" : "HandHasWeaponNode", 
+         "desc" : { 
+            "x" : "-98247", 
+            "y" : "-100032"
+         }, 
+         "child" : [ 
+            "4ea03175-fe59-4ef3-bd30-28b8c5f93d88", 
+            "55afda90-4a6d-47d7-83b0-f5135892d5ef"
+         ]
+      }, 
+      "4ea03175-fe59-4ef3-bd30-28b8c5f93d88" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-97701", 
+            "y" : "-99659"
+         }, 
+         "child" : [ 
+            "7edf1e2f-35c3-4bfc-bd82-e1462a0ad799", 
+            "89666c7a-d9b8-470a-a071-45895e7dd66a"
+         ], 
+         "value" : "190", 
+         "modifier" : "Crafting"
+      }, 
+      "7edf1e2f-35c3-4bfc-bd82-e1462a0ad799" : { 
+         "class" : "HasRandomDiceNode", 
+         "desc" : { 
+            "x" : "-97639", 
+            "y" : "-97939"
+         }, 
+         "child" : [ 
+            "c256728f-8dd9-4c73-a3ae-5adb63099d32", 
+            "a7ebffc4-81b2-4d86-85d7-941a68884f11"
+         ], 
+         "dice" : "65"
+      }, 
+      "c256728f-8dd9-4c73-a3ae-5adb63099d32" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-96893", 
+            "y" : "-97478"
+         }, 
+         "child" : [ 
+            "8d0e0957-c234-41d4-ab66-eb6fd7d68ae3"
+         ]
+      }, 
+      "8d0e0957-c234-41d4-ab66-eb6fd7d68ae3" : { 
+         "class" : "LogNode", 
+         "desc" : { 
+            "x" : "-96873", 
+            "y" : "-97421"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Оружие уцелело."
+      }, 
+      "a7ebffc4-81b2-4d86-85d7-941a68884f11" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-95967", 
+            "y" : "-97615"
+         }, 
+         "child" : [ 
+            "7a7ea7e9-2869-4f46-b4ed-7f25638d7370"
+         ]
+      }, 
+      "7a7ea7e9-2869-4f46-b4ed-7f25638d7370" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-93875", 
+            "y" : "-97786"
+         }, 
+         "child" : [ 
+            "23a873a4-10ac-429c-ad50-2a5cc24d5792", 
+            "a2f6612c-f97e-441d-96f9-5ece44818183"
+         ], 
+         "value" : "11", 
+         "modifier" : "Luck"
+      }, 
+      "23a873a4-10ac-429c-ad50-2a5cc24d5792" : { 
+         "class" : "HasRandomDiceNode", 
+         "desc" : { 
+            "x" : "-94066", 
+            "y" : "-97492"
+         }, 
+         "child" : [ 
+            "a145be4c-120d-4118-b530-d4e663811c11", 
+            "88155eca-e6df-45f0-a14e-e52d2daaa584"
+         ], 
+         "dice" : "30"
+      }, 
+      "a145be4c-120d-4118-b530-d4e663811c11" : { 
+         "class" : "LogNode", 
+         "desc" : { 
+            "x" : "-94927", 
+            "y" : "-97016"
+         }, 
+         "child" : [ 
+            "b66ef845-4624-456c-885e-fb962020bdad"
+         ], 
+         "text" : "Вам улыбнулась удача. Оружие уцелело."
+      }, 
+      "b66ef845-4624-456c-885e-fb962020bdad" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-95077", 
+            "y" : "-96864"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "88155eca-e6df-45f0-a14e-e52d2daaa584" : { 
+         "class" : "LogNode", 
+         "desc" : { 
+            "x" : "-93889", 
+            "y" : "-96599"
+         }, 
+         "child" : [ 
+            "315171cf-2aa1-4250-8c2f-cd840c7bdb95"
+         ], 
+         "text" : "Оружие повреждено."
+      }, 
+      "315171cf-2aa1-4250-8c2f-cd840c7bdb95" : { 
+         "class" : "HandWeaponTypeNode", 
+         "desc" : { 
+            "x" : "-93856", 
+            "y" : "-96514"
+         }, 
+         "child" : [ 
+            "ab230c1d-c9bb-443b-b61d-1fd615a5ebbf", 
+            "3558afe7-a8ab-49ec-b767-390196e8ac44"
+         ], 
+         "weaponType" : "Unarmed"
+      }, 
+      "ab230c1d-c9bb-443b-b61d-1fd615a5ebbf" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-94768", 
+            "y" : "-96271"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "3558afe7-a8ab-49ec-b767-390196e8ac44" : { 
+         "class" : "HandWeaponTypeNode", 
+         "desc" : { 
+            "x" : "-93695", 
+            "y" : "-96381"
+         }, 
+         "child" : [ 
+            "30b3edb9-58a8-4407-a53a-8c93d23ea202", 
+            "38308bc6-1740-48f2-9f80-42d34818af71"
+         ], 
+         "weaponType" : "Pistol"
+      }, 
+      "30b3edb9-58a8-4407-a53a-8c93d23ea202" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-94328", 
+            "y" : "-96195"
+         }, 
+         "child" : [ 
+            "d27ee00e-e758-4fcb-af5c-5afa7e58f762", 
+            "28a5d596-9ba6-4007-a8fc-5b60948e05a0", 
+            "742093b1-e494-49f1-aaad-c26d27b7585f", 
+            "22bd16ed-e309-4f4c-9960-704e0580f4cf"
+         ]
+      }, 
+      "d27ee00e-e758-4fcb-af5c-5afa7e58f762" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-94886", 
+            "y" : "-96064"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "detail"
+         }
+      }, 
+      "28a5d596-9ba6-4007-a8fc-5b60948e05a0" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-94648", 
+            "y" : "-95977"
+         }, 
+         "child" : [ 
+            "82f25b38-4b76-4b00-97a8-91dfb86eb1bb", 
+            "bf811555-f6cd-4507-9724-14be9ff6f3eb", 
+            "406618ba-7b70-4903-9603-27007bc71cda", 
+            "25bfee48-15df-4609-a2ab-93dd7900468f", 
+            "fbfce340-d8f3-4f51-847d-88c71e592432", 
+            "5d2ffb04-c53c-4c79-a6f8-fb648dbdf8c9"
+         ]
+      }, 
+      "82f25b38-4b76-4b00-97a8-91dfb86eb1bb" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-95278", 
+            "y" : "-95658"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "detail"
+         }
+      }, 
+      "bf811555-f6cd-4507-9724-14be9ff6f3eb" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-95122", 
+            "y" : "-95656"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "2", 
+            "proto" : "detail"
+         }
+      }, 
+      "406618ba-7b70-4903-9603-27007bc71cda" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-94972", 
+            "y" : "-95656"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "3", 
+            "proto" : "detail"
+         }
+      }, 
+      "25bfee48-15df-4609-a2ab-93dd7900468f" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-94816", 
+            "y" : "-95656"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "3", 
+            "proto" : "detail"
+         }
+      }, 
+      "fbfce340-d8f3-4f51-847d-88c71e592432" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-94662", 
+            "y" : "-95656"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "3", 
+            "proto" : "detail"
+         }
+      }, 
+      "5d2ffb04-c53c-4c79-a6f8-fb648dbdf8c9" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-94503", 
+            "y" : "-95664"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "742093b1-e494-49f1-aaad-c26d27b7585f" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-94292", 
+            "y" : "-95970"
+         }, 
+         "child" : [ 
+            "1c881121-3553-4714-a722-ea2f5735809c", 
+            "f5dc94d2-6c2f-4e9c-a04a-3e8632ff9dcc", 
+            "ae41349e-4611-4ea9-83d9-37340ad7e7a0", 
+            "7e74585e-ed5b-43fb-9dee-321f71215862", 
+            "6b2eb0b2-994b-4a32-b1bb-9fa639bb29fb"
+         ]
+      }, 
+      "1c881121-3553-4714-a722-ea2f5735809c" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-94422", 
+            "y" : "-95910"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Wastemetal"
+         }
+      }, 
+      "f5dc94d2-6c2f-4e9c-a04a-3e8632ff9dcc" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-94273", 
+            "y" : "-95896"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Wastemetal"
+         }
+      }, 
+      "ae41349e-4611-4ea9-83d9-37340ad7e7a0" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-94130", 
+            "y" : "-95890"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "2", 
+            "proto" : "Wastemetal"
+         }
+      }, 
+      "7e74585e-ed5b-43fb-9dee-321f71215862" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-93978", 
+            "y" : "-95902"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "3", 
+            "proto" : "Wastemetal"
+         }
+      }, 
+      "6b2eb0b2-994b-4a32-b1bb-9fa639bb29fb" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-93810", 
+            "y" : "-95900"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "22bd16ed-e309-4f4c-9960-704e0580f4cf" : { 
+         "class" : "CharacterSetItemNode", 
+         "desc" : { 
+            "x" : "-94218", 
+            "y" : "-96078"
+         }, 
+         "child" : [ 
+         ], 
+         "modeType" : "Hand"
+      }, 
+      "38308bc6-1740-48f2-9f80-42d34818af71" : { 
+         "class" : "HandWeaponTypeNode", 
+         "desc" : { 
+            "x" : "-93559", 
+            "y" : "-95894"
+         }, 
+         "child" : [ 
+            "e534cce6-88b0-4888-ab15-6303fa2f85e6", 
+            "2ba823c3-5e23-4117-8266-5e418cddbee0"
+         ], 
+         "weaponType" : "Rifle"
+      }, 
+      "e534cce6-88b0-4888-ab15-6303fa2f85e6" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-94551", 
+            "y" : "-95523"
+         }, 
+         "child" : [ 
+            "ce46a42b-13f1-4cd5-aea7-a64953260bb6", 
+            "5951789e-b18f-49f9-a2df-bc020b86b24b", 
+            "75bc7da4-be0c-4de2-94e8-41848857bf79", 
+            "e866eba9-5c25-47f8-ba89-14804e090ebd"
+         ]
+      }, 
+      "ce46a42b-13f1-4cd5-aea7-a64953260bb6" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-95081", 
+            "y" : "-95383"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "3", 
+            "proto" : "detail"
+         }
+      }, 
+      "5951789e-b18f-49f9-a2df-bc020b86b24b" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-94603", 
+            "y" : "-95387"
+         }, 
+         "child" : [ 
+            "f6969dc3-c22b-48fa-be59-4e5496796ffa", 
+            "9d44f66e-6225-42ab-913f-2e2d09cf129d", 
+            "35bccb02-4077-4cae-ad38-006c503ce3b4", 
+            "f2e0bed4-5e13-489f-b696-d61ee3476c9a", 
+            "fe514921-6310-4846-8b5b-5716e6b1f651", 
+            "289bd7f1-5ae4-4949-a69f-15407501da16"
+         ]
+      }, 
+      "f6969dc3-c22b-48fa-be59-4e5496796ffa" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-95309", 
+            "y" : "-95051"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "3", 
+            "proto" : "detail"
+         }
+      }, 
+      "9d44f66e-6225-42ab-913f-2e2d09cf129d" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-95153", 
+            "y" : "-95049"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "4", 
+            "proto" : "detail"
+         }
+      }, 
+      "35bccb02-4077-4cae-ad38-006c503ce3b4" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-95003", 
+            "y" : "-95049"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "5", 
+            "proto" : "detail"
+         }
+      }, 
+      "f2e0bed4-5e13-489f-b696-d61ee3476c9a" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-94847", 
+            "y" : "-95049"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "5", 
+            "proto" : "detail"
+         }
+      }, 
+      "fe514921-6310-4846-8b5b-5716e6b1f651" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-94693", 
+            "y" : "-95049"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "10", 
+            "proto" : "detail"
+         }
+      }, 
+      "289bd7f1-5ae4-4949-a69f-15407501da16" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-94533", 
+            "y" : "-95035"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "75bc7da4-be0c-4de2-94e8-41848857bf79" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-94323", 
+            "y" : "-95363"
+         }, 
+         "child" : [ 
+            "79bee81d-26e1-4e3c-b890-aa708c3eff6c", 
+            "5200227b-b589-4399-8e96-b4af7983388d", 
+            "6d4f3e89-9e9e-40e5-8d60-1709605ddfe4", 
+            "11399ccf-0938-49c8-81bc-6afc90af9bea", 
+            "99555c07-e2b2-4454-a96f-59e813a88dd4"
+         ]
+      }, 
+      "79bee81d-26e1-4e3c-b890-aa708c3eff6c" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-94453", 
+            "y" : "-95303"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "2", 
+            "proto" : "Wastemetal"
+         }
+      }, 
+      "5200227b-b589-4399-8e96-b4af7983388d" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-94303", 
+            "y" : "-95303"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "2", 
+            "proto" : "Wastemetal"
+         }
+      }, 
+      "6d4f3e89-9e9e-40e5-8d60-1709605ddfe4" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-94155", 
+            "y" : "-95301"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "3", 
+            "proto" : "Wastemetal"
+         }
+      }, 
+      "11399ccf-0938-49c8-81bc-6afc90af9bea" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-94011", 
+            "y" : "-95299"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "6", 
+            "proto" : "Wastemetal"
+         }
+      }, 
+      "99555c07-e2b2-4454-a96f-59e813a88dd4" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-93865", 
+            "y" : "-95293"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "e866eba9-5c25-47f8-ba89-14804e090ebd" : { 
+         "class" : "CharacterSetItemNode", 
+         "desc" : { 
+            "x" : "-94287", 
+            "y" : "-95461"
+         }, 
+         "child" : [ 
+         ], 
+         "modeType" : "Hand"
+      }, 
+      "2ba823c3-5e23-4117-8266-5e418cddbee0" : { 
+         "class" : "HandWeaponTypeNode", 
+         "desc" : { 
+            "x" : "-93411", 
+            "y" : "-95662"
+         }, 
+         "child" : [ 
+            "6c57d466-c287-4d5c-a338-d3e5a6f855e5", 
+            "f5b7cb76-1288-4d7a-993c-f2a2f7fbe49d"
+         ], 
+         "weaponType" : "MeleeWeapon"
+      }, 
+      "6c57d466-c287-4d5c-a338-d3e5a6f855e5" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-94404", 
+            "y" : "-94796"
+         }, 
+         "child" : [ 
+            "8dd69d54-75cd-48d1-9d11-5bb637419f9d", 
+            "41eb12bc-7cfb-4563-85ac-1940027bb69f", 
+            "9b985a15-317a-4244-ac06-2b516db3b6af", 
+            "d8a709c2-ae0d-45dc-a139-0052ccdbd0d5"
+         ]
+      }, 
+      "8dd69d54-75cd-48d1-9d11-5bb637419f9d" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-94846", 
+            "y" : "-94750"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "detail"
+         }
+      }, 
+      "41eb12bc-7cfb-4563-85ac-1940027bb69f" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-94423", 
+            "y" : "-94683"
+         }, 
+         "child" : [ 
+            "e2878024-c2fe-46f8-81a1-6a74cbbf37f4", 
+            "2ba77368-cbfe-40e0-a998-8e4e466e4bdf", 
+            "23b304a2-fcad-41f8-b5f0-bf5dab59a3c9", 
+            "2a4690dc-9645-4988-ade7-b35828b51ee1", 
+            "da46773b-06df-4d70-93f0-a37d5a0b303c", 
+            "11b8f631-efff-498d-82f0-b72024e54db5"
+         ]
+      }, 
+      "e2878024-c2fe-46f8-81a1-6a74cbbf37f4" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-95074", 
+            "y" : "-94418"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "detail"
+         }
+      }, 
+      "2ba77368-cbfe-40e0-a998-8e4e466e4bdf" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-94918", 
+            "y" : "-94416"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "2", 
+            "proto" : "detail"
+         }
+      }, 
+      "23b304a2-fcad-41f8-b5f0-bf5dab59a3c9" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-94768", 
+            "y" : "-94416"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "detail"
+         }
+      }, 
+      "2a4690dc-9645-4988-ade7-b35828b51ee1" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-94612", 
+            "y" : "-94416"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "2", 
+            "proto" : "detail"
+         }
+      }, 
+      "da46773b-06df-4d70-93f0-a37d5a0b303c" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-94458", 
+            "y" : "-94416"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "detail"
+         }
+      }, 
+      "11b8f631-efff-498d-82f0-b72024e54db5" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-94298", 
+            "y" : "-94402"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "9b985a15-317a-4244-ac06-2b516db3b6af" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-94088", 
+            "y" : "-94730"
+         }, 
+         "child" : [ 
+            "0e3c1810-4596-4c6a-80a4-514c87701793", 
+            "8bf555f2-920d-4df0-b6f2-9289117e0f7f", 
+            "654b8aa1-01f5-440d-b15f-e230078206ec", 
+            "5b4d0e0b-a4b2-4ddc-8f2d-0fca083d8bf5", 
+            "1eec03a6-f617-46c2-a8e0-f05232e5c3b7"
+         ]
+      }, 
+      "0e3c1810-4596-4c6a-80a4-514c87701793" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-94218", 
+            "y" : "-94670"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Wastemetal"
+         }
+      }, 
+      "8bf555f2-920d-4df0-b6f2-9289117e0f7f" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-94068", 
+            "y" : "-94670"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "2", 
+            "proto" : "Wastemetal"
+         }
+      }, 
+      "654b8aa1-01f5-440d-b15f-e230078206ec" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-93920", 
+            "y" : "-94668"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
+            "proto" : "Wastemetal"
+         }
+      }, 
+      "5b4d0e0b-a4b2-4ddc-8f2d-0fca083d8bf5" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-93776", 
+            "y" : "-94666"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "2", 
+            "proto" : "Wastemetal"
+         }
+      }, 
+      "1eec03a6-f617-46c2-a8e0-f05232e5c3b7" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-93630", 
+            "y" : "-94660"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "d8a709c2-ae0d-45dc-a139-0052ccdbd0d5" : { 
+         "class" : "CharacterSetItemNode", 
+         "desc" : { 
+            "x" : "-94114", 
+            "y" : "-94502"
+         }, 
+         "child" : [ 
+         ], 
+         "modeType" : "Hand"
+      }, 
+      "f5b7cb76-1288-4d7a-993c-f2a2f7fbe49d" : { 
+         "class" : "HandWeaponTypeNode", 
+         "desc" : { 
+            "x" : "-93189", 
+            "y" : "-95251"
+         }, 
+         "child" : [ 
+            "6c57d466-c287-4d5c-a338-d3e5a6f855e5", 
+            "9b105f11-9ca4-4965-b07e-b6b27a06af07"
+         ], 
+         "weaponType" : "Throw"
+      }, 
+      "9b105f11-9ca4-4965-b07e-b6b27a06af07" : { 
+         "class" : "HandWeaponTypeNode", 
+         "desc" : { 
+            "x" : "-92778", 
+            "y" : "-94874"
+         }, 
+         "child" : [ 
+            "6c57d466-c287-4d5c-a338-d3e5a6f855e5", 
+            "7ff63799-c291-4511-818b-8374ca3c7008"
+         ], 
+         "weaponType" : "ThrowWeapon"
+      }, 
+      "7ff63799-c291-4511-818b-8374ca3c7008" : { 
+         "class" : "HandWeaponTypeNode", 
+         "desc" : { 
+            "x" : "-92566", 
+            "y" : "-94565"
+         }, 
+         "child" : [ 
+            "217a3234-78e8-47a2-a642-0398862f68ad", 
+            "4717d79a-4713-4fb5-b847-baa116129b9b"
+         ], 
+         "weaponType" : "AssaultRifle"
+      }, 
+      "217a3234-78e8-47a2-a642-0398862f68ad" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-93244", 
+            "y" : "-94304"
+         }, 
+         "child" : [ 
+            "81494430-13b0-4e04-b43d-f90d02670c4b", 
+            "ead297bf-4b0c-41eb-ad79-b0af65a6aa7b", 
+            "64e56b38-8241-4e48-983a-6d442b0d51d1", 
+            "b49fca3a-d1b9-4c51-908a-1e0c3d4b0da5"
+         ]
+      }, 
+      "81494430-13b0-4e04-b43d-f90d02670c4b" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-93774", 
+            "y" : "-94172"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "4", 
+            "proto" : "detail"
+         }
+      }, 
+      "ead297bf-4b0c-41eb-ad79-b0af65a6aa7b" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-93296", 
+            "y" : "-94176"
+         }, 
+         "child" : [ 
+            "378b6371-dbed-4729-b1a8-e08dd3f552b5", 
+            "b7093bf8-dffa-4e76-8953-65b879b4ab8c", 
+            "48af6089-aca7-4bc7-8928-9d8547590f99", 
+            "bce0e63c-59ea-4c4a-8d75-16024abb651f", 
+            "bae36f4b-ffd5-481e-b826-c53a232ef424", 
+            "a8a5e657-b6da-4b85-b5fa-f650a4a87774"
+         ]
+      }, 
+      "378b6371-dbed-4729-b1a8-e08dd3f552b5" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-94002", 
+            "y" : "-93840"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "4", 
+            "proto" : "detail"
+         }
+      }, 
+      "b7093bf8-dffa-4e76-8953-65b879b4ab8c" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-93846", 
+            "y" : "-93838"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "6", 
+            "proto" : "detail"
+         }
+      }, 
+      "48af6089-aca7-4bc7-8928-9d8547590f99" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-93696", 
+            "y" : "-93837"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "8", 
+            "proto" : "detail"
+         }
+      }, 
+      "bce0e63c-59ea-4c4a-8d75-16024abb651f" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-93540", 
+            "y" : "-93838"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "5", 
+            "proto" : "detail"
+         }
+      }, 
+      "bae36f4b-ffd5-481e-b826-c53a232ef424" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-93386", 
+            "y" : "-93838"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "10", 
+            "proto" : "detail"
+         }
+      }, 
+      "a8a5e657-b6da-4b85-b5fa-f650a4a87774" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-93226", 
+            "y" : "-93824"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "64e56b38-8241-4e48-983a-6d442b0d51d1" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-93016", 
+            "y" : "-94152"
+         }, 
+         "child" : [ 
+            "7b1a78e1-4b38-4fd6-840a-7f3544808186", 
+            "e32632f0-ef30-4f65-ac35-07108411e711", 
+            "f7415ee0-47ca-46bd-840e-d58e5ed2aed8", 
+            "5d899697-effa-4f69-9c0e-ce3231cc243a", 
+            "0ed4b968-5bba-48d4-886b-732e19b1fab2"
+         ]
+      }, 
+      "7b1a78e1-4b38-4fd6-840a-7f3544808186" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-93146", 
+            "y" : "-94092"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "3", 
+            "proto" : "Wastemetal"
+         }
+      }, 
+      "e32632f0-ef30-4f65-ac35-07108411e711" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-92996", 
+            "y" : "-94092"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "4", 
+            "proto" : "Wastemetal"
+         }
+      }, 
+      "f7415ee0-47ca-46bd-840e-d58e5ed2aed8" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-92848", 
+            "y" : "-94090"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "5", 
+            "proto" : "Wastemetal"
+         }
+      }, 
+      "5d899697-effa-4f69-9c0e-ce3231cc243a" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-92704", 
+            "y" : "-94088"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "6", 
+            "proto" : "Wastemetal"
+         }
+      }, 
+      "0ed4b968-5bba-48d4-886b-732e19b1fab2" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-92558", 
+            "y" : "-94082"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "b49fca3a-d1b9-4c51-908a-1e0c3d4b0da5" : { 
+         "class" : "CharacterSetItemNode", 
+         "desc" : { 
+            "x" : "-92853", 
+            "y" : "-94211"
+         }, 
+         "child" : [ 
+         ], 
+         "modeType" : "Hand"
+      }, 
+      "4717d79a-4713-4fb5-b847-baa116129b9b" : { 
+         "class" : "HandWeaponTypeNode", 
+         "desc" : { 
+            "x" : "-92181", 
+            "y" : "-94309"
+         }, 
+         "child" : [ 
+            "e301b4a6-1502-4953-bd6a-7319aa2f185d", 
+            "0ed80bf3-37f7-4bdc-941e-92f9f83dc52f"
+         ], 
+         "weaponType" : "MachineGun"
+      }, 
+      "e301b4a6-1502-4953-bd6a-7319aa2f185d" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-92301", 
+            "y" : "-94004"
+         }, 
+         "child" : [ 
+            "439a7273-bc77-41ca-adbb-2afeef763b55", 
+            "d8e7fe9d-804a-412a-821d-6b43a42cbedf", 
+            "6ee0229c-f5f3-4f3e-beaf-0261c2125dea", 
+            "c7f6a479-6013-45ab-97cc-945772c398e8"
+         ]
+      }, 
+      "439a7273-bc77-41ca-adbb-2afeef763b55" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-92703", 
+            "y" : "-93725"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "10", 
+            "proto" : "detail"
+         }
+      }, 
+      "d8e7fe9d-804a-412a-821d-6b43a42cbedf" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-92225", 
+            "y" : "-93729"
+         }, 
+         "child" : [ 
+            "905abca8-436b-4542-8966-a77c85c899ae", 
+            "8acc1540-23dc-408c-b96a-04d9ee7ac491", 
+            "3673a611-b6ca-4d31-9443-8873d6c527ec", 
+            "40d2e4f9-8435-4f62-9d7f-4584a998dbe7", 
+            "79d285e1-c32c-4d69-a4b0-b328f580fa3a", 
+            "837bb5c2-fadf-4cf4-a87b-791af829b40e"
+         ]
+      }, 
+      "905abca8-436b-4542-8966-a77c85c899ae" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-92919", 
+            "y" : "-93389"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "5", 
+            "proto" : "detail"
+         }
+      }, 
+      "8acc1540-23dc-408c-b96a-04d9ee7ac491" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-92775", 
+            "y" : "-93391"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "8", 
+            "proto" : "detail"
+         }
+      }, 
+      "3673a611-b6ca-4d31-9443-8873d6c527ec" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-92624", 
+            "y" : "-93390"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "10", 
+            "proto" : "detail"
+         }
+      }, 
+      "40d2e4f9-8435-4f62-9d7f-4584a998dbe7" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-92469", 
+            "y" : "-93391"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "11", 
+            "proto" : "detail"
+         }
+      }, 
+      "79d285e1-c32c-4d69-a4b0-b328f580fa3a" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-92315", 
+            "y" : "-93391"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "12", 
+            "proto" : "detail"
+         }
+      }, 
+      "837bb5c2-fadf-4cf4-a87b-791af829b40e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-92155", 
+            "y" : "-93377"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "6ee0229c-f5f3-4f3e-beaf-0261c2125dea" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-91945", 
+            "y" : "-93705"
+         }, 
+         "child" : [ 
+            "9e2459d9-95b7-4856-8627-b40a477def81", 
+            "d2f964ce-2c92-4883-9e4c-fa0b43dde9dd", 
+            "28921afa-22ae-40fa-bfe0-871f43695151", 
+            "6fdb28ad-06b9-4926-bb35-266572727e59", 
+            "2041ce9a-f089-40d6-9caa-e150067c7450"
+         ]
+      }, 
+      "9e2459d9-95b7-4856-8627-b40a477def81" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-92058", 
+            "y" : "-93637"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "4", 
+            "proto" : "Wastemetal"
+         }
+      }, 
+      "d2f964ce-2c92-4883-9e4c-fa0b43dde9dd" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-91920", 
+            "y" : "-93639"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "5", 
+            "proto" : "Wastemetal"
+         }
+      }, 
+      "28921afa-22ae-40fa-bfe0-871f43695151" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-91775", 
+            "y" : "-93637"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "6", 
+            "proto" : "Wastemetal"
+         }
+      }, 
+      "6fdb28ad-06b9-4926-bb35-266572727e59" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-91630", 
+            "y" : "-93633"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "10", 
+            "proto" : "Wastemetal"
+         }
+      }, 
+      "2041ce9a-f089-40d6-9caa-e150067c7450" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-91460", 
+            "y" : "-93601"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "c7f6a479-6013-45ab-97cc-945772c398e8" : { 
+         "class" : "CharacterSetItemNode", 
+         "desc" : { 
+            "x" : "-91707", 
+            "y" : "-93836"
+         }, 
+         "child" : [ 
+         ], 
+         "modeType" : "Hand"
+      }, 
+      "0ed80bf3-37f7-4bdc-941e-92f9f83dc52f" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-91730", 
+            "y" : "-94124"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "a2f6612c-f97e-441d-96f9-5ece44818183" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-93728", 
+            "y" : "-97689"
+         }, 
+         "child" : [ 
+            "66107f85-23a4-48c8-a66c-4974b3253b77", 
+            "09114770-0e43-40a4-982e-5ce33c1b5d65"
+         ], 
+         "value" : "10", 
+         "modifier" : "Luck"
+      }, 
+      "66107f85-23a4-48c8-a66c-4974b3253b77" : { 
+         "class" : "HasRandomDiceNode", 
+         "desc" : { 
+            "x" : "-93880", 
+            "y" : "-97395"
+         }, 
+         "child" : [ 
+            "a145be4c-120d-4118-b530-d4e663811c11", 
+            "88155eca-e6df-45f0-a14e-e52d2daaa584"
+         ], 
+         "dice" : "25"
+      }, 
+      "09114770-0e43-40a4-982e-5ce33c1b5d65" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-93568", 
+            "y" : "-97591"
+         }, 
+         "child" : [ 
+            "b7da26ab-1367-4684-86a0-aa26db092bc9", 
+            "b2a10b26-122a-41e8-a377-6b66bf5e3ebf"
+         ], 
+         "value" : "9", 
+         "modifier" : "Luck"
+      }, 
+      "b7da26ab-1367-4684-86a0-aa26db092bc9" : { 
+         "class" : "HasRandomDiceNode", 
+         "desc" : { 
+            "x" : "-93707", 
+            "y" : "-97296"
+         }, 
+         "child" : [ 
+            "a145be4c-120d-4118-b530-d4e663811c11", 
+            "88155eca-e6df-45f0-a14e-e52d2daaa584"
+         ], 
+         "dice" : "20"
+      }, 
+      "b2a10b26-122a-41e8-a377-6b66bf5e3ebf" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-93368", 
+            "y" : "-97431"
+         }, 
+         "child" : [ 
+            "1bc99007-7eca-4b92-9785-d6f12c162707", 
+            "4922a829-c0ba-4a95-b11c-0d7b4a27a999"
+         ], 
+         "value" : "8", 
+         "modifier" : "Luck"
+      }, 
+      "1bc99007-7eca-4b92-9785-d6f12c162707" : { 
+         "class" : "HasRandomDiceNode", 
+         "desc" : { 
+            "x" : "-93540", 
+            "y" : "-97209"
+         }, 
+         "child" : [ 
+            "a145be4c-120d-4118-b530-d4e663811c11", 
+            "88155eca-e6df-45f0-a14e-e52d2daaa584"
+         ], 
+         "dice" : "15"
+      }, 
+      "4922a829-c0ba-4a95-b11c-0d7b4a27a999" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-93199", 
+            "y" : "-97283"
+         }, 
+         "child" : [ 
+            "f01b9acd-e3b0-489f-89fe-392c895c6004", 
+            "29321e83-4b92-4b2d-a010-853c923800c0"
+         ], 
+         "value" : "7", 
+         "modifier" : "Luck"
+      }, 
+      "f01b9acd-e3b0-489f-89fe-392c895c6004" : { 
+         "class" : "HasRandomDiceNode", 
+         "desc" : { 
+            "x" : "-93383", 
+            "y" : "-97110"
+         }, 
+         "child" : [ 
+            "a145be4c-120d-4118-b530-d4e663811c11", 
+            "88155eca-e6df-45f0-a14e-e52d2daaa584"
+         ], 
+         "dice" : "14"
+      }, 
+      "29321e83-4b92-4b2d-a010-853c923800c0" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-93090", 
+            "y" : "-97169"
+         }, 
+         "child" : [ 
+            "6bbec256-32b7-43a9-9ca8-ece7e62a2e25", 
+            "128f9075-bfd0-41fa-806c-03df65e42bc1"
+         ], 
+         "value" : "6", 
+         "modifier" : "Luck"
+      }, 
+      "6bbec256-32b7-43a9-9ca8-ece7e62a2e25" : { 
+         "class" : "HasRandomDiceNode", 
+         "desc" : { 
+            "x" : "-93207", 
+            "y" : "-97009"
+         }, 
+         "child" : [ 
+            "a145be4c-120d-4118-b530-d4e663811c11", 
+            "88155eca-e6df-45f0-a14e-e52d2daaa584"
+         ], 
+         "dice" : "13"
+      }, 
+      "128f9075-bfd0-41fa-806c-03df65e42bc1" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-92906", 
+            "y" : "-97062"
+         }, 
+         "child" : [ 
+            "da6b3e10-393c-41d5-92bf-6b2527432b48", 
+            "88155eca-e6df-45f0-a14e-e52d2daaa584"
+         ], 
+         "value" : "5", 
+         "modifier" : "Luck"
+      }, 
+      "da6b3e10-393c-41d5-92bf-6b2527432b48" : { 
+         "class" : "HasRandomDiceNode", 
+         "desc" : { 
+            "x" : "-93080", 
+            "y" : "-96898"
+         }, 
+         "child" : [ 
+            "a145be4c-120d-4118-b530-d4e663811c11", 
+            "88155eca-e6df-45f0-a14e-e52d2daaa584"
+         ], 
+         "dice" : "10"
+      }, 
+      "89666c7a-d9b8-470a-a071-45895e7dd66a" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-97415", 
+            "y" : "-99521"
+         }, 
+         "child" : [ 
+            "4eaf84c7-06f3-4d72-a525-ca540149c164", 
+            "e43a1a7f-d4f5-444d-910b-cc46477a3561"
+         ], 
+         "value" : "170", 
+         "modifier" : "Crafting"
+      }, 
+      "4eaf84c7-06f3-4d72-a525-ca540149c164" : { 
+         "class" : "HasRandomDiceNode", 
+         "desc" : { 
+            "x" : "-97440", 
+            "y" : "-97936"
+         }, 
+         "child" : [ 
+            "c256728f-8dd9-4c73-a3ae-5adb63099d32", 
+            "a7ebffc4-81b2-4d86-85d7-941a68884f11"
+         ], 
+         "dice" : "60"
+      }, 
+      "e43a1a7f-d4f5-444d-910b-cc46477a3561" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-97165", 
+            "y" : "-99433"
+         }, 
+         "child" : [ 
+            "127a8ef8-c7d9-409a-a1b0-3b970cde580e", 
+            "fd75fa36-2817-4fd7-ad2f-d68838786da5"
+         ], 
+         "value" : "150", 
+         "modifier" : "Crafting"
+      }, 
+      "127a8ef8-c7d9-409a-a1b0-3b970cde580e" : { 
+         "class" : "HasRandomDiceNode", 
+         "desc" : { 
+            "x" : "-97241", 
+            "y" : "-97933"
+         }, 
+         "child" : [ 
+            "c256728f-8dd9-4c73-a3ae-5adb63099d32", 
+            "a7ebffc4-81b2-4d86-85d7-941a68884f11"
+         ], 
+         "dice" : "58"
+      }, 
+      "fd75fa36-2817-4fd7-ad2f-d68838786da5" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-96987", 
+            "y" : "-99343"
+         }, 
+         "child" : [ 
+            "b8094ecf-cc55-4a42-971c-084befe24631", 
+            "23e7c803-5c67-4b83-8c92-e52740217c8c"
+         ], 
+         "value" : "130", 
+         "modifier" : "Crafting"
+      }, 
+      "b8094ecf-cc55-4a42-971c-084befe24631" : { 
+         "class" : "HasRandomDiceNode", 
+         "desc" : { 
+            "x" : "-97040", 
+            "y" : "-97931"
+         }, 
+         "child" : [ 
+            "c256728f-8dd9-4c73-a3ae-5adb63099d32", 
+            "a7ebffc4-81b2-4d86-85d7-941a68884f11"
+         ], 
+         "dice" : "55"
+      }, 
+      "23e7c803-5c67-4b83-8c92-e52740217c8c" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-96781", 
+            "y" : "-99237"
+         }, 
+         "child" : [ 
+            "4b25783f-de79-4c97-a524-56e0e2d92c13", 
+            "52e37ce6-18ec-40b0-97bd-71fd3a5648d5"
+         ], 
+         "value" : "110", 
+         "modifier" : "Crafting"
+      }, 
+      "4b25783f-de79-4c97-a524-56e0e2d92c13" : { 
+         "class" : "HasRandomDiceNode", 
+         "desc" : { 
+            "x" : "-96839", 
+            "y" : "-97933"
+         }, 
+         "child" : [ 
+            "c256728f-8dd9-4c73-a3ae-5adb63099d32", 
+            "a7ebffc4-81b2-4d86-85d7-941a68884f11"
+         ], 
+         "dice" : "50"
+      }, 
+      "52e37ce6-18ec-40b0-97bd-71fd3a5648d5" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-96593", 
+            "y" : "-99108"
+         }, 
+         "child" : [ 
+            "79aba247-2a6a-4bdc-9ae2-55d11367d490", 
+            "5f8c8f1a-1539-450e-bb8d-642c853689cb"
+         ], 
+         "value" : "90", 
+         "modifier" : "Crafting"
+      }, 
+      "79aba247-2a6a-4bdc-9ae2-55d11367d490" : { 
+         "class" : "HasRandomDiceNode", 
+         "desc" : { 
+            "x" : "-96636", 
+            "y" : "-97935"
+         }, 
+         "child" : [ 
+            "c256728f-8dd9-4c73-a3ae-5adb63099d32", 
+            "a7ebffc4-81b2-4d86-85d7-941a68884f11"
+         ], 
+         "dice" : "45"
+      }, 
+      "5f8c8f1a-1539-450e-bb8d-642c853689cb" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-96469", 
+            "y" : "-98972"
+         }, 
+         "child" : [ 
+            "46364ab1-5929-45f7-8312-5e918cffa313", 
+            "92c0c67a-1f9b-4af0-a4f3-e3e89e058283"
+         ], 
+         "value" : "70", 
+         "modifier" : "Crafting"
+      }, 
+      "46364ab1-5929-45f7-8312-5e918cffa313" : { 
+         "class" : "HasRandomDiceNode", 
+         "desc" : { 
+            "x" : "-96433", 
+            "y" : "-97937"
+         }, 
+         "child" : [ 
+            "c256728f-8dd9-4c73-a3ae-5adb63099d32", 
+            "a7ebffc4-81b2-4d86-85d7-941a68884f11"
+         ], 
+         "dice" : "40"
+      }, 
+      "92c0c67a-1f9b-4af0-a4f3-e3e89e058283" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-96312", 
+            "y" : "-98797"
+         }, 
+         "child" : [ 
+            "dad330bf-b475-4ddd-84b1-6e74c0e7cbf1", 
+            "d8ddc616-7071-4b50-a595-bfe3737a730a"
+         ], 
+         "value" : "50", 
+         "modifier" : "Crafting"
+      }, 
+      "dad330bf-b475-4ddd-84b1-6e74c0e7cbf1" : { 
+         "class" : "HasRandomDiceNode", 
+         "desc" : { 
+            "x" : "-96229", 
+            "y" : "-97938"
+         }, 
+         "child" : [ 
+            "c256728f-8dd9-4c73-a3ae-5adb63099d32", 
+            "a7ebffc4-81b2-4d86-85d7-941a68884f11"
+         ], 
+         "dice" : "35"
+      }, 
+      "d8ddc616-7071-4b50-a595-bfe3737a730a" : { 
+         "class" : "HasRandomDiceNode", 
+         "desc" : { 
+            "x" : "-94305", 
+            "y" : "-98002"
+         }, 
+         "child" : [ 
+            "b66ef845-4624-456c-885e-fb962020bdad", 
+            "7a7ea7e9-2869-4f46-b4ed-7f25638d7370"
+         ], 
+         "dice" : "30"
+      }, 
+      "55afda90-4a6d-47d7-83b0-f5135892d5ef" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-97754", 
+            "y" : "-99969"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "5d52daed-638d-4a8a-a49a-7c6401234e16" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100600", 
+            "y" : "-100746"
+         }, 
+         "child" : [ 
+         ]
+      }
+   }, 
+   "entry" : "7cbe8496-63a7-48df-922c-8e2dd05ca7bc"
+}

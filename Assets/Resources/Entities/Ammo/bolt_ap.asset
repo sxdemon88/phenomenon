@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1591715555, guid: ba80931603c2dbc40ab113c533efa2ed, type: 3}
+  m_Name: bolt_ap
+  m_EditorClassIdentifier: 
+  Icon:
+    path: Entities/Ammo/Bolt_AP
+  m_Localization: ammo.bolt_ap
+  Takeable: 1
+  Cost: 15
+  Weight: 80
+  Collectable: 1
+  Modifiers: []
+  Type: 10
+  ArmorMod: 0
+  ResistanceMod: 20
+  DamageMod: 3.5
+  Bullet: 1
+  Dispersion: 0

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1591715555, guid: ba80931603c2dbc40ab113c533efa2ed, type: 3}
+  m_Name: 7_62mm_ap
+  m_EditorClassIdentifier: 
+  Icon:
+    path: Entities/Ammo/7_62mm_AP
+  m_Localization: ammo.7_62mm_ap
+  Takeable: 1
+  Cost: 12
+  Weight: 17
+  Collectable: 1
+  Modifiers: []
+  Type: 5
+  ArmorMod: 0
+  ResistanceMod: -33
+  DamageMod: 2
+  Bullet: 1
+  Dispersion: 0

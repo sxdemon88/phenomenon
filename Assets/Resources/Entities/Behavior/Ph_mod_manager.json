@@ -1,0 +1,1208 @@
+{ 
+   "states" : { 
+      "0a488d96-086d-4f72-a996-acbe7f30bf96" : { 
+         "class" : "DialogBeginNode", 
+         "desc" : { 
+            "x" : "-100202", 
+            "y" : "-103357"
+         }, 
+         "child" : [ 
+            "3e80bcea-2ee6-4b04-88d0-b932762caedb", 
+            "38f19502-c35d-4af8-b82f-9c59581a3f4f", 
+            "9fd9d2d3-0681-4be0-835b-514a919bbffc"
+         ], 
+         "canBarter" : "false", 
+         "customAva" : "stalkertrader"
+      }, 
+      "3e80bcea-2ee6-4b04-88d0-b932762caedb" : { 
+         "class" : "DialogPortraitNode", 
+         "desc" : { 
+            "x" : "-100954", 
+            "y" : "-103455"
+         }, 
+         "child" : [ 
+         ], 
+         "portrait" : "Character/fen", 
+         "mode" : "SetOwnerNameIfExist"
+      }, 
+      "38f19502-c35d-4af8-b82f-9c59581a3f4f" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-101293", 
+            "y" : "-103181"
+         }, 
+         "child" : [ 
+            "2d88ebd1-3b12-4825-b425-38d286223382", 
+            "75067bf8-93cd-4529-9586-5a9b733f70a3"
+         ], 
+         "note_key" : "MOD_MANAGER_START"
+      }, 
+      "2d88ebd1-3b12-4825-b425-38d286223382" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101406", 
+            "y" : "-103066"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "75067bf8-93cd-4529-9586-5a9b733f70a3" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-101148", 
+            "y" : "-103065"
+         }, 
+         "child" : [ 
+            "a5aa8248-b62b-42ed-9e5e-bfe490cf611e"
+         ], 
+         "note_key" : "PH_ITEM_DESTROY_ON"
+      }, 
+      "a5aa8248-b62b-42ed-9e5e-bfe490cf611e" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-101145", 
+            "y" : "-102999"
+         }, 
+         "child" : [ 
+            "c7d41ca2-edf3-4943-bd26-c785be7331f5"
+         ], 
+         "note_key" : "PH_TRAP_OPTIONS_ON"
+      }, 
+      "c7d41ca2-edf3-4943-bd26-c785be7331f5" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-101145", 
+            "y" : "-102933"
+         }, 
+         "child" : [ 
+            "314c3d4e-1d58-4933-a541-02c47313cd9e"
+         ], 
+         "note_key" : "PH_PRICE_UP_ON"
+      }, 
+      "314c3d4e-1d58-4933-a541-02c47313cd9e" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-101144", 
+            "y" : "-102874"
+         }, 
+         "child" : [ 
+            "68a9e4d6-d2aa-4be4-b00f-9eac1f708b8b"
+         ], 
+         "note_key" : "MOD_MANAGER_START"
+      }, 
+      "68a9e4d6-d2aa-4be4-b00f-9eac1f708b8b" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-101137", 
+            "y" : "-102810"
+         }, 
+         "child" : [ 
+            "e7e0ee76-9971-4d3a-b505-e0cd1c319fb1"
+         ], 
+         "note_key" : "PH_AMMO_MORE_OFF"
+      }, 
+      "e7e0ee76-9971-4d3a-b505-e0cd1c319fb1" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-101140", 
+            "y" : "-102748"
+         }, 
+         "child" : [ 
+            "9143aeef-9867-4356-868e-33d3a218db77"
+         ], 
+         "note_key" : "PH_PRICE_UP_ALL_OFF"
+      }, 
+      "9143aeef-9867-4356-868e-33d3a218db77" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-101135", 
+            "y" : "-102678"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "PH_MONEY_MORE_OFF"
+      }, 
+      "9fd9d2d3-0681-4be0-835b-514a919bbffc" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100287", 
+            "y" : "-102751"
+         }, 
+         "child" : [ 
+            "e71aa43f-315f-4c97-b946-f07295d757ee", 
+            "ce0bf7b3-6d11-4f21-9a30-6d0a47f52daf", 
+            "52aeaa3c-f95b-4d21-ad85-f2c5f0604c04", 
+            "2ca08274-eedd-4e45-85fe-a2338caee76b"
+         ], 
+         "text" : "Добро пожаловать в менеджер мода Феномен. Тут можно отключать и включать определенные настройки мода."
+      }, 
+      "e71aa43f-315f-4c97-b946-f07295d757ee" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100702", 
+            "y" : "-102386"
+         }, 
+         "child" : [ 
+            "68f69bd3-3f6b-421d-84bf-c84a34f74fa4"
+         ], 
+         "text" : "Основные настройки мода. [h]Включены по умолчанию[/h]"
+      }, 
+      "68f69bd3-3f6b-421d-84bf-c84a34f74fa4" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100929", 
+            "y" : "-102248"
+         }, 
+         "child" : [ 
+            "b7026530-b3de-4c54-81d2-c85a8f12860d", 
+            "4a11bd76-4e8e-4370-81a3-5eff38165dce", 
+            "e55633be-d0c5-4dd7-bf03-67972aafb431", 
+            "8450e817-c132-4e21-952a-efc3b681a187"
+         ], 
+         "text" : "Это основные настройки мода феномен."
+      }, 
+      "b7026530-b3de-4c54-81d2-c85a8f12860d" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-101369", 
+            "y" : "-102054"
+         }, 
+         "child" : [ 
+            "05e68658-321e-4374-be1e-1e78e5032335", 
+            "f2c420a2-7b72-4a41-b02f-8d98829fadf9"
+         ], 
+         "note_key" : "PH_ITEM_DESTROY_ON"
+      }, 
+      "05e68658-321e-4374-be1e-1e78e5032335" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101477", 
+            "y" : "-101942"
+         }, 
+         "child" : [ 
+            "5e1a06c0-6b21-4855-9a80-0d2c600da610"
+         ], 
+         "text" : "Поломка вещей у врагов. [d]Вкл[/d]"
+      }, 
+      "5e1a06c0-6b21-4855-9a80-0d2c600da610" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101376", 
+            "y" : "-101826"
+         }, 
+         "child" : [ 
+            "8ec14f85-162c-4135-a60b-3cdcd481c957", 
+            "8450e817-c132-4e21-952a-efc3b681a187"
+         ], 
+         "text" : "Система повреждения оружия и брони у врагов. Шанс поломки оружия зависит от удачи и навыка крафта. Шанс поломки экипировки зависит от навыка технологий и удачи. При поломке вещей вы увидите соответствующий текс. При поломке вы получаете ресурсы."
+      }, 
+      "8ec14f85-162c-4135-a60b-3cdcd481c957" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-101341", 
+            "y" : "-101662"
+         }, 
+         "child" : [ 
+            "32abd7f3-c961-46b5-b976-d396c35396a7", 
+            "3d8f47da-0b70-43f1-b6d9-dddd92690fdc"
+         ], 
+         "note_key" : "PH_ITEM_DESTROY_ON"
+      }, 
+      "32abd7f3-c961-46b5-b976-d396c35396a7" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101467", 
+            "y" : "-101551"
+         }, 
+         "child" : [ 
+            "95bc6270-6354-4eab-8810-bca51d383c5e"
+         ], 
+         "text" : "Отключить поломку вещей у врагов."
+      }, 
+      "95bc6270-6354-4eab-8810-bca51d383c5e" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-101337", 
+            "y" : "-101415"
+         }, 
+         "child" : [ 
+            "78ddef43-4788-4643-baf6-f18a01ec0af9", 
+            "250df2a9-fca8-4991-946c-43f1357afc14"
+         ], 
+         "note_key" : "PH_ITEM_DESTROY_ON"
+      }, 
+      "78ddef43-4788-4643-baf6-f18a01ec0af9" : { 
+         "class" : "NotebookRemoveNoteNode", 
+         "desc" : { 
+            "x" : "-101433", 
+            "y" : "-101290"
+         }, 
+         "child" : [ 
+            "7cb225c1-6b32-456d-8456-ec3f9145d3d2"
+         ], 
+         "note_key" : "PH_ITEM_DESTROY_ON"
+      }, 
+      "7cb225c1-6b32-456d-8456-ec3f9145d3d2" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-101435", 
+            "y" : "-101227"
+         }, 
+         "child" : [ 
+            "5e1a06c0-6b21-4855-9a80-0d2c600da610"
+         ], 
+         "note_key" : "PH_ITEM_DESTROY_OFF"
+      }, 
+      "250df2a9-fca8-4991-946c-43f1357afc14" : { 
+         "class" : "NotebookRemoveNoteNode", 
+         "desc" : { 
+            "x" : "-101215", 
+            "y" : "-101285"
+         }, 
+         "child" : [ 
+            "261e6c21-2835-4fda-a316-2fa6b15100c4"
+         ], 
+         "note_key" : "PH_ITEM_DESTROY_OFF"
+      }, 
+      "261e6c21-2835-4fda-a316-2fa6b15100c4" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-101217", 
+            "y" : "-101226"
+         }, 
+         "child" : [ 
+            "5e1a06c0-6b21-4855-9a80-0d2c600da610"
+         ], 
+         "note_key" : "PH_ITEM_DESTROY_ON"
+      }, 
+      "3d8f47da-0b70-43f1-b6d9-dddd92690fdc" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101216", 
+            "y" : "-101550"
+         }, 
+         "child" : [ 
+            "95bc6270-6354-4eab-8810-bca51d383c5e"
+         ], 
+         "text" : "Включить поломку вещей у врагов."
+      }, 
+      "8450e817-c132-4e21-952a-efc3b681a187" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-97789", 
+            "y" : "-100465"
+         }, 
+         "child" : [ 
+            "c67e511f-3789-449b-9c4c-8f2c473aeb24", 
+            "2ca08274-eedd-4e45-85fe-a2338caee76b"
+         ]
+      }, 
+      "c67e511f-3789-449b-9c4c-8f2c473aeb24" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98324", 
+            "y" : "-99974"
+         }, 
+         "child" : [ 
+            "9fd9d2d3-0681-4be0-835b-514a919bbffc"
+         ], 
+         "text" : "Вернутся в главное меню."
+      }, 
+      "2ca08274-eedd-4e45-85fe-a2338caee76b" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98077", 
+            "y" : "-99967"
+         }, 
+         "child" : [ 
+            "fd1892a4-ec87-4fae-a18a-dd4daceaaef1"
+         ], 
+         "text" : "Закрыть мод менеджер."
+      }, 
+      "fd1892a4-ec87-4fae-a18a-dd4daceaaef1" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-98040", 
+            "y" : "-99828"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "f2c420a2-7b72-4a41-b02f-8d98829fadf9" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101259", 
+            "y" : "-101942"
+         }, 
+         "child" : [ 
+            "5e1a06c0-6b21-4855-9a80-0d2c600da610"
+         ], 
+         "text" : "Поломка вещей у врагов. [f]Выкл[/f]"
+      }, 
+      "4a11bd76-4e8e-4370-81a3-5eff38165dce" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-100775", 
+            "y" : "-102039"
+         }, 
+         "child" : [ 
+            "224ec67d-799b-4b3b-86ad-744f902be519", 
+            "04255752-3304-4977-97d0-7eecde38bb36"
+         ], 
+         "note_key" : "PH_TRAP_OPTIONS_ON"
+      }, 
+      "224ec67d-799b-4b3b-86ad-744f902be519" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100881", 
+            "y" : "-101937"
+         }, 
+         "child" : [ 
+            "c84f6970-5581-49f1-a5ac-df8b3b608005"
+         ], 
+         "text" : "Ловушка бандитов после посещения городов. [d]Вкл[/d]"
+      }, 
+      "c84f6970-5581-49f1-a5ac-df8b3b608005" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100756", 
+            "y" : "-101830"
+         }, 
+         "child" : [ 
+            "6d7b14ad-06bd-424a-9b2b-b53c24c3db86", 
+            "8450e817-c132-4e21-952a-efc3b681a187"
+         ], 
+         "text" : "Случайное уникальное событие, генерируемое при посещении городов. Сложность бандитов зависит от уровня игрока. Если событие было активровано, то отлючение будет после того, как оно произойдёт."
+      }, 
+      "6d7b14ad-06bd-424a-9b2b-b53c24c3db86" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-100763", 
+            "y" : "-101676"
+         }, 
+         "child" : [ 
+            "61132b84-9ff9-4c06-9759-0e70c21a4f45", 
+            "3fe24a80-4d49-43ab-ada8-1b82f5ca91ec"
+         ], 
+         "note_key" : "PH_TRAP_OPTIONS_ON"
+      }, 
+      "61132b84-9ff9-4c06-9759-0e70c21a4f45" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100869", 
+            "y" : "-101572"
+         }, 
+         "child" : [ 
+            "55d68d67-6e22-4192-805c-efd6f0e3cf29"
+         ], 
+         "text" : "Отключить случайное событие."
+      }, 
+      "55d68d67-6e22-4192-805c-efd6f0e3cf29" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-100738", 
+            "y" : "-101432"
+         }, 
+         "child" : [ 
+            "4c36a593-74aa-4936-9094-7c3ff3d25d92", 
+            "8c7a70e8-3c01-431a-ad5b-e5c8a737b262"
+         ], 
+         "note_key" : "PH_TRAP_OPTIONS_ON"
+      }, 
+      "4c36a593-74aa-4936-9094-7c3ff3d25d92" : { 
+         "class" : "NotebookRemoveNoteNode", 
+         "desc" : { 
+            "x" : "-100832", 
+            "y" : "-101311"
+         }, 
+         "child" : [ 
+            "2275a031-f764-4391-a1e1-71b3b34b5292"
+         ], 
+         "note_key" : "PH_TRAP_OPTIONS_ON"
+      }, 
+      "2275a031-f764-4391-a1e1-71b3b34b5292" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-100834", 
+            "y" : "-101248"
+         }, 
+         "child" : [ 
+            "c84f6970-5581-49f1-a5ac-df8b3b608005"
+         ], 
+         "note_key" : "PH_TRAP_OPTIONS_OFF"
+      }, 
+      "8c7a70e8-3c01-431a-ad5b-e5c8a737b262" : { 
+         "class" : "NotebookRemoveNoteNode", 
+         "desc" : { 
+            "x" : "-100614", 
+            "y" : "-101306"
+         }, 
+         "child" : [ 
+            "9dc14daa-e625-4d3d-b46a-c4dc05fef470"
+         ], 
+         "note_key" : "PH_TRAP_OPTIONS_OFF"
+      }, 
+      "9dc14daa-e625-4d3d-b46a-c4dc05fef470" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-100616", 
+            "y" : "-101247"
+         }, 
+         "child" : [ 
+            "c84f6970-5581-49f1-a5ac-df8b3b608005"
+         ], 
+         "note_key" : "PH_TRAP_OPTIONS_ON"
+      }, 
+      "3fe24a80-4d49-43ab-ada8-1b82f5ca91ec" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100625", 
+            "y" : "-101571"
+         }, 
+         "child" : [ 
+            "55d68d67-6e22-4192-805c-efd6f0e3cf29"
+         ], 
+         "text" : "Включить случайное событие."
+      }, 
+      "04255752-3304-4977-97d0-7eecde38bb36" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100658", 
+            "y" : "-101939"
+         }, 
+         "child" : [ 
+            "c84f6970-5581-49f1-a5ac-df8b3b608005"
+         ], 
+         "text" : "Ловушка бандитов после посещения городов. [f]Выкл[/f]"
+      }, 
+      "e55633be-d0c5-4dd7-bf03-67972aafb431" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-100122", 
+            "y" : "-102058"
+         }, 
+         "child" : [ 
+            "4c38b75e-d731-49f2-8c11-21d8a2cec80c", 
+            "445a5a25-47eb-4778-86b3-cf75560c9d46"
+         ], 
+         "note_key" : "PH_PRICE_UP_ON"
+      }, 
+      "4c38b75e-d731-49f2-8c11-21d8a2cec80c" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100239", 
+            "y" : "-101915"
+         }, 
+         "child" : [ 
+            "b87f9559-8295-4887-be71-b75114dbd9a6"
+         ], 
+         "text" : "Наценка на товары, у торговцев, из мода Феномен. [d]Вкл[/d]"
+      }, 
+      "b87f9559-8295-4887-be71-b75114dbd9a6" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100113", 
+            "y" : "-101812"
+         }, 
+         "child" : [ 
+            "db9d2a04-c5e5-492c-a8a2-d67d05d160cd", 
+            "8450e817-c132-4e21-952a-efc3b681a187"
+         ], 
+         "text" : "Наценка на покупку и продажу товаров у странствующих торговцев мода. Изменения полноценно вступят на следующей встречи с торговцами."
+      }, 
+      "db9d2a04-c5e5-492c-a8a2-d67d05d160cd" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-100124", 
+            "y" : "-101683"
+         }, 
+         "child" : [ 
+            "d2aabfdb-b62c-47c2-a804-a498f02676d8", 
+            "8fbbce2f-3bbe-489a-92dc-f779ab3a5baa"
+         ], 
+         "note_key" : "PH_PRICE_UP_ON"
+      }, 
+      "d2aabfdb-b62c-47c2-a804-a498f02676d8" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100208", 
+            "y" : "-101577"
+         }, 
+         "child" : [ 
+            "25380fe6-68fd-45ee-8c91-decc52a9bcf5"
+         ], 
+         "text" : "Отключить наценку товаров у торговцев."
+      }, 
+      "25380fe6-68fd-45ee-8c91-decc52a9bcf5" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-100072", 
+            "y" : "-101420"
+         }, 
+         "child" : [ 
+            "97ecc25b-5ed7-48fb-bafb-bffdf99680f3", 
+            "63b9931a-b9f1-4987-af4f-cfba255ad346"
+         ], 
+         "note_key" : "PH_PRICE_UP_ON"
+      }, 
+      "97ecc25b-5ed7-48fb-bafb-bffdf99680f3" : { 
+         "class" : "NotebookRemoveNoteNode", 
+         "desc" : { 
+            "x" : "-100141", 
+            "y" : "-101292"
+         }, 
+         "child" : [ 
+            "bbc33525-394e-4282-bd58-b82fce5dae07"
+         ], 
+         "note_key" : "PH_PRICE_UP_ON"
+      }, 
+      "bbc33525-394e-4282-bd58-b82fce5dae07" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-100143", 
+            "y" : "-101229"
+         }, 
+         "child" : [ 
+            "b87f9559-8295-4887-be71-b75114dbd9a6"
+         ], 
+         "note_key" : "PH_PRICE_UP_OFF"
+      }, 
+      "63b9931a-b9f1-4987-af4f-cfba255ad346" : { 
+         "class" : "NotebookRemoveNoteNode", 
+         "desc" : { 
+            "x" : "-99923", 
+            "y" : "-101287"
+         }, 
+         "child" : [ 
+            "1ee66f4c-4a5c-4ff9-b7f4-9275a66e736a"
+         ], 
+         "note_key" : "PH_PRICE_UP_OFF"
+      }, 
+      "1ee66f4c-4a5c-4ff9-b7f4-9275a66e736a" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-99925", 
+            "y" : "-101228"
+         }, 
+         "child" : [ 
+            "b87f9559-8295-4887-be71-b75114dbd9a6"
+         ], 
+         "note_key" : "PH_PRICE_UP_ON"
+      }, 
+      "8fbbce2f-3bbe-489a-92dc-f779ab3a5baa" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99982", 
+            "y" : "-101578"
+         }, 
+         "child" : [ 
+            "25380fe6-68fd-45ee-8c91-decc52a9bcf5"
+         ], 
+         "text" : "Включить наценку товаров у торговцев."
+      }, 
+      "445a5a25-47eb-4778-86b3-cf75560c9d46" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99986", 
+            "y" : "-101915"
+         }, 
+         "child" : [ 
+            "b87f9559-8295-4887-be71-b75114dbd9a6"
+         ], 
+         "text" : "Наценка на товары, у новых торговцев, из мода Феномен. [f]Выкл[/f]"
+      }, 
+      "ce0bf7b3-6d11-4f21-9a30-6d0a47f52daf" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99583", 
+            "y" : "-102419"
+         }, 
+         "child" : [ 
+            "c557271d-6270-457a-b269-3289f2fb08d3"
+         ], 
+         "text" : "Дополнительные настройки мода, включаемые по желанию."
+      }, 
+      "c557271d-6270-457a-b269-3289f2fb08d3" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99421", 
+            "y" : "-102299"
+         }, 
+         "child" : [ 
+            "c1453d22-0b4b-416f-8051-41b074a92867", 
+            "93935147-9f21-459a-ad56-4019a41bc78f", 
+            "0b489f5d-2c3b-470c-a218-d533c345a915", 
+            "8450e817-c132-4e21-952a-efc3b681a187"
+         ], 
+         "text" : "Это дополнительные настройки мода феномен. Вы можете их влючить по желанию. [h]Некоторые из них меняют игровой баланс мода в сторону упрощения.[/h]"
+      }, 
+      "c1453d22-0b4b-416f-8051-41b074a92867" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-99456", 
+            "y" : "-102142"
+         }, 
+         "child" : [ 
+            "4b1ab76b-81d2-4180-bf95-2567b41c4dca", 
+            "928f2bbf-a600-497d-8c00-cb4d6a50a91d"
+         ], 
+         "note_key" : "PH_PRICE_UP_ALL_ON"
+      }, 
+      "4b1ab76b-81d2-4180-bf95-2567b41c4dca" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99603", 
+            "y" : "-102022"
+         }, 
+         "child" : [ 
+            "d20d20bb-55c0-4ccf-b8d6-eb2c0e1d3732"
+         ], 
+         "text" : "Наценка на товары, у основных торговцев, из игры. [d]Вкл[/d]"
+      }, 
+      "d20d20bb-55c0-4ccf-b8d6-eb2c0e1d3732" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99445", 
+            "y" : "-101857"
+         }, 
+         "child" : [ 
+            "0ae08fe1-8c81-4556-9235-5de1c28abdd8", 
+            "8450e817-c132-4e21-952a-efc3b681a187"
+         ], 
+         "text" : "Данная настройка затронет основных торговцев брони и оружия в КРЗ (Торговец оружия и брони ) и Отрадном (основной торговец). И подымет цены отпускаемой продукции, но в замен у них будет больше товаров и денег. Для вступления изменений вам потребуется перезайти в локацию и немного помотать время до обновления ассортимента."
+      }, 
+      "0ae08fe1-8c81-4556-9235-5de1c28abdd8" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-99427", 
+            "y" : "-101692"
+         }, 
+         "child" : [ 
+            "43e3c82b-4d9d-4eb9-aeb7-e1ea9aa2ec49", 
+            "0980e3d7-dca8-4670-a3fa-af22a1fa0703"
+         ], 
+         "note_key" : "PH_PRICE_UP_ALL_ON"
+      }, 
+      "43e3c82b-4d9d-4eb9-aeb7-e1ea9aa2ec49" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99570", 
+            "y" : "-101568"
+         }, 
+         "child" : [ 
+            "210f68ee-a298-4bfd-be20-7fa1b25ee781"
+         ], 
+         "text" : "Отключить наценку товаров у торговцев."
+      }, 
+      "210f68ee-a298-4bfd-be20-7fa1b25ee781" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-99419", 
+            "y" : "-101407"
+         }, 
+         "child" : [ 
+            "8e759d51-7515-41d4-a27b-591f31256519", 
+            "39be2c25-c59a-4864-9456-12766963c968"
+         ], 
+         "note_key" : "PH_PRICE_UP_ALL_ON"
+      }, 
+      "8e759d51-7515-41d4-a27b-591f31256519" : { 
+         "class" : "NotebookRemoveNoteNode", 
+         "desc" : { 
+            "x" : "-99508", 
+            "y" : "-101290"
+         }, 
+         "child" : [ 
+            "6c0275cc-bf73-4996-bcb8-5fb685544ec8"
+         ], 
+         "note_key" : "PH_PRICE_UP_ALL_ON"
+      }, 
+      "6c0275cc-bf73-4996-bcb8-5fb685544ec8" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-99507", 
+            "y" : "-101231"
+         }, 
+         "child" : [ 
+            "d20d20bb-55c0-4ccf-b8d6-eb2c0e1d3732"
+         ], 
+         "note_key" : "PH_PRICE_UP_ALL_OFF"
+      }, 
+      "39be2c25-c59a-4864-9456-12766963c968" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-99305", 
+            "y" : "-101293"
+         }, 
+         "child" : [ 
+            "e57c4190-7c68-42ce-8ec8-fa692a1428b8"
+         ], 
+         "note_key" : "PH_PRICE_UP_ALL_ON"
+      }, 
+      "e57c4190-7c68-42ce-8ec8-fa692a1428b8" : { 
+         "class" : "NotebookRemoveNoteNode", 
+         "desc" : { 
+            "x" : "-99308", 
+            "y" : "-101214"
+         }, 
+         "child" : [ 
+            "d20d20bb-55c0-4ccf-b8d6-eb2c0e1d3732"
+         ], 
+         "note_key" : "PH_PRICE_UP_ALL_OFF"
+      }, 
+      "0980e3d7-dca8-4670-a3fa-af22a1fa0703" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99344", 
+            "y" : "-101569"
+         }, 
+         "child" : [ 
+            "210f68ee-a298-4bfd-be20-7fa1b25ee781"
+         ], 
+         "text" : "Включить наценку товаров у торговцев."
+      }, 
+      "928f2bbf-a600-497d-8c00-cb4d6a50a91d" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99377", 
+            "y" : "-102023"
+         }, 
+         "child" : [ 
+            "d20d20bb-55c0-4ccf-b8d6-eb2c0e1d3732"
+         ], 
+         "text" : "Наценка на товары, у основных торговцев, из игры. [f]Выкл[/f]"
+      }, 
+      "93935147-9f21-459a-ad56-4019a41bc78f" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-98982", 
+            "y" : "-102139"
+         }, 
+         "child" : [ 
+            "e797f560-85c5-47ec-9818-01b1e08148e0", 
+            "733ab7ba-9de9-4adb-baae-fee70fe38f95"
+         ], 
+         "note_key" : "PH_AMMO_MORE_ON"
+      }, 
+      "e797f560-85c5-47ec-9818-01b1e08148e0" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99096", 
+            "y" : "-102018"
+         }, 
+         "child" : [ 
+            "86d7a336-23eb-4f83-9bb2-1d6bf2218208"
+         ], 
+         "text" : "Много патронов у торговцев. [d]Вкл[/d]"
+      }, 
+      "86d7a336-23eb-4f83-9bb2-1d6bf2218208" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98974", 
+            "y" : "-101875"
+         }, 
+         "child" : [ 
+            "3f6068c0-b318-4982-888f-40424c4188c3", 
+            "8450e817-c132-4e21-952a-efc3b681a187"
+         ], 
+         "text" : "Данная настройка затронет основных торговцев  оружия в КРЗ (Торговец оружия и брони ) и Отрадном (основной торговец). Добавит гораздо больше патронов на продажу. Для вступления изменений вам потребуется перезайти в локацию и немного помотать время до обновления ассортимента."
+      }, 
+      "3f6068c0-b318-4982-888f-40424c4188c3" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-98935", 
+            "y" : "-101736"
+         }, 
+         "child" : [ 
+            "1215ee94-44f2-4d78-ae3f-e183c4a365dc", 
+            "8e333bbb-bed7-4e0a-919c-78dd5a5a0cd8"
+         ], 
+         "note_key" : "PH_AMMO_MORE_ON"
+      }, 
+      "1215ee94-44f2-4d78-ae3f-e183c4a365dc" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99049", 
+            "y" : "-101581"
+         }, 
+         "child" : [ 
+            "8e83553b-c8ec-401a-8d70-76f2bd844e67"
+         ], 
+         "text" : "Отключить Много патронов у торговцев."
+      }, 
+      "8e83553b-c8ec-401a-8d70-76f2bd844e67" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-98928", 
+            "y" : "-101423"
+         }, 
+         "child" : [ 
+            "b4922c5a-24b9-47fa-920c-18b11c1d99ca", 
+            "5fd168e7-45ee-411a-9c68-e23a38828af3"
+         ], 
+         "note_key" : "PH_AMMO_MORE_ON"
+      }, 
+      "b4922c5a-24b9-47fa-920c-18b11c1d99ca" : { 
+         "class" : "NotebookRemoveNoteNode", 
+         "desc" : { 
+            "x" : "-99020", 
+            "y" : "-101309"
+         }, 
+         "child" : [ 
+            "e6e3ddc4-e6c2-438f-a547-8af6b7044bb7"
+         ], 
+         "note_key" : "PH_AMMO_MORE_ON"
+      }, 
+      "e6e3ddc4-e6c2-438f-a547-8af6b7044bb7" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-99016", 
+            "y" : "-101248"
+         }, 
+         "child" : [ 
+            "86d7a336-23eb-4f83-9bb2-1d6bf2218208"
+         ], 
+         "note_key" : "PH_AMMO_MORE_OFF"
+      }, 
+      "5fd168e7-45ee-411a-9c68-e23a38828af3" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-98814", 
+            "y" : "-101309"
+         }, 
+         "child" : [ 
+            "098181d5-5b17-423b-b9de-cb081350c523"
+         ], 
+         "note_key" : "PH_AMMO_MORE_ON"
+      }, 
+      "098181d5-5b17-423b-b9de-cb081350c523" : { 
+         "class" : "NotebookRemoveNoteNode", 
+         "desc" : { 
+            "x" : "-98810", 
+            "y" : "-101251"
+         }, 
+         "child" : [ 
+            "86d7a336-23eb-4f83-9bb2-1d6bf2218208"
+         ], 
+         "note_key" : "PH_AMMO_MORE_OFF"
+      }, 
+      "8e333bbb-bed7-4e0a-919c-78dd5a5a0cd8" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98823", 
+            "y" : "-101583"
+         }, 
+         "child" : [ 
+            "8e83553b-c8ec-401a-8d70-76f2bd844e67"
+         ], 
+         "text" : "Включить Много патронов у торговцев."
+      }, 
+      "733ab7ba-9de9-4adb-baae-fee70fe38f95" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98878", 
+            "y" : "-102016"
+         }, 
+         "child" : [ 
+            "86d7a336-23eb-4f83-9bb2-1d6bf2218208"
+         ], 
+         "text" : "Много патронов у торговцев. [f]Выкл[/f]"
+      }, 
+      "0b489f5d-2c3b-470c-a218-d533c345a915" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-98473", 
+            "y" : "-102144"
+         }, 
+         "child" : [ 
+            "2098dc9c-9e66-49ab-b040-cbb6ad647010", 
+            "bf3c74ff-3cd5-4bcd-87a2-48e162eab33a"
+         ], 
+         "note_key" : "PH_MONEY_MORE_ON"
+      }, 
+      "2098dc9c-9e66-49ab-b040-cbb6ad647010" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98579", 
+            "y" : "-102029"
+         }, 
+         "child" : [ 
+            "7c8cc680-60e2-468e-ae21-ca01d4e7c786"
+         ], 
+         "text" : "Много денег у основных торговцев. [d]Вкл[/d]"
+      }, 
+      "7c8cc680-60e2-468e-ae21-ca01d4e7c786" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98463", 
+            "y" : "-101902"
+         }, 
+         "child" : [ 
+            "8595c4e9-89dd-42d7-980c-64e833b63e0a", 
+            "8450e817-c132-4e21-952a-efc3b681a187"
+         ], 
+         "text" : "Данная настройка затронет основных торговцев  оружия в КРЗ (Торговец оружия и брони ) и Отрадном (основной торговец). Добавит больше денег торговцам. Для вступления изменений вам потребуется перезайти в локацию и немного помотать время до обновления ассортимента."
+      }, 
+      "8595c4e9-89dd-42d7-980c-64e833b63e0a" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-98442", 
+            "y" : "-101752"
+         }, 
+         "child" : [ 
+            "e8fa17d1-3dfe-464f-b664-66d839609161", 
+            "fb316d3c-1b40-4005-8cb0-c9c53f8f80f2"
+         ], 
+         "note_key" : "PH_MONEY_MORE_ON"
+      }, 
+      "e8fa17d1-3dfe-464f-b664-66d839609161" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98514", 
+            "y" : "-101607"
+         }, 
+         "child" : [ 
+            "214e7f91-9470-433a-b40c-4310750f67a2"
+         ], 
+         "text" : "Отключить обилие денег у торговцев."
+      }, 
+      "214e7f91-9470-433a-b40c-4310750f67a2" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-98385", 
+            "y" : "-101468"
+         }, 
+         "child" : [ 
+            "abede82b-6880-451d-aa61-3fbdc98e723e", 
+            "d94cba68-12fa-4c37-a973-db476a849f35"
+         ], 
+         "note_key" : "PH_MONEY_MORE_ON"
+      }, 
+      "abede82b-6880-451d-aa61-3fbdc98e723e" : { 
+         "class" : "NotebookRemoveNoteNode", 
+         "desc" : { 
+            "x" : "-98456", 
+            "y" : "-101328"
+         }, 
+         "child" : [ 
+            "2db8bea9-1f35-4603-a8b7-0bf058509d54"
+         ], 
+         "note_key" : "PH_MONEY_MORE_ON"
+      }, 
+      "2db8bea9-1f35-4603-a8b7-0bf058509d54" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-98452", 
+            "y" : "-101267"
+         }, 
+         "child" : [ 
+            "7c8cc680-60e2-468e-ae21-ca01d4e7c786"
+         ], 
+         "note_key" : "PH_MONEY_MORE_OFF"
+      }, 
+      "d94cba68-12fa-4c37-a973-db476a849f35" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-98244", 
+            "y" : "-101324"
+         }, 
+         "child" : [ 
+            "0441be2b-5967-40fb-b685-8a61be65f94c"
+         ], 
+         "note_key" : "PH_MONEY_MORE_ON"
+      }, 
+      "0441be2b-5967-40fb-b685-8a61be65f94c" : { 
+         "class" : "NotebookRemoveNoteNode", 
+         "desc" : { 
+            "x" : "-98254", 
+            "y" : "-101261"
+         }, 
+         "child" : [ 
+            "7c8cc680-60e2-468e-ae21-ca01d4e7c786"
+         ], 
+         "note_key" : "PH_MONEY_MORE_OFF"
+      }, 
+      "fb316d3c-1b40-4005-8cb0-c9c53f8f80f2" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98295", 
+            "y" : "-101606"
+         }, 
+         "child" : [ 
+            "214e7f91-9470-433a-b40c-4310750f67a2"
+         ], 
+         "text" : "Включить обилие денег у торговцев."
+      }, 
+      "bf3c74ff-3cd5-4bcd-87a2-48e162eab33a" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98360", 
+            "y" : "-102027"
+         }, 
+         "child" : [ 
+            "7c8cc680-60e2-468e-ae21-ca01d4e7c786"
+         ], 
+         "text" : "Много денег у основных торговцев. [f](Выкл[/f]"
+      }, 
+      "52aeaa3c-f95b-4d21-ad85-f2c5f0604c04" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-97247", 
+            "y" : "-102082"
+         }, 
+         "child" : [ 
+            "40df0f6d-dbfc-4335-a58e-d9be004bb843"
+         ], 
+         "text" : "Решение проблем."
+      }, 
+      "40df0f6d-dbfc-4335-a58e-d9be004bb843" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-97125", 
+            "y" : "-101974"
+         }, 
+         "child" : [ 
+            "f56f0f84-0353-424b-a584-b12962bf43e5", 
+            "c1a5d004-8297-4604-a6fc-8aff16fa8049", 
+            "1be5dc6d-bbd6-409f-bef3-ee3062929dc3", 
+            "8450e817-c132-4e21-952a-efc3b681a187"
+         ], 
+         "text" : "Добро пожаловать в ремонтный цех по моду феномен."
+      }, 
+      "f56f0f84-0353-424b-a584-b12962bf43e5" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-97323", 
+            "y" : "-101784"
+         }, 
+         "child" : [ 
+            "0154a419-5c1d-4616-9b15-9bd78be518bd"
+         ], 
+         "text" : "Не появляются новые случайные встречи."
+      }, 
+      "0154a419-5c1d-4616-9b15-9bd78be518bd" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-97323", 
+            "y" : "-101704"
+         }, 
+         "child" : [ 
+            "8450e817-c132-4e21-952a-efc3b681a187", 
+            "05aa1a53-c1cd-412c-8781-d6fda0af255c"
+         ], 
+         "text" : "Феномен начал конфликтовать с каким-либо модом, который изменяет или заменяет случайные встречи. Для устранения конфликта удалите конфликтный мод. Либо поставить мод Феномен первым, в списке модификаций."
+      }, 
+      "05aa1a53-c1cd-412c-8781-d6fda0af255c" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-97164", 
+            "y" : "-101316"
+         }, 
+         "child" : [ 
+            "40df0f6d-dbfc-4335-a58e-d9be004bb843"
+         ], 
+         "text" : "Вернутся в меню неисправностей."
+      }, 
+      "c1a5d004-8297-4604-a6fc-8aff16fa8049" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-97095", 
+            "y" : "-101783"
+         }, 
+         "child" : [ 
+            "2fda64d9-d109-404d-9197-9054bc72c93e"
+         ], 
+         "text" : "Не появляется новый ассортимент у торговцев."
+      }, 
+      "2fda64d9-d109-404d-9197-9054bc72c93e" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-97092", 
+            "y" : "-101700"
+         }, 
+         "child" : [ 
+            "8450e817-c132-4e21-952a-efc3b681a187", 
+            "05aa1a53-c1cd-412c-8781-d6fda0af255c"
+         ], 
+         "text" : "Феномен начал конфликтовать с каким-либо модом, который изменяет или заменяет ассортимент торговцев. Для устранения конфликта удалите конфликтный мод. Либо поставить мод Феномен первым, в списке модификаций."
+      }, 
+      "1be5dc6d-bbd6-409f-bef3-ee3062929dc3" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-96859", 
+            "y" : "-101779"
+         }, 
+         "child" : [ 
+            "2ce1b04b-509a-4a02-9150-76711889e9f3"
+         ], 
+         "text" : "Баг, застрял монстр (в машине, в дереве или других объектах)."
+      }, 
+      "2ce1b04b-509a-4a02-9150-76711889e9f3" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-96850", 
+            "y" : "-101700"
+         }, 
+         "child" : [ 
+            "1d195154-bfe0-4086-becc-283785c7e827", 
+            "05aa1a53-c1cd-412c-8781-d6fda0af255c", 
+            "8450e817-c132-4e21-952a-efc3b681a187"
+         ], 
+         "text" : "Это связано с созданным генератором случайных расположений монстров. Одно из самых эффективных решений, загрузить более раний сейв. Второй вариант более рискованный, убить всех персонажей на карте (кроме гг и напарников), для этого нажмите соответствующее меню в диалоге. [f]Нажимать только на случайных картах.[/f]"
+      }, 
+      "1d195154-bfe0-4086-becc-283785c7e827" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-96796", 
+            "y" : "-101439"
+         }, 
+         "child" : [ 
+            "6f2a3761-cd99-4e5e-a401-4dfa79556843"
+         ], 
+         "text" : "Убить всех монстров на карте. [f]Рекомендуется сделать сейв.[/f]"
+      }, 
+      "6f2a3761-cd99-4e5e-a401-4dfa79556843" : { 
+         "class" : "CharactersKillAllNode", 
+         "desc" : { 
+            "x" : "-96719", 
+            "y" : "-101259"
+         }, 
+         "child" : [ 
+            "fd33d17b-8fed-447b-b7bc-61a4539f73f6"
+         ], 
+         "fraction" : "~encounter"
+      }, 
+      "fd33d17b-8fed-447b-b7bc-61a4539f73f6" : { 
+         "class" : "CharactersKillAllNode", 
+         "desc" : { 
+            "x" : "-96719", 
+            "y" : "-101196"
+         }, 
+         "child" : [ 
+            "30a7dd4f-7810-4d8d-90c9-ef641e01a7c0"
+         ], 
+         "fraction" : "~team1"
+      }, 
+      "30a7dd4f-7810-4d8d-90c9-ef641e01a7c0" : { 
+         "class" : "CharactersKillAllNode", 
+         "desc" : { 
+            "x" : "-96716", 
+            "y" : "-101133"
+         }, 
+         "child" : [ 
+            "6d74b9d8-5064-48b3-8c49-cc6676ceca1b"
+         ], 
+         "fraction" : "~team2"
+      }, 
+      "6d74b9d8-5064-48b3-8c49-cc6676ceca1b" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-96704", 
+            "y" : "-101062"
+         }, 
+         "child" : [ 
+         ]
+      }
+   }, 
+   "entry" : "0a488d96-086d-4f72-a996-acbe7f30bf96"
+}

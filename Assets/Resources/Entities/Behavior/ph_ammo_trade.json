@@ -1,0 +1,336 @@
+{ 
+   "states" : { 
+      "b053a210-ea7d-439d-8783-489e55db23b7" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101178", 
+            "y" : "-101915"
+         }, 
+         "child" : [ 
+            "82c77213-45bd-4876-916e-3700f80055b6", 
+            "c2cf0e25-d036-4232-bbeb-d7be76e5401e"
+         ]
+      }, 
+      "82c77213-45bd-4876-916e-3700f80055b6" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101861", 
+            "y" : "-101560"
+         }, 
+         "child" : [ 
+            "d20dee21-55b6-4fd8-9ad1-2888fe0d010d"
+         ]
+      }, 
+      "d20dee21-55b6-4fd8-9ad1-2888fe0d010d" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-102000", 
+            "y" : "-101479"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Ammo", 
+               "count" : "90", 
+               "proto" : "5_45craft"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "90", 
+               "proto" : "7_62mm_craft"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "50", 
+               "proto" : "7mm_54r_craft"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "90", 
+               "proto" : "9mm_craft"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "50", 
+               "proto" : "12_craft"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "50", 
+               "proto" : "14_5mm_craft"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "120", 
+               "proto" : "307cal_craft"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "50", 
+               "proto" : "356cal_craft"
+            }
+         ], 
+         "inventoryObject" : "Spawn.Karavan.Trader", 
+         "random" : "true"
+      }, 
+      "c2cf0e25-d036-4232-bbeb-d7be76e5401e" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-100969", 
+            "y" : "-101672"
+         }, 
+         "child" : [ 
+            "161da581-3ea1-47f6-84a0-bd2b9360a551", 
+            "ee1ecdbe-7af6-4aac-9a89-7af98c0569bf"
+         ], 
+         "note_key" : "PH_AMMO_MORE_ON"
+      }, 
+      "161da581-3ea1-47f6-84a0-bd2b9360a551" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101144", 
+            "y" : "-101462"
+         }, 
+         "child" : [ 
+            "db7b9f1a-6ec9-4b55-9c5e-fdf3150a4ca6", 
+            "2c3c0511-8550-4c5f-97fe-5bf1971bf40f"
+         ]
+      }, 
+      "db7b9f1a-6ec9-4b55-9c5e-fdf3150a4ca6" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101244", 
+            "y" : "-101406"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Ammo", 
+               "count" : "55", 
+               "proto" : "5_45mm_AP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "111", 
+               "proto" : "5_45mm_JHP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "11", 
+               "proto" : "6_49mm_AP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "22", 
+               "proto" : "6_49mm_JHP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "44", 
+               "proto" : "7_62mm_AP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "111", 
+               "proto" : "7_62mm_JHP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "22", 
+               "proto" : "7mm_54R"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "33", 
+               "proto" : "7mm_54R_AP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "55", 
+               "proto" : "9mm_AP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "111", 
+               "proto" : "9mm_JHP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "22", 
+               "proto" : "10mm_AP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "44", 
+               "proto" : "10mm_JHP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "33", 
+               "proto" : "12_AP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "50", 
+               "proto" : "12_JHP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "22", 
+               "proto" : "14_5mm_AP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "22", 
+               "proto" : "14_5mm_JHP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "55", 
+               "proto" : "307cal_AP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "100", 
+               "proto" : "307cal_JHP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "55", 
+               "proto" : "356cal_AP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "100", 
+               "proto" : "356cal_JHP"
+            }
+         ], 
+         "inventoryObject" : "Spawn.Karavan.Trader"
+      }, 
+      "2c3c0511-8550-4c5f-97fe-5bf1971bf40f" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101073", 
+            "y" : "-101407"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Ammo", 
+               "count" : "20", 
+               "proto" : "5_45mm_AP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "20", 
+               "proto" : "5_45mm_JHP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "5", 
+               "proto" : "6_49mm_AP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "5", 
+               "proto" : "6_49mm_JHP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "10", 
+               "proto" : "7_62mm_AP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "20", 
+               "proto" : "7_62mm_JHP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "10", 
+               "proto" : "7mm_54R"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "25", 
+               "proto" : "7mm_54R_AP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "20", 
+               "proto" : "9mm_AP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "20", 
+               "proto" : "9mm_JHP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "5", 
+               "proto" : "10mm_AP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "22", 
+               "proto" : "10mm_JHP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "11", 
+               "proto" : "12_AP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "22", 
+               "proto" : "12_JHP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "5", 
+               "proto" : "14_5mm_AP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "5", 
+               "proto" : "14_5mm_JHP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "33", 
+               "proto" : "307cal_AP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "15", 
+               "proto" : "307cal_JHP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "15", 
+               "proto" : "356cal_AP"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "40", 
+               "proto" : "356cal_JHP"
+            }
+         ], 
+         "inventoryObject" : "Spawn.Karavan.Trader", 
+         "random" : "true"
+      }, 
+      "ee1ecdbe-7af6-4aac-9a89-7af98c0569bf" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100802", 
+            "y" : "-101530"
+         }, 
+         "child" : [ 
+         ]
+      }
+   }, 
+   "entry" : "b053a210-ea7d-439d-8783-489e55db23b7"
+}

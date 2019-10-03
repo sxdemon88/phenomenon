@@ -1,0 +1,1079 @@
+{ 
+   "states" : { 
+      "a42b3b5d-8dc0-426a-a872-47517fcc5781" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102590", 
+            "y" : "-101637"
+         }, 
+         "child" : [ 
+            "f441182e-f8e5-47dc-a46f-34c5e8faf471"
+         ]
+      }, 
+      "f441182e-f8e5-47dc-a46f-34c5e8faf471" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-102617", 
+            "y" : "-101547"
+         }, 
+         "child" : [ 
+            "f6ab9a1f-0d80-433a-93bb-5c1fa6df8080", 
+            "128a4616-bfef-414b-ac70-accbf47232d9"
+         ], 
+         "note_key" : "PH_OKSANA_OUT"
+      }, 
+      "f6ab9a1f-0d80-433a-93bb-5c1fa6df8080" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-102975", 
+            "y" : "-101409"
+         }, 
+         "child" : [ 
+            "f87f2efa-f463-4379-b7c9-92bdc985ddc0", 
+            "4753c592-834c-4920-b7de-2a2341b92472", 
+            "3a1a44d4-f363-4997-8732-b45fbeddce97"
+         ]
+      }, 
+      "f87f2efa-f463-4379-b7c9-92bdc985ddc0" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-103498", 
+            "y" : "-101305"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Ухожу..", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "4753c592-834c-4920-b7de-2a2341b92472" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-103278", 
+            "y" : "-101305"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Прощай", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "3a1a44d4-f363-4997-8732-b45fbeddce97" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-103060", 
+            "y" : "-101305"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Может ещё свидимся", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "128a4616-bfef-414b-ac70-accbf47232d9" : { 
+         "class" : "CharacterStateNode", 
+         "desc" : { 
+            "x" : "-102357", 
+            "y" : "-101319"
+         }, 
+         "child" : [ 
+            "8b6a87b0-f951-42e8-af7e-e803a64ff438"
+         ], 
+         "stateName" : ""
+      }, 
+      "8b6a87b0-f951-42e8-af7e-e803a64ff438" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-102359", 
+            "y" : "-101224"
+         }, 
+         "child" : [ 
+            "e74f344e-9959-4f30-aa3a-bd1a84f71c77", 
+            "0c4b557c-fce2-448b-8914-09e5f2c13eec"
+         ], 
+         "key" : "TEAMMATE"
+      }, 
+      "e74f344e-9959-4f30-aa3a-bd1a84f71c77" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-102800", 
+            "y" : "-100989"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Dialog/ph_oksana_teammate"
+      }, 
+      "0c4b557c-fce2-448b-8914-09e5f2c13eec" : { 
+         "class" : "DialogBeginNode", 
+         "desc" : { 
+            "x" : "-102264", 
+            "y" : "-101056"
+         }, 
+         "child" : [ 
+            "74fdef2f-de59-49f5-b95c-214bf806c218"
+         ], 
+         "canBarter" : "false"
+      }, 
+      "74fdef2f-de59-49f5-b95c-214bf806c218" : { 
+         "class" : "AnimatorTriggerNode", 
+         "desc" : { 
+            "x" : "-102260", 
+            "y" : "-100977"
+         }, 
+         "child" : [ 
+            "01a38818-a68b-4134-bce9-b8b6e3a18391"
+         ], 
+         "triger" : "StopAnimation"
+      }, 
+      "01a38818-a68b-4134-bce9-b8b6e3a18391" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102299", 
+            "y" : "-100850"
+         }, 
+         "child" : [ 
+            "7fbaf5ff-910b-4f26-93f6-5b4218abd86a"
+         ], 
+         "text" : "[К вам на встречу,  выбегает девушка, в военной форме. Приблизившись к вам, вы замечаете ее уставший вгляд.]"
+      }, 
+      "7fbaf5ff-910b-4f26-93f6-5b4218abd86a" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-102299", 
+            "y" : "-100712"
+         }, 
+         "child" : [ 
+            "42b34b3e-21a6-4c83-b753-88657106f37e"
+         ]
+      }, 
+      "42b34b3e-21a6-4c83-b753-88657106f37e" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102297", 
+            "y" : "-100649"
+         }, 
+         "child" : [ 
+            "ab41746e-b465-4d19-b27e-7c3e3de96708"
+         ], 
+         "text" : "Эй, $PLAYER.NAME$ . Долго же тебя искала и всё же нашла! [Девушка пытается отдышатся]"
+      }, 
+      "ab41746e-b465-4d19-b27e-7c3e3de96708" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102297", 
+            "y" : "-100524"
+         }, 
+         "child" : [ 
+            "c45694c7-6095-4226-9844-5392dd8f0af1"
+         ], 
+         "text" : "Мы знакомы? Вы кто? И откуда знаете моё имя?"
+      }, 
+      "c45694c7-6095-4226-9844-5392dd8f0af1" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102283", 
+            "y" : "-100416"
+         }, 
+         "child" : [ 
+            "cf0c824f-a0bd-4dbc-9e95-182f89c6f4aa"
+         ], 
+         "text" : "Сложно всё будет объяснить. Слышала тебе помощь нужна, и хочу тебе помочь."
+      }, 
+      "cf0c824f-a0bd-4dbc-9e95-182f89c6f4aa" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102285", 
+            "y" : "-100289"
+         }, 
+         "child" : [ 
+            "4b04ed6c-4fa4-41e8-82a5-06b260f9c827"
+         ], 
+         "text" : "Кто ты, и как тебя зовут?  И что тут вообще происходит?"
+      }, 
+      "4b04ed6c-4fa4-41e8-82a5-06b260f9c827" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102285", 
+            "y" : "-100191"
+         }, 
+         "child" : [ 
+            "f4042f2e-b52b-4970-8420-4e15b7d37e3a"
+         ], 
+         "text" : "Прости мои манеры, действительно, даже не представилась. Долго шла по твоему следу. Боялась упустить. Зовут меня Оксана. Этого хватит для первого знакомства?"
+      }, 
+      "f4042f2e-b52b-4970-8420-4e15b7d37e3a" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102281", 
+            "y" : "-100066"
+         }, 
+         "child" : [ 
+            "c594b3e6-b4f1-4de9-97d8-a71be06981a1"
+         ], 
+         "text" : "Так, хорошо, имя теперь знаю и на этом спасибо. Кто ты, откуда и что тебе нужно от меня?"
+      }, 
+      "c594b3e6-b4f1-4de9-97d8-a71be06981a1" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102280", 
+            "y" : "-99935"
+         }, 
+         "child" : [ 
+            "a81c9de3-47f6-4515-a6dc-f56cc1de22c7"
+         ], 
+         "text" : "Вот ты зануда, для кого я тут распинаюсь и спеша пытаюсь рассказать всё Я же говорю, неуспею я всё рассказать. За мной хвост, от Отрадного, поэтому прошу тебя, давай упростим задачу и я пойду с вами без лишних вопросов, а позже отвечу на них. Хорошо?"
+      }, 
+      "a81c9de3-47f6-4515-a6dc-f56cc1de22c7" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102277", 
+            "y" : "-99812"
+         }, 
+         "child" : [ 
+            "0fc8d2c8-fec6-4922-8398-d151f7c4a30d"
+         ], 
+         "text" : "За тобой ещё и следят! Зачем мне такой помощник? О боже, откуда ты свалилась на меня."
+      }, 
+      "0fc8d2c8-fec6-4922-8398-d151f7c4a30d" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101720", 
+            "y" : "-100507"
+         }, 
+         "child" : [ 
+            "f8f86f0d-fafa-4540-a50b-1fa2605b949e"
+         ], 
+         "text" : "Так, спокойствее. Ты главное сейчас морально подготовься. Сейчас будет немного откровений. Я из АТОМ, как и ты впрочем! Так что раскрыл ты меня, а я тебя! Я была агент подпрекрытием или , спящий агент, как кому удобнее говорить, меня отправили на восток для внедрения в послевоенную организацию. Когда задание было почти выполнено , нас кто-то сдал, и  в короткий срок всю группу раскрыли. Я согласно инструкциям покинула район операции. Моя группа была полностью раскрыта и возможно уничтожена. Позже я поделюсь информацией. Меня в Отрадном походу кто-то узнал и сдал Охотникам за головами. Поэтому прошу тебя, давай меньше разговоров и надо валить отсюда по быстрее."
+      }, 
+      "f8f86f0d-fafa-4540-a50b-1fa2605b949e" : { 
+         "class" : "HasTeamMateNode", 
+         "desc" : { 
+            "x" : "-101140", 
+            "y" : "-100359"
+         }, 
+         "child" : [ 
+            "ce1894f8-44d9-4dbe-96e7-0a6e317bf796", 
+            "9888db9f-664f-4e8e-99a4-6a9dec1eca35"
+         ], 
+         "teammate" : "Fidel"
+      }, 
+      "ce1894f8-44d9-4dbe-96e7-0a6e317bf796" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101358", 
+            "y" : "-100224"
+         }, 
+         "child" : [ 
+            "2066aa17-aa65-4c7e-b256-06411cfcd8ac"
+         ]
+      }, 
+      "2066aa17-aa65-4c7e-b256-06411cfcd8ac" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101360", 
+            "y" : "-100169"
+         }, 
+         "child" : [ 
+            "a66c3cdc-1720-4334-abae-8ed691539706", 
+            "9888db9f-664f-4e8e-99a4-6a9dec1eca35"
+         ], 
+         "text" : "A mí sí que me mata, está buenísima. [Она такая красотка, что я бы согласился, чтобы она меня убила.]"
+      }, 
+      "a66c3cdc-1720-4334-abae-8ed691539706" : { 
+         "class" : "DialogPortraitNode", 
+         "desc" : { 
+            "x" : "-101705", 
+            "y" : "-100011"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Fidel", 
+         "portrait" : "Character/Fidel_Water", 
+         "mode" : "AutoName"
+      }, 
+      "9888db9f-664f-4e8e-99a4-6a9dec1eca35" : { 
+         "class" : "HasTeamMateNode", 
+         "desc" : { 
+            "x" : "-101061", 
+            "y" : "-100092"
+         }, 
+         "child" : [ 
+            "947f89b5-647a-4202-9e08-07999754a9bf", 
+            "17140697-d36a-41ca-be23-fdeab3339456"
+         ], 
+         "teammate" : "Gexogen"
+      }, 
+      "947f89b5-647a-4202-9e08-07999754a9bf" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101354", 
+            "y" : "-99986"
+         }, 
+         "child" : [ 
+            "d540a061-8946-41e0-a313-d385c878db39"
+         ]
+      }, 
+      "d540a061-8946-41e0-a313-d385c878db39" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101356", 
+            "y" : "-99941"
+         }, 
+         "child" : [ 
+            "4c712745-3680-43c2-9d17-f2f1ec4c18ae", 
+            "17140697-d36a-41ca-be23-fdeab3339456"
+         ], 
+         "text" : "Если вы хотите узнать, что на самом деле думает женщина, смотрите на нее, но не слушайте."
+      }, 
+      "4c712745-3680-43c2-9d17-f2f1ec4c18ae" : { 
+         "class" : "DialogPortraitNode", 
+         "desc" : { 
+            "x" : "-101679", 
+            "y" : "-99812"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Gexogen", 
+         "portrait" : "Character/Gexgen_Water", 
+         "mode" : "AutoName"
+      }, 
+      "17140697-d36a-41ca-be23-fdeab3339456" : { 
+         "class" : "HasTeamMateNode", 
+         "desc" : { 
+            "x" : "-101040", 
+            "y" : "-99854"
+         }, 
+         "child" : [ 
+            "2c4e1a66-a18b-4064-adfe-a6e12b26018c", 
+            "3bc93b20-06ff-46a1-a8b6-e03e48240262"
+         ], 
+         "teammate" : "Alexander"
+      }, 
+      "2c4e1a66-a18b-4064-adfe-a6e12b26018c" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101428", 
+            "y" : "-99780"
+         }, 
+         "child" : [ 
+            "8269102e-1844-4960-8bd3-ac9042cb34de"
+         ]
+      }, 
+      "8269102e-1844-4960-8bd3-ac9042cb34de" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101450", 
+            "y" : "-99710"
+         }, 
+         "child" : [ 
+            "bdabe016-3eaf-48d2-856d-6206ee4f2892", 
+            "3bc93b20-06ff-46a1-a8b6-e03e48240262"
+         ], 
+         "text" : "Какая прекрасная самк.. кхм. девушка. Не тупи! Возможно это наш последний шанс! Девушка, если этот бивень вас не примет, я уйду за вами."
+      }, 
+      "bdabe016-3eaf-48d2-856d-6206ee4f2892" : { 
+         "class" : "DialogPortraitNode", 
+         "desc" : { 
+            "x" : "-101720", 
+            "y" : "-99620"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Alexander", 
+         "portrait" : "Character/Alexander_Water", 
+         "mode" : "AutoName"
+      }, 
+      "3bc93b20-06ff-46a1-a8b6-e03e48240262" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101260", 
+            "y" : "-99502"
+         }, 
+         "child" : [ 
+            "baa91123-8696-4fc8-b2c6-9386a41d9937"
+         ]
+      }, 
+      "baa91123-8696-4fc8-b2c6-9386a41d9937" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102242", 
+            "y" : "-99594"
+         }, 
+         "child" : [ 
+            "0593ae16-34d0-4979-b078-a82ee003caef", 
+            "9fb9808a-bff8-42a9-b70e-2a2487de5b8f", 
+            "28ae5994-51d0-416d-8aea-9857c8ee17cc"
+         ], 
+         "text" : "[Оксана  беглым взгядом осматривает Вас и смотрит прям в глаза, ожидая вашего ответа.]"
+      }, 
+      "0593ae16-34d0-4979-b078-a82ee003caef" : { 
+         "class" : "DialogPortraitNode", 
+         "desc" : { 
+            "x" : "-102512", 
+            "y" : "-99484"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "$SELF$", 
+         "portrait" : "Character/oksana", 
+         "mode" : "AutoName"
+      }, 
+      "9fb9808a-bff8-42a9-b70e-2a2487de5b8f" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102523", 
+            "y" : "-99262"
+         }, 
+         "child" : [ 
+            "c6765346-4064-4c3c-9554-a4c173e4e4a2"
+         ], 
+         "text" : "Хорошо,уговорила, но потом обязательно всё это обсудим!"
+      }, 
+      "c6765346-4064-4c3c-9554-a4c173e4e4a2" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102528", 
+            "y" : "-99150"
+         }, 
+         "child" : [ 
+            "d2bc8fc2-846f-45fd-83a6-1627dcb4bfe7"
+         ], 
+         "text" : "Отлично! Сейчас я в себя приду после такого марафона и можем выдвигаться. Насчёт погони, я не шутила. Кто-то вычислил меня. Возможно что в отрадном."
+      }, 
+      "d2bc8fc2-846f-45fd-83a6-1627dcb4bfe7" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102533", 
+            "y" : "-98987"
+         }, 
+         "child" : [ 
+            "fb262d9f-3779-4fe9-b06c-a352097f8279"
+         ], 
+         "text" : "Хорошо, делаем привал 20 минут, и выдвигаемся."
+      }, 
+      "fb262d9f-3779-4fe9-b06c-a352097f8279" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-102477", 
+            "y" : "-98895"
+         }, 
+         "child" : [ 
+            "3df58794-3b30-488f-8ccb-b7f214724ee8", 
+            "12f5006a-9fff-4c05-bcce-23c23730b222"
+         ]
+      }, 
+      "3df58794-3b30-488f-8ccb-b7f214724ee8" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-102706", 
+            "y" : "-98823"
+         }, 
+         "child" : [ 
+            "1e187509-1827-4607-a1bb-ac0a22345144", 
+            "fc79c7b3-f6b0-4b06-93a1-4acd78683677"
+         ], 
+         "key" : "TEAMMATE"
+      }, 
+      "1e187509-1827-4607-a1bb-ac0a22345144" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-102984", 
+            "y" : "-98763"
+         }, 
+         "child" : [ 
+            "49073faa-25b3-4b52-bd38-cf7ec2eaca37", 
+            "7dce0167-8875-4635-b3ee-f65689a8e5b8"
+         ], 
+         "key" : "EXP_JOIN"
+      }, 
+      "49073faa-25b3-4b52-bd38-cf7ec2eaca37" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103059", 
+            "y" : "-98671"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "7dce0167-8875-4635-b3ee-f65689a8e5b8" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-102918", 
+            "y" : "-98673"
+         }, 
+         "child" : [ 
+            "8fcf1baa-f169-4070-9538-b29e318e79fd"
+         ], 
+         "key" : "EXP_JOIN"
+      }, 
+      "8fcf1baa-f169-4070-9538-b29e318e79fd" : { 
+         "class" : "CharacterAddExpNode", 
+         "desc" : { 
+            "x" : "-102942", 
+            "y" : "-98607"
+         }, 
+         "child" : [ 
+         ], 
+         "value" : "39000"
+      }, 
+      "fc79c7b3-f6b0-4b06-93a1-4acd78683677" : { 
+         "class" : "CharacterCapsNode", 
+         "desc" : { 
+            "x" : "-102725", 
+            "y" : "-98720"
+         }, 
+         "child" : [ 
+            "f50b2510-e4a2-4b4a-91f4-89d96abfde5b"
+         ], 
+         "caps" : "TeamMate"
+      }, 
+      "f50b2510-e4a2-4b4a-91f4-89d96abfde5b" : { 
+         "class" : "CharacterSetRelationshipNode", 
+         "desc" : { 
+            "x" : "-102756", 
+            "y" : "-98637"
+         }, 
+         "child" : [ 
+            "8e2a5a7b-2956-4931-8523-bc18f23039d7"
+         ], 
+         "fraction" : "player", 
+         "value" : "100"
+      }, 
+      "8e2a5a7b-2956-4931-8523-bc18f23039d7" : { 
+         "class" : "PlayBehaviorNode", 
+         "desc" : { 
+            "x" : "-102758", 
+            "y" : "-98532"
+         }, 
+         "child" : [ 
+            "e266b714-722f-478e-85a8-021c814d8a3a"
+         ], 
+         "behavior" : "Entities/Behavior/ph_oksana"
+      }, 
+      "e266b714-722f-478e-85a8-021c814d8a3a" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-102651", 
+            "y" : "-98332"
+         }, 
+         "child" : [ 
+            "b8ec4d7c-ed2f-454a-80a5-314fb30e427f"
+         ], 
+         "waitTime" : "3"
+      }, 
+      "b8ec4d7c-ed2f-454a-80a5-314fb30e427f" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-102713", 
+            "y" : "-98236"
+         }, 
+         "child" : [ 
+            "cc2e9dbc-4dff-4d69-a5b0-687cad9e6195"
+         ], 
+         "text" : "Похоже у нас гости!", 
+         "customObject" : "oksana", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "cc2e9dbc-4dff-4d69-a5b0-687cad9e6195" : { 
+         "class" : "FlashSplashNode", 
+         "desc" : { 
+            "x" : "-102642", 
+            "y" : "-98087"
+         }, 
+         "child" : [ 
+            "ce13a766-a8e9-4129-a505-5f9bb046aecd"
+         ], 
+         "waitEnd" : "false", 
+         "waitTime" : "1.5"
+      }, 
+      "ce13a766-a8e9-4129-a505-5f9bb046aecd" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102767", 
+            "y" : "-97999"
+         }, 
+         "child" : [ 
+            "aaa04f57-602d-4d26-861a-66d538713cf7", 
+            "3de09671-c4e5-4b7a-b126-41f9b550b29d", 
+            "4e5cc56d-d964-4f30-b1d1-c01dc6870bf9", 
+            "54f02263-5a24-48f0-a3cf-33ab5e5beffb", 
+            "99e6f6df-3553-42b2-ac98-28b895dd8dd0", 
+            "124dcf52-241c-4b01-ac93-6c47d5123a1a", 
+            "059b7b0d-3db6-4375-8574-15e87465cafd", 
+            "ff3b06eb-2a7b-465f-96a8-7a6bae55c058"
+         ]
+      }, 
+      "aaa04f57-602d-4d26-861a-66d538713cf7" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-103282", 
+            "y" : "-97868"
+         }, 
+         "child" : [ 
+            "9c809651-5e94-4071-a768-4ab28b33db21"
+         ], 
+         "spawnPoint" : "Spawn.Enemy.1", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit_7", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandaoksanaglav.man"
+         }
+      }, 
+      "9c809651-5e94-4071-a768-4ab28b33db21" : { 
+         "class" : "CharacterFollowToNode", 
+         "desc" : { 
+            "x" : "-103320", 
+            "y" : "-97709"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Spawn.Enemy.1", 
+         "pointName" : "Player"
+      }, 
+      "3de09671-c4e5-4b7a-b126-41f9b550b29d" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-103154", 
+            "y" : "-97867"
+         }, 
+         "child" : [ 
+            "48e58a3d-e06a-461f-8c8e-804e0d465f7b"
+         ], 
+         "spawnPoint" : "Spawn.Enemy.2", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit_7", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandaoksana.man"
+         }
+      }, 
+      "48e58a3d-e06a-461f-8c8e-804e0d465f7b" : { 
+         "class" : "CharacterFollowToNode", 
+         "desc" : { 
+            "x" : "-103188", 
+            "y" : "-97709"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Spawn.Enemy.2", 
+         "pointName" : "Player"
+      }, 
+      "4e5cc56d-d964-4f30-b1d1-c01dc6870bf9" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-103019", 
+            "y" : "-97865"
+         }, 
+         "child" : [ 
+            "756f8c66-a753-4b58-9810-3a47eb52786f"
+         ], 
+         "spawnPoint" : "Spawn.Enemy.3", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Dog", 
+            "character" : "Dog", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ]
+         }
+      }, 
+      "756f8c66-a753-4b58-9810-3a47eb52786f" : { 
+         "class" : "CharacterFollowToNode", 
+         "desc" : { 
+            "x" : "-103060", 
+            "y" : "-97707"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Spawn.Enemy.3", 
+         "pointName" : "Player"
+      }, 
+      "54f02263-5a24-48f0-a3cf-33ab5e5beffb" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102888", 
+            "y" : "-97869"
+         }, 
+         "child" : [ 
+            "f9cc91c2-3747-460a-8abb-a90359183dff"
+         ], 
+         "spawnPoint" : "Spawn.Enemy.4", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit_7", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandaoksana.man"
+         }
+      }, 
+      "f9cc91c2-3747-460a-8abb-a90359183dff" : { 
+         "class" : "CharacterFollowToNode", 
+         "desc" : { 
+            "x" : "-102924", 
+            "y" : "-97703"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Spawn.Enemy.4", 
+         "pointName" : "Player"
+      }, 
+      "99e6f6df-3553-42b2-ac98-28b895dd8dd0" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102760", 
+            "y" : "-97866"
+         }, 
+         "child" : [ 
+            "78bcc0e0-2e9e-4afb-b65d-e4a35f5c0388"
+         ], 
+         "spawnPoint" : "Spawn.Enemy.5", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit_7", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandaoksana.man"
+         }
+      }, 
+      "78bcc0e0-2e9e-4afb-b65d-e4a35f5c0388" : { 
+         "class" : "CharacterFollowToNode", 
+         "desc" : { 
+            "x" : "-102794", 
+            "y" : "-97703"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Spawn.Enemy.5", 
+         "pointName" : "Player"
+      }, 
+      "124dcf52-241c-4b01-ac93-6c47d5123a1a" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102631", 
+            "y" : "-97865"
+         }, 
+         "child" : [ 
+            "2ceaa40f-b16e-423f-829f-91bb05cb431b"
+         ], 
+         "spawnPoint" : "Spawn.Enemy.6", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Dog", 
+            "character" : "Dog", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ]
+         }
+      }, 
+      "2ceaa40f-b16e-423f-829f-91bb05cb431b" : { 
+         "class" : "CharacterFollowToNode", 
+         "desc" : { 
+            "x" : "-102666", 
+            "y" : "-97705"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Spawn.Enemy.6", 
+         "pointName" : "Player"
+      }, 
+      "059b7b0d-3db6-4375-8574-15e87465cafd" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102504", 
+            "y" : "-97867"
+         }, 
+         "child" : [ 
+            "7c344ce6-df8f-402b-9266-6335aa2ef009"
+         ], 
+         "spawnPoint" : "Spawn.Enemy.7", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "BaseMale8", 
+            "character" : "ph_bandit_7", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "behavior" : "bandaoksana.man"
+         }
+      }, 
+      "7c344ce6-df8f-402b-9266-6335aa2ef009" : { 
+         "class" : "CharacterFollowToNode", 
+         "desc" : { 
+            "x" : "-102526", 
+            "y" : "-97707"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Spawn.Enemy.7", 
+         "pointName" : "Player"
+      }, 
+      "ff3b06eb-2a7b-465f-96a8-7a6bae55c058" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102374", 
+            "y" : "-97867"
+         }, 
+         "child" : [ 
+            "f1d7e7a1-89b4-47b4-8cf5-64016e5a81b9"
+         ], 
+         "spawnPoint" : "Spawn.Enemy.8", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Dog", 
+            "character" : "Dog", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "0", 
+            "fraction" : "~encounter", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ]
+         }
+      }, 
+      "f1d7e7a1-89b4-47b4-8cf5-64016e5a81b9" : { 
+         "class" : "CharacterFollowToNode", 
+         "desc" : { 
+            "x" : "-102380", 
+            "y" : "-97705"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Spawn.Enemy.8", 
+         "pointName" : "Player"
+      }, 
+      "12f5006a-9fff-4c05-bcce-23c23730b222" : { 
+         "class" : "PlayerVehicleOnLocationNode", 
+         "desc" : { 
+            "x" : "-102328", 
+            "y" : "-98824"
+         }, 
+         "child" : [ 
+            "58769eec-45a8-4c5c-9698-aa86de86ac5c", 
+            "f86e339d-4026-4ca7-9b1a-27f4eae306b4"
+         ]
+      }, 
+      "58769eec-45a8-4c5c-9698-aa86de86ac5c" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-102373", 
+            "y" : "-98706"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Хорошая техника! Мне она уже нравится. Я пока в неё сяду отдохнуть. Можно я за руль?", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "f86e339d-4026-4ca7-9b1a-27f4eae306b4" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-102111", 
+            "y" : "-98702"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Сейчас немного отдохну и выдвигаемся.", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "28ae5994-51d0-416d-8aea-9857c8ee17cc" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101766", 
+            "y" : "-99278"
+         }, 
+         "child" : [ 
+            "a01d374a-7303-4d5c-99bf-055f86e78aac"
+         ], 
+         "text" : "Что-то мне не особо верится в твой рассказ."
+      }, 
+      "a01d374a-7303-4d5c-99bf-055f86e78aac" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101766", 
+            "y" : "-99156"
+         }, 
+         "child" : [ 
+            "9fb9808a-bff8-42a9-b70e-2a2487de5b8f", 
+            "e8d1618d-5f92-4355-98d1-b884f8f4dee5"
+         ], 
+         "text" : "Мне врать смысла нет  $PLAYER.NAME$. Я знаю что у тебя задача найти пропавшую группу! Откуда я бы смогла это знать? Хорошо,  $PLAYER.NAME$. Вот. [Оксана показывает вам фото группы Морозова]."
+      }, 
+      "e8d1618d-5f92-4355-98d1-b884f8f4dee5" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101614", 
+            "y" : "-99024"
+         }, 
+         "child" : [ 
+            "7a52e2cf-768b-4716-a05e-341d3b14a8f0"
+         ], 
+         "text" : "Незнаю где ты это взяла, но ты уж прости, но я одиночка. [Уйти]"
+      }, 
+      "7a52e2cf-768b-4716-a05e-341d3b14a8f0" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-101570", 
+            "y" : "-98936"
+         }, 
+         "child" : [ 
+            "ea76edfe-0da6-4491-b243-d704f99559bd"
+         ], 
+         "note_key" : "PH_OKSANA_OUT"
+      }, 
+      "ea76edfe-0da6-4491-b243-d704f99559bd" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-101555", 
+            "y" : "-98864"
+         }, 
+         "child" : [ 
+         ]
+      }
+   }, 
+   "entry" : "a42b3b5d-8dc0-426a-a872-47517fcc5781"
+}

@@ -1,0 +1,4852 @@
+{ 
+   "states" : { 
+      "9f55b546-ab8d-4f03-9d13-719d5808ef3f" : { 
+         "class" : "DialogBeginNode", 
+         "desc" : { 
+            "x" : "-102456", 
+            "y" : "-102084"
+         }, 
+         "child" : [ 
+            "c7d2e654-b15e-4693-81ed-84ec0408d7ff"
+         ], 
+         "canBarter" : "true"
+      }, 
+      "c7d2e654-b15e-4693-81ed-84ec0408d7ff" : { 
+         "class" : "RemoveKeywordNode", 
+         "desc" : { 
+            "x" : "-102459", 
+            "y" : "-102010"
+         }, 
+         "child" : [ 
+            "7ae17b8f-0305-4a6c-b0ad-39ec051b6d64"
+         ], 
+         "key" : "A_33"
+      }, 
+      "7ae17b8f-0305-4a6c-b0ad-39ec051b6d64" : { 
+         "class" : "DialogShowCustomNameNode", 
+         "desc" : { 
+            "x" : "-102510", 
+            "y" : "-101935"
+         }, 
+         "child" : [ 
+            "604defa3-d634-4068-979d-c832455f4931"
+         ], 
+         "text" : "#Fidel.7ae17b8f-0305-4a6c-b0ad-39ec051b6d64"
+      }, 
+      "604defa3-d634-4068-979d-c832455f4931" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-102447", 
+            "y" : "-101876"
+         }, 
+         "child" : [ 
+            "abfe3407-4392-4476-90d7-28541fbac321", 
+            "9ad05cbb-d380-4ace-a337-f6ace8b50218"
+         ], 
+         "key" : "WAIT_ORDER"
+      }, 
+      "abfe3407-4392-4476-90d7-28541fbac321" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-102914", 
+            "y" : "-101760"
+         }, 
+         "child" : [ 
+            "8188c766-2885-403c-903e-53fb26f5009d", 
+            "be9eac62-b6bd-45c1-9110-6494a0d7672b"
+         ], 
+         "note_key" : "PH_OKSANA_OUT"
+      }, 
+      "8188c766-2885-403c-903e-53fb26f5009d" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-102794", 
+            "y" : "-101565"
+         }, 
+         "child" : [ 
+            "3c4d691d-ca85-4c88-9861-f4fafe0eab11", 
+            "a1a38b4b-7db4-4a6e-b320-375753e56264", 
+            "4f45e02e-bed8-4e3a-a42a-cbce38c0cedc"
+         ]
+      }, 
+      "3c4d691d-ca85-4c88-9861-f4fafe0eab11" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-102926", 
+            "y" : "-101466"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Уже ухожу. Прощай.", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "a1a38b4b-7db4-4a6e-b320-375753e56264" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-102704", 
+            "y" : "-101465"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Может когда нибудь и увидимся.", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "4f45e02e-bed8-4e3a-a42a-cbce38c0cedc" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-102485", 
+            "y" : "-101462"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Глубоко вздыхает...", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "be9eac62-b6bd-45c1-9110-6494a0d7672b" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103294", 
+            "y" : "-101561"
+         }, 
+         "child" : [ 
+            "7775a527-8b42-45d5-b4f4-b5a973a6d65b"
+         ], 
+         "text" : "[Оксана встречает вас удивленным взгядом.] И где мы шляемся столько времени?"
+      }, 
+      "7775a527-8b42-45d5-b4f4-b5a973a6d65b" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-103296", 
+            "y" : "-101460"
+         }, 
+         "child" : [ 
+            "985143a6-6770-4228-884d-ab2ec3c7441b"
+         ]
+      }, 
+      "985143a6-6770-4228-884d-ab2ec3c7441b" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103301", 
+            "y" : "-101404"
+         }, 
+         "child" : [ 
+            "ac36be43-d2c2-426a-b1ec-1efb1a7bc25d", 
+            "76bc3305-bc3a-4031-bdf4-2db3d4a7b88e"
+         ], 
+         "text" : "Еще немного и я бы ушла."
+      }, 
+      "ac36be43-d2c2-426a-b1ec-1efb1a7bc25d" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103443", 
+            "y" : "-101294"
+         }, 
+         "child" : [ 
+            "50670a1f-ac44-4bc0-829b-0454bb680784"
+         ], 
+         "text" : "Хорошо что ты не ушла. Пошли, нам без тебя никак."
+      }, 
+      "50670a1f-ac44-4bc0-829b-0454bb680784" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103491", 
+            "y" : "-101196"
+         }, 
+         "child" : [ 
+            "8c0a523e-2d99-4092-910a-1996211d555b"
+         ], 
+         "text" : "[Оксана улыбается вам и собирается в путь]"
+      }, 
+      "8c0a523e-2d99-4092-910a-1996211d555b" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103487", 
+            "y" : "-101102"
+         }, 
+         "child" : [ 
+            "27ef50cb-26e6-464b-a5b5-1c9ea53b2060"
+         ], 
+         "text" : "Помочь собрать вещи."
+      }, 
+      "27ef50cb-26e6-464b-a5b5-1c9ea53b2060" : { 
+         "class" : "RemoveKeywordNode", 
+         "desc" : { 
+            "x" : "-103437", 
+            "y" : "-101036"
+         }, 
+         "child" : [ 
+            "b4ebe6a3-de69-43bf-91b5-bbe846a8e447"
+         ], 
+         "key" : "WAIT_ORDER"
+      }, 
+      "b4ebe6a3-de69-43bf-91b5-bbe846a8e447" : { 
+         "class" : "RemoveKeywordNode", 
+         "desc" : { 
+            "x" : "-103437", 
+            "y" : "-100984"
+         }, 
+         "child" : [ 
+            "fbb40b1b-3d9f-4536-80f3-f3b5e9d44641"
+         ], 
+         "key" : "EX_TEAMMATE"
+      }, 
+      "fbb40b1b-3d9f-4536-80f3-f3b5e9d44641" : { 
+         "class" : "RemoveKeywordNode", 
+         "desc" : { 
+            "x" : "-103435", 
+            "y" : "-100926"
+         }, 
+         "child" : [ 
+            "29d5ccb4-f2ff-4e0f-8c9b-ac10e2bfba85"
+         ], 
+         "key" : "MODE_ASIM"
+      }, 
+      "29d5ccb4-f2ff-4e0f-8c9b-ac10e2bfba85" : { 
+         "class" : "CharacterSetStateNode", 
+         "desc" : { 
+            "x" : "-103439", 
+            "y" : "-100864"
+         }, 
+         "child" : [ 
+            "9811be5e-1f64-4fbc-88fd-56382cdeffe1"
+         ], 
+         "stateName" : ""
+      }, 
+      "9811be5e-1f64-4fbc-88fd-56382cdeffe1" : { 
+         "class" : "CharacterCapsNode", 
+         "desc" : { 
+            "x" : "-103427", 
+            "y" : "-100776"
+         }, 
+         "child" : [ 
+            "4bb558f4-295c-4a61-bb53-1fdc79cf82e7"
+         ], 
+         "caps" : "TeamMate"
+      }, 
+      "4bb558f4-295c-4a61-bb53-1fdc79cf82e7" : { 
+         "class" : "CharacterSetRelationshipNode", 
+         "desc" : { 
+            "x" : "-103459", 
+            "y" : "-100681"
+         }, 
+         "child" : [ 
+            "ee40c9c7-6b11-40a9-bd4e-edb70c964296"
+         ], 
+         "fraction" : "player", 
+         "value" : "100"
+      }, 
+      "ee40c9c7-6b11-40a9-bd4e-edb70c964296" : { 
+         "class" : "CharacterStopNode", 
+         "desc" : { 
+            "x" : "-103426", 
+            "y" : "-100594"
+         }, 
+         "child" : [ 
+            "9f8df957-0f1d-4bfa-8ef7-98a6fb7c6e56"
+         ]
+      }, 
+      "9f8df957-0f1d-4bfa-8ef7-98a6fb7c6e56" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-103422", 
+            "y" : "-100524"
+         }, 
+         "child" : [ 
+            "073fb078-33f2-469b-97ca-a03cbdf63fe2"
+         ]
+      }, 
+      "073fb078-33f2-469b-97ca-a03cbdf63fe2" : { 
+         "class" : "CharacterNeedUpdateNode", 
+         "desc" : { 
+            "x" : "-103466", 
+            "y" : "-100471"
+         }, 
+         "child" : [ 
+         ], 
+         "stopState" : "true"
+      }, 
+      "76bc3305-bc3a-4031-bdf4-2db3d4a7b88e" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103117", 
+            "y" : "-101285"
+         }, 
+         "child" : [ 
+            "ae0d2d89-0e37-4ee2-be7a-a0197ffd7168"
+         ], 
+         "text" : "Надо еще немного подождать."
+      }, 
+      "ae0d2d89-0e37-4ee2-be7a-a0197ffd7168" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-103062", 
+            "y" : "-101208"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "9ad05cbb-d380-4ace-a337-f6ace8b50218" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-102263", 
+            "y" : "-101700"
+         }, 
+         "child" : [ 
+            "ce0b8eb7-66e2-4790-a2bb-cbb4f523af75", 
+            "73c68547-3a01-4ecb-90ff-16d009643a9e"
+         ], 
+         "key" : "__AI_BEHAVIOR"
+      }, 
+      "ce0b8eb7-66e2-4790-a2bb-cbb4f523af75" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-102038", 
+            "y" : "-101365"
+         }, 
+         "child" : [ 
+            "dd07fce2-59c1-4d21-a957-99e8ed0a072e"
+         ], 
+         "key" : "__HP", 
+         "value" : "$CHARACTER.HP$"
+      }, 
+      "dd07fce2-59c1-4d21-a957-99e8ed0a072e" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-101936", 
+            "y" : "-101162"
+         }, 
+         "child" : [ 
+            "99491fb1-6cdf-4b23-b920-1d60e9f2da81", 
+            "7b8761e9-4ef5-403f-bacb-3931346718d1"
+         ], 
+         "key" : "__HP", 
+         "value" : "$CHARACTER.LOWHP$", 
+         "opp" : "Greater"
+      }, 
+      "99491fb1-6cdf-4b23-b920-1d60e9f2da81" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-102006", 
+            "y" : "-101002"
+         }, 
+         "child" : [ 
+            "7a36e55a-2547-4ac1-a587-a9a42295a0ed", 
+            "ba4685e6-bad5-4ad8-a7d4-5d951b1a4459"
+         ], 
+         "key" : "__HP", 
+         "value" : "$CHARACTER.HIGHHP$", 
+         "opp" : "Greater"
+      }, 
+      "7a36e55a-2547-4ac1-a587-a9a42295a0ed" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102521", 
+            "y" : "-100710"
+         }, 
+         "child" : [ 
+            "98493589-f70c-4a63-b589-d00a8fd7eaa7"
+         ], 
+         "text" : "[У оксаны застывший взгляд, увидев что вы подходите к ней. она немного взбодрилась.]"
+      }, 
+      "98493589-f70c-4a63-b589-d00a8fd7eaa7" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-102520", 
+            "y" : "-100582"
+         }, 
+         "child" : [ 
+            "0908450e-05a1-4cd5-9e19-e802245b94db"
+         ]
+      }, 
+      "0908450e-05a1-4cd5-9e19-e802245b94db" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102651", 
+            "y" : "-100438"
+         }, 
+         "child" : [ 
+            "8f6b5cca-68b1-4965-b536-d7a76313df37", 
+            "f7ca0a5c-cf51-4644-b4de-c6671e83f8be", 
+            "fee52569-eb20-440c-b6ad-9ae1c652fcc4", 
+            "420237d2-6f40-4923-97b5-219f0b6a51de", 
+            "c362a663-0760-4a3d-858f-7857dec7ea4b"
+         ], 
+         "text" : "Да $PLAYER.NAME$. Что-то случилось?"
+      }, 
+      "8f6b5cca-68b1-4965-b536-d7a76313df37" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103147", 
+            "y" : "-100286", 
+            "comment" : "(перенос на А1)"
+         }, 
+         "child" : [ 
+            "3ebdcfae-8ea1-4c6b-8329-b9a171f9220c"
+         ], 
+         "text" : "#Gexogen_Teammate.8f6b5cca-68b1-4965-b536-d7a76313df37"
+      }, 
+      "3ebdcfae-8ea1-4c6b-8329-b9a171f9220c" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-103051", 
+            "y" : "-99700", 
+            "comment" : "А1"
+         }, 
+         "child" : [ 
+            "b3a65069-cc8b-47a8-a9b6-a8049e85f4a1", 
+            "3bb71c32-7c33-4b78-a90a-3774a39bdff6"
+         ], 
+         "key" : "__HP", 
+         "value" : "$CHARACTER.LOWHP$", 
+         "opp" : "Greater"
+      }, 
+      "b3a65069-cc8b-47a8-a9b6-a8049e85f4a1" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-103259", 
+            "y" : "-99521"
+         }, 
+         "child" : [ 
+            "124465d0-813e-4837-b9b7-f64d070c3b64", 
+            "e041c50a-0805-404b-86ac-0ec15897ebec"
+         ], 
+         "key" : "__HP", 
+         "value" : "$CHARACTER.HIGHHP$", 
+         "opp" : "Greater"
+      }, 
+      "124465d0-813e-4837-b9b7-f64d070c3b64" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103586", 
+            "y" : "-99359", 
+            "comment" : "А1"
+         }, 
+         "child" : [ 
+            "3c08c50b-07ad-4160-a0fb-e62394b4800d", 
+            "58100871-299a-4800-bdef-c9144955e835", 
+            "b58dd774-c0ec-452b-9b4e-9fc824f9f7e9"
+         ], 
+         "text" : "Всё отлично. Не хватает только шампанского. [d]$CHARACTER.HP$/$CHARACTER.MAXHP$[/d]"
+      }, 
+      "3c08c50b-07ad-4160-a0fb-e62394b4800d" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-104324", 
+            "y" : "-99329"
+         }, 
+         "child" : [ 
+            "c2c7da8f-56bb-4665-987b-3849fc146369", 
+            "e2a2a2ee-986f-4873-aecf-6f7548a80d5f"
+         ], 
+         "key" : "__HP", 
+         "value" : "$CHARACTER.MAXHP$", 
+         "opp" : "GreaterEqual"
+      }, 
+      "c2c7da8f-56bb-4665-987b-3849fc146369" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-104431", 
+            "y" : "-99109"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "e2a2a2ee-986f-4873-aecf-6f7548a80d5f" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-104094", 
+            "y" : "-99117"
+         }, 
+         "child" : [ 
+            "d008b075-56a9-42db-afba-5d549a3aa9de", 
+            "4a71c1b1-0d4c-4417-afe5-5615cb6ae435"
+         ]
+      }, 
+      "d008b075-56a9-42db-afba-5d549a3aa9de" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-102125", 
+            "y" : "-99204"
+         }, 
+         "child" : [ 
+            "f663b768-bbff-4526-b010-f8f5775b533f", 
+            "c88e0dc4-7e41-4323-a61b-c8504f8022f2"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Kasparamid"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "f663b768-bbff-4526-b010-f8f5775b533f" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102220", 
+            "y" : "-99030", 
+            "comment" : "(перенос на А7)"
+         }, 
+         "child" : [ 
+            "677d5ff8-6fc0-4ac9-aea6-d36ff9993db8"
+         ], 
+         "text" : "#Gexogen_Teammate.f663b768-bbff-4526-b010-f8f5775b533f"
+      }, 
+      "677d5ff8-6fc0-4ac9-aea6-d36ff9993db8" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-102180", 
+            "y" : "-98940"
+         }, 
+         "child" : [ 
+            "516c2aca-8172-435a-803c-cead8a4b118f", 
+            "e5f80e4f-a39f-47c8-b46c-a5cc04ee583a"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Kasparamid"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "516c2aca-8172-435a-803c-cead8a4b118f" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-104414", 
+            "y" : "-98770"
+         }, 
+         "child" : [ 
+            "c1edde82-6e1c-4f42-ad3b-d50e1a923922"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "Kasparamid"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "c1edde82-6e1c-4f42-ad3b-d50e1a923922" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-104416", 
+            "y" : "-98651", 
+            "comment" : "А7"
+         }, 
+         "child" : [ 
+            "a9d1fa28-3e1a-47d7-8a8e-9c4d23391524"
+         ], 
+         "text" : "Спасибо тебе за волшебные таблеточки."
+      }, 
+      "a9d1fa28-3e1a-47d7-8a8e-9c4d23391524" : { 
+         "class" : "CharacterAddEffectNode", 
+         "desc" : { 
+            "x" : "-104378", 
+            "y" : "-98570"
+         }, 
+         "child" : [ 
+            "69c4f285-96e3-4b91-b472-7611d5f53225"
+         ], 
+         "proto" : "Kasparamid"
+      }, 
+      "69c4f285-96e3-4b91-b472-7611d5f53225" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-104225", 
+            "y" : "-98465"
+         }, 
+         "child" : [ 
+            "05b50b35-d6b1-4135-889e-6b8308f65f1c", 
+            "0a34bd3b-6099-43d3-97e4-8783a7e2f202"
+         ], 
+         "key" : "__HP", 
+         "value" : "$CHARACTER.HP$"
+      }, 
+      "05b50b35-d6b1-4135-889e-6b8308f65f1c" : { 
+         "class" : "DialogUpdateHealthBarNode", 
+         "desc" : { 
+            "x" : "-104359", 
+            "y" : "-98363"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "0a34bd3b-6099-43d3-97e4-8783a7e2f202" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-104172", 
+            "y" : "-98370"
+         }, 
+         "child" : [ 
+            "0f1e5a4d-59b0-444e-8b82-fadce9326c60", 
+            "2a888588-f598-418b-9e9b-545a776797ef", 
+            "95811dd5-3afb-4a1b-8b5c-c512e42e242e"
+         ]
+      }, 
+      "0f1e5a4d-59b0-444e-8b82-fadce9326c60" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104514", 
+            "y" : "-98278", 
+            "comment" : "(перенос на А1)"
+         }, 
+         "child" : [ 
+            "3ebdcfae-8ea1-4c6b-8329-b9a171f9220c"
+         ], 
+         "text" : "#Gexogen_Teammate.0f1e5a4d-59b0-444e-8b82-fadce9326c60"
+      }, 
+      "2a888588-f598-418b-9e9b-545a776797ef" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104258", 
+            "y" : "-98255", 
+            "comment" : "(перенос на А6)"
+         }, 
+         "child" : [ 
+            "12ceae83-75b5-4d9a-bcdf-5cfd7b669b8b"
+         ], 
+         "text" : "#Gexogen_Teammate.2a888588-f598-418b-9e9b-545a776797ef"
+      }, 
+      "12ceae83-75b5-4d9a-bcdf-5cfd7b669b8b" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99478", 
+            "y" : "-99441"
+         }, 
+         "child" : [ 
+            "fee52569-eb20-440c-b6ad-9ae1c652fcc4", 
+            "b9cbbdc9-6215-4bc6-b330-947aceca9bb5", 
+            "0bad49e9-4302-4964-a891-602ff05a95c8", 
+            "60658627-c6df-4bcf-88c2-380324bc2a22", 
+            "f69729fb-c484-415b-a25b-ba16695b7a26"
+         ], 
+         "text" : "Что? опять? Какие  же мы любознательные."
+      }, 
+      "fee52569-eb20-440c-b6ad-9ae1c652fcc4" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-95848", 
+            "y" : "-98911"
+         }, 
+         "child" : [ 
+            "5f82a7c5-9424-4ead-9f74-78a21a5acd09"
+         ], 
+         "text" : "Может поделишься информацией или задание какое подкинешь?"
+      }, 
+      "5f82a7c5-9424-4ead-9f74-78a21a5acd09" : { 
+         "class" : "QuestStatusNode", 
+         "desc" : { 
+            "x" : "-95387", 
+            "y" : "-98723"
+         }, 
+         "child" : [ 
+            "dbea346c-d88d-48f3-bef6-e07ab76bb147", 
+            "6c5cab42-dafa-440b-87ec-e7d52afb967e", 
+            "a6cc428c-1310-4456-b12f-0eab4e4255da"
+         ], 
+         "quest_key" : "OKSANA_QUEST_1"
+      }, 
+      "dbea346c-d88d-48f3-bef6-e07ab76bb147" : { 
+         "class" : "PlayerWhereMapLocationNode", 
+         "desc" : { 
+            "x" : "-94794", 
+            "y" : "-98805"
+         }, 
+         "child" : [ 
+            "7ab4ef93-26d3-49b0-aa26-5a10bbcf7f9e", 
+            "2cd88330-6bfc-4866-84d1-3afa09845470"
+         ], 
+         "mapName" : "City_1"
+      }, 
+      "7ab4ef93-26d3-49b0-aa26-5a10bbcf7f9e" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-94674", 
+            "y" : "-98654"
+         }, 
+         "child" : [ 
+            "e6a83737-9c26-4c4a-9c47-e9c69d499560", 
+            "b40316fc-59fd-4d29-8b33-b0040158c301"
+         ], 
+         "text" : "$PLAYER.NAME$  И вот мы на месте. Удалось собрать, то что я просила?"
+      }, 
+      "e6a83737-9c26-4c4a-9c47-e9c69d499560" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-94510", 
+            "y" : "-98118"
+         }, 
+         "child" : [ 
+            "98d694ca-7624-410d-9e12-154dc11c9493", 
+            "a20c9521-001c-4434-b1ce-d6a3eb104a60"
+         ], 
+         "item" : { 
+            "class" : "Weapon", 
+            "count" : "1", 
+            "proto" : "Makarov", 
+            "ammo" : { 
+               "count" : "8", 
+               "proto" : "9mm_JHP"
+            }
+         }, 
+         "objectName" : "Player"
+      }, 
+      "98d694ca-7624-410d-9e12-154dc11c9493" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-94578", 
+            "y" : "-97956"
+         }, 
+         "child" : [ 
+            "857af3d1-8931-4ce2-9b88-fb3ade2dec9a", 
+            "a20c9521-001c-4434-b1ce-d6a3eb104a60"
+         ], 
+         "item" : { 
+            "class" : "Ammo", 
+            "count" : "30", 
+            "proto" : "9mm_JHP"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "857af3d1-8931-4ce2-9b88-fb3ade2dec9a" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-94596", 
+            "y" : "-97818"
+         }, 
+         "child" : [ 
+            "2d16578f-8f34-497e-b758-43f3798484c0", 
+            "a20c9521-001c-4434-b1ce-d6a3eb104a60"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "3", 
+            "proto" : "Vodka"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "2d16578f-8f34-497e-b758-43f3798484c0" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-94640", 
+            "y" : "-97690"
+         }, 
+         "child" : [ 
+            "df76530f-0cf9-467a-90f1-d4b10021ae23", 
+            "a20c9521-001c-4434-b1ce-d6a3eb104a60"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "2", 
+            "proto" : "MedKit"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "df76530f-0cf9-467a-90f1-d4b10021ae23" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-94661", 
+            "y" : "-97552"
+         }, 
+         "child" : [ 
+            "246daa5a-1183-4195-afcc-8edc53f484ae", 
+            "a20c9521-001c-4434-b1ce-d6a3eb104a60"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "5", 
+            "proto" : "StimFEN1"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "246daa5a-1183-4195-afcc-8edc53f484ae" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-94646", 
+            "y" : "-97424"
+         }, 
+         "child" : [ 
+            "ce0b5fcf-fbf1-4e54-89dd-ec0b1b3b49ce", 
+            "a20c9521-001c-4434-b1ce-d6a3eb104a60"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1000", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "ce0b5fcf-fbf1-4e54-89dd-ec0b1b3b49ce" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-94650", 
+            "y" : "-97279"
+         }, 
+         "child" : [ 
+            "ed62a8db-8401-43ad-bad3-8de5d23a0f03", 
+            "a20c9521-001c-4434-b1ce-d6a3eb104a60"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "10", 
+            "proto" : "Stew"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "ed62a8db-8401-43ad-bad3-8de5d23a0f03" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-94653", 
+            "y" : "-97137"
+         }, 
+         "child" : [ 
+            "000176d8-191b-4895-a1ab-6c97867b73c7", 
+            "a20c9521-001c-4434-b1ce-d6a3eb104a60"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "10", 
+            "proto" : "Kasparamid"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "000176d8-191b-4895-a1ab-6c97867b73c7" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-94675", 
+            "y" : "-96969"
+         }, 
+         "child" : [ 
+            "49c0cfbc-9919-4050-a5b4-2a1cd66e3d8b"
+         ], 
+         "text" : "Да, вот всё необходимое. Держи."
+      }, 
+      "49c0cfbc-9919-4050-a5b4-2a1cd66e3d8b" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-94623", 
+            "y" : "-96873"
+         }, 
+         "child" : [ 
+            "c9f50829-a676-4aa5-b5a8-399f83598882", 
+            "4f991e56-040f-4aff-9689-591db42cf230", 
+            "6c0d4867-609e-491a-ba72-e6105ee083bb"
+         ], 
+         "quest_key" : "OKSANA_QUEST_1"
+      }, 
+      "c9f50829-a676-4aa5-b5a8-399f83598882" : { 
+         "class" : "FlashSplashNode", 
+         "desc" : { 
+            "x" : "-94704", 
+            "y" : "-96783"
+         }, 
+         "child" : [ 
+         ], 
+         "waitEnd" : "false", 
+         "waitTime" : "1.5"
+      }, 
+      "4f991e56-040f-4aff-9689-591db42cf230" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-94543", 
+            "y" : "-96771"
+         }, 
+         "child" : [ 
+            "9f0475e4-34e8-4add-af46-cc897e7d655d"
+         ], 
+         "item" : { 
+            "class" : "Weapon", 
+            "count" : "1", 
+            "proto" : "Makarov", 
+            "ammo" : { 
+               "count" : "8", 
+               "proto" : "9mm_JHP"
+            }
+         }, 
+         "objectName" : "Player"
+      }, 
+      "9f0475e4-34e8-4add-af46-cc897e7d655d" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-94508", 
+            "y" : "-96676"
+         }, 
+         "child" : [ 
+            "ae532fa7-b1eb-4037-8fa9-95ae3f836713"
+         ], 
+         "item" : { 
+            "class" : "Ammo", 
+            "count" : "30", 
+            "proto" : "9mm_JHP"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "ae532fa7-b1eb-4037-8fa9-95ae3f836713" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-94471", 
+            "y" : "-96590"
+         }, 
+         "child" : [ 
+            "bcfaa593-e401-47ce-8f84-8d8c9d0dd09e"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "3", 
+            "proto" : "Vodka"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "bcfaa593-e401-47ce-8f84-8d8c9d0dd09e" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-94436", 
+            "y" : "-96501"
+         }, 
+         "child" : [ 
+            "9479e64a-9a28-4a83-95b7-50ed95d0f5f8"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "2", 
+            "proto" : "MedKit"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "9479e64a-9a28-4a83-95b7-50ed95d0f5f8" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-94415", 
+            "y" : "-96411"
+         }, 
+         "child" : [ 
+            "fc9a7931-c9f9-4109-9ffd-d96c072b8d99"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "5", 
+            "proto" : "StimFEN1"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "fc9a7931-c9f9-4109-9ffd-d96c072b8d99" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-94366", 
+            "y" : "-96329"
+         }, 
+         "child" : [ 
+            "640a9414-7ae0-4917-9324-4939707d4d13"
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1000", 
+            "proto" : "Money"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "640a9414-7ae0-4917-9324-4939707d4d13" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-94316", 
+            "y" : "-96235"
+         }, 
+         "child" : [ 
+            "5bac687a-8034-418f-8dc5-d4a294feb1c7"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "10", 
+            "proto" : "Stew"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "5bac687a-8034-418f-8dc5-d4a294feb1c7" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-94258", 
+            "y" : "-96139"
+         }, 
+         "child" : [ 
+            "e64d272a-0009-4e67-9dda-85eef4cff8ed"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "10", 
+            "proto" : "Kasparamid"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "e64d272a-0009-4e67-9dda-85eef4cff8ed" : { 
+         "class" : "IsFemaleNode", 
+         "desc" : { 
+            "x" : "-94210", 
+            "y" : "-96036"
+         }, 
+         "child" : [ 
+            "be055a89-f8b5-4f7b-8dba-6b89c69693fc", 
+            "d389f7dc-6c67-41fb-868f-349cd7ff32be"
+         ]
+      }, 
+      "be055a89-f8b5-4f7b-8dba-6b89c69693fc" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-94373", 
+            "y" : "-95957"
+         }, 
+         "child" : [ 
+            "211a290e-f41d-4c81-8e34-28428a3992c0"
+         ], 
+         "text" : "Спасибо тебе большое, подруга!"
+      }, 
+      "211a290e-f41d-4c81-8e34-28428a3992c0" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-94215", 
+            "y" : "-95845"
+         }, 
+         "child" : [ 
+            "d3f869ce-1949-417a-95ae-b57b3b241bd7"
+         ], 
+         "text" : "Найдеюсь кто-то из твоей группы жив, и тайник им пригодится.[Уйти]"
+      }, 
+      "d3f869ce-1949-417a-95ae-b57b3b241bd7" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-94155", 
+            "y" : "-95760"
+         }, 
+         "child" : [ 
+            "73875de8-bf70-48da-9b0e-03646adf22c5"
+         ], 
+         "exp" : "3000"
+      }, 
+      "73875de8-bf70-48da-9b0e-03646adf22c5" : { 
+         "class" : "CharacterAddSpecPointsNode", 
+         "desc" : { 
+            "x" : "-94187", 
+            "y" : "-95694"
+         }, 
+         "child" : [ 
+            "16de24e5-bd4f-4747-a1f7-76faf35f1d91"
+         ], 
+         "objectName" : "oksana", 
+         "value" : "3"
+      }, 
+      "16de24e5-bd4f-4747-a1f7-76faf35f1d91" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-94146", 
+            "y" : "-95596"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "d389f7dc-6c67-41fb-868f-349cd7ff32be" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-94114", 
+            "y" : "-95955"
+         }, 
+         "child" : [ 
+            "211a290e-f41d-4c81-8e34-28428a3992c0"
+         ], 
+         "text" : "Спасибо тебе большое, друг!"
+      }, 
+      "6c0d4867-609e-491a-ba72-e6105ee083bb" : { 
+         "class" : "ScrollTimeNode", 
+         "desc" : { 
+            "x" : "-94354", 
+            "y" : "-96822"
+         }, 
+         "child" : [ 
+         ], 
+         "time" : "1", 
+         "timeMode" : "Hour"
+      }, 
+      "a20c9521-001c-4434-b1ce-d6a3eb104a60" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-94114", 
+            "y" : "-97220"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "b40316fc-59fd-4d29-8b33-b0040158c301" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-94538", 
+            "y" : "-98512"
+         }, 
+         "child" : [ 
+            "e3fb4b77-ee6d-4a30-9b43-96755117f823"
+         ], 
+         "text" : "Нет ещё, но я найду, обещаю."
+      }, 
+      "e3fb4b77-ee6d-4a30-9b43-96755117f823" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-94867", 
+            "y" : "-98158"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "2cd88330-6bfc-4866-84d1-3afa09845470" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-94308", 
+            "y" : "-98650"
+         }, 
+         "child" : [ 
+            "7e8ac806-aec6-4164-9fee-64ad93b06245"
+         ], 
+         "text" : "$PLAYER.NAME$  Надо сделать тайник в КРЗ. Поговорим когда будем на месте."
+      }, 
+      "7e8ac806-aec6-4164-9fee-64ad93b06245" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-94298", 
+            "y" : "-98522"
+         }, 
+         "child" : [ 
+            "e3fb4b77-ee6d-4a30-9b43-96755117f823"
+         ], 
+         "text" : "Хорошо."
+      }, 
+      "6c5cab42-dafa-440b-87ec-e7d52afb967e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-95789", 
+            "y" : "-98552"
+         }, 
+         "child" : [ 
+            "02239494-312d-4ceb-8b73-3d7fef243369"
+         ]
+      }, 
+      "02239494-312d-4ceb-8b73-3d7fef243369" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-96727", 
+            "y" : "-98518"
+         }, 
+         "child" : [ 
+            "5541843b-aefa-4d9d-955a-8fb65364356b", 
+            "08ea9626-1bd8-43d4-80a1-086e7621ef0a", 
+            "eaa5984a-5a2f-406b-963e-dff1cf95f603", 
+            "58b54bde-459b-44ef-85df-e64453bcbc1e", 
+            "4410e02e-f870-4b6e-a38d-f329f7b6cec9"
+         ]
+      }, 
+      "5541843b-aefa-4d9d-955a-8fb65364356b" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-96943", 
+            "y" : "-98424"
+         }, 
+         "child" : [ 
+            "02239494-312d-4ceb-8b73-3d7fef243369", 
+            "d7a40d4f-731a-4221-bbae-5035f0086575"
+         ], 
+         "key" : "ONE"
+      }, 
+      "d7a40d4f-731a-4221-bbae-5035f0086575" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-96941", 
+            "y" : "-98270"
+         }, 
+         "child" : [ 
+            "f94d85d3-6723-471e-b3a7-30e0513bec9b"
+         ], 
+         "key" : "ONE"
+      }, 
+      "f94d85d3-6723-471e-b3a7-30e0513bec9b" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-97027", 
+            "y" : "-98154"
+         }, 
+         "child" : [ 
+            "80268d19-dc58-42c3-97f6-273e6ef02b5f"
+         ], 
+         "text" : "Я тут не местная. Поэтому с локациями не подскажу. Но как только адаптируюсь, сразу же поделюсь своим мнением."
+      }, 
+      "80268d19-dc58-42c3-97f6-273e6ef02b5f" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-96905", 
+            "y" : "-97565"
+         }, 
+         "child" : [ 
+            "12ceae83-75b5-4d9a-bcdf-5cfd7b669b8b"
+         ], 
+         "text" : "Давай сменим тему тогда."
+      }, 
+      "08ea9626-1bd8-43d4-80a1-086e7621ef0a" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-96742", 
+            "y" : "-98424"
+         }, 
+         "child" : [ 
+            "02239494-312d-4ceb-8b73-3d7fef243369", 
+            "1ad1a2ea-81fb-42a9-b361-da48b8302722"
+         ], 
+         "key" : "TWO"
+      }, 
+      "1ad1a2ea-81fb-42a9-b361-da48b8302722" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-96722", 
+            "y" : "-98273"
+         }, 
+         "child" : [ 
+            "b257b472-3cee-4555-bd1d-cdc5989da93e"
+         ], 
+         "key" : "TWO"
+      }, 
+      "b257b472-3cee-4555-bd1d-cdc5989da93e" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-96781", 
+            "y" : "-98156"
+         }, 
+         "child" : [ 
+            "80268d19-dc58-42c3-97f6-273e6ef02b5f"
+         ], 
+         "text" : "Думаю что нам стоит поискать в пустошах клубнику. Я помню ее вкус. Думаю это она будет основное наше задание. Как тебе? Ну и ладно. Пока идей и предложений нет.  Спроси позже как нибудь,  когда освоюсь."
+      }, 
+      "eaa5984a-5a2f-406b-963e-dff1cf95f603" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-96540", 
+            "y" : "-98422"
+         }, 
+         "child" : [ 
+            "02239494-312d-4ceb-8b73-3d7fef243369", 
+            "998dad2b-ad80-4794-ab3b-3f179e2f35ee"
+         ], 
+         "key" : "THREE"
+      }, 
+      "998dad2b-ad80-4794-ab3b-3f179e2f35ee" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-96492", 
+            "y" : "-98275"
+         }, 
+         "child" : [ 
+            "7ace22c1-34de-434f-9c31-16e9604c57e0"
+         ], 
+         "key" : "THREE"
+      }, 
+      "7ace22c1-34de-434f-9c31-16e9604c57e0" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-96552", 
+            "y" : "-98157"
+         }, 
+         "child" : [ 
+            "80268d19-dc58-42c3-97f6-273e6ef02b5f"
+         ], 
+         "text" : "Интересные интересности говоришь. Предложения мои таковы. Пойти на охоту, завалить кабана, нашинковать, сделать шашлык. Нужен хлеб. Еще ухи хочу и шампанского с шоколадкой. Вообщем потом поговорим, сейчас ничего дельного предложить не могу, как нибудь позже, когда освоюсь с местностью."
+      }, 
+      "58b54bde-459b-44ef-85df-e64453bcbc1e" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-96070", 
+            "y" : "-98412"
+         }, 
+         "child" : [ 
+            "02239494-312d-4ceb-8b73-3d7fef243369", 
+            "32912430-bda2-490a-bea6-baec11abf673"
+         ], 
+         "key" : "WINTER"
+      }, 
+      "32912430-bda2-490a-bea6-baec11abf673" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-96015", 
+            "y" : "-98265"
+         }, 
+         "child" : [ 
+            "aef608b7-f5c9-47ca-b5cc-9b1c695f6f62"
+         ], 
+         "key" : "WINTER"
+      }, 
+      "aef608b7-f5c9-47ca-b5cc-9b1c695f6f62" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-96057", 
+            "y" : "-98151"
+         }, 
+         "child" : [ 
+            "355ee510-d2dd-4e0f-a108-e70d423b8a0b", 
+            "80268d19-dc58-42c3-97f6-273e6ef02b5f"
+         ], 
+         "text" : "Что-то как то зябко в последнее время. Холодает видимо. Ты так не думаешь?"
+      }, 
+      "355ee510-d2dd-4e0f-a108-e70d423b8a0b" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-96083", 
+            "y" : "-97958"
+         }, 
+         "child" : [ 
+            "2fbf1cb1-ce94-4dc3-bcef-b603a8f945cf"
+         ], 
+         "text" : "Есть такое. Думаешь что-то глобальное? Ядерная зима спустя столько лет?"
+      }, 
+      "2fbf1cb1-ce94-4dc3-bcef-b603a8f945cf" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-96073", 
+            "y" : "-97838"
+         }, 
+         "child" : [ 
+            "80268d19-dc58-42c3-97f6-273e6ef02b5f"
+         ], 
+         "text" : "Я похожа на ученого? Цвет волос не смущает? Говорю как есть, холодно становится раньше, а время сколько идут холодные дни, дольше. Но мне почем знать, может просто лето плохое выдалось."
+      }, 
+      "4410e02e-f870-4b6e-a38d-f329f7b6cec9" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-96317", 
+            "y" : "-98156"
+         }, 
+         "child" : [ 
+            "80268d19-dc58-42c3-97f6-273e6ef02b5f"
+         ], 
+         "text" : "Я бы могла придумать тебе невыполнимые задачи и великолепную награду. Но сейчас что-то не очень хочется. Может позже."
+      }, 
+      "a6cc428c-1310-4456-b12f-0eab4e4255da" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-95357", 
+            "y" : "-98483"
+         }, 
+         "child" : [ 
+            "b7523d71-8a10-4dc1-8699-6e5040587b45", 
+            "3b42e39d-87f3-4c76-8349-756175e58e55"
+         ], 
+         "text" : "$PLAYER.NAME$ да мне бы помощь не помешала в одном деле, но это займет какое-то время от нашего путешествия. Согласны?"
+      }, 
+      "b7523d71-8a10-4dc1-8699-6e5040587b45" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-95289", 
+            "y" : "-98188"
+         }, 
+         "child" : [ 
+            "96ec6304-ce9e-46cd-93db-39e292523817"
+         ], 
+         "text" : "Я думаю мы сумеем найти на это время. С чем тебе помочь?"
+      }, 
+      "96ec6304-ce9e-46cd-93db-39e292523817" : { 
+         "class" : "QuestBeginNode", 
+         "desc" : { 
+            "x" : "-95205", 
+            "y" : "-98057"
+         }, 
+         "child" : [ 
+            "6d02859a-146e-4d50-b328-d88c1e54f3ce"
+         ], 
+         "quest_key" : "OKSANA_QUEST_1"
+      }, 
+      "6d02859a-146e-4d50-b328-d88c1e54f3ce" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-95203", 
+            "y" : "-97990"
+         }, 
+         "child" : [ 
+            "c189da5c-ba55-4f12-ab3b-dbac2ecc766f"
+         ], 
+         "note_key" : "OKSANA_QUEST_1"
+      }, 
+      "c189da5c-ba55-4f12-ab3b-dbac2ecc766f" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-95231", 
+            "y" : "-97908"
+         }, 
+         "child" : [ 
+            "b297d0d6-b63c-463a-a409-53413d39c9e2"
+         ], 
+         "text" : "Мне надо сделать тайник для моей группы, если вдруг кто-то остался в живых, то они смогут найти его по определенным меткам, которые я оставляю. У нас в группе были тайные знаки для идентификации тайника и определенные места, где стоит искать в поселелениях."
+      }, 
+      "b297d0d6-b63c-463a-a409-53413d39c9e2" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-95233", 
+            "y" : "-97754"
+         }, 
+         "child" : [ 
+            "411097cc-fc1f-46cb-b873-7a1df00731a8"
+         ], 
+         "text" : "Тайники, хабар и сокровища - это я люблю."
+      }, 
+      "411097cc-fc1f-46cb-b873-7a1df00731a8" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-95236", 
+            "y" : "-97650"
+         }, 
+         "child" : [ 
+            "581ab3a5-266c-4fb6-9a40-b4eaac922906"
+         ], 
+         "text" : "Мне понадобится немного оружия, медикоментов, еды и патронов.  [Оксана дала вам список - вы его занесли в журнал.]"
+      }, 
+      "581ab3a5-266c-4fb6-9a40-b4eaac922906" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-95231", 
+            "y" : "-97524"
+         }, 
+         "child" : [ 
+            "1173bcff-e6d2-46b5-bac5-3ffec26d8033"
+         ], 
+         "text" : "Хорошо, а где его сделать хочешь?"
+      }, 
+      "1173bcff-e6d2-46b5-bac5-3ffec26d8033" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-95212", 
+            "y" : "-97434"
+         }, 
+         "child" : [ 
+            "f5e1bdc3-51e1-493f-bc51-9d20e92f071a"
+         ], 
+         "text" : "Если с группы кто-то выжил, то они будут искать самые крупные поселения, где можно затерятся в толпе и переждать. Думаю в КРЗ самый оптимальный вариант."
+      }, 
+      "f5e1bdc3-51e1-493f-bc51-9d20e92f071a" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-95193", 
+            "y" : "-97306"
+         }, 
+         "child" : [ 
+            "356679d0-14aa-4a57-bc6b-4ed8d15901d8"
+         ], 
+         "text" : "Понятно, на месте разберемся."
+      }, 
+      "356679d0-14aa-4a57-bc6b-4ed8d15901d8" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-95164", 
+            "y" : "-97216"
+         }, 
+         "child" : [ 
+            "9db7f6ec-845d-4866-9c8d-21e71ae69fb2"
+         ], 
+         "text" : "Спасибо тебе большое $PLAYER.NAME$ ."
+      }, 
+      "9db7f6ec-845d-4866-9c8d-21e71ae69fb2" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-95136", 
+            "y" : "-97123"
+         }, 
+         "child" : [ 
+            "37bb3cec-3da6-4b2e-a891-463362ec2ab8"
+         ], 
+         "text" : "Выдвигаемся."
+      }, 
+      "37bb3cec-3da6-4b2e-a891-463362ec2ab8" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-95059", 
+            "y" : "-97039"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "3b42e39d-87f3-4c76-8349-756175e58e55" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-94973", 
+            "y" : "-98367"
+         }, 
+         "child" : [ 
+            "e3fb4b77-ee6d-4a30-9b43-96755117f823"
+         ], 
+         "text" : "Давай в другой раз хорошо?"
+      }, 
+      "b9cbbdc9-6215-4bc6-b330-947aceca9bb5" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101166", 
+            "y" : "-100262", 
+            "comment" : "(перенос на А1)"
+         }, 
+         "child" : [ 
+            "3ebdcfae-8ea1-4c6b-8329-b9a171f9220c"
+         ], 
+         "text" : "#Gexogen_Teammate.b9cbbdc9-6215-4bc6-b330-947aceca9bb5"
+      }, 
+      "0bad49e9-4302-4964-a891-602ff05a95c8" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100945", 
+            "y" : "-100268", 
+            "comment" : "(перенос на А2)"
+         }, 
+         "child" : [ 
+            "42986cf8-b708-463a-bb25-ae81dadc5604"
+         ], 
+         "text" : "#Gexogen_Teammate.0bad49e9-4302-4964-a891-602ff05a95c8"
+      }, 
+      "42986cf8-b708-463a-bb25-ae81dadc5604" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-100715", 
+            "y" : "-98932", 
+            "comment" : "А2"
+         }, 
+         "child" : [ 
+            "519edacf-8dcb-4532-9d79-26ad3d4e679b", 
+            "5c310e65-fb2f-4be1-ac56-6239c92d8d05"
+         ], 
+         "key" : "__AI_BEHAVIOR", 
+         "value" : "3", 
+         "opp" : "Equal"
+      }, 
+      "519edacf-8dcb-4532-9d79-26ad3d4e679b" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101101", 
+            "y" : "-98477", 
+            "comment" : "А2"
+         }, 
+         "child" : [ 
+            "e36cc826-49fd-4256-a10e-3def1d915204", 
+            "f77d24cb-2395-40f4-a664-145092923b02", 
+            "288d7768-8882-4ac9-9467-8a244858aa0d", 
+            "a766fcfc-e509-49f5-bfe8-3934083bcd78", 
+            "bc9bfc1f-0ab9-41d8-93e1-40164a2af7d2"
+         ], 
+         "text" : "Да, внимательно слушаю тебя."
+      }, 
+      "e36cc826-49fd-4256-a10e-3def1d915204" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101405", 
+            "y" : "-98304", 
+            "comment" : "(перенос на А11)"
+         }, 
+         "child" : [ 
+            "de2adbc7-6a97-4312-8cb4-5fdd93dbf546"
+         ], 
+         "text" : "Держись ближе."
+      }, 
+      "de2adbc7-6a97-4312-8cb4-5fdd93dbf546" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-102876", 
+            "y" : "-97355"
+         }, 
+         "child" : [ 
+            "3b957d27-d6d0-45a4-9693-66a76dd1a465"
+         ], 
+         "key" : "__AI_BEHAVIOR", 
+         "value" : "4"
+      }, 
+      "3b957d27-d6d0-45a4-9693-66a76dd1a465" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102910", 
+            "y" : "-97265", 
+            "comment" : "А11"
+         }, 
+         "child" : [ 
+            "870ae823-ba3d-4bdc-88dd-56ce6a374468"
+         ], 
+         "text" : "Это то что нужно. Могу ущепнуть если хочешь."
+      }, 
+      "870ae823-ba3d-4bdc-88dd-56ce6a374468" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102591", 
+            "y" : "-96947"
+         }, 
+         "child" : [ 
+            "ca0cac45-931b-443a-baab-375d6043efa8", 
+            "d9f1729c-3bc3-4653-a1ec-d751ade25eba"
+         ]
+      }, 
+      "ca0cac45-931b-443a-baab-375d6043efa8" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102857", 
+            "y" : "-96793", 
+            "comment" : "(перенос на А6)"
+         }, 
+         "child" : [ 
+            "12ceae83-75b5-4d9a-bcdf-5cfd7b669b8b"
+         ], 
+         "text" : "Сменим тему."
+      }, 
+      "d9f1729c-3bc3-4653-a1ec-d751ade25eba" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102435", 
+            "y" : "-96801", 
+            "comment" : "(конец диалога)"
+         }, 
+         "child" : [ 
+            "cc6d8ceb-ec0f-4a6d-be13-89f49b1b7a1b"
+         ], 
+         "text" : "#Gexogen_Teammate.d9f1729c-3bc3-4653-a1ec-d751ade25eba"
+      }, 
+      "cc6d8ceb-ec0f-4a6d-be13-89f49b1b7a1b" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-102379", 
+            "y" : "-96679"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "f77d24cb-2395-40f4-a664-145092923b02" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101182", 
+            "y" : "-98196", 
+            "comment" : "(перенос на А8)"
+         }, 
+         "child" : [ 
+            "612ad239-4d8a-4882-9068-60b37104e134"
+         ], 
+         "text" : "При следующей стычке, враг весь твой, до капельки"
+      }, 
+      "612ad239-4d8a-4882-9068-60b37104e134" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-102594", 
+            "y" : "-97372"
+         }, 
+         "child" : [ 
+            "8ad4cf70-efe8-4489-88d1-9d3afc98f527"
+         ], 
+         "key" : "__AI_BEHAVIOR", 
+         "value" : "0"
+      }, 
+      "8ad4cf70-efe8-4489-88d1-9d3afc98f527" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102652", 
+            "y" : "-97275", 
+            "comment" : "А8"
+         }, 
+         "child" : [ 
+            "870ae823-ba3d-4bdc-88dd-56ce6a374468"
+         ], 
+         "text" : "Хорошая тактика, одобряю."
+      }, 
+      "288d7768-8882-4ac9-9467-8a244858aa0d" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103304", 
+            "y" : "-97298"
+         }, 
+         "child" : [ 
+            "dce98f90-9c29-492f-a89a-e8674b268591", 
+            "ed6730d9-fdf8-4c94-8487-6a74805e33ac"
+         ], 
+         "text" : "#Gexogen_Teammate.288d7768-8882-4ac9-9467-8a244858aa0d"
+      }, 
+      "dce98f90-9c29-492f-a89a-e8674b268591" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-108093", 
+            "y" : "-95560"
+         }, 
+         "child" : [ 
+            "fd5b6dfb-a938-4b4b-a791-fb357bbd153c", 
+            "2445a770-f6ed-411d-a959-e504eba00808", 
+            "4e9571b1-8938-4730-9a24-3139ef68a5c8", 
+            "405be893-4f51-426a-b6ad-d6af08944a83"
+         ]
+      }, 
+      "fd5b6dfb-a938-4b4b-a791-fb357bbd153c" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-108699", 
+            "y" : "-95491"
+         }, 
+         "child" : [ 
+            "85a40634-dd42-43f6-bde6-2d30a821c8ad", 
+            "9fe28836-1c1c-4c6d-abad-4fe12336acb6", 
+            "81fbf5ac-a757-4465-8880-ed1352e51af3", 
+            "8e8b979d-cd21-4b5a-a7f9-eb50832fdb9f"
+         ]
+      }, 
+      "85a40634-dd42-43f6-bde6-2d30a821c8ad" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-108813", 
+            "y" : "-95441"
+         }, 
+         "child" : [ 
+            "5d236a2c-d029-4084-a1a1-63176eb20c24", 
+            "a6fbb09d-6ca7-43df-a3bf-66367defa88f"
+         ], 
+         "key" : "__AI_TACTIC_SHOT_MODE", 
+         "value" : "0", 
+         "opp" : "Equal"
+      }, 
+      "5d236a2c-d029-4084-a1a1-63176eb20c24" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-109259", 
+            "y" : "-95270"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "TACTIC_BURST", 
+         "text" : "стреляю,но я очень осторожна"
+      }, 
+      "a6fbb09d-6ca7-43df-a3bf-66367defa88f" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-108685", 
+            "y" : "-95339"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "9fe28836-1c1c-4c6d-abad-4fe12336acb6" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-108807", 
+            "y" : "-95259"
+         }, 
+         "child" : [ 
+            "f7b34277-74e4-4521-84fa-11fd372d8759", 
+            "e9bc427a-389d-4f23-b20c-41d9306c53f8"
+         ], 
+         "key" : "__AI_TACTIC_SHOT_MODE", 
+         "value" : "1", 
+         "opp" : "Equal"
+      }, 
+      "f7b34277-74e4-4521-84fa-11fd372d8759" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-109309", 
+            "y" : "-95128"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "TACTIC_BURST", 
+         "text" : "стреляю,но стараюсь быть осторожна"
+      }, 
+      "e9bc427a-389d-4f23-b20c-41d9306c53f8" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-108679", 
+            "y" : "-95157"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "81fbf5ac-a757-4465-8880-ed1352e51af3" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-108801", 
+            "y" : "-95097"
+         }, 
+         "child" : [ 
+            "7b425b0c-e2a2-469a-89bd-074e2305abd4", 
+            "a886d5b5-2d89-4f5e-b629-9a0d91614539"
+         ], 
+         "key" : "__AI_TACTIC_SHOT_MODE", 
+         "value" : "2", 
+         "opp" : "Equal"
+      }, 
+      "7b425b0c-e2a2-469a-89bd-074e2305abd4" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-109332", 
+            "y" : "-94974"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "TACTIC_BURST", 
+         "text" : "#Gexogen_Teammate.7b425b0c-e2a2-469a-89bd-074e2305abd4"
+      }, 
+      "a886d5b5-2d89-4f5e-b629-9a0d91614539" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-108673", 
+            "y" : "-94995"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "8e8b979d-cd21-4b5a-a7f9-eb50832fdb9f" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-108811", 
+            "y" : "-94925"
+         }, 
+         "child" : [ 
+            "ab784780-a205-4f88-9210-53579be743dc", 
+            "99e3a1cf-7b76-4075-84b6-0832e89e782c"
+         ], 
+         "key" : "__AI_TACTIC_SHOT_MODE", 
+         "value" : "3", 
+         "opp" : "Equal"
+      }, 
+      "ab784780-a205-4f88-9210-53579be743dc" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-109355", 
+            "y" : "-94802"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "TACTIC_BURST", 
+         "text" : "#Gexogen_Teammate.ab784780-a205-4f88-9210-53579be743dc"
+      }, 
+      "99e3a1cf-7b76-4075-84b6-0832e89e782c" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-108683", 
+            "y" : "-94823"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "2445a770-f6ed-411d-a959-e504eba00808" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-108247", 
+            "y" : "-95473"
+         }, 
+         "child" : [ 
+            "698d52c7-6af5-49ba-acfe-f09a27aac3d7", 
+            "dbfcfe58-bc7c-4846-b370-02f2bf1cb024", 
+            "55d0c67a-5787-4f19-a3b5-698ee9cbe852", 
+            "566e22dd-c136-4a52-8853-29e3b3474d62"
+         ]
+      }, 
+      "698d52c7-6af5-49ba-acfe-f09a27aac3d7" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-108361", 
+            "y" : "-95423"
+         }, 
+         "child" : [ 
+            "0950ceba-a303-4ec1-a4d7-a33aed8ba4a1", 
+            "b84bb8a4-8547-48b7-863a-173539ce8005"
+         ], 
+         "key" : "__AI_TACTIC_RETREAT_MODE", 
+         "value" : "0", 
+         "opp" : "Equal"
+      }, 
+      "0950ceba-a303-4ec1-a4d7-a33aed8ba4a1" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-108553", 
+            "y" : "-95309"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "TACTIC_RETREAT", 
+         "text" : "#Gexogen_Teammate.0950ceba-a303-4ec1-a4d7-a33aed8ba4a1"
+      }, 
+      "b84bb8a4-8547-48b7-863a-173539ce8005" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-108233", 
+            "y" : "-95321"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "dbfcfe58-bc7c-4846-b370-02f2bf1cb024" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-108355", 
+            "y" : "-95241"
+         }, 
+         "child" : [ 
+            "21114bd5-db62-48de-bf27-c38edb4954ae", 
+            "5152aade-2569-425d-8fae-2c28f25eddba"
+         ], 
+         "key" : "__AI_TACTIC_RETREAT_MODE", 
+         "value" : "2", 
+         "opp" : "Equal"
+      }, 
+      "21114bd5-db62-48de-bf27-c38edb4954ae" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-108547", 
+            "y" : "-95127"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "TACTIC_RETREAT", 
+         "text" : "#Gexogen_Teammate.21114bd5-db62-48de-bf27-c38edb4954ae"
+      }, 
+      "5152aade-2569-425d-8fae-2c28f25eddba" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-108227", 
+            "y" : "-95139"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "55d0c67a-5787-4f19-a3b5-698ee9cbe852" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-108349", 
+            "y" : "-95079"
+         }, 
+         "child" : [ 
+            "0f85ca23-ffcb-470a-b64e-be1a883ca7f5", 
+            "cda8d4a7-fcba-4f00-9f9b-518712d090dc"
+         ], 
+         "key" : "__AI_TACTIC_RETREAT_MODE", 
+         "value" : "1", 
+         "opp" : "Equal"
+      }, 
+      "0f85ca23-ffcb-470a-b64e-be1a883ca7f5" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-108566", 
+            "y" : "-94964"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "TACTIC_RETREAT", 
+         "text" : "#Gexogen_Teammate.0f85ca23-ffcb-470a-b64e-be1a883ca7f5"
+      }, 
+      "cda8d4a7-fcba-4f00-9f9b-518712d090dc" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-108221", 
+            "y" : "-94977"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "566e22dd-c136-4a52-8853-29e3b3474d62" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-108359", 
+            "y" : "-94907"
+         }, 
+         "child" : [ 
+            "480af298-68b3-435f-bfa9-58af26426fb5", 
+            "64609898-f667-45e4-bca1-2d517cdf6adc"
+         ], 
+         "key" : "__AI_TACTIC_RETREAT_MODE", 
+         "value" : "3", 
+         "opp" : "Equal"
+      }, 
+      "480af298-68b3-435f-bfa9-58af26426fb5" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-108589", 
+            "y" : "-94710"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "TACTIC_RETREAT", 
+         "text" : "#Gexogen_Teammate.480af298-68b3-435f-bfa9-58af26426fb5"
+      }, 
+      "64609898-f667-45e4-bca1-2d517cdf6adc" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-108231", 
+            "y" : "-94805"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "4e9571b1-8938-4730-9a24-3139ef68a5c8" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-107785", 
+            "y" : "-95453"
+         }, 
+         "child" : [ 
+            "cf9117b8-ee94-42f9-9869-dddaa9d07552", 
+            "b81454f7-3fb1-4cd1-bc07-48bb78c12e7c", 
+            "c55933b9-d9f8-400b-849d-12a9a88222ad", 
+            "2f47df51-2458-450e-ace8-40f910e025fc"
+         ]
+      }, 
+      "cf9117b8-ee94-42f9-9869-dddaa9d07552" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-107923", 
+            "y" : "-95409"
+         }, 
+         "child" : [ 
+            "14337ea9-e11a-43ac-943c-b6751b9a2d58", 
+            "f6121b7e-6e4e-4ec8-96f4-7d4676660da1"
+         ], 
+         "key" : "__AI_TACTIC_ATTACK_MODE", 
+         "value" : "0", 
+         "opp" : "Equal"
+      }, 
+      "14337ea9-e11a-43ac-943c-b6751b9a2d58" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-108119", 
+            "y" : "-95289"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "TACTIC_ATTACK", 
+         "text" : "#Gexogen_Teammate.14337ea9-e11a-43ac-943c-b6751b9a2d58"
+      }, 
+      "f6121b7e-6e4e-4ec8-96f4-7d4676660da1" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-107795", 
+            "y" : "-95309"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "b81454f7-3fb1-4cd1-bc07-48bb78c12e7c" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-107917", 
+            "y" : "-95227"
+         }, 
+         "child" : [ 
+            "b4dae21e-9ec0-4903-bcce-cf861ad2662b", 
+            "6c46b372-3dce-4128-b7d1-80a7f68bda92"
+         ], 
+         "key" : "__AI_TACTIC_ATTACK_MODE", 
+         "value" : "1", 
+         "opp" : "Equal"
+      }, 
+      "b4dae21e-9ec0-4903-bcce-cf861ad2662b" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-108109", 
+            "y" : "-95113"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "TACTIC_ATTACK", 
+         "text" : "#Gexogen_Teammate.b4dae21e-9ec0-4903-bcce-cf861ad2662b"
+      }, 
+      "6c46b372-3dce-4128-b7d1-80a7f68bda92" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-107789", 
+            "y" : "-95127"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "c55933b9-d9f8-400b-849d-12a9a88222ad" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-107911", 
+            "y" : "-95065"
+         }, 
+         "child" : [ 
+            "71b6f4fe-8595-4094-8ef7-87968b4bd2fb", 
+            "e15409d9-c9b5-4df2-bdca-efd6239785f4"
+         ], 
+         "key" : "__AI_TACTIC_ATTACK_MODE", 
+         "value" : "2", 
+         "opp" : "Equal"
+      }, 
+      "71b6f4fe-8595-4094-8ef7-87968b4bd2fb" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-108101", 
+            "y" : "-94951"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "TACTIC_ATTACK", 
+         "text" : "#Gexogen_Teammate.71b6f4fe-8595-4094-8ef7-87968b4bd2fb"
+      }, 
+      "e15409d9-c9b5-4df2-bdca-efd6239785f4" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-107783", 
+            "y" : "-94965"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "2f47df51-2458-450e-ace8-40f910e025fc" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-107921", 
+            "y" : "-94893"
+         }, 
+         "child" : [ 
+            "05500450-765d-4aca-a6b0-5fb2631e92d9", 
+            "3af7e9a4-f1bc-4a4b-8267-6f97115eaf10"
+         ], 
+         "key" : "__AI_TACTIC_ATTACK_MODE", 
+         "value" : "3", 
+         "opp" : "Equal"
+      }, 
+      "05500450-765d-4aca-a6b0-5fb2631e92d9" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-108113", 
+            "y" : "-94779"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "TACTIC_ATTACK", 
+         "text" : "#Gexogen_Teammate.05500450-765d-4aca-a6b0-5fb2631e92d9"
+      }, 
+      "3af7e9a4-f1bc-4a4b-8267-6f97115eaf10" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-107793", 
+            "y" : "-94793"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "405be893-4f51-426a-b6ad-d6af08944a83" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-107337", 
+            "y" : "-95479"
+         }, 
+         "child" : [ 
+            "7248de89-b281-4af4-aa3e-7f668302a661", 
+            "42b7e961-da38-40cf-aa5d-de292b5a1553", 
+            "1b6fa6b3-1c4b-417f-8272-9e03cf4b1ed2", 
+            "10d11d8a-2951-4cb6-ae37-84c35b2f2dbb"
+         ]
+      }, 
+      "7248de89-b281-4af4-aa3e-7f668302a661" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-107477", 
+            "y" : "-95437"
+         }, 
+         "child" : [ 
+            "4e274f83-75f6-445f-b664-c96693936362", 
+            "5043f01f-e746-4642-be22-c29efa983124"
+         ], 
+         "key" : "__AI_TACTIC_HEAL_MODE", 
+         "value" : "0", 
+         "opp" : "Equal"
+      }, 
+      "4e274f83-75f6-445f-b664-c96693936362" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-107667", 
+            "y" : "-95319"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "TACTIC_HEAL", 
+         "text" : "лечусь, если я ранена"
+      }, 
+      "5043f01f-e746-4642-be22-c29efa983124" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-107349", 
+            "y" : "-95335"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "42b7e961-da38-40cf-aa5d-de292b5a1553" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-107471", 
+            "y" : "-95255"
+         }, 
+         "child" : [ 
+            "c34b9714-c4e7-42e8-9823-93c5c0fc1276", 
+            "ad6a4863-60d5-4da1-8534-8a5febd1c12c"
+         ], 
+         "key" : "__AI_TACTIC_HEAL_MODE", 
+         "value" : "1", 
+         "opp" : "Equal"
+      }, 
+      "c34b9714-c4e7-42e8-9823-93c5c0fc1276" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-107661", 
+            "y" : "-95141"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "TACTIC_HEAL", 
+         "text" : "#Gexogen_Teammate.c34b9714-c4e7-42e8-9823-93c5c0fc1276"
+      }, 
+      "ad6a4863-60d5-4da1-8534-8a5febd1c12c" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-107343", 
+            "y" : "-95153"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "1b6fa6b3-1c4b-417f-8272-9e03cf4b1ed2" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-107410", 
+            "y" : "-95085"
+         }, 
+         "child" : [ 
+            "fda51525-1172-4c70-96ee-ba6c8af0932e", 
+            "84ee27e0-bc33-429c-9f8e-ac3c93811a84"
+         ], 
+         "key" : "__AI_TACTIC_HEAL_MODE", 
+         "value" : "2", 
+         "opp" : "Equal"
+      }, 
+      "fda51525-1172-4c70-96ee-ba6c8af0932e" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-107667", 
+            "y" : "-94983"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "TACTIC_HEAL", 
+         "text" : "лечусь,если легко ранена"
+      }, 
+      "84ee27e0-bc33-429c-9f8e-ac3c93811a84" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-107335", 
+            "y" : "-94991"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "10d11d8a-2951-4cb6-ae37-84c35b2f2dbb" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-107399", 
+            "y" : "-94926"
+         }, 
+         "child" : [ 
+            "b5edd88b-fdee-4d34-ae59-37351a90578a", 
+            "621b2043-d8df-45fb-ac6c-b9bfadc92d0f"
+         ], 
+         "key" : "__AI_TACTIC_HEAL_MODE", 
+         "value" : "3", 
+         "opp" : "Equal"
+      }, 
+      "b5edd88b-fdee-4d34-ae59-37351a90578a" : { 
+         "class" : "AddKeyTextNode", 
+         "desc" : { 
+            "x" : "-107665", 
+            "y" : "-94807"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "TACTIC_HEAL", 
+         "text" : "#Gexogen_Teammate.b5edd88b-fdee-4d34-ae59-37351a90578a"
+      }, 
+      "621b2043-d8df-45fb-ac6c-b9bfadc92d0f" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-107202", 
+            "y" : "-94810"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "ed6730d9-fdf8-4c94-8487-6a74805e33ac" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103551", 
+            "y" : "-97155"
+         }, 
+         "child" : [ 
+            "532e3a72-0e8a-4fed-8bd1-e06efd975a90"
+         ], 
+         "text" : "Сейчас я $TACTIC_BURST$; $TACTIC_RETREAT$; $TACTIC_ATTACK$ и $TACTIC_HEAL$."
+      }, 
+      "532e3a72-0e8a-4fed-8bd1-e06efd975a90" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103809", 
+            "y" : "-97023"
+         }, 
+         "child" : [ 
+            "2cfff25f-330d-4942-a329-c9e01611aaf0", 
+            "2bf1b073-2710-4e18-bfc5-cf377c00ba75", 
+            "ba2967ea-49ce-4004-b07b-7acc559447b3", 
+            "a75c013d-aebd-471c-b9b6-186dc5975dfa", 
+            "d5938cf7-39e4-4ffc-9eb5-e61a603e72cc"
+         ]
+      }, 
+      "2cfff25f-330d-4942-a329-c9e01611aaf0" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104312", 
+            "y" : "-96900"
+         }, 
+         "child" : [ 
+            "bfce3bd6-2142-4779-9894-0e4a47b70c35"
+         ], 
+         "text" : "#Gexogen_Teammate.2cfff25f-330d-4942-a329-c9e01611aaf0"
+      }, 
+      "bfce3bd6-2142-4779-9894-0e4a47b70c35" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-105928", 
+            "y" : "-97634"
+         }, 
+         "child" : [ 
+            "1318e5eb-2b24-45f0-978d-b4e98b6cfd75", 
+            "2787eb5e-3bda-4dff-b1f0-15d4b1d6ad56", 
+            "9d08d19d-010c-41fc-a8c6-90c6b7d9eea3", 
+            "7be2ac6c-341b-449c-a2e9-60abe72b9ecc", 
+            "ef9aebe2-2977-44e7-85d3-f913736ac4be", 
+            "a5ceb007-4628-4e91-8f91-0d14d6940e2e"
+         ], 
+         "text" : "#Gexogen_Teammate.bfce3bd6-2142-4779-9894-0e4a47b70c35"
+      }, 
+      "1318e5eb-2b24-45f0-978d-b4e98b6cfd75" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-106440", 
+            "y" : "-97491"
+         }, 
+         "child" : [ 
+            "acf72c78-88e1-4489-b1de-d78c9b53072a", 
+            "614dee83-a222-49fb-9ba9-774305aadb9c"
+         ], 
+         "key" : "__AI_TACTIC_SHOT_MODE", 
+         "value" : "0", 
+         "opp" : "NotEqual"
+      }, 
+      "acf72c78-88e1-4489-b1de-d78c9b53072a" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-106491", 
+            "y" : "-97338"
+         }, 
+         "child" : [ 
+            "f52f849d-05b6-48b4-b938-9413e7bdd3cf"
+         ], 
+         "text" : "Стреляй иногда и будь осторожна."
+      }, 
+      "f52f849d-05b6-48b4-b938-9413e7bdd3cf" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-106678", 
+            "y" : "-97259"
+         }, 
+         "child" : [ 
+            "1f7bd22c-adcd-4a04-9cbd-4e55efb90784"
+         ], 
+         "key" : "__AI_TACTIC_SHOT_MODE", 
+         "value" : "0"
+      }, 
+      "1f7bd22c-adcd-4a04-9cbd-4e55efb90784" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-104242", 
+            "y" : "-92032"
+         }, 
+         "child" : [ 
+            "4c52ff3e-35fe-479a-8137-8d8e5492f521"
+         ]
+      }, 
+      "4c52ff3e-35fe-479a-8137-8d8e5492f521" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-105166", 
+            "y" : "-96783"
+         }, 
+         "child" : [ 
+            "dce98f90-9c29-492f-a89a-e8674b268591", 
+            "1ed52861-3c3b-4780-b823-45597158417b"
+         ]
+      }, 
+      "1ed52861-3c3b-4780-b823-45597158417b" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-104126", 
+            "y" : "-97170"
+         }, 
+         "child" : [ 
+            "532e3a72-0e8a-4fed-8bd1-e06efd975a90"
+         ], 
+         "text" : "Теперь я $TACTIC_BURST$; $TACTIC_RETREAT$; $TACTIC_ATTACK$ и $TACTIC_HEAL$."
+      }, 
+      "614dee83-a222-49fb-9ba9-774305aadb9c" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-106228", 
+            "y" : "-97326"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "2787eb5e-3bda-4dff-b1f0-15d4b1d6ad56" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-106317", 
+            "y" : "-97273"
+         }, 
+         "child" : [ 
+            "e6696806-1714-4dc1-81ee-3b590f93abdb", 
+            "5654a570-5944-4ca9-9aff-de759bd3933d"
+         ], 
+         "key" : "__AI_TACTIC_SHOT_MODE", 
+         "value" : "1", 
+         "opp" : "NotEqual"
+      }, 
+      "e6696806-1714-4dc1-81ee-3b590f93abdb" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-106474", 
+            "y" : "-97150"
+         }, 
+         "child" : [ 
+            "fe3f25b1-bd91-49ac-a63a-ca2df9826ec2"
+         ], 
+         "text" : "#Gexogen_Teammate.e6696806-1714-4dc1-81ee-3b590f93abdb"
+      }, 
+      "fe3f25b1-bd91-49ac-a63a-ca2df9826ec2" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-106688", 
+            "y" : "-97071"
+         }, 
+         "child" : [ 
+            "1f7bd22c-adcd-4a04-9cbd-4e55efb90784"
+         ], 
+         "key" : "__AI_TACTIC_SHOT_MODE", 
+         "value" : "1"
+      }, 
+      "5654a570-5944-4ca9-9aff-de759bd3933d" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-106211", 
+            "y" : "-97151"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "9d08d19d-010c-41fc-a8c6-90c6b7d9eea3" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-106306", 
+            "y" : "-97076"
+         }, 
+         "child" : [ 
+            "026b2944-912c-485a-aa89-3b48fb7ad4eb", 
+            "efd9a196-4b4a-412b-b0a7-987a57cc34da"
+         ], 
+         "key" : "__AI_TACTIC_SHOT_MODE", 
+         "value" : "2", 
+         "opp" : "NotEqual"
+      }, 
+      "026b2944-912c-485a-aa89-3b48fb7ad4eb" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-106474", 
+            "y" : "-96971"
+         }, 
+         "child" : [ 
+            "c27bc52c-283d-4da6-b3ee-6188114daf03"
+         ], 
+         "text" : "#Gexogen_Teammate.026b2944-912c-485a-aa89-3b48fb7ad4eb"
+      }, 
+      "c27bc52c-283d-4da6-b3ee-6188114daf03" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-106696", 
+            "y" : "-96900"
+         }, 
+         "child" : [ 
+            "1f7bd22c-adcd-4a04-9cbd-4e55efb90784"
+         ], 
+         "key" : "__AI_TACTIC_SHOT_MODE", 
+         "value" : "2"
+      }, 
+      "efd9a196-4b4a-412b-b0a7-987a57cc34da" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-106202", 
+            "y" : "-96954"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "7be2ac6c-341b-449c-a2e9-60abe72b9ecc" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-106304", 
+            "y" : "-96892"
+         }, 
+         "child" : [ 
+            "65ade933-b667-4bee-8d25-0557cfec0d2e", 
+            "cf2c7119-52e1-4549-9750-a0ae7e5aba7e"
+         ], 
+         "key" : "__AI_TACTIC_SHOT_MODE", 
+         "value" : "3", 
+         "opp" : "NotEqual"
+      }, 
+      "65ade933-b667-4bee-8d25-0557cfec0d2e" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-106460", 
+            "y" : "-96772"
+         }, 
+         "child" : [ 
+            "1b7395c3-01d0-4762-aae4-fb49eaa0eb5b"
+         ], 
+         "text" : "#Gexogen_Teammate.65ade933-b667-4bee-8d25-0557cfec0d2e"
+      }, 
+      "1b7395c3-01d0-4762-aae4-fb49eaa0eb5b" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-106692", 
+            "y" : "-96752"
+         }, 
+         "child" : [ 
+            "1f7bd22c-adcd-4a04-9cbd-4e55efb90784"
+         ], 
+         "key" : "__AI_TACTIC_SHOT_MODE", 
+         "value" : "3"
+      }, 
+      "cf2c7119-52e1-4549-9750-a0ae7e5aba7e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-106200", 
+            "y" : "-96770"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "ef9aebe2-2977-44e7-85d3-f913736ac4be" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-105882", 
+            "y" : "-97440"
+         }, 
+         "child" : [ 
+            "2b18e06b-d946-47db-9124-904252af7a36"
+         ], 
+         "text" : "#Gexogen_Teammate.ef9aebe2-2977-44e7-85d3-f913736ac4be"
+      }, 
+      "2b18e06b-d946-47db-9124-904252af7a36" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103835", 
+            "y" : "-96168"
+         }, 
+         "child" : [ 
+            "ed6730d9-fdf8-4c94-8487-6a74805e33ac"
+         ]
+      }, 
+      "a5ceb007-4628-4e91-8f91-0d14d6940e2e" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-105647", 
+            "y" : "-97435"
+         }, 
+         "child" : [ 
+            "e29781c4-6a6c-4f6d-bc45-f411080eca70"
+         ], 
+         "text" : "#Gexogen_Teammate.a5ceb007-4628-4e91-8f91-0d14d6940e2e"
+      }, 
+      "e29781c4-6a6c-4f6d-bc45-f411080eca70" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-105567", 
+            "y" : "-97355"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "2bf1b073-2710-4e18-bfc5-cf377c00ba75" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104093", 
+            "y" : "-96896"
+         }, 
+         "child" : [ 
+            "7d01cd46-11ad-431b-a6c9-e86bc01b8f21"
+         ], 
+         "text" : "#Gexogen_Teammate.2bf1b073-2710-4e18-bfc5-cf377c00ba75"
+      }, 
+      "7d01cd46-11ad-431b-a6c9-e86bc01b8f21" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-104907", 
+            "y" : "-95809"
+         }, 
+         "child" : [ 
+            "b9148e30-e7c8-4d22-8c5c-496053b5c46c", 
+            "2aefe6a2-b68e-4771-982e-568f4c00c3d3", 
+            "18e77c6a-bf36-4063-b421-0cffcd672ef4", 
+            "4f18049d-1111-4985-b5d1-080215d074e1", 
+            "bda0b948-307d-4a9c-b162-5e97b352f044", 
+            "b02ae40b-cf62-4bde-ab9a-8de30ec0a114"
+         ], 
+         "text" : "#Gexogen_Teammate.7d01cd46-11ad-431b-a6c9-e86bc01b8f21"
+      }, 
+      "b9148e30-e7c8-4d22-8c5c-496053b5c46c" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-105336", 
+            "y" : "-95503"
+         }, 
+         "child" : [ 
+            "3c59b563-b56b-4305-a1d0-06b5f76221d3", 
+            "fc5d77b2-819e-4d55-8202-ff9f1dc49fb2"
+         ], 
+         "key" : "__AI_TACTIC_RETREAT_MODE", 
+         "value" : "0", 
+         "opp" : "NotEqual"
+      }, 
+      "3c59b563-b56b-4305-a1d0-06b5f76221d3" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-105462", 
+            "y" : "-95385"
+         }, 
+         "child" : [ 
+            "527dbf44-4e11-48f3-be9f-3f5dc676b8b0"
+         ], 
+         "text" : "#Gexogen_Teammate.3c59b563-b56b-4305-a1d0-06b5f76221d3"
+      }, 
+      "527dbf44-4e11-48f3-be9f-3f5dc676b8b0" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-105540", 
+            "y" : "-95317"
+         }, 
+         "child" : [ 
+            "1f7bd22c-adcd-4a04-9cbd-4e55efb90784"
+         ], 
+         "key" : "__AI_TACTIC_RETREAT_MODE", 
+         "value" : "0"
+      }, 
+      "fc5d77b2-819e-4d55-8202-ff9f1dc49fb2" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-105228", 
+            "y" : "-95383"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "2aefe6a2-b68e-4771-982e-568f4c00c3d3" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-105307", 
+            "y" : "-95323"
+         }, 
+         "child" : [ 
+            "39cf5b66-251a-45bd-910b-8f849b65dbed", 
+            "1c7b24d0-8e08-4d0b-8e45-fd5373b64dfa"
+         ], 
+         "key" : "__AI_TACTIC_RETREAT_MODE", 
+         "value" : "1", 
+         "opp" : "NotEqual"
+      }, 
+      "39cf5b66-251a-45bd-910b-8f849b65dbed" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-105468", 
+            "y" : "-95212"
+         }, 
+         "child" : [ 
+            "8baa647d-95de-4880-aacd-eb6b2cb44e40"
+         ], 
+         "text" : "Отступай если просто ранена."
+      }, 
+      "8baa647d-95de-4880-aacd-eb6b2cb44e40" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-105548", 
+            "y" : "-95109"
+         }, 
+         "child" : [ 
+            "1f7bd22c-adcd-4a04-9cbd-4e55efb90784"
+         ], 
+         "key" : "__AI_TACTIC_RETREAT_MODE", 
+         "value" : "1"
+      }, 
+      "1c7b24d0-8e08-4d0b-8e45-fd5373b64dfa" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-105212", 
+            "y" : "-95207"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "18e77c6a-bf36-4063-b421-0cffcd672ef4" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-105306", 
+            "y" : "-95133"
+         }, 
+         "child" : [ 
+            "2b46b86f-9452-44f2-a290-42e570882ad7", 
+            "5c7c85a2-ac63-47ed-a70c-5a937b91dcd7"
+         ], 
+         "key" : "__AI_TACTIC_RETREAT_MODE", 
+         "value" : "2", 
+         "opp" : "NotEqual"
+      }, 
+      "2b46b86f-9452-44f2-a290-42e570882ad7" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-105436", 
+            "y" : "-95013"
+         }, 
+         "child" : [ 
+            "7033c21a-e11d-49ba-8ead-a79cbb02e4a0"
+         ], 
+         "text" : "Отступай если сильно ранена."
+      }, 
+      "7033c21a-e11d-49ba-8ead-a79cbb02e4a0" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-105572", 
+            "y" : "-94930"
+         }, 
+         "child" : [ 
+            "1f7bd22c-adcd-4a04-9cbd-4e55efb90784"
+         ], 
+         "key" : "__AI_TACTIC_RETREAT_MODE", 
+         "value" : "2"
+      }, 
+      "5c7c85a2-ac63-47ed-a70c-5a937b91dcd7" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-105202", 
+            "y" : "-95011"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "4f18049d-1111-4985-b5d1-080215d074e1" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-105304", 
+            "y" : "-94949"
+         }, 
+         "child" : [ 
+            "62bab0c4-da97-4590-b125-665699d4d92c", 
+            "f1904dba-a031-41db-a8e4-7303935d5623"
+         ], 
+         "key" : "__AI_TACTIC_RETREAT_MODE", 
+         "value" : "3", 
+         "opp" : "NotEqual"
+      }, 
+      "62bab0c4-da97-4590-b125-665699d4d92c" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-105434", 
+            "y" : "-94829"
+         }, 
+         "child" : [ 
+            "149fdebc-45d8-464f-8849-034a6b755b32"
+         ], 
+         "text" : "#Gexogen_Teammate.62bab0c4-da97-4590-b125-665699d4d92c"
+      }, 
+      "149fdebc-45d8-464f-8849-034a6b755b32" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-105552", 
+            "y" : "-94739"
+         }, 
+         "child" : [ 
+            "1f7bd22c-adcd-4a04-9cbd-4e55efb90784"
+         ], 
+         "key" : "__AI_TACTIC_RETREAT_MODE", 
+         "value" : "3"
+      }, 
+      "f1904dba-a031-41db-a8e4-7303935d5623" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-105200", 
+            "y" : "-94827"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "bda0b948-307d-4a9c-b162-5e97b352f044" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104888", 
+            "y" : "-95617"
+         }, 
+         "child" : [ 
+            "2b18e06b-d946-47db-9124-904252af7a36"
+         ], 
+         "text" : "#Gexogen_Teammate.bda0b948-307d-4a9c-b162-5e97b352f044"
+      }, 
+      "b02ae40b-cf62-4bde-ab9a-8de30ec0a114" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104660", 
+            "y" : "-95610"
+         }, 
+         "child" : [ 
+            "e8665e01-c2de-4465-b1fd-5d7955040aab"
+         ], 
+         "text" : "#Gexogen_Teammate.b02ae40b-cf62-4bde-ab9a-8de30ec0a114"
+      }, 
+      "e8665e01-c2de-4465-b1fd-5d7955040aab" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-104580", 
+            "y" : "-95530"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "ba2967ea-49ce-4004-b07b-7acc559447b3" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103875", 
+            "y" : "-96897"
+         }, 
+         "child" : [ 
+            "1a68039e-cd78-46cc-97d5-b33b44f18e42"
+         ], 
+         "text" : "#Gexogen_Teammate.ba2967ea-49ce-4004-b07b-7acc559447b3"
+      }, 
+      "1a68039e-cd78-46cc-97d5-b33b44f18e42" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103760", 
+            "y" : "-95176"
+         }, 
+         "child" : [ 
+            "31b61637-2a00-43b7-9b9c-b6baf00b2c16", 
+            "be2072b9-350d-4a4d-9caf-ef9a7bd964d8", 
+            "f0ce7571-3f0c-4b33-a151-b3b30eeb773a", 
+            "f807639f-ac49-47d1-8737-cec1e1c5a6b8", 
+            "cd3bbc00-1ef1-432b-a8ed-b8a60a67ac8b", 
+            "6f9c6db1-6f90-47ff-8e7b-abb37a093793"
+         ], 
+         "text" : "#Gexogen_Teammate.1a68039e-cd78-46cc-97d5-b33b44f18e42"
+      }, 
+      "31b61637-2a00-43b7-9b9c-b6baf00b2c16" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-104086", 
+            "y" : "-95046"
+         }, 
+         "child" : [ 
+            "c66af83f-a9ed-4d0c-b224-c65281e343b0", 
+            "12681149-2645-4216-93e0-62818220f7fe"
+         ], 
+         "key" : "__AI_TACTIC_ATTACK_MODE", 
+         "value" : "0", 
+         "opp" : "NotEqual"
+      }, 
+      "c66af83f-a9ed-4d0c-b224-c65281e343b0" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104216", 
+            "y" : "-94928"
+         }, 
+         "child" : [ 
+            "19fd43e9-9eb6-440b-8ef3-fa395ace967a"
+         ], 
+         "text" : "#Gexogen_Teammate.c66af83f-a9ed-4d0c-b224-c65281e343b0"
+      }, 
+      "19fd43e9-9eb6-440b-8ef3-fa395ace967a" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-104282", 
+            "y" : "-94846"
+         }, 
+         "child" : [ 
+            "1f7bd22c-adcd-4a04-9cbd-4e55efb90784"
+         ], 
+         "key" : "__AI_TACTIC_ATTACK_MODE", 
+         "value" : "0"
+      }, 
+      "12681149-2645-4216-93e0-62818220f7fe" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103978", 
+            "y" : "-94926"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "be2072b9-350d-4a4d-9caf-ef9a7bd964d8" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-104068", 
+            "y" : "-94872"
+         }, 
+         "child" : [ 
+            "4a103cfa-5b0a-42ec-8827-a4302810784b", 
+            "7a8ea7a2-c52e-47c6-9fe3-7bccb19fc3e1"
+         ], 
+         "key" : "__AI_TACTIC_ATTACK_MODE", 
+         "value" : "1", 
+         "opp" : "NotEqual"
+      }, 
+      "4a103cfa-5b0a-42ec-8827-a4302810784b" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104196", 
+            "y" : "-94752"
+         }, 
+         "child" : [ 
+            "01bb002c-db45-4fc6-b816-6e55f057b6b5"
+         ], 
+         "text" : "#Gexogen_Teammate.4a103cfa-5b0a-42ec-8827-a4302810784b"
+      }, 
+      "01bb002c-db45-4fc6-b816-6e55f057b6b5" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-104296", 
+            "y" : "-94638"
+         }, 
+         "child" : [ 
+            "1f7bd22c-adcd-4a04-9cbd-4e55efb90784"
+         ], 
+         "key" : "__AI_TACTIC_ATTACK_MODE", 
+         "value" : "1"
+      }, 
+      "7a8ea7a2-c52e-47c6-9fe3-7bccb19fc3e1" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103962", 
+            "y" : "-94750"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "f0ce7571-3f0c-4b33-a151-b3b30eeb773a" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-104056", 
+            "y" : "-94676"
+         }, 
+         "child" : [ 
+            "6aec065d-60a8-4c6a-8721-0baf5edd42e8", 
+            "55acf20b-6745-40ee-878e-7ac27d28265e"
+         ], 
+         "key" : "__AI_TACTIC_ATTACK_MODE", 
+         "value" : "2", 
+         "opp" : "NotEqual"
+      }, 
+      "6aec065d-60a8-4c6a-8721-0baf5edd42e8" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104186", 
+            "y" : "-94556"
+         }, 
+         "child" : [ 
+            "857baba0-96e4-4e3e-8083-14dcd3b34fab"
+         ], 
+         "text" : "#Gexogen_Teammate.6aec065d-60a8-4c6a-8721-0baf5edd42e8"
+      }, 
+      "857baba0-96e4-4e3e-8083-14dcd3b34fab" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-104368", 
+            "y" : "-94478"
+         }, 
+         "child" : [ 
+            "1f7bd22c-adcd-4a04-9cbd-4e55efb90784"
+         ], 
+         "key" : "__AI_TACTIC_ATTACK_MODE", 
+         "value" : "2"
+      }, 
+      "55acf20b-6745-40ee-878e-7ac27d28265e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103952", 
+            "y" : "-94554"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "f807639f-ac49-47d1-8737-cec1e1c5a6b8" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-104054", 
+            "y" : "-94492"
+         }, 
+         "child" : [ 
+            "29819216-6842-4dcb-b8a4-3f3a629f5952", 
+            "b2d4f17b-dea0-432f-b742-41db5e5f151c"
+         ], 
+         "key" : "__AI_TACTIC_ATTACK_MODE", 
+         "value" : "3", 
+         "opp" : "NotEqual"
+      }, 
+      "29819216-6842-4dcb-b8a4-3f3a629f5952" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104184", 
+            "y" : "-94372"
+         }, 
+         "child" : [ 
+            "59f37acf-a9ce-4d5d-b902-ae1b9865d4b6"
+         ], 
+         "text" : "#Gexogen_Teammate.29819216-6842-4dcb-b8a4-3f3a629f5952"
+      }, 
+      "59f37acf-a9ce-4d5d-b902-ae1b9865d4b6" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-104374", 
+            "y" : "-94300"
+         }, 
+         "child" : [ 
+            "1f7bd22c-adcd-4a04-9cbd-4e55efb90784"
+         ], 
+         "key" : "__AI_TACTIC_ATTACK_MODE", 
+         "value" : "3"
+      }, 
+      "b2d4f17b-dea0-432f-b742-41db5e5f151c" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103950", 
+            "y" : "-94370"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "cd3bbc00-1ef1-432b-a8ed-b8a60a67ac8b" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103724", 
+            "y" : "-94944"
+         }, 
+         "child" : [ 
+            "2b18e06b-d946-47db-9124-904252af7a36"
+         ], 
+         "text" : "#Gexogen_Teammate.cd3bbc00-1ef1-432b-a8ed-b8a60a67ac8b"
+      }, 
+      "6f9c6db1-6f90-47ff-8e7b-abb37a093793" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103468", 
+            "y" : "-94944"
+         }, 
+         "child" : [ 
+            "1ab33dd7-5aaf-4b77-a928-cc1594d97d1d"
+         ], 
+         "text" : "#Gexogen_Teammate.6f9c6db1-6f90-47ff-8e7b-abb37a093793"
+      }, 
+      "1ab33dd7-5aaf-4b77-a928-cc1594d97d1d" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-103388", 
+            "y" : "-94864"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "a75c013d-aebd-471c-b9b6-186dc5975dfa" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103659", 
+            "y" : "-96895"
+         }, 
+         "child" : [ 
+            "89f99cdf-7b9c-40b4-8d85-3050c9beff88"
+         ], 
+         "text" : "#Gexogen_Teammate.a75c013d-aebd-471c-b9b6-186dc5975dfa"
+      }, 
+      "89f99cdf-7b9c-40b4-8d85-3050c9beff88" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102418", 
+            "y" : "-94735"
+         }, 
+         "child" : [ 
+            "aecebe18-278c-4515-aded-3390eece4dcf", 
+            "1999c7d2-23da-4eae-b089-022d44d63b89", 
+            "8d7e6b4c-67da-48f9-8927-bea55d43752d", 
+            "b9421505-5892-49c6-970b-ec15c400d40c", 
+            "cb1458ab-6f5b-473d-acc9-ab49ad3ac791", 
+            "8b40319f-713d-4674-87b8-1a066b6ef0f0"
+         ], 
+         "text" : "#Gexogen_Teammate.89f99cdf-7b9c-40b4-8d85-3050c9beff88"
+      }, 
+      "aecebe18-278c-4515-aded-3390eece4dcf" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-102786", 
+            "y" : "-93905"
+         }, 
+         "child" : [ 
+            "5323db06-31cc-4161-a896-5596ca76cbc4", 
+            "68625b31-373c-4120-8d66-8dfeb471bd2b"
+         ], 
+         "key" : "__AI_TACTIC_HEAL_MODE", 
+         "value" : "0", 
+         "opp" : "NotEqual"
+      }, 
+      "5323db06-31cc-4161-a896-5596ca76cbc4" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102975", 
+            "y" : "-93784"
+         }, 
+         "child" : [ 
+            "45570c52-8045-4ae5-acc5-e2ce4dd2eeaa"
+         ], 
+         "text" : "Лечись, если ты просто ранена."
+      }, 
+      "45570c52-8045-4ae5-acc5-e2ce4dd2eeaa" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-102981", 
+            "y" : "-93695"
+         }, 
+         "child" : [ 
+            "1f7bd22c-adcd-4a04-9cbd-4e55efb90784"
+         ], 
+         "key" : "__AI_TACTIC_HEAL_MODE", 
+         "value" : "0"
+      }, 
+      "68625b31-373c-4120-8d66-8dfeb471bd2b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102678", 
+            "y" : "-93785"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "1999c7d2-23da-4eae-b089-022d44d63b89" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-102768", 
+            "y" : "-93731"
+         }, 
+         "child" : [ 
+            "0281cfd7-156b-4cd0-ab0f-f9561500dde2", 
+            "0cf9e4fd-febc-4dfd-9295-8ed10e4a29b6"
+         ], 
+         "key" : "__AI_TACTIC_HEAL_MODE", 
+         "value" : "1", 
+         "opp" : "NotEqual"
+      }, 
+      "0281cfd7-156b-4cd0-ab0f-f9561500dde2" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102973", 
+            "y" : "-93602"
+         }, 
+         "child" : [ 
+            "0e3e9d2e-7826-4845-9605-1074788168b5"
+         ], 
+         "text" : "#Gexogen_Teammate.0281cfd7-156b-4cd0-ab0f-f9561500dde2"
+      }, 
+      "0e3e9d2e-7826-4845-9605-1074788168b5" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-102974", 
+            "y" : "-93514"
+         }, 
+         "child" : [ 
+            "1f7bd22c-adcd-4a04-9cbd-4e55efb90784"
+         ], 
+         "key" : "__AI_TACTIC_HEAL_MODE", 
+         "value" : "1"
+      }, 
+      "0cf9e4fd-febc-4dfd-9295-8ed10e4a29b6" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102662", 
+            "y" : "-93609"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "8d7e6b4c-67da-48f9-8927-bea55d43752d" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-102756", 
+            "y" : "-93535"
+         }, 
+         "child" : [ 
+            "c802f1d5-f00d-4610-b104-ea8033a564ac", 
+            "5b6b9b78-35ac-482e-b9a2-2f13d19f43e0"
+         ], 
+         "key" : "__AI_TACTIC_HEAL_MODE", 
+         "value" : "2", 
+         "opp" : "NotEqual"
+      }, 
+      "c802f1d5-f00d-4610-b104-ea8033a564ac" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102961", 
+            "y" : "-93406"
+         }, 
+         "child" : [ 
+            "4fe3207c-2a06-4ab3-bc74-3e273b836825"
+         ], 
+         "text" : "Лечись, если ты легко ранена."
+      }, 
+      "4fe3207c-2a06-4ab3-bc74-3e273b836825" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-102991", 
+            "y" : "-93321"
+         }, 
+         "child" : [ 
+            "1f7bd22c-adcd-4a04-9cbd-4e55efb90784"
+         ], 
+         "key" : "__AI_TACTIC_HEAL_MODE", 
+         "value" : "2"
+      }, 
+      "5b6b9b78-35ac-482e-b9a2-2f13d19f43e0" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102652", 
+            "y" : "-93413"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "b9421505-5892-49c6-970b-ec15c400d40c" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-102754", 
+            "y" : "-93351"
+         }, 
+         "child" : [ 
+            "e5beeb55-631f-4490-abbc-f87eace8645e", 
+            "8a934eee-96e3-403b-866e-2437b4166670"
+         ], 
+         "key" : "__AI_TACTIC_HEAL_MODE", 
+         "value" : "3", 
+         "opp" : "NotEqual"
+      }, 
+      "e5beeb55-631f-4490-abbc-f87eace8645e" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102909", 
+            "y" : "-93218"
+         }, 
+         "child" : [ 
+            "849ab55b-8300-40fb-a456-9a0dc2d194f5"
+         ], 
+         "text" : "#Gexogen_Teammate.e5beeb55-631f-4490-abbc-f87eace8645e"
+      }, 
+      "849ab55b-8300-40fb-a456-9a0dc2d194f5" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-102950", 
+            "y" : "-93151"
+         }, 
+         "child" : [ 
+            "1f7bd22c-adcd-4a04-9cbd-4e55efb90784"
+         ], 
+         "key" : "__AI_TACTIC_HEAL_MODE", 
+         "value" : "3"
+      }, 
+      "8a934eee-96e3-403b-866e-2437b4166670" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102650", 
+            "y" : "-93229"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "cb1458ab-6f5b-473d-acc9-ab49ad3ac791" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102177", 
+            "y" : "-94112"
+         }, 
+         "child" : [ 
+            "2b18e06b-d946-47db-9124-904252af7a36"
+         ], 
+         "text" : "#Gexogen_Teammate.cb1458ab-6f5b-473d-acc9-ab49ad3ac791"
+      }, 
+      "8b40319f-713d-4674-87b8-1a066b6ef0f0" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101938", 
+            "y" : "-94106"
+         }, 
+         "child" : [ 
+            "194d6e28-0ff3-4644-a486-36ff3796fb13"
+         ], 
+         "text" : "#Gexogen_Teammate.8b40319f-713d-4674-87b8-1a066b6ef0f0"
+      }, 
+      "194d6e28-0ff3-4644-a486-36ff3796fb13" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-101878", 
+            "y" : "-94010"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "d5938cf7-39e4-4ffc-9eb5-e61a603e72cc" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103439", 
+            "y" : "-96887"
+         }, 
+         "child" : [ 
+            "42986cf8-b708-463a-bb25-ae81dadc5604"
+         ], 
+         "text" : "#Gexogen_Teammate.d5938cf7-39e4-4ffc-9eb5-e61a603e72cc"
+      }, 
+      "a766fcfc-e509-49f5-bfe8-3934083bcd78" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101034", 
+            "y" : "-96259"
+         }, 
+         "child" : [ 
+            "b474bf48-bc7b-4c4c-a9d2-6bec975b7eaa"
+         ], 
+         "text" : "У меня есть предложение."
+      }, 
+      "b474bf48-bc7b-4c4c-a9d2-6bec975b7eaa" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100526", 
+            "y" : "-96063"
+         }, 
+         "child" : [ 
+            "0f0c7558-a63e-4eac-850e-d3d7be65ea36", 
+            "c1d8a1df-8010-45bf-aafa-0f0d91e8f854", 
+            "b94ade91-3711-482f-ab13-b6b8c5eb6bf9"
+         ], 
+         "text" : "Что от меня требуется?"
+      }, 
+      "0f0c7558-a63e-4eac-850e-d3d7be65ea36" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100898", 
+            "y" : "-95947"
+         }, 
+         "child" : [ 
+            "9c427bf5-869b-4658-ad5b-aab325d12164"
+         ], 
+         "text" : "Оксана, постой пока тут, я на разведку."
+      }, 
+      "9c427bf5-869b-4658-ad5b-aab325d12164" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-104404", 
+            "y" : "-101155"
+         }, 
+         "child" : [ 
+            "fbc659d0-fb55-4090-867d-0a33fc611d98", 
+            "e332320c-f7ff-4256-9ca0-d81b7cb7c24a"
+         ], 
+         "text" : "Хорошо подожду, но только не долго. Не люблю сидеть на одном месте."
+      }, 
+      "fbc659d0-fb55-4090-867d-0a33fc611d98" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104628", 
+            "y" : "-100987"
+         }, 
+         "child" : [ 
+            "b54ccbe7-e0cf-4656-adf2-12ab353d4ca8"
+         ], 
+         "text" : "Хорошо, постараюсь побыстрее."
+      }, 
+      "b54ccbe7-e0cf-4656-adf2-12ab353d4ca8" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-104576", 
+            "y" : "-100908"
+         }, 
+         "child" : [ 
+            "454467f2-7f9f-44dc-9a39-d029962e8649"
+         ], 
+         "key" : "WAIT_ORDER"
+      }, 
+      "454467f2-7f9f-44dc-9a39-d029962e8649" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-104578", 
+            "y" : "-100828"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "e332320c-f7ff-4256-9ca0-d81b7cb7c24a" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104170", 
+            "y" : "-100982"
+         }, 
+         "child" : [ 
+            "8c7e4ea0-ad57-491b-934e-aa151b15e905"
+         ], 
+         "text" : "Это была шутка, пошли."
+      }, 
+      "8c7e4ea0-ad57-491b-934e-aa151b15e905" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-104170", 
+            "y" : "-100896"
+         }, 
+         "child" : [ 
+            "6f027c32-1f15-4a28-866f-69ab4893a882", 
+            "d9264170-edf1-42cc-8142-2a76155d680c"
+         ], 
+         "text" : "У тебя все хорошо? То подожди, то пошли. Долго думать будешь?"
+      }, 
+      "6f027c32-1f15-4a28-866f-69ab4893a882" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104328", 
+            "y" : "-100754"
+         }, 
+         "child" : [ 
+            "12ceae83-75b5-4d9a-bcdf-5cfd7b669b8b"
+         ], 
+         "text" : "Бывает. Сменим тему."
+      }, 
+      "d9264170-edf1-42cc-8142-2a76155d680c" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-104093", 
+            "y" : "-100750"
+         }, 
+         "child" : [ 
+            "5415beae-72d2-48d2-853b-1420e0a46557"
+         ], 
+         "text" : "Нам пора. Пошли."
+      }, 
+      "5415beae-72d2-48d2-853b-1420e0a46557" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-104030", 
+            "y" : "-100641"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "c1d8a1df-8010-45bf-aafa-0f0d91e8f854" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100322", 
+            "y" : "-95747", 
+            "comment" : "(перенос на А10)"
+         }, 
+         "child" : [ 
+            "99603d49-85df-40d1-af48-4c6649a37e5e"
+         ], 
+         "text" : "Думаю нам нужно разбежаться Оксана."
+      }, 
+      "99603d49-85df-40d1-af48-4c6649a37e5e" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-100316", 
+            "y" : "-95658", 
+            "comment" : "А10"
+         }, 
+         "child" : [ 
+            "6265ea76-f618-408c-9ca4-ccb8f2cddeaf", 
+            "4bccbe11-edb7-4d62-8c19-1a614af383ed"
+         ], 
+         "text" : "Я это было понятно сразу, что нам не попути. Пойду искать своих, среди чужих."
+      }, 
+      "6265ea76-f618-408c-9ca4-ccb8f2cddeaf" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100564", 
+            "y" : "-95511", 
+            "comment" : "(перенос на А6)"
+         }, 
+         "child" : [ 
+            "12ceae83-75b5-4d9a-bcdf-5cfd7b669b8b"
+         ], 
+         "text" : "Думаю это будет ошибкой, если ты уйдешь. Давай сменим тему?"
+      }, 
+      "4bccbe11-edb7-4d62-8c19-1a614af383ed" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100060", 
+            "y" : "-95498", 
+            "comment" : "(конец диалога)"
+         }, 
+         "child" : [ 
+            "8173bc92-2453-4651-b2b7-cee034c391a1"
+         ], 
+         "text" : "Удачи тебе Оксана. Доброго пути."
+      }, 
+      "8173bc92-2453-4651-b2b7-cee034c391a1" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-100023", 
+            "y" : "-95407"
+         }, 
+         "child" : [ 
+            "080e2f70-cc66-4d0a-bd37-3f488c215998"
+         ], 
+         "note_key" : "PH_OKSANA_OUT"
+      }, 
+      "080e2f70-cc66-4d0a-bd37-3f488c215998" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-100012", 
+            "y" : "-95343"
+         }, 
+         "child" : [ 
+            "aaaded85-35c3-4a25-8497-5a7ba11b52ce"
+         ]
+      }, 
+      "aaaded85-35c3-4a25-8497-5a7ba11b52ce" : { 
+         "class" : "CharacterCapsNode", 
+         "desc" : { 
+            "x" : "-100013", 
+            "y" : "-95294"
+         }, 
+         "child" : [ 
+            "0b2efb34-e03b-42f2-bf93-98fe3f605ad0"
+         ], 
+         "caps" : "None"
+      }, 
+      "0b2efb34-e03b-42f2-bf93-98fe3f605ad0" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-100010", 
+            "y" : "-95208"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "WAIT_ORDER"
+      }, 
+      "b94ade91-3711-482f-ab13-b6b8c5eb6bf9" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100194", 
+            "y" : "-95959"
+         }, 
+         "child" : [ 
+            "12ceae83-75b5-4d9a-bcdf-5cfd7b669b8b"
+         ], 
+         "text" : "#Gexogen_Teammate.b94ade91-3711-482f-ab13-b6b8c5eb6bf9"
+      }, 
+      "bc9bfc1f-0ab9-41d8-93e1-40164a2af7d2" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100408", 
+            "y" : "-98185", 
+            "comment" : "(перенос на А6)"
+         }, 
+         "child" : [ 
+            "12ceae83-75b5-4d9a-bcdf-5cfd7b669b8b"
+         ], 
+         "text" : "#Gexogen_Teammate.bc9bfc1f-0ab9-41d8-93e1-40164a2af7d2"
+      }, 
+      "5c310e65-fb2f-4be1-ac56-6239c92d8d05" : { 
+         "class" : "CompareKeyValueNode", 
+         "desc" : { 
+            "x" : "-100620", 
+            "y" : "-98773"
+         }, 
+         "child" : [ 
+            "0fe38cac-087c-4c63-af71-fe1203a84594", 
+            "26f4c9ac-9527-45e7-88da-9fe9ddb819a4"
+         ], 
+         "key" : "__AI_BEHAVIOR", 
+         "value" : "4", 
+         "opp" : "Equal"
+      }, 
+      "0fe38cac-087c-4c63-af71-fe1203a84594" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102742", 
+            "y" : "-98283", 
+            "comment" : "А2"
+         }, 
+         "child" : [ 
+            "8898eaba-25d2-4bd0-b43a-7aed286161c7", 
+            "4f22f3e0-58c9-44b7-9cb1-dd561ede6f49", 
+            "288d7768-8882-4ac9-9467-8a244858aa0d", 
+            "a766fcfc-e509-49f5-bfe8-3934083bcd78", 
+            "944c8111-c859-43d9-be15-bcaaec8519ea"
+         ], 
+         "text" : "Хорошая такитика, люблю быть рядом. Как подушка прям."
+      }, 
+      "8898eaba-25d2-4bd0-b43a-7aed286161c7" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103014", 
+            "y" : "-98146", 
+            "comment" : "(перенос на А8)"
+         }, 
+         "child" : [ 
+            "612ad239-4d8a-4882-9068-60b37104e134"
+         ], 
+         "text" : "Стой подальше от меня когда будем в бою."
+      }, 
+      "4f22f3e0-58c9-44b7-9cb1-dd561ede6f49" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102864", 
+            "y" : "-98046", 
+            "comment" : "(перенос на А9)"
+         }, 
+         "child" : [ 
+            "6e7085fa-faa7-4b05-9608-24aeff426152"
+         ], 
+         "text" : "При встречи с врагом отступай."
+      }, 
+      "6e7085fa-faa7-4b05-9608-24aeff426152" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-102332", 
+            "y" : "-97351"
+         }, 
+         "child" : [ 
+            "0cc472a8-ddab-4519-95f5-24a238785382"
+         ], 
+         "key" : "__AI_BEHAVIOR", 
+         "value" : "3"
+      }, 
+      "0cc472a8-ddab-4519-95f5-24a238785382" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102349", 
+            "y" : "-97267", 
+            "comment" : "А9"
+         }, 
+         "child" : [ 
+            "870ae823-ba3d-4bdc-88dd-56ce6a374468"
+         ], 
+         "text" : "Скучно, ну и ладно. Убегу грибы собирать, может клубнику найду,тогда с тобой не поделюсь."
+      }, 
+      "944c8111-c859-43d9-be15-bcaaec8519ea" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102414", 
+            "y" : "-98146", 
+            "comment" : "(перенос на А6)"
+         }, 
+         "child" : [ 
+            "12ceae83-75b5-4d9a-bcdf-5cfd7b669b8b"
+         ], 
+         "text" : "#Gexogen_Teammate.944c8111-c859-43d9-be15-bcaaec8519ea"
+      }, 
+      "26f4c9ac-9527-45e7-88da-9fe9ddb819a4" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101961", 
+            "y" : "-98299", 
+            "comment" : "А2"
+         }, 
+         "child" : [ 
+            "8a9bf774-9cc7-4e20-90c3-e83c2f1e7262", 
+            "44a95874-cdd6-487c-a0f6-6ad91d201b3a", 
+            "288d7768-8882-4ac9-9467-8a244858aa0d", 
+            "a766fcfc-e509-49f5-bfe8-3934083bcd78", 
+            "61b4a194-5f23-4b2a-a893-ff9ddcd48e87"
+         ], 
+         "text" : "Хорошо, поняла тебя, но это скучная тактика пенсионерки."
+      }, 
+      "8a9bf774-9cc7-4e20-90c3-e83c2f1e7262" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102179", 
+            "y" : "-98094", 
+            "comment" : "(перенос на А11)"
+         }, 
+         "child" : [ 
+            "de2adbc7-6a97-4312-8cb4-5fdd93dbf546"
+         ], 
+         "text" : "Держись ближе."
+      }, 
+      "44a95874-cdd6-487c-a0f6-6ad91d201b3a" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102035", 
+            "y" : "-97981", 
+            "comment" : "(перенос на А9)"
+         }, 
+         "child" : [ 
+            "6e7085fa-faa7-4b05-9608-24aeff426152"
+         ], 
+         "text" : "При встрече с врагом отступай."
+      }, 
+      "61b4a194-5f23-4b2a-a893-ff9ddcd48e87" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101585", 
+            "y" : "-98081", 
+            "comment" : "(перенос на А6)"
+         }, 
+         "child" : [ 
+            "12ceae83-75b5-4d9a-bcdf-5cfd7b669b8b"
+         ], 
+         "text" : "#Gexogen_Teammate.61b4a194-5f23-4b2a-a893-ff9ddcd48e87"
+      }, 
+      "60658627-c6df-4bcf-88c2-380324bc2a22" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100722", 
+            "y" : "-100270", 
+            "comment" : "(перенос на А4)"
+         }, 
+         "child" : [ 
+            "6d10372e-d78f-4952-a333-7245af1d7348"
+         ], 
+         "text" : "#Gexogen_Teammate.60658627-c6df-4bcf-88c2-380324bc2a22"
+      }, 
+      "6d10372e-d78f-4952-a333-7245af1d7348" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99305", 
+            "y" : "-101973", 
+            "comment" : "А4"
+         }, 
+         "child" : [ 
+            "db7527f7-9d68-487d-8278-e37e0ff52133"
+         ]
+      }, 
+      "db7527f7-9d68-487d-8278-e37e0ff52133" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-98665", 
+            "y" : "-101989"
+         }, 
+         "child" : [ 
+            "6a5a3b41-a9de-4a44-8dbc-b1e35e436b7e"
+         ]
+      }, 
+      "6a5a3b41-a9de-4a44-8dbc-b1e35e436b7e" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-98230", 
+            "y" : "-101913"
+         }, 
+         "child" : [ 
+            "22538266-fb25-4159-923d-cade9fbae9d3", 
+            "fc4ce147-036e-4b51-9a8b-904088b62922", 
+            "b8cf80a1-a58f-4b10-9ffe-83e3a6857d81", 
+            "e2639cd0-e1b6-42f5-823a-3aeddeb321ef", 
+            "03639eb5-a642-4ffd-ab88-e66a808c8ad6", 
+            "0a45ab1a-d1f0-4565-9e81-ac036510ee8e", 
+            "61da69c4-74b9-45a3-9263-3d4b68d32fe9"
+         ]
+      }, 
+      "22538266-fb25-4159-923d-cade9fbae9d3" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98797", 
+            "y" : "-101807", 
+            "comment" : "А13"
+         }, 
+         "child" : [ 
+            "f0f155e4-a561-4f9e-91c0-fad6de7d4fc8"
+         ], 
+         "text" : "Хорошо $PLAYER.NAME$ задавай. Только не много. А то за сегодня  я что-то устала."
+      }, 
+      "f0f155e4-a561-4f9e-91c0-fad6de7d4fc8" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-98329", 
+            "y" : "-101625"
+         }, 
+         "child" : [ 
+            "65df5049-390d-43f1-b19c-ef4283abf112", 
+            "752980c6-c7ed-4a57-8144-6f3bef80adc1", 
+            "fd7899e1-cefc-4452-9123-a64a002c0f93", 
+            "5599831a-9da5-41c4-9a20-8504ca51757f", 
+            "a6058b85-cd9d-4cb0-9309-5cb3f141993a"
+         ]
+      }, 
+      "65df5049-390d-43f1-b19c-ef4283abf112" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-99386", 
+            "y" : "-101605"
+         }, 
+         "child" : [ 
+            "5e3cab18-d8fa-477f-b2df-92640f75e3a5", 
+            "9a42fd75-42ff-4d7c-9c30-529f7f608a89"
+         ], 
+         "key" : "FIND_MY"
+      }, 
+      "5e3cab18-d8fa-477f-b2df-92640f75e3a5" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99607", 
+            "y" : "-101475"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "9a42fd75-42ff-4d7c-9c30-529f7f608a89" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99384", 
+            "y" : "-101470"
+         }, 
+         "child" : [ 
+            "f341e72d-eccf-475c-8bb7-f70e15bf31db"
+         ], 
+         "text" : "А как ты нас нашла?"
+      }, 
+      "f341e72d-eccf-475c-8bb7-f70e15bf31db" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99384", 
+            "y" : "-101397"
+         }, 
+         "child" : [ 
+            "ae27a618-fcf1-4509-be4b-41b3c6d59078"
+         ], 
+         "text" : "При встрече я тебе все рассказала $PLAYER.NAME$. Я из самых первых отрядов отправленых на исследования прилегаемой территории. Являюсь действующим скрытым агентом АТОМ. Мою Позицию раскрыли и пришлось прибегнуть к варианту Б. Найти других Агентов для возвращения на базу и получения дальнейших указаний."
+      }, 
+      "ae27a618-fcf1-4509-be4b-41b3c6d59078" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-99384", 
+            "y" : "-101278"
+         }, 
+         "child" : [ 
+            "cdd977b5-3e8f-40d1-aac5-2a1758934d9c"
+         ], 
+         "text" : "Это я помню, но как ты вышла именно на меня?"
+      }, 
+      "cdd977b5-3e8f-40d1-aac5-2a1758934d9c" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-99385", 
+            "y" : "-101202"
+         }, 
+         "child" : [ 
+            "ba1c13ca-3ffc-4fdf-8cf5-7a244b27aec5"
+         ], 
+         "text" : "Хм. Хорошо. Я тебя поняла. Была я на востоке отсюда, примено 3 дня пути на машине, я провалила задание по слежке и подставила группу под удар, возможно в живых осталась только я. Действовала согласно уставу. После того как меня раскрыли, я ушла подальше от точки проведения операции. В одном из поселков остановилась на пару дней, помогала чем могла, охота в основном. После приехали торговцы я к ним забилась в охрану каравана. После приехали в отрадное и я остановилась там. Выйти на твой след мне помогли в Отрадном, . Бармен был болтлив, а сестра его явно та еще штучка, напоила меня чем-то, чуть не померла. Тут они и проговорились про тебя, кто любит выпить на халяву с незнакомцами. Таких как мы, в нынешнее время, осталось немного."
+      }, 
+      "ba1c13ca-3ffc-4fdf-8cf5-7a244b27aec5" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-99316", 
+            "y" : "-100996"
+         }, 
+         "child" : [ 
+            "8e16dd35-8564-4053-b194-ca60653262c1", 
+            "a6058b85-cd9d-4cb0-9309-5cb3f141993a"
+         ], 
+         "key" : "FIND_MY"
+      }, 
+      "8e16dd35-8564-4053-b194-ca60653262c1" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-97937", 
+            "y" : "-100621", 
+            "comment" : "(перенос А33)"
+         }, 
+         "child" : [ 
+            "db7527f7-9d68-487d-8278-e37e0ff52133"
+         ], 
+         "text" : "Можно еще вопрос?"
+      }, 
+      "a6058b85-cd9d-4cb0-9309-5cb3f141993a" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-97667", 
+            "y" : "-101278", 
+            "comment" : "(конец диалога)"
+         }, 
+         "child" : [ 
+            "00fcfc40-4940-4285-8daf-9f9d9262bdd5"
+         ], 
+         "text" : "Надо двигаться дальше. Пошли."
+      }, 
+      "00fcfc40-4940-4285-8daf-9f9d9262bdd5" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-97550", 
+            "y" : "-101131"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "752980c6-c7ed-4a57-8144-6f3bef80adc1" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-98852", 
+            "y" : "-101450"
+         }, 
+         "child" : [ 
+            "3024f75b-2ad9-4be9-a050-e9f0081dfde6", 
+            "ec482799-1c16-4570-b598-ba2a43c0bd7a"
+         ], 
+         "key" : "FIND"
+      }, 
+      "3024f75b-2ad9-4be9-a050-e9f0081dfde6" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-98984", 
+            "y" : "-101309"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "ec482799-1c16-4570-b598-ba2a43c0bd7a" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98806", 
+            "y" : "-101320"
+         }, 
+         "child" : [ 
+            "84f01703-f73a-4994-b135-27989e022b8f"
+         ], 
+         "text" : "Откуда ты?"
+      }, 
+      "84f01703-f73a-4994-b135-27989e022b8f" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98806", 
+            "y" : "-101250"
+         }, 
+         "child" : [ 
+            "a2ca1e65-b89c-49b9-94a2-d90d5ae76be3"
+         ], 
+         "text" : "Вы $PLAYER.NAME$ хорошо осведомлены, что я не могу разглашать такую информацию. Вы проходили обучение и прекрасно знаете что можно говорить, а что нельзя. Но если так хотите, я могу что нибудь для Вас сочинить. Но врать и сочинять я не люблю."
+      }, 
+      "a2ca1e65-b89c-49b9-94a2-d90d5ae76be3" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98803", 
+            "y" : "-101117"
+         }, 
+         "child" : [ 
+            "f3ae2cf4-eaca-4da3-92fd-b5999a9ca96a"
+         ], 
+         "text" : "Но что-то же можешь рассказать?"
+      }, 
+      "f3ae2cf4-eaca-4da3-92fd-b5999a9ca96a" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98801", 
+            "y" : "-101039"
+         }, 
+         "child" : [ 
+            "49ab8df1-1fba-40f5-8d9a-6fa1e0b8f466"
+         ], 
+         "text" : "Ну хорошо. ты же не отстанешь пока не задавишь меня своими \"почемучками\". Отвечу сразу на все вопросы которые могут появится у тебя.  Цветы люблю, а так же оружие, и машины. Могу пить за компанию, но могу и не пить, зависит от настроения."
+      }, 
+      "49ab8df1-1fba-40f5-8d9a-6fa1e0b8f466" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-98729", 
+            "y" : "-100838"
+         }, 
+         "child" : [ 
+            "8e16dd35-8564-4053-b194-ca60653262c1", 
+            "a6058b85-cd9d-4cb0-9309-5cb3f141993a"
+         ], 
+         "key" : "FIND"
+      }, 
+      "fd7899e1-cefc-4452-9123-a64a002c0f93" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-98477", 
+            "y" : "-101502"
+         }, 
+         "child" : [ 
+            "bb121352-41ce-4ec9-8d2c-6f076e501386", 
+            "c38cba2c-7e87-4262-b0a6-a8c1ccb819b5"
+         ], 
+         "key" : "FAMILY"
+      }, 
+      "bb121352-41ce-4ec9-8d2c-6f076e501386" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-98554", 
+            "y" : "-101374"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "c38cba2c-7e87-4262-b0a6-a8c1ccb819b5" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98470", 
+            "y" : "-101282"
+         }, 
+         "child" : [ 
+            "1121c1e4-1b0d-46fd-8469-f063ad76078a"
+         ], 
+         "text" : "У тебя есть семья или родные?"
+      }, 
+      "1121c1e4-1b0d-46fd-8469-f063ad76078a" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98470", 
+            "y" : "-101199"
+         }, 
+         "child" : [ 
+            "90f14f93-3506-4a0e-9c23-337786035184"
+         ], 
+         "text" : "А у тебя $PLAYER.NAME$ ?"
+      }, 
+      "90f14f93-3506-4a0e-9c23-337786035184" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98469", 
+            "y" : "-101137"
+         }, 
+         "child" : [ 
+            "e126e163-2491-4732-979d-e294471456e7"
+         ], 
+         "text" : "Хороший вопрос. Мы не можем разглашать информацию - это я помню. Но всё же."
+      }, 
+      "e126e163-2491-4732-979d-e294471456e7" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98472", 
+            "y" : "-101041"
+         }, 
+         "child" : [ 
+            "8f19fdd1-b5b8-4aa3-a9c9-65c73dd58cca"
+         ], 
+         "text" : "[Оксана вам улыбается. скрестила руки. и ожидает следующего вопроса]"
+      }, 
+      "8f19fdd1-b5b8-4aa3-a9c9-65c73dd58cca" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-98416", 
+            "y" : "-100933"
+         }, 
+         "child" : [ 
+            "8e16dd35-8564-4053-b194-ca60653262c1", 
+            "a6058b85-cd9d-4cb0-9309-5cb3f141993a"
+         ], 
+         "key" : "FAMILY"
+      }, 
+      "5599831a-9da5-41c4-9a20-8504ca51757f" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-98124", 
+            "y" : "-101484"
+         }, 
+         "child" : [ 
+            "71b7dfae-2783-412e-9718-0d4abc575164", 
+            "c055eb2f-ff44-423d-8d02-2758e2a48364"
+         ], 
+         "key" : "END_GAME"
+      }, 
+      "71b7dfae-2783-412e-9718-0d4abc575164" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-98235", 
+            "y" : "-101371"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "c055eb2f-ff44-423d-8d02-2758e2a48364" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98094", 
+            "y" : "-101327"
+         }, 
+         "child" : [ 
+            "a039062d-d229-4354-85c3-094817f205f5"
+         ], 
+         "text" : "Что будешь делать когда выполним задание?"
+      }, 
+      "a039062d-d229-4354-85c3-094817f205f5" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98096", 
+            "y" : "-101252"
+         }, 
+         "child" : [ 
+            "ba5ed1e3-3907-45d9-bcf7-1073bed115da"
+         ], 
+         "text" : "Возьму новое задание $PLAYER.NAME$. Организую свой отряд и направлюсь глубоко на запад."
+      }, 
+      "ba5ed1e3-3907-45d9-bcf7-1073bed115da" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98095", 
+            "y" : "-101154"
+         }, 
+         "child" : [ 
+            "b1dfeee5-41bb-4ebb-9f95-8ea52077be4a"
+         ], 
+         "text" : "А что там на западе?"
+      }, 
+      "b1dfeee5-41bb-4ebb-9f95-8ea52077be4a" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98092", 
+            "y" : "-101097"
+         }, 
+         "child" : [ 
+            "79fb6b5c-3451-4997-962c-4f90c10c973c"
+         ], 
+         "text" : "Вот и мне интересно, что же там теперь. Может они сбили наши ракеты и выжили, а у нас тут такая разруха?"
+      }, 
+      "79fb6b5c-3451-4997-962c-4f90c10c973c" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-98093", 
+            "y" : "-100996"
+         }, 
+         "child" : [ 
+            "d2f155bc-e6f7-4217-a205-6911c1a0cb0a"
+         ], 
+         "text" : "Интересное предположение, но это значит Атом предоставляет ложную информацию."
+      }, 
+      "d2f155bc-e6f7-4217-a205-6911c1a0cb0a" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98092", 
+            "y" : "-100903"
+         }, 
+         "child" : [ 
+            "51cd7a7a-8358-4f97-94df-74021fa6c1bb", 
+            "a6058b85-cd9d-4cb0-9309-5cb3f141993a"
+         ], 
+         "text" : "Никому нельзя верить $PLAYER.NAME$ никому. У каждого своя голова на плечах."
+      }, 
+      "51cd7a7a-8358-4f97-94df-74021fa6c1bb" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-98025", 
+            "y" : "-100773"
+         }, 
+         "child" : [ 
+            "8e16dd35-8564-4053-b194-ca60653262c1", 
+            "a6058b85-cd9d-4cb0-9309-5cb3f141993a"
+         ], 
+         "key" : "END_GAME"
+      }, 
+      "fc4ce147-036e-4b51-9a8b-904088b62922" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98579", 
+            "y" : "-101805", 
+            "comment" : "А13"
+         }, 
+         "child" : [ 
+            "f0f155e4-a561-4f9e-91c0-fad6de7d4fc8"
+         ], 
+         "text" : "Да $PLAYER.NAME$ задавай. Ток побыстрее, а то я сейчас немного занята."
+      }, 
+      "b8cf80a1-a58f-4b10-9ffe-83e3a6857d81" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98362", 
+            "y" : "-101805", 
+            "comment" : "А13"
+         }, 
+         "child" : [ 
+            "f0f155e4-a561-4f9e-91c0-fad6de7d4fc8"
+         ], 
+         "text" : "Хм.. ну хорошо $PLAYER.NAME$ задавай. Хотя какой в этом смысл?"
+      }, 
+      "e2639cd0-e1b6-42f5-823a-3aeddeb321ef" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-98143", 
+            "y" : "-101807", 
+            "comment" : "А13"
+         }, 
+         "child" : [ 
+            "f0f155e4-a561-4f9e-91c0-fad6de7d4fc8"
+         ], 
+         "text" : "Погода сегодня отличная $PLAYER.NAME$ так что задавай."
+      }, 
+      "03639eb5-a642-4ffd-ab88-e66a808c8ad6" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-97924", 
+            "y" : "-101806", 
+            "comment" : "А13"
+         }, 
+         "child" : [ 
+            "f0f155e4-a561-4f9e-91c0-fad6de7d4fc8"
+         ], 
+         "text" : "Сегодня меня что-то тянет на болтовню $PLAYER.NAME$. Слушаю"
+      }, 
+      "0a45ab1a-d1f0-4565-9e81-ac036510ee8e" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-97702", 
+            "y" : "-101804", 
+            "comment" : "А13"
+         }, 
+         "child" : [ 
+            "f0f155e4-a561-4f9e-91c0-fad6de7d4fc8"
+         ], 
+         "text" : "Конечно задавай, ты же не отстанешь пока не задашь все свои вопросы."
+      }, 
+      "61da69c4-74b9-45a3-9263-3d4b68d32fe9" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-97400", 
+            "y" : "-102164"
+         }, 
+         "child" : [ 
+            "6a5a3b41-a9de-4a44-8dbc-b1e35e436b7e", 
+            "ba2af6bb-780d-40bd-a590-29ac42b3a1ba"
+         ], 
+         "key" : "FUTURE"
+      }, 
+      "ba2af6bb-780d-40bd-a590-29ac42b3a1ba" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-97236", 
+            "y" : "-102062"
+         }, 
+         "child" : [ 
+            "38416549-ef92-4e6d-a0b7-49cb0ad798b9"
+         ], 
+         "key" : "FUTURE"
+      }, 
+      "38416549-ef92-4e6d-a0b7-49cb0ad798b9" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-97222", 
+            "y" : "-101980", 
+            "comment" : "А13"
+         }, 
+         "child" : [ 
+            "974cfe68-742d-4775-ba63-1ae94074a321", 
+            "da14c025-0c59-4549-a7cc-87d4e325625c", 
+            "8e16dd35-8564-4053-b194-ca60653262c1", 
+            "a6058b85-cd9d-4cb0-9309-5cb3f141993a"
+         ], 
+         "text" : "Так музыки не хватает. Был бы плеер на ядерных батарейках или смартфон. Стало бы легче."
+      }, 
+      "974cfe68-742d-4775-ba63-1ae94074a321" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-97156", 
+            "y" : "-101807", 
+            "comment" : "(конец диалога)"
+         }, 
+         "child" : [ 
+            "01685e94-30c0-45b1-843b-60921535d82f"
+         ], 
+         "text" : "Ты про что говоришь? Что такое смартфон?"
+      }, 
+      "01685e94-30c0-45b1-843b-60921535d82f" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-97160", 
+            "y" : "-101695", 
+            "comment" : "А13"
+         }, 
+         "child" : [ 
+            "dc230c9f-77f7-493c-a7d1-e154f45a8999", 
+            "8e16dd35-8564-4053-b194-ca60653262c1", 
+            "a6058b85-cd9d-4cb0-9309-5cb3f141993a"
+         ], 
+         "text" : "Я до войны была Агентом, зарубежом. У них много подобного оборудования было. Это персональное мобильное коммуникационное устройство с большим функционалом. Из примичательного, можно было слушать аудиозаписи и считать на калькуляторе. Удобное было. Не хватает его."
+      }, 
+      "dc230c9f-77f7-493c-a7d1-e154f45a8999" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-96506", 
+            "y" : "-101730"
+         }, 
+         "child" : [ 
+            "5e68fd55-b13d-4910-b876-d47236035bc1"
+         ], 
+         "text" : "А плеер это что?"
+      }, 
+      "5e68fd55-b13d-4910-b876-d47236035bc1" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-96899", 
+            "y" : "-101702", 
+            "comment" : "А13"
+         }, 
+         "child" : [ 
+            "333949a3-00a5-4f74-867c-d50e030c1ebf", 
+            "8e16dd35-8564-4053-b194-ca60653262c1", 
+            "a6058b85-cd9d-4cb0-9309-5cb3f141993a"
+         ], 
+         "text" : "Странный агент ты. Про кассетные плееры не вкурсе? Обучение лучше проходить надо было. Стандартное оборудование зарубежом, используемое для прослушки аудиокассет."
+      }, 
+      "333949a3-00a5-4f74-867c-d50e030c1ebf" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-96498", 
+            "y" : "-101559"
+         }, 
+         "child" : [ 
+            "01685e94-30c0-45b1-843b-60921535d82f"
+         ], 
+         "text" : "Хорошо, а тогда что такое смартфон?"
+      }, 
+      "da14c025-0c59-4549-a7cc-87d4e325625c" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-96913", 
+            "y" : "-101808"
+         }, 
+         "child" : [ 
+            "5e68fd55-b13d-4910-b876-d47236035bc1"
+         ], 
+         "text" : "Что за иностранщина? Какой еще плеер?"
+      }, 
+      "f69729fb-c484-415b-a25b-ba16695b7a26" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100488", 
+            "y" : "-100269", 
+            "comment" : "(конец диалога)"
+         }, 
+         "child" : [ 
+            "ada37c09-609e-4d06-9e63-c72e4ead00b1"
+         ], 
+         "text" : "#Gexogen_Teammate.f69729fb-c484-415b-a25b-ba16695b7a26"
+      }, 
+      "ada37c09-609e-4d06-9e63-c72e4ead00b1" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-100435", 
+            "y" : "-100184"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "95811dd5-3afb-4a1b-8b5c-c512e42e242e" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103944", 
+            "y" : "-98280", 
+            "comment" : "(конец диалога)"
+         }, 
+         "child" : [ 
+            "cb7759d1-0463-49ba-bddf-9452b692b26b"
+         ], 
+         "text" : "#Gexogen_Teammate.95811dd5-3afb-4a1b-8b5c-c512e42e242e"
+      }, 
+      "cb7759d1-0463-49ba-bddf-9452b692b26b" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-103888", 
+            "y" : "-98206"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "e5f80e4f-a39f-47c8-b46c-a5cc04ee583a" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102011", 
+            "y" : "-98699"
+         }, 
+         "child" : [ 
+            "729eabef-d3c5-42f6-894d-79dda2086c59"
+         ], 
+         "text" : "#Gexogen_Teammate.e5f80e4f-a39f-47c8-b46c-a5cc04ee583a"
+      }, 
+      "729eabef-d3c5-42f6-894d-79dda2086c59" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102386", 
+            "y" : "-98758", 
+            "comment" : "(конец диалога)"
+         }, 
+         "child" : [ 
+            "2bebef9b-daa2-41b2-9bc5-e261eb47da58"
+         ], 
+         "text" : "#Gexogen_Teammate.729eabef-d3c5-42f6-894d-79dda2086c59"
+      }, 
+      "2bebef9b-daa2-41b2-9bc5-e261eb47da58" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-102207", 
+            "y" : "-98568"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "c88e0dc4-7e41-4323-a61b-c8504f8022f2" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101962", 
+            "y" : "-99025"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "4a71c1b1-0d4c-4417-afe5-5615cb6ae435" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-101736", 
+            "y" : "-99045"
+         }, 
+         "child" : [ 
+            "86b5ee5d-df07-4f7d-a720-41d519c738ec", 
+            "42357e1a-7897-4f3f-9f8f-b8fe594dd4c0"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "MedKit"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "86b5ee5d-df07-4f7d-a720-41d519c738ec" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101788", 
+            "y" : "-98825", 
+            "comment" : "(перенос на А7)"
+         }, 
+         "child" : [ 
+            "43e60a8d-3eee-46bf-93be-d866af07258f"
+         ], 
+         "text" : "#Gexogen_Teammate.86b5ee5d-df07-4f7d-a720-41d519c738ec"
+      }, 
+      "43e60a8d-3eee-46bf-93be-d866af07258f" : { 
+         "class" : "InventoryHasItemNode", 
+         "desc" : { 
+            "x" : "-101752", 
+            "y" : "-98675"
+         }, 
+         "child" : [ 
+            "afb93c53-62cb-4934-a7f0-a93119ebb973", 
+            "e5f80e4f-a39f-47c8-b46c-a5cc04ee583a"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "MedKit"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "afb93c53-62cb-4934-a7f0-a93119ebb973" : { 
+         "class" : "InventoryRemoveItemNode", 
+         "desc" : { 
+            "x" : "-104082", 
+            "y" : "-98777"
+         }, 
+         "child" : [ 
+            "31f37963-efae-4c37-be37-89e3c0f8e200"
+         ], 
+         "item" : { 
+            "class" : "Consumable", 
+            "count" : "1", 
+            "proto" : "MedKit"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "31f37963-efae-4c37-be37-89e3c0f8e200" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-104089", 
+            "y" : "-98651", 
+            "comment" : "А7"
+         }, 
+         "child" : [ 
+            "68675d0a-aff4-4fe8-aca7-71885215e7dd"
+         ], 
+         "text" : "Целую аптечку на меня, вот это мило."
+      }, 
+      "68675d0a-aff4-4fe8-aca7-71885215e7dd" : { 
+         "class" : "CharacterAddEffectNode", 
+         "desc" : { 
+            "x" : "-104048", 
+            "y" : "-98564"
+         }, 
+         "child" : [ 
+            "69c4f285-96e3-4b91-b472-7611d5f53225"
+         ], 
+         "proto" : "MedKit"
+      }, 
+      "42357e1a-7897-4f3f-9f8f-b8fe594dd4c0" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101602", 
+            "y" : "-98915"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "58100871-299a-4800-bdef-c9144955e835" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103591", 
+            "y" : "-99222", 
+            "comment" : "(перенос на А6)"
+         }, 
+         "child" : [ 
+            "12ceae83-75b5-4d9a-bcdf-5cfd7b669b8b"
+         ], 
+         "text" : "Сменим тему."
+      }, 
+      "b58dd774-c0ec-452b-9b4e-9fc824f9f7e9" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103286", 
+            "y" : "-99209", 
+            "comment" : "(конец диалога)"
+         }, 
+         "child" : [ 
+            "e45929e9-3e7e-4170-8f4b-1f467ea02316"
+         ], 
+         "text" : "Вот и славно. [уйти]"
+      }, 
+      "e45929e9-3e7e-4170-8f4b-1f467ea02316" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-103232", 
+            "y" : "-99153"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "e041c50a-0805-404b-86ac-0ec15897ebec" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102555", 
+            "y" : "-99264", 
+            "comment" : "А1"
+         }, 
+         "child" : [ 
+            "d008b075-56a9-42db-afba-5d549a3aa9de", 
+            "4a71c1b1-0d4c-4417-afe5-5615cb6ae435", 
+            "d5ec2d6d-6ecd-4f3a-be84-13ff6ae2ffe9", 
+            "729eabef-d3c5-42f6-894d-79dda2086c59"
+         ], 
+         "text" : "Терпимо, но могло быть и лучше. [h]$CHARACTER.HP$/$CHARACTER.MAXHP$[/h]"
+      }, 
+      "d5ec2d6d-6ecd-4f3a-be84-13ff6ae2ffe9" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102712", 
+            "y" : "-99036", 
+            "comment" : "(перенос на А6)"
+         }, 
+         "child" : [ 
+            "12ceae83-75b5-4d9a-bcdf-5cfd7b669b8b"
+         ], 
+         "text" : "#Gexogen_Teammate.d5ec2d6d-6ecd-4f3a-be84-13ff6ae2ffe9"
+      }, 
+      "3bb71c32-7c33-4b78-a90a-3774a39bdff6" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102104", 
+            "y" : "-99462", 
+            "comment" : "А1"
+         }, 
+         "child" : [ 
+            "d008b075-56a9-42db-afba-5d549a3aa9de", 
+            "4a71c1b1-0d4c-4417-afe5-5615cb6ae435", 
+            "64fd6b65-4dfa-4bb7-b276-30f158d947dd", 
+            "3ef23884-ef01-4f94-929c-9e2f0b398933"
+         ], 
+         "text" : "Раны сильные, $PLAYER.NAME$!.. От медицинской помощи не откажусь. [f]$CHARACTER.HP$/$CHARACTER.MAXHP$[/f]"
+      }, 
+      "64fd6b65-4dfa-4bb7-b276-30f158d947dd" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101634", 
+            "y" : "-99287", 
+            "comment" : "(перенос на А6)"
+         }, 
+         "child" : [ 
+            "12ceae83-75b5-4d9a-bcdf-5cfd7b669b8b"
+         ], 
+         "text" : "#Gexogen_Teammate.64fd6b65-4dfa-4bb7-b276-30f158d947dd"
+      }, 
+      "3ef23884-ef01-4f94-929c-9e2f0b398933" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101251", 
+            "y" : "-99277", 
+            "comment" : "(конец диалога)"
+         }, 
+         "child" : [ 
+            "57831a37-2048-456b-a7fc-1dc83001604d"
+         ], 
+         "text" : "#Gexogen_Teammate.3ef23884-ef01-4f94-929c-9e2f0b398933"
+      }, 
+      "57831a37-2048-456b-a7fc-1dc83001604d" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-101199", 
+            "y" : "-99173"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "f7ca0a5c-cf51-4644-b4de-c6671e83f8be" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102991", 
+            "y" : "-100204", 
+            "comment" : "(перенос на А2)"
+         }, 
+         "child" : [ 
+            "42986cf8-b708-463a-bb25-ae81dadc5604"
+         ], 
+         "text" : "#Gexogen_Teammate.f7ca0a5c-cf51-4644-b4de-c6671e83f8be"
+      }, 
+      "420237d2-6f40-4923-97b5-219f0b6a51de" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102658", 
+            "y" : "-100108", 
+            "comment" : "(перенос на А4)"
+         }, 
+         "child" : [ 
+            "6d10372e-d78f-4952-a333-7245af1d7348"
+         ], 
+         "text" : "#Gexogen_Teammate.420237d2-6f40-4923-97b5-219f0b6a51de"
+      }, 
+      "c362a663-0760-4a3d-858f-7857dec7ea4b" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102515", 
+            "y" : "-100196", 
+            "comment" : "(конец диалога)"
+         }, 
+         "child" : [ 
+            "127bc3ba-b39c-4fc3-a850-5eb434f1e5e3"
+         ], 
+         "text" : "#Gexogen_Teammate.c362a663-0760-4a3d-858f-7857dec7ea4b"
+      }, 
+      "127bc3ba-b39c-4fc3-a850-5eb434f1e5e3" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-102350", 
+            "y" : "-100076"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "ba4685e6-bad5-4ad8-a7d4-5d951b1a4459" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101943", 
+            "y" : "-100796"
+         }, 
+         "child" : [ 
+            "dfc4e3e4-02a2-4ee7-af20-e395cfc4f48f"
+         ], 
+         "text" : "[Вы заметили что Оксану  зацепили в последних стычках. Видны садины и порезы.]"
+      }, 
+      "dfc4e3e4-02a2-4ee7-af20-e395cfc4f48f" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101943", 
+            "y" : "-100673"
+         }, 
+         "child" : [ 
+            "2bad5c95-9ad0-4aa6-b099-551dee6b477a"
+         ]
+      }, 
+      "2bad5c95-9ad0-4aa6-b099-551dee6b477a" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101944", 
+            "y" : "-100613"
+         }, 
+         "child" : [ 
+            "74fd6e51-4971-4f42-9e90-c07b794bedb0", 
+            "5a3d6e04-86c0-4269-86c4-8394a54535c6", 
+            "fee52569-eb20-440c-b6ad-9ae1c652fcc4", 
+            "648b2077-0e40-4157-8791-914eb8e9f217", 
+            "6784e9ee-a8bf-4632-aedf-0399eb8722ac"
+         ], 
+         "text" : "Да $PLAYER.NAME$, что такое. На царапины не обращай внимания, до свадьбы заживёт."
+      }, 
+      "74fd6e51-4971-4f42-9e90-c07b794bedb0" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102325", 
+            "y" : "-100339", 
+            "comment" : "(перенос на А1)"
+         }, 
+         "child" : [ 
+            "3ebdcfae-8ea1-4c6b-8329-b9a171f9220c"
+         ], 
+         "text" : "#Gexogen_Teammate.74fd6e51-4971-4f42-9e90-c07b794bedb0"
+      }, 
+      "5a3d6e04-86c0-4269-86c4-8394a54535c6" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102049", 
+            "y" : "-100258", 
+            "comment" : "(перенос на А2)"
+         }, 
+         "child" : [ 
+            "42986cf8-b708-463a-bb25-ae81dadc5604"
+         ], 
+         "text" : "#Gexogen_Teammate.5a3d6e04-86c0-4269-86c4-8394a54535c6"
+      }, 
+      "648b2077-0e40-4157-8791-914eb8e9f217" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101837", 
+            "y" : "-100309", 
+            "comment" : "(перенос на А4)"
+         }, 
+         "child" : [ 
+            "6d10372e-d78f-4952-a333-7245af1d7348"
+         ], 
+         "text" : "#Gexogen_Teammate.648b2077-0e40-4157-8791-914eb8e9f217"
+      }, 
+      "6784e9ee-a8bf-4632-aedf-0399eb8722ac" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101610", 
+            "y" : "-100317", 
+            "comment" : "(конец диалога)"
+         }, 
+         "child" : [ 
+            "fd6de604-fa4b-40ef-af88-af5deb4612b9"
+         ], 
+         "text" : "#Gexogen_Teammate.6784e9ee-a8bf-4632-aedf-0399eb8722ac"
+      }, 
+      "fd6de604-fa4b-40ef-af88-af5deb4612b9" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-101537", 
+            "y" : "-100239"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "7b8761e9-4ef5-403f-bacb-3931346718d1" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101561", 
+            "y" : "-101016"
+         }, 
+         "child" : [ 
+            "300368cd-67d8-440b-830b-a7ae9596a6f2"
+         ], 
+         "text" : "[Вы видите что Оксана сильно ранена и ей требуется медицинская помощь. Она  делает вид что всё хорошо.]"
+      }, 
+      "300368cd-67d8-440b-830b-a7ae9596a6f2" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101331", 
+            "y" : "-100840"
+         }, 
+         "child" : [ 
+            "85bade24-d0ac-46d1-968a-747be720c60d"
+         ]
+      }, 
+      "85bade24-d0ac-46d1-968a-747be720c60d" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101184", 
+            "y" : "-100742"
+         }, 
+         "child" : [ 
+            "fee52569-eb20-440c-b6ad-9ae1c652fcc4", 
+            "b9cbbdc9-6215-4bc6-b330-947aceca9bb5", 
+            "0bad49e9-4302-4964-a891-602ff05a95c8", 
+            "60658627-c6df-4bcf-88c2-380324bc2a22", 
+            "f69729fb-c484-415b-a25b-ba16695b7a26"
+         ], 
+         "text" : "Чего тебе $PLAYER.NAME$? Я сейчас не в духе. Если есть лишний бинт, то не откажусь."
+      }, 
+      "73c68547-3a01-4ecb-90ff-16d009643a9e" : { 
+         "class" : "AddKeyValueNode", 
+         "desc" : { 
+            "x" : "-101851", 
+            "y" : "-101561"
+         }, 
+         "child" : [ 
+            "ce0b8eb7-66e2-4790-a2bb-cbb4f523af75"
+         ], 
+         "key" : "__AI_BEHAVIOR", 
+         "value" : "0"
+      }, 
+      "916df84f-3b4e-4617-a2dc-09152d52df37" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-100620", 
+            "y" : "-98183", 
+            "comment" : "(перенос в Бартер)"
+         }, 
+         "child" : [ 
+            "b0134912-3881-4585-bae3-c5f6cf50e48f"
+         ], 
+         "text" : "#Gexogen_Teammate.916df84f-3b4e-4617-a2dc-09152d52df37"
+      }, 
+      "b0134912-3881-4585-bae3-c5f6cf50e48f" : { 
+         "class" : "BarterBeginNode", 
+         "desc" : { 
+            "x" : "-100555", 
+            "y" : "-98051"
+         }, 
+         "child" : [ 
+            "519edacf-8dcb-4532-9d79-26ad3d4e679b"
+         ]
+      }, 
+      "503fa98c-4cd2-4ab0-b679-6601356348b9" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-101885", 
+            "y" : "-98081", 
+            "comment" : "(перенос в Бартер)"
+         }, 
+         "child" : [ 
+            "9638938b-3e51-4774-9791-4a1f91fbfe19"
+         ], 
+         "text" : "#Gexogen_Teammate.503fa98c-4cd2-4ab0-b679-6601356348b9"
+      }, 
+      "9638938b-3e51-4774-9791-4a1f91fbfe19" : { 
+         "class" : "BarterBeginNode", 
+         "desc" : { 
+            "x" : "-101701", 
+            "y" : "-97841"
+         }, 
+         "child" : [ 
+            "26f4c9ac-9527-45e7-88da-9fe9ddb819a4"
+         ]
+      }, 
+      "b8cdf12f-f8aa-4206-bbce-407c78aef1a9" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102656", 
+            "y" : "-98105", 
+            "comment" : "(перенос в Бартер)"
+         }, 
+         "child" : [ 
+            "591da3d6-2357-45f3-a86f-edfe658cfcd1"
+         ], 
+         "text" : "#Gexogen_Teammate.b8cdf12f-f8aa-4206-bbce-407c78aef1a9"
+      }, 
+      "591da3d6-2357-45f3-a86f-edfe658cfcd1" : { 
+         "class" : "BarterBeginNode", 
+         "desc" : { 
+            "x" : "-102542", 
+            "y" : "-97925"
+         }, 
+         "child" : [ 
+            "0fe38cac-087c-4c63-af71-fe1203a84594"
+         ]
+      }
+   }, 
+   "entry" : "9f55b546-ab8d-4f03-9d13-719d5808ef3f"
+}

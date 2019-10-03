@@ -1,0 +1,248 @@
+{ 
+   "states" : { 
+      "6ce8c730-7ecb-41b4-9730-ea9e7644943e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101269", 
+            "y" : "-101083"
+         }, 
+         "child" : [ 
+            "3d1d912a-a3e3-4b5f-ab44-34ab4f795ecd"
+         ]
+      }, 
+      "3d1d912a-a3e3-4b5f-ab44-34ab4f795ecd" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101262", 
+            "y" : "-100903"
+         }, 
+         "child" : [ 
+            "01b53493-e858-4fd4-a15d-39500d026876", 
+            "4c28939a-229d-450c-a9ea-e9984fb9c8c9"
+         ]
+      }, 
+      "01b53493-e858-4fd4-a15d-39500d026876" : { 
+         "class" : "CharacterInBattleNode", 
+         "desc" : { 
+            "x" : "-101758", 
+            "y" : "-100830"
+         }, 
+         "child" : [ 
+            "bf8a482f-b088-4fb8-9f9d-5c27833e56a1", 
+            "bb1d0952-cbfe-41ca-b3ef-f1c985a8653c"
+         ]
+      }, 
+      "bf8a482f-b088-4fb8-9f9d-5c27833e56a1" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101899", 
+            "y" : "-100715"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "bb1d0952-cbfe-41ca-b3ef-f1c985a8653c" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-101663", 
+            "y" : "-100710"
+         }, 
+         "child" : [ 
+            "c3033543-6566-48b8-9371-a0f423d30da6", 
+            "146f132f-cff2-4f02-84a0-7a7d4f2b2919"
+         ], 
+         "note_key" : "PH_OKSANA_OUT"
+      }, 
+      "c3033543-6566-48b8-9371-a0f423d30da6" : { 
+         "class" : "CharacterMoveToNode", 
+         "desc" : { 
+            "x" : "-101681", 
+            "y" : "-100588"
+         }, 
+         "child" : [ 
+            "08777d6e-8b18-4b76-a9bf-df15e2adb208"
+         ], 
+         "pointName" : "ZoneOutPoint", 
+         "waitEnd" : "true", 
+         "relative" : "false", 
+         "run" : "false", 
+         "keepCourse" : "true"
+      }, 
+      "08777d6e-8b18-4b76-a9bf-df15e2adb208" : { 
+         "class" : "CharacterInOutNode", 
+         "desc" : { 
+            "x" : "-101675", 
+            "y" : "-100497"
+         }, 
+         "child" : [ 
+         ], 
+         "active" : "false", 
+         "effectDuration" : "1.5"
+      }, 
+      "146f132f-cff2-4f02-84a0-7a7d4f2b2919" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101510", 
+            "y" : "-100587"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "4c28939a-229d-450c-a9ea-e9984fb9c8c9" : { 
+         "class" : "CharacterStateNode", 
+         "desc" : { 
+            "x" : "-101162", 
+            "y" : "-100773"
+         }, 
+         "child" : [ 
+            "b3e6965b-eb1b-4218-a551-fdb967b6ace7"
+         ], 
+         "stateName" : ""
+      }, 
+      "b3e6965b-eb1b-4218-a551-fdb967b6ace7" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101095", 
+            "y" : "-100648"
+         }, 
+         "child" : [ 
+            "e7f6bef4-d73a-49d2-a438-e911a6c1ec83", 
+            "4811d9a9-e502-4f12-b81f-3e45829980e7"
+         ], 
+         "key" : "TEAMMATE"
+      }, 
+      "e7f6bef4-d73a-49d2-a438-e911a6c1ec83" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101227", 
+            "y" : "-100477"
+         }, 
+         "child" : [ 
+            "dff11213-f260-4db2-b405-488f7cfc2e49", 
+            "75f8f344-e647-40d7-8fff-d9e4571d1a1a"
+         ], 
+         "key" : "WAIT_ORDER"
+      }, 
+      "dff11213-f260-4db2-b405-488f7cfc2e49" : { 
+         "class" : "WaitRandomNode", 
+         "desc" : { 
+            "x" : "-101468", 
+            "y" : "-100110"
+         }, 
+         "child" : [ 
+            "d8531e9b-d7e1-4644-bb0d-8048e4d1dbe0"
+         ], 
+         "waitTimeMin" : "1", 
+         "waitTimeMax" : "2"
+      }, 
+      "d8531e9b-d7e1-4644-bb0d-8048e4d1dbe0" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101484", 
+            "y" : "-100005"
+         }, 
+         "child" : [ 
+            "95b468b6-18cb-4118-8a98-064070ccbf3d"
+         ]
+      }, 
+      "95b468b6-18cb-4118-8a98-064070ccbf3d" : { 
+         "class" : "CharacterInDialogNode", 
+         "desc" : { 
+            "x" : "-101601", 
+            "y" : "-99952"
+         }, 
+         "child" : [ 
+            "9a485888-7101-49cb-a601-de667d78059c", 
+            "378f74f9-3eef-41fa-8a23-d144e30e3b8e"
+         ]
+      }, 
+      "9a485888-7101-49cb-a601-de667d78059c" : { 
+         "class" : "WaitRandomNode", 
+         "desc" : { 
+            "x" : "-101664", 
+            "y" : "-99863"
+         }, 
+         "child" : [ 
+            "95b468b6-18cb-4118-8a98-064070ccbf3d"
+         ], 
+         "waitTimeMin" : "3", 
+         "waitTimeMax" : "5"
+      }, 
+      "378f74f9-3eef-41fa-8a23-d144e30e3b8e" : { 
+         "class" : "CharacterNeedUpdateNode", 
+         "desc" : { 
+            "x" : "-101524", 
+            "y" : "-99856"
+         }, 
+         "child" : [ 
+         ], 
+         "stopState" : "false"
+      }, 
+      "75f8f344-e647-40d7-8fff-d9e4571d1a1a" : { 
+         "class" : "CharacterInBattleNode", 
+         "desc" : { 
+            "x" : "-101080", 
+            "y" : "-100384"
+         }, 
+         "child" : [ 
+            "dff11213-f260-4db2-b405-488f7cfc2e49", 
+            "e7bcd25f-7bc7-4402-bb4d-fef4935cc5bd"
+         ]
+      }, 
+      "e7bcd25f-7bc7-4402-bb4d-fef4935cc5bd" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101001", 
+            "y" : "-100287"
+         }, 
+         "child" : [ 
+            "af8a1615-8ee0-4515-9d62-9121bdc04d60", 
+            "8d66ce3b-2a48-4760-ad9a-cfb1aec4834c"
+         ], 
+         "key" : "SWING"
+      }, 
+      "af8a1615-8ee0-4515-9d62-9121bdc04d60" : { 
+         "class" : "RemoveKeywordNode", 
+         "desc" : { 
+            "x" : "-101151", 
+            "y" : "-100185"
+         }, 
+         "child" : [ 
+            "dff11213-f260-4db2-b405-488f7cfc2e49"
+         ], 
+         "key" : "SWING"
+      }, 
+      "8d66ce3b-2a48-4760-ad9a-cfb1aec4834c" : { 
+         "class" : "PlayerInDialogNode", 
+         "desc" : { 
+            "x" : "-100949", 
+            "y" : "-100102"
+         }, 
+         "child" : [ 
+            "dff11213-f260-4db2-b405-488f7cfc2e49", 
+            "b2b706ac-fee4-45d1-9e52-b3d9477c087c"
+         ]
+      }, 
+      "b2b706ac-fee4-45d1-9e52-b3d9477c087c" : { 
+         "class" : "CharacterFollowToNode", 
+         "desc" : { 
+            "x" : "-100953", 
+            "y" : "-100030"
+         }, 
+         "child" : [ 
+            "dff11213-f260-4db2-b405-488f7cfc2e49"
+         ], 
+         "pointName" : "Player"
+      }, 
+      "4811d9a9-e502-4f12-b81f-3e45829980e7" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100938", 
+            "y" : "-100510"
+         }, 
+         "child" : [ 
+         ]
+      }
+   }, 
+   "entry" : "6ce8c730-7ecb-41b4-9730-ea9e7644943e"
+}
