@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 1423921309, guid: ba80931603c2dbc40ab113c533efa2ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mEntityData: '{"class":"Character", "proto":"ph_oksana", "character":"oksana", "damage":"0",
+  mEntityData: '{"class":"Character", "proto":"oksana", "character":"oksana", "damage":"0",
     "ap":"0", "bonusTurn":"false", "relationship":"100", "shotMode":"0", "inventory":[  ],
     "mainItemIndex":"0", "conditions":{"toxic":"0", "toxicTimer":"-1", "radiation":"0",
     "radiationTimer":"-1", "hunger":"0", "hungerDmg":"0", "rolling":"0"}, "effects":[  ],
