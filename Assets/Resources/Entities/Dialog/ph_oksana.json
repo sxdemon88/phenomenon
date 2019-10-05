@@ -3,8 +3,8 @@
       "a42b3b5d-8dc0-426a-a872-47517fcc5781" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-102590", 
-            "y" : "-101637"
+            "x" : "-102604", 
+            "y" : "-101612"
          }, 
          "child" : [ 
             "f441182e-f8e5-47dc-a46f-34c5e8faf471"
@@ -13,8 +13,8 @@
       "f441182e-f8e5-47dc-a46f-34c5e8faf471" : { 
          "class" : "NotebookHasNoteNode", 
          "desc" : { 
-            "x" : "-102617", 
-            "y" : "-101547"
+            "x" : "-102620", 
+            "y" : "-101512"
          }, 
          "child" : [ 
             "f6ab9a1f-0d80-433a-93bb-5c1fa6df8080", 
@@ -25,8 +25,8 @@
       "f6ab9a1f-0d80-433a-93bb-5c1fa6df8080" : { 
          "class" : "RandomNode", 
          "desc" : { 
-            "x" : "-102975", 
-            "y" : "-101409"
+            "x" : "-103168", 
+            "y" : "-100929"
          }, 
          "child" : [ 
             "f87f2efa-f463-4379-b7c9-92bdc985ddc0", 
@@ -37,8 +37,8 @@
       "f87f2efa-f463-4379-b7c9-92bdc985ddc0" : { 
          "class" : "WhoopNode", 
          "desc" : { 
-            "x" : "-103498", 
-            "y" : "-101305"
+            "x" : "-103465", 
+            "y" : "-100782"
          }, 
          "child" : [ 
          ], 
@@ -49,32 +49,32 @@
       "4753c592-834c-4920-b7de-2a2341b92472" : { 
          "class" : "WhoopNode", 
          "desc" : { 
-            "x" : "-103278", 
-            "y" : "-101305"
+            "x" : "-103245", 
+            "y" : "-100782"
          }, 
          "child" : [ 
          ], 
-         "text" : "Прощай", 
+         "text" : "Прощай.", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true"
       }, 
       "3a1a44d4-f363-4997-8732-b45fbeddce97" : { 
          "class" : "WhoopNode", 
          "desc" : { 
-            "x" : "-103060", 
-            "y" : "-101305"
+            "x" : "-103026", 
+            "y" : "-100782"
          }, 
          "child" : [ 
          ], 
-         "text" : "Может ещё свидимся", 
+         "text" : "Может ещё увидимся.", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true"
       }, 
       "128a4616-bfef-414b-ac70-accbf47232d9" : { 
          "class" : "CharacterStateNode", 
          "desc" : { 
-            "x" : "-102357", 
-            "y" : "-101319"
+            "x" : "-102393", 
+            "y" : "-101302"
          }, 
          "child" : [ 
             "8b6a87b0-f951-42e8-af7e-e803a64ff438"
@@ -84,8 +84,8 @@
       "8b6a87b0-f951-42e8-af7e-e803a64ff438" : { 
          "class" : "HasKeywordNode", 
          "desc" : { 
-            "x" : "-102359", 
-            "y" : "-101224"
+            "x" : "-102388", 
+            "y" : "-101235"
          }, 
          "child" : [ 
             "e74f344e-9959-4f30-aa3a-bd1a84f71c77", 
@@ -96,8 +96,8 @@
       "e74f344e-9959-4f30-aa3a-bd1a84f71c77" : { 
          "class" : "PlayStateNode", 
          "desc" : { 
-            "x" : "-102800", 
-            "y" : "-100989"
+            "x" : "-102668", 
+            "y" : "-101046"
          }, 
          "child" : [ 
          ], 
@@ -117,7 +117,7 @@
       "74fdef2f-de59-49f5-b95c-214bf806c218" : { 
          "class" : "AnimatorTriggerNode", 
          "desc" : { 
-            "x" : "-102260", 
+            "x" : "-102259", 
             "y" : "-100977"
          }, 
          "child" : [ 

@@ -3,18 +3,19 @@
       "6ce8c730-7ecb-41b4-9730-ea9e7644943e" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-101269", 
-            "y" : "-101083"
+            "x" : "-101134", 
+            "y" : "-101384"
          }, 
          "child" : [ 
-            "3d1d912a-a3e3-4b5f-ab44-34ab4f795ecd"
+            "3d1d912a-a3e3-4b5f-ab44-34ab4f795ecd", 
+            "74ad4439-047a-4e21-9e1a-6c88eb912971"
          ]
       }, 
       "3d1d912a-a3e3-4b5f-ab44-34ab4f795ecd" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-101262", 
-            "y" : "-100903"
+            "x" : "-101338", 
+            "y" : "-100926"
          }, 
          "child" : [ 
             "01b53493-e858-4fd4-a15d-39500d026876", 
@@ -24,66 +25,225 @@
       "01b53493-e858-4fd4-a15d-39500d026876" : { 
          "class" : "CharacterInBattleNode", 
          "desc" : { 
-            "x" : "-101758", 
-            "y" : "-100830"
+            "x" : "-102465", 
+            "y" : "-100682"
          }, 
          "child" : [ 
-            "bf8a482f-b088-4fb8-9f9d-5c27833e56a1", 
-            "bb1d0952-cbfe-41ca-b3ef-f1c985a8653c"
+            "0770054c-43c0-466a-b273-a5e8d3f95155", 
+            "da8840c2-fa92-4b4a-aa6e-14bb03385159"
          ]
       }, 
-      "bf8a482f-b088-4fb8-9f9d-5c27833e56a1" : { 
+      "0770054c-43c0-466a-b273-a5e8d3f95155" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-102674", 
+            "y" : "-100484"
+         }, 
+         "child" : [ 
+            "1a06747b-19c8-4c8d-b6c7-9ff2487cc349", 
+            "794a9f73-b3e4-4135-aa3c-da855f80c4a0"
+         ], 
+         "key" : "FIGHT"
+      }, 
+      "1a06747b-19c8-4c8d-b6c7-9ff2487cc349" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-101899", 
-            "y" : "-100715"
+            "x" : "-102826", 
+            "y" : "-100353"
          }, 
          "child" : [ 
          ]
       }, 
-      "bb1d0952-cbfe-41ca-b3ef-f1c985a8653c" : { 
-         "class" : "NotebookHasNoteNode", 
+      "794a9f73-b3e4-4135-aa3c-da855f80c4a0" : { 
+         "class" : "AddKeywordNode", 
          "desc" : { 
-            "x" : "-101663", 
-            "y" : "-100710"
+            "x" : "-102573", 
+            "y" : "-100351"
          }, 
          "child" : [ 
-            "c3033543-6566-48b8-9371-a0f423d30da6", 
-            "146f132f-cff2-4f02-84a0-7a7d4f2b2919"
+            "32abe99a-0fe2-4bc9-9df8-5e9cee21ffdf"
          ], 
-         "note_key" : "PH_OKSANA_OUT"
+         "key" : "FIGHT"
       }, 
-      "c3033543-6566-48b8-9371-a0f423d30da6" : { 
-         "class" : "CharacterMoveToNode", 
+      "32abe99a-0fe2-4bc9-9df8-5e9cee21ffdf" : { 
+         "class" : "RandomNode", 
          "desc" : { 
-            "x" : "-101681", 
-            "y" : "-100588"
+            "x" : "-102583", 
+            "y" : "-100257"
          }, 
          "child" : [ 
-            "08777d6e-8b18-4b76-a9bf-df15e2adb208"
+            "d4de58c8-6a1c-449f-8bc2-195af74e98d9", 
+            "3804aa00-a410-4078-b696-ad96fb464a12", 
+            "096a66d1-b1c8-43f2-a565-b8605b98777e", 
+            "bebe9865-deca-4177-a251-ad0d6bcf1666", 
+            "118ee69e-b538-4b28-856f-eb8b56cd9b9f", 
+            "55f00f87-ebf5-4444-85e5-5afaf90f3572", 
+            "83f755d7-ea16-4204-9031-756bb4704f1a", 
+            "5b33dc7d-ca7b-4f23-9994-f59ce30e6872", 
+            "b89fb7f6-b9f7-4c84-853c-cb063c0da903", 
+            "23fa1bac-f678-47c5-9749-8a212b83fbb7", 
+            "c220f26f-c583-4f8d-9904-f07d9722ff7e"
+         ]
+      }, 
+      "d4de58c8-6a1c-449f-8bc2-195af74e98d9" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-105212", 
+            "y" : "-99531"
+         }, 
+         "child" : [ 
          ], 
-         "pointName" : "ZoneOutPoint", 
+         "text" : "Сейчас поиграем.", 
          "waitEnd" : "true", 
-         "relative" : "false", 
-         "run" : "false", 
-         "keepCourse" : "true"
+         "onlyActiveAndAlive" : "true"
       }, 
-      "08777d6e-8b18-4b76-a9bf-df15e2adb208" : { 
-         "class" : "CharacterInOutNode", 
+      "3804aa00-a410-4078-b696-ad96fb464a12" : { 
+         "class" : "WhoopNode", 
          "desc" : { 
-            "x" : "-101675", 
-            "y" : "-100497"
+            "x" : "-104993", 
+            "y" : "-99532"
          }, 
          "child" : [ 
          ], 
-         "active" : "false", 
-         "effectDuration" : "1.5"
+         "text" : "Да начнётся битва!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
       }, 
-      "146f132f-cff2-4f02-84a0-7a7d4f2b2919" : { 
+      "096a66d1-b1c8-43f2-a565-b8605b98777e" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-104774", 
+            "y" : "-99532"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Веселуха!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "bebe9865-deca-4177-a251-ad0d6bcf1666" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-104554", 
+            "y" : "-99532"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Можно я кого нибудь пристрелю?", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "118ee69e-b538-4b28-856f-eb8b56cd9b9f" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-104338", 
+            "y" : "-99532"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Не зря я сегодня оружие начистила.", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "55f00f87-ebf5-4444-85e5-5afaf90f3572" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-104122", 
+            "y" : "-99531"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Ещё одна битва, патронов бы хватило!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "83f755d7-ea16-4204-9031-756bb4704f1a" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-103904", 
+            "y" : "-99526"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Вижу цель!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "5b33dc7d-ca7b-4f23-9994-f59ce30e6872" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-103687", 
+            "y" : "-99523"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Вы только посмотрите на их рожи, так и хочется выстрелить!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "b89fb7f6-b9f7-4c84-853c-cb063c0da903" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-103467", 
+            "y" : "-99520"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Один выстрел, один труп, это не про меня.", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "23fa1bac-f678-47c5-9749-8a212b83fbb7" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-103247", 
+            "y" : "-99519"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Воу воу, да у нас тут битва намечается!", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "c220f26f-c583-4f8d-9904-f07d9722ff7e" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-103029", 
+            "y" : "-99518"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Ха! Это снова я и мое оружие. Лучше бегите.", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "da8840c2-fa92-4b4a-aa6e-14bb03385159" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-102188", 
+            "y" : "-100575"
+         }, 
+         "child" : [ 
+            "7b8e818f-221e-4ce3-8618-323b3d644884", 
+            "d326685e-b943-49a2-8e67-a82f8f66e8cb"
+         ], 
+         "key" : "FIGHT"
+      }, 
+      "7b8e818f-221e-4ce3-8618-323b3d644884" : { 
+         "class" : "RemoveKeywordNode", 
+         "desc" : { 
+            "x" : "-102295", 
+            "y" : "-100449"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "FIGHT"
+      }, 
+      "d326685e-b943-49a2-8e67-a82f8f66e8cb" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-101510", 
-            "y" : "-100587"
+            "x" : "-102083", 
+            "y" : "-100452"
          }, 
          "child" : [ 
          ]
@@ -242,6 +402,3038 @@
          }, 
          "child" : [ 
          ]
+      }, 
+      "74ad4439-047a-4e21-9e1a-6c88eb912971" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-93459", 
+            "y" : "-99234"
+         }, 
+         "child" : [ 
+            "8ce0d232-98ca-4fe5-8313-52da5d265c01", 
+            "8726c462-2a07-4f24-802f-b6677398d3e2", 
+            "dd0c78fa-1201-4a47-8ff0-83283d77a90e", 
+            "ab9d4558-3378-463a-85e3-02bc2b5ff0b8", 
+            "e0528b8a-1dcf-40ee-a002-8521530359e9", 
+            "08346a9f-1ea1-42c0-ab99-ef4ef814ffc9", 
+            "f9d08ff3-3847-4c08-a898-8d64090c2796", 
+            "d995acb1-f4b8-463b-a074-32007733eaaf", 
+            "df1557a5-a65e-423f-ab19-667847071647", 
+            "34b5c388-293e-4908-af47-1d7360220479", 
+            "77f9a35b-5b56-4bac-adcc-b65a2e83f8cd", 
+            "ce47d30b-68f3-4372-8253-fb4a8ccd206d", 
+            "98227e38-88f3-4e07-a9ae-00e98cc564bc", 
+            "434ad6fb-a1be-47a4-9be0-a3529416dbd0", 
+            "b719b04d-1808-4d3c-a93a-8d8f77c63952", 
+            "2d8294da-7081-4e3f-899d-b77e6a4c9347", 
+            "72012ebc-d582-4292-b970-346c922b1965", 
+            "2c1a407d-0483-4b6d-a585-4e52d0ae2ecd", 
+            "e9953b73-0915-4746-8786-f185d5345d60", 
+            "4ff84cdc-2fec-4512-aa58-605ae6332371", 
+            "968d4e17-dd05-4e05-84da-9d4e855e2a12", 
+            "3835fc86-f04a-4ec5-8690-89995f0cd823", 
+            "a840ea4d-6b3c-4a70-a5cf-9ad8210f3480", 
+            "4cb5c0c7-4086-4b3b-8651-534e7e39f9b5", 
+            "d4404b94-f6ec-4c93-a2df-0683d2efbbe3", 
+            "d16dd625-69f5-4e1d-8641-84133379e79f", 
+            "873f723b-1aca-43f4-a057-a1ce47f738c6", 
+            "b75b2f70-eb96-4735-92c7-b30d5744ae14", 
+            "fec58ec9-1007-472e-9a0e-6ba2dec8b556", 
+            "1afd40e2-013d-495d-b843-38eedb2bdba2", 
+            "0ec6a992-39cc-4db9-9f91-114da93ad4e8", 
+            "9266cfaa-08a5-462a-9a2e-c9d70bc8c17e", 
+            "66eb170e-359e-40c9-a854-3e71dcaabe8a", 
+            "39250f11-91a4-4dc6-914f-7208017e17fc", 
+            "45bdac1f-92b4-4637-aa0d-460fdd7ae288", 
+            "e7eb3f5d-b130-434c-a92d-56e1ca0b0cb6"
+         ]
+      }, 
+      "8ce0d232-98ca-4fe5-8313-52da5d265c01" : { 
+         "class" : "PlayerMapLocationNode", 
+         "desc" : { 
+            "x" : "-106319", 
+            "y" : "-99095"
+         }, 
+         "child" : [ 
+            "bea5d3e2-99c2-4bc4-b4fa-1e52fe00a5a7"
+         ], 
+         "mapName" : "Village_Ground_1"
+      }, 
+      "bea5d3e2-99c2-4bc4-b4fa-1e52fe00a5a7" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-106403", 
+            "y" : "-98917"
+         }, 
+         "child" : [ 
+            "d8fb5f0a-5c45-4297-8745-fea6d3c8fda8", 
+            "cf43552c-8282-4290-b1ba-8c5a8b6a9744"
+         ], 
+         "key" : "VILLAGE_WHOOP"
+      }, 
+      "d8fb5f0a-5c45-4297-8745-fea6d3c8fda8" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-106590", 
+            "y" : "-98602"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "cf43552c-8282-4290-b1ba-8c5a8b6a9744" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-106289", 
+            "y" : "-98813"
+         }, 
+         "child" : [ 
+            "f1cee337-d30a-4ec1-8605-b86978756a00"
+         ], 
+         "key" : "VILLAGE_WHOOP"
+      }, 
+      "f1cee337-d30a-4ec1-8605-b86978756a00" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-106276", 
+            "y" : "-98714"
+         }, 
+         "child" : [ 
+            "264329e7-51bf-482e-a877-c041cdcd8cfa"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "264329e7-51bf-482e-a877-c041cdcd8cfa" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-106318", 
+            "y" : "-98632"
+         }, 
+         "child" : [ 
+            "617e25f2-9cb9-47cd-b882-ce8724ab03f6"
+         ], 
+         "text" : "Интересное поселение. Видимо тут меня опознали и вышли на мой след.", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "617e25f2-9cb9-47cd-b882-ce8724ab03f6" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-106270", 
+            "y" : "-98530"
+         }, 
+         "child" : [ 
+            "473a318e-507b-4fca-8174-941f39d74374"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "473a318e-507b-4fca-8174-941f39d74374" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-106321", 
+            "y" : "-98453"
+         }, 
+         "child" : [ 
+            "97d5e372-25af-49ea-8fb8-0d46f1ed7d85"
+         ], 
+         "text" : "И тут лучше не пить. Проверила. Ужасные напитки!", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "97d5e372-25af-49ea-8fb8-0d46f1ed7d85" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-106267", 
+            "y" : "-98330"
+         }, 
+         "child" : [ 
+            "6f1c6b2f-0f1a-422c-be2b-9230a5bb0747"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "6f1c6b2f-0f1a-422c-be2b-9230a5bb0747" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-106321", 
+            "y" : "-98265"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Что это за круг из камней возле города?", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "8726c462-2a07-4f24-802f-b6677398d3e2" : { 
+         "class" : "PlayerMapLocationNode", 
+         "desc" : { 
+            "x" : "-105890", 
+            "y" : "-99086"
+         }, 
+         "child" : [ 
+            "ec12a439-1048-49d4-aad3-1e6a6b7df60e"
+         ], 
+         "mapName" : "Village_Bunker"
+      }, 
+      "ec12a439-1048-49d4-aad3-1e6a6b7df60e" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-105917", 
+            "y" : "-98873"
+         }, 
+         "child" : [ 
+            "7cbc98be-c4b3-498c-ab5d-87eff464836b", 
+            "1e834656-7913-4106-84b0-96f5fab85cd1"
+         ], 
+         "key" : "VILLAGE_BUNKER_WHOOP"
+      }, 
+      "7cbc98be-c4b3-498c-ab5d-87eff464836b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-106048", 
+            "y" : "-98762"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "1e834656-7913-4106-84b0-96f5fab85cd1" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-105874", 
+            "y" : "-98732"
+         }, 
+         "child" : [ 
+            "b1fd64ea-cefd-47d9-8b86-b7fca152dd5a"
+         ], 
+         "key" : "VILLAGE_BUNKER_WHOOP"
+      }, 
+      "b1fd64ea-cefd-47d9-8b86-b7fca152dd5a" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-105823", 
+            "y" : "-98634"
+         }, 
+         "child" : [ 
+            "45bb741f-dba1-4eab-905d-a2cfddc0e7aa"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "45bb741f-dba1-4eab-905d-a2cfddc0e7aa" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-105877", 
+            "y" : "-98550"
+         }, 
+         "child" : [ 
+            "21db02e1-0679-47d7-90d7-6175a1e6f223"
+         ], 
+         "text" : "Ух ты! Знала бы я раньше, что тут есть бункер!", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "21db02e1-0679-47d7-90d7-6175a1e6f223" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-105822", 
+            "y" : "-98437"
+         }, 
+         "child" : [ 
+            "c4e5f86f-cfd2-4760-a8b4-3f27b5518130"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "c4e5f86f-cfd2-4760-a8b4-3f27b5518130" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-105872", 
+            "y" : "-98348"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Помечу для себя на будущее. Мало ли пригодится.", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "dd0c78fa-1201-4a47-8ff0-83283d77a90e" : { 
+         "class" : "PlayerMapLocationNode", 
+         "desc" : { 
+            "x" : "-105580", 
+            "y" : "-99072"
+         }, 
+         "child" : [ 
+            "b8e35096-d8b2-4832-8a35-1d1864348ed0"
+         ], 
+         "mapName" : "Fogelevka_1"
+      }, 
+      "b8e35096-d8b2-4832-8a35-1d1864348ed0" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-105595", 
+            "y" : "-98879"
+         }, 
+         "child" : [ 
+            "fe6c4218-ebe0-4a77-9541-a641aafb255a", 
+            "41d3d9d8-3d86-49e5-a344-50d39cd6357d"
+         ], 
+         "key" : "FOGELEVKA_1_WHOOP"
+      }, 
+      "fe6c4218-ebe0-4a77-9541-a641aafb255a" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-105664", 
+            "y" : "-98730"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "41d3d9d8-3d86-49e5-a344-50d39cd6357d" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-105541", 
+            "y" : "-98737"
+         }, 
+         "child" : [ 
+            "ac3dafd3-5f5a-4ded-aeec-6cd7316c8389"
+         ], 
+         "key" : "FOGELEVKA_1_WHOOP"
+      }, 
+      "ac3dafd3-5f5a-4ded-aeec-6cd7316c8389" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-105492", 
+            "y" : "-98632"
+         }, 
+         "child" : [ 
+            "54f4309e-3ca7-4307-8eb2-55261604c650"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "54f4309e-3ca7-4307-8eb2-55261604c650" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-105545", 
+            "y" : "-98526"
+         }, 
+         "child" : [ 
+            "10fd7f81-3705-4bb0-9679-09e3cfb6ab8f"
+         ], 
+         "text" : "Милая деревушка! Почти как новая. Хочу по магазинам тут пройтись.", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "10fd7f81-3705-4bb0-9679-09e3cfb6ab8f" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-105493", 
+            "y" : "-98415"
+         }, 
+         "child" : [ 
+            "f5bd1376-12f4-4faf-9d0e-8c20aea17fcc"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "f5bd1376-12f4-4faf-9d0e-8c20aea17fcc" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-105547", 
+            "y" : "-98342"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Интересно, а тут есть бункер как в Отрадном?", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "ab9d4558-3378-463a-85e3-02bc2b5ff0b8" : { 
+         "class" : "PlayerMapLocationNode", 
+         "desc" : { 
+            "x" : "-105230", 
+            "y" : "-99069"
+         }, 
+         "child" : [ 
+            "b93c1c73-8ab2-472f-8203-369fe6ab1afa"
+         ], 
+         "mapName" : "City_1"
+      }, 
+      "b93c1c73-8ab2-472f-8203-369fe6ab1afa" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-105223", 
+            "y" : "-98880"
+         }, 
+         "child" : [ 
+            "83d4c22e-715f-4d77-bfae-d4c6f13a2e24", 
+            "9da4686d-b912-4fd6-9c70-2ef857f3d543"
+         ], 
+         "key" : "CITY_1_WHOOP"
+      }, 
+      "83d4c22e-715f-4d77-bfae-d4c6f13a2e24" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-105303", 
+            "y" : "-98732"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "9da4686d-b912-4fd6-9c70-2ef857f3d543" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-105180", 
+            "y" : "-98739"
+         }, 
+         "child" : [ 
+            "4fd3c43d-6816-4863-9279-d2029937230d"
+         ], 
+         "key" : "CITY_1_WHOOP"
+      }, 
+      "4fd3c43d-6816-4863-9279-d2029937230d" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-105170", 
+            "y" : "-98627"
+         }, 
+         "child" : [ 
+            "8b6a70d6-a679-499b-8ab8-1eec0ea24c19"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "8b6a70d6-a679-499b-8ab8-1eec0ea24c19" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-105212", 
+            "y" : "-98512"
+         }, 
+         "child" : [ 
+            "b7292144-529c-482c-b86e-8b12748c0391"
+         ], 
+         "text" : "Крупное поселение, по меркам пустоши. И рабства наверное нет, удивительно.", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "b7292144-529c-482c-b86e-8b12748c0391" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-105153", 
+            "y" : "-98386"
+         }, 
+         "child" : [ 
+            "ba7e8bc1-c3d9-44ac-8f54-b94b97a77e95"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "ba7e8bc1-c3d9-44ac-8f54-b94b97a77e95" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-105208", 
+            "y" : "-98309"
+         }, 
+         "child" : [ 
+            "7a3ba367-692b-458e-ac33-d4dc130c25cf"
+         ], 
+         "text" : "Идеальное место для тайников.", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "7a3ba367-692b-458e-ac33-d4dc130c25cf" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-105147", 
+            "y" : "-98185"
+         }, 
+         "child" : [ 
+            "621f27e7-0464-4ab4-ae10-ba621f5d4d35"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "621f27e7-0464-4ab4-ae10-ba621f5d4d35" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-105191", 
+            "y" : "-98102"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Слышала тут магазин брони есть! Давай зайдем, купим может чего, для меня.", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "e0528b8a-1dcf-40ee-a002-8521530359e9" : { 
+         "class" : "PlayerMapLocationNode", 
+         "desc" : { 
+            "x" : "-104793", 
+            "y" : "-99063"
+         }, 
+         "child" : [ 
+            "29944537-0de3-4f87-8376-dd0b5ae8f88b"
+         ], 
+         "mapName" : "City_2"
+      }, 
+      "29944537-0de3-4f87-8376-dd0b5ae8f88b" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-104806", 
+            "y" : "-98882"
+         }, 
+         "child" : [ 
+            "77d8137c-3991-45cf-9e99-e7308f79cf00", 
+            "3fb1c355-e9ee-41ca-983c-fafb95627f36"
+         ], 
+         "key" : "CITY_2_WHOOP"
+      }, 
+      "77d8137c-3991-45cf-9e99-e7308f79cf00" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-104886", 
+            "y" : "-98734"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "3fb1c355-e9ee-41ca-983c-fafb95627f36" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-104763", 
+            "y" : "-98741"
+         }, 
+         "child" : [ 
+            "2e41989d-f484-48ce-8968-b2a6d8397c7e"
+         ], 
+         "key" : "CITY_2_WHOOP"
+      }, 
+      "2e41989d-f484-48ce-8968-b2a6d8397c7e" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-104738", 
+            "y" : "-98610"
+         }, 
+         "child" : [ 
+            "18dd6e71-811f-440b-ac1c-6477707814d2"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "18dd6e71-811f-440b-ac1c-6477707814d2" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-104779", 
+            "y" : "-98505"
+         }, 
+         "child" : [ 
+            "1ba4881f-ca47-48c1-96fd-e2cd12a230f1"
+         ], 
+         "text" : "Тут где то магазин оружия имеется. Может мне что нибудь купим?", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "1ba4881f-ca47-48c1-96fd-e2cd12a230f1" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-104723", 
+            "y" : "-98390"
+         }, 
+         "child" : [ 
+            "51f8b223-78ec-4052-a43d-695d11b92e86"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "51f8b223-78ec-4052-a43d-695d11b92e86" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-104778", 
+            "y" : "-98311"
+         }, 
+         "child" : [ 
+            "5c311d35-fec8-4e83-a0e6-1f057f98ceea"
+         ], 
+         "text" : "Слышала тут есть судно, которое может доставить нас в Мёртвый город.", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "5c311d35-fec8-4e83-a0e6-1f057f98ceea" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-104722", 
+            "y" : "-98187"
+         }, 
+         "child" : [ 
+            "58b1498a-b942-4965-a8fd-eef4a98cdf51"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "58b1498a-b942-4965-a8fd-eef4a98cdf51" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-104776", 
+            "y" : "-98105"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Тут наверное и криминала много. Полиция почти на каждом шагу. Кого они так боятся?", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "08346a9f-1ea1-42c0-ab99-ef4ef814ffc9" : { 
+         "class" : "PlayerMapLocationNode", 
+         "desc" : { 
+            "x" : "-104408", 
+            "y" : "-99065"
+         }, 
+         "child" : [ 
+            "aee08c1e-2fdc-4813-a0b4-7fefe441310a"
+         ], 
+         "mapName" : "GasStation_1"
+      }, 
+      "aee08c1e-2fdc-4813-a0b4-7fefe441310a" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-104449", 
+            "y" : "-98749"
+         }, 
+         "child" : [ 
+            "0190ea7d-88ac-4f97-a786-ffe8e9682c73", 
+            "d1701b87-4423-4ff4-b296-a96451c55aac"
+         ], 
+         "key" : "GASSTATION_1_WHOOP"
+      }, 
+      "0190ea7d-88ac-4f97-a786-ffe8e9682c73" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-104529", 
+            "y" : "-98601"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "d1701b87-4423-4ff4-b296-a96451c55aac" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-104404", 
+            "y" : "-98609"
+         }, 
+         "child" : [ 
+            "ee7f07f5-8930-4ff8-b804-fed14279f164"
+         ], 
+         "key" : "GASSTATION_1_WHOOP"
+      }, 
+      "ee7f07f5-8930-4ff8-b804-fed14279f164" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-104375", 
+            "y" : "-98504"
+         }, 
+         "child" : [ 
+            "57d23ab5-a3f4-4472-828b-a476e48ad141"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "57d23ab5-a3f4-4472-828b-a476e48ad141" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-104390", 
+            "y" : "-98421"
+         }, 
+         "child" : [ 
+            "5a8ed322-59b4-42fc-8cfc-b9ffc258f2f1"
+         ], 
+         "text" : "Ух ты! Где-то я уже это видела. Заправка, аванпост.", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "5a8ed322-59b4-42fc-8cfc-b9ffc258f2f1" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-104334", 
+            "y" : "-98313"
+         }, 
+         "child" : [ 
+            "c9a3dd9e-6d94-4930-a735-dc6a5f9fab3d"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "c9a3dd9e-6d94-4930-a735-dc6a5f9fab3d" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-104387", 
+            "y" : "-98230"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Мне показалось или где-то лаяла собака?", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "f9d08ff3-3847-4c08-a898-8d64090c2796" : { 
+         "class" : "PlayerMapLocationNode", 
+         "desc" : { 
+            "x" : "-104051", 
+            "y" : "-99068"
+         }, 
+         "child" : [ 
+            "02ededdf-a4c0-49de-9f72-a4eb7d6c0cb5"
+         ], 
+         "mapName" : "Harbor_1"
+      }, 
+      "02ededdf-a4c0-49de-9f72-a4eb7d6c0cb5" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-104086", 
+            "y" : "-98658"
+         }, 
+         "child" : [ 
+            "a33fd707-b9a7-45c0-b746-617989d291f9", 
+            "dd8d1a21-f4b1-4159-9612-1c27bcab9977"
+         ], 
+         "key" : "HARBOR_1_WHOOP"
+      }, 
+      "a33fd707-b9a7-45c0-b746-617989d291f9" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-104166", 
+            "y" : "-98510"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "dd8d1a21-f4b1-4159-9612-1c27bcab9977" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-104041", 
+            "y" : "-98518"
+         }, 
+         "child" : [ 
+            "d65d9014-efb0-4d75-bfd2-001531bf0908"
+         ], 
+         "key" : "HARBOR_1_WHOOP"
+      }, 
+      "d65d9014-efb0-4d75-bfd2-001531bf0908" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-103986", 
+            "y" : "-98425"
+         }, 
+         "child" : [ 
+            "c864edc1-2b33-4508-8c7c-ee65eb4e1737"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "c864edc1-2b33-4508-8c7c-ee65eb4e1737" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-104027", 
+            "y" : "-98330"
+         }, 
+         "child" : [ 
+            "aae7f5df-2b2c-4741-a889-8064651916f3"
+         ], 
+         "text" : "Про пергон и его правление я наслышана от торговцев.", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "aae7f5df-2b2c-4741-a889-8064651916f3" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-103974", 
+            "y" : "-98211"
+         }, 
+         "child" : [ 
+            "ad836e88-4cab-48f0-af11-8d83f185194d"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "ad836e88-4cab-48f0-af11-8d83f185194d" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-104024", 
+            "y" : "-98139"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Тут можно встретить некоторых торговцев, с которыми я хорошо знакома!", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "d995acb1-f4b8-463b-a074-32007733eaaf" : { 
+         "class" : "PlayerMapLocationNode", 
+         "desc" : { 
+            "x" : "-103748", 
+            "y" : "-99064"
+         }, 
+         "child" : [ 
+            "2e6d9a35-8c1f-442a-9009-25cd21ae8d08"
+         ], 
+         "mapName" : "Harbor_2"
+      }, 
+      "2e6d9a35-8c1f-442a-9009-25cd21ae8d08" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-103793", 
+            "y" : "-98710"
+         }, 
+         "child" : [ 
+            "f8202a50-e676-43f5-8a65-3bd11a46e6af", 
+            "995ae669-846e-4d3e-8c65-a2d63d0722e1"
+         ], 
+         "key" : "HARBOR_2_WHOOP"
+      }, 
+      "f8202a50-e676-43f5-8a65-3bd11a46e6af" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103873", 
+            "y" : "-98562"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "995ae669-846e-4d3e-8c65-a2d63d0722e1" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-103748", 
+            "y" : "-98570"
+         }, 
+         "child" : [ 
+            "245b8e54-e3ec-43e8-abc5-4fffe4fd18d2"
+         ], 
+         "key" : "HARBOR_2_WHOOP"
+      }, 
+      "245b8e54-e3ec-43e8-abc5-4fffe4fd18d2" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-103693", 
+            "y" : "-98477"
+         }, 
+         "child" : [ 
+            "8085ce64-2466-44ee-9089-379faefe8701"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "8085ce64-2466-44ee-9089-379faefe8701" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-103734", 
+            "y" : "-98382"
+         }, 
+         "child" : [ 
+            "3205144d-ec43-4a66-b6ae-ef2a8b12c777"
+         ], 
+         "text" : "Сыровато тут и прохладно. Неужели тут кто то станет жить?", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "3205144d-ec43-4a66-b6ae-ef2a8b12c777" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-103681", 
+            "y" : "-98263"
+         }, 
+         "child" : [ 
+            "8d527313-0f2e-4d89-839f-4a2cce3fa0be"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "8d527313-0f2e-4d89-839f-4a2cce3fa0be" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-103731", 
+            "y" : "-98192"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Ржавчина повсюду. Состояние не утешительное. Думаю он скоро утонет. Надо отсюда выбиратся поскорее.", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "df1557a5-a65e-423f-ab19-667847071647" : { 
+         "class" : "PlayerMapLocationNode", 
+         "desc" : { 
+            "x" : "-103401", 
+            "y" : "-99067"
+         }, 
+         "child" : [ 
+            "a7fee400-23bf-4e6f-88ed-1c9c381c58ea"
+         ], 
+         "mapName" : "DeadCity_Port"
+      }, 
+      "a7fee400-23bf-4e6f-88ed-1c9c381c58ea" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-103430", 
+            "y" : "-98615"
+         }, 
+         "child" : [ 
+            "d7354c44-6950-4e90-946c-c1584da7e5ac", 
+            "cb61ff00-b70d-49b5-a68f-3adcbb713f6f"
+         ], 
+         "key" : "DEADCITY_PORT_WHOOP"
+      }, 
+      "d7354c44-6950-4e90-946c-c1584da7e5ac" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103510", 
+            "y" : "-98467"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "cb61ff00-b70d-49b5-a68f-3adcbb713f6f" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-103385", 
+            "y" : "-98475"
+         }, 
+         "child" : [ 
+            "60818570-9ffd-4a1d-9bcc-4f38d9f20685"
+         ], 
+         "key" : "DEADCITY_PORT_WHOOP"
+      }, 
+      "60818570-9ffd-4a1d-9bcc-4f38d9f20685" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-103330", 
+            "y" : "-98382"
+         }, 
+         "child" : [ 
+            "1c85cdb6-b845-4de6-b034-cc2caa87cdff"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "1c85cdb6-b845-4de6-b034-cc2caa87cdff" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-103371", 
+            "y" : "-98287"
+         }, 
+         "child" : [ 
+            "cdc50d20-d616-4d3e-9c84-800bfcf6a6c4"
+         ], 
+         "text" : "Разрушененый город ядерной войной. Как тут можно жить еще?", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "cdc50d20-d616-4d3e-9c84-800bfcf6a6c4" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-103318", 
+            "y" : "-98154"
+         }, 
+         "child" : [ 
+            "516dda1c-03eb-4ee2-be76-74dd4cac588a"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "516dda1c-03eb-4ee2-be76-74dd4cac588a" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-103372", 
+            "y" : "-98081"
+         }, 
+         "child" : [ 
+            "27e2621e-ab16-4452-bf49-9b027fed839e"
+         ], 
+         "text" : "Странный привкус появился. Думаю стоит поторопится и одеть что-то против радиации.", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "27e2621e-ab16-4452-bf49-9b027fed839e" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-103317", 
+            "y" : "-97939"
+         }, 
+         "child" : [ 
+            "c657b08a-0456-4069-8084-7a92e5366d07"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "c657b08a-0456-4069-8084-7a92e5366d07" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-103371", 
+            "y" : "-97874"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Не хочу быть лысой! Давай делай дела побыстрее и сваливаем.", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "34b5c388-293e-4908-af47-1d7360220479" : { 
+         "class" : "PlayerMapLocationNode", 
+         "desc" : { 
+            "x" : "-103050", 
+            "y" : "-99059"
+         }, 
+         "child" : [ 
+            "a5eabe89-2540-47d7-abeb-9bc01591dcd6"
+         ], 
+         "mapName" : "DeadCity_Bunker"
+      }, 
+      "a5eabe89-2540-47d7-abeb-9bc01591dcd6" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-103096", 
+            "y" : "-98529"
+         }, 
+         "child" : [ 
+            "fc66842f-f7b0-4781-b7ea-65c6cf3246e3", 
+            "ebbd1732-c6cd-48ea-a8f3-e8769edee9c0"
+         ], 
+         "key" : "DEADCITY_BUNKER_WHOOP"
+      }, 
+      "fc66842f-f7b0-4781-b7ea-65c6cf3246e3" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103176", 
+            "y" : "-98381"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "ebbd1732-c6cd-48ea-a8f3-e8769edee9c0" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-103051", 
+            "y" : "-98389"
+         }, 
+         "child" : [ 
+            "ae8e323f-95bb-4ffc-8de1-9afca6e17217"
+         ], 
+         "key" : "DEADCITY_BUNKER_WHOOP"
+      }, 
+      "ae8e323f-95bb-4ffc-8de1-9afca6e17217" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-102996", 
+            "y" : "-98296"
+         }, 
+         "child" : [ 
+            "46f6dc97-e764-43bb-8496-18d339273ed6"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "46f6dc97-e764-43bb-8496-18d339273ed6" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-103037", 
+            "y" : "-98201"
+         }, 
+         "child" : [ 
+            "6d36a568-bcb6-44de-a1bf-53380abf3349"
+         ], 
+         "text" : "Бункер в институте. Умно, очень умно.", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "6d36a568-bcb6-44de-a1bf-53380abf3349" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-102984", 
+            "y" : "-98068"
+         }, 
+         "child" : [ 
+            "e3961a04-9c23-4ae7-8753-78b685fee61b"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "e3961a04-9c23-4ae7-8753-78b685fee61b" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-103038", 
+            "y" : "-97995"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Тут возможно имеются отличные прототипы чего либо. Хотя...", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "77f9a35b-5b56-4bac-adcc-b65a2e83f8cd" : { 
+         "class" : "PlayerMapLocationNode", 
+         "desc" : { 
+            "x" : "-102270", 
+            "y" : "-99075"
+         }, 
+         "child" : [ 
+            "4573c4b7-b240-4b13-8789-723e1b5f50f2"
+         ], 
+         "mapName" : "Baza_1_Ground"
+      }, 
+      "4573c4b7-b240-4b13-8789-723e1b5f50f2" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-102302", 
+            "y" : "-98700"
+         }, 
+         "child" : [ 
+            "2894b898-aadc-4d71-a23e-2a42a9cb08ce", 
+            "0a362e4a-3934-4d45-88cb-2237ff4cc451"
+         ], 
+         "key" : "BAZA_1_GROUND_WHOOP"
+      }, 
+      "2894b898-aadc-4d71-a23e-2a42a9cb08ce" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102382", 
+            "y" : "-98552"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "0a362e4a-3934-4d45-88cb-2237ff4cc451" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-102256", 
+            "y" : "-98560"
+         }, 
+         "child" : [ 
+            "988cf51d-70c1-40eb-89ce-e64259eaf74f"
+         ], 
+         "key" : "BAZA_1_GROUND_WHOOP"
+      }, 
+      "988cf51d-70c1-40eb-89ce-e64259eaf74f" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-102202", 
+            "y" : "-98466"
+         }, 
+         "child" : [ 
+            "60f35428-e027-4a97-8325-d502cc77aa76"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "60f35428-e027-4a97-8325-d502cc77aa76" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-102242", 
+            "y" : "-98372"
+         }, 
+         "child" : [ 
+            "51c741f2-f958-4906-9e39-7bb4a8a6b053"
+         ], 
+         "text" : "Приятный дачный поселок. Почти целый. Удивительно. И никто за 20 лет в нём не поселился?", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "51c741f2-f958-4906-9e39-7bb4a8a6b053" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-102190", 
+            "y" : "-98238"
+         }, 
+         "child" : [ 
+            "e0511eac-ff86-4b53-8f91-75868fe9c6cb"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "e0511eac-ff86-4b53-8f91-75868fe9c6cb" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-102238", 
+            "y" : "-98159"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "До КРЗ несколько часов пути пешком. Но я бы тут жить не хотела. Слишком видное место. ", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "ce47d30b-68f3-4372-8253-fb4a8ccd206d" : { 
+         "class" : "PlayerMapLocationNode", 
+         "desc" : { 
+            "x" : "-102730", 
+            "y" : "-99082"
+         }, 
+         "child" : [ 
+            "e9319f5b-fd80-4763-90ef-d33001b6f1f5"
+         ], 
+         "mapName" : "Caravanserai_1"
+      }, 
+      "e9319f5b-fd80-4763-90ef-d33001b6f1f5" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-102755", 
+            "y" : "-98615"
+         }, 
+         "child" : [ 
+            "bd21ca12-80ba-42cd-a391-dea61df8ff65", 
+            "c4ed83da-4b53-483f-8e71-8427552ca418"
+         ], 
+         "key" : "CARAVANSERAI_1_WHOOP"
+      }, 
+      "bd21ca12-80ba-42cd-a391-dea61df8ff65" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102835", 
+            "y" : "-98467"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "c4ed83da-4b53-483f-8e71-8427552ca418" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-102709", 
+            "y" : "-98475"
+         }, 
+         "child" : [ 
+            "f6495c76-0ef6-4bcf-8e29-8ab5ed160737"
+         ], 
+         "key" : "CARAVANSERAI_1_WHOOP"
+      }, 
+      "f6495c76-0ef6-4bcf-8e29-8ab5ed160737" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-102655", 
+            "y" : "-98381"
+         }, 
+         "child" : [ 
+            "e7c82974-ce7f-4781-a924-428c99214a11"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "e7c82974-ce7f-4781-a924-428c99214a11" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-102695", 
+            "y" : "-98287"
+         }, 
+         "child" : [ 
+            "fb0109cd-2ae6-4828-abdc-744ad524c3c1"
+         ], 
+         "text" : "Какое приятное и уютное место.", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "fb0109cd-2ae6-4828-abdc-744ad524c3c1" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-102643", 
+            "y" : "-98153"
+         }, 
+         "child" : [ 
+            "fc828aac-d6f3-4728-80f2-011476efb385"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "fc828aac-d6f3-4728-80f2-011476efb385" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-102691", 
+            "y" : "-98071"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "В воздухе витает приятных запах каких то приготовлений!", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "98227e38-88f3-4e07-a9ae-00e98cc564bc" : { 
+         "class" : "PlayerMapLocationNode", 
+         "desc" : { 
+            "x" : "-101524", 
+            "y" : "-99083"
+         }, 
+         "child" : [ 
+            "087cc3d3-6e8b-4842-b7e0-8fc178e46aa7"
+         ], 
+         "mapName" : "Canyon_Bunker"
+      }, 
+      "087cc3d3-6e8b-4842-b7e0-8fc178e46aa7" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101556", 
+            "y" : "-98649"
+         }, 
+         "child" : [ 
+            "1a610ab0-fa27-48fc-96d5-4d0ad4910b9e", 
+            "1f880bc9-a0ae-4bb1-b657-a1c8b5fe4243"
+         ], 
+         "key" : "CANYON_BUNKER_WHOOP"
+      }, 
+      "1a610ab0-fa27-48fc-96d5-4d0ad4910b9e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101636", 
+            "y" : "-98501"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "1f880bc9-a0ae-4bb1-b657-a1c8b5fe4243" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-101510", 
+            "y" : "-98509"
+         }, 
+         "child" : [ 
+            "de396b01-c62e-43be-b1af-3111acc961ab"
+         ], 
+         "key" : "CANYON_BUNKER_WHOOP"
+      }, 
+      "de396b01-c62e-43be-b1af-3111acc961ab" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-101456", 
+            "y" : "-98415"
+         }, 
+         "child" : [ 
+            "54e1d45f-9b37-4ec1-93d4-169f8fd4d6a6"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "54e1d45f-9b37-4ec1-93d4-169f8fd4d6a6" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-101496", 
+            "y" : "-98321"
+         }, 
+         "child" : [ 
+            "b9aa2cf1-d690-4e5c-b590-41dbf28301c2"
+         ], 
+         "text" : "Вот это я понимаю, база так база.", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "b9aa2cf1-d690-4e5c-b590-41dbf28301c2" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-101444", 
+            "y" : "-98187"
+         }, 
+         "child" : [ 
+            "a3232401-05c4-43b6-ba24-dcf016f05a0c"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "a3232401-05c4-43b6-ba24-dcf016f05a0c" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-101492", 
+            "y" : "-98108"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Сделаю себе пометки. Вдруг пригодится.", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "434ad6fb-a1be-47a4-9be0-a3529416dbd0" : { 
+         "class" : "PlayerMapLocationNode", 
+         "desc" : { 
+            "x" : "-101887", 
+            "y" : "-99082"
+         }, 
+         "child" : [ 
+            "65f23067-66e4-40c4-b4ec-6afc4ad2b9a1"
+         ], 
+         "mapName" : "Baza_1_Level_1"
+      }, 
+      "65f23067-66e4-40c4-b4ec-6afc4ad2b9a1" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101928", 
+            "y" : "-98652"
+         }, 
+         "child" : [ 
+            "bff33a78-f848-4f1e-a89e-4c9f834ae4ba", 
+            "f6cdd715-a361-4852-a033-170453a6613f"
+         ], 
+         "key" : "BAZA_1_LEVEL_1_WHOOP"
+      }, 
+      "bff33a78-f848-4f1e-a89e-4c9f834ae4ba" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102008", 
+            "y" : "-98504"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "f6cdd715-a361-4852-a033-170453a6613f" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-101882", 
+            "y" : "-98512"
+         }, 
+         "child" : [ 
+            "9cc4a564-c1f4-4447-948d-234a973be5aa"
+         ], 
+         "key" : "BAZA_1_LEVEL_1_WHOOP"
+      }, 
+      "9cc4a564-c1f4-4447-948d-234a973be5aa" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-101828", 
+            "y" : "-98418"
+         }, 
+         "child" : [ 
+            "d6c7136f-2721-4c9d-b20c-ba452bfa526e"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "d6c7136f-2721-4c9d-b20c-ba452bfa526e" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-101868", 
+            "y" : "-98324"
+         }, 
+         "child" : [ 
+            "4f9ec09f-f0f3-4a35-b45e-1aa9d2368b18"
+         ], 
+         "text" : "Еще один подвал. Мило.", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "4f9ec09f-f0f3-4a35-b45e-1aa9d2368b18" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-101816", 
+            "y" : "-98190"
+         }, 
+         "child" : [ 
+            "55619494-d520-4296-8583-523cb8cf198c"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "55619494-d520-4296-8583-523cb8cf198c" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-101864", 
+            "y" : "-98111"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Ты подвалы, бункеры и прочие так любишь. А я нет.", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "b719b04d-1808-4d3c-a93a-8d8f77c63952" : { 
+         "class" : "PlayerMapLocationNode", 
+         "desc" : { 
+            "x" : "-101099", 
+            "y" : "-99081"
+         }, 
+         "child" : [ 
+            "104b08eb-e110-4ee3-9d88-80f9192e5b6c"
+         ], 
+         "mapName" : "Castle"
+      }, 
+      "104b08eb-e110-4ee3-9d88-80f9192e5b6c" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101104", 
+            "y" : "-98809"
+         }, 
+         "child" : [ 
+            "2da92cdf-3a8e-4080-9b99-76b53320629f", 
+            "36fdbc31-285f-4703-9925-e90bc2afb69b"
+         ], 
+         "key" : "CASTLE_WHOOP"
+      }, 
+      "2da92cdf-3a8e-4080-9b99-76b53320629f" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101241", 
+            "y" : "-98686"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "36fdbc31-285f-4703-9925-e90bc2afb69b" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-101056", 
+            "y" : "-98660"
+         }, 
+         "child" : [ 
+            "a20aa16b-a289-47f5-b65d-64ad521c9789"
+         ], 
+         "key" : "CASTLE_WHOOP"
+      }, 
+      "a20aa16b-a289-47f5-b65d-64ad521c9789" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-101001", 
+            "y" : "-98567"
+         }, 
+         "child" : [ 
+            "11b9d801-9636-453a-ae89-86344adc4729"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "11b9d801-9636-453a-ae89-86344adc4729" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-101046", 
+            "y" : "-98489"
+         }, 
+         "child" : [ 
+            "3d1d9e81-4e60-4c83-a558-bcf823f4e8ec"
+         ], 
+         "text" : "Вот это да! Настоящий замок!", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "3d1d9e81-4e60-4c83-a558-bcf823f4e8ec" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-100991", 
+            "y" : "-98372"
+         }, 
+         "child" : [ 
+            "07fccf5f-0134-4278-93fd-52a05650667f"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "07fccf5f-0134-4278-93fd-52a05650667f" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-101042", 
+            "y" : "-98301"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Идеальное место для убежища и основания своей базы для партизанской войны.", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "2d8294da-7081-4e3f-899d-b77e6a4c9347" : { 
+         "class" : "PlayerMapLocationNode", 
+         "desc" : { 
+            "x" : "-100736", 
+            "y" : "-99089"
+         }, 
+         "child" : [ 
+            "ae7d73b9-74b6-4425-ab4c-3df384a872ef"
+         ], 
+         "mapName" : "IL_62"
+      }, 
+      "ae7d73b9-74b6-4425-ab4c-3df384a872ef" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100720", 
+            "y" : "-98815"
+         }, 
+         "child" : [ 
+            "cb587889-cfd8-4e0f-80ba-58f89669ac81", 
+            "a3883e90-1921-4a36-9aee-6c489898c464"
+         ], 
+         "key" : "IL_62_WHOOP"
+      }, 
+      "cb587889-cfd8-4e0f-80ba-58f89669ac81" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100797", 
+            "y" : "-98658"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "a3883e90-1921-4a36-9aee-6c489898c464" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-100672", 
+            "y" : "-98666"
+         }, 
+         "child" : [ 
+            "2a55f58f-43a3-4f09-bea3-4e1790b65bc7"
+         ], 
+         "key" : "IL_62_WHOOP"
+      }, 
+      "2a55f58f-43a3-4f09-bea3-4e1790b65bc7" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-100617", 
+            "y" : "-98573"
+         }, 
+         "child" : [ 
+            "336938c9-2e21-4492-a0be-f58fb5648ecc"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "336938c9-2e21-4492-a0be-f58fb5648ecc" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100662", 
+            "y" : "-98495"
+         }, 
+         "child" : [ 
+            "c979e282-7a9d-4d36-9a91-c9dc7db2bff0"
+         ], 
+         "text" : "Вот это да. Самолёт частично цел. И это спустя 20 лет. Удивительно!", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "c979e282-7a9d-4d36-9a91-c9dc7db2bff0" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-100607", 
+            "y" : "-98378"
+         }, 
+         "child" : [ 
+            "387fd210-bd2f-4f8a-9559-9c42668b20c9"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "387fd210-bd2f-4f8a-9559-9c42668b20c9" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100658", 
+            "y" : "-98307"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Что-то мне в дали клоуны мерещатся. Не к добру это.", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "72012ebc-d582-4292-b970-346c922b1965" : { 
+         "class" : "PlayerMapLocationNode", 
+         "desc" : { 
+            "x" : "-99783", 
+            "y" : "-99085"
+         }, 
+         "child" : [ 
+            "02e603e0-93c6-46bc-bcf0-26c64147673c"
+         ], 
+         "mapName" : "Canyon_Enter"
+      }, 
+      "02e603e0-93c6-46bc-bcf0-26c64147673c" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-99811", 
+            "y" : "-98923"
+         }, 
+         "child" : [ 
+            "cd48cade-6c83-465e-b57a-864aebc41e46", 
+            "f8040f29-8b86-41b4-a452-b472df0ebdc0"
+         ], 
+         "key" : "CANYON_ENTER_WHOOP"
+      }, 
+      "cd48cade-6c83-465e-b57a-864aebc41e46" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99891", 
+            "y" : "-98775"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "f8040f29-8b86-41b4-a452-b472df0ebdc0" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-99765", 
+            "y" : "-98783"
+         }, 
+         "child" : [ 
+            "46f6c452-865b-40b5-aefb-7345fd529d46"
+         ], 
+         "key" : "CANYON_ENTER_WHOOP"
+      }, 
+      "46f6c452-865b-40b5-aefb-7345fd529d46" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-99711", 
+            "y" : "-98689"
+         }, 
+         "child" : [ 
+            "dfc2746e-e70f-4294-ac49-66ba314c42aa"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "dfc2746e-e70f-4294-ac49-66ba314c42aa" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-99751", 
+            "y" : "-98595"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Да тут можно было базу основать! Идеальное расположение.", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "2c1a407d-0483-4b6d-a585-4e52d0ae2ecd" : { 
+         "class" : "PlayerMapLocationNode", 
+         "desc" : { 
+            "x" : "-99418", 
+            "y" : "-99083"
+         }, 
+         "child" : [ 
+            "8e19a830-d255-4429-acb6-8240d4574238"
+         ], 
+         "mapName" : "airdrop"
+      }, 
+      "8e19a830-d255-4429-acb6-8240d4574238" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-99410", 
+            "y" : "-98886"
+         }, 
+         "child" : [ 
+            "9bc04fef-ff4d-4e42-baec-eed5837882cd", 
+            "63601232-ee5e-4830-afc9-ed5c277935fc"
+         ], 
+         "key" : "AIRDROP_WHOOP"
+      }, 
+      "9bc04fef-ff4d-4e42-baec-eed5837882cd" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99490", 
+            "y" : "-98738"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "63601232-ee5e-4830-afc9-ed5c277935fc" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-99364", 
+            "y" : "-98746"
+         }, 
+         "child" : [ 
+            "88acccef-3e7a-4c30-9d16-931c6cdfcd86"
+         ], 
+         "key" : "AIRDROP_WHOOP"
+      }, 
+      "88acccef-3e7a-4c30-9d16-931c6cdfcd86" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-99310", 
+            "y" : "-98652"
+         }, 
+         "child" : [ 
+            "bd9390d3-5a09-44ce-a180-61df4bc16560"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "bd9390d3-5a09-44ce-a180-61df4bc16560" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-99360", 
+            "y" : "-98560"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Нам сейчас такая вертушка  пригодилась бы для путешествий.", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "e9953b73-0915-4746-8786-f185d5345d60" : { 
+         "class" : "PlayerMapLocationNode", 
+         "desc" : { 
+            "x" : "-100182", 
+            "y" : "-99089"
+         }, 
+         "child" : [ 
+            "60240900-96ea-4d4c-9eea-a3f121264b3a"
+         ], 
+         "mapName" : "Waterfall"
+      }, 
+      "60240900-96ea-4d4c-9eea-a3f121264b3a" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100193", 
+            "y" : "-98839"
+         }, 
+         "child" : [ 
+            "932cd394-e672-4854-99ec-f043e9f6d59b", 
+            "4a357cdd-ab5f-4f7a-b6ec-20fb32c9fce1"
+         ], 
+         "key" : "WATERFALL_WHOOP"
+      }, 
+      "932cd394-e672-4854-99ec-f043e9f6d59b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100273", 
+            "y" : "-98691"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "4a357cdd-ab5f-4f7a-b6ec-20fb32c9fce1" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-100148", 
+            "y" : "-98699"
+         }, 
+         "child" : [ 
+            "0534d863-5e0f-49e4-9182-4e2b7c565523"
+         ], 
+         "key" : "WATERFALL_WHOOP"
+      }, 
+      "0534d863-5e0f-49e4-9182-4e2b7c565523" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-100093", 
+            "y" : "-98606"
+         }, 
+         "child" : [ 
+            "9df2acd2-1cb6-4d26-bec2-698ccdee3d0b"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "9df2acd2-1cb6-4d26-bec2-698ccdee3d0b" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100138", 
+            "y" : "-98528"
+         }, 
+         "child" : [ 
+            "0c3fae4d-23e2-4341-a6fc-afabcba82ac0"
+         ], 
+         "text" : "Как тут красиво!", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "0c3fae4d-23e2-4341-a6fc-afabcba82ac0" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-100083", 
+            "y" : "-98411"
+         }, 
+         "child" : [ 
+            "bc1fe027-2c0a-42cd-a953-9995cbf1e600"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "bc1fe027-2c0a-42cd-a953-9995cbf1e600" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100134", 
+            "y" : "-98340"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Прекрасное место для отдыха. Отмечу его для себя.", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "4ff84cdc-2fec-4512-aa58-605ae6332371" : { 
+         "class" : "PlayerMapLocationNode", 
+         "desc" : { 
+            "x" : "-98602", 
+            "y" : "-99081"
+         }, 
+         "child" : [ 
+            "60a90e4f-6ca2-4983-848e-4c0ba47bd156"
+         ], 
+         "mapName" : "Lost_DownBus_1"
+      }, 
+      "60a90e4f-6ca2-4983-848e-4c0ba47bd156" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-98640", 
+            "y" : "-98918"
+         }, 
+         "child" : [ 
+            "08690956-6fb1-4ae7-89c2-9fc40bf02904", 
+            "709b7cb8-ef44-4fd2-8b49-cfd4fa1d28b2"
+         ], 
+         "key" : "LOST_DOWNBUS_1_WHOOP"
+      }, 
+      "08690956-6fb1-4ae7-89c2-9fc40bf02904" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-98720", 
+            "y" : "-98770"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "709b7cb8-ef44-4fd2-8b49-cfd4fa1d28b2" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-98594", 
+            "y" : "-98778"
+         }, 
+         "child" : [ 
+            "c0a99f23-1940-4415-8c8e-c6afb609376a"
+         ], 
+         "key" : "LOST_DOWNBUS_1_WHOOP"
+      }, 
+      "c0a99f23-1940-4415-8c8e-c6afb609376a" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-98540", 
+            "y" : "-98684"
+         }, 
+         "child" : [ 
+            "9559cfe3-7696-4e8b-86c9-d2905a20cebc"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "9559cfe3-7696-4e8b-86c9-d2905a20cebc" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-98590", 
+            "y" : "-98592"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Я не думаю что с ними стоит разговаривать. Можно я их всех перестреляю?", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "968d4e17-dd05-4e05-84da-9d4e855e2a12" : { 
+         "class" : "PlayerMapLocationNode", 
+         "desc" : { 
+            "x" : "-98159", 
+            "y" : "-99086"
+         }, 
+         "child" : [ 
+            "9d868d24-ede3-40e8-861e-e5d5d88878ac"
+         ], 
+         "mapName" : "lost_busstop_4"
+      }, 
+      "9d868d24-ede3-40e8-861e-e5d5d88878ac" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-98196", 
+            "y" : "-98914"
+         }, 
+         "child" : [ 
+            "0807defd-dddc-42ac-b455-9fbf2b7a363e", 
+            "24d2d0c3-d6d5-4fa6-9775-98294db3c223"
+         ], 
+         "key" : "LOST_BUSSTOP_4_WHOOP"
+      }, 
+      "0807defd-dddc-42ac-b455-9fbf2b7a363e" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-98276", 
+            "y" : "-98766"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "24d2d0c3-d6d5-4fa6-9775-98294db3c223" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-98150", 
+            "y" : "-98774"
+         }, 
+         "child" : [ 
+            "9fb71aaf-00a0-4115-a87b-cb62b0c26808"
+         ], 
+         "key" : "LOST_BUSSTOP_4_WHOOP"
+      }, 
+      "9fb71aaf-00a0-4115-a87b-cb62b0c26808" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-98096", 
+            "y" : "-98680"
+         }, 
+         "child" : [ 
+            "3599afdb-071e-4eb2-9d09-9956ecdb3d2c"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "3599afdb-071e-4eb2-9d09-9956ecdb3d2c" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-98146", 
+            "y" : "-98588"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Опасное местоположение для Хутора. Как они тут выживают?", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "3835fc86-f04a-4ec5-8690-89995f0cd823" : { 
+         "class" : "PlayerMapLocationNode", 
+         "desc" : { 
+            "x" : "-97308", 
+            "y" : "-99097"
+         }, 
+         "child" : [ 
+            "652162aa-9d36-4806-94be-8733a23db1dd"
+         ], 
+         "mapName" : "Lost_BusStop_1"
+      }, 
+      "652162aa-9d36-4806-94be-8733a23db1dd" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-97345", 
+            "y" : "-98932"
+         }, 
+         "child" : [ 
+            "1ac6c2c5-13ec-4443-95f0-c39c3a6091ad", 
+            "9504863b-3fc9-4656-bf81-21f7e54db966"
+         ], 
+         "key" : "LOST_BUSSTOP_1_WHOOP"
+      }, 
+      "1ac6c2c5-13ec-4443-95f0-c39c3a6091ad" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-97425", 
+            "y" : "-98784"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "9504863b-3fc9-4656-bf81-21f7e54db966" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-97299", 
+            "y" : "-98792"
+         }, 
+         "child" : [ 
+            "77eb0a7f-42b4-4597-8f82-ee7ac6712989"
+         ], 
+         "key" : "LOST_BUSSTOP_1_WHOOP"
+      }, 
+      "77eb0a7f-42b4-4597-8f82-ee7ac6712989" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-97245", 
+            "y" : "-98698"
+         }, 
+         "child" : [ 
+            "6594fd3e-b800-449f-ac46-a2955bbf14d1"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "6594fd3e-b800-449f-ac46-a2955bbf14d1" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-97295", 
+            "y" : "-98606"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Хороший аванпост, удобное расположение. Но мало охраны. Почему?", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "a840ea4d-6b3c-4a70-a5cf-9ad8210f3480" : { 
+         "class" : "PlayerMapLocationNode", 
+         "desc" : { 
+            "x" : "-96927", 
+            "y" : "-99100"
+         }, 
+         "child" : [ 
+            "2df2af98-a76a-49ab-9236-b4efb1fe0ab1"
+         ], 
+         "mapName" : "Lost_LakePier_1"
+      }, 
+      "2df2af98-a76a-49ab-9236-b4efb1fe0ab1" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-96965", 
+            "y" : "-98923"
+         }, 
+         "child" : [ 
+            "ba329904-95de-472c-94ce-96178f765060", 
+            "b9396c17-4c6d-42d4-a1e4-6c75f1cd39d7"
+         ], 
+         "key" : "LOST_LAKEPIER_1_WHOOP"
+      }, 
+      "ba329904-95de-472c-94ce-96178f765060" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-97045", 
+            "y" : "-98775"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "b9396c17-4c6d-42d4-a1e4-6c75f1cd39d7" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-96919", 
+            "y" : "-98783"
+         }, 
+         "child" : [ 
+            "6e2ca9a6-d91a-4b4f-b406-3250fc32f0ca"
+         ], 
+         "key" : "LOST_LAKEPIER_1_WHOOP"
+      }, 
+      "6e2ca9a6-d91a-4b4f-b406-3250fc32f0ca" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-96865", 
+            "y" : "-98689"
+         }, 
+         "child" : [ 
+            "e32f636b-0ff3-451e-8c2f-be463c7b070d"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "e32f636b-0ff3-451e-8c2f-be463c7b070d" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-96915", 
+            "y" : "-98597"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Приятное место для отдыха. Тихо, спокойно. Романтика.", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "4cb5c0c7-4086-4b3b-8651-534e7e39f9b5" : { 
+         "class" : "PlayerMapLocationNode", 
+         "desc" : { 
+            "x" : "-97763", 
+            "y" : "-99090"
+         }, 
+         "child" : [ 
+            "b4f5d723-cee8-42e0-8312-4165ee8eaed4"
+         ], 
+         "mapName" : "tunnel_2_1"
+      }, 
+      "b4f5d723-cee8-42e0-8312-4165ee8eaed4" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-97781", 
+            "y" : "-98916"
+         }, 
+         "child" : [ 
+            "0c6b81cd-2622-47ec-a4ff-db2389dd86e7", 
+            "6d89f8e1-c73d-4a9b-a8b8-880bdd55805f"
+         ], 
+         "key" : "TUNNEL_2_1_WHOOP"
+      }, 
+      "0c6b81cd-2622-47ec-a4ff-db2389dd86e7" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-97861", 
+            "y" : "-98768"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "6d89f8e1-c73d-4a9b-a8b8-880bdd55805f" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-97735", 
+            "y" : "-98776"
+         }, 
+         "child" : [ 
+            "0f74204f-ccef-4bf3-b925-10893518ff51"
+         ], 
+         "key" : "TUNNEL_2_1_WHOOP"
+      }, 
+      "0f74204f-ccef-4bf3-b925-10893518ff51" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-97681", 
+            "y" : "-98682"
+         }, 
+         "child" : [ 
+            "44dc2f82-cbfe-4c5b-b467-48b6d6acbcc8"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "44dc2f82-cbfe-4c5b-b467-48b6d6acbcc8" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-97731", 
+            "y" : "-98590"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Нам обязательно посещать каждую развалину которую мы встречаем в пустоши?", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "d4404b94-f6ec-4c93-a2df-0683d2efbbe3" : { 
+         "class" : "PlayerMapLocationNode", 
+         "desc" : { 
+            "x" : "-98974", 
+            "y" : "-99086"
+         }, 
+         "child" : [ 
+            "e5ccbc46-dfec-4e7d-9cf9-961cd78e6839"
+         ], 
+         "mapName" : "Rat_Forest"
+      }, 
+      "e5ccbc46-dfec-4e7d-9cf9-961cd78e6839" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-98989", 
+            "y" : "-98871"
+         }, 
+         "child" : [ 
+            "2a285ccf-7275-40f8-9471-01b5abfd13a9", 
+            "6a5b8676-f671-4b49-89cf-4ac9f59a579d"
+         ], 
+         "key" : "RAT_FOREST_WHOOP"
+      }, 
+      "2a285ccf-7275-40f8-9471-01b5abfd13a9" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99069", 
+            "y" : "-98723"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "6a5b8676-f671-4b49-89cf-4ac9f59a579d" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-98943", 
+            "y" : "-98731"
+         }, 
+         "child" : [ 
+            "faa90053-5407-4120-aaae-1902f3f8b595"
+         ], 
+         "key" : "RAT_FOREST_WHOOP"
+      }, 
+      "faa90053-5407-4120-aaae-1902f3f8b595" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-98889", 
+            "y" : "-98637"
+         }, 
+         "child" : [ 
+            "1336f226-4c15-465e-8298-05231746b2d0"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "1336f226-4c15-465e-8298-05231746b2d0" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-98939", 
+            "y" : "-98545"
+         }, 
+         "child" : [ 
+            "865463aa-5dbd-4db9-900a-dc8ebde4b20f"
+         ], 
+         "text" : "Да тут землю что-то изрядно потряхивает. Вон мелкие камушки порой двигаются.", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "865463aa-5dbd-4db9-900a-dc8ebde4b20f" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-98880", 
+            "y" : "-98407"
+         }, 
+         "child" : [ 
+            "ea9ebba4-85ae-40e9-85d1-43a25ac2c84b"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "ea9ebba4-85ae-40e9-85d1-43a25ac2c84b" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-98930", 
+            "y" : "-98330"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Интересное место конечно. Мистическое!", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "d16dd625-69f5-4e1d-8641-84133379e79f" : { 
+         "class" : "PlayerMapLocationNode", 
+         "desc" : { 
+            "x" : "-96135", 
+            "y" : "-99105"
+         }, 
+         "child" : [ 
+            "043e9716-d6b3-49ae-8336-515a1b515e0e"
+         ], 
+         "mapName" : "lost_cave_1"
+      }, 
+      "043e9716-d6b3-49ae-8336-515a1b515e0e" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-96158", 
+            "y" : "-98933"
+         }, 
+         "child" : [ 
+            "25c3bb57-75f7-4b61-bccc-771f20165f44", 
+            "aefda865-d637-4f22-89a1-0101f35d6391"
+         ], 
+         "key" : "LOST_CAVE_1_WHOOP"
+      }, 
+      "25c3bb57-75f7-4b61-bccc-771f20165f44" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-96238", 
+            "y" : "-98785"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "aefda865-d637-4f22-89a1-0101f35d6391" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-96112", 
+            "y" : "-98793"
+         }, 
+         "child" : [ 
+            "bdc4ddfc-a554-47ed-a993-12a1680abb47"
+         ], 
+         "key" : "LOST_CAVE_1_WHOOP"
+      }, 
+      "bdc4ddfc-a554-47ed-a993-12a1680abb47" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-96058", 
+            "y" : "-98699"
+         }, 
+         "child" : [ 
+            "863763a4-e6f6-488b-86c3-3f45bbce7702"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "863763a4-e6f6-488b-86c3-3f45bbce7702" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-96108", 
+            "y" : "-98607"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Любишь ты по пещерам ползать. Сыро, грязно, темно. Ну вот зачем? Я бы могла тебя и на верху подождать!", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "873f723b-1aca-43f4-a057-a1ce47f738c6" : { 
+         "class" : "PlayerMapLocationNode", 
+         "desc" : { 
+            "x" : "-95793", 
+            "y" : "-99103"
+         }, 
+         "child" : [ 
+            "48acdf5e-10b3-4615-91ee-e378ca25b1a7"
+         ], 
+         "mapName" : "lost_bunker_1"
+      }, 
+      "48acdf5e-10b3-4615-91ee-e378ca25b1a7" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-95826", 
+            "y" : "-98895"
+         }, 
+         "child" : [ 
+            "d86fe0b3-ab9c-4c16-977c-396d9f3909f2", 
+            "1ec283b3-b559-4207-bed7-880c276b3cd3"
+         ], 
+         "key" : "LOST_BUNKER_1_WHOOP"
+      }, 
+      "d86fe0b3-ab9c-4c16-977c-396d9f3909f2" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-95906", 
+            "y" : "-98747"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "1ec283b3-b559-4207-bed7-880c276b3cd3" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-95780", 
+            "y" : "-98755"
+         }, 
+         "child" : [ 
+            "9fe45ef6-0ccf-42ab-a00d-8c7fdba04a2f"
+         ], 
+         "key" : "LOST_BUNKER_1_WHOOP"
+      }, 
+      "9fe45ef6-0ccf-42ab-a00d-8c7fdba04a2f" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-95726", 
+            "y" : "-98661"
+         }, 
+         "child" : [ 
+            "b84fa005-a3cc-464a-a655-f9c26d8781aa"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "b84fa005-a3cc-464a-a655-f9c26d8781aa" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-95776", 
+            "y" : "-98569"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "О! Еще один бункер. Почти целый! Да тут можно базу сделать или перевалочный пункт. ", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "b75b2f70-eb96-4735-92c7-b30d5744ae14" : { 
+         "class" : "PlayerMapLocationNode", 
+         "desc" : { 
+            "x" : "-95422", 
+            "y" : "-99097"
+         }, 
+         "child" : [ 
+            "297aaccf-9e50-435b-bf7c-2d03e3e6dde1"
+         ], 
+         "mapName" : "Raider_1"
+      }, 
+      "297aaccf-9e50-435b-bf7c-2d03e3e6dde1" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-95441", 
+            "y" : "-98886"
+         }, 
+         "child" : [ 
+            "c78fbf83-8d33-4f19-8b8a-6d38759f8dda", 
+            "f3b38d53-f8c7-4885-93f2-683a7a915a59"
+         ], 
+         "key" : "RAIDER_1_WHOOP"
+      }, 
+      "c78fbf83-8d33-4f19-8b8a-6d38759f8dda" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-95502", 
+            "y" : "-98763"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "f3b38d53-f8c7-4885-93f2-683a7a915a59" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-95376", 
+            "y" : "-98771"
+         }, 
+         "child" : [ 
+            "bf120e88-3058-42c0-814f-95e521ea1012"
+         ], 
+         "key" : "RAIDER_1_WHOOP"
+      }, 
+      "bf120e88-3058-42c0-814f-95e521ea1012" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-95322", 
+            "y" : "-98677"
+         }, 
+         "child" : [ 
+            "f35538f9-ad16-4ca1-af96-2bc853aec8ac"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "f35538f9-ad16-4ca1-af96-2bc853aec8ac" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-95372", 
+            "y" : "-98585"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Класс! Красивое место. Чуствуется какое-то спокойствие.", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "fec58ec9-1007-472e-9a0e-6ba2dec8b556" : { 
+         "class" : "PlayerMapLocationNode", 
+         "desc" : { 
+            "x" : "-94655", 
+            "y" : "-99084"
+         }, 
+         "child" : [ 
+            "d68aff68-a658-4132-a0cb-ee83d286a58f"
+         ], 
+         "mapName" : "hardway_1"
+      }, 
+      "d68aff68-a658-4132-a0cb-ee83d286a58f" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-94677", 
+            "y" : "-98870"
+         }, 
+         "child" : [ 
+            "055eac50-4c70-4c14-a415-73e3fc5ef77f", 
+            "a2155220-0a5d-4a8f-86aa-8e2f37d39948"
+         ], 
+         "key" : "HARDWAY_1_WHOOP"
+      }, 
+      "055eac50-4c70-4c14-a415-73e3fc5ef77f" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-94738", 
+            "y" : "-98747"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "a2155220-0a5d-4a8f-86aa-8e2f37d39948" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-94612", 
+            "y" : "-98755"
+         }, 
+         "child" : [ 
+            "96073b3f-9a7f-40b1-a2b5-cf7a84271397"
+         ], 
+         "key" : "HARDWAY_1_WHOOP"
+      }, 
+      "96073b3f-9a7f-40b1-a2b5-cf7a84271397" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-94558", 
+            "y" : "-98661"
+         }, 
+         "child" : [ 
+            "0d41f53c-f8e5-4ff9-8b0a-0bc31783e132"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "0d41f53c-f8e5-4ff9-8b0a-0bc31783e132" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-94608", 
+            "y" : "-98569"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Вот это постройка! Вот это я понимаю стена для обороны. Ха, да тут должен был быть населенный пункт!", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "1afd40e2-013d-495d-b843-38eedb2bdba2" : { 
+         "class" : "PlayerMapLocationNode", 
+         "desc" : { 
+            "x" : "-95037", 
+            "y" : "-99092"
+         }, 
+         "child" : [ 
+            "40f67619-f9d7-476e-8563-c789a12fd087"
+         ], 
+         "mapName" : "Raider_2"
+      }, 
+      "40f67619-f9d7-476e-8563-c789a12fd087" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-95058", 
+            "y" : "-98876"
+         }, 
+         "child" : [ 
+            "63c82abd-7c63-4811-9b96-3c6b4dc07da1", 
+            "da5025ab-66ac-4d54-82fb-148f00eecca6"
+         ], 
+         "key" : "RAIDER_2_WHOOP"
+      }, 
+      "63c82abd-7c63-4811-9b96-3c6b4dc07da1" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-95119", 
+            "y" : "-98753"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "da5025ab-66ac-4d54-82fb-148f00eecca6" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-94993", 
+            "y" : "-98761"
+         }, 
+         "child" : [ 
+            "01f3581c-8101-46d5-9493-5dfa1b6a1b84"
+         ], 
+         "key" : "RAIDER_2_WHOOP"
+      }, 
+      "01f3581c-8101-46d5-9493-5dfa1b6a1b84" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-94939", 
+            "y" : "-98667"
+         }, 
+         "child" : [ 
+            "a6c32825-ae86-475a-bee9-7e7e8ad7e145"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "a6c32825-ae86-475a-bee9-7e7e8ad7e145" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-94989", 
+            "y" : "-98575"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "В такой глуши, в столь опасном месте, где живность бродит. И такой домик. Как они тут выживают?", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "0ec6a992-39cc-4db9-9f91-114da93ad4e8" : { 
+         "class" : "PlayerMapLocationNode", 
+         "desc" : { 
+            "x" : "-94259", 
+            "y" : "-99067"
+         }, 
+         "child" : [ 
+            "84586272-d353-4089-97e7-c240151d28c6"
+         ], 
+         "mapName" : "Ruins_1"
+      }, 
+      "84586272-d353-4089-97e7-c240151d28c6" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-94281", 
+            "y" : "-98872"
+         }, 
+         "child" : [ 
+            "cd785445-3118-4e41-98a8-3593d481d71d", 
+            "a1e2a34d-19ba-4aa6-b35b-5cd8c77c75b3"
+         ], 
+         "key" : "RUINS_1_WHOOP"
+      }, 
+      "cd785445-3118-4e41-98a8-3593d481d71d" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-94342", 
+            "y" : "-98749"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "a1e2a34d-19ba-4aa6-b35b-5cd8c77c75b3" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-94216", 
+            "y" : "-98757"
+         }, 
+         "child" : [ 
+            "1a303476-dd3d-49ba-b877-0b2d995a9ec0"
+         ], 
+         "key" : "RUINS_1_WHOOP"
+      }, 
+      "1a303476-dd3d-49ba-b877-0b2d995a9ec0" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-94162", 
+            "y" : "-98663"
+         }, 
+         "child" : [ 
+            "201a7de8-7f42-4820-be20-dc9460fa8ceb"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "201a7de8-7f42-4820-be20-dc9460fa8ceb" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-94212", 
+            "y" : "-98571"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Отличный бункер. Есть даже площадка и вертолёт. Почему никто не присвоил себе эту базу? Те же бандиты?", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "9266cfaa-08a5-462a-9a2e-c9d70bc8c17e" : { 
+         "class" : "PlayerMapLocationNode", 
+         "desc" : { 
+            "x" : "-93469", 
+            "y" : "-99041"
+         }, 
+         "child" : [ 
+            "88965bf3-4e11-4099-a3e1-0ce28408a10b"
+         ], 
+         "mapName" : "deadcity_station_2"
+      }, 
+      "88965bf3-4e11-4099-a3e1-0ce28408a10b" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-93443", 
+            "y" : "-98879"
+         }, 
+         "child" : [ 
+            "07893cd3-1943-4f0c-92b5-bf234796c79a", 
+            "09e52976-1bdb-4684-8763-0218e7979171"
+         ], 
+         "key" : "DEADCITY_STATION_2_WHOOP"
+      }, 
+      "07893cd3-1943-4f0c-92b5-bf234796c79a" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-93503", 
+            "y" : "-98757"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "09e52976-1bdb-4684-8763-0218e7979171" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-93377", 
+            "y" : "-98765"
+         }, 
+         "child" : [ 
+            "1c0d37e2-de14-49be-82e4-beb45d1c9a5e"
+         ], 
+         "key" : "DEADCITY_STATION_2_WHOOP"
+      }, 
+      "1c0d37e2-de14-49be-82e4-beb45d1c9a5e" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-93323", 
+            "y" : "-98671"
+         }, 
+         "child" : [ 
+            "228c74cf-1552-4c72-85f2-666ac9081606"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "228c74cf-1552-4c72-85f2-666ac9081606" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-93471", 
+            "y" : "-98562"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Киевская станция метро. А город то большой оказывается.", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "66eb170e-359e-40c9-a854-3e71dcaabe8a" : { 
+         "class" : "PlayerMapLocationNode", 
+         "desc" : { 
+            "x" : "-92601", 
+            "y" : "-99097"
+         }, 
+         "child" : [ 
+            "b258ea93-78e6-4f68-9364-0839ccf4d5ff"
+         ], 
+         "mapName" : "deadcity_family_metro"
+      }, 
+      "b258ea93-78e6-4f68-9364-0839ccf4d5ff" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-92587", 
+            "y" : "-98923"
+         }, 
+         "child" : [ 
+            "fadd38b7-803a-47f6-a18c-e36ec2fa5eec", 
+            "15043187-f807-4cb5-ac30-0256d0dd363e"
+         ], 
+         "key" : "DEADCITY_FAMILY_METRO_WHOOP"
+      }, 
+      "fadd38b7-803a-47f6-a18c-e36ec2fa5eec" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-92719", 
+            "y" : "-98813"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "15043187-f807-4cb5-ac30-0256d0dd363e" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-92559", 
+            "y" : "-98783"
+         }, 
+         "child" : [ 
+            "e9aa6f60-5c82-4367-9978-ae14c944d03d"
+         ], 
+         "key" : "DEADCITY_FAMILY_METRO_WHOOP"
+      }, 
+      "e9aa6f60-5c82-4367-9978-ae14c944d03d" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-92499", 
+            "y" : "-98691"
+         }, 
+         "child" : [ 
+            "f3b705ce-94f2-41a5-91c8-4dd26b6facb1"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "f3b705ce-94f2-41a5-91c8-4dd26b6facb1" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-92549", 
+            "y" : "-98603"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Ничего себе. Спустя столько лет и в таком хорошем состоянии. Удивительно! Раньше строили на века.", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "39250f11-91a4-4dc6-914f-7208017e17fc" : { 
+         "class" : "PlayerMapLocationNode", 
+         "desc" : { 
+            "x" : "-93903", 
+            "y" : "-99069"
+         }, 
+         "child" : [ 
+            "a9c3fc91-c210-4c0f-a2cb-c1e05be164b4"
+         ], 
+         "mapName" : "deadcity_station_1"
+      }, 
+      "a9c3fc91-c210-4c0f-a2cb-c1e05be164b4" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-93931", 
+            "y" : "-98883"
+         }, 
+         "child" : [ 
+            "f6f7b7dc-04a1-4052-803c-ea382b9bcc6b", 
+            "2c0c5374-bb00-4602-ba5f-0663a6691919"
+         ], 
+         "key" : "DEADCITY_STATION_1_WHOOP"
+      }, 
+      "f6f7b7dc-04a1-4052-803c-ea382b9bcc6b" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-93991", 
+            "y" : "-98761"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "2c0c5374-bb00-4602-ba5f-0663a6691919" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-93865", 
+            "y" : "-98769"
+         }, 
+         "child" : [ 
+            "67109628-0028-49de-91b7-4e8bcf09415a"
+         ], 
+         "key" : "DEADCITY_STATION_1_WHOOP"
+      }, 
+      "67109628-0028-49de-91b7-4e8bcf09415a" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-93811", 
+            "y" : "-98675"
+         }, 
+         "child" : [ 
+            "7e00b04f-aac6-435f-ba0d-adc0ff0d1c86"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "7e00b04f-aac6-435f-ba0d-adc0ff0d1c86" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-93861", 
+            "y" : "-98583"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Станция метро в городе призраке. Нам нужно обязательно спуститься вниз, угадала? Вдруг там клад или бункер.", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "45bdac1f-92b4-4637-aa0d-460fdd7ae288" : { 
+         "class" : "PlayerMapLocationNode", 
+         "desc" : { 
+            "x" : "-93027", 
+            "y" : "-99046"
+         }, 
+         "child" : [ 
+            "6bdea7f5-534a-46d0-9001-e7c17cf80309"
+         ], 
+         "mapName" : "deadcity_fort"
+      }, 
+      "6bdea7f5-534a-46d0-9001-e7c17cf80309" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-93013", 
+            "y" : "-98873"
+         }, 
+         "child" : [ 
+            "cbb8b8c0-5418-432f-9c67-3088fea29008", 
+            "e6c09066-9191-4565-915f-c02088e45b9b"
+         ], 
+         "key" : "DEADCITY_FORT_WHOOP"
+      }, 
+      "cbb8b8c0-5418-432f-9c67-3088fea29008" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-93073", 
+            "y" : "-98751"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "e6c09066-9191-4565-915f-c02088e45b9b" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-92947", 
+            "y" : "-98759"
+         }, 
+         "child" : [ 
+            "cc9e66cc-4636-43e8-a59c-e88a65a1c5cd"
+         ], 
+         "key" : "DEADCITY_FORT_WHOOP"
+      }, 
+      "cc9e66cc-4636-43e8-a59c-e88a65a1c5cd" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-92893", 
+            "y" : "-98665"
+         }, 
+         "child" : [ 
+            "ac4f6deb-41fe-4c67-8e83-51d4226d305f"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "ac4f6deb-41fe-4c67-8e83-51d4226d305f" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-92976", 
+            "y" : "-98552"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Тут ещё и люди живут! Спустя 20 лет после войны. Зачем? В пустошах теперь столько свободного места, всем места хватит.", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "e7eb3f5d-b130-434c-a92d-56e1ca0b0cb6" : { 
+         "class" : "PlayerMapLocationNode", 
+         "desc" : { 
+            "x" : "-96480", 
+            "y" : "-99104"
+         }, 
+         "child" : [ 
+            "4d06f90e-35fa-41e1-ab44-2644a79fb3b6"
+         ], 
+         "mapName" : "lab_ground_1"
+      }, 
+      "4d06f90e-35fa-41e1-ab44-2644a79fb3b6" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-96508", 
+            "y" : "-98932"
+         }, 
+         "child" : [ 
+            "69cdae12-0fec-42d4-b06f-b994adeb6477", 
+            "2c622bf7-741c-4060-a923-da5e094ed141"
+         ], 
+         "key" : "LAB_GROUND_1_WHOOP"
+      }, 
+      "69cdae12-0fec-42d4-b06f-b994adeb6477" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-96588", 
+            "y" : "-98784"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "2c622bf7-741c-4060-a923-da5e094ed141" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-96462", 
+            "y" : "-98792"
+         }, 
+         "child" : [ 
+            "f2ae786d-8861-4cf6-a08d-9f615d79a9bd"
+         ], 
+         "key" : "LAB_GROUND_1_WHOOP"
+      }, 
+      "f2ae786d-8861-4cf6-a08d-9f615d79a9bd" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-96408", 
+            "y" : "-98698"
+         }, 
+         "child" : [ 
+            "be03d6a3-1b5c-4f62-86e2-ecc55c857d3e"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "be03d6a3-1b5c-4f62-86e2-ecc55c857d3e" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-96458", 
+            "y" : "-98606"
+         }, 
+         "child" : [ 
+            "78b2b51e-e69c-4bde-92f4-b04d0e704c70"
+         ], 
+         "text" : "Заброшеный завод! Я таких на своём пути столько встречала. Некоторые были полностью восстановленны и работали.", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "78b2b51e-e69c-4bde-92f4-b04d0e704c70" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-96404", 
+            "y" : "-98457"
+         }, 
+         "child" : [ 
+            "3fb6bca6-62c2-46db-8f1c-2ec2f39cb1a0"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "3fb6bca6-62c2-46db-8f1c-2ec2f39cb1a0" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-96455", 
+            "y" : "-98379"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Помню у костра сидели в одном заброшеном заводе, от дождя кислотного прятались. Так мы песни на гитаре играли. Классно было.", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
       }
    }, 
    "entry" : "6ce8c730-7ecb-41b4-9730-ea9e7644943e"

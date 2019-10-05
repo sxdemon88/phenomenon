@@ -14,8 +14,8 @@
       "c7d2e654-b15e-4693-81ed-84ec0408d7ff" : { 
          "class" : "RemoveKeywordNode", 
          "desc" : { 
-            "x" : "-102459", 
-            "y" : "-102010"
+            "x" : "-102463", 
+            "y" : "-101998"
          }, 
          "child" : [ 
             "7ae17b8f-0305-4a6c-b0ad-39ec051b6d64"
@@ -25,8 +25,8 @@
       "7ae17b8f-0305-4a6c-b0ad-39ec051b6d64" : { 
          "class" : "DialogShowCustomNameNode", 
          "desc" : { 
-            "x" : "-102510", 
-            "y" : "-101935"
+            "x" : "-102505", 
+            "y" : "-101927"
          }, 
          "child" : [ 
             "604defa3-d634-4068-979d-c832455f4931"
@@ -37,7 +37,7 @@
          "class" : "HasKeywordNode", 
          "desc" : { 
             "x" : "-102447", 
-            "y" : "-101876"
+            "y" : "-101849"
          }, 
          "child" : [ 
             "abfe3407-4392-4476-90d7-28541fbac321", 
@@ -48,8 +48,8 @@
       "abfe3407-4392-4476-90d7-28541fbac321" : { 
          "class" : "NotebookHasNoteNode", 
          "desc" : { 
-            "x" : "-102914", 
-            "y" : "-101760"
+            "x" : "-102878", 
+            "y" : "-101740"
          }, 
          "child" : [ 
             "8188c766-2885-403c-903e-53fb26f5009d", 
@@ -60,8 +60,8 @@
       "8188c766-2885-403c-903e-53fb26f5009d" : { 
          "class" : "RandomNode", 
          "desc" : { 
-            "x" : "-102794", 
-            "y" : "-101565"
+            "x" : "-102737", 
+            "y" : "-101574"
          }, 
          "child" : [ 
             "3c4d691d-ca85-4c88-9861-f4fafe0eab11", 
@@ -626,8 +626,8 @@
       "fee52569-eb20-440c-b6ad-9ae1c652fcc4" : { 
          "class" : "DialogAnswerNode", 
          "desc" : { 
-            "x" : "-95848", 
-            "y" : "-98911"
+            "x" : "-95487", 
+            "y" : "-99592"
          }, 
          "child" : [ 
             "5f82a7c5-9424-4ead-9f74-78a21a5acd09"
@@ -637,12 +637,12 @@
       "5f82a7c5-9424-4ead-9f74-78a21a5acd09" : { 
          "class" : "QuestStatusNode", 
          "desc" : { 
-            "x" : "-95387", 
-            "y" : "-98723"
+            "x" : "-95460", 
+            "y" : "-99432"
          }, 
          "child" : [ 
             "dbea346c-d88d-48f3-bef6-e07ab76bb147", 
-            "6c5cab42-dafa-440b-87ec-e7d52afb967e", 
+            "80fcdecf-7e6d-443e-8f1d-ac474e360cd9", 
             "a6cc428c-1310-4456-b12f-0eab4e4255da"
          ], 
          "quest_key" : "OKSANA_QUEST_1"
@@ -650,8 +650,8 @@
       "dbea346c-d88d-48f3-bef6-e07ab76bb147" : { 
          "class" : "PlayerWhereMapLocationNode", 
          "desc" : { 
-            "x" : "-94794", 
-            "y" : "-98805"
+            "x" : "-94497", 
+            "y" : "-98754"
          }, 
          "child" : [ 
             "7ab4ef93-26d3-49b0-aa26-5a10bbcf7f9e", 
@@ -662,14 +662,14 @@
       "7ab4ef93-26d3-49b0-aa26-5a10bbcf7f9e" : { 
          "class" : "DialogPhraseNode", 
          "desc" : { 
-            "x" : "-94674", 
-            "y" : "-98654"
+            "x" : "-94712", 
+            "y" : "-98643"
          }, 
          "child" : [ 
             "e6a83737-9c26-4c4a-9c47-e9c69d499560", 
             "b40316fc-59fd-4d29-8b33-b0040158c301"
          ], 
-         "text" : "$PLAYER.NAME$  И вот мы на месте. Удалось собрать, то что я просила?"
+         "text" : "$PLAYER.NAME$  Мы на месте. Удалось собрать что я просила?"
       }, 
       "e6a83737-9c26-4c4a-9c47-e9c69d499560" : { 
          "class" : "InventoryHasItemNode", 
@@ -814,8 +814,8 @@
       "000176d8-191b-4895-a1ab-6c97867b73c7" : { 
          "class" : "DialogAnswerNode", 
          "desc" : { 
-            "x" : "-94675", 
-            "y" : "-96969"
+            "x" : "-94712", 
+            "y" : "-96981"
          }, 
          "child" : [ 
             "49c0cfbc-9919-4050-a5b4-2a1cd66e3d8b"
@@ -829,17 +829,28 @@
             "y" : "-96873"
          }, 
          "child" : [ 
+            "6c0d4867-609e-491a-ba72-e6105ee083bb", 
             "c9f50829-a676-4aa5-b5a8-399f83598882", 
-            "4f991e56-040f-4aff-9689-591db42cf230", 
-            "6c0d4867-609e-491a-ba72-e6105ee083bb"
+            "4f991e56-040f-4aff-9689-591db42cf230"
          ], 
          "quest_key" : "OKSANA_QUEST_1"
+      }, 
+      "6c0d4867-609e-491a-ba72-e6105ee083bb" : { 
+         "class" : "ScrollTimeNode", 
+         "desc" : { 
+            "x" : "-94866", 
+            "y" : "-96783"
+         }, 
+         "child" : [ 
+         ], 
+         "time" : "1", 
+         "timeMode" : "Hour"
       }, 
       "c9f50829-a676-4aa5-b5a8-399f83598882" : { 
          "class" : "FlashSplashNode", 
          "desc" : { 
-            "x" : "-94704", 
-            "y" : "-96783"
+            "x" : "-94797", 
+            "y" : "-96702"
          }, 
          "child" : [ 
          ], 
@@ -981,8 +992,8 @@
       "e64d272a-0009-4e67-9dda-85eef4cff8ed" : { 
          "class" : "IsFemaleNode", 
          "desc" : { 
-            "x" : "-94210", 
-            "y" : "-96036"
+            "x" : "-94198", 
+            "y" : "-96037"
          }, 
          "child" : [ 
             "be055a89-f8b5-4f7b-8dba-6b89c69693fc", 
@@ -1014,8 +1025,8 @@
       "d3f869ce-1949-417a-95ae-b57b3b241bd7" : { 
          "class" : "AddExpNode", 
          "desc" : { 
-            "x" : "-94155", 
-            "y" : "-95760"
+            "x" : "-94164", 
+            "y" : "-95757"
          }, 
          "child" : [ 
             "73875de8-bf70-48da-9b0e-03646adf22c5"
@@ -1025,7 +1036,7 @@
       "73875de8-bf70-48da-9b0e-03646adf22c5" : { 
          "class" : "CharacterAddSpecPointsNode", 
          "desc" : { 
-            "x" : "-94187", 
+            "x" : "-94206", 
             "y" : "-95694"
          }, 
          "child" : [ 
@@ -1037,8 +1048,8 @@
       "16de24e5-bd4f-4747-a1f7-76faf35f1d91" : { 
          "class" : "DialogEndNode", 
          "desc" : { 
-            "x" : "-94146", 
-            "y" : "-95596"
+            "x" : "-94157", 
+            "y" : "-95609"
          }, 
          "child" : [ 
          ]
@@ -1054,22 +1065,11 @@
          ], 
          "text" : "Спасибо тебе большое, друг!"
       }, 
-      "6c0d4867-609e-491a-ba72-e6105ee083bb" : { 
-         "class" : "ScrollTimeNode", 
-         "desc" : { 
-            "x" : "-94354", 
-            "y" : "-96822"
-         }, 
-         "child" : [ 
-         ], 
-         "time" : "1", 
-         "timeMode" : "Hour"
-      }, 
       "a20c9521-001c-4434-b1ce-d6a3eb104a60" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-94114", 
-            "y" : "-97220"
+            "x" : "-94000", 
+            "y" : "-97119"
          }, 
          "child" : [ 
          ]
@@ -1116,11 +1116,532 @@
          ], 
          "text" : "Хорошо."
       }, 
+      "80fcdecf-7e6d-443e-8f1d-ac474e360cd9" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-94123", 
+            "y" : "-99817"
+         }, 
+         "child" : [ 
+            "eb25cba0-e3e8-4766-a1e0-835bb0f59c3f", 
+            "6c5cab42-dafa-440b-87ec-e7d52afb967e"
+         ], 
+         "note_key" : "WEAPON_OKSANA_ON"
+      }, 
+      "eb25cba0-e3e8-4766-a1e0-835bb0f59c3f" : { 
+         "class" : "QuestStatusNode", 
+         "desc" : { 
+            "x" : "-93182", 
+            "y" : "-99619"
+         }, 
+         "child" : [ 
+            "1a495fd6-5859-4154-948b-f543a9e777e2", 
+            "6c5cab42-dafa-440b-87ec-e7d52afb967e", 
+            "7a9f2b54-1cf5-4990-824c-df276b735436"
+         ], 
+         "quest_key" : "OKSANA_QUEST_2"
+      }, 
+      "1a495fd6-5859-4154-948b-f543a9e777e2" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-92649", 
+            "y" : "-99298"
+         }, 
+         "child" : [ 
+            "88fa8f0a-3a1f-43df-ab26-587285d19250", 
+            "554939f0-ac9a-4b4f-8126-c3b1366e97bb", 
+            "523e6067-fa62-43a4-8d5e-982a9985858c", 
+            "25b6b801-084c-473c-90f9-597d736b5c89", 
+            "0b6830cc-472f-46c8-aa08-58400a64f69f", 
+            "f3907631-e94b-4782-a568-e986a11ca8e7"
+         ]
+      }, 
+      "88fa8f0a-3a1f-43df-ab26-587285d19250" : { 
+         "class" : "PlayerMapLocationNode", 
+         "desc" : { 
+            "x" : "-93503", 
+            "y" : "-99135"
+         }, 
+         "child" : [ 
+            "d02bac9a-71a7-4f8a-851d-576ca006cef0"
+         ], 
+         "mapName" : "City_1"
+      }, 
+      "d02bac9a-71a7-4f8a-851d-576ca006cef0" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-93528", 
+            "y" : "-99051"
+         }, 
+         "child" : [ 
+            "3eca2228-517f-48e1-87f5-a0288c7718ca", 
+            "869e59a8-15cb-41d3-a194-b9defe7da1be"
+         ], 
+         "key" : "ONE_CITY"
+      }, 
+      "3eca2228-517f-48e1-87f5-a0288c7718ca" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-93711", 
+            "y" : "-98890"
+         }, 
+         "child" : [ 
+            "a37c2726-596a-4446-94f4-9ba884d6cc0c"
+         ], 
+         "text" : "$PLAYER.NAME$. Тут я уже была."
+      }, 
+      "a37c2726-596a-4446-94f4-9ba884d6cc0c" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-92018", 
+            "y" : "-99002"
+         }, 
+         "child" : [ 
+            "f8c91e06-5b06-4681-923b-8ab1f05233e0"
+         ], 
+         "text" : "Выдвигаемся"
+      }, 
+      "f8c91e06-5b06-4681-923b-8ab1f05233e0" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-91964", 
+            "y" : "-98910"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "869e59a8-15cb-41d3-a194-b9defe7da1be" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-93451", 
+            "y" : "-98905"
+         }, 
+         "child" : [ 
+            "cb74a884-d044-4dbf-ad46-440242f1655d"
+         ], 
+         "key" : "ONE_CITY"
+      }, 
+      "cb74a884-d044-4dbf-ad46-440242f1655d" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-93458", 
+            "y" : "-98789"
+         }, 
+         "child" : [ 
+            "a141b713-852d-46b2-a63b-f098c83970d7"
+         ], 
+         "text" : "Итак $PLAYER.NAME$. Вот мы и в КРЗ. Я быстро пробегусь по рынку. Может что найду интересное."
+      }, 
+      "a141b713-852d-46b2-a63b-f098c83970d7" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-92777", 
+            "y" : "-98440"
+         }, 
+         "child" : [ 
+            "72980896-64f7-48bb-829c-3ea62e9aba13", 
+            "da9a4391-d2f1-4445-b76b-86d77e5f57cb", 
+            "2cab1cfa-9305-4a32-a341-d2054929060e"
+         ], 
+         "text" : "Хорошо, жду тебя."
+      }, 
+      "72980896-64f7-48bb-829c-3ea62e9aba13" : { 
+         "class" : "ScrollTimeNode", 
+         "desc" : { 
+            "x" : "-92890", 
+            "y" : "-98356"
+         }, 
+         "child" : [ 
+         ], 
+         "time" : "1", 
+         "timeMode" : "Hour"
+      }, 
+      "da9a4391-d2f1-4445-b76b-86d77e5f57cb" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-92694", 
+            "y" : "-98298"
+         }, 
+         "child" : [ 
+            "a7df863c-e5af-41d5-add1-2309a24cb741"
+         ], 
+         "text" : "А вот и я. [Оксана довольно улыбается]. Всё купила что хотела."
+      }, 
+      "a7df863c-e5af-41d5-add1-2309a24cb741" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-92685", 
+            "y" : "-98183"
+         }, 
+         "child" : [ 
+            "8d9530df-0403-4664-acd5-4e2dd1a33632", 
+            "3d0e635b-d6a7-4d29-8d16-d1f18c86333d"
+         ], 
+         "key" : "ONE_CITY"
+      }, 
+      "8d9530df-0403-4664-acd5-4e2dd1a33632" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-92797", 
+            "y" : "-98071"
+         }, 
+         "child" : [ 
+            "b2aeb55a-0c74-46a9-b70e-bc836a1a19ed", 
+            "3d0e635b-d6a7-4d29-8d16-d1f18c86333d"
+         ], 
+         "key" : "TWO_CITY"
+      }, 
+      "b2aeb55a-0c74-46a9-b70e-bc836a1a19ed" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-92919", 
+            "y" : "-97959"
+         }, 
+         "child" : [ 
+            "e442dde1-2a53-4a88-ac16-6c6c762135d3", 
+            "3d0e635b-d6a7-4d29-8d16-d1f18c86333d"
+         ], 
+         "key" : "THREE_CITY"
+      }, 
+      "e442dde1-2a53-4a88-ac16-6c6c762135d3" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-93025", 
+            "y" : "-97841"
+         }, 
+         "child" : [ 
+            "f7835e12-878b-4c18-8843-7edde97e7a92", 
+            "3d0e635b-d6a7-4d29-8d16-d1f18c86333d"
+         ], 
+         "key" : "FOUR_CITY"
+      }, 
+      "f7835e12-878b-4c18-8843-7edde97e7a92" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-93141", 
+            "y" : "-97721"
+         }, 
+         "child" : [ 
+            "4324c812-09e4-4157-9fc0-d92abc28ffae", 
+            "3d0e635b-d6a7-4d29-8d16-d1f18c86333d"
+         ], 
+         "key" : "FIVE_CITY"
+      }, 
+      "4324c812-09e4-4157-9fc0-d92abc28ffae" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-93256", 
+            "y" : "-97592"
+         }, 
+         "child" : [ 
+            "91f01bcc-3fc6-4a60-8cc1-932a8b01f461"
+         ], 
+         "text" : "Мы посетили все локации по твоему списку Оксана."
+      }, 
+      "91f01bcc-3fc6-4a60-8cc1-932a8b01f461" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-93254", 
+            "y" : "-97492"
+         }, 
+         "child" : [ 
+            "beafea53-1b15-45b3-b83a-f5f35fbdbaf2"
+         ], 
+         "text" : "Да да $PLAYER.NAME$. Спасибо тебе огромное. И человеческое спасибо! Как только увижусь с Сашей, отдам ему подарок."
+      }, 
+      "beafea53-1b15-45b3-b83a-f5f35fbdbaf2" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-93241", 
+            "y" : "-97354"
+         }, 
+         "child" : [ 
+            "f61a6b63-acb6-4c62-a374-bef8dfe2568a"
+         ], 
+         "text" : "Всегда пожалуйста."
+      }, 
+      "f61a6b63-acb6-4c62-a374-bef8dfe2568a" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-93215", 
+            "y" : "-97279", 
+            "comment" : "для будущих квестов"
+         }, 
+         "child" : [ 
+            "d3901b1f-acf1-474d-9100-62cf544974d3"
+         ], 
+         "note_key" : "OKSANA_QUEST_2"
+      }, 
+      "d3901b1f-acf1-474d-9100-62cf544974d3" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-93198", 
+            "y" : "-97218"
+         }, 
+         "child" : [ 
+            "6a838437-5ced-4431-8c29-59803d6e1270"
+         ], 
+         "quest_key" : "OKSANA_QUEST_2"
+      }, 
+      "6a838437-5ced-4431-8c29-59803d6e1270" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-93187", 
+            "y" : "-97147"
+         }, 
+         "child" : [ 
+            "e64bc84b-0e75-43b1-a0a6-8099835ec802"
+         ], 
+         "exp" : "3000"
+      }, 
+      "e64bc84b-0e75-43b1-a0a6-8099835ec802" : { 
+         "class" : "CharacterAddSpecPointsNode", 
+         "desc" : { 
+            "x" : "-93230", 
+            "y" : "-97078"
+         }, 
+         "child" : [ 
+            "68e246b6-1253-4db5-96aa-b6d123cd7174"
+         ], 
+         "objectName" : "oksana", 
+         "value" : "1"
+      }, 
+      "68e246b6-1253-4db5-96aa-b6d123cd7174" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-93188", 
+            "y" : "-96993"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "3d0e635b-d6a7-4d29-8d16-d1f18c86333d" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-92388", 
+            "y" : "-97582"
+         }, 
+         "child" : [ 
+            "08da3718-60a2-4e72-8306-75287fc7183c"
+         ], 
+         "text" : "Пошли."
+      }, 
+      "08da3718-60a2-4e72-8306-75287fc7183c" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-92336", 
+            "y" : "-97498"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "2cab1cfa-9305-4a32-a341-d2054929060e" : { 
+         "class" : "FlashSplashNode", 
+         "desc" : { 
+            "x" : "-92521", 
+            "y" : "-98369"
+         }, 
+         "child" : [ 
+         ], 
+         "waitEnd" : "false", 
+         "waitTime" : "1.5"
+      }, 
+      "554939f0-ac9a-4b4f-8126-c3b1366e97bb" : { 
+         "class" : "PlayerMapLocationNode", 
+         "desc" : { 
+            "x" : "-93192", 
+            "y" : "-99128"
+         }, 
+         "child" : [ 
+            "fc4b1441-0b02-4064-a1a0-959f1487390f"
+         ], 
+         "mapName" : "Harbor_1"
+      }, 
+      "fc4b1441-0b02-4064-a1a0-959f1487390f" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-93174", 
+            "y" : "-99052"
+         }, 
+         "child" : [ 
+            "3eca2228-517f-48e1-87f5-a0288c7718ca", 
+            "b3612b02-6b2b-41d4-a358-1753f9bbc7fe"
+         ], 
+         "key" : "TWO_CITY"
+      }, 
+      "b3612b02-6b2b-41d4-a358-1753f9bbc7fe" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-93148", 
+            "y" : "-98903"
+         }, 
+         "child" : [ 
+            "5d97aa2e-7d9c-4b76-872d-cc5795a9c525"
+         ], 
+         "key" : "TWO_CITY"
+      }, 
+      "5d97aa2e-7d9c-4b76-872d-cc5795a9c525" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-93150", 
+            "y" : "-98791"
+         }, 
+         "child" : [ 
+            "a141b713-852d-46b2-a63b-f098c83970d7"
+         ], 
+         "text" : "$PLAYER.NAME$ вот мы и в Перегоне. Тут много торговцев. Думаю за пару часов управлюсь. Я быстро!"
+      }, 
+      "523e6067-fa62-43a4-8d5e-982a9985858c" : { 
+         "class" : "PlayerMapLocationNode", 
+         "desc" : { 
+            "x" : "-92813", 
+            "y" : "-99106"
+         }, 
+         "child" : [ 
+            "efa755ab-ea17-4754-a155-0293e954ecdc"
+         ], 
+         "mapName" : "Village_Ground_1"
+      }, 
+      "efa755ab-ea17-4754-a155-0293e954ecdc" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-92792", 
+            "y" : "-99014"
+         }, 
+         "child" : [ 
+            "3eca2228-517f-48e1-87f5-a0288c7718ca", 
+            "be1cc8dc-fb1e-4e6e-925d-aae0c84973b0"
+         ], 
+         "key" : "THREE_CITY"
+      }, 
+      "be1cc8dc-fb1e-4e6e-925d-aae0c84973b0" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-92769", 
+            "y" : "-98887"
+         }, 
+         "child" : [ 
+            "309ec5db-a854-47ad-a1f4-dc1a9978f925"
+         ], 
+         "key" : "THREE_CITY"
+      }, 
+      "309ec5db-a854-47ad-a1f4-dc1a9978f925" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-92858", 
+            "y" : "-98778"
+         }, 
+         "child" : [ 
+            "a141b713-852d-46b2-a63b-f098c83970d7"
+         ], 
+         "text" : "$PLAYER.NAME$ вот мы и в Отрадном. поселение не большое. Быстро управлюсь."
+      }, 
+      "25b6b801-084c-473c-90f9-597d736b5c89" : { 
+         "class" : "PlayerMapLocationNode", 
+         "desc" : { 
+            "x" : "-92526", 
+            "y" : "-99108"
+         }, 
+         "child" : [ 
+            "dfb00509-f610-426e-8525-387f4eb144cf"
+         ], 
+         "mapName" : "Fogelevka_1"
+      }, 
+      "dfb00509-f610-426e-8525-387f4eb144cf" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-92504", 
+            "y" : "-99033"
+         }, 
+         "child" : [ 
+            "3eca2228-517f-48e1-87f5-a0288c7718ca", 
+            "8e678e2c-6fb7-4f16-b629-ae50b628f666"
+         ], 
+         "key" : "FOUR_CITY"
+      }, 
+      "8e678e2c-6fb7-4f16-b629-ae50b628f666" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-92451", 
+            "y" : "-98870"
+         }, 
+         "child" : [ 
+            "4f592967-0970-41a8-a492-f70bc0e884d2"
+         ], 
+         "key" : "FOUR_CITY"
+      }, 
+      "4f592967-0970-41a8-a492-f70bc0e884d2" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-92487", 
+            "y" : "-98771"
+         }, 
+         "child" : [ 
+            "a141b713-852d-46b2-a63b-f098c83970d7"
+         ], 
+         "text" : "$PLAYER.NAME$ вот мы и в Фогелёвке. Приятная деревушка. Думаю я найду тут что нибудь ценное для коллекции."
+      }, 
+      "0b6830cc-472f-46c8-aa08-58400a64f69f" : { 
+         "class" : "PlayerMapLocationNode", 
+         "desc" : { 
+            "x" : "-92273", 
+            "y" : "-99107"
+         }, 
+         "child" : [ 
+            "54c5bd6f-7ece-4f89-ae17-3bfe0080b444"
+         ], 
+         "mapName" : "Caravanserai_1"
+      }, 
+      "54c5bd6f-7ece-4f89-ae17-3bfe0080b444" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-92251", 
+            "y" : "-99030"
+         }, 
+         "child" : [ 
+            "3eca2228-517f-48e1-87f5-a0288c7718ca", 
+            "de439fe6-5d84-49f5-bec1-fa154e967cef"
+         ], 
+         "key" : "FIVE_CITY"
+      }, 
+      "de439fe6-5d84-49f5-bec1-fa154e967cef" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-92178", 
+            "y" : "-98862"
+         }, 
+         "child" : [ 
+            "884bf57a-49ac-415c-909e-55badde86528"
+         ], 
+         "key" : "FIVE_CITY"
+      }, 
+      "884bf57a-49ac-415c-909e-55badde86528" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-92231", 
+            "y" : "-98761"
+         }, 
+         "child" : [ 
+            "a141b713-852d-46b2-a63b-f098c83970d7"
+         ], 
+         "text" : "$PLAYER.NAME$ вот мы и в Караван-сарай. Тут часто останавливаются путники. Думаю я найду что-то уникальное тут."
+      }, 
+      "f3907631-e94b-4782-a568-e986a11ca8e7" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-92017", 
+            "y" : "-99118"
+         }, 
+         "child" : [ 
+            "a37c2726-596a-4446-94f4-9ba884d6cc0c"
+         ], 
+         "text" : "$PLAYER.NAME$ как будем на месте, тогда и поговорим. А сейчас в путь !"
+      }, 
       "6c5cab42-dafa-440b-87ec-e7d52afb967e" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-95789", 
-            "y" : "-98552"
+            "x" : "-95888", 
+            "y" : "-98835"
          }, 
          "child" : [ 
             "02239494-312d-4ceb-8b73-3d7fef243369"
@@ -1291,8 +1812,8 @@
       "355ee510-d2dd-4e0f-a108-e70d423b8a0b" : { 
          "class" : "DialogAnswerNode", 
          "desc" : { 
-            "x" : "-96083", 
-            "y" : "-97958"
+            "x" : "-96090", 
+            "y" : "-97962"
          }, 
          "child" : [ 
             "2fbf1cb1-ce94-4dc3-bcef-b603a8f945cf"
@@ -1302,8 +1823,8 @@
       "2fbf1cb1-ce94-4dc3-bcef-b603a8f945cf" : { 
          "class" : "DialogPhraseNode", 
          "desc" : { 
-            "x" : "-96073", 
-            "y" : "-97838"
+            "x" : "-96091", 
+            "y" : "-97855"
          }, 
          "child" : [ 
             "80268d19-dc58-42c3-97f6-273e6ef02b5f"
@@ -1321,17 +1842,115 @@
          ], 
          "text" : "Я бы могла придумать тебе невыполнимые задачи и великолепную награду. Но сейчас что-то не очень хочется. Может позже."
       }, 
+      "7a9f2b54-1cf5-4990-824c-df276b735436" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-91722", 
+            "y" : "-99143"
+         }, 
+         "child" : [ 
+            "3f6fa700-82c7-4a28-a225-25ed4e9d3c5a", 
+            "3b42e39d-87f3-4c76-8349-756175e58e55"
+         ], 
+         "text" : "Слушай $PLAYER.NAME$. Как то неудобно спрашивать, но может поможешь? Саша, торговец который, тот что мне винтовку французкую обещал. Выручил меня, сильно, а я в долгу оставаться не хочу. Хочу ему кое-что купить. Если будет время, давай наведаемся в несколько поселений, я ему для коллекции кое-что куплю."
+      }, 
+      "3f6fa700-82c7-4a28-a225-25ed4e9d3c5a" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-91756", 
+            "y" : "-99009"
+         }, 
+         "child" : [ 
+            "bed2f82d-2d8a-408c-ae47-80ba9d0c401e"
+         ], 
+         "text" : "Хорошо, а что покупать то собралась?"
+      }, 
+      "bed2f82d-2d8a-408c-ae47-80ba9d0c401e" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-91756", 
+            "y" : "-98927"
+         }, 
+         "child" : [ 
+            "0ccbdfb1-6558-4131-a86e-9a84e8c5a084"
+         ], 
+         "text" : "Он коллекционирует марки и медали до военные. Денег мне не надо, у меня всё есть. Нам нужно  посетить пару населенных пунктов и я все сама куплю."
+      }, 
+      "0ccbdfb1-6558-4131-a86e-9a84e8c5a084" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-91756", 
+            "y" : "-98803"
+         }, 
+         "child" : [ 
+            "9a921808-31cc-47f8-83b8-96fe3be4d709"
+         ], 
+         "text" : "Хорошо понял."
+      }, 
+      "9a921808-31cc-47f8-83b8-96fe3be4d709" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-91756", 
+            "y" : "-98719"
+         }, 
+         "child" : [ 
+            "8456c91d-4f48-42bd-b368-80be2b1cb05f"
+         ], 
+         "text" : "Вот где я хочу пройтись по магазинам. Думаю где-то они есть. [Оксана протянула вам список]"
+      }, 
+      "8456c91d-4f48-42bd-b368-80be2b1cb05f" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-91756", 
+            "y" : "-98597"
+         }, 
+         "child" : [ 
+            "3f893fe3-94a3-4a36-a938-238a23cab59b"
+         ], 
+         "text" : "Выдвигаемся."
+      }, 
+      "3f893fe3-94a3-4a36-a938-238a23cab59b" : { 
+         "class" : "QuestBeginNode", 
+         "desc" : { 
+            "x" : "-91697", 
+            "y" : "-98521"
+         }, 
+         "child" : [ 
+            "5f1fdbba-acec-41ff-aedc-0f438f7be6ae"
+         ], 
+         "quest_key" : "OKSANA_QUEST_2"
+      }, 
+      "5f1fdbba-acec-41ff-aedc-0f438f7be6ae" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-91641", 
+            "y" : "-98453"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "3b42e39d-87f3-4c76-8349-756175e58e55" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-94981", 
+            "y" : "-98321"
+         }, 
+         "child" : [ 
+            "e3fb4b77-ee6d-4a30-9b43-96755117f823"
+         ], 
+         "text" : "Давай в другой раз хорошо?"
+      }, 
       "a6cc428c-1310-4456-b12f-0eab4e4255da" : { 
          "class" : "DialogPhraseNode", 
          "desc" : { 
             "x" : "-95357", 
-            "y" : "-98483"
+            "y" : "-98485"
          }, 
          "child" : [ 
             "b7523d71-8a10-4dc1-8699-6e5040587b45", 
             "3b42e39d-87f3-4c76-8349-756175e58e55"
          ], 
-         "text" : "$PLAYER.NAME$ да мне бы помощь не помешала в одном деле, но это займет какое-то время от нашего путешествия. Согласны?"
+         "text" : "$PLAYER.NAME$  Мне бы помощь не помешала, в одном деле. Но потребуется время и ресурсы на его выполнение. Согласены?"
       }, 
       "b7523d71-8a10-4dc1-8699-6e5040587b45" : { 
          "class" : "DialogAnswerNode", 
@@ -1359,7 +1978,8 @@
          "class" : "NotebookAddNoteNode", 
          "desc" : { 
             "x" : "-95203", 
-            "y" : "-97990"
+            "y" : "-97990", 
+            "comment" : "для будущих квестов"
          }, 
          "child" : [ 
             "c189da5c-ba55-4f12-ab3b-dbac2ecc766f"
@@ -1375,7 +1995,7 @@
          "child" : [ 
             "b297d0d6-b63c-463a-a409-53413d39c9e2"
          ], 
-         "text" : "Мне надо сделать тайник для моей группы, если вдруг кто-то остался в живых, то они смогут найти его по определенным меткам, которые я оставляю. У нас в группе были тайные знаки для идентификации тайника и определенные места, где стоит искать в поселелениях."
+         "text" : "Мне надо сделать тайник для моей группы, возможно кто-то остался в живых, и они смогут найти его меткам, которые я оставляю. У нас в группе имеются шифровальные знаки для идентификации возможного тайника и определенные места, где стоит искать в поселеленияхв первую очередь."
       }, 
       "b297d0d6-b63c-463a-a409-53413d39c9e2" : { 
          "class" : "DialogAnswerNode", 
@@ -1457,22 +2077,11 @@
       "37bb3cec-3da6-4b2e-a891-463362ec2ab8" : { 
          "class" : "DialogEndNode", 
          "desc" : { 
-            "x" : "-95059", 
-            "y" : "-97039"
+            "x" : "-95081", 
+            "y" : "-97050"
          }, 
          "child" : [ 
          ]
-      }, 
-      "3b42e39d-87f3-4c76-8349-756175e58e55" : { 
-         "class" : "DialogAnswerNode", 
-         "desc" : { 
-            "x" : "-94973", 
-            "y" : "-98367"
-         }, 
-         "child" : [ 
-            "e3fb4b77-ee6d-4a30-9b43-96755117f823"
-         ], 
-         "text" : "Давай в другой раз хорошо?"
       }, 
       "b9cbbdc9-6215-4bc6-b330-947aceca9bb5" : { 
          "class" : "DialogAnswerNode", 
@@ -3532,8 +4141,273 @@
             "y" : "-95208"
          }, 
          "child" : [ 
+            "f5d1b9ef-1077-41e8-ad4f-66a701f5d5ca"
          ], 
          "key" : "WAIT_ORDER"
+      }, 
+      "f5d1b9ef-1077-41e8-ad4f-66a701f5d5ca" : { 
+         "class" : "CharacterMoveToNode", 
+         "desc" : { 
+            "x" : "-99878", 
+            "y" : "-95110"
+         }, 
+         "child" : [ 
+            "49ab15e4-d9b1-41c2-b8ea-5941d99de22b"
+         ], 
+         "objectName" : "$SELF$", 
+         "pointName" : "EnterPoint", 
+         "waitEnd" : "false", 
+         "relative" : "false", 
+         "run" : "false", 
+         "keepCourse" : "false"
+      }, 
+      "49ab15e4-d9b1-41c2-b8ea-5941d99de22b" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-99585", 
+            "y" : "-94999"
+         }, 
+         "child" : [ 
+            "07b5c11d-1711-4f39-bc95-afeace326bbc", 
+            "281ce147-8489-491c-8588-a9c2092e2c71"
+         ], 
+         "key" : "INIT"
+      }, 
+      "07b5c11d-1711-4f39-bc95-afeace326bbc" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99673", 
+            "y" : "-94869"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "281ce147-8489-491c-8588-a9c2092e2c71" : { 
+         "class" : "HudCutSceneNode", 
+         "desc" : { 
+            "x" : "-99416", 
+            "y" : "-94886"
+         }, 
+         "child" : [ 
+            "62f83f65-2684-40cc-a7b5-361fa69f15bb"
+         ], 
+         "show" : "true"
+      }, 
+      "62f83f65-2684-40cc-a7b5-361fa69f15bb" : { 
+         "class" : "PlayerWaitNode", 
+         "desc" : { 
+            "x" : "-99332", 
+            "y" : "-94786"
+         }, 
+         "child" : [ 
+            "b4ef9f08-8ec6-4a81-9f64-855783d6c50b"
+         ], 
+         "lock" : "true", 
+         "waitingState" : "true"
+      }, 
+      "b4ef9f08-8ec6-4a81-9f64-855783d6c50b" : { 
+         "class" : "CinematicBeginNode", 
+         "desc" : { 
+            "x" : "-99287", 
+            "y" : "-94719"
+         }, 
+         "child" : [ 
+            "35798095-d79b-463f-8282-885a32e4e4f6"
+         ]
+      }, 
+      "35798095-d79b-463f-8282-885a32e4e4f6" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-99312", 
+            "y" : "-94665"
+         }, 
+         "child" : [ 
+            "ea671ee8-0e57-4ba2-ae3b-7b1161556d0e", 
+            "59709133-c456-4c45-8819-d481ae25650d", 
+            "78308896-4050-4566-9520-554837996f8f"
+         ], 
+         "key" : "INIT"
+      }, 
+      "ea671ee8-0e57-4ba2-ae3b-7b1161556d0e" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-99669", 
+            "y" : "-94600"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Прощай Оксана!", 
+         "customObject" : "Player", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "59709133-c456-4c45-8819-d481ae25650d" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-99350", 
+            "y" : "-94568"
+         }, 
+         "child" : [ 
+            "b8e54274-8ce9-400e-b4e7-5813cb880075"
+         ], 
+         "waitTime" : "3"
+      }, 
+      "b8e54274-8ce9-400e-b4e7-5813cb880075" : { 
+         "class" : "HasTeamMateNode", 
+         "desc" : { 
+            "x" : "-99287", 
+            "y" : "-94481"
+         }, 
+         "child" : [ 
+            "b2f4433b-df2c-4dfe-a432-5b87648c944c", 
+            "4a463231-895f-4fde-b9ce-efc16fb5cfaf"
+         ], 
+         "teammate" : "Fidel"
+      }, 
+      "b2f4433b-df2c-4dfe-a432-5b87648c944c" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-99572", 
+            "y" : "-94367"
+         }, 
+         "child" : [ 
+            "e107cbb4-ca1c-4540-8c7e-3e8721c7cc5f"
+         ], 
+         "text" : "Такую девушку отпускаем...", 
+         "customObject" : "Fidel", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "e107cbb4-ca1c-4540-8c7e-3e8721c7cc5f" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-99486", 
+            "y" : "-94227"
+         }, 
+         "child" : [ 
+            "4a463231-895f-4fde-b9ce-efc16fb5cfaf"
+         ], 
+         "waitTime" : "3"
+      }, 
+      "4a463231-895f-4fde-b9ce-efc16fb5cfaf" : { 
+         "class" : "HasTeamMateNode", 
+         "desc" : { 
+            "x" : "-99253", 
+            "y" : "-94138"
+         }, 
+         "child" : [ 
+            "3bb3af27-494f-4e41-b245-84e1389ced80", 
+            "8f9a016b-7596-4aa1-9576-8135885e07b6"
+         ], 
+         "teammate" : "Gexogen"
+      }, 
+      "3bb3af27-494f-4e41-b245-84e1389ced80" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-99535", 
+            "y" : "-94044"
+         }, 
+         "child" : [ 
+            "654df4d6-c960-446b-9b04-54c062446309"
+         ], 
+         "text" : "Дочь! Ты там пиши старику, иногда.", 
+         "customObject" : "Gexogen", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "654df4d6-c960-446b-9b04-54c062446309" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-99470", 
+            "y" : "-93938"
+         }, 
+         "child" : [ 
+            "8f9a016b-7596-4aa1-9576-8135885e07b6"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "8f9a016b-7596-4aa1-9576-8135885e07b6" : { 
+         "class" : "HasTeamMateNode", 
+         "desc" : { 
+            "x" : "-99144", 
+            "y" : "-93875"
+         }, 
+         "child" : [ 
+            "3c8dc86e-8cf5-4cf3-b78c-8f59d09c2d5a", 
+            "1a7ab3e4-81a2-4e49-b039-674d667ff7c4"
+         ], 
+         "teammate" : "Alexander"
+      }, 
+      "3c8dc86e-8cf5-4cf3-b78c-8f59d09c2d5a" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-99320", 
+            "y" : "-93756"
+         }, 
+         "child" : [ 
+            "1a7ab3e4-81a2-4e49-b039-674d667ff7c4"
+         ], 
+         "text" : "Ну и дела.", 
+         "customObject" : "Alexander", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "1a7ab3e4-81a2-4e49-b039-674d667ff7c4" : { 
+         "class" : "CinematicEndNode", 
+         "desc" : { 
+            "x" : "-99024", 
+            "y" : "-93581"
+         }, 
+         "child" : [ 
+            "ab3e432e-8928-4dec-9dc3-999d4fe5e6e4"
+         ]
+      }, 
+      "ab3e432e-8928-4dec-9dc3-999d4fe5e6e4" : { 
+         "class" : "PlayerWaitNode", 
+         "desc" : { 
+            "x" : "-99030", 
+            "y" : "-93529"
+         }, 
+         "child" : [ 
+            "d051b67d-6171-4043-9f9b-202992ad6efe"
+         ], 
+         "lock" : "false", 
+         "waitingState" : "false"
+      }, 
+      "d051b67d-6171-4043-9f9b-202992ad6efe" : { 
+         "class" : "FlashSplashNode", 
+         "desc" : { 
+            "x" : "-99024", 
+            "y" : "-93472"
+         }, 
+         "child" : [ 
+            "5d58351f-64d4-4407-bd23-c2dd40f69554"
+         ], 
+         "waitEnd" : "false", 
+         "waitTime" : "1.5"
+      }, 
+      "5d58351f-64d4-4407-bd23-c2dd40f69554" : { 
+         "class" : "CharacterRemoveNode", 
+         "desc" : { 
+            "x" : "-99036", 
+            "y" : "-93416"
+         }, 
+         "child" : [ 
+         ], 
+         "objName" : "oksana"
+      }, 
+      "78308896-4050-4566-9520-554837996f8f" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-99185", 
+            "y" : "-94557"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "И вам удачи!", 
+         "customObject" : "oksana", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true"
       }, 
       "b94ade91-3711-482f-ab13-b6b8c5eb6bf9" : { 
          "class" : "DialogAnswerNode", 
