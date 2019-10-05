@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 136036750340193138}
   - component: {fileID: 54534703528022936}
   m_Layer: 12
-  m_Name: ph_oksana
+  m_Name: oksana
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46,11 +46,11 @@ MonoBehaviour:
   m_Script: {fileID: 1423921309, guid: ba80931603c2dbc40ab113c533efa2ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mEntityData: '{"class":"Character", "proto":"ph_oksana", "damage":"0", "ap":"0",
-    "bonusTurn":"false", "relationship":"100", "shotMode":"0", "inventory":[  ], "mainItemIndex":"0",
-    "conditions":{"toxic":"0", "toxicTimer":"-1", "radiation":"0", "radiationTimer":"-1",
-    "hunger":"0", "hungerDmg":"0", "rolling":"0"}, "effects":[  ], "hair":"Girl_Wavy",
-    "hairColor":"Dark"}'
+  mEntityData: '{"class":"Character", "proto":"ph_oksana", "character":"oksana", "damage":"0",
+    "ap":"0", "bonusTurn":"false", "relationship":"100", "shotMode":"0", "inventory":[  ],
+    "mainItemIndex":"0", "conditions":{"toxic":"0", "toxicTimer":"-1", "radiation":"0",
+    "radiationTimer":"-1", "hunger":"0", "hungerDmg":"0", "rolling":"0"}, "effects":[  ],
+    "hair":"Girl_Wavy", "hairColor":"Dark"}'
 --- !u!136 &136036750340193138
 CapsuleCollider:
   m_ObjectHideFlags: 0

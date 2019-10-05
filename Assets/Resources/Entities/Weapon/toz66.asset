@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1397509372, guid: ba80931603c2dbc40ab113c533efa2ed, type: 3}
+  m_Name: toz66
+  m_EditorClassIdentifier: 
+  Icon:
+    path: Entities/Weapon/weapon models/toz_66/toz66_icon
+  m_Localization: weapon.toz66
+  Takeable: 1
+  Cost: 7460
+  Weight: 3000
+  Collectable: 0
+  Modifiers: []
+  HasModel: 1
+  weaponType: 2
+  Ammo:
+    path: entities/ammo/12_jhp
+  AmmoCapacity: 2
+  BothHands: 1
+  Stack: 0
+  DamageMin: 14
+  DamageMax: 25
+  DamageRadius: 1
+  Fatality: 25
+  Perks: 32
+  PerksEx: 0
+  DamageType: 5
+  Single:
+    AP: 4
+    Range: 10
+    Shots: 1
+    Dispersion: 0
+    ModeType: 0
+    Sounds:
+    - path: Entities/Weapon/weapon models/toz34/toz34_shoot
+  Aimed:
+    AP: 0
+    Range: 0
+    Shots: 0
+    Dispersion: 0
+    ModeType: 0
+    Sounds: []
+  Burst:
+    AP: 5
+    Range: 8
+    Shots: 2
+    Dispersion: 0
+    ModeType: 0
+    Sounds:
+    - path: Entities/Weapon/weapon models/toz34/toz34_shoot
+  Reload:
+    AP: 2
+    Range: 0
+    Shots: 0
+    Dispersion: 0
+    ModeType: 0
+    Sounds:
+    - path: Entities/Weapon/weapon models/toz34/toz34_reload
+  Effects: []
+  Requirements:
+  - _type: 1
+    _value: 6
+  - _type: 9
+    _value: 45
+  NoAmmoSounds:
+  - path: Entities/Weapon/weapon models/toz34/toz34_empty
+  PreAttackSounds: []
+  MissSounds:
+  - path: Sounds/SFX/Weapons/Miss/shoot_missing1
+  - path: Sounds/SFX/Weapons/Miss/shoot_missing2
+  - path: Sounds/SFX/Weapons/Miss/shoot_missing3
+  - path: Sounds/SFX/Weapons/Miss/shoot_missing4
+  - path: Sounds/SFX/Weapons/Miss/shoot_missing5
+  - path: Sounds/SFX/Weapons/Miss/shoot_missing6
