@@ -97,8 +97,8 @@
       "09fc5db8-7cc1-4937-b272-56bceaf77f40" : { 
          "class" : "InventoryAddItemNode", 
          "desc" : { 
-            "x" : "-101213", 
-            "y" : "-98882"
+            "x" : "-101164", 
+            "y" : "-99033"
          }, 
          "child" : [ 
          ], 
@@ -137,8 +137,8 @@
       "7aaf3adc-ccd4-4f7a-8122-91d8000b1117" : { 
          "class" : "InventoryAddItemNode", 
          "desc" : { 
-            "x" : "-100993", 
-            "y" : "-98752"
+            "x" : "-100989", 
+            "y" : "-98760"
          }, 
          "child" : [ 
          ], 
@@ -151,8 +151,8 @@
       "6643f999-41c6-4d4b-a693-37831c9a17ff" : { 
          "class" : "InventoryAddItemNode", 
          "desc" : { 
-            "x" : "-100918", 
-            "y" : "-98616"
+            "x" : "-100921", 
+            "y" : "-98631"
          }, 
          "child" : [ 
          ], 
@@ -185,8 +185,8 @@
       "f042957f-bcce-44dc-b375-c83ef30b3cf5" : { 
          "class" : "InventoryAddItemNode", 
          "desc" : { 
-            "x" : "-100610", 
-            "y" : "-98750"
+            "x" : "-100611", 
+            "y" : "-98713"
          }, 
          "child" : [ 
          ], 
@@ -258,8 +258,8 @@
       "1498db2d-4aac-4d26-8822-35662b14c418" : { 
          "class" : "InventoryAddItemNode", 
          "desc" : { 
-            "x" : "-100274", 
-            "y" : "-98417"
+            "x" : "-100278", 
+            "y" : "-98285"
          }, 
          "child" : [ 
          ], 
@@ -283,8 +283,8 @@
       "88b89294-d378-4daf-ab31-0b6a8c2b7bdd" : { 
          "class" : "InventoryAddItemNode", 
          "desc" : { 
-            "x" : "-100103", 
-            "y" : "-98434"
+            "x" : "-100135", 
+            "y" : "-98486"
          }, 
          "child" : [ 
          ], 
@@ -338,7 +338,7 @@
          ], 
          "item" : { 
             "class" : "Item", 
-            "count" : "4", 
+            "count" : "3", 
             "proto" : "koja"
          }
       }, 
@@ -387,7 +387,7 @@
          ], 
          "item" : { 
             "class" : "Item", 
-            "count" : "3", 
+            "count" : "2", 
             "proto" : "koja"
          }
       }, 
@@ -437,7 +437,7 @@
          ], 
          "item" : { 
             "class" : "Item", 
-            "count" : "2", 
+            "count" : "1", 
             "proto" : "koja"
          }
       }, 

@@ -23,7 +23,7 @@ MonoBehaviour:
   Dialog:
     path: 
   OnPocket:
-    path: 
+    path: Entities/Behavior/human.onpocket
   TalkAddDist: 0
   BackToPosition: 0
   StoreStats: 1

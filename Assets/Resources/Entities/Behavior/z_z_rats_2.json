@@ -87,12 +87,12 @@
       "b87096cc-f8d1-4c70-ab5e-0b9fc3200eaf" : { 
          "class" : "PlayStateNode", 
          "desc" : { 
-            "x" : "-101111", 
-            "y" : "-99879"
+            "x" : "-101289", 
+            "y" : "-99669"
          }, 
          "child" : [ 
          ], 
-         "script" : "Entities/Behavior/Z_Z_Disease1"
+         "script" : "entities/behavior/z_z_disease1"
       }, 
       "565688f1-4340-4ee8-9ed1-aa264d075899" : { 
          "class" : "RandomNode", 

@@ -16,13 +16,14 @@ MonoBehaviour:
     path: 
   m_Localization: character.farmer1
   Takeable: 1
+  AIDontUseCover: 0
   aiBehavior: 4
   aiBehaviorTree:
     path: 
   Dialog:
     path: Entities/Dialog/ph_rescuefarme
   OnPocket:
-    path: 
+    path: Entities/Behavior/human.onpocket
   TalkAddDist: 0
   BackToPosition: 0
   StoreStats: 1

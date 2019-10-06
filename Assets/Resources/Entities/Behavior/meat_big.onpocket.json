@@ -70,8 +70,8 @@
       "441d0d37-735a-422a-a785-fcc40b8af535" : { 
          "class" : "InventoryAddItemNode", 
          "desc" : { 
-            "x" : "-100913", 
-            "y" : "-99587"
+            "x" : "-100951", 
+            "y" : "-99666"
          }, 
          "child" : [ 
          ], 
@@ -84,8 +84,8 @@
       "8627efa0-a931-4ef9-8760-37cf5fde6dd2" : { 
          "class" : "HasModifierNode", 
          "desc" : { 
-            "x" : "-100558", 
-            "y" : "-99630"
+            "x" : "-100529", 
+            "y" : "-99611"
          }, 
          "child" : [ 
             "0c5749ba-252c-477a-81f2-b7e00b79d4b5", 
@@ -97,14 +97,14 @@
       "0c5749ba-252c-477a-81f2-b7e00b79d4b5" : { 
          "class" : "InventoryAddItemNode", 
          "desc" : { 
-            "x" : "-100602", 
-            "y" : "-99182"
+            "x" : "-100648", 
+            "y" : "-99192"
          }, 
          "child" : [ 
          ], 
          "item" : { 
             "class" : "Consumable", 
-            "count" : "3", 
+            "count" : "2", 
             "proto" : "Meat"
          }
       }, 
@@ -135,14 +135,14 @@
       "77685f20-9078-462f-998a-85f54238aa1a" : { 
          "class" : "InventoryAddItemNode", 
          "desc" : { 
-            "x" : "-100360", 
-            "y" : "-99178"
+            "x" : "-100347", 
+            "y" : "-99167"
          }, 
          "child" : [ 
          ], 
          "item" : { 
             "class" : "Consumable", 
-            "count" : "2", 
+            "count" : "1", 
             "proto" : "Meat"
          }
       }, 
@@ -224,8 +224,8 @@
       "fff318f4-9395-44a7-b294-0d084e0e04cd" : { 
          "class" : "InventoryAddItemNode", 
          "desc" : { 
-            "x" : "-99435", 
-            "y" : "-99010"
+            "x" : "-99422", 
+            "y" : "-99017"
          }, 
          "child" : [ 
          ], 
@@ -313,8 +313,8 @@
       "1024e9a4-e3d8-4e99-8def-7e9daccf015c" : { 
          "class" : "InventoryAddItemNode", 
          "desc" : { 
-            "x" : "-99310", 
-            "y" : "-99010"
+            "x" : "-99283", 
+            "y" : "-99017"
          }, 
          "child" : [ 
          ], 

@@ -69,8 +69,8 @@
       "441d0d37-735a-422a-a785-fcc40b8af535" : { 
          "class" : "InventoryAddItemNode", 
          "desc" : { 
-            "x" : "-101277", 
-            "y" : "-99483"
+            "x" : "-101284", 
+            "y" : "-99608"
          }, 
          "child" : [ 
          ], 
@@ -107,8 +107,8 @@
       "d86c7103-b903-402a-b29c-61e1a934e7cf" : { 
          "class" : "InventoryAddItemNode", 
          "desc" : { 
-            "x" : "-100939", 
-            "y" : "-98892"
+            "x" : "-101088", 
+            "y" : "-99082"
          }, 
          "child" : [ 
          ], 
@@ -129,7 +129,7 @@
          ], 
          "item" : { 
             "class" : "Item", 
-            "count" : "4", 
+            "count" : "3", 
             "proto" : "koja"
          }
       }, 
@@ -189,7 +189,7 @@
          ], 
          "item" : { 
             "class" : "Item", 
-            "count" : "3", 
+            "count" : "2", 
             "proto" : "koja"
          }
       }, 
@@ -239,7 +239,7 @@
          ], 
          "item" : { 
             "class" : "Item", 
-            "count" : "2", 
+            "count" : "1", 
             "proto" : "koja"
          }
       }, 

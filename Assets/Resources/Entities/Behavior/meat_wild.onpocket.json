@@ -187,16 +187,27 @@
             "y" : "-99464"
          }, 
          "child" : [ 
-            "f7682e7a-cb47-4a11-b7b5-0ac5ca126981", 
+            "fd0e025a-09ab-4e8f-9566-fdfbcedfea6d", 
             "743cf82e-b4aa-46dc-abdf-d84014d7885f"
          ], 
          "value" : "100", 
          "modifier" : "Outdoorsman"
       }, 
+      "fd0e025a-09ab-4e8f-9566-fdfbcedfea6d" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-100324", 
+            "y" : "-99174"
+         }, 
+         "child" : [ 
+            "f7682e7a-cb47-4a11-b7b5-0ac5ca126981", 
+            "0b37b5cb-0490-4648-95ac-b9a3c4b93fff"
+         ]
+      }, 
       "f7682e7a-cb47-4a11-b7b5-0ac5ca126981" : { 
          "class" : "InventoryAddItemNode", 
          "desc" : { 
-            "x" : "-100468", 
+            "x" : "-100440", 
             "y" : "-99077"
          }, 
          "child" : [ 
@@ -204,6 +215,20 @@
          "item" : { 
             "class" : "Item", 
             "count" : "2", 
+            "proto" : "WildClaw"
+         }
+      }, 
+      "0b37b5cb-0490-4648-95ac-b9a3c4b93fff" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-100296", 
+            "y" : "-99074"
+         }, 
+         "child" : [ 
+         ], 
+         "item" : { 
+            "class" : "Item", 
+            "count" : "1", 
             "proto" : "WildClaw"
          }
       }, 
@@ -219,31 +244,6 @@
          ], 
          "value" : "80", 
          "modifier" : "Outdoorsman"
-      }, 
-      "fd0e025a-09ab-4e8f-9566-fdfbcedfea6d" : { 
-         "class" : "RandomNode", 
-         "desc" : { 
-            "x" : "-100308", 
-            "y" : "-99231"
-         }, 
-         "child" : [ 
-            "f7682e7a-cb47-4a11-b7b5-0ac5ca126981", 
-            "0b37b5cb-0490-4648-95ac-b9a3c4b93fff"
-         ]
-      }, 
-      "0b37b5cb-0490-4648-95ac-b9a3c4b93fff" : { 
-         "class" : "InventoryAddItemNode", 
-         "desc" : { 
-            "x" : "-100194", 
-            "y" : "-99054"
-         }, 
-         "child" : [ 
-         ], 
-         "item" : { 
-            "class" : "Item", 
-            "count" : "1", 
-            "proto" : "WildClaw"
-         }
       }, 
       "66d89f5a-7030-40de-b72e-e76c524cf0a2" : { 
          "class" : "HasModifierNode", 
@@ -307,8 +307,8 @@
       "9ebdc138-7404-4a44-932e-1f8f03ca8db2" : { 
          "class" : "InventoryAddItemNode", 
          "desc" : { 
-            "x" : "-99601", 
-            "y" : "-98932"
+            "x" : "-99603", 
+            "y" : "-98934"
          }, 
          "child" : [ 
          ], 
@@ -343,7 +343,7 @@
          ], 
          "item" : { 
             "class" : "Item", 
-            "count" : "4", 
+            "count" : "3", 
             "proto" : "koja"
          }
       }, 
@@ -454,7 +454,7 @@
          ], 
          "item" : { 
             "class" : "Item", 
-            "count" : "3", 
+            "count" : "2", 
             "proto" : "koja"
          }
       }, 
@@ -514,7 +514,7 @@
          ], 
          "item" : { 
             "class" : "Item", 
-            "count" : "2", 
+            "count" : "1", 
             "proto" : "koja"
          }
       }, 

@@ -550,7 +550,7 @@
          "item" : { 
             "class" : "Character", 
             "proto" : "Rat", 
-            "character" : "rat_crazy", 
+            "character" : "Rat_Crazy", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -599,7 +599,7 @@
          "item" : { 
             "class" : "Character", 
             "proto" : "Rat", 
-            "character" : "rat_crazy", 
+            "character" : "Rat_Crazy", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -648,7 +648,7 @@
          "item" : { 
             "class" : "Character", 
             "proto" : "Rat", 
-            "character" : "rat_crazy", 
+            "character" : "Rat_Crazy", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -697,7 +697,7 @@
          "item" : { 
             "class" : "Character", 
             "proto" : "Rat", 
-            "character" : "rat_crazy", 
+            "character" : "Rat_Crazy", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -761,7 +761,7 @@
          "item" : { 
             "class" : "Character", 
             "proto" : "Rat", 
-            "character" : "rat_crazy", 
+            "character" : "Rat_Crazy", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -813,7 +813,7 @@
          "item" : { 
             "class" : "Character", 
             "proto" : "Rat", 
-            "character" : "rat_crazy", 
+            "character" : "Rat_Crazy", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -884,7 +884,7 @@
          "item" : { 
             "class" : "Character", 
             "proto" : "Rat", 
-            "character" : "rat_crazy", 
+            "character" : "Rat_Crazy", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -919,9 +919,9 @@
          ], 
          "objectName" : "Spawn.Enemy.3", 
          "pos" : [ 
-            "10", 
+            "-3", 
             "0", 
-            "5"
+            "-14"
          ]
       }, 
       "f46a8a70-9871-48ee-8bf1-acbe403906d9" : { 
@@ -936,7 +936,7 @@
          "item" : { 
             "class" : "Character", 
             "proto" : "Rat", 
-            "character" : "rat_crazy", 
+            "character" : "Rat_Crazy", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -989,7 +989,7 @@
          "item" : { 
             "class" : "Character", 
             "proto" : "Rat", 
-            "character" : "rat_crazy", 
+            "character" : "Rat_Crazy", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -1024,9 +1024,9 @@
          ], 
          "objectName" : "Spawn.Enemy.4", 
          "pos" : [ 
-            "10", 
+            "-16", 
             "0", 
-            "7"
+            "2"
          ]
       }, 
       "935def2d-e605-4f20-8def-43abc7df4f0d" : { 
@@ -1041,7 +1041,7 @@
          "item" : { 
             "class" : "Character", 
             "proto" : "Rat", 
-            "character" : "rat_crazy", 
+            "character" : "Rat_Crazy", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -1961,9 +1961,9 @@
          ], 
          "objectName" : "Spawn.Enemy.3", 
          "pos" : [ 
-            "10", 
+            "-4", 
             "0", 
-            "5"
+            "-6"
          ]
       }, 
       "9942abea-e03e-4a8c-9aa3-16af39fee754" : { 
@@ -2066,9 +2066,9 @@
          ], 
          "objectName" : "Spawn.Enemy.4", 
          "pos" : [ 
-            "10", 
+            "-18", 
             "0", 
-            "7"
+            "-7"
          ]
       }, 
       "4065d2a4-af8b-4464-ab9f-ca21c34021d7" : { 

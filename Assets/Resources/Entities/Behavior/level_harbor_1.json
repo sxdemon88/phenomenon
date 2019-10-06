@@ -1338,94 +1338,16 @@
       "fdc58b52-edf9-42c3-8f92-ea14e76e84ec" : { 
          "class" : "PlayerLevelOutNode", 
          "desc" : { 
-            "x" : "-101808", 
-            "y" : "-100768"
+            "x" : "-101841", 
+            "y" : "-100699"
          }, 
          "child" : [ 
-            "306298b4-cc63-4da6-a0a7-1ebe7d80c671", 
-            "ed774a19-3868-4dbe-81ac-1a443497dbfc", 
-            "5c25862d-58c5-406d-b194-1f616be03494", 
             "74558227-087e-40d9-8988-41bcd92d7a32", 
             "e54c7822-7106-44bf-93f3-67a15435a56b", 
             "d53519be-1b2a-4655-8396-2d9761c491f1", 
             "f559316d-cd09-4da3-99e0-39a906e2ad5b", 
-            "f29ebeed-e143-44c6-8253-fc5a2c586b2c"
-         ]
-      }, 
-      "306298b4-cc63-4da6-a0a7-1ebe7d80c671" : { 
-         "class" : "PlayStateNode", 
-         "desc" : { 
-            "x" : "-102053", 
-            "y" : "-100609"
-         }, 
-         "child" : [ 
-         ], 
-         "script" : "Entities/Behavior/ph_trap_event"
-      }, 
-      "ed774a19-3868-4dbe-81ac-1a443497dbfc" : { 
-         "class" : "PlayStateNode", 
-         "desc" : { 
-            "x" : "-102108", 
-            "y" : "-100692"
-         }, 
-         "child" : [ 
-         ], 
-         "script" : "Entities/Behavior/ph_trade_event"
-      }, 
-      "5c25862d-58c5-406d-b194-1f616be03494" : { 
-         "class" : "NotebookHasNoteNode", 
-         "desc" : { 
-            "x" : "-102644", 
-            "y" : "-100647", 
-            "comment" : "для Максимыча"
-         }, 
-         "child" : [ 
-            "a1c21c0c-6a6e-4afa-88d5-1dca9c453043", 
-            "9819bdb2-05d7-45da-8864-bec2caf3db90"
-         ], 
-         "note_key" : "HARBOR_NEWSTATE"
-      }, 
-      "a1c21c0c-6a6e-4afa-88d5-1dca9c453043" : { 
-         "class" : "NotebookHasNoteNode", 
-         "desc" : { 
-            "x" : "-102732", 
-            "y" : "-100553", 
-            "comment" : "Максимыч убит"
-         }, 
-         "child" : [ 
-            "91ff18d6-01f8-4021-9940-5e33971cd28d", 
-            "9119306c-1d18-46ec-9d34-9e8bfefdb64d"
-         ], 
-         "note_key" : "HARBOR_SIDE_KILLED"
-      }, 
-      "91ff18d6-01f8-4021-9940-5e33971cd28d" : { 
-         "class" : "ActiveObjectNode", 
-         "desc" : { 
-            "x" : "-102774", 
-            "y" : "-100477", 
-            "comment" : "убрать"
-         }, 
-         "child" : [ 
-         ], 
-         "objectName" : "Harbor_T7", 
-         "active" : "false"
-      }, 
-      "9119306c-1d18-46ec-9d34-9e8bfefdb64d" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-102646", 
-            "y" : "-100473"
-         }, 
-         "child" : [ 
-         ]
-      }, 
-      "9819bdb2-05d7-45da-8864-bec2caf3db90" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-102564", 
-            "y" : "-100525"
-         }, 
-         "child" : [ 
+            "f29ebeed-e143-44c6-8253-fc5a2c586b2c", 
+            "702a5f56-a16f-4c52-9ab2-8770b5387270"
          ]
       }, 
       "74558227-087e-40d9-8988-41bcd92d7a32" : { 
@@ -1985,6 +1907,16 @@
          }, 
          "child" : [ 
          ]
+      }, 
+      "702a5f56-a16f-4c52-9ab2-8770b5387270" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-101750", 
+            "y" : "-100511"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/ph_trap_event"
       }, 
       "e33dac7f-abb3-4698-98c2-22d9db23cbf2" : { 
          "class" : "PlayStateNode", 
@@ -3068,12 +3000,12 @@
       "2d69ed8b-3cc0-4775-958a-722a2bd9c977" : { 
          "class" : "FractionIsEnemyRelationshipNode", 
          "desc" : { 
-            "x" : "-99447", 
-            "y" : "-100550"
+            "x" : "-99333", 
+            "y" : "-100770"
          }, 
          "child" : [ 
             "5a16615d-b40e-47dc-b7a6-848dd3238cb3", 
-            "76b9a340-0322-4369-b4f1-009e176d9223"
+            "cdaef838-4646-4c27-a15f-fb94d8880713"
          ], 
          "fractionA" : "player", 
          "fractionB" : "harbor"
@@ -3081,33 +3013,33 @@
       "5a16615d-b40e-47dc-b7a6-848dd3238cb3" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-99552", 
-            "y" : "-100452"
+            "x" : "-99602", 
+            "y" : "-100617"
          }, 
          "child" : [ 
          ]
       }, 
-      "76b9a340-0322-4369-b4f1-009e176d9223" : { 
+      "cdaef838-4646-4c27-a15f-fb94d8880713" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-99276", 
-            "y" : "-100394"
+            "x" : "-98208", 
+            "y" : "-100520"
          }, 
          "child" : [ 
-            "030aa031-852d-4b85-b684-2d6585cc4b00", 
-            "cfccf9bf-2197-4995-9f07-6e1a07633ca8", 
-            "99064d66-905b-4883-a94a-1d1f8f9f5d43"
+            "55d202ba-a993-4896-9b1e-bf9cd0204f3b", 
+            "783ccaf5-0430-449b-ad63-a34e5b5a598f", 
+            "2d70d6e0-8f58-4f33-8202-a47127ca6f7d"
          ]
       }, 
-      "030aa031-852d-4b85-b684-2d6585cc4b00" : { 
+      "55d202ba-a993-4896-9b1e-bf9cd0204f3b" : { 
          "class" : "TimeDatePeriodNode", 
          "desc" : { 
-            "x" : "-99542", 
-            "y" : "-100192"
+            "x" : "-98473", 
+            "y" : "-100318"
          }, 
          "child" : [ 
-            "bf1228bc-ed56-4edb-bee8-7811e4a0ece6", 
-            "cc5bb23d-7f8b-41ca-ba89-b40f83ecbeeb"
+            "98ef66b2-59d7-4fa2-8651-28a979e4ef88", 
+            "48ba75f0-f002-4d0f-b858-77417bfe8d55"
          ], 
          "timeStart" : "8", 
          "modeStart" : "Hour", 
@@ -3115,516 +3047,516 @@
          "modeLen" : "Hour", 
          "offsetValue" : "RANDOM_TRADE"
       }, 
-      "bf1228bc-ed56-4edb-bee8-7811e4a0ece6" : { 
+      "98ef66b2-59d7-4fa2-8651-28a979e4ef88" : { 
          "class" : "HasKeywordNode", 
          "desc" : { 
-            "x" : "-99666", 
-            "y" : "-99986"
+            "x" : "-98597", 
+            "y" : "-100112"
          }, 
          "child" : [ 
-            "5610429f-da95-465c-8526-2dc30c308683", 
-            "5fa00e21-dc3a-4258-9c6b-ef91ea99f5fc"
+            "7d52d89b-8385-419d-9f58-51f804816a7b", 
+            "edb64dc5-01fd-44f6-8c53-c12598f39b43"
          ], 
          "key" : "INIT_RANDOM_TRADE"
       }, 
-      "5610429f-da95-465c-8526-2dc30c308683" : { 
+      "7d52d89b-8385-419d-9f58-51f804816a7b" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-99750", 
-            "y" : "-99846"
+            "x" : "-98681", 
+            "y" : "-99972"
          }, 
          "child" : [ 
-            "af78052e-15f6-4677-9bce-cb6ae0b34bbc"
+            "b86168c2-945a-4e78-b43d-34c293dd3176"
          ]
       }, 
-      "af78052e-15f6-4677-9bce-cb6ae0b34bbc" : { 
+      "b86168c2-945a-4e78-b43d-34c293dd3176" : { 
          "class" : "AddKeywordNode", 
          "desc" : { 
-            "x" : "-99812", 
-            "y" : "-99753"
+            "x" : "-98743", 
+            "y" : "-99879"
          }, 
          "child" : [ 
-            "cc5bb23d-7f8b-41ca-ba89-b40f83ecbeeb"
+            "48ba75f0-f002-4d0f-b858-77417bfe8d55"
          ], 
          "key" : "REINIT_RANDOM_TRADE"
       }, 
-      "cc5bb23d-7f8b-41ca-ba89-b40f83ecbeeb" : { 
+      "48ba75f0-f002-4d0f-b858-77417bfe8d55" : { 
          "class" : "HasKeywordNode", 
          "desc" : { 
-            "x" : "-99596", 
-            "y" : "-99631"
+            "x" : "-98527", 
+            "y" : "-99757"
          }, 
          "child" : [ 
-            "3500092c-95af-4895-8e99-cb1922684422", 
-            "42a8fe2f-c589-4a64-a3d3-c6f6875a687e"
+            "efe5a0d7-4063-4c64-a481-0b69d29e4442", 
+            "1f3a10af-b3b1-43a9-8ffc-33726d830bb6"
          ], 
          "key" : "INIT_RANDOM_TRADE"
       }, 
-      "3500092c-95af-4895-8e99-cb1922684422" : { 
+      "efe5a0d7-4063-4c64-a481-0b69d29e4442" : { 
          "class" : "RemoveKeywordNode", 
          "desc" : { 
-            "x" : "-99790", 
-            "y" : "-99524"
+            "x" : "-98722", 
+            "y" : "-99650"
          }, 
          "child" : [ 
-            "4953ec61-2645-454b-add9-38da97bd0857"
+            "4d1906d7-9450-4f42-b168-941720ee01ad"
          ], 
          "key" : "INIT_RANDOM_TRADE"
       }, 
-      "4953ec61-2645-454b-add9-38da97bd0857" : { 
+      "4d1906d7-9450-4f42-b168-941720ee01ad" : { 
          "class" : "CharacterRemoveNode", 
          "desc" : { 
-            "x" : "-99780", 
-            "y" : "-99467"
+            "x" : "-98711", 
+            "y" : "-99593"
          }, 
          "child" : [ 
-            "75a20332-1475-404d-935b-58261108131f"
+            "616d49e3-4785-435b-bc09-002abea856c6"
          ], 
          "objName" : "Spawn.Karavan.1"
       }, 
-      "75a20332-1475-404d-935b-58261108131f" : { 
+      "616d49e3-4785-435b-bc09-002abea856c6" : { 
          "class" : "CharacterRemoveNode", 
          "desc" : { 
-            "x" : "-99778", 
-            "y" : "-99411"
+            "x" : "-98710", 
+            "y" : "-99537"
          }, 
          "child" : [ 
-            "c217ec4e-beef-4e8d-8c19-867284cdfe70"
+            "798d3ed7-83f5-4486-94df-adca6db08933"
          ], 
          "objName" : "Spawn.Karavan.2"
       }, 
-      "c217ec4e-beef-4e8d-8c19-867284cdfe70" : { 
+      "798d3ed7-83f5-4486-94df-adca6db08933" : { 
          "class" : "CharacterRemoveNode", 
          "desc" : { 
-            "x" : "-99778", 
-            "y" : "-99357"
+            "x" : "-98710", 
+            "y" : "-99483"
          }, 
          "child" : [ 
-            "27d8576a-9546-4653-baa9-8b13a7546130"
+            "e4d9707b-8ec7-4d17-88ad-3918783cd8ed"
          ], 
          "objName" : "Spawn.Karavan.3"
       }, 
-      "27d8576a-9546-4653-baa9-8b13a7546130" : { 
+      "e4d9707b-8ec7-4d17-88ad-3918783cd8ed" : { 
          "class" : "CharacterRemoveNode", 
          "desc" : { 
-            "x" : "-99778", 
-            "y" : "-99303"
+            "x" : "-98710", 
+            "y" : "-99429"
          }, 
          "child" : [ 
-            "00e0794d-56cc-4957-a05c-ca70323250a3"
+            "15c61d9c-4f4c-43d9-9bd4-cb1848110393"
          ], 
          "objName" : "Spawn.Karavan.4"
       }, 
-      "00e0794d-56cc-4957-a05c-ca70323250a3" : { 
+      "15c61d9c-4f4c-43d9-9bd4-cb1848110393" : { 
          "class" : "CharacterRemoveNode", 
          "desc" : { 
-            "x" : "-99788", 
-            "y" : "-99236"
+            "x" : "-98720", 
+            "y" : "-99362"
          }, 
          "child" : [ 
-            "b2a9af33-8ac6-41ae-8f7b-e5df614ab91c", 
-            "89781dc3-2259-487c-b575-17c2b5de7cd8", 
-            "ca251c3d-bbf1-45c4-ae46-fd3399463297", 
-            "c46fd3e4-080b-4326-8223-26eed261580e"
+            "fc1cdcef-492b-4899-b7e6-1975cbe41a5c", 
+            "af449b65-1274-43ec-8a7d-e7679fec4a6d", 
+            "ffb56bf1-1a54-4eba-b8dd-c1ffb77e97b5", 
+            "a1b1ac71-7aec-4d89-983e-50cc3f512077"
          ], 
          "objName" : "Spawn.Karavan.Trader"
       }, 
-      "b2a9af33-8ac6-41ae-8f7b-e5df614ab91c" : { 
+      "fc1cdcef-492b-4899-b7e6-1975cbe41a5c" : { 
          "class" : "RemoveKeywordNode", 
          "desc" : { 
-            "x" : "-99940", 
-            "y" : "-99124"
+            "x" : "-98871", 
+            "y" : "-99250"
          }, 
          "child" : [ 
-            "4b770354-5006-4154-a7b4-4f88c41a509a"
+            "ade89e28-662a-4d9d-872d-0bf021320708"
          ], 
          "key" : "HARBOR_TRADER1_TYPE"
       }, 
-      "4b770354-5006-4154-a7b4-4f88c41a509a" : { 
+      "ade89e28-662a-4d9d-872d-0bf021320708" : { 
          "class" : "HasKeywordNode", 
          "desc" : { 
-            "x" : "-99942", 
-            "y" : "-99055"
+            "x" : "-98873", 
+            "y" : "-99181"
          }, 
          "child" : [ 
-            "5fa00e21-dc3a-4258-9c6b-ef91ea99f5fc", 
-            "82ec68a1-464c-431d-a372-808c5d605683"
+            "edb64dc5-01fd-44f6-8c53-c12598f39b43", 
+            "90da52eb-3018-494a-a828-cfc4266c920e"
          ], 
          "key" : "REINIT_RANDOM_TRADE"
       }, 
-      "5fa00e21-dc3a-4258-9c6b-ef91ea99f5fc" : { 
+      "edb64dc5-01fd-44f6-8c53-c12598f39b43" : { 
          "class" : "AddKeywordNode", 
          "desc" : { 
-            "x" : "-100114", 
-            "y" : "-98949"
+            "x" : "-99046", 
+            "y" : "-99075"
          }, 
          "child" : [ 
-            "f8e35447-dcda-440e-ba2b-ddfac1abddaf"
+            "947a632b-11c1-4aac-badb-f82fff9d7edd"
          ], 
          "key" : "INIT_RANDOM_TRADE"
       }, 
-      "f8e35447-dcda-440e-ba2b-ddfac1abddaf" : { 
+      "947a632b-11c1-4aac-badb-f82fff9d7edd" : { 
          "class" : "RandomNode", 
          "desc" : { 
-            "x" : "-100386", 
-            "y" : "-98789"
+            "x" : "-99317", 
+            "y" : "-98915"
          }, 
          "child" : [ 
-            "0bba505e-0691-4114-b440-8f53c1ecb7e1", 
-            "61076d77-3548-4586-aa9c-0b49f8b988be", 
-            "fce5ec19-8955-449b-b7bf-715a3e2591c5"
+            "bfe31b34-74d3-43a3-83eb-4f97da26893b", 
+            "34722757-573c-4862-98cf-38bdbc0db601", 
+            "46d04f53-2f34-4d35-9644-111d64110829"
          ]
       }, 
-      "0bba505e-0691-4114-b440-8f53c1ecb7e1" : { 
+      "bfe31b34-74d3-43a3-83eb-4f97da26893b" : { 
          "class" : "PlayStateNode", 
          "desc" : { 
-            "x" : "-100880", 
-            "y" : "-98687"
+            "x" : "-99811", 
+            "y" : "-98813"
          }, 
          "child" : [ 
-            "f504991b-b810-49cc-a4ec-9d9997218838", 
-            "82ec68a1-464c-431d-a372-808c5d605683"
+            "4506851d-15d2-4794-beb9-2fb7fc520675", 
+            "90da52eb-3018-494a-a828-cfc4266c920e"
          ], 
          "script" : "entities/behavior/harbor_caravan2"
       }, 
-      "f504991b-b810-49cc-a4ec-9d9997218838" : { 
+      "4506851d-15d2-4794-beb9-2fb7fc520675" : { 
          "class" : "PlayerFixPositionIfInObstacleNode", 
          "desc" : { 
-            "x" : "-100754", 
-            "y" : "-98570"
+            "x" : "-99686", 
+            "y" : "-98696"
          }, 
          "child" : [ 
-            "26b613fd-25db-45af-9ead-de9037a5d6c6", 
-            "951c5088-1611-475e-bc44-bf910d1460a2"
+            "442330df-f796-4223-82c7-08f34c3b1f98", 
+            "096675bc-7203-4ae7-9ff2-c5176e429fc7"
          ], 
          "radius" : "2"
       }, 
-      "26b613fd-25db-45af-9ead-de9037a5d6c6" : { 
+      "442330df-f796-4223-82c7-08f34c3b1f98" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100536", 
-            "y" : "-98457"
+            "x" : "-99468", 
+            "y" : "-98583"
          }, 
          "child" : [ 
          ]
       }, 
-      "951c5088-1611-475e-bc44-bf910d1460a2" : { 
+      "096675bc-7203-4ae7-9ff2-c5176e429fc7" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100384", 
-            "y" : "-98455"
+            "x" : "-99315", 
+            "y" : "-98581"
          }, 
          "child" : [ 
          ]
       }, 
-      "82ec68a1-464c-431d-a372-808c5d605683" : { 
+      "90da52eb-3018-494a-a828-cfc4266c920e" : { 
          "class" : "RemoveKeywordNode", 
          "desc" : { 
-            "x" : "-99896", 
-            "y" : "-98507"
+            "x" : "-98827", 
+            "y" : "-98633"
          }, 
          "child" : [ 
          ], 
          "key" : "REINIT_RANDOM_TRADE"
       }, 
-      "61076d77-3548-4586-aa9c-0b49f8b988be" : { 
+      "34722757-573c-4862-98cf-38bdbc0db601" : { 
          "class" : "PlayStateNode", 
          "desc" : { 
-            "x" : "-100646", 
-            "y" : "-98684"
+            "x" : "-99577", 
+            "y" : "-98810"
          }, 
          "child" : [ 
-            "f504991b-b810-49cc-a4ec-9d9997218838", 
-            "82ec68a1-464c-431d-a372-808c5d605683"
+            "4506851d-15d2-4794-beb9-2fb7fc520675", 
+            "90da52eb-3018-494a-a828-cfc4266c920e"
          ], 
          "script" : "Entities/Behavior/ph_caravan_harbor_1"
       }, 
-      "fce5ec19-8955-449b-b7bf-715a3e2591c5" : { 
+      "46d04f53-2f34-4d35-9644-111d64110829" : { 
          "class" : "PlayStateNode", 
          "desc" : { 
-            "x" : "-100252", 
-            "y" : "-98757"
+            "x" : "-99183", 
+            "y" : "-98883"
          }, 
          "child" : [ 
-            "f504991b-b810-49cc-a4ec-9d9997218838", 
-            "82ec68a1-464c-431d-a372-808c5d605683"
+            "4506851d-15d2-4794-beb9-2fb7fc520675", 
+            "90da52eb-3018-494a-a828-cfc4266c920e"
          ], 
          "script" : "Entities/Behavior/ph_caravan_harbor_2"
       }, 
-      "89781dc3-2259-487c-b575-17c2b5de7cd8" : { 
+      "af449b65-1274-43ec-8a7d-e7679fec4a6d" : { 
          "class" : "ActiveObjectNode", 
          "desc" : { 
-            "x" : "-99580", 
-            "y" : "-98789"
+            "x" : "-98511", 
+            "y" : "-98915"
          }, 
          "child" : [ 
-            "450a2393-afde-44c8-bb39-cbc7b874f0dd"
+            "821e090e-2b98-4ce0-8b78-c8578a068a95"
          ], 
          "objectName" : "gaz66backSpawn.Karavan.Vehicle", 
          "active" : "false"
       }, 
-      "450a2393-afde-44c8-bb39-cbc7b874f0dd" : { 
+      "821e090e-2b98-4ce0-8b78-c8578a068a95" : { 
          "class" : "ObjectRemoveNode", 
          "desc" : { 
-            "x" : "-99566", 
-            "y" : "-98713"
+            "x" : "-98498", 
+            "y" : "-98839"
          }, 
          "child" : [ 
          ], 
          "objName" : "gaz66backSpawn.Karavan.Vehicle"
       }, 
-      "ca251c3d-bbf1-45c4-ae46-fd3399463297" : { 
+      "ffb56bf1-1a54-4eba-b8dd-c1ffb77e97b5" : { 
          "class" : "ActiveObjectNode", 
          "desc" : { 
-            "x" : "-99876", 
-            "y" : "-98785"
+            "x" : "-98808", 
+            "y" : "-98911"
          }, 
          "child" : [ 
-            "7e1a0f66-d4d1-4407-bf5d-6d6d3d3da8c4"
+            "fa1d2712-c9a1-4d31-a884-7b2df8d7c5c1"
          ], 
          "objectName" : "Karavan.Vehicle_2Spawn.Karavan.Vehicle", 
          "active" : "false"
       }, 
-      "7e1a0f66-d4d1-4407-bf5d-6d6d3d3da8c4" : { 
+      "fa1d2712-c9a1-4d31-a884-7b2df8d7c5c1" : { 
          "class" : "ObjectRemoveNode", 
          "desc" : { 
-            "x" : "-99856", 
-            "y" : "-98710"
+            "x" : "-98788", 
+            "y" : "-98836"
          }, 
          "child" : [ 
          ], 
          "objName" : "Karavan.Vehicle_2Spawn.Karavan.Vehicle"
       }, 
-      "c46fd3e4-080b-4326-8223-26eed261580e" : { 
+      "a1b1ac71-7aec-4d89-983e-50cc3f512077" : { 
          "class" : "ActiveObjectNode", 
          "desc" : { 
-            "x" : "-99328", 
-            "y" : "-98791"
+            "x" : "-98259", 
+            "y" : "-98917"
          }, 
          "child" : [ 
-            "b85299d8-d2b2-4746-8824-f0204569b915"
+            "75a27208-a59e-42af-9b5c-7242bddf9129"
          ], 
          "objectName" : "citroe_ type45Spawn.Karavan.Vehicle", 
          "active" : "false"
       }, 
-      "b85299d8-d2b2-4746-8824-f0204569b915" : { 
+      "75a27208-a59e-42af-9b5c-7242bddf9129" : { 
          "class" : "ObjectRemoveNode", 
          "desc" : { 
-            "x" : "-99312", 
-            "y" : "-98714"
+            "x" : "-98243", 
+            "y" : "-98840"
          }, 
          "child" : [ 
          ], 
          "objName" : "citroe_ type45Spawn.Karavan.Vehicle"
       }, 
-      "42a8fe2f-c589-4a64-a3d3-c6f6875a687e" : { 
+      "1f3a10af-b3b1-43a9-8ffc-33726d830bb6" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-99538", 
-            "y" : "-99459"
+            "x" : "-98470", 
+            "y" : "-99585"
          }, 
          "child" : [ 
-            "82ec68a1-464c-431d-a372-808c5d605683"
+            "90da52eb-3018-494a-a828-cfc4266c920e"
          ]
       }, 
-      "cfccf9bf-2197-4995-9f07-6e1a07633ca8" : { 
+      "783ccaf5-0430-449b-ad63-a34e5b5a598f" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-99234", 
-            "y" : "-98616"
+            "x" : "-98165", 
+            "y" : "-98742"
          }, 
          "child" : [ 
-            "0702ea9a-ff90-4099-8ca3-da9ea7b64523", 
-            "82a4cae0-d847-4ce5-bc6b-4ad6dad91abb", 
-            "a85cb1d5-100e-444c-9728-b391a392056b", 
-            "1bc38711-e0b4-43e4-842c-2489fb671db9"
+            "a3ed036d-02d7-4f2d-a708-5642136ca5d9", 
+            "5671cc95-0f8c-458a-b121-98cc56885f92", 
+            "70e811dd-0ccf-490f-9a83-f6b38f738993", 
+            "64b95dc2-36c8-467f-a05c-0032ea44025f"
          ]
       }, 
-      "0702ea9a-ff90-4099-8ca3-da9ea7b64523" : { 
+      "a3ed036d-02d7-4f2d-a708-5642136ca5d9" : { 
          "class" : "ObjectCheckNode", 
          "desc" : { 
-            "x" : "-99560", 
-            "y" : "-98402"
+            "x" : "-98492", 
+            "y" : "-98528"
          }, 
          "child" : [ 
-            "65c9d011-2068-4b0e-9869-c6575b8be8b6", 
-            "f79d3710-6a39-4d8a-9a95-118862f9beeb"
+            "b3dbb0db-0f5c-44c0-9bdf-f658b4255042", 
+            "28bd2a09-2b53-4d80-9315-1259a8592671"
          ], 
          "objectName" : "Karavan.Vehicle_2Spawn.Karavan.Vehicle"
       }, 
-      "65c9d011-2068-4b0e-9869-c6575b8be8b6" : { 
+      "b3dbb0db-0f5c-44c0-9bdf-f658b4255042" : { 
          "class" : "ActiveObjectNode", 
          "desc" : { 
-            "x" : "-99592", 
-            "y" : "-98330"
+            "x" : "-98524", 
+            "y" : "-98456"
          }, 
          "child" : [ 
-            "24953eb5-3442-4421-b636-11bc1e6d4dfd"
+            "9dc6e191-a45b-46f4-824b-da9477648409"
          ], 
          "objectName" : "Karavan.Vehicle_2Spawn.Karavan.Vehicle", 
          "active" : "false"
       }, 
-      "24953eb5-3442-4421-b636-11bc1e6d4dfd" : { 
+      "9dc6e191-a45b-46f4-824b-da9477648409" : { 
          "class" : "ActiveObjectNode", 
          "desc" : { 
-            "x" : "-99592", 
-            "y" : "-98258"
+            "x" : "-98524", 
+            "y" : "-98384"
          }, 
          "child" : [ 
          ], 
          "objectName" : "Karavan.Vehicle_2Spawn.Karavan.Vehicle", 
          "active" : "true"
       }, 
-      "f79d3710-6a39-4d8a-9a95-118862f9beeb" : { 
+      "28bd2a09-2b53-4d80-9315-1259a8592671" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-99390", 
-            "y" : "-98185"
+            "x" : "-98322", 
+            "y" : "-98311"
          }, 
          "child" : [ 
          ]
       }, 
-      "82a4cae0-d847-4ce5-bc6b-4ad6dad91abb" : { 
+      "5671cc95-0f8c-458a-b121-98cc56885f92" : { 
          "class" : "ObjectCheckNode", 
          "desc" : { 
-            "x" : "-99142", 
-            "y" : "-98418"
+            "x" : "-98073", 
+            "y" : "-98544"
          }, 
          "child" : [ 
-            "374c6aad-f967-4cff-b6c1-886e22ecb65a", 
-            "2b2c05ff-3f53-4126-b50c-a7f9463eccdb"
+            "7b4e1ba4-447b-4e46-a30e-fcdb80c31970", 
+            "e05ea02d-a0d4-4a9f-bbe2-8f9076b6735a"
          ], 
          "objectName" : "Karavan.VehicleSpawn.Karavan1.Vehicle"
       }, 
-      "374c6aad-f967-4cff-b6c1-886e22ecb65a" : { 
+      "7b4e1ba4-447b-4e46-a30e-fcdb80c31970" : { 
          "class" : "ActiveObjectNode", 
          "desc" : { 
-            "x" : "-99114", 
-            "y" : "-98329"
+            "x" : "-98046", 
+            "y" : "-98455"
          }, 
          "child" : [ 
-            "2b44ab41-6440-4906-bb09-7d10c8947de9"
+            "25bc1537-6cbf-4c20-9390-91b17df87cb7"
          ], 
          "objectName" : "Karavan.VehicleSpawn.Karavan1.Vehicle", 
          "active" : "false"
       }, 
-      "2b44ab41-6440-4906-bb09-7d10c8947de9" : { 
+      "25bc1537-6cbf-4c20-9390-91b17df87cb7" : { 
          "class" : "ActiveObjectNode", 
          "desc" : { 
-            "x" : "-99114", 
-            "y" : "-98258"
+            "x" : "-98046", 
+            "y" : "-98384"
          }, 
          "child" : [ 
          ], 
          "objectName" : "Karavan.VehicleSpawn.Karavan1.Vehicle", 
          "active" : "true"
       }, 
-      "2b2c05ff-3f53-4126-b50c-a7f9463eccdb" : { 
+      "e05ea02d-a0d4-4a9f-bbe2-8f9076b6735a" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-98912", 
-            "y" : "-98184"
+            "x" : "-97844", 
+            "y" : "-98310"
          }, 
          "child" : [ 
          ]
       }, 
-      "a85cb1d5-100e-444c-9728-b391a392056b" : { 
+      "70e811dd-0ccf-490f-9a83-f6b38f738993" : { 
          "class" : "ObjectCheckNode", 
          "desc" : { 
-            "x" : "-98728", 
-            "y" : "-98421"
+            "x" : "-97660", 
+            "y" : "-98547"
          }, 
          "child" : [ 
-            "a8faad6b-cea5-48e8-b288-f5ff73d91f51", 
-            "486106fb-be81-4229-9eea-bc65b1fcb0eb"
+            "ed6ccee8-906d-414c-b781-818caee75c96", 
+            "f32aab78-c1d9-46bc-844c-986b5a6d5f49"
          ], 
          "objectName" : "gaz66backSpawn.Karavan.Vehicle"
       }, 
-      "a8faad6b-cea5-48e8-b288-f5ff73d91f51" : { 
+      "ed6ccee8-906d-414c-b781-818caee75c96" : { 
          "class" : "ActiveObjectNode", 
          "desc" : { 
-            "x" : "-98714", 
-            "y" : "-98335"
+            "x" : "-97646", 
+            "y" : "-98461"
          }, 
          "child" : [ 
-            "3739d206-a8f9-4e5e-bbc9-0aa71cd09e0a"
+            "759a78ca-0866-4c29-a1d8-07ced34decf5"
          ], 
          "objectName" : "gaz66backSpawn.Karavan.Vehicle", 
          "active" : "false"
       }, 
-      "3739d206-a8f9-4e5e-bbc9-0aa71cd09e0a" : { 
+      "759a78ca-0866-4c29-a1d8-07ced34decf5" : { 
          "class" : "ActiveObjectNode", 
          "desc" : { 
-            "x" : "-98714", 
-            "y" : "-98263"
+            "x" : "-97646", 
+            "y" : "-98389"
          }, 
          "child" : [ 
          ], 
          "objectName" : "gaz66backSpawn.Karavan.Vehicle", 
          "active" : "true"
       }, 
-      "486106fb-be81-4229-9eea-bc65b1fcb0eb" : { 
+      "f32aab78-c1d9-46bc-844c-986b5a6d5f49" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-98510", 
-            "y" : "-98155"
+            "x" : "-97442", 
+            "y" : "-98281"
          }, 
          "child" : [ 
          ]
       }, 
-      "1bc38711-e0b4-43e4-842c-2489fb671db9" : { 
+      "64b95dc2-36c8-467f-a05c-0032ea44025f" : { 
          "class" : "ObjectCheckNode", 
          "desc" : { 
-            "x" : "-98376", 
-            "y" : "-98421"
+            "x" : "-97308", 
+            "y" : "-98547"
          }, 
          "child" : [ 
-            "19f8a4af-664a-4f89-9d24-aa91fff67f8c", 
-            "d4daca10-efc2-481f-ab85-ea68d6451efd"
+            "cd2ccb52-4f44-4ffa-9d2d-506b3a81be0b", 
+            "20381aa4-d7ca-42fa-b9f0-a8ae90bdd882"
          ], 
          "objectName" : "citroe_ type45Spawn.Karavan.Vehicle"
       }, 
-      "19f8a4af-664a-4f89-9d24-aa91fff67f8c" : { 
+      "cd2ccb52-4f44-4ffa-9d2d-506b3a81be0b" : { 
          "class" : "ActiveObjectNode", 
          "desc" : { 
-            "x" : "-98362", 
-            "y" : "-98335"
+            "x" : "-97294", 
+            "y" : "-98461"
          }, 
          "child" : [ 
-            "6e72596f-6506-4e58-9af5-57599fc09004"
+            "1e484d9e-0c87-49d9-8c08-75dbb74576ad"
          ], 
          "objectName" : "citroe_ type45Spawn.Karavan.Vehicle", 
          "active" : "false"
       }, 
-      "6e72596f-6506-4e58-9af5-57599fc09004" : { 
+      "1e484d9e-0c87-49d9-8c08-75dbb74576ad" : { 
          "class" : "ActiveObjectNode", 
          "desc" : { 
-            "x" : "-98362", 
-            "y" : "-98263"
+            "x" : "-97294", 
+            "y" : "-98389"
          }, 
          "child" : [ 
          ], 
          "objectName" : "citroe_ type45Spawn.Karavan.Vehicle", 
          "active" : "true"
       }, 
-      "d4daca10-efc2-481f-ab85-ea68d6451efd" : { 
+      "20381aa4-d7ca-42fa-b9f0-a8ae90bdd882" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-98010", 
-            "y" : "-98302"
+            "x" : "-96941", 
+            "y" : "-98428"
          }, 
          "child" : [ 
          ]
       }, 
-      "99064d66-905b-4883-a94a-1d1f8f9f5d43" : { 
+      "2d70d6e0-8f58-4f33-8202-a47127ca6f7d" : { 
          "class" : "TimeDatePeriodNode", 
          "desc" : { 
-            "x" : "-99108", 
-            "y" : "-100176"
+            "x" : "-98039", 
+            "y" : "-100302"
          }, 
          "child" : [ 
-            "b9b14bd5-6d28-49c0-a94d-9d90ba2cab42", 
-            "0448075f-8520-42d6-9821-ef7ce984538c"
+            "33422f98-7ba6-42d5-a51b-405d9f986dc1", 
+            "7082d48a-44a7-4f8a-ab70-f4f8f369a353"
          ], 
          "timeStart" : "16", 
          "modeStart" : "Hour", 
@@ -3632,204 +3564,204 @@
          "modeLen" : "Hour", 
          "offsetValue" : "RANDOM_TRADE_1"
       }, 
-      "b9b14bd5-6d28-49c0-a94d-9d90ba2cab42" : { 
+      "33422f98-7ba6-42d5-a51b-405d9f986dc1" : { 
          "class" : "HasKeywordNode", 
          "desc" : { 
-            "x" : "-99278", 
-            "y" : "-100006"
+            "x" : "-98209", 
+            "y" : "-100132"
          }, 
          "child" : [ 
-            "da7b5bdd-5dc4-4b1f-8624-b0ba47ea7c29", 
-            "c7724a2c-d2be-4c58-a197-10d3a3b2d34f"
+            "47a3b946-e206-4496-89c9-ca5868016d99", 
+            "bdfd7ee8-fded-4f70-8f45-bf00266be2b1"
          ], 
          "key" : "INIT_RANDOM_TRADE_1"
       }, 
-      "da7b5bdd-5dc4-4b1f-8624-b0ba47ea7c29" : { 
+      "47a3b946-e206-4496-89c9-ca5868016d99" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-99274", 
+            "x" : "-98205", 
+            "y" : "-99961"
+         }, 
+         "child" : [ 
+            "36302b3c-c65c-4b96-b6cb-e4c5089e2e5b"
+         ]
+      }, 
+      "36302b3c-c65c-4b96-b6cb-e4c5089e2e5b" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-98226", 
+            "y" : "-99920"
+         }, 
+         "child" : [ 
+            "7082d48a-44a7-4f8a-ab70-f4f8f369a353"
+         ], 
+         "key" : "REINIT_RANDOM_TRADE_1"
+      }, 
+      "7082d48a-44a7-4f8a-ab70-f4f8f369a353" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-97806", 
             "y" : "-99835"
          }, 
          "child" : [ 
-            "76bb4013-57a4-4f2f-be3f-20085edcda87"
-         ]
-      }, 
-      "76bb4013-57a4-4f2f-be3f-20085edcda87" : { 
-         "class" : "AddKeywordNode", 
-         "desc" : { 
-            "x" : "-99294", 
-            "y" : "-99794"
-         }, 
-         "child" : [ 
-            "0448075f-8520-42d6-9821-ef7ce984538c"
-         ], 
-         "key" : "REINIT_RANDOM_TRADE_1"
-      }, 
-      "0448075f-8520-42d6-9821-ef7ce984538c" : { 
-         "class" : "HasKeywordNode", 
-         "desc" : { 
-            "x" : "-98874", 
-            "y" : "-99709"
-         }, 
-         "child" : [ 
-            "d61859a0-a59c-4d76-819d-171b841c5c96", 
-            "f315610a-4a3a-49c8-890f-957083b6ff10"
+            "d954f6c0-04ea-4c0b-aaf9-d9b56491c020", 
+            "4520fd1d-c3c4-4cde-95ea-cbe4fb699217"
          ], 
          "key" : "INIT_RANDOM_TRADE_1"
       }, 
-      "d61859a0-a59c-4d76-819d-171b841c5c96" : { 
+      "d954f6c0-04ea-4c0b-aaf9-d9b56491c020" : { 
          "class" : "RemoveKeywordNode", 
          "desc" : { 
-            "x" : "-98630", 
-            "y" : "-99643"
+            "x" : "-97562", 
+            "y" : "-99769"
          }, 
          "child" : [ 
-            "c40a812a-4652-4927-a38e-feeee8e6b7cc"
+            "a03448bd-cb92-47f6-b763-6272477ab902"
          ], 
          "key" : "INIT_RANDOM_TRADE_1"
       }, 
-      "c40a812a-4652-4927-a38e-feeee8e6b7cc" : { 
+      "a03448bd-cb92-47f6-b763-6272477ab902" : { 
          "class" : "CharacterRemoveNode", 
          "desc" : { 
-            "x" : "-98612", 
-            "y" : "-99578"
+            "x" : "-97543", 
+            "y" : "-99704"
          }, 
          "child" : [ 
-            "962439c9-15f7-496d-9430-e27ccc6d0371"
+            "7e5e7096-4cb2-40ce-9ab0-6b8789a63af9"
          ], 
          "objName" : "Spawn.Karavan1.1"
       }, 
-      "962439c9-15f7-496d-9430-e27ccc6d0371" : { 
+      "7e5e7096-4cb2-40ce-9ab0-6b8789a63af9" : { 
          "class" : "CharacterRemoveNode", 
          "desc" : { 
-            "x" : "-98612", 
-            "y" : "-99518"
+            "x" : "-97543", 
+            "y" : "-99644"
          }, 
          "child" : [ 
-            "a585b9df-7174-474d-9521-a0ce1ef7fe0b"
+            "be6e8b2e-7bce-4151-acc6-320472f4ee54"
          ], 
          "objName" : "Spawn.Karavan1.2"
       }, 
-      "a585b9df-7174-474d-9521-a0ce1ef7fe0b" : { 
+      "be6e8b2e-7bce-4151-acc6-320472f4ee54" : { 
          "class" : "CharacterRemoveNode", 
          "desc" : { 
-            "x" : "-98612", 
-            "y" : "-99457"
+            "x" : "-97543", 
+            "y" : "-99583"
          }, 
          "child" : [ 
-            "f1612d29-2a97-4c84-92b8-0c2d372c10f2"
+            "7a23f29e-0956-49ac-ba4d-7df8931514bf"
          ], 
          "objName" : "Spawn.Karavan1.3"
       }, 
-      "f1612d29-2a97-4c84-92b8-0c2d372c10f2" : { 
+      "7a23f29e-0956-49ac-ba4d-7df8931514bf" : { 
          "class" : "CharacterRemoveNode", 
          "desc" : { 
-            "x" : "-98612", 
-            "y" : "-99395"
+            "x" : "-97543", 
+            "y" : "-99521"
          }, 
          "child" : [ 
-            "5ee6b0dc-be0d-482f-8a8b-549eb5a12634"
+            "98ee0bd9-2e6c-458e-ab0d-abe5f2c3eded"
          ], 
          "objName" : "Spawn.Karavan1.4"
       }, 
-      "5ee6b0dc-be0d-482f-8a8b-549eb5a12634" : { 
+      "98ee0bd9-2e6c-458e-ab0d-abe5f2c3eded" : { 
          "class" : "CharacterRemoveNode", 
          "desc" : { 
-            "x" : "-98622", 
-            "y" : "-99330"
+            "x" : "-97554", 
+            "y" : "-99456"
          }, 
          "child" : [ 
-            "2e7768ec-34a8-4750-9aa1-3d00d0336ac5", 
-            "41ab3bd3-50ad-47d8-ac69-76d3e8fb5000"
+            "8f10ec3f-3dab-4f63-a9b2-d35e40b937e2", 
+            "dc716e35-cc3b-4ab7-8c4a-0ca4b7a7a0ee"
          ], 
          "objName" : "Spawn.Karavan1.Trader"
       }, 
-      "2e7768ec-34a8-4750-9aa1-3d00d0336ac5" : { 
+      "8f10ec3f-3dab-4f63-a9b2-d35e40b937e2" : { 
          "class" : "RemoveKeywordNode", 
          "desc" : { 
-            "x" : "-99012", 
-            "y" : "-99239"
+            "x" : "-97943", 
+            "y" : "-99365"
          }, 
          "child" : [ 
-            "711f5a6e-71e5-4f71-89c9-0e861b01d15a"
+            "a5084f51-5852-40f8-8b80-2ad236904bc8"
          ], 
          "key" : "HARBOR_TRADER2_TYPE"
       }, 
-      "711f5a6e-71e5-4f71-89c9-0e861b01d15a" : { 
+      "a5084f51-5852-40f8-8b80-2ad236904bc8" : { 
          "class" : "HasKeywordNode", 
          "desc" : { 
-            "x" : "-99020", 
-            "y" : "-99186"
+            "x" : "-97951", 
+            "y" : "-99312"
          }, 
          "child" : [ 
-            "c7724a2c-d2be-4c58-a197-10d3a3b2d34f", 
-            "5f774de7-10c6-4b23-a8a5-c24dfc38c796"
+            "bdfd7ee8-fded-4f70-8f45-bf00266be2b1", 
+            "f1778be9-1d1f-4e8d-8dd5-565126578480"
          ], 
          "key" : "REINIT_RANDOM_TRADE_1"
       }, 
-      "c7724a2c-d2be-4c58-a197-10d3a3b2d34f" : { 
+      "bdfd7ee8-fded-4f70-8f45-bf00266be2b1" : { 
          "class" : "AddKeywordNode", 
          "desc" : { 
-            "x" : "-99096", 
-            "y" : "-99075"
+            "x" : "-98027", 
+            "y" : "-99201"
          }, 
          "child" : [ 
-            "0dd1225b-39f1-4c9f-867e-7a4c9f14fa7f"
+            "b55ea73e-4ec2-4193-bb65-fc045557357e"
          ], 
          "key" : "INIT_RANDOM_TRADE_1"
       }, 
-      "0dd1225b-39f1-4c9f-867e-7a4c9f14fa7f" : { 
+      "b55ea73e-4ec2-4193-bb65-fc045557357e" : { 
          "class" : "PlayStateNode", 
          "desc" : { 
-            "x" : "-99038", 
-            "y" : "-98946"
+            "x" : "-97969", 
+            "y" : "-99072"
          }, 
          "child" : [ 
-            "f504991b-b810-49cc-a4ec-9d9997218838", 
-            "5f774de7-10c6-4b23-a8a5-c24dfc38c796"
+            "4506851d-15d2-4794-beb9-2fb7fc520675", 
+            "f1778be9-1d1f-4e8d-8dd5-565126578480"
          ], 
          "script" : "entities/behavior/harbor_caravan3"
       }, 
-      "5f774de7-10c6-4b23-a8a5-c24dfc38c796" : { 
+      "f1778be9-1d1f-4e8d-8dd5-565126578480" : { 
          "class" : "RemoveKeywordNode", 
          "desc" : { 
-            "x" : "-98800", 
-            "y" : "-98852"
+            "x" : "-97732", 
+            "y" : "-98978"
          }, 
          "child" : [ 
          ], 
          "key" : "REINIT_RANDOM_TRADE_1"
       }, 
-      "41ab3bd3-50ad-47d8-ac69-76d3e8fb5000" : { 
+      "dc716e35-cc3b-4ab7-8c4a-0ca4b7a7a0ee" : { 
          "class" : "ActiveObjectNode", 
          "desc" : { 
-            "x" : "-98292", 
-            "y" : "-99250"
+            "x" : "-97224", 
+            "y" : "-99376"
          }, 
          "child" : [ 
-            "2f87fccf-9cc5-4f8a-83ed-a6b71ab4522d"
+            "fcee1285-90e5-4dd7-8ffc-6b433cb8dcff"
          ], 
          "objectName" : "Karavan.VehicleSpawn.Karavan1.Vehicle", 
          "active" : "false"
       }, 
-      "2f87fccf-9cc5-4f8a-83ed-a6b71ab4522d" : { 
+      "fcee1285-90e5-4dd7-8ffc-6b433cb8dcff" : { 
          "class" : "ObjectRemoveNode", 
          "desc" : { 
-            "x" : "-98282", 
-            "y" : "-99177"
+            "x" : "-97213", 
+            "y" : "-99303"
          }, 
          "child" : [ 
          ], 
          "objName" : "Karavan.VehicleSpawn.Karavan1.Vehicle"
       }, 
-      "f315610a-4a3a-49c8-890f-957083b6ff10" : { 
+      "4520fd1d-c3c4-4cde-95ea-cbe4fb699217" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-98814", 
-            "y" : "-99528"
+            "x" : "-97745", 
+            "y" : "-99654"
          }, 
          "child" : [ 
-            "5f774de7-10c6-4b23-a8a5-c24dfc38c796"
+            "f1778be9-1d1f-4e8d-8dd5-565126578480"
          ]
       }, 
       "13d8ecba-6431-4b8d-afa6-448af0ad7a30" : { 
@@ -3870,8 +3802,8 @@
       "cf5db620-18ca-4435-bf9e-6c6a015fc945" : { 
          "class" : "AddKeywordNode", 
          "desc" : { 
-            "x" : "-99362", 
-            "y" : "-101376"
+            "x" : "-99258", 
+            "y" : "-101331"
          }, 
          "child" : [ 
             "95335c31-ae2b-42b3-8c38-660a4b08d8d9"

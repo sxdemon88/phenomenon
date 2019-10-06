@@ -64,7 +64,7 @@ MonoBehaviour:
     Dispersion: 0
     ModeType: 0
     Sounds:
-    - path: Sounds/SFX/Weapons/M24/m24_reload
+    - path: Entities/Weapon/weapon models/SVU/svu_reload_1
   Effects: []
   Requirements:
   - _type: 1

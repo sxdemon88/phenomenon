@@ -97,8 +97,8 @@
       "1f028e2a-0a8e-4c13-b224-f7e96acb024f" : { 
          "class" : "InventoryAddItemNode", 
          "desc" : { 
-            "x" : "-101136", 
-            "y" : "-98993"
+            "x" : "-101016", 
+            "y" : "-98841"
          }, 
          "child" : [ 
          ], 
@@ -128,29 +128,15 @@
             "y" : "-98979"
          }, 
          "child" : [ 
-            "ec4d71ee-eec5-470a-bc77-71aca7360b32", 
+            "1f028e2a-0a8e-4c13-b224-f7e96acb024f", 
             "ea2a0b6f-1d6e-4de5-bfdb-fccab61119f5"
          ]
-      }, 
-      "ec4d71ee-eec5-470a-bc77-71aca7360b32" : { 
-         "class" : "InventoryAddItemNode", 
-         "desc" : { 
-            "x" : "-100844", 
-            "y" : "-98765"
-         }, 
-         "child" : [ 
-         ], 
-         "item" : { 
-            "class" : "Consumable", 
-            "count" : "2", 
-            "proto" : "Meat"
-         }
       }, 
       "ea2a0b6f-1d6e-4de5-bfdb-fccab61119f5" : { 
          "class" : "InventoryAddItemNode", 
          "desc" : { 
-            "x" : "-100642", 
-            "y" : "-98766"
+            "x" : "-100728", 
+            "y" : "-98758"
          }, 
          "child" : [ 
          ], 
@@ -229,8 +215,8 @@
       "8ca3182f-6837-4f2c-805b-c769e36aa420" : { 
          "class" : "InventoryAddItemNode", 
          "desc" : { 
-            "x" : "-99857", 
-            "y" : "-98946"
+            "x" : "-99850", 
+            "y" : "-98943"
          }, 
          "child" : [ 
          ], 
