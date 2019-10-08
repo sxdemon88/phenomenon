@@ -142,10 +142,18 @@
       "dd1a2951-1fc8-47fd-866a-02afbcb67527" : { 
          "class" : "RandomNode", 
          "desc" : { 
-            "x" : "-1316", 
-            "y" : "220"
+            "x" : "-1394", 
+            "y" : "235"
          }, 
          "child" : [ 
+            "269e3984-8099-4ff6-b919-85f78272672a", 
+            "671548c0-3b30-4145-950b-6de15890994f", 
+            "42dfff7e-341e-44ea-8a36-239be6931379", 
+            "6375e2e1-f349-4704-a187-b293703f1cc7", 
+            "963fece2-1447-4b99-8142-a40bd6baa9bb", 
+            "19c93c46-463d-428a-bceb-dd3ec80dea5a", 
+            "363ea0b0-23df-4d85-aaf0-e2301204eda3", 
+            "64714659-f20a-4f11-a55d-732698d52862", 
             "cffee0eb-b8c0-4012-8aad-90b188ff8753", 
             "ff6adc9c-2718-4817-b1bb-b29689ad875d", 
             "12b0241f-ea11-44c5-838c-62b02930c00a", 
@@ -156,19 +164,19 @@
             "6083251f-08a1-4ce1-8659-5b154133f07b"
          ]
       }, 
-      "cffee0eb-b8c0-4012-8aad-90b188ff8753" : { 
+      "269e3984-8099-4ff6-b919-85f78272672a" : { 
          "class" : "InventoryAddItemNode", 
          "desc" : { 
-            "x" : "-1549", 
-            "y" : "726"
+            "x" : "-2208", 
+            "y" : "408"
          }, 
          "child" : [ 
             "ee841ddb-c478-437a-b82e-27a452deb33c"
          ], 
          "item" : { 
             "class" : "Ammo", 
-            "count" : "8", 
-            "proto" : "356cal_JHP"
+            "count" : "12", 
+            "proto" : "7_62mm_craft"
          }, 
          "objectName" : "Player"
       }, 
@@ -263,6 +271,134 @@
          ], 
          "objectName" : "Player", 
          "value" : "250"
+      }, 
+      "671548c0-3b30-4145-950b-6de15890994f" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-2520", 
+            "y" : "407"
+         }, 
+         "child" : [ 
+            "ee841ddb-c478-437a-b82e-27a452deb33c"
+         ], 
+         "item" : { 
+            "class" : "Ammo", 
+            "count" : "9", 
+            "proto" : "307cal_craft"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "42dfff7e-341e-44ea-8a36-239be6931379" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-2682", 
+            "y" : "407"
+         }, 
+         "child" : [ 
+            "ee841ddb-c478-437a-b82e-27a452deb33c"
+         ], 
+         "item" : { 
+            "class" : "Ammo", 
+            "count" : "12", 
+            "proto" : "5_45craft"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "6375e2e1-f349-4704-a187-b293703f1cc7" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-2364", 
+            "y" : "409"
+         }, 
+         "child" : [ 
+            "ee841ddb-c478-437a-b82e-27a452deb33c"
+         ], 
+         "item" : { 
+            "class" : "Ammo", 
+            "count" : "9", 
+            "proto" : "356cal_craft"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "963fece2-1447-4b99-8142-a40bd6baa9bb" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-2051", 
+            "y" : "408"
+         }, 
+         "child" : [ 
+            "ee841ddb-c478-437a-b82e-27a452deb33c"
+         ], 
+         "item" : { 
+            "class" : "Ammo", 
+            "count" : "2", 
+            "proto" : "14_5mm_craft"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "19c93c46-463d-428a-bceb-dd3ec80dea5a" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-1892", 
+            "y" : "407"
+         }, 
+         "child" : [ 
+            "ee841ddb-c478-437a-b82e-27a452deb33c"
+         ], 
+         "item" : { 
+            "class" : "Ammo", 
+            "count" : "6", 
+            "proto" : "12_craft"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "363ea0b0-23df-4d85-aaf0-e2301204eda3" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-1730", 
+            "y" : "405"
+         }, 
+         "child" : [ 
+            "ee841ddb-c478-437a-b82e-27a452deb33c"
+         ], 
+         "item" : { 
+            "class" : "Ammo", 
+            "count" : "16", 
+            "proto" : "9mm_craft"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "64714659-f20a-4f11-a55d-732698d52862" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-1568", 
+            "y" : "408"
+         }, 
+         "child" : [ 
+            "ee841ddb-c478-437a-b82e-27a452deb33c"
+         ], 
+         "item" : { 
+            "class" : "Ammo", 
+            "count" : "5", 
+            "proto" : "7mm_54r_craft"
+         }, 
+         "objectName" : "Player"
+      }, 
+      "cffee0eb-b8c0-4012-8aad-90b188ff8753" : { 
+         "class" : "InventoryAddItemNode", 
+         "desc" : { 
+            "x" : "-1549", 
+            "y" : "726"
+         }, 
+         "child" : [ 
+            "ee841ddb-c478-437a-b82e-27a452deb33c"
+         ], 
+         "item" : { 
+            "class" : "Ammo", 
+            "count" : "8", 
+            "proto" : "356cal_JHP"
+         }, 
+         "objectName" : "Player"
       }, 
       "ff6adc9c-2718-4817-b1bb-b29689ad875d" : { 
          "class" : "InventoryAddItemNode", 
@@ -384,6 +520,14 @@
          }, 
          "child" : [ 
             "cffee0eb-b8c0-4012-8aad-90b188ff8753", 
+            "64714659-f20a-4f11-a55d-732698d52862", 
+            "42dfff7e-341e-44ea-8a36-239be6931379", 
+            "363ea0b0-23df-4d85-aaf0-e2301204eda3", 
+            "6375e2e1-f349-4704-a187-b293703f1cc7", 
+            "671548c0-3b30-4145-950b-6de15890994f", 
+            "269e3984-8099-4ff6-b919-85f78272672a", 
+            "963fece2-1447-4b99-8142-a40bd6baa9bb", 
+            "19c93c46-463d-428a-bceb-dd3ec80dea5a", 
             "ff6adc9c-2718-4817-b1bb-b29689ad875d", 
             "12b0241f-ea11-44c5-838c-62b02930c00a", 
             "326a1aad-3234-45ce-b1c7-040b9beaa527", 
@@ -396,15 +540,23 @@
       "80f58056-69e0-4406-9dd0-386195058322" : { 
          "class" : "RandomNode", 
          "desc" : { 
-            "x" : "-794", 
-            "y" : "279"
+            "x" : "-867", 
+            "y" : "313"
          }, 
          "child" : [ 
             "cffee0eb-b8c0-4012-8aad-90b188ff8753", 
             "ff6adc9c-2718-4817-b1bb-b29689ad875d", 
+            "42dfff7e-341e-44ea-8a36-239be6931379", 
             "12b0241f-ea11-44c5-838c-62b02930c00a", 
+            "963fece2-1447-4b99-8142-a40bd6baa9bb", 
             "326a1aad-3234-45ce-b1c7-040b9beaa527", 
+            "64714659-f20a-4f11-a55d-732698d52862", 
+            "6375e2e1-f349-4704-a187-b293703f1cc7", 
+            "269e3984-8099-4ff6-b919-85f78272672a", 
+            "671548c0-3b30-4145-950b-6de15890994f", 
             "bef4fd72-17ea-4871-a730-fd1119e219ec", 
+            "363ea0b0-23df-4d85-aaf0-e2301204eda3", 
+            "19c93c46-463d-428a-bceb-dd3ec80dea5a", 
             "8bab17f4-68a5-404e-b8df-454e5b70f507", 
             "91a09fbc-a3be-455b-812b-1c456dfebfa0", 
             "6083251f-08a1-4ce1-8659-5b154133f07b"

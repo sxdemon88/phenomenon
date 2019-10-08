@@ -126,21 +126,33 @@
       "e3e8b30d-b12d-4f90-a15e-3a7215e677ab" : { 
          "class" : "CharacterDistanceTriggerNode", 
          "desc" : { 
-            "x" : "-101079", 
-            "y" : "-100555"
+            "x" : "-101058", 
+            "y" : "-100768"
          }, 
          "child" : [ 
-            "a0265286-6d71-4714-844c-400532f94fee"
+            "9b5d0274-3235-4347-8f34-2a23ddae30aa"
          ], 
          "distanceCondition" : "LessThan", 
          "distance" : "20", 
          "checkVisibility" : "true"
       }, 
+      "9b5d0274-3235-4347-8f34-2a23ddae30aa" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-101061", 
+            "y" : "-100603"
+         }, 
+         "child" : [ 
+            "a0265286-6d71-4714-844c-400532f94fee", 
+            "2f07d545-42fb-4c66-8e60-1a990d53b29d"
+         ], 
+         "note_key" : "OKSANA_ALEXSANDER_WHOOP"
+      }, 
       "a0265286-6d71-4714-844c-400532f94fee" : { 
          "class" : "HasKeywordNode", 
          "desc" : { 
-            "x" : "-101027", 
-            "y" : "-100351"
+            "x" : "-101019", 
+            "y" : "-100330"
          }, 
          "child" : [ 
             "da42929c-a3a4-4b99-b6fa-bcfadb62318b", 
@@ -151,8 +163,8 @@
       "da42929c-a3a4-4b99-b6fa-bcfadb62318b" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-101220", 
-            "y" : "-100191"
+            "x" : "-101183", 
+            "y" : "-100181"
          }, 
          "child" : [ 
          ]
@@ -460,6 +472,68 @@
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true", 
          "mode" : "CancelIfBattle"
+      }, 
+      "2f07d545-42fb-4c66-8e60-1a990d53b29d" : { 
+         "class" : "HasTeamMateNode", 
+         "desc" : { 
+            "x" : "-101522", 
+            "y" : "-100454"
+         }, 
+         "child" : [ 
+            "713a8af9-f14f-4aa6-a00b-124029808aa9", 
+            "a0265286-6d71-4714-844c-400532f94fee"
+         ], 
+         "teammate" : "oksana"
+      }, 
+      "713a8af9-f14f-4aa6-a00b-124029808aa9" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-101623", 
+            "y" : "-100312"
+         }, 
+         "child" : [ 
+            "f1a8006b-a18c-451d-a243-fc3a8801d84a"
+         ], 
+         "text" : "О, кого я вижу! Оксана!", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "f1a8006b-a18c-451d-a243-fc3a8801d84a" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-101569", 
+            "y" : "-100234"
+         }, 
+         "child" : [ 
+            "2a157602-5a46-4560-bdd5-e825bd1e3085"
+         ], 
+         "waitTime" : "1"
+      }, 
+      "2a157602-5a46-4560-bdd5-e825bd1e3085" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-101626", 
+            "y" : "-100150"
+         }, 
+         "child" : [ 
+            "3a1a051f-e04e-4127-bc7d-8e3cb535f64d"
+         ], 
+         "text" : "Саша? Это ты?", 
+         "customObject" : "oksana", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "3a1a051f-e04e-4127-bc7d-8e3cb535f64d" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-101620", 
+            "y" : "-100049"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "OKSANA_ALEXSANDER_WHOOP"
       }, 
       "7191a7ac-2910-4fb9-a599-b0cd6193fcb9" : { 
          "class" : "CharacterDistanceTriggerNode", 

@@ -130,17 +130,29 @@
             "y" : "-100555"
          }, 
          "child" : [ 
-            "a0265286-6d71-4714-844c-400532f94fee"
+            "375f7966-1e62-47ea-93f7-6f2e72b48603"
          ], 
          "distanceCondition" : "LessThan", 
          "distance" : "20", 
          "checkVisibility" : "true"
       }, 
+      "375f7966-1e62-47ea-93f7-6f2e72b48603" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-101101", 
+            "y" : "-100422"
+         }, 
+         "child" : [ 
+            "a0265286-6d71-4714-844c-400532f94fee", 
+            "98a00363-efe0-40f1-8bda-765b07f8d722"
+         ], 
+         "note_key" : "OKSANA_BOGDAN_WHOOP"
+      }, 
       "a0265286-6d71-4714-844c-400532f94fee" : { 
          "class" : "HasKeywordNode", 
          "desc" : { 
-            "x" : "-101027", 
-            "y" : "-100351"
+            "x" : "-101095", 
+            "y" : "-100260"
          }, 
          "child" : [ 
             "da42929c-a3a4-4b99-b6fa-bcfadb62318b", 
@@ -151,8 +163,8 @@
       "da42929c-a3a4-4b99-b6fa-bcfadb62318b" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-101220", 
-            "y" : "-100191"
+            "x" : "-101231", 
+            "y" : "-100131"
          }, 
          "child" : [ 
          ]
@@ -458,6 +470,67 @@
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true", 
          "mode" : "CancelIfBattle"
+      }, 
+      "98a00363-efe0-40f1-8bda-765b07f8d722" : { 
+         "class" : "HasTeamMateNode", 
+         "desc" : { 
+            "x" : "-101622", 
+            "y" : "-100424"
+         }, 
+         "child" : [ 
+            "3aa283ef-ced3-4012-99c1-1daff723e01f", 
+            "a0265286-6d71-4714-844c-400532f94fee"
+         ], 
+         "teammate" : "oksana"
+      }, 
+      "3aa283ef-ced3-4012-99c1-1daff723e01f" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-101694", 
+            "y" : "-100250"
+         }, 
+         "child" : [ 
+            "9ccb26d4-ac24-4632-b5a4-e2d1f3c85889"
+         ], 
+         "text" : "Какая милая девушка у вас в отряде!", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "9ccb26d4-ac24-4632-b5a4-e2d1f3c85889" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-101640", 
+            "y" : "-100170"
+         }, 
+         "child" : [ 
+            "ccf04be2-45e3-4c4e-a0a2-328c74c1b692"
+         ], 
+         "waitTime" : "1"
+      }, 
+      "ccf04be2-45e3-4c4e-a0a2-328c74c1b692" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-101694", 
+            "y" : "-100100"
+         }, 
+         "child" : [ 
+            "bde148be-41e3-4969-be3a-b61a75ad3972"
+         ], 
+         "text" : "Я где-то её уже встречал.", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true", 
+         "mode" : "CancelIfBattle"
+      }, 
+      "bde148be-41e3-4969-be3a-b61a75ad3972" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-101682", 
+            "y" : "-100026"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "OKSANA_BOGDAN_WHOOP"
       }, 
       "7191a7ac-2910-4fb9-a599-b0cd6193fcb9" : { 
          "class" : "CharacterDistanceTriggerNode", 
