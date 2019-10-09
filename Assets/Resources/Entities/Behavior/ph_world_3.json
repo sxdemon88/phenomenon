@@ -12,7 +12,8 @@
             "571a0918-ea6f-498d-a051-845b68bfed4d", 
             "36a8e4ce-bb05-4261-b2e0-035b379c172c", 
             "d8672173-9727-467c-9ea7-7d6edc9704b1", 
-            "3d8427b7-15b1-47f0-a091-76a43c856286"
+            "3d8427b7-15b1-47f0-a091-76a43c856286", 
+            "ad4e9c98-bf5c-45f1-bc54-077f53472616"
          ]
       }, 
       "7912f4aa-4d88-4da8-842b-1a90953caca8" : { 
@@ -165,7 +166,7 @@
       "3d8427b7-15b1-47f0-a091-76a43c856286" : { 
          "class" : "EncounterTypeNode", 
          "desc" : { 
-            "x" : "-100239", 
+            "x" : "-100238", 
             "y" : "-102600"
          }, 
          "child" : [ 
@@ -203,6 +204,27 @@
          "child" : [ 
          ], 
          "script" : "Entities/Behavior/Z_Z_bigratsnights"
+      }, 
+      "ad4e9c98-bf5c-45f1-bc54-077f53472616" : { 
+         "class" : "EncounterTypeNode", 
+         "desc" : { 
+            "x" : "-99829", 
+            "y" : "-102613"
+         }, 
+         "child" : [ 
+            "700a5999-b44d-4a08-842d-a00f4e97e31b"
+         ], 
+         "encType" : "oksana_quest_3"
+      }, 
+      "700a5999-b44d-4a08-842d-a00f4e97e31b" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-99827", 
+            "y" : "-102525"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/z_z_oksana_quest"
       }
    }, 
    "entry" : "c4677c96-9247-46c1-84d9-ba1187e6a1f4"

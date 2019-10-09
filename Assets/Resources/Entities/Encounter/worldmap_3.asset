@@ -59,6 +59,7 @@ MonoBehaviour:
       _overrideEncounterType: 
     _requirements: []
     _requirementsEx: []
+    _weatherCondition: 0
   - _chance: 60
     _type: Muta
     _period: 1
@@ -92,6 +93,7 @@ MonoBehaviour:
       _overrideEncounterType: 
     _requirements: []
     _requirementsEx: []
+    _weatherCondition: 0
   - _chance: 50
     _type: Rats_2
     _period: 1
@@ -125,6 +127,7 @@ MonoBehaviour:
       _overrideEncounterType: 
     _requirements: []
     _requirementsEx: []
+    _weatherCondition: 0
   - _chance: 40
     _type: MutaShift
     _period: 1
@@ -145,6 +148,7 @@ MonoBehaviour:
     chances: []
     _requirements: []
     _requirementsEx: []
+    _weatherCondition: 0
   - _chance: 0
     _type: Gubert
     _period: 0
@@ -191,6 +195,7 @@ MonoBehaviour:
       _overrideEncounterType: 
     _requirements: []
     _requirementsEx: []
+    _weatherCondition: 0
   - _chance: 1000
     _type: Hallucinating
     _period: 0
@@ -209,6 +214,7 @@ MonoBehaviour:
     chances: []
     _requirements: []
     _requirementsEx: []
+    _weatherCondition: 0
   - _chance: 40
     _type: Mutanights
     _period: 2
@@ -242,6 +248,7 @@ MonoBehaviour:
       _overrideEncounterType: 
     _requirements: []
     _requirementsEx: []
+    _weatherCondition: 0
   - _chance: 40
     _type: Mutashiftnights
     _period: 2
@@ -262,6 +269,7 @@ MonoBehaviour:
     chances: []
     _requirements: []
     _requirementsEx: []
+    _weatherCondition: 0
   - _chance: 40
     _type: lizardnights
     _period: 2
@@ -295,6 +303,7 @@ MonoBehaviour:
       _overrideEncounterType: 
     _requirements: []
     _requirementsEx: []
+    _weatherCondition: 0
   - _chance: 40
     _type: bigratsnights
     _period: 2
@@ -328,6 +337,7 @@ MonoBehaviour:
       _overrideEncounterType: 
     _requirements: []
     _requirementsEx: []
+    _weatherCondition: 0
   - _chance: 40
     _type: lizardshiftnights
     _period: 2
@@ -348,6 +358,7 @@ MonoBehaviour:
     chances: []
     _requirements: []
     _requirementsEx: []
+    _weatherCondition: 0
   - _chance: 40
     _type: bigratshiftnights
     _period: 2
@@ -368,6 +379,30 @@ MonoBehaviour:
     chances: []
     _requirements: []
     _requirementsEx: []
+    _weatherCondition: 0
+  - _chance: 1000
+    _type: oksana_quest_3
+    _period: 0
+    _trigger: 
+    _triggerInvert: 0
+    _triggerReset: 0
+    _canSkip: 0
+    _canAttack: 1
+    _once: 1
+    _icon: {fileID: 21300000, guid: 86e0cb8e618989946806626095ccf626, type: 3}
+    _desc: encounter.oksana_quest_3
+    _enter: encounter.attack
+    _showIntro: 0
+    _levels:
+    - Z_1_3
+    - Z_2_3
+    - Z_3_3
+    chances: []
+    _requirements: []
+    _requirementsEx: []
+    _weatherCondition: 0
   camping:
     _levels:
     - Z_1_3
+    - Z_2_3
+    - Z_3_3

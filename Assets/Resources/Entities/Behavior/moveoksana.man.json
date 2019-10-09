@@ -14,7 +14,7 @@
       "ec349257-ce8c-4355-a686-0d103b5fbe77" : { 
          "class" : "CharacterDistanceTriggerNode", 
          "desc" : { 
-            "x" : "-1261", 
+            "x" : "-1256", 
             "y" : "-668"
          }, 
          "child" : [ 
@@ -27,8 +27,8 @@
       "c277e9db-a208-4daf-bc45-d1a2ff1ab132" : { 
          "class" : "CharacterInBattleNode", 
          "desc" : { 
-            "x" : "-1236", 
-            "y" : "-526"
+            "x" : "-1264", 
+            "y" : "-521"
          }, 
          "child" : [ 
             "bb7d4c0c-01b6-410f-bff0-72bd1b3fb9d3", 
@@ -38,7 +38,7 @@
       "bb7d4c0c-01b6-410f-bff0-72bd1b3fb9d3" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-1392", 
+            "x" : "-1387", 
             "y" : "-417"
          }, 
          "child" : [ 
@@ -47,7 +47,7 @@
       "71cb5d7b-ddee-4dfe-bb48-5e9b83fbbd06" : { 
          "class" : "PlayDialogNode", 
          "desc" : { 
-            "x" : "-1174", 
+            "x" : "-1169", 
             "y" : "-435"
          }, 
          "child" : [ 

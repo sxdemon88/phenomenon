@@ -3,18 +3,32 @@
       "7a91e538-4a60-4839-90c4-03ed8f8f5bcb" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-772", 
-            "y" : "-825"
+            "x" : "-1894", 
+            "y" : "-998"
+         }, 
+         "child" : [ 
+            "9dd3fe81-e2be-4de5-863e-328c66f4913c", 
+            "9bc10e69-8dc0-46d0-828b-345c8a654884"
+         ]
+      }, 
+      "9dd3fe81-e2be-4de5-863e-328c66f4913c" : { 
+         "class" : "CharacterDistanceTriggerNode", 
+         "desc" : { 
+            "x" : "-2177", 
+            "y" : "-897"
          }, 
          "child" : [ 
             "4f01a85c-5dfc-48e1-858a-cba07b190ecd"
-         ]
+         ], 
+         "distanceCondition" : "GreaterThan", 
+         "distance" : "15", 
+         "checkVisibility" : "true"
       }, 
       "4f01a85c-5dfc-48e1-858a-cba07b190ecd" : { 
          "class" : "CharacterMoveToNode", 
          "desc" : { 
-            "x" : "-778", 
-            "y" : "-745"
+            "x" : "-2259", 
+            "y" : "-704"
          }, 
          "child" : [ 
          ], 
@@ -24,6 +38,48 @@
          "relative" : "false", 
          "run" : "false", 
          "keepCourse" : "false"
+      }, 
+      "9bc10e69-8dc0-46d0-828b-345c8a654884" : { 
+         "class" : "CharacterDistanceTriggerNode", 
+         "desc" : { 
+            "x" : "-1924", 
+            "y" : "-787"
+         }, 
+         "child" : [ 
+            "6c76cc0a-7d4b-4e96-aeed-8939d90ac4ee"
+         ], 
+         "distanceCondition" : "LessThan", 
+         "distance" : "15", 
+         "checkVisibility" : "true"
+      }, 
+      "6c76cc0a-7d4b-4e96-aeed-8939d90ac4ee" : { 
+         "class" : "CharacterInBattleNode", 
+         "desc" : { 
+            "x" : "-1907", 
+            "y" : "-657"
+         }, 
+         "child" : [ 
+            "012d73f8-2d57-4c37-8cae-c6c777b1dde9", 
+            "6461f978-c89b-46a0-b575-9eb88bd6526a"
+         ]
+      }, 
+      "012d73f8-2d57-4c37-8cae-c6c777b1dde9" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-2031", 
+            "y" : "-553"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "6461f978-c89b-46a0-b575-9eb88bd6526a" : { 
+         "class" : "CharacterStopNode", 
+         "desc" : { 
+            "x" : "-1751", 
+            "y" : "-548"
+         }, 
+         "child" : [ 
+         ]
       }
    }, 
    "entry" : "7a91e538-4a60-4839-90c4-03ed8f8f5bcb"
