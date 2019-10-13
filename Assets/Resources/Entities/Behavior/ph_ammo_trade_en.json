@@ -1,0 +1,219 @@
+{ 
+   "states" : { 
+      "b053a210-ea7d-439d-8783-489e55db23b7" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101332", 
+            "y" : "-101873"
+         }, 
+         "child" : [ 
+            "cfcde8d5-0478-4519-8410-b615fa3cf4ca", 
+            "fe85cf75-e244-4aac-8ce9-d29493dbfe3d", 
+            "c2cf0e25-d036-4232-bbeb-d7be76e5401e"
+         ]
+      }, 
+      "cfcde8d5-0478-4519-8410-b615fa3cf4ca" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101606", 
+            "y" : "-101703"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Ammo", 
+               "count" : "15", 
+               "proto" : "5_56mm_ap"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "30", 
+               "proto" : "5_56mm_jhp"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "15", 
+               "proto" : "357_ap"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "30", 
+               "proto" : "357_jhp"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "15", 
+               "proto" : "45 ACP_ap"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "30", 
+               "proto" : "45 ACP_jhp"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "fe85cf75-e244-4aac-8ce9-d29493dbfe3d" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101493", 
+            "y" : "-101703"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Ammo", 
+               "count" : "15", 
+               "proto" : "5_56mm_ap"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "30", 
+               "proto" : "5_56mm_jhp"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "15", 
+               "proto" : "357_ap"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "30", 
+               "proto" : "357_jhp"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "15", 
+               "proto" : "45 ACP_ap"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "30", 
+               "proto" : "45 ACP_jhp"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "c2cf0e25-d036-4232-bbeb-d7be76e5401e" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-100986", 
+            "y" : "-101678"
+         }, 
+         "child" : [ 
+            "161da581-3ea1-47f6-84a0-bd2b9360a551", 
+            "ee1ecdbe-7af6-4aac-9a89-7af98c0569bf"
+         ], 
+         "note_key" : "PH_AMMO_MORE_ON"
+      }, 
+      "161da581-3ea1-47f6-84a0-bd2b9360a551" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101144", 
+            "y" : "-101462"
+         }, 
+         "child" : [ 
+            "e2143da7-982a-4010-8e32-6ed6e3dfef50", 
+            "609433dd-b993-492f-8fea-c3a62c5753fb"
+         ]
+      }, 
+      "e2143da7-982a-4010-8e32-6ed6e3dfef50" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101204", 
+            "y" : "-101412"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Ammo", 
+               "count" : "60", 
+               "proto" : "5_56mm_ap"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "60", 
+               "proto" : "5_56mm_jhp"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "60", 
+               "proto" : "357_ap"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "60", 
+               "proto" : "357_jhp"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "60", 
+               "proto" : "45 ACP_ap"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "60", 
+               "proto" : "45 ACP_jhp"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "609433dd-b993-492f-8fea-c3a62c5753fb" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101089", 
+            "y" : "-101413"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Ammo", 
+               "count" : "60", 
+               "proto" : "5_56mm_ap"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "60", 
+               "proto" : "5_56mm_jhp"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "60", 
+               "proto" : "357_ap"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "60", 
+               "proto" : "357_jhp"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "60", 
+               "proto" : "45 ACP_ap"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "60", 
+               "proto" : "45 ACP_jhp"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "ee1ecdbe-7af6-4aac-9a89-7af98c0569bf" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100802", 
+            "y" : "-101530"
+         }, 
+         "child" : [ 
+         ]
+      }
+   }, 
+   "entry" : "b053a210-ea7d-439d-8783-489e55db23b7"
+}

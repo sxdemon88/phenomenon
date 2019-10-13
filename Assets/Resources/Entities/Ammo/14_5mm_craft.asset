@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Icon:
     path: Entities/Ammo/Ammo models/14mmcraft
-  m_Localization: ammo.14_5mm_jhp
+  m_Localization: ammo.14_5mm_jhp_craft
   Takeable: 1
   Cost: 50
   Weight: 191
@@ -22,7 +22,7 @@ MonoBehaviour:
   Modifiers: []
   Type: 7
   ArmorMod: 0
-  ResistanceMod: -50
+  ResistanceMod: 15
   DamageMod: 1.4
   Bullet: 1
   Dispersion: 0

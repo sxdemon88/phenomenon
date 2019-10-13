@@ -3,19 +3,83 @@
       "d8820f5f-ea1c-40c4-ad89-151da60bf624" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-101004", 
-            "y" : "-100311"
+            "x" : "-101150", 
+            "y" : "-100862"
          }, 
          "child" : [ 
+            "26aee769-1640-4891-856f-12069f956957", 
+            "2342cabf-97e4-4bfb-88f5-d5d1193a0983", 
+            "6d643356-583d-44b1-93ea-4e0bfb17e429", 
             "d6cf365d-0f3c-429a-b467-830be4f7809e", 
+            "c62d4e67-95c9-4802-bd01-e62191ff0fc8", 
             "8a67156a-a9f3-4f48-8c0b-07913ad7bde5"
+         ]
+      }, 
+      "26aee769-1640-4891-856f-12069f956957" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-101842", 
+            "y" : "-100906"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnName" : "start_event2", 
+         "pos" : [ 
+            "80", 
+            "0.1", 
+            "70"
+         ], 
+         "angles" : [ 
+            "0", 
+            "0", 
+            "0"
+         ]
+      }, 
+      "2342cabf-97e4-4bfb-88f5-d5d1193a0983" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-101646", 
+            "y" : "-100818"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnName" : "start_event", 
+         "pos" : [ 
+            "78", 
+            "0.1", 
+            "66"
+         ], 
+         "angles" : [ 
+            "0", 
+            "0", 
+            "0"
+         ]
+      }, 
+      "6d643356-583d-44b1-93ea-4e0bfb17e429" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-101445", 
+            "y" : "-100725"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnName" : "end_cam", 
+         "pos" : [ 
+            "70", 
+            "42", 
+            "135"
+         ], 
+         "angles" : [ 
+            "50", 
+            "180", 
+            "0"
          ]
       }, 
       "d6cf365d-0f3c-429a-b467-830be4f7809e" : { 
          "class" : "FractionSetRelationshipNode", 
          "desc" : { 
-            "x" : "-101306", 
-            "y" : "-100156"
+            "x" : "-102254", 
+            "y" : "-100618"
          }, 
          "child" : [ 
             "178edb75-97ac-48fe-a603-abdbfda1aaa2"
@@ -26,507 +90,35 @@
       "178edb75-97ac-48fe-a603-abdbfda1aaa2" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-101819", 
-            "y" : "-100070"
+            "x" : "-102216", 
+            "y" : "-100519"
          }, 
          "child" : [ 
-            "32284597-ef6c-4e25-8374-dc466a371edd", 
-            "bd46dc4e-d32d-48c4-b321-aa99034410c1", 
-            "ce764f01-d8d9-4c60-8a08-97873918ab6e", 
-            "768b28f2-cf6f-46d5-bd32-b14ceed4f6b4", 
-            "66b56a13-74c4-4e6a-bd1b-79c23775b9ca", 
-            "09c429bc-2b4e-4214-8474-8538e2ce8089", 
-            "4646b5d9-89c6-4021-a6af-19fff474d08e", 
-            "ef25311d-d36b-471d-81a9-f08075e05084", 
-            "63e45194-ea34-490b-b6c6-3b5d01b55b3d"
+            "63e45194-ea34-490b-b6c6-3b5d01b55b3d", 
+            "5c29e452-49d8-4996-8dd6-32d6f390fc00", 
+            "6c8605f7-3f79-4fa6-a0dd-4ebd48233771", 
+            "9afee072-9d44-4b61-a994-55f32fa288a0", 
+            "f4624e4f-2163-44c2-a1f7-0ff2b73dacf0", 
+            "800517ad-b201-4ac7-9734-c469edbbc636", 
+            "986f1286-43a9-4946-8fb6-d69e8d5b7d67", 
+            "edb2c389-aa6c-4082-8b56-eba95078f2c0", 
+            "fb2b79b0-daa0-4496-b32d-c985fa6eb872"
          ]
-      }, 
-      "32284597-ef6c-4e25-8374-dc466a371edd" : { 
-         "class" : "SpawnCharacterNode", 
-         "desc" : { 
-            "x" : "-101457", 
-            "y" : "-99921"
-         }, 
-         "child" : [ 
-         ], 
-         "spawnPoint" : "Spawn.Enemy.8", 
-         "item" : { 
-            "class" : "Character", 
-            "proto" : "Devourer", 
-            "character" : "devourer20", 
-            "damage" : "0", 
-            "ap" : "0", 
-            "bonusTurn" : "false", 
-            "relationship" : "100", 
-            "fraction" : "~team2", 
-            "shotMode" : "0", 
-            "inventory" : [ 
-               { 
-                  "class" : "Ammo", 
-                  "count" : "25", 
-                  "proto" : "7mm_54r_craft"
-               }
-            ], 
-            "mainItemIndex" : "0", 
-            "item1" : { 
-               "class" : "Weapon", 
-               "count" : "1", 
-               "proto" : "svt38", 
-               "ammo" : { 
-                  "count" : "10", 
-                  "proto" : "7mm_54r_craft"
-               }
-            }, 
-            "armor" : { 
-               "class" : "Uniform", 
-               "count" : "1", 
-               "proto" : "armor1black"
-            }, 
-            "conditions" : { 
-               "toxic" : "0", 
-               "toxicTimer" : "-1", 
-               "radiation" : "0", 
-               "radiationTimer" : "-1", 
-               "hunger" : "0", 
-               "hungerDmg" : "0", 
-               "rolling" : "0"
-            }, 
-            "effects" : [ 
-            ], 
-            "skin" : "Skin_1", 
-            "beard" : "ShortBeard", 
-            "hair" : "Girl_Wavy", 
-            "hairColor" : "Blond_2", 
-            "behavior" : "moveplayer.man"
-         }
-      }, 
-      "bd46dc4e-d32d-48c4-b321-aa99034410c1" : { 
-         "class" : "SpawnCharacterNode", 
-         "desc" : { 
-            "x" : "-102269", 
-            "y" : "-99923"
-         }, 
-         "child" : [ 
-         ], 
-         "spawnPoint" : "Spawn.Enemy.1", 
-         "item" : { 
-            "class" : "Character", 
-            "proto" : "Devourer", 
-            "character" : "devourer20", 
-            "damage" : "0", 
-            "ap" : "0", 
-            "bonusTurn" : "false", 
-            "relationship" : "100", 
-            "fraction" : "~team2", 
-            "shotMode" : "0", 
-            "inventory" : [ 
-               { 
-                  "class" : "Ammo", 
-                  "count" : "25", 
-                  "proto" : "7mm_54r_craft"
-               }
-            ], 
-            "mainItemIndex" : "0", 
-            "item1" : { 
-               "class" : "Weapon", 
-               "count" : "1", 
-               "proto" : "svt38", 
-               "ammo" : { 
-                  "count" : "10", 
-                  "proto" : "7mm_54r_craft"
-               }
-            }, 
-            "armor" : { 
-               "class" : "Uniform", 
-               "count" : "1", 
-               "proto" : "armor1black"
-            }, 
-            "conditions" : { 
-               "toxic" : "0", 
-               "toxicTimer" : "-1", 
-               "radiation" : "0", 
-               "radiationTimer" : "-1", 
-               "hunger" : "0", 
-               "hungerDmg" : "0", 
-               "rolling" : "0"
-            }, 
-            "effects" : [ 
-            ], 
-            "skin" : "Skin_1", 
-            "beard" : "ShortBeard", 
-            "hair" : "Girl_Wavy", 
-            "hairColor" : "Blond_2", 
-            "behavior" : "moveplayer.man"
-         }
-      }, 
-      "ce764f01-d8d9-4c60-8a08-97873918ab6e" : { 
-         "class" : "SpawnCharacterNode", 
-         "desc" : { 
-            "x" : "-102153", 
-            "y" : "-99922"
-         }, 
-         "child" : [ 
-         ], 
-         "spawnPoint" : "Spawn.Enemy.2", 
-         "item" : { 
-            "class" : "Character", 
-            "proto" : "Devourer", 
-            "character" : "devourer20", 
-            "damage" : "0", 
-            "ap" : "0", 
-            "bonusTurn" : "false", 
-            "relationship" : "100", 
-            "fraction" : "~team2", 
-            "shotMode" : "0", 
-            "inventory" : [ 
-               { 
-                  "class" : "Ammo", 
-                  "count" : "25", 
-                  "proto" : "7mm_54r_craft"
-               }
-            ], 
-            "mainItemIndex" : "0", 
-            "item1" : { 
-               "class" : "Weapon", 
-               "count" : "1", 
-               "proto" : "svt38", 
-               "ammo" : { 
-                  "count" : "10", 
-                  "proto" : "7mm_54r_craft"
-               }
-            }, 
-            "armor" : { 
-               "class" : "Uniform", 
-               "count" : "1", 
-               "proto" : "armor1black"
-            }, 
-            "conditions" : { 
-               "toxic" : "0", 
-               "toxicTimer" : "-1", 
-               "radiation" : "0", 
-               "radiationTimer" : "-1", 
-               "hunger" : "0", 
-               "hungerDmg" : "0", 
-               "rolling" : "0"
-            }, 
-            "effects" : [ 
-            ], 
-            "skin" : "Skin_1", 
-            "beard" : "ShortBeard", 
-            "hair" : "Girl_Wavy", 
-            "hairColor" : "Blond_2", 
-            "behavior" : "moveplayer.man"
-         }
-      }, 
-      "768b28f2-cf6f-46d5-bd32-b14ceed4f6b4" : { 
-         "class" : "SpawnCharacterNode", 
-         "desc" : { 
-            "x" : "-102040", 
-            "y" : "-99922"
-         }, 
-         "child" : [ 
-         ], 
-         "spawnPoint" : "Spawn.Enemy.3", 
-         "item" : { 
-            "class" : "Character", 
-            "proto" : "Devourer", 
-            "character" : "devourer20", 
-            "damage" : "0", 
-            "ap" : "0", 
-            "bonusTurn" : "false", 
-            "relationship" : "100", 
-            "fraction" : "~team2", 
-            "shotMode" : "0", 
-            "inventory" : [ 
-               { 
-                  "class" : "Ammo", 
-                  "count" : "25", 
-                  "proto" : "7mm_54r_craft"
-               }
-            ], 
-            "mainItemIndex" : "0", 
-            "item1" : { 
-               "class" : "Weapon", 
-               "count" : "1", 
-               "proto" : "svt38", 
-               "ammo" : { 
-                  "count" : "10", 
-                  "proto" : "7mm_54r_craft"
-               }
-            }, 
-            "armor" : { 
-               "class" : "Uniform", 
-               "count" : "1", 
-               "proto" : "armor1black"
-            }, 
-            "conditions" : { 
-               "toxic" : "0", 
-               "toxicTimer" : "-1", 
-               "radiation" : "0", 
-               "radiationTimer" : "-1", 
-               "hunger" : "0", 
-               "hungerDmg" : "0", 
-               "rolling" : "0"
-            }, 
-            "effects" : [ 
-            ], 
-            "skin" : "Skin_1", 
-            "beard" : "ShortBeard", 
-            "hair" : "Girl_Wavy", 
-            "hairColor" : "Blond_2", 
-            "behavior" : "moveplayer.man"
-         }
-      }, 
-      "66b56a13-74c4-4e6a-bd1b-79c23775b9ca" : { 
-         "class" : "SpawnCharacterNode", 
-         "desc" : { 
-            "x" : "-101924", 
-            "y" : "-99921"
-         }, 
-         "child" : [ 
-         ], 
-         "spawnPoint" : "Spawn.Enemy.4", 
-         "item" : { 
-            "class" : "Character", 
-            "proto" : "Devourer", 
-            "character" : "devourer20", 
-            "damage" : "0", 
-            "ap" : "0", 
-            "bonusTurn" : "false", 
-            "relationship" : "100", 
-            "fraction" : "~team2", 
-            "shotMode" : "0", 
-            "inventory" : [ 
-               { 
-                  "class" : "Ammo", 
-                  "count" : "25", 
-                  "proto" : "7mm_54r_craft"
-               }
-            ], 
-            "mainItemIndex" : "0", 
-            "item1" : { 
-               "class" : "Weapon", 
-               "count" : "1", 
-               "proto" : "svt38", 
-               "ammo" : { 
-                  "count" : "10", 
-                  "proto" : "7mm_54r_craft"
-               }
-            }, 
-            "armor" : { 
-               "class" : "Uniform", 
-               "count" : "1", 
-               "proto" : "armor1black"
-            }, 
-            "conditions" : { 
-               "toxic" : "0", 
-               "toxicTimer" : "-1", 
-               "radiation" : "0", 
-               "radiationTimer" : "-1", 
-               "hunger" : "0", 
-               "hungerDmg" : "0", 
-               "rolling" : "0"
-            }, 
-            "effects" : [ 
-            ], 
-            "skin" : "Skin_1", 
-            "beard" : "ShortBeard", 
-            "hair" : "Girl_Wavy", 
-            "hairColor" : "Blond_2", 
-            "behavior" : "moveplayer.man"
-         }
-      }, 
-      "09c429bc-2b4e-4214-8474-8538e2ce8089" : { 
-         "class" : "SpawnCharacterNode", 
-         "desc" : { 
-            "x" : "-101810", 
-            "y" : "-99923"
-         }, 
-         "child" : [ 
-         ], 
-         "spawnPoint" : "Spawn.Enemy.5", 
-         "item" : { 
-            "class" : "Character", 
-            "proto" : "Devourer", 
-            "character" : "devourer20", 
-            "damage" : "0", 
-            "ap" : "0", 
-            "bonusTurn" : "false", 
-            "relationship" : "100", 
-            "fraction" : "~team2", 
-            "shotMode" : "0", 
-            "inventory" : [ 
-               { 
-                  "class" : "Ammo", 
-                  "count" : "25", 
-                  "proto" : "7mm_54r_craft"
-               }
-            ], 
-            "mainItemIndex" : "0", 
-            "item1" : { 
-               "class" : "Weapon", 
-               "count" : "1", 
-               "proto" : "svt38", 
-               "ammo" : { 
-                  "count" : "10", 
-                  "proto" : "7mm_54r_craft"
-               }
-            }, 
-            "armor" : { 
-               "class" : "Uniform", 
-               "count" : "1", 
-               "proto" : "armor1black"
-            }, 
-            "conditions" : { 
-               "toxic" : "0", 
-               "toxicTimer" : "-1", 
-               "radiation" : "0", 
-               "radiationTimer" : "-1", 
-               "hunger" : "0", 
-               "hungerDmg" : "0", 
-               "rolling" : "0"
-            }, 
-            "effects" : [ 
-            ], 
-            "skin" : "Skin_1", 
-            "beard" : "ShortBeard", 
-            "hair" : "Girl_Wavy", 
-            "hairColor" : "Blond_2", 
-            "behavior" : "moveplayer.man"
-         }
-      }, 
-      "4646b5d9-89c6-4021-a6af-19fff474d08e" : { 
-         "class" : "SpawnCharacterNode", 
-         "desc" : { 
-            "x" : "-101692", 
-            "y" : "-99922"
-         }, 
-         "child" : [ 
-         ], 
-         "spawnPoint" : "Spawn.Enemy.6", 
-         "item" : { 
-            "class" : "Character", 
-            "proto" : "Devourer", 
-            "character" : "devourer20", 
-            "damage" : "0", 
-            "ap" : "0", 
-            "bonusTurn" : "false", 
-            "relationship" : "100", 
-            "fraction" : "~team2", 
-            "shotMode" : "0", 
-            "inventory" : [ 
-               { 
-                  "class" : "Ammo", 
-                  "count" : "25", 
-                  "proto" : "7mm_54r_craft"
-               }
-            ], 
-            "mainItemIndex" : "0", 
-            "item1" : { 
-               "class" : "Weapon", 
-               "count" : "1", 
-               "proto" : "svt38", 
-               "ammo" : { 
-                  "count" : "10", 
-                  "proto" : "7mm_54r_craft"
-               }
-            }, 
-            "armor" : { 
-               "class" : "Uniform", 
-               "count" : "1", 
-               "proto" : "armor1black"
-            }, 
-            "conditions" : { 
-               "toxic" : "0", 
-               "toxicTimer" : "-1", 
-               "radiation" : "0", 
-               "radiationTimer" : "-1", 
-               "hunger" : "0", 
-               "hungerDmg" : "0", 
-               "rolling" : "0"
-            }, 
-            "effects" : [ 
-            ], 
-            "skin" : "Skin_1", 
-            "beard" : "ShortBeard", 
-            "hair" : "Girl_Wavy", 
-            "hairColor" : "Blond_2", 
-            "behavior" : "moveplayer.man"
-         }
-      }, 
-      "ef25311d-d36b-471d-81a9-f08075e05084" : { 
-         "class" : "SpawnCharacterNode", 
-         "desc" : { 
-            "x" : "-101574", 
-            "y" : "-99922"
-         }, 
-         "child" : [ 
-         ], 
-         "spawnPoint" : "Spawn.Enemy.7", 
-         "item" : { 
-            "class" : "Character", 
-            "proto" : "Devourer", 
-            "character" : "devourer20", 
-            "damage" : "0", 
-            "ap" : "0", 
-            "bonusTurn" : "false", 
-            "relationship" : "100", 
-            "fraction" : "~team2", 
-            "shotMode" : "0", 
-            "inventory" : [ 
-               { 
-                  "class" : "Ammo", 
-                  "count" : "25", 
-                  "proto" : "7mm_54r_craft"
-               }
-            ], 
-            "mainItemIndex" : "0", 
-            "item1" : { 
-               "class" : "Weapon", 
-               "count" : "1", 
-               "proto" : "svt38", 
-               "ammo" : { 
-                  "count" : "10", 
-                  "proto" : "7mm_54r_craft"
-               }
-            }, 
-            "armor" : { 
-               "class" : "Uniform", 
-               "count" : "1", 
-               "proto" : "armor1black"
-            }, 
-            "conditions" : { 
-               "toxic" : "0", 
-               "toxicTimer" : "-1", 
-               "radiation" : "0", 
-               "radiationTimer" : "-1", 
-               "hunger" : "0", 
-               "hungerDmg" : "0", 
-               "rolling" : "0"
-            }, 
-            "effects" : [ 
-            ], 
-            "skin" : "Skin_1", 
-            "beard" : "ShortBeard", 
-            "hair" : "Girl_Wavy", 
-            "hairColor" : "Blond_2", 
-            "behavior" : "moveplayer.man"
-         }
       }, 
       "63e45194-ea34-490b-b6c6-3b5d01b55b3d" : { 
          "class" : "AddSpawnPointNode", 
          "desc" : { 
-            "x" : "-101346", 
-            "y" : "-100036"
+            "x" : "-102840", 
+            "y" : "-100149"
          }, 
          "child" : [ 
             "175b0d70-dcc9-4112-91cb-9524efd82bcd"
          ], 
          "spawnName" : "oraculumv2", 
          "pos" : [ 
-            "0", 
-            "0", 
-            "0"
+            "90", 
+            "0.1", 
+            "85"
          ], 
          "angles" : [ 
             "0", 
@@ -537,8 +129,8 @@
       "175b0d70-dcc9-4112-91cb-9524efd82bcd" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-101243", 
-            "y" : "-99920"
+            "x" : "-102947", 
+            "y" : "-100017"
          }, 
          "child" : [ 
          ], 
@@ -569,15 +161,617 @@
             ], 
             "skin" : "NoSkin", 
             "beard" : "Shaved", 
-            "hair" : "Hairless", 
-            "behavior" : "moveplayer.man"
+            "hair" : "Hairless"
          }
+      }, 
+      "5c29e452-49d8-4996-8dd6-32d6f390fc00" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-102588", 
+            "y" : "-100061"
+         }, 
+         "child" : [ 
+            "32284597-ef6c-4e25-8374-dc466a371edd"
+         ], 
+         "spawnName" : "dog_8", 
+         "pos" : [ 
+            "90", 
+            "0.1", 
+            "88"
+         ], 
+         "angles" : [ 
+            "0", 
+            "0", 
+            "0"
+         ]
+      }, 
+      "32284597-ef6c-4e25-8374-dc466a371edd" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102642", 
+            "y" : "-99894"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "dog_8", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Devourer", 
+            "character" : "devourer20", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "~team2", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "item1" : { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "svt38", 
+               "ammo" : { 
+                  "count" : "10", 
+                  "proto" : "7mm_54r_craft"
+               }
+            }, 
+            "armor" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "armor1black"
+            }, 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "Skin_1", 
+            "beard" : "ShortBeard", 
+            "hair" : "Girl_Wavy", 
+            "hairColor" : "Blond_2"
+         }
+      }, 
+      "6c8605f7-3f79-4fa6-a0dd-4ebd48233771" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-102393", 
+            "y" : "-100009"
+         }, 
+         "child" : [ 
+            "39670db7-e24b-466c-85a5-c24287e50e2d"
+         ], 
+         "spawnName" : "dog_9", 
+         "pos" : [ 
+            "90", 
+            "0.1", 
+            "88"
+         ], 
+         "angles" : [ 
+            "0", 
+            "0", 
+            "0"
+         ]
+      }, 
+      "39670db7-e24b-466c-85a5-c24287e50e2d" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102388", 
+            "y" : "-99872"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "dog_9", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Devourer", 
+            "character" : "devourer20", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "~team2", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "item1" : { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "svt38", 
+               "ammo" : { 
+                  "count" : "10", 
+                  "proto" : "7mm_54r_craft"
+               }
+            }, 
+            "armor" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "armor1black"
+            }, 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "Skin_1", 
+            "beard" : "ShortBeard", 
+            "hair" : "Girl_Wavy", 
+            "hairColor" : "Blond_2"
+         }
+      }, 
+      "9afee072-9d44-4b61-a994-55f32fa288a0" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-102094", 
+            "y" : "-100404"
+         }, 
+         "child" : [ 
+            "bd46dc4e-d32d-48c4-b321-aa99034410c1"
+         ], 
+         "spawnName" : "point_dog_7", 
+         "pos" : [ 
+            "87", 
+            "0.1", 
+            "15"
+         ], 
+         "angles" : [ 
+            "0", 
+            "0", 
+            "0"
+         ]
+      }, 
+      "bd46dc4e-d32d-48c4-b321-aa99034410c1" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-102093", 
+            "y" : "-100232"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "point_dog_7", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Devourer", 
+            "character" : "devourer20", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "~team2", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "item1" : { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "svt38", 
+               "ammo" : { 
+                  "count" : "10", 
+                  "proto" : "7mm_54r_craft"
+               }
+            }, 
+            "armor" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "armor1black"
+            }, 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "Skin_1", 
+            "beard" : "ShortBeard", 
+            "hair" : "Girl_Wavy", 
+            "hairColor" : "Blond_2"
+         }
+      }, 
+      "f4624e4f-2163-44c2-a1f7-0ff2b73dacf0" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-101946", 
+            "y" : "-100401"
+         }, 
+         "child" : [ 
+            "ce764f01-d8d9-4c60-8a08-97873918ab6e"
+         ], 
+         "spawnName" : "point_dog_6", 
+         "pos" : [ 
+            "110", 
+            "0.1", 
+            "52"
+         ], 
+         "angles" : [ 
+            "0", 
+            "0", 
+            "0"
+         ]
+      }, 
+      "ce764f01-d8d9-4c60-8a08-97873918ab6e" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101941", 
+            "y" : "-100230"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "point_dog_6", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Devourer", 
+            "character" : "devourer20", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "~team2", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "item1" : { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "svt38", 
+               "ammo" : { 
+                  "count" : "10", 
+                  "proto" : "7mm_54r_craft"
+               }
+            }, 
+            "armor" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "armor1black"
+            }, 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "Skin_1", 
+            "beard" : "ShortBeard", 
+            "hair" : "Girl_Wavy", 
+            "hairColor" : "Blond_2"
+         }
+      }, 
+      "800517ad-b201-4ac7-9734-c469edbbc636" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-101798", 
+            "y" : "-100396"
+         }, 
+         "child" : [ 
+            "768b28f2-cf6f-46d5-bd32-b14ceed4f6b4"
+         ], 
+         "spawnName" : "point_dog_5", 
+         "pos" : [ 
+            "128", 
+            "0.1", 
+            "83"
+         ], 
+         "angles" : [ 
+            "0", 
+            "0", 
+            "0"
+         ]
+      }, 
+      "768b28f2-cf6f-46d5-bd32-b14ceed4f6b4" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101792", 
+            "y" : "-100227"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "point_dog_5", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Devourer", 
+            "character" : "devourer20", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "~team2", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "item1" : { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "svt38", 
+               "ammo" : { 
+                  "count" : "10", 
+                  "proto" : "7mm_54r_craft"
+               }
+            }, 
+            "armor" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "armor1black"
+            }, 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "Skin_1", 
+            "beard" : "ShortBeard", 
+            "hair" : "Girl_Wavy", 
+            "hairColor" : "Blond_2"
+         }
+      }, 
+      "986f1286-43a9-4946-8fb6-d69e8d5b7d67" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-101654", 
+            "y" : "-100396"
+         }, 
+         "child" : [ 
+            "66b56a13-74c4-4e6a-bd1b-79c23775b9ca"
+         ], 
+         "spawnName" : "point_dog_4", 
+         "pos" : [ 
+            "43", 
+            "0.1", 
+            "95"
+         ], 
+         "angles" : [ 
+            "0", 
+            "0", 
+            "0"
+         ]
+      }, 
+      "66b56a13-74c4-4e6a-bd1b-79c23775b9ca" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101650", 
+            "y" : "-100227"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "point_dog_4", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Devourer", 
+            "character" : "devourer20", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "~team2", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "item1" : { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "svt38", 
+               "ammo" : { 
+                  "count" : "10", 
+                  "proto" : "7mm_54r_craft"
+               }
+            }, 
+            "armor" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "armor1black"
+            }, 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "Skin_1", 
+            "beard" : "ShortBeard", 
+            "hair" : "Girl_Wavy", 
+            "hairColor" : "Blond_2"
+         }
+      }, 
+      "edb2c389-aa6c-4082-8b56-eba95078f2c0" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-101517", 
+            "y" : "-100398"
+         }, 
+         "child" : [ 
+            "09c429bc-2b4e-4214-8474-8538e2ce8089"
+         ], 
+         "spawnName" : "point_dog_3", 
+         "pos" : [ 
+            "47", 
+            "0.1", 
+            "64"
+         ], 
+         "angles" : [ 
+            "0", 
+            "0", 
+            "0"
+         ]
+      }, 
+      "09c429bc-2b4e-4214-8474-8538e2ce8089" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101512", 
+            "y" : "-100228"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "point_dog_3", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Devourer", 
+            "character" : "devourer20", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "~team2", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "item1" : { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "svt38", 
+               "ammo" : { 
+                  "count" : "10", 
+                  "proto" : "7mm_54r_craft"
+               }
+            }, 
+            "armor" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "armor1black"
+            }, 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "Skin_1", 
+            "beard" : "ShortBeard", 
+            "hair" : "Girl_Wavy", 
+            "hairColor" : "Blond_2"
+         }
+      }, 
+      "fb2b79b0-daa0-4496-b32d-c985fa6eb872" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-101384", 
+            "y" : "-100398"
+         }, 
+         "child" : [ 
+            "4646b5d9-89c6-4021-a6af-19fff474d08e"
+         ], 
+         "spawnName" : "point_dog_2", 
+         "pos" : [ 
+            "55", 
+            "0.1", 
+            "33"
+         ], 
+         "angles" : [ 
+            "0", 
+            "0", 
+            "0"
+         ]
+      }, 
+      "4646b5d9-89c6-4021-a6af-19fff474d08e" : { 
+         "class" : "SpawnCharacterNode", 
+         "desc" : { 
+            "x" : "-101375", 
+            "y" : "-100225"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnPoint" : "point_dog_2", 
+         "item" : { 
+            "class" : "Character", 
+            "proto" : "Devourer", 
+            "character" : "devourer20", 
+            "damage" : "0", 
+            "ap" : "0", 
+            "bonusTurn" : "false", 
+            "relationship" : "100", 
+            "fraction" : "~team2", 
+            "shotMode" : "0", 
+            "inventory" : [ 
+            ], 
+            "mainItemIndex" : "0", 
+            "item1" : { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "svt38", 
+               "ammo" : { 
+                  "count" : "10", 
+                  "proto" : "7mm_54r_craft"
+               }
+            }, 
+            "armor" : { 
+               "class" : "Uniform", 
+               "count" : "1", 
+               "proto" : "armor1black"
+            }, 
+            "conditions" : { 
+               "toxic" : "0", 
+               "toxicTimer" : "-1", 
+               "radiation" : "0", 
+               "radiationTimer" : "-1", 
+               "hunger" : "0", 
+               "hungerDmg" : "0", 
+               "rolling" : "0"
+            }, 
+            "effects" : [ 
+            ], 
+            "skin" : "Skin_1", 
+            "beard" : "ShortBeard", 
+            "hair" : "Girl_Wavy", 
+            "hairColor" : "Blond_2"
+         }
+      }, 
+      "c62d4e67-95c9-4802-bd01-e62191ff0fc8" : { 
+         "class" : "CharacterTeleportNode", 
+         "desc" : { 
+            "x" : "-101247", 
+            "y" : "-100580"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Player", 
+         "pointName" : "start_event"
       }, 
       "8a67156a-a9f3-4f48-8c0b-07913ad7bde5" : { 
          "class" : "HasKeywordNode", 
          "desc" : { 
-            "x" : "-100823", 
-            "y" : "-100096"
+            "x" : "-100809", 
+            "y" : "-100442"
          }, 
          "child" : [ 
             "fb79dddd-a9a1-44cf-aac1-211491c5cee3", 
@@ -588,8 +782,8 @@
       "fb79dddd-a9a1-44cf-aac1-211491c5cee3" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100986", 
-            "y" : "-100005"
+            "x" : "-100920", 
+            "y" : "-100316"
          }, 
          "child" : [ 
          ]
@@ -597,19 +791,20 @@
       "f4750dff-5e80-4268-885a-3f5fc0c9fe39" : { 
          "class" : "HudCutSceneNode", 
          "desc" : { 
-            "x" : "-100689", 
-            "y" : "-99989"
+            "x" : "-100770", 
+            "y" : "-100313"
          }, 
          "child" : [ 
-            "9444d049-aed8-4156-a27e-c765b7495fc1"
+            "9444d049-aed8-4156-a27e-c765b7495fc1", 
+            "00efc4e6-a95f-430f-aa55-bc08e054c94a"
          ], 
          "show" : "true"
       }, 
       "9444d049-aed8-4156-a27e-c765b7495fc1" : { 
          "class" : "PlayerWaitNode", 
          "desc" : { 
-            "x" : "-100578", 
-            "y" : "-99907"
+            "x" : "-100796", 
+            "y" : "-100230"
          }, 
          "child" : [ 
             "6bccda81-67af-4461-8e77-d0f6dca7e658"
@@ -620,35 +815,83 @@
       "6bccda81-67af-4461-8e77-d0f6dca7e658" : { 
          "class" : "CinematicBeginNode", 
          "desc" : { 
-            "x" : "-100533", 
-            "y" : "-99840"
+            "x" : "-100797", 
+            "y" : "-100166"
          }, 
          "child" : [ 
+            "fa8d28f8-9c88-42a0-b20e-bc4d318bac85", 
+            "d4356e77-fe96-4b7e-bb89-303c63057273", 
+            "8470f7c6-6209-4f7a-93db-290de4b158aa", 
             "45176ccc-6ae7-4fab-a519-c9ed2518c7fc"
          ], 
          "immediately" : "true"
       }, 
+      "fa8d28f8-9c88-42a0-b20e-bc4d318bac85" : { 
+         "class" : "CharacterMoveToNode", 
+         "desc" : { 
+            "x" : "-101617", 
+            "y" : "-99882"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "oraculumv2", 
+         "pointName" : "start_event2", 
+         "waitEnd" : "false", 
+         "relative" : "false", 
+         "run" : "false", 
+         "keepCourse" : "false"
+      }, 
+      "d4356e77-fe96-4b7e-bb89-303c63057273" : { 
+         "class" : "CharacterMoveToNode", 
+         "desc" : { 
+            "x" : "-101468", 
+            "y" : "-99877"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "dog_9", 
+         "pointName" : "start_event2", 
+         "waitEnd" : "false", 
+         "relative" : "false", 
+         "run" : "false", 
+         "keepCourse" : "false"
+      }, 
+      "8470f7c6-6209-4f7a-93db-290de4b158aa" : { 
+         "class" : "CharacterMoveToNode", 
+         "desc" : { 
+            "x" : "-101287", 
+            "y" : "-99867"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "dog_8", 
+         "pointName" : "start_event2", 
+         "waitEnd" : "false", 
+         "relative" : "false", 
+         "run" : "false", 
+         "keepCourse" : "false"
+      }, 
       "45176ccc-6ae7-4fab-a519-c9ed2518c7fc" : { 
          "class" : "AddKeywordNode", 
          "desc" : { 
-            "x" : "-100558", 
-            "y" : "-99786"
+            "x" : "-100788", 
+            "y" : "-100034"
          }, 
          "child" : [ 
-            "f9d9d882-b4d8-4999-a2a6-ab0fe21cba6d", 
-            "bc8a5a44-be37-4c11-940a-88a633be81bc"
+            "f9d9d882-b4d8-4999-a2a6-ab0fe21cba6d"
          ], 
          "key" : "INIT"
       }, 
       "f9d9d882-b4d8-4999-a2a6-ab0fe21cba6d" : { 
          "class" : "WhoopNode", 
          "desc" : { 
-            "x" : "-101089", 
-            "y" : "-99655"
+            "x" : "-100846", 
+            "y" : "-99964"
          }, 
          "child" : [ 
+            "bc8a5a44-be37-4c11-940a-88a633be81bc"
          ], 
-         "text" : "Мне это кажется?", 
+         "text" : "Мне это кажется или он в шляпе?", 
          "customObject" : "Player", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true"
@@ -656,19 +899,19 @@
       "bc8a5a44-be37-4c11-940a-88a633be81bc" : { 
          "class" : "WaitNode", 
          "desc" : { 
-            "x" : "-100616", 
-            "y" : "-99689"
+            "x" : "-100807", 
+            "y" : "-99860"
          }, 
          "child" : [ 
             "ece2afe4-9ab9-4aad-9621-1e9f5b46a4e6"
          ], 
-         "waitTime" : "3"
+         "waitTime" : "2"
       }, 
       "ece2afe4-9ab9-4aad-9621-1e9f5b46a4e6" : { 
          "class" : "HasTeamMateNode", 
          "desc" : { 
-            "x" : "-100533", 
-            "y" : "-99602"
+            "x" : "-100809", 
+            "y" : "-99788"
          }, 
          "child" : [ 
             "4d2f7943-2a7c-4159-9dec-f5dda96e5c09", 
@@ -679,13 +922,13 @@
       "4d2f7943-2a7c-4159-9dec-f5dda96e5c09" : { 
          "class" : "WhoopNode", 
          "desc" : { 
-            "x" : "-101090", 
-            "y" : "-99461"
+            "x" : "-101089", 
+            "y" : "-99654"
          }, 
          "child" : [ 
             "64e3aa82-7b0e-47a6-b21a-e4627c68ff6c"
          ], 
-         "text" : "Это оно к нам идёт?", 
+         "text" : "Откуда их столько? И почему они не нападают?", 
          "customObject" : "Fidel", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true"
@@ -693,19 +936,19 @@
       "64e3aa82-7b0e-47a6-b21a-e4627c68ff6c" : { 
          "class" : "WaitNode", 
          "desc" : { 
-            "x" : "-100789", 
-            "y" : "-99338"
+            "x" : "-101098", 
+            "y" : "-99522"
          }, 
          "child" : [ 
             "1cf6f00b-ce8d-4297-96c7-e343876153cd"
          ], 
-         "waitTime" : "3"
+         "waitTime" : "2"
       }, 
       "1cf6f00b-ce8d-4297-96c7-e343876153cd" : { 
          "class" : "HasTeamMateNode", 
          "desc" : { 
-            "x" : "-100494", 
-            "y" : "-99322"
+            "x" : "-100801", 
+            "y" : "-99402"
          }, 
          "child" : [ 
             "9449b33f-d4e4-4e7e-8b4c-38f66df4ee02", 
@@ -716,13 +959,13 @@
       "9449b33f-d4e4-4e7e-8b4c-38f66df4ee02" : { 
          "class" : "WhoopNode", 
          "desc" : { 
-            "x" : "-100761", 
-            "y" : "-99194"
+            "x" : "-101099", 
+            "y" : "-99265"
          }, 
          "child" : [ 
             "65fb4ce4-7ade-422e-ab49-3b3ff8e9febb"
          ], 
-         "text" : "Что это с ним?", 
+         "text" : "Кто это? Пушкин?", 
          "customObject" : "Gexogen", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true"
@@ -730,19 +973,19 @@
       "65fb4ce4-7ade-422e-ab49-3b3ff8e9febb" : { 
          "class" : "WaitNode", 
          "desc" : { 
-            "x" : "-100706", 
-            "y" : "-99075"
+            "x" : "-100980", 
+            "y" : "-99139"
          }, 
          "child" : [ 
             "851ee6ce-aa41-4778-997d-723b54828e14"
          ], 
-         "waitTime" : "2"
+         "waitTime" : "1"
       }, 
       "851ee6ce-aa41-4778-997d-723b54828e14" : { 
          "class" : "HasTeamMateNode", 
          "desc" : { 
-            "x" : "-100390", 
-            "y" : "-98996"
+            "x" : "-100758", 
+            "y" : "-99065"
          }, 
          "child" : [ 
             "d6a84832-1753-4ab4-aef7-67847eef68f5", 
@@ -753,13 +996,13 @@
       "d6a84832-1753-4ab4-aef7-67847eef68f5" : { 
          "class" : "WhoopNode", 
          "desc" : { 
-            "x" : "-100755", 
-            "y" : "-98741"
+            "x" : "-100995", 
+            "y" : "-98920"
          }, 
          "child" : [ 
             "c127a3ec-6469-4ea1-971d-7ef3115d291f"
          ], 
-         "text" : "Чуствую будет заварушка. Нас оружают.", 
+         "text" : "Чуствую будет заварушка. Червяк говорит... беги.", 
          "customObject" : "Alexander", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true"
@@ -767,19 +1010,19 @@
       "c127a3ec-6469-4ea1-971d-7ef3115d291f" : { 
          "class" : "WaitNode", 
          "desc" : { 
-            "x" : "-100692", 
-            "y" : "-98634"
+            "x" : "-100877", 
+            "y" : "-98772"
          }, 
          "child" : [ 
             "de81a0bb-dce1-4566-a852-9d4b9e91d335"
          ], 
-         "waitTime" : "2"
+         "waitTime" : "1"
       }, 
       "de81a0bb-dce1-4566-a852-9d4b9e91d335" : { 
          "class" : "HasTeamMateNode", 
          "desc" : { 
-            "x" : "-100414", 
-            "y" : "-98580"
+            "x" : "-100582", 
+            "y" : "-98662"
          }, 
          "child" : [ 
             "e8983386-4765-4406-9278-ebc24861e8f9", 
@@ -790,13 +1033,13 @@
       "e8983386-4765-4406-9278-ebc24861e8f9" : { 
          "class" : "WhoopNode", 
          "desc" : { 
-            "x" : "-100662", 
-            "y" : "-98465"
+            "x" : "-100957", 
+            "y" : "-98605"
          }, 
          "child" : [ 
             "2bdbbe94-96fd-4537-b554-20f12e3cc989"
          ], 
-         "text" : "Вот мы и встретились! Это видимо Оракул.", 
+         "text" : "Вот мы и встретились! Это видимо Оракул. Но откуда столько слепых псов?", 
          "customObject" : "oksana", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true"
@@ -804,29 +1047,42 @@
       "2bdbbe94-96fd-4537-b554-20f12e3cc989" : { 
          "class" : "WaitNode", 
          "desc" : { 
-            "x" : "-100608", 
-            "y" : "-98339"
+            "x" : "-100911", 
+            "y" : "-98459"
          }, 
          "child" : [ 
             "df7cbb19-a55d-4136-ad51-7595cd3b6a54"
          ], 
-         "waitTime" : "2"
+         "waitTime" : "1"
       }, 
       "df7cbb19-a55d-4136-ad51-7595cd3b6a54" : { 
          "class" : "CinematicEndNode", 
          "desc" : { 
-            "x" : "-100340", 
-            "y" : "-98266"
+            "x" : "-100658", 
+            "y" : "-98268"
          }, 
          "child" : [ 
+            "ca6997f4-472d-4996-9d3a-ca8b7acab19a", 
             "91bd67c3-dd7f-4117-9810-4a530a9848f8"
          ]
+      }, 
+      "ca6997f4-472d-4996-9d3a-ca8b7acab19a" : { 
+         "class" : "CharacterRotateToNode", 
+         "desc" : { 
+            "x" : "-100834", 
+            "y" : "-98187"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "oraculumv2", 
+         "pointName" : "Player", 
+         "waitEnd" : "false"
       }, 
       "91bd67c3-dd7f-4117-9810-4a530a9848f8" : { 
          "class" : "PlayerWaitNode", 
          "desc" : { 
-            "x" : "-100339", 
-            "y" : "-98217"
+            "x" : "-100665", 
+            "y" : "-98096"
          }, 
          "child" : [ 
             "a1e49072-2ea0-437f-965a-0bc0ed37c101"
@@ -837,11 +1093,34 @@
       "a1e49072-2ea0-437f-965a-0bc0ed37c101" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100332", 
-            "y" : "-98158"
+            "x" : "-100665", 
+            "y" : "-98033"
          }, 
          "child" : [ 
          ]
+      }, 
+      "00efc4e6-a95f-430f-aa55-bc08e054c94a" : { 
+         "class" : "CameraMoveToNode", 
+         "desc" : { 
+            "x" : "-100605", 
+            "y" : "-100186"
+         }, 
+         "child" : [ 
+            "7452593a-e2a2-4f81-89b1-cb9a0bd6eb0e"
+         ], 
+         "pointName" : "end_cam", 
+         "waitEnd" : "true", 
+         "time" : "5"
+      }, 
+      "7452593a-e2a2-4f81-89b1-cb9a0bd6eb0e" : { 
+         "class" : "CameraSnapNode", 
+         "desc" : { 
+            "x" : "-100572", 
+            "y" : "-100111"
+         }, 
+         "child" : [ 
+         ], 
+         "orientation" : "true"
       }, 
       "59b92852-d145-4fb1-8ee0-3547ff461782" : { 
          "class" : "QuestBeginNode", 

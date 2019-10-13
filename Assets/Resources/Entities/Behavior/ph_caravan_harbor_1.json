@@ -30,7 +30,7 @@
          }, 
          "child" : [ 
          ], 
-         "spawnPoint" : "Spawn.Karavan.Vehicle", 
+         "spawnPoint" : "Spawn.One", 
          "item" : { 
             "class" : "Chest", 
             "proto" : "gaz66back", 

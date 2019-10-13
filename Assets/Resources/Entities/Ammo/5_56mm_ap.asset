@@ -22,7 +22,7 @@ MonoBehaviour:
   Modifiers: []
   Type: 2
   ArmorMod: 0
-  ResistanceMod: -20
+  ResistanceMod: -15
   DamageMod: 2
   Bullet: 1
   Dispersion: 0

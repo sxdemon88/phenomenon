@@ -3,11 +3,13 @@
       "cb217146-12c2-4fec-931c-eee4e0eb7aa3" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-101072", 
-            "y" : "-100675"
+            "x" : "-101069", 
+            "y" : "-100784"
          }, 
          "child" : [ 
-            "254e6ec4-74b9-4596-ae55-be292928d32f"
+            "254e6ec4-74b9-4596-ae55-be292928d32f", 
+            "fae27bf3-4181-45bf-b101-cabf704ca195", 
+            "f33baea5-7bd0-4c4c-b102-0a797d271f01"
          ]
       }, 
       "254e6ec4-74b9-4596-ae55-be292928d32f" : { 
@@ -56,8 +58,8 @@
       "948cd654-e265-4ac4-bb10-0908895e8384" : { 
          "class" : "PlayAnimNode", 
          "desc" : { 
-            "x" : "-101173", 
-            "y" : "-100334"
+            "x" : "-101245", 
+            "y" : "-100329"
          }, 
          "child" : [ 
          ], 
@@ -75,8 +77,8 @@
       "2e16df34-41ca-4214-a1e1-dbde50356649" : { 
          "class" : "HasKeywordNode", 
          "desc" : { 
-            "x" : "-100598", 
-            "y" : "-100292"
+            "x" : "-100578", 
+            "y" : "-100343"
          }, 
          "child" : [ 
             "34fa492c-91c6-4b0a-8775-a77f00c7dbff", 
@@ -126,8 +128,8 @@
       "1102e0c6-0a5f-4ca0-ae64-6edc0d118280" : { 
          "class" : "RandomNode", 
          "desc" : { 
-            "x" : "-100699", 
-            "y" : "-99875"
+            "x" : "-100718", 
+            "y" : "-99831"
          }, 
          "child" : [ 
             "4533a64c-9db1-48a3-b7bb-74d654114de9", 
@@ -138,8 +140,8 @@
       "4533a64c-9db1-48a3-b7bb-74d654114de9" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-101032", 
-            "y" : "-99984"
+            "x" : "-101019", 
+            "y" : "-99969"
          }, 
          "child" : [ 
             "49e1d699-f21f-4765-99da-934e09ac096c", 
@@ -270,8 +272,8 @@
       "59f7d22e-0702-43be-9ff2-a2bf797664cc" : { 
          "class" : "RandomNode", 
          "desc" : { 
-            "x" : "-102018", 
-            "y" : "-99870"
+            "x" : "-102102", 
+            "y" : "-99862"
          }, 
          "child" : [ 
             "4bd5c1cc-f3dc-4be0-9431-8d4f65be1daf", 
@@ -1534,8 +1536,8 @@
       "6d867a6a-bea9-42f6-b07d-57e3e778bf42" : { 
          "class" : "NotebookHasNoteNode", 
          "desc" : { 
-            "x" : "-102293", 
-            "y" : "-100306"
+            "x" : "-102342", 
+            "y" : "-100322"
          }, 
          "child" : [ 
             "fc1309da-b0bb-474c-a54b-6f5906d1c240", 
@@ -1546,8 +1548,8 @@
       "fc1309da-b0bb-474c-a54b-6f5906d1c240" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-102766", 
-            "y" : "-100119"
+            "x" : "-102535", 
+            "y" : "-100189"
          }, 
          "child" : [ 
          ]
@@ -1555,20 +1557,22 @@
       "f0424e4e-e81f-4fc0-a777-2d8f4412de5d" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-102069", 
-            "y" : "-100169"
+            "x" : "-102125", 
+            "y" : "-100188"
          }, 
          "child" : [ 
             "b39bd39d-0fcb-4d7d-a92f-ad03d1b72612", 
             "bf0bb40f-a549-468c-a0e5-832d9ffcdcfd", 
-            "667e6fcd-274b-4c46-ac51-792003c5a4d5"
+            "667e6fcd-274b-4c46-ac51-792003c5a4d5", 
+            "59f7d22e-0702-43be-9ff2-a2bf797664cc", 
+            "f83768cc-1b8e-43b3-8ebb-afb718089070"
          ]
       }, 
       "b39bd39d-0fcb-4d7d-a92f-ad03d1b72612" : { 
          "class" : "RandomNode", 
          "desc" : { 
-            "x" : "-102860", 
-            "y" : "-99816"
+            "x" : "-103030", 
+            "y" : "-99931"
          }, 
          "child" : [ 
             "e97a87de-0fc4-4290-873d-36b6b9e52f3d", 
@@ -1582,7 +1586,7 @@
       "e97a87de-0fc4-4290-873d-36b6b9e52f3d" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-103137", 
+            "x" : "-103136", 
             "y" : "-99689"
          }, 
          "child" : [ 
@@ -1687,8 +1691,8 @@
       "63186585-6aba-414d-ba84-85d85f43d282" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-102588", 
-            "y" : "-99685"
+            "x" : "-102592", 
+            "y" : "-99680"
          }, 
          "child" : [ 
          ], 
@@ -1708,8 +1712,8 @@
       "bf0bb40f-a549-468c-a0e5-832d9ffcdcfd" : { 
          "class" : "RandomNode", 
          "desc" : { 
-            "x" : "-102634", 
-            "y" : "-99818"
+            "x" : "-102720", 
+            "y" : "-99929"
          }, 
          "child" : [ 
             "e97a87de-0fc4-4290-873d-36b6b9e52f3d", 
@@ -1723,10 +1727,12 @@
       "667e6fcd-274b-4c46-ac51-792003c5a4d5" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-102044", 
-            "y" : "-100036"
+            "x" : "-102202", 
+            "y" : "-100023"
          }, 
          "child" : [ 
+            "b39bd39d-0fcb-4d7d-a92f-ad03d1b72612", 
+            "bf0bb40f-a549-468c-a0e5-832d9ffcdcfd"
          ], 
          "inventory" : [ 
             { 
@@ -1756,6 +1762,16 @@
          ], 
          "inventoryObject" : "", 
          "random" : "true"
+      }, 
+      "f83768cc-1b8e-43b3-8ebb-afb718089070" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-102025", 
+            "y" : "-100069"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/ph_ammo_trade"
       }, 
       "b94cb962-a9e4-475b-af0e-4a57a2ed4c70" : { 
          "class" : "HasRandomDiceNode", 
@@ -1883,6 +1899,104 @@
             "86100d6d-e3fb-486a-ab67-c7e9a673cde2", 
             "d72b26c3-d753-4166-b5e5-558dcf390bf5", 
             "85ae1335-700b-4899-b35a-729773399be5"
+         ]
+      }, 
+      "fae27bf3-4181-45bf-b101-cabf704ca195" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-100565", 
+            "y" : "-100710"
+         }, 
+         "child" : [ 
+            "8bf784e6-4fd4-4bd9-a294-490d3ea34436", 
+            "ea0ae3af-652f-44db-a60e-d847331c1952"
+         ], 
+         "note_key" : "PH_PRICE_UP_ALL_ON"
+      }, 
+      "8bf784e6-4fd4-4bd9-a294-490d3ea34436" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-100684", 
+            "y" : "-100597"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/ph_trade1_diss"
+      }, 
+      "ea0ae3af-652f-44db-a60e-d847331c1952" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100411", 
+            "y" : "-100588"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "f33baea5-7bd0-4c4c-b102-0a797d271f01" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-100177", 
+            "y" : "-100714"
+         }, 
+         "child" : [ 
+            "6205fbf6-c0ce-4c6a-8113-5db1135d7ccf", 
+            "388f2df7-e1e7-4b2f-a0c5-c4bfb84893b7"
+         ], 
+         "note_key" : "PH_MONEY_MORE_ON"
+      }, 
+      "6205fbf6-c0ce-4c6a-8113-5db1135d7ccf" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100231", 
+            "y" : "-100502"
+         }, 
+         "child" : [ 
+            "ff91202a-2c04-4d8e-aaf7-a1e8e51f2f17", 
+            "150aa66e-358c-4331-8189-75631a9375e1"
+         ]
+      }, 
+      "ff91202a-2c04-4d8e-aaf7-a1e8e51f2f17" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100294", 
+            "y" : "-100428"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Item", 
+               "count" : "5410", 
+               "proto" : "Money"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "150aa66e-358c-4331-8189-75631a9375e1" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100177", 
+            "y" : "-100428"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Item", 
+               "count" : "11265", 
+               "proto" : "Money"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "388f2df7-e1e7-4b2f-a0c5-c4bfb84893b7" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99971", 
+            "y" : "-100556"
+         }, 
+         "child" : [ 
          ]
       }
    }, 

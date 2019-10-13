@@ -30,7 +30,7 @@
          }, 
          "child" : [ 
          ], 
-         "spawnPoint" : "Spawn.Karavan.Vehicle", 
+         "spawnPoint" : "Spawn.Two", 
          "item" : { 
             "class" : "Chest", 
             "proto" : "citroe_ type45", 

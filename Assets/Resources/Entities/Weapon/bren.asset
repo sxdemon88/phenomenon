@@ -40,7 +40,8 @@ MonoBehaviour:
     Shots: 5
     Dispersion: 2
     ModeType: 10
-    Sounds: []
+    Sounds:
+    - path: Entities/Weapon/weapon models/bren/bren
   Aimed:
     AP: 0
     Range: 0
@@ -54,7 +55,8 @@ MonoBehaviour:
     Shots: 10
     Dispersion: 3
     ModeType: 10
-    Sounds: []
+    Sounds:
+    - path: Entities/Weapon/weapon models/bren/bren
   Reload:
     AP: 4
     Range: 0

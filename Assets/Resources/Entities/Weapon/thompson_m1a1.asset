@@ -41,7 +41,7 @@ MonoBehaviour:
     Dispersion: 1
     ModeType: 9
     Sounds:
-    - path: Entities/Weapon/weapon models/mp40/MP40_SHOOT
+    - path: Entities/Weapon/weapon models/thompson_m1a1/Thompson_40
   Aimed:
     AP: 0
     Range: 0
@@ -56,7 +56,7 @@ MonoBehaviour:
     Dispersion: 1
     ModeType: 9
     Sounds:
-    - path: Entities/Weapon/weapon models/mp40/MP40_SHOOT
+    - path: Entities/Weapon/weapon models/thompson_m1a1/Thompson_40
   Reload:
     AP: 3
     Range: 0

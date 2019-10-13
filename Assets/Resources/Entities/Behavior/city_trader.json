@@ -7,7 +7,9 @@
             "y" : "-100636"
          }, 
          "child" : [ 
-            "511c9150-aea9-4c9a-9589-f5b2c8ec5760"
+            "511c9150-aea9-4c9a-9589-f5b2c8ec5760", 
+            "4138e149-5c68-4079-9006-5a9097cdccdc", 
+            "101661d7-1629-4e80-96b5-b0a86176a240"
          ]
       }, 
       "511c9150-aea9-4c9a-9589-f5b2c8ec5760" : { 
@@ -1435,29 +1437,40 @@
       "2f1fe9b9-88b1-488e-98d4-542dbeef80d7" : { 
          "class" : "NotebookHasNoteNode", 
          "desc" : { 
-            "x" : "-101068", 
-            "y" : "-99779"
+            "x" : "-101292", 
+            "y" : "-100961"
          }, 
          "child" : [ 
             "279cc279-c500-4b61-a631-169be89e98f7", 
-            "2001fce7-23e5-4857-a136-52fab9050828"
+            "5c826c73-eca1-46ab-836c-00fdbbff6cb8"
          ], 
          "note_key" : "PH_TRADE1_DEAD"
       }, 
       "279cc279-c500-4b61-a631-169be89e98f7" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-101174", 
-            "y" : "-99670"
+            "x" : "-101303", 
+            "y" : "-99820"
          }, 
          "child" : [ 
+         ]
+      }, 
+      "5c826c73-eca1-46ab-836c-00fdbbff6cb8" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101088", 
+            "y" : "-100851"
+         }, 
+         "child" : [ 
+            "2001fce7-23e5-4857-a136-52fab9050828", 
+            "c95b2963-de2d-4aed-84d4-d900152741c9"
          ]
       }, 
       "2001fce7-23e5-4857-a136-52fab9050828" : { 
          "class" : "RandomNode", 
          "desc" : { 
-            "x" : "-100985", 
-            "y" : "-99639"
+            "x" : "-101503", 
+            "y" : "-100740"
          }, 
          "child" : [ 
             "c5cdb02f-b6e5-4d7d-a756-5ad897232ca7", 
@@ -1842,8 +1855,8 @@
       "6d8c2031-2074-47fe-a44e-9a44befdb0f1" : { 
          "class" : "RandomNode", 
          "desc" : { 
-            "x" : "-101498", 
-            "y" : "-99662"
+            "x" : "-101499", 
+            "y" : "-99706"
          }, 
          "child" : [ 
             "1ebf53a9-0d23-46c1-a3ee-89b82eae0a08", 
@@ -1879,6 +1892,16 @@
          }, 
          "child" : [ 
          ]
+      }, 
+      "c95b2963-de2d-4aed-84d4-d900152741c9" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-101039", 
+            "y" : "-100759"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/ph_ammo_trade"
       }, 
       "d810a3c4-f616-4df2-9f48-30033c0a7b20" : { 
          "class" : "DummyNode", 
@@ -1935,6 +1958,104 @@
          "desc" : { 
             "x" : "-100391", 
             "y" : "-100289"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "4138e149-5c68-4079-9006-5a9097cdccdc" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-100112", 
+            "y" : "-100552"
+         }, 
+         "child" : [ 
+            "66770745-af6f-43f0-8c3d-50b0e2e8253d", 
+            "03e433eb-1c40-4a72-9c9a-442e899a2268"
+         ], 
+         "note_key" : "PH_PRICE_UP_ALL_ON"
+      }, 
+      "66770745-af6f-43f0-8c3d-50b0e2e8253d" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-100232", 
+            "y" : "-100439"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/ph_trade1_diss"
+      }, 
+      "03e433eb-1c40-4a72-9c9a-442e899a2268" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99958", 
+            "y" : "-100430"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "101661d7-1629-4e80-96b5-b0a86176a240" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-99748", 
+            "y" : "-100546"
+         }, 
+         "child" : [ 
+            "595cac8d-fcd6-465e-bf39-e923e5ae9b43", 
+            "7ec38e59-eee8-473a-af52-b18dd8c7ed01"
+         ], 
+         "note_key" : "PH_MONEY_MORE_ON"
+      }, 
+      "595cac8d-fcd6-465e-bf39-e923e5ae9b43" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99794", 
+            "y" : "-100330"
+         }, 
+         "child" : [ 
+            "a36c3bcf-0e94-48ef-957d-e3dc6f689e1a", 
+            "55773463-498c-4a3e-bdf4-d2c4a9494fdf"
+         ]
+      }, 
+      "a36c3bcf-0e94-48ef-957d-e3dc6f689e1a" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-99858", 
+            "y" : "-100256"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Item", 
+               "count" : "8130", 
+               "proto" : "Money"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "55773463-498c-4a3e-bdf4-d2c4a9494fdf" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-99738", 
+            "y" : "-100256"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Item", 
+               "count" : "16260", 
+               "proto" : "Money"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "7ec38e59-eee8-473a-af52-b18dd8c7ed01" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99534", 
+            "y" : "-100386"
          }, 
          "child" : [ 
          ]

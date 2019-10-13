@@ -46,7 +46,7 @@
          "spawnPoint" : "Spawn.Enemy.1", 
          "item" : { 
             "class" : "Character", 
-            "proto" : "GiantRat_RAD", 
+            "proto" : "giantrat_rad", 
             "character" : "big_giantrat_rad", 
             "damage" : "0", 
             "ap" : "0", 
@@ -83,7 +83,7 @@
          "spawnPoint" : "Spawn.Enemy.2", 
          "item" : { 
             "class" : "Character", 
-            "proto" : "GiantRat_RAD", 
+            "proto" : "giantrat_rad", 
             "character" : "big_giantrat_rad", 
             "damage" : "0", 
             "ap" : "0", 
@@ -132,7 +132,7 @@
          "spawnPoint" : "Spawn.Enemy.3", 
          "item" : { 
             "class" : "Character", 
-            "proto" : "GiantRat_RAD", 
+            "proto" : "giantrat_rad", 
             "character" : "big_giantrat_rad", 
             "damage" : "0", 
             "ap" : "0", 
@@ -181,7 +181,7 @@
          "spawnPoint" : "Spawn.Enemy.4", 
          "item" : { 
             "class" : "Character", 
-            "proto" : "GiantRat_RAD", 
+            "proto" : "giantrat_rad", 
             "character" : "big_giantrat_rad", 
             "damage" : "0", 
             "ap" : "0", 
@@ -231,7 +231,7 @@
          "spawnPoint" : "Spawn.Enemy.5", 
          "item" : { 
             "class" : "Character", 
-            "proto" : "GiantRat_RAD", 
+            "proto" : "giantrat_rad", 
             "character" : "big_giantrat_rad", 
             "damage" : "0", 
             "ap" : "0", 
@@ -281,7 +281,7 @@
          "spawnPoint" : "Spawn.Enemy.6", 
          "item" : { 
             "class" : "Character", 
-            "proto" : "GiantRat_RAD", 
+            "proto" : "giantrat_rad", 
             "character" : "big_giantrat_rad", 
             "damage" : "0", 
             "ap" : "0", 
@@ -331,7 +331,7 @@
          "spawnPoint" : "Spawn.Enemy.7", 
          "item" : { 
             "class" : "Character", 
-            "proto" : "GiantRat_RAD", 
+            "proto" : "giantrat_rad", 
             "character" : "big_giantrat_rad", 
             "damage" : "0", 
             "ap" : "0", 
@@ -381,7 +381,7 @@
          "spawnPoint" : "Spawn.Enemy.8", 
          "item" : { 
             "class" : "Character", 
-            "proto" : "GiantRat_RAD", 
+            "proto" : "giantrat_rad", 
             "character" : "big_giantrat_rad", 
             "damage" : "0", 
             "ap" : "0", 

@@ -18,32 +18,21 @@
             "y" : "-897"
          }, 
          "child" : [ 
-            "9b2d763d-efc0-4018-be02-0a6c865fec98"
+            "4f01a85c-5dfc-48e1-858a-cba07b190ecd"
          ], 
          "distanceCondition" : "GreaterThan", 
          "distance" : "15"
       }, 
-      "9b2d763d-efc0-4018-be02-0a6c865fec98" : { 
-         "class" : "WaitNode", 
-         "desc" : { 
-            "x" : "-2312", 
-            "y" : "-747"
-         }, 
-         "child" : [ 
-            "4f01a85c-5dfc-48e1-858a-cba07b190ecd"
-         ], 
-         "waitTime" : "2"
-      }, 
       "4f01a85c-5dfc-48e1-858a-cba07b190ecd" : { 
          "class" : "CharacterMoveToNode", 
          "desc" : { 
-            "x" : "-2414", 
-            "y" : "-644"
+            "x" : "-2387", 
+            "y" : "-723"
          }, 
          "child" : [ 
          ], 
          "objectName" : "$SELF$", 
-         "pointName" : "Player", 
+         "pointName" : "oraculumv2", 
          "waitEnd" : "false", 
          "relative" : "false", 
          "run" : "false", 
@@ -70,7 +59,7 @@
          }, 
          "child" : [ 
             "012d73f8-2d57-4c37-8cae-c6c777b1dde9", 
-            "9b31d399-e3d6-4589-ae6e-dfbe78ac766b"
+            "6461f978-c89b-46a0-b575-9eb88bd6526a"
          ]
       }, 
       "012d73f8-2d57-4c37-8cae-c6c777b1dde9" : { 
@@ -82,24 +71,11 @@
          "child" : [ 
          ]
       }, 
-      "9b31d399-e3d6-4589-ae6e-dfbe78ac766b" : { 
-         "class" : "CharacterRotateToNode", 
-         "desc" : { 
-            "x" : "-1830", 
-            "y" : "-554"
-         }, 
-         "child" : [ 
-            "6461f978-c89b-46a0-b575-9eb88bd6526a"
-         ], 
-         "objectName" : "$SELF$", 
-         "pointName" : "Player", 
-         "waitEnd" : "false"
-      }, 
       "6461f978-c89b-46a0-b575-9eb88bd6526a" : { 
          "class" : "CharacterStopNode", 
          "desc" : { 
-            "x" : "-1774", 
-            "y" : "-454"
+            "x" : "-1810", 
+            "y" : "-510"
          }, 
          "child" : [ 
          ]

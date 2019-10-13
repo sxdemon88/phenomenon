@@ -394,9 +394,7 @@ MonoBehaviour:
     _enter: encounter.attack
     _showIntro: 0
     _levels:
-    - Z_1_3
     - Z_2_3
-    - Z_3_3
     chances: []
     _requirements: []
     _requirementsEx: []

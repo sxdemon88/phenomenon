@@ -3068,8 +3068,8 @@
       "2d69ed8b-3cc0-4775-958a-722a2bd9c977" : { 
          "class" : "FractionIsEnemyRelationshipNode", 
          "desc" : { 
-            "x" : "-99447", 
-            "y" : "-100550"
+            "x" : "-99332", 
+            "y" : "-100723"
          }, 
          "child" : [ 
             "5a16615d-b40e-47dc-b7a6-848dd3238cb3", 
@@ -3081,8 +3081,8 @@
       "5a16615d-b40e-47dc-b7a6-848dd3238cb3" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-99552", 
-            "y" : "-100452"
+            "x" : "-99686", 
+            "y" : "-100427"
          }, 
          "child" : [ 
          ]
@@ -3090,20 +3090,104 @@
       "76b9a340-0322-4369-b4f1-009e176d9223" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-99276", 
-            "y" : "-100394"
+            "x" : "-99275", 
+            "y" : "-100476"
          }, 
          "child" : [ 
+            "b100cb57-854d-4d66-85f7-63de7253b312", 
             "030aa031-852d-4b85-b684-2d6585cc4b00", 
             "cfccf9bf-2197-4995-9f07-6e1a07633ca8", 
             "99064d66-905b-4883-a94a-1d1f8f9f5d43"
          ]
       }, 
+      "b100cb57-854d-4d66-85f7-63de7253b312" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-98939", 
+            "y" : "-100732"
+         }, 
+         "child" : [ 
+            "014d53b1-e46f-4426-9c19-dbafbc7e33f8", 
+            "c761fa47-4030-48ba-8c5a-3cb3b563e383"
+         ], 
+         "key" : "SPAWNTRADERSFEN"
+      }, 
+      "014d53b1-e46f-4426-9c19-dbafbc7e33f8" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99043", 
+            "y" : "-100625"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "c761fa47-4030-48ba-8c5a-3cb3b563e383" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-98831", 
+            "y" : "-100633"
+         }, 
+         "child" : [ 
+            "1db71a98-3533-4cc8-a796-57436ab0882a"
+         ], 
+         "key" : "SPAWNTRADERSFEN"
+      }, 
+      "1db71a98-3533-4cc8-a796-57436ab0882a" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-98763", 
+            "y" : "-100573"
+         }, 
+         "child" : [ 
+            "5c05c0e8-7457-46f4-a17c-3a23a49a1386", 
+            "0ba23b1c-ec0c-4150-a904-cef9417140c5"
+         ]
+      }, 
+      "5c05c0e8-7457-46f4-a17c-3a23a49a1386" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-98839", 
+            "y" : "-100519"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnName" : "Spawn.Two", 
+         "pos" : [ 
+            "255", 
+            "0", 
+            "35"
+         ], 
+         "angles" : [ 
+            "0", 
+            "0", 
+            "0"
+         ]
+      }, 
+      "0ba23b1c-ec0c-4150-a904-cef9417140c5" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-98693", 
+            "y" : "-100518"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnName" : "Spawn.One", 
+         "pos" : [ 
+            "255", 
+            "0", 
+            "35"
+         ], 
+         "angles" : [ 
+            "0", 
+            "0", 
+            "0"
+         ]
+      }, 
       "030aa031-852d-4b85-b684-2d6585cc4b00" : { 
          "class" : "TimeDatePeriodNode", 
          "desc" : { 
-            "x" : "-99542", 
-            "y" : "-100192"
+            "x" : "-99508", 
+            "y" : "-100276"
          }, 
          "child" : [ 
             "bf1228bc-ed56-4edb-bee8-7811e4a0ece6", 
@@ -3118,8 +3202,8 @@
       "bf1228bc-ed56-4edb-bee8-7811e4a0ece6" : { 
          "class" : "HasKeywordNode", 
          "desc" : { 
-            "x" : "-99666", 
-            "y" : "-99986"
+            "x" : "-99692", 
+            "y" : "-100042"
          }, 
          "child" : [ 
             "5610429f-da95-465c-8526-2dc30c308683", 
@@ -3130,8 +3214,8 @@
       "5610429f-da95-465c-8526-2dc30c308683" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-99750", 
-            "y" : "-99846"
+            "x" : "-99775", 
+            "y" : "-99931"
          }, 
          "child" : [ 
             "af78052e-15f6-4677-9bce-cb6ae0b34bbc"
@@ -3140,8 +3224,8 @@
       "af78052e-15f6-4677-9bce-cb6ae0b34bbc" : { 
          "class" : "AddKeywordNode", 
          "desc" : { 
-            "x" : "-99812", 
-            "y" : "-99753"
+            "x" : "-99837", 
+            "y" : "-99837"
          }, 
          "child" : [ 
             "cc5bb23d-7f8b-41ca-ba89-b40f83ecbeeb"
@@ -3151,8 +3235,8 @@
       "cc5bb23d-7f8b-41ca-ba89-b40f83ecbeeb" : { 
          "class" : "HasKeywordNode", 
          "desc" : { 
-            "x" : "-99596", 
-            "y" : "-99631"
+            "x" : "-99705", 
+            "y" : "-99692"
          }, 
          "child" : [ 
             "3500092c-95af-4895-8e99-cb1922684422", 
@@ -3163,8 +3247,8 @@
       "3500092c-95af-4895-8e99-cb1922684422" : { 
          "class" : "RemoveKeywordNode", 
          "desc" : { 
-            "x" : "-99790", 
-            "y" : "-99524"
+            "x" : "-99793", 
+            "y" : "-99528"
          }, 
          "child" : [ 
             "4953ec61-2645-454b-add9-38da97bd0857"
@@ -3211,29 +3295,39 @@
             "y" : "-99303"
          }, 
          "child" : [ 
-            "00e0794d-56cc-4957-a05c-ca70323250a3"
+            "ef72472c-7264-49f5-ab64-76a7a44ee364"
          ], 
          "objName" : "Spawn.Karavan.4"
       }, 
-      "00e0794d-56cc-4957-a05c-ca70323250a3" : { 
+      "ef72472c-7264-49f5-ab64-76a7a44ee364" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-99611", 
+            "y" : "-99246"
+         }, 
+         "child" : [ 
+            "75bbdd8e-c0e9-4c28-996d-6e061362f98e", 
+            "3e26b3f5-3954-4168-bfae-5333767de1f2"
+         ], 
+         "key" : "CARAVAN_2"
+      }, 
+      "75bbdd8e-c0e9-4c28-996d-6e061362f98e" : { 
          "class" : "CharacterRemoveNode", 
          "desc" : { 
-            "x" : "-99788", 
-            "y" : "-99236"
+            "x" : "-99589", 
+            "y" : "-99069"
          }, 
          "child" : [ 
             "b2a9af33-8ac6-41ae-8f7b-e5df614ab91c", 
-            "89781dc3-2259-487c-b575-17c2b5de7cd8", 
-            "ca251c3d-bbf1-45c4-ae46-fd3399463297", 
-            "c46fd3e4-080b-4326-8223-26eed261580e"
+            "89781dc3-2259-487c-b575-17c2b5de7cd8"
          ], 
          "objName" : "Spawn.Karavan.Trader"
       }, 
       "b2a9af33-8ac6-41ae-8f7b-e5df614ab91c" : { 
          "class" : "RemoveKeywordNode", 
          "desc" : { 
-            "x" : "-99940", 
-            "y" : "-99124"
+            "x" : "-100004", 
+            "y" : "-99120"
          }, 
          "child" : [ 
             "4b770354-5006-4154-a7b4-4f88c41a509a"
@@ -3243,8 +3337,8 @@
       "4b770354-5006-4154-a7b4-4f88c41a509a" : { 
          "class" : "HasKeywordNode", 
          "desc" : { 
-            "x" : "-99942", 
-            "y" : "-99055"
+            "x" : "-100150", 
+            "y" : "-99034"
          }, 
          "child" : [ 
             "5fa00e21-dc3a-4258-9c6b-ef91ea99f5fc", 
@@ -3255,8 +3349,8 @@
       "5fa00e21-dc3a-4258-9c6b-ef91ea99f5fc" : { 
          "class" : "AddKeywordNode", 
          "desc" : { 
-            "x" : "-100114", 
-            "y" : "-98949"
+            "x" : "-100258", 
+            "y" : "-98916"
          }, 
          "child" : [ 
             "f8e35447-dcda-440e-ba2b-ddfac1abddaf"
@@ -3278,8 +3372,8 @@
       "0bba505e-0691-4114-b440-8f53c1ecb7e1" : { 
          "class" : "PlayStateNode", 
          "desc" : { 
-            "x" : "-100880", 
-            "y" : "-98687"
+            "x" : "-100902", 
+            "y" : "-98702"
          }, 
          "child" : [ 
             "f504991b-b810-49cc-a4ec-9d9997218838", 
@@ -3290,8 +3384,8 @@
       "f504991b-b810-49cc-a4ec-9d9997218838" : { 
          "class" : "PlayerFixPositionIfInObstacleNode", 
          "desc" : { 
-            "x" : "-100754", 
-            "y" : "-98570"
+            "x" : "-100502", 
+            "y" : "-98288"
          }, 
          "child" : [ 
             "26b613fd-25db-45af-9ead-de9037a5d6c6", 
@@ -3302,8 +3396,8 @@
       "26b613fd-25db-45af-9ead-de9037a5d6c6" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100536", 
-            "y" : "-98457"
+            "x" : "-100566", 
+            "y" : "-98164"
          }, 
          "child" : [ 
          ]
@@ -3311,8 +3405,8 @@
       "951c5088-1611-475e-bc44-bf910d1460a2" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100384", 
-            "y" : "-98455"
+            "x" : "-100364", 
+            "y" : "-98160"
          }, 
          "child" : [ 
          ]
@@ -3320,8 +3414,8 @@
       "82ec68a1-464c-431d-a372-808c5d605683" : { 
          "class" : "RemoveKeywordNode", 
          "desc" : { 
-            "x" : "-99896", 
-            "y" : "-98507"
+            "x" : "-100145", 
+            "y" : "-98361"
          }, 
          "child" : [ 
          ], 
@@ -3334,50 +3428,152 @@
             "y" : "-98684"
          }, 
          "child" : [ 
+            "e2c8cd68-06e7-48e8-b934-2a6926fb4895", 
             "f504991b-b810-49cc-a4ec-9d9997218838", 
             "82ec68a1-464c-431d-a372-808c5d605683"
          ], 
          "script" : "Entities/Behavior/ph_caravan_harbor_1"
       }, 
+      "e2c8cd68-06e7-48e8-b934-2a6926fb4895" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-100671", 
+            "y" : "-98609"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "CARAVAN_2"
+      }, 
       "fce5ec19-8955-449b-b7bf-715a3e2591c5" : { 
          "class" : "PlayStateNode", 
          "desc" : { 
-            "x" : "-100252", 
-            "y" : "-98757"
+            "x" : "-100390", 
+            "y" : "-98683"
          }, 
          "child" : [ 
+            "02a7572c-fcab-4c9a-b4ab-a34143a85c12", 
             "f504991b-b810-49cc-a4ec-9d9997218838", 
             "82ec68a1-464c-431d-a372-808c5d605683"
          ], 
          "script" : "Entities/Behavior/ph_caravan_harbor_2"
       }, 
+      "02a7572c-fcab-4c9a-b4ab-a34143a85c12" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-100387", 
+            "y" : "-98604"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "CARAVAN_3"
+      }, 
       "89781dc3-2259-487c-b575-17c2b5de7cd8" : { 
          "class" : "ActiveObjectNode", 
          "desc" : { 
-            "x" : "-99580", 
-            "y" : "-98789"
+            "x" : "-99592", 
+            "y" : "-98869"
          }, 
          "child" : [ 
             "450a2393-afde-44c8-bb39-cbc7b874f0dd"
          ], 
-         "objectName" : "gaz66backSpawn.Karavan.Vehicle", 
+         "objectName" : "gaz66backSpawn.One", 
          "active" : "false"
       }, 
       "450a2393-afde-44c8-bb39-cbc7b874f0dd" : { 
          "class" : "ObjectRemoveNode", 
          "desc" : { 
-            "x" : "-99566", 
-            "y" : "-98713"
+            "x" : "-99583", 
+            "y" : "-98790"
+         }, 
+         "child" : [ 
+            "2bc96126-0819-4ec1-a140-b45d4fa62c7e"
+         ], 
+         "objName" : "gaz66backSpawn.One"
+      }, 
+      "2bc96126-0819-4ec1-a140-b45d4fa62c7e" : { 
+         "class" : "RemoveKeywordNode", 
+         "desc" : { 
+            "x" : "-99563", 
+            "y" : "-98715"
          }, 
          "child" : [ 
          ], 
-         "objName" : "gaz66backSpawn.Karavan.Vehicle"
+         "key" : "CARAVAN_2"
+      }, 
+      "3e26b3f5-3954-4168-bfae-5333767de1f2" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-99361", 
+            "y" : "-99179"
+         }, 
+         "child" : [ 
+            "15e6a4db-dfd3-408e-a58e-9dc63b781748", 
+            "00e0794d-56cc-4957-a05c-ca70323250a3"
+         ], 
+         "key" : "CARAVAN_3"
+      }, 
+      "15e6a4db-dfd3-408e-a58e-9dc63b781748" : { 
+         "class" : "CharacterRemoveNode", 
+         "desc" : { 
+            "x" : "-99359", 
+            "y" : "-99064"
+         }, 
+         "child" : [ 
+            "b2a9af33-8ac6-41ae-8f7b-e5df614ab91c", 
+            "c46fd3e4-080b-4326-8223-26eed261580e"
+         ], 
+         "objName" : "Spawn.Karavan.Trader"
+      }, 
+      "c46fd3e4-080b-4326-8223-26eed261580e" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-99375", 
+            "y" : "-98977"
+         }, 
+         "child" : [ 
+            "b85299d8-d2b2-4746-8824-f0204569b915"
+         ], 
+         "objectName" : "citroe_ type45Spawn.Two", 
+         "active" : "false"
+      }, 
+      "b85299d8-d2b2-4746-8824-f0204569b915" : { 
+         "class" : "ObjectRemoveNode", 
+         "desc" : { 
+            "x" : "-99366", 
+            "y" : "-98891"
+         }, 
+         "child" : [ 
+            "84928681-12c8-483f-8d11-6298a9a2a109"
+         ], 
+         "objName" : "citroe_ type45Spawn.Two"
+      }, 
+      "84928681-12c8-483f-8d11-6298a9a2a109" : { 
+         "class" : "RemoveKeywordNode", 
+         "desc" : { 
+            "x" : "-99333", 
+            "y" : "-98817"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "CARAVAN_3"
+      }, 
+      "00e0794d-56cc-4957-a05c-ca70323250a3" : { 
+         "class" : "CharacterRemoveNode", 
+         "desc" : { 
+            "x" : "-99818", 
+            "y" : "-99064"
+         }, 
+         "child" : [ 
+            "b2a9af33-8ac6-41ae-8f7b-e5df614ab91c", 
+            "ca251c3d-bbf1-45c4-ae46-fd3399463297"
+         ], 
+         "objName" : "Spawn.Karavan.Trader"
       }, 
       "ca251c3d-bbf1-45c4-ae46-fd3399463297" : { 
          "class" : "ActiveObjectNode", 
          "desc" : { 
-            "x" : "-99876", 
-            "y" : "-98785"
+            "x" : "-99923", 
+            "y" : "-98873"
          }, 
          "child" : [ 
             "7e1a0f66-d4d1-4407-bf5d-6d6d3d3da8c4"
@@ -3388,40 +3584,18 @@
       "7e1a0f66-d4d1-4407-bf5d-6d6d3d3da8c4" : { 
          "class" : "ObjectRemoveNode", 
          "desc" : { 
-            "x" : "-99856", 
-            "y" : "-98710"
+            "x" : "-99909", 
+            "y" : "-98787"
          }, 
          "child" : [ 
          ], 
          "objName" : "Karavan.Vehicle_2Spawn.Karavan.Vehicle"
       }, 
-      "c46fd3e4-080b-4326-8223-26eed261580e" : { 
-         "class" : "ActiveObjectNode", 
-         "desc" : { 
-            "x" : "-99328", 
-            "y" : "-98791"
-         }, 
-         "child" : [ 
-            "b85299d8-d2b2-4746-8824-f0204569b915"
-         ], 
-         "objectName" : "citroe_ type45Spawn.Karavan.Vehicle", 
-         "active" : "false"
-      }, 
-      "b85299d8-d2b2-4746-8824-f0204569b915" : { 
-         "class" : "ObjectRemoveNode", 
-         "desc" : { 
-            "x" : "-99312", 
-            "y" : "-98714"
-         }, 
-         "child" : [ 
-         ], 
-         "objName" : "citroe_ type45Spawn.Karavan.Vehicle"
-      }, 
       "42a8fe2f-c589-4a64-a3d3-c6f6875a687e" : { 
          "class" : "DummyNode", 
          "desc" : { 
             "x" : "-99538", 
-            "y" : "-99459"
+            "y" : "-99458"
          }, 
          "child" : [ 
             "82ec68a1-464c-431d-a372-808c5d605683"
@@ -3430,8 +3604,8 @@
       "cfccf9bf-2197-4995-9f07-6e1a07633ca8" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-99234", 
-            "y" : "-98616"
+            "x" : "-98945", 
+            "y" : "-98556"
          }, 
          "child" : [ 
             "0702ea9a-ff90-4099-8ca3-da9ea7b64523", 
@@ -3443,8 +3617,8 @@
       "0702ea9a-ff90-4099-8ca3-da9ea7b64523" : { 
          "class" : "ObjectCheckNode", 
          "desc" : { 
-            "x" : "-99560", 
-            "y" : "-98402"
+            "x" : "-99532", 
+            "y" : "-98452"
          }, 
          "child" : [ 
             "65c9d011-2068-4b0e-9869-c6575b8be8b6", 
@@ -3478,8 +3652,8 @@
       "f79d3710-6a39-4d8a-9a95-118862f9beeb" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-99390", 
-            "y" : "-98185"
+            "x" : "-99260", 
+            "y" : "-98304"
          }, 
          "child" : [ 
          ]
@@ -3487,8 +3661,8 @@
       "82a4cae0-d847-4ce5-bc6b-4ad6dad91abb" : { 
          "class" : "ObjectCheckNode", 
          "desc" : { 
-            "x" : "-99142", 
-            "y" : "-98418"
+            "x" : "-99130", 
+            "y" : "-98447"
          }, 
          "child" : [ 
             "374c6aad-f967-4cff-b6c1-886e22ecb65a", 
@@ -3522,8 +3696,8 @@
       "2b2c05ff-3f53-4126-b50c-a7f9463eccdb" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-98912", 
-            "y" : "-98184"
+            "x" : "-98821", 
+            "y" : "-98304"
          }, 
          "child" : [ 
          ]
@@ -3531,14 +3705,14 @@
       "a85cb1d5-100e-444c-9728-b391a392056b" : { 
          "class" : "ObjectCheckNode", 
          "desc" : { 
-            "x" : "-98728", 
-            "y" : "-98421"
+            "x" : "-98744", 
+            "y" : "-98418"
          }, 
          "child" : [ 
             "a8faad6b-cea5-48e8-b288-f5ff73d91f51", 
             "486106fb-be81-4229-9eea-bc65b1fcb0eb"
          ], 
-         "objectName" : "gaz66backSpawn.Karavan.Vehicle"
+         "objectName" : "gaz66backSpawn.One"
       }, 
       "a8faad6b-cea5-48e8-b288-f5ff73d91f51" : { 
          "class" : "ActiveObjectNode", 
@@ -3549,7 +3723,7 @@
          "child" : [ 
             "3739d206-a8f9-4e5e-bbc9-0aa71cd09e0a"
          ], 
-         "objectName" : "gaz66backSpawn.Karavan.Vehicle", 
+         "objectName" : "gaz66backSpawn.One", 
          "active" : "false"
       }, 
       "3739d206-a8f9-4e5e-bbc9-0aa71cd09e0a" : { 
@@ -3560,14 +3734,14 @@
          }, 
          "child" : [ 
          ], 
-         "objectName" : "gaz66backSpawn.Karavan.Vehicle", 
+         "objectName" : "gaz66backSpawn.One", 
          "active" : "true"
       }, 
       "486106fb-be81-4229-9eea-bc65b1fcb0eb" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-98510", 
-            "y" : "-98155"
+            "x" : "-98482", 
+            "y" : "-98298"
          }, 
          "child" : [ 
          ]
@@ -3575,14 +3749,14 @@
       "1bc38711-e0b4-43e4-842c-2489fb671db9" : { 
          "class" : "ObjectCheckNode", 
          "desc" : { 
-            "x" : "-98376", 
-            "y" : "-98421"
+            "x" : "-98406", 
+            "y" : "-98424"
          }, 
          "child" : [ 
             "19f8a4af-664a-4f89-9d24-aa91fff67f8c", 
             "d4daca10-efc2-481f-ab85-ea68d6451efd"
          ], 
-         "objectName" : "citroe_ type45Spawn.Karavan.Vehicle"
+         "objectName" : "citroe_ type45Spawn.Two"
       }, 
       "19f8a4af-664a-4f89-9d24-aa91fff67f8c" : { 
          "class" : "ActiveObjectNode", 
@@ -3593,7 +3767,7 @@
          "child" : [ 
             "6e72596f-6506-4e58-9af5-57599fc09004"
          ], 
-         "objectName" : "citroe_ type45Spawn.Karavan.Vehicle", 
+         "objectName" : "citroe_ type45Spawn.Two", 
          "active" : "false"
       }, 
       "6e72596f-6506-4e58-9af5-57599fc09004" : { 
@@ -3604,14 +3778,14 @@
          }, 
          "child" : [ 
          ], 
-         "objectName" : "citroe_ type45Spawn.Karavan.Vehicle", 
+         "objectName" : "citroe_ type45Spawn.Two", 
          "active" : "true"
       }, 
       "d4daca10-efc2-481f-ab85-ea68d6451efd" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-98010", 
-            "y" : "-98302"
+            "x" : "-98013", 
+            "y" : "-98308"
          }, 
          "child" : [ 
          ]
@@ -3619,8 +3793,8 @@
       "99064d66-905b-4883-a94a-1d1f8f9f5d43" : { 
          "class" : "TimeDatePeriodNode", 
          "desc" : { 
-            "x" : "-99108", 
-            "y" : "-100176"
+            "x" : "-98077", 
+            "y" : "-100303"
          }, 
          "child" : [ 
             "b9b14bd5-6d28-49c0-a94d-9d90ba2cab42", 
@@ -3635,8 +3809,8 @@
       "b9b14bd5-6d28-49c0-a94d-9d90ba2cab42" : { 
          "class" : "HasKeywordNode", 
          "desc" : { 
-            "x" : "-99278", 
-            "y" : "-100006"
+            "x" : "-98321", 
+            "y" : "-100067"
          }, 
          "child" : [ 
             "da7b5bdd-5dc4-4b1f-8624-b0ba47ea7c29", 
@@ -3647,8 +3821,8 @@
       "da7b5bdd-5dc4-4b1f-8624-b0ba47ea7c29" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-99274", 
-            "y" : "-99835"
+            "x" : "-98403", 
+            "y" : "-99923"
          }, 
          "child" : [ 
             "76bb4013-57a4-4f2f-be3f-20085edcda87"
@@ -3657,8 +3831,8 @@
       "76bb4013-57a4-4f2f-be3f-20085edcda87" : { 
          "class" : "AddKeywordNode", 
          "desc" : { 
-            "x" : "-99294", 
-            "y" : "-99794"
+            "x" : "-98446", 
+            "y" : "-99816"
          }, 
          "child" : [ 
             "0448075f-8520-42d6-9821-ef7ce984538c"
@@ -3668,8 +3842,8 @@
       "0448075f-8520-42d6-9821-ef7ce984538c" : { 
          "class" : "HasKeywordNode", 
          "desc" : { 
-            "x" : "-98874", 
-            "y" : "-99709"
+            "x" : "-97667", 
+            "y" : "-99752"
          }, 
          "child" : [ 
             "d61859a0-a59c-4d76-819d-171b841c5c96", 
@@ -3680,8 +3854,8 @@
       "d61859a0-a59c-4d76-819d-171b841c5c96" : { 
          "class" : "RemoveKeywordNode", 
          "desc" : { 
-            "x" : "-98630", 
-            "y" : "-99643"
+            "x" : "-97430", 
+            "y" : "-99641"
          }, 
          "child" : [ 
             "c40a812a-4652-4927-a38e-feeee8e6b7cc"
@@ -3691,8 +3865,8 @@
       "c40a812a-4652-4927-a38e-feeee8e6b7cc" : { 
          "class" : "CharacterRemoveNode", 
          "desc" : { 
-            "x" : "-98612", 
-            "y" : "-99578"
+            "x" : "-97412", 
+            "y" : "-99576"
          }, 
          "child" : [ 
             "962439c9-15f7-496d-9430-e27ccc6d0371"
@@ -3702,8 +3876,8 @@
       "962439c9-15f7-496d-9430-e27ccc6d0371" : { 
          "class" : "CharacterRemoveNode", 
          "desc" : { 
-            "x" : "-98612", 
-            "y" : "-99518"
+            "x" : "-97412", 
+            "y" : "-99516"
          }, 
          "child" : [ 
             "a585b9df-7174-474d-9521-a0ce1ef7fe0b"
@@ -3713,8 +3887,8 @@
       "a585b9df-7174-474d-9521-a0ce1ef7fe0b" : { 
          "class" : "CharacterRemoveNode", 
          "desc" : { 
-            "x" : "-98612", 
-            "y" : "-99457"
+            "x" : "-97412", 
+            "y" : "-99455"
          }, 
          "child" : [ 
             "f1612d29-2a97-4c84-92b8-0c2d372c10f2"
@@ -3724,8 +3898,8 @@
       "f1612d29-2a97-4c84-92b8-0c2d372c10f2" : { 
          "class" : "CharacterRemoveNode", 
          "desc" : { 
-            "x" : "-98612", 
-            "y" : "-99395"
+            "x" : "-97412", 
+            "y" : "-99393"
          }, 
          "child" : [ 
             "5ee6b0dc-be0d-482f-8a8b-549eb5a12634"
@@ -3735,8 +3909,8 @@
       "5ee6b0dc-be0d-482f-8a8b-549eb5a12634" : { 
          "class" : "CharacterRemoveNode", 
          "desc" : { 
-            "x" : "-98622", 
-            "y" : "-99330"
+            "x" : "-97422", 
+            "y" : "-99328"
          }, 
          "child" : [ 
             "2e7768ec-34a8-4750-9aa1-3d00d0336ac5", 
@@ -3747,8 +3921,8 @@
       "2e7768ec-34a8-4750-9aa1-3d00d0336ac5" : { 
          "class" : "RemoveKeywordNode", 
          "desc" : { 
-            "x" : "-99012", 
-            "y" : "-99239"
+            "x" : "-97896", 
+            "y" : "-99293"
          }, 
          "child" : [ 
             "711f5a6e-71e5-4f71-89c9-0e861b01d15a"
@@ -3758,8 +3932,8 @@
       "711f5a6e-71e5-4f71-89c9-0e861b01d15a" : { 
          "class" : "HasKeywordNode", 
          "desc" : { 
-            "x" : "-99020", 
-            "y" : "-99186"
+            "x" : "-97904", 
+            "y" : "-99240"
          }, 
          "child" : [ 
             "c7724a2c-d2be-4c58-a197-10d3a3b2d34f", 
@@ -3770,8 +3944,8 @@
       "c7724a2c-d2be-4c58-a197-10d3a3b2d34f" : { 
          "class" : "AddKeywordNode", 
          "desc" : { 
-            "x" : "-99096", 
-            "y" : "-99075"
+            "x" : "-97980", 
+            "y" : "-99129"
          }, 
          "child" : [ 
             "0dd1225b-39f1-4c9f-867e-7a4c9f14fa7f"
@@ -3781,8 +3955,8 @@
       "0dd1225b-39f1-4c9f-867e-7a4c9f14fa7f" : { 
          "class" : "PlayStateNode", 
          "desc" : { 
-            "x" : "-99038", 
-            "y" : "-98946"
+            "x" : "-98206", 
+            "y" : "-98964"
          }, 
          "child" : [ 
             "f504991b-b810-49cc-a4ec-9d9997218838", 
@@ -3793,8 +3967,8 @@
       "5f774de7-10c6-4b23-a8a5-c24dfc38c796" : { 
          "class" : "RemoveKeywordNode", 
          "desc" : { 
-            "x" : "-98800", 
-            "y" : "-98852"
+            "x" : "-98568", 
+            "y" : "-98864"
          }, 
          "child" : [ 
          ], 
@@ -3803,8 +3977,8 @@
       "41ab3bd3-50ad-47d8-ac69-76d3e8fb5000" : { 
          "class" : "ActiveObjectNode", 
          "desc" : { 
-            "x" : "-98292", 
-            "y" : "-99250"
+            "x" : "-97092", 
+            "y" : "-99248"
          }, 
          "child" : [ 
             "2f87fccf-9cc5-4f8a-83ed-a6b71ab4522d"
@@ -3815,8 +3989,8 @@
       "2f87fccf-9cc5-4f8a-83ed-a6b71ab4522d" : { 
          "class" : "ObjectRemoveNode", 
          "desc" : { 
-            "x" : "-98282", 
-            "y" : "-99177"
+            "x" : "-97082", 
+            "y" : "-99175"
          }, 
          "child" : [ 
          ], 
@@ -3825,8 +3999,8 @@
       "f315610a-4a3a-49c8-890f-957083b6ff10" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-98814", 
-            "y" : "-99528"
+            "x" : "-98498", 
+            "y" : "-99376"
          }, 
          "child" : [ 
             "5f774de7-10c6-4b23-a8a5-c24dfc38c796"

@@ -2336,6 +2336,7 @@ GameObject:
   - component: {fileID: 6964066770081596780}
   - component: {fileID: 1022130289314654230}
   - component: {fileID: 283725522090179129}
+  - component: {fileID: 7951663961554232359}
   m_Layer: 12
   m_Name: oraculumv2
   m_TagString: Untagged
@@ -2415,6 +2416,18 @@ MonoBehaviour:
   RightLegLink: {fileID: 3179049843733392075}
   LeftHandLink: {fileID: 6017230926412839895}
   RightHandLink: {fileID: 9205427999418050571}
+--- !u!114 &7951663961554232359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6268460978791659391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1137906148, guid: ba80931603c2dbc40ab113c533efa2ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6327253305413388838
 GameObject:
   m_ObjectHideFlags: 0
