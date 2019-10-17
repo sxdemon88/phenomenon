@@ -16,7 +16,7 @@ MonoBehaviour:
     path: Entities/Ammo/Ammo models/556_ap
   m_Localization: ammo.5_56mm_ap
   Takeable: 1
-  Cost: 8
+  Cost: 14
   Weight: 13
   Collectable: 1
   Modifiers: []

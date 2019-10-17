@@ -1,0 +1,1187 @@
+{ 
+   "states" : { 
+      "a42b3b5d-8dc0-426a-a872-47517fcc5781" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102604", 
+            "y" : "-101612"
+         }, 
+         "child" : [ 
+            "03b86237-d211-4cc8-b499-7f0410531ee4"
+         ]
+      }, 
+      "03b86237-d211-4cc8-b499-7f0410531ee4" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-102603", 
+            "y" : "-101538"
+         }, 
+         "child" : [ 
+            "09527b95-8d04-40b0-bd18-01096678a42a", 
+            "234970ff-e5a1-4463-90f4-09fed005d43c"
+         ], 
+         "key" : "INIT"
+      }, 
+      "09527b95-8d04-40b0-bd18-01096678a42a" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102979", 
+            "y" : "-101358"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "234970ff-e5a1-4463-90f4-09fed005d43c" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-102468", 
+            "y" : "-101432"
+         }, 
+         "child" : [ 
+            "128a4616-bfef-414b-ac70-accbf47232d9"
+         ], 
+         "key" : "INIT"
+      }, 
+      "128a4616-bfef-414b-ac70-accbf47232d9" : { 
+         "class" : "CharacterStateNode", 
+         "desc" : { 
+            "x" : "-102393", 
+            "y" : "-101302"
+         }, 
+         "child" : [ 
+            "0c4b557c-fce2-448b-8914-09e5f2c13eec"
+         ], 
+         "stateName" : ""
+      }, 
+      "0c4b557c-fce2-448b-8914-09e5f2c13eec" : { 
+         "class" : "DialogBeginNode", 
+         "desc" : { 
+            "x" : "-102393", 
+            "y" : "-101253"
+         }, 
+         "child" : [ 
+            "74fdef2f-de59-49f5-b95c-214bf806c218"
+         ], 
+         "canBarter" : "false"
+      }, 
+      "74fdef2f-de59-49f5-b95c-214bf806c218" : { 
+         "class" : "AnimatorTriggerNode", 
+         "desc" : { 
+            "x" : "-102397", 
+            "y" : "-101192"
+         }, 
+         "child" : [ 
+            "01a38818-a68b-4134-bce9-b8b6e3a18391"
+         ], 
+         "triger" : "StopAnimation"
+      }, 
+      "01a38818-a68b-4134-bce9-b8b6e3a18391" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102416", 
+            "y" : "-101094"
+         }, 
+         "child" : [ 
+            "7fbaf5ff-910b-4f26-93f6-5b4218abd86a"
+         ], 
+         "text" : "[Вы видите как к вам на встречу идёт  человек в шляпе. Его сопровождают непонятные псы. Он подходит ближе и вы понимаете, что это не человек. Формы лица, кожа и неприятных запах выдают это.  Другие псы окружают вас.]"
+      }, 
+      "7fbaf5ff-910b-4f26-93f6-5b4218abd86a" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-102415", 
+            "y" : "-100984"
+         }, 
+         "child" : [ 
+            "42b34b3e-21a6-4c83-b753-88657106f37e"
+         ]
+      }, 
+      "42b34b3e-21a6-4c83-b753-88657106f37e" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102417", 
+            "y" : "-100935"
+         }, 
+         "child" : [ 
+            "ab41746e-b465-4d19-b27e-7c3e3de96708"
+         ], 
+         "text" : "[Жуткий шипящий голос]$PLAYER.NAME$  Ты мне не нужен. Уходи."
+      }, 
+      "ab41746e-b465-4d19-b27e-7c3e3de96708" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102661", 
+            "y" : "-100815"
+         }, 
+         "child" : [ 
+            "c45694c7-6095-4226-9844-5392dd8f0af1"
+         ], 
+         "text" : "Кто ты?"
+      }, 
+      "c45694c7-6095-4226-9844-5392dd8f0af1" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102662", 
+            "y" : "-100722"
+         }, 
+         "child" : [ 
+            "d36fbe0b-1e94-4aed-b415-6c903915f4b8"
+         ], 
+         "text" : "[Он не замечая вас] Вот я и нашёл тебя Оксана. Нам пора уходить, ты же не хочешь чтоб кто-то пострадал?"
+      }, 
+      "d36fbe0b-1e94-4aed-b415-6c903915f4b8" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-102622", 
+            "y" : "-100589"
+         }, 
+         "child" : [ 
+            "4b04ed6c-4fa4-41e8-82a5-06b260f9c827"
+         ]
+      }, 
+      "4b04ed6c-4fa4-41e8-82a5-06b260f9c827" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102621", 
+            "y" : "-100519"
+         }, 
+         "child" : [ 
+            "4b999644-57db-4be8-bf13-62b17f335736", 
+            "b2e948d1-d16f-4589-88d1-dedfe747b767"
+         ], 
+         "text" : "Не думала что так рано тебя встречу. Зачем столько пёсиков? Мог на меня раньше выйти, без всего этого."
+      }, 
+      "4b999644-57db-4be8-bf13-62b17f335736" : { 
+         "class" : "DialogPortraitNode", 
+         "desc" : { 
+            "x" : "-103258", 
+            "y" : "-98119"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "oksana", 
+         "portrait" : "Character/oksana", 
+         "mode" : "AutoName"
+      }, 
+      "b2e948d1-d16f-4589-88d1-dedfe747b767" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-102564", 
+            "y" : "-100368"
+         }, 
+         "child" : [ 
+            "2ba919e3-be00-4b05-b093-f98bb14937dd"
+         ]
+      }, 
+      "2ba919e3-be00-4b05-b093-f98bb14937dd" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102582", 
+            "y" : "-100308"
+         }, 
+         "child" : [ 
+            "1487e6da-c774-474a-b47d-4e0d02c58e17"
+         ], 
+         "text" : "Тогда бы у меня не было возможности повлиять на твое решение. А теперь у тебя есть те, ради кого ты мне поможешь добровольно."
+      }, 
+      "1487e6da-c774-474a-b47d-4e0d02c58e17" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-102578", 
+            "y" : "-100178"
+         }, 
+         "child" : [ 
+            "ea8f5589-4054-429d-92e1-6705480a8391"
+         ]
+      }, 
+      "ea8f5589-4054-429d-92e1-6705480a8391" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102575", 
+            "y" : "-100118"
+         }, 
+         "child" : [ 
+            "4b999644-57db-4be8-bf13-62b17f335736", 
+            "07fa3e35-8dab-4190-b52f-5ab75b4eff86"
+         ], 
+         "text" : "Я знаю тебя. И что ты сделаешь! Прекрати это и тогда поговорим. Убери своих псов сейчас же!"
+      }, 
+      "07fa3e35-8dab-4190-b52f-5ab75b4eff86" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-102541", 
+            "y" : "-99956"
+         }, 
+         "child" : [ 
+            "1073547a-3b77-434a-9639-9fe79e8e0e49"
+         ]
+      }, 
+      "1073547a-3b77-434a-9639-9fe79e8e0e49" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102546", 
+            "y" : "-99896"
+         }, 
+         "child" : [ 
+            "99ffe4d1-0743-4ac7-aefd-944f27608e0f"
+         ], 
+         "text" : "Это уже всё не важно. Пошли со мной, я долго ждать не буду. Иначе поступим подругому. Ты им ещё не рассказала значит правду, это хорошо, тем проще для нас всех."
+      }, 
+      "99ffe4d1-0743-4ac7-aefd-944f27608e0f" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102554", 
+            "y" : "-99738"
+         }, 
+         "child" : [ 
+            "96c21156-3447-46fd-bd63-4ad0f68055da"
+         ], 
+         "text" : "Вы вообще про что? Кто ты такой? И что тебе нужно от неё?"
+      }, 
+      "96c21156-3447-46fd-bd63-4ad0f68055da" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102649", 
+            "y" : "-99624"
+         }, 
+         "child" : [ 
+            "4b999644-57db-4be8-bf13-62b17f335736", 
+            "663e4253-4bf6-4997-a139-f4b59552b6c3"
+         ], 
+         "text" : "$PLAYER.NAME$ это Оракул. Он с другого мира и он не совсем человек. Главное он здесь не просто так. Всё рассказать не получится, для вашего блага...Возможно, когда нибудь я расскрою все секреты."
+      }, 
+      "663e4253-4bf6-4997-a139-f4b59552b6c3" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-102590", 
+            "y" : "-99479"
+         }, 
+         "child" : [ 
+            "1e96ba68-ff00-4d1c-aa96-ff0bd04585f2"
+         ]
+      }, 
+      "1e96ba68-ff00-4d1c-aa96-ff0bd04585f2" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102604", 
+            "y" : "-99401"
+         }, 
+         "child" : [ 
+            "fc209783-51ff-46d6-b2ae-e21f61d6ea66", 
+            "5449ef8a-9509-4178-b32d-92abd3f1361a"
+         ], 
+         "text" : "Не стоит ему говорить лишнего, иначе мне придется тут прибратся как прошлый раз. На все вопросы, я могу дать только один ответ,  $PLAYER.NAME$. Ваш мир уже обречен и его участь уже предрешена. Не стоит сопротивлятся неизбежному. Живите пока есть возможность. У меня нет желания убивать вас всех, поэтому я заберу  Оксану, и тогда всё закончится благополучно."
+      }, 
+      "fc209783-51ff-46d6-b2ae-e21f61d6ea66" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102698", 
+            "y" : "-99260"
+         }, 
+         "child" : [ 
+            "f2677205-04bb-4028-9647-b2a3fc46697d"
+         ], 
+         "text" : "Ты думаешь твои псы спасут тебя и мы неуспеем с тобой разобраться?"
+      }, 
+      "f2677205-04bb-4028-9647-b2a3fc46697d" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102679", 
+            "y" : "-99136"
+         }, 
+         "child" : [ 
+            "4b999644-57db-4be8-bf13-62b17f335736", 
+            "9640ee54-909a-459a-a571-961e72f51573"
+         ], 
+         "text" : "$PLAYER.NAME$ не провоцируй его. Он может нас убить. Возможно даже хочет этого, но он лично нас убить не может. Ему запрещено!"
+      }, 
+      "9640ee54-909a-459a-a571-961e72f51573" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102628", 
+            "y" : "-98971"
+         }, 
+         "child" : [ 
+            "c654d41a-3c07-42fd-82c0-00a100dec457"
+         ], 
+         "text" : "Ааа... еще больше вопросов."
+      }, 
+      "c654d41a-3c07-42fd-82c0-00a100dec457" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102641", 
+            "y" : "-98837"
+         }, 
+         "child" : [ 
+            "c205590a-50cf-4332-9d7b-39777832fb58"
+         ], 
+         "text" : "Я могу долго ждать, но это ничего не изменит. Ты  пойдешь со мной, иначе эту информацию я получу другим способом, менее приятным."
+      }, 
+      "c205590a-50cf-4332-9d7b-39777832fb58" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102683", 
+            "y" : "-98684"
+         }, 
+         "child" : [ 
+            "f7aea62d-58c8-4b50-b293-0f9aadfb26ee"
+         ], 
+         "text" : "Мы своих не бросаем."
+      }, 
+      "f7aea62d-58c8-4b50-b293-0f9aadfb26ee" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102723", 
+            "y" : "-98531"
+         }, 
+         "child" : [ 
+            "59c78b53-57ef-4644-9671-a1abaf9a1c71"
+         ], 
+         "text" : "Это забавно, но она не ваша. Хотя, впрочем, как на это посмотреть."
+      }, 
+      "59c78b53-57ef-4644-9671-a1abaf9a1c71" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102723", 
+            "y" : "-98388"
+         }, 
+         "child" : [ 
+            "01d8fe96-a9d5-481e-b8ce-66078a0d4380"
+         ], 
+         "text" : "Оксана как мы поступим?"
+      }, 
+      "01d8fe96-a9d5-481e-b8ce-66078a0d4380" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102870", 
+            "y" : "-98267"
+         }, 
+         "child" : [ 
+            "4b999644-57db-4be8-bf13-62b17f335736", 
+            "bbc57194-7659-4453-a4ea-be7f11fe059c"
+         ], 
+         "text" : "Победить в бою против оракула мы не сможем. Так погибла моя группа, нас было гораздо больше, он сможет нас всех убить. Я не хочу это повторять! Хватит. Я думаю мне лучше уйти с ним. Он получит в любом случае, то что он хочет."
+      }, 
+      "bbc57194-7659-4453-a4ea-be7f11fe059c" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102857", 
+            "y" : "-98056"
+         }, 
+         "child" : [ 
+            "77361dc4-65d3-459d-9473-d503a22b7ab4"
+         ], 
+         "text" : "Какие есть еще варианты?"
+      }, 
+      "77361dc4-65d3-459d-9473-d503a22b7ab4" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-102860", 
+            "y" : "-97977"
+         }, 
+         "child" : [ 
+            "43b947e9-55b5-40e5-aa79-42cb5e9c53d4", 
+            "9ecd76d9-d6ce-42e4-a157-5c5f0f0a69d3"
+         ], 
+         "text" : "Мне не хотелось бы прерывать вашу интересную беседу, но тут решение принимаю я! Поэтому Оксана пойдёт со мной, прощайся и выдвигаемся."
+      }, 
+      "43b947e9-55b5-40e5-aa79-42cb5e9c53d4" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103048", 
+            "y" : "-97793"
+         }, 
+         "child" : [ 
+            "a45cee17-a756-46cc-8ac0-41cafc289df8"
+         ], 
+         "text" : "Она никуда с вами не пойдёт! [Принять бой]"
+      }, 
+      "a45cee17-a756-46cc-8ac0-41cafc289df8" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103186", 
+            "y" : "-97661"
+         }, 
+         "child" : [ 
+            "21052c20-eb0e-435e-b2e6-93550342c84b"
+         ], 
+         "text" : "Хорошо! Вы сделали свой выбор! Жаль он не повлияет на результат и только усугубляет ситуацию."
+      }, 
+      "21052c20-eb0e-435e-b2e6-93550342c84b" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-103195", 
+            "y" : "-97516"
+         }, 
+         "child" : [ 
+            "874a4fa5-3416-46ba-adc9-89eb523622f3"
+         ]
+      }, 
+      "874a4fa5-3416-46ba-adc9-89eb523622f3" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103215", 
+            "y" : "-97434"
+         }, 
+         "child" : [ 
+            "88d029b2-d981-4121-80a2-c513e16fdec0"
+         ], 
+         "text" : "[Оракул делает резкие движения руками. Вас охватывает паралич всего тела.]"
+      }, 
+      "88d029b2-d981-4121-80a2-c513e16fdec0" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-103238", 
+            "y" : "-97299"
+         }, 
+         "child" : [ 
+            "3a23a1f2-4c1d-4797-bf65-b6dc830deeb6", 
+            "2bf164e8-6804-4ef4-8a1c-2cd4a7c374df", 
+            "89ddc361-bf81-4b66-8f14-d0e8f144cb99", 
+            "09cab050-2db4-4027-98b1-854bf338b160", 
+            "0a439a84-a49b-474b-9bd0-299ed5afdbd0", 
+            "89f9dad6-f927-4518-8f8d-1c1239469d8b"
+         ]
+      }, 
+      "3a23a1f2-4c1d-4797-bf65-b6dc830deeb6" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103255", 
+            "y" : "-97155"
+         }, 
+         "child" : [ 
+            "cb44a97c-15c7-499e-a619-13594ce664fb"
+         ], 
+         "text" : "[Оракул подняв руки изображает сцепление рук в воображаемую голову, весь отряд упал на землю, оксана потеряла сознание и громко кричит]"
+      }, 
+      "cb44a97c-15c7-499e-a619-13594ce664fb" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-103244", 
+            "y" : "-97027"
+         }, 
+         "child" : [ 
+            "be1bb625-df01-4afe-a25a-6fec71bc838b"
+         ]
+      }, 
+      "be1bb625-df01-4afe-a25a-6fec71bc838b" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103269", 
+            "y" : "-96929"
+         }, 
+         "child" : [ 
+            "3e9dc31a-152f-49dd-81ae-89f5c6649f9d"
+         ], 
+         "text" : "[Вы ничего не можете сделать, кроме как наблюдать как ваш напарник сильно кричит и страдает в агонии боли.]"
+      }, 
+      "3e9dc31a-152f-49dd-81ae-89f5c6649f9d" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-103274", 
+            "y" : "-96794"
+         }, 
+         "child" : [ 
+            "0e73e030-0793-4b29-b96e-ba1a5925990b"
+         ]
+      }, 
+      "0e73e030-0793-4b29-b96e-ba1a5925990b" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103271", 
+            "y" : "-96718"
+         }, 
+         "child" : [ 
+            "3b6cf556-b36b-40d5-ad9b-243190506c6d"
+         ], 
+         "text" : "[Вы видите завершающие манипуляции Оракула видимо он получил что хотел.]"
+      }, 
+      "3b6cf556-b36b-40d5-ad9b-243190506c6d" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-103269", 
+            "y" : "-96587"
+         }, 
+         "child" : [ 
+            "667505e2-d82f-477b-b736-623caba4a022"
+         ]
+      }, 
+      "667505e2-d82f-477b-b736-623caba4a022" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-103269", 
+            "y" : "-96530"
+         }, 
+         "child" : [ 
+            "848fdf45-df2f-410d-a97f-e7ac07a38165"
+         ], 
+         "text" : "Вы мне больше не нужны. Всего доброго."
+      }, 
+      "848fdf45-df2f-410d-a97f-e7ac07a38165" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-103272", 
+            "y" : "-96444"
+         }, 
+         "child" : [ 
+            "c9416e53-2d1b-4f5e-a914-c3228eba43b4"
+         ]
+      }, 
+      "c9416e53-2d1b-4f5e-a914-c3228eba43b4" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-103372", 
+            "y" : "-96381"
+         }, 
+         "child" : [ 
+            "01b09c91-4384-4709-ab58-85bbea85d2ad", 
+            "9831d339-3d5f-4168-b59b-204532bcf97a", 
+            "0c8888b8-7316-46b2-bfdf-4bd601a38afc", 
+            "75472fe2-5b78-4920-bc1e-21010b4b688a", 
+            "53f30976-ef3e-4c6c-81de-80651370005e"
+         ]
+      }, 
+      "01b09c91-4384-4709-ab58-85bbea85d2ad" : { 
+         "class" : "CharacterStunNode", 
+         "desc" : { 
+            "x" : "-103639", 
+            "y" : "-96223"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "oksana", 
+         "stunMode" : "Wakeup"
+      }, 
+      "9831d339-3d5f-4168-b59b-204532bcf97a" : { 
+         "class" : "CharacterStunNode", 
+         "desc" : { 
+            "x" : "-103665", 
+            "y" : "-96329"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Player", 
+         "stunMode" : "Wakeup"
+      }, 
+      "0c8888b8-7316-46b2-bfdf-4bd601a38afc" : { 
+         "class" : "CharacterStunNode", 
+         "desc" : { 
+            "x" : "-103566", 
+            "y" : "-96137"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Fidel", 
+         "stunMode" : "Wakeup"
+      }, 
+      "75472fe2-5b78-4920-bc1e-21010b4b688a" : { 
+         "class" : "FractionSetRelationshipNode", 
+         "desc" : { 
+            "x" : "-103388", 
+            "y" : "-96228"
+         }, 
+         "child" : [ 
+         ], 
+         "fraction" : "~team2", 
+         "value" : "0"
+      }, 
+      "53f30976-ef3e-4c6c-81de-80651370005e" : { 
+         "class" : "FlashSplashNode", 
+         "desc" : { 
+            "x" : "-103130", 
+            "y" : "-96127"
+         }, 
+         "child" : [ 
+            "610b2b06-80a5-4c34-b515-ac561e9b7cbe"
+         ], 
+         "waitEnd" : "false", 
+         "waitTime" : "1.5"
+      }, 
+      "610b2b06-80a5-4c34-b515-ac561e9b7cbe" : { 
+         "class" : "CharacterRemoveNode", 
+         "desc" : { 
+            "x" : "-103135", 
+            "y" : "-96067"
+         }, 
+         "child" : [ 
+         ], 
+         "objName" : "oraculumv2"
+      }, 
+      "2bf164e8-6804-4ef4-8a1c-2cd4a7c374df" : { 
+         "class" : "CharacterStunNode", 
+         "desc" : { 
+            "x" : "-104058", 
+            "y" : "-97173"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Player", 
+         "stunMode" : "MoveToUnlimStun"
+      }, 
+      "89ddc361-bf81-4b66-8f14-d0e8f144cb99" : { 
+         "class" : "CharacterStunNode", 
+         "desc" : { 
+            "x" : "-103906", 
+            "y" : "-97174"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "oksana", 
+         "stunMode" : "MoveToUnlimStun"
+      }, 
+      "09cab050-2db4-4027-98b1-854bf338b160" : { 
+         "class" : "CharacterStunNode", 
+         "desc" : { 
+            "x" : "-103746", 
+            "y" : "-97174"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Gexogen", 
+         "stunMode" : "MoveToUnlimStun"
+      }, 
+      "0a439a84-a49b-474b-9bd0-299ed5afdbd0" : { 
+         "class" : "CharacterStunNode", 
+         "desc" : { 
+            "x" : "-103597", 
+            "y" : "-97174"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Alexander", 
+         "stunMode" : "MoveToUnlimStun"
+      }, 
+      "89f9dad6-f927-4518-8f8d-1c1239469d8b" : { 
+         "class" : "CharacterStunNode", 
+         "desc" : { 
+            "x" : "-103447", 
+            "y" : "-97172"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Fidel", 
+         "stunMode" : "MoveToUnlimStun"
+      }, 
+      "9ecd76d9-d6ce-42e4-a157-5c5f0f0a69d3" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102650", 
+            "y" : "-97832"
+         }, 
+         "child" : [ 
+            "5dd39dcb-123e-4d1a-ae24-8f68bd4942af"
+         ], 
+         "text" : "Отдать Оксану Оракулу! [Отпустить]"
+      }, 
+      "5dd39dcb-123e-4d1a-ae24-8f68bd4942af" : { 
+         "class" : "DialogEndNode", 
+         "desc" : { 
+            "x" : "-102593", 
+            "y" : "-97758"
+         }, 
+         "child" : [ 
+            "4230c94a-7445-41ae-8e37-f276c6ba48f1"
+         ]
+      }, 
+      "4230c94a-7445-41ae-8e37-f276c6ba48f1" : { 
+         "class" : "CharacterCapsNode", 
+         "desc" : { 
+            "x" : "-102593", 
+            "y" : "-97717"
+         }, 
+         "child" : [ 
+            "c990dff5-9cb2-48ec-849a-743d87ab90fd"
+         ], 
+         "objectName" : "oksana", 
+         "caps" : "None"
+      }, 
+      "c990dff5-9cb2-48ec-849a-743d87ab90fd" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-102600", 
+            "y" : "-97641"
+         }, 
+         "child" : [ 
+            "dff78c9c-1f0a-40b1-b3db-9643551f9f29"
+         ], 
+         "note_key" : "PH_OKSANA_OUT"
+      }, 
+      "dff78c9c-1f0a-40b1-b3db-9643551f9f29" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-102481", 
+            "y" : "-97497"
+         }, 
+         "child" : [ 
+            "fd982bb2-cc89-4af7-bd84-fc5245459219", 
+            "c1372540-2793-46f5-bd4d-c14cf3ba5c6f"
+         ], 
+         "key" : "INIT2"
+      }, 
+      "fd982bb2-cc89-4af7-bd84-fc5245459219" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102601", 
+            "y" : "-97297"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "c1372540-2793-46f5-bd4d-c14cf3ba5c6f" : { 
+         "class" : "HudCutSceneNode", 
+         "desc" : { 
+            "x" : "-102240", 
+            "y" : "-97296"
+         }, 
+         "child" : [ 
+            "d7354f0f-21ec-4387-b0c4-428bd502922c"
+         ], 
+         "show" : "true"
+      }, 
+      "d7354f0f-21ec-4387-b0c4-428bd502922c" : { 
+         "class" : "PlayerWaitNode", 
+         "desc" : { 
+            "x" : "-102242", 
+            "y" : "-97218"
+         }, 
+         "child" : [ 
+            "06faa733-52b4-416a-ba33-48c6f2980c2d"
+         ], 
+         "lock" : "true", 
+         "waitingState" : "true"
+      }, 
+      "06faa733-52b4-416a-ba33-48c6f2980c2d" : { 
+         "class" : "CinematicBeginNode", 
+         "desc" : { 
+            "x" : "-102226", 
+            "y" : "-97156"
+         }, 
+         "child" : [ 
+            "da65fe26-ed04-437c-be05-2c869581abdc", 
+            "6807ba09-ff76-4fb1-aec3-71131181eb69", 
+            "b2b9877f-32a7-499a-8a80-40c5813222c4"
+         ], 
+         "immediately" : "true"
+      }, 
+      "da65fe26-ed04-437c-be05-2c869581abdc" : { 
+         "class" : "CharacterMoveToNode", 
+         "desc" : { 
+            "x" : "-102545", 
+            "y" : "-97118"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "$SELF$", 
+         "pointName" : "Exit", 
+         "waitEnd" : "false", 
+         "relative" : "false", 
+         "run" : "false", 
+         "keepCourse" : "false"
+      }, 
+      "6807ba09-ff76-4fb1-aec3-71131181eb69" : { 
+         "class" : "CharacterMoveToNode", 
+         "desc" : { 
+            "x" : "-102411", 
+            "y" : "-97118"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "oksana", 
+         "pointName" : "Exit_2", 
+         "waitEnd" : "false", 
+         "relative" : "false", 
+         "run" : "false", 
+         "keepCourse" : "false"
+      }, 
+      "b2b9877f-32a7-499a-8a80-40c5813222c4" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-102222", 
+            "y" : "-97097"
+         }, 
+         "child" : [ 
+            "4566b5db-bc58-4836-800d-aa632c3f2764", 
+            "06709d4b-0d46-4126-b338-8bc22d59c0f1", 
+            "51b14ac9-ff35-4bec-8b30-246027fae519"
+         ], 
+         "key" : "INIT2"
+      }, 
+      "4566b5db-bc58-4836-800d-aa632c3f2764" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-102510", 
+            "y" : "-96984"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Мы найдём тебя, чтобы нам этого не стоило!", 
+         "customObject" : "Player", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "06709d4b-0d46-4126-b338-8bc22d59c0f1" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-102197", 
+            "y" : "-97008"
+         }, 
+         "child" : [ 
+            "053ffc6e-be4c-4898-8fc2-6e67141638f2"
+         ], 
+         "waitTime" : "3"
+      }, 
+      "053ffc6e-be4c-4898-8fc2-6e67141638f2" : { 
+         "class" : "HasTeamMateNode", 
+         "desc" : { 
+            "x" : "-102060", 
+            "y" : "-96910"
+         }, 
+         "child" : [ 
+            "6cbf532a-df92-4a18-9977-ee12e89a2ea5", 
+            "3c66e842-e460-49a6-b273-4cfe4339a710"
+         ], 
+         "teammate" : "Fidel"
+      }, 
+      "6cbf532a-df92-4a18-9977-ee12e89a2ea5" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-102333", 
+            "y" : "-96780"
+         }, 
+         "child" : [ 
+            "7db04400-936a-4356-8e17-cff28a8054c7"
+         ], 
+         "text" : "Это ужасно! Как такое могло произойти!", 
+         "customObject" : "Fidel", 
+         "waitEnd" : "false", 
+         "customColor" : "FFC400", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "7db04400-936a-4356-8e17-cff28a8054c7" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-102258", 
+            "y" : "-96656"
+         }, 
+         "child" : [ 
+            "3c66e842-e460-49a6-b273-4cfe4339a710"
+         ], 
+         "waitTime" : "3"
+      }, 
+      "3c66e842-e460-49a6-b273-4cfe4339a710" : { 
+         "class" : "HasTeamMateNode", 
+         "desc" : { 
+            "x" : "-102026", 
+            "y" : "-96567"
+         }, 
+         "child" : [ 
+            "f2443801-d83e-40e3-aa2d-261b2faee126", 
+            "c83d994d-2a03-4ae6-a3a2-c07aef583b9c"
+         ], 
+         "teammate" : "Gexogen"
+      }, 
+      "f2443801-d83e-40e3-aa2d-261b2faee126" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-102311", 
+            "y" : "-96473"
+         }, 
+         "child" : [ 
+            "5b39bdba-c7ab-49cb-869e-c1463d435bc7"
+         ], 
+         "text" : "Как ты мог отпустить мою дочь! Сволочь!", 
+         "customObject" : "Gexogen", 
+         "waitEnd" : "false", 
+         "customColor" : "FF886E", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "5b39bdba-c7ab-49cb-869e-c1463d435bc7" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-102237", 
+            "y" : "-96354"
+         }, 
+         "child" : [ 
+            "c83d994d-2a03-4ae6-a3a2-c07aef583b9c"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "c83d994d-2a03-4ae6-a3a2-c07aef583b9c" : { 
+         "class" : "HasTeamMateNode", 
+         "desc" : { 
+            "x" : "-101916", 
+            "y" : "-96304"
+         }, 
+         "child" : [ 
+            "099de8bd-486f-401a-828b-4a57d568b9f3", 
+            "8c6bd002-cf3f-4182-99d8-10b11b4dda90"
+         ], 
+         "teammate" : "Alexander"
+      }, 
+      "099de8bd-486f-401a-828b-4a57d568b9f3" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-102171", 
+            "y" : "-96179"
+         }, 
+         "child" : [ 
+            "8c6bd002-cf3f-4182-99d8-10b11b4dda90"
+         ], 
+         "text" : "Бивень, червяк тебе спасибо передаёт. Говорит иначе бы нас порешали.", 
+         "customObject" : "Alexander", 
+         "waitEnd" : "false", 
+         "customColor" : "00F60D", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "8c6bd002-cf3f-4182-99d8-10b11b4dda90" : { 
+         "class" : "CinematicEndNode", 
+         "desc" : { 
+            "x" : "-101796", 
+            "y" : "-96010"
+         }, 
+         "child" : [ 
+            "d983b2f3-3f79-4cba-a8ed-56bb68152896"
+         ]
+      }, 
+      "d983b2f3-3f79-4cba-a8ed-56bb68152896" : { 
+         "class" : "PlayerWaitNode", 
+         "desc" : { 
+            "x" : "-101802", 
+            "y" : "-95958"
+         }, 
+         "child" : [ 
+            "209cba52-33de-4844-83bc-b6c280943144"
+         ], 
+         "lock" : "false", 
+         "waitingState" : "false"
+      }, 
+      "209cba52-33de-4844-83bc-b6c280943144" : { 
+         "class" : "FlashSplashNode", 
+         "desc" : { 
+            "x" : "-101796", 
+            "y" : "-95901"
+         }, 
+         "child" : [ 
+            "fca4d51b-4de8-4aae-a4df-f606c1942e2b"
+         ], 
+         "waitEnd" : "false", 
+         "waitTime" : "1.5"
+      }, 
+      "fca4d51b-4de8-4aae-a4df-f606c1942e2b" : { 
+         "class" : "CharacterRemoveNode", 
+         "desc" : { 
+            "x" : "-101805", 
+            "y" : "-95850"
+         }, 
+         "child" : [ 
+            "563df629-1e13-410e-8851-2c6f602868ea"
+         ], 
+         "objName" : "oksana"
+      }, 
+      "563df629-1e13-410e-8851-2c6f602868ea" : { 
+         "class" : "CharacterRemoveNode", 
+         "desc" : { 
+            "x" : "-101805", 
+            "y" : "-95785"
+         }, 
+         "child" : [ 
+         ], 
+         "objName" : "oraculumv2"
+      }, 
+      "51b14ac9-ff35-4bec-8b30-246027fae519" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-101980", 
+            "y" : "-97011"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "...не надо", 
+         "customObject" : "oksana", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "5449ef8a-9509-4178-b32d-92abd3f1361a" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-102233", 
+            "y" : "-99286"
+         }, 
+         "child" : [ 
+            "03d684c6-1fc7-4c21-9c0f-590398ed9520", 
+            "e3847326-2d85-4c9a-9889-6343989fc01d", 
+            "6bfdbdec-b717-41b9-96e2-d3165720256b", 
+            "652ba0df-9935-4592-9a61-f7c64e8309a6"
+         ], 
+         "text" : "Резко выстрелить в Оракула."
+      }, 
+      "03d684c6-1fc7-4c21-9c0f-590398ed9520" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-102033", 
+            "y" : "-99203"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Всем! Огонь на поражение!", 
+         "customObject" : "Player", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "e3847326-2d85-4c9a-9889-6343989fc01d" : { 
+         "class" : "CharacterShootToPointNode", 
+         "desc" : { 
+            "x" : "-102088", 
+            "y" : "-99036"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Player", 
+         "targetName" : "start_event2"
+      }, 
+      "6bfdbdec-b717-41b9-96e2-d3165720256b" : { 
+         "class" : "CharacterShootToPointNode", 
+         "desc" : { 
+            "x" : "-101983", 
+            "y" : "-98895"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "oksana", 
+         "targetName" : "start_event2"
+      }, 
+      "652ba0df-9935-4592-9a61-f7c64e8309a6" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101818", 
+            "y" : "-98989"
+         }, 
+         "child" : [ 
+            "34557044-ec4e-4b66-b29b-134082ddca13"
+         ], 
+         "text" : "Ха-ха-ха. Это было смешно и глупо. Даже забавно. Но очень предсказуемо!"
+      }, 
+      "34557044-ec4e-4b66-b29b-134082ddca13" : { 
+         "class" : "HasTeamMateNode", 
+         "desc" : { 
+            "x" : "-101734", 
+            "y" : "-98882"
+         }, 
+         "child" : [ 
+            "ffe60532-6dc4-43f3-984e-ee8760d04bcb", 
+            "736fdef7-c77a-438b-95c3-c5ed0715a905"
+         ], 
+         "teammate" : "Gexogen"
+      }, 
+      "ffe60532-6dc4-43f3-984e-ee8760d04bcb" : { 
+         "class" : "CharacterKillNode", 
+         "desc" : { 
+            "x" : "-101810", 
+            "y" : "-98653"
+         }, 
+         "child" : [ 
+            "a7c24bce-7a06-493f-adba-a23d09cad966"
+         ], 
+         "objectName" : "Gexogen"
+      }, 
+      "a7c24bce-7a06-493f-adba-a23d09cad966" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101753", 
+            "y" : "-98436"
+         }, 
+         "child" : [ 
+            "918a47b1-20a8-46ca-89e0-52a4d41032a4"
+         ]
+      }, 
+      "918a47b1-20a8-46ca-89e0-52a4d41032a4" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101770", 
+            "y" : "-98346"
+         }, 
+         "child" : [ 
+            "bbc57194-7659-4453-a4ea-be7f11fe059c"
+         ], 
+         "text" : "[Оракул что-то делает непонятное и один из ваших товарищей погибает]\\nЖаль конечно что так вышло и мне пришлось убить одного из вас, но это ваша вина. Давайте не будем усложнять ситуацию."
+      }, 
+      "736fdef7-c77a-438b-95c3-c5ed0715a905" : { 
+         "class" : "HasTeamMateNode", 
+         "desc" : { 
+            "x" : "-101576", 
+            "y" : "-98769"
+         }, 
+         "child" : [ 
+            "b7c63d30-ccac-4811-abd1-8bd991721749", 
+            "17d94deb-2b8a-4d33-ae09-de7c6615dcd1"
+         ], 
+         "teammate" : "Fidel"
+      }, 
+      "b7c63d30-ccac-4811-abd1-8bd991721749" : { 
+         "class" : "CharacterKillNode", 
+         "desc" : { 
+            "x" : "-101617", 
+            "y" : "-98603"
+         }, 
+         "child" : [ 
+            "a7c24bce-7a06-493f-adba-a23d09cad966"
+         ], 
+         "objectName" : "Fidel"
+      }, 
+      "17d94deb-2b8a-4d33-ae09-de7c6615dcd1" : { 
+         "class" : "HasTeamMateNode", 
+         "desc" : { 
+            "x" : "-101440", 
+            "y" : "-98635"
+         }, 
+         "child" : [ 
+            "dc5a0585-9b9b-4968-a357-fbe2fdb7c062", 
+            "9573df32-d28b-430a-a09f-463f0d39b5b8"
+         ], 
+         "teammate" : "Alexander"
+      }, 
+      "dc5a0585-9b9b-4968-a357-fbe2fdb7c062" : { 
+         "class" : "CharacterKillNode", 
+         "desc" : { 
+            "x" : "-101478", 
+            "y" : "-98526"
+         }, 
+         "child" : [ 
+            "a7c24bce-7a06-493f-adba-a23d09cad966"
+         ], 
+         "objectName" : "Alexander"
+      }, 
+      "9573df32-d28b-430a-a09f-463f0d39b5b8" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101276", 
+            "y" : "-98518"
+         }, 
+         "child" : [ 
+            "be099dad-eede-45c3-8a0e-3fa83f1bcf3a"
+         ]
+      }, 
+      "be099dad-eede-45c3-8a0e-3fa83f1bcf3a" : { 
+         "class" : "DialogContinueNode", 
+         "desc" : { 
+            "x" : "-101326", 
+            "y" : "-98335"
+         }, 
+         "child" : [ 
+            "896b28aa-4b0b-48c0-912e-f1797970b82b"
+         ]
+      }, 
+      "896b28aa-4b0b-48c0-912e-f1797970b82b" : { 
+         "class" : "DialogPhraseNode", 
+         "desc" : { 
+            "x" : "-101325", 
+            "y" : "-98277"
+         }, 
+         "child" : [ 
+            "bbc57194-7659-4453-a4ea-be7f11fe059c"
+         ], 
+         "text" : "Ну что же дальше?"
+      }
+   }, 
+   "entry" : "a42b3b5d-8dc0-426a-a872-47517fcc5781"
+}

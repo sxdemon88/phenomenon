@@ -165,7 +165,8 @@
          }, 
          "child" : [ 
             "45176ccc-6ae7-4fab-a519-c9ed2518c7fc"
-         ]
+         ], 
+         "immediately" : "true"
       }, 
       "45176ccc-6ae7-4fab-a519-c9ed2518c7fc" : { 
          "class" : "AddKeywordNode", 
@@ -174,16 +175,40 @@
             "y" : "-99786"
          }, 
          "child" : [ 
-            "f9d9d882-b4d8-4999-a2a6-ab0fe21cba6d", 
+            "3f4182f0-ba54-45d2-bc09-c5fc80855bae", 
             "bc8a5a44-be37-4c11-940a-88a633be81bc"
          ], 
          "key" : "INIT"
       }, 
+      "3f4182f0-ba54-45d2-bc09-c5fc80855bae" : { 
+         "class" : "PlayerVehicleOnLocationNode", 
+         "desc" : { 
+            "x" : "-100985", 
+            "y" : "-99737"
+         }, 
+         "child" : [ 
+            "29e82274-6fa3-4afd-a98b-0d1f8b9ada0e", 
+            "f9d9d882-b4d8-4999-a2a6-ab0fe21cba6d"
+         ]
+      }, 
+      "29e82274-6fa3-4afd-a98b-0d1f8b9ada0e" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-101195", 
+            "y" : "-99604"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Вы это видели? Кто-то бежал по обочине!", 
+         "customObject" : "Player", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true"
+      }, 
       "f9d9d882-b4d8-4999-a2a6-ab0fe21cba6d" : { 
          "class" : "WhoopNode", 
          "desc" : { 
-            "x" : "-100916", 
-            "y" : "-99719"
+            "x" : "-100881", 
+            "y" : "-99639"
          }, 
          "child" : [ 
          ], 
@@ -219,12 +244,12 @@
          "class" : "WhoopNode", 
          "desc" : { 
             "x" : "-100818", 
-            "y" : "-99488"
+            "y" : "-99489"
          }, 
          "child" : [ 
             "64e3aa82-7b0e-47a6-b21a-e4627c68ff6c"
          ], 
-         "text" : "Незнаю, но я четко слышал женский голос.", 
+         "text" : "Я слышал женский голос.", 
          "customObject" : "Fidel", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true"
@@ -232,8 +257,8 @@
       "64e3aa82-7b0e-47a6-b21a-e4627c68ff6c" : { 
          "class" : "WaitNode", 
          "desc" : { 
-            "x" : "-100732", 
-            "y" : "-99348"
+            "x" : "-100764", 
+            "y" : "-99383"
          }, 
          "child" : [ 
             "1cf6f00b-ce8d-4297-96c7-e343876153cd"
@@ -261,7 +286,7 @@
          "child" : [ 
             "65fb4ce4-7ade-422e-ab49-3b3ff8e9febb"
          ], 
-         "text" : "Думаю это просто ветер. Ветер перемен.", 
+         "text" : "Может это моя внучка! Соскучилась по деду.", 
          "customObject" : "Gexogen", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true"
@@ -292,13 +317,13 @@
       "d6a84832-1753-4ab4-aef7-67847eef68f5" : { 
          "class" : "WhoopNode", 
          "desc" : { 
-            "x" : "-100564", 
-            "y" : "-98856"
+            "x" : "-100695", 
+            "y" : "-98868"
          }, 
          "child" : [ 
             "df7cbb19-a55d-4136-ad51-7595cd3b6a54"
          ], 
-         "text" : "Я думал это у меня в голове червяк заговорил.", 
+         "text" : "Я думал это у меня в голове.", 
          "customObject" : "Alexander", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true"

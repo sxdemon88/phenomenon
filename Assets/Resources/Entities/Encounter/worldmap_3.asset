@@ -389,7 +389,7 @@ MonoBehaviour:
     _canSkip: 0
     _canAttack: 1
     _once: 1
-    _icon: {fileID: 21300000, guid: 86e0cb8e618989946806626095ccf626, type: 3}
+    _icon: {fileID: 21300000, guid: 118eef9edaca23d41b93c7af09c88e4e, type: 3}
     _desc: encounter.oksana_quest_3
     _enter: encounter.attack
     _showIntro: 0

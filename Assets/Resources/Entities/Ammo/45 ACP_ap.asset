@@ -16,7 +16,7 @@ MonoBehaviour:
     path: Entities/Ammo/Ammo models/45acp_ap
   m_Localization: ammo.45acp_ap
   Takeable: 1
-  Cost: 5
+  Cost: 9
   Weight: 16
   Collectable: 1
   Modifiers: []

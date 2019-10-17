@@ -21,7 +21,7 @@ MonoBehaviour:
   aiBehaviorTree:
     path: 
   Dialog:
-    path: 
+    path: Entities/Dialog/ph_oraculumv2
   OnPocket:
     path: Entities/Behavior/human.onpocket
   TalkAddDist: 0

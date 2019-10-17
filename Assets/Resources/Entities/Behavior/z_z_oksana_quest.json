@@ -3,10 +3,19 @@
       "d8820f5f-ea1c-40c4-ad89-151da60bf624" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-101150", 
-            "y" : "-100862"
+            "x" : "-101053", 
+            "y" : "-100970"
          }, 
          "child" : [ 
+            "4ccdce38-00bc-4b8b-8bad-9de0a3db99e2", 
+            "9ea17ad8-c070-481d-bd4c-6961f298a127", 
+            "f557bce4-16e9-45c7-a1d2-e669af7fe22c", 
+            "6777e756-22e4-4928-9c51-52c5a8fc016f", 
+            "f9c21d42-290c-4b42-b29d-1dfea8e1ea3d", 
+            "d2ef2265-f054-4488-a518-368635c220a8", 
+            "41bb18a1-eb77-450c-90ce-b7fb3301ec5a", 
+            "f0aab089-83b4-4525-b9c0-efae938a2d00", 
+            "1387ce80-965d-4181-9c30-355e706013c6", 
             "26aee769-1640-4891-856f-12069f956957", 
             "2342cabf-97e4-4bfb-88f5-d5d1193a0983", 
             "6d643356-583d-44b1-93ea-4e0bfb17e429", 
@@ -15,11 +24,191 @@
             "8a67156a-a9f3-4f48-8c0b-07913ad7bde5"
          ]
       }, 
+      "4ccdce38-00bc-4b8b-8bad-9de0a3db99e2" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-101358", 
+            "y" : "-101094"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnName" : "Exit_2", 
+         "pos" : [ 
+            "68", 
+            "0.1", 
+            "110"
+         ], 
+         "angles" : [ 
+            "0", 
+            "0", 
+            "0"
+         ]
+      }, 
+      "9ea17ad8-c070-481d-bd4c-6961f298a127" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-101576", 
+            "y" : "-101047"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnName" : "Exit", 
+         "pos" : [ 
+            "69", 
+            "0.1", 
+            "110"
+         ], 
+         "angles" : [ 
+            "0", 
+            "0", 
+            "0"
+         ]
+      }, 
+      "f557bce4-16e9-45c7-a1d2-e669af7fe22c" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-101663", 
+            "y" : "-100870"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnName" : "start_dog_1", 
+         "pos" : [ 
+            "78", 
+            "0.1", 
+            "70"
+         ], 
+         "angles" : [ 
+            "0", 
+            "0", 
+            "0"
+         ]
+      }, 
+      "6777e756-22e4-4928-9c51-52c5a8fc016f" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-101535", 
+            "y" : "-100867"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnName" : "start_dog_2", 
+         "pos" : [ 
+            "82", 
+            "0.1", 
+            "70"
+         ], 
+         "angles" : [ 
+            "0", 
+            "0", 
+            "0"
+         ]
+      }, 
+      "f9c21d42-290c-4b42-b29d-1dfea8e1ea3d" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-100087", 
+            "y" : "-100746"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnName" : "fidelp", 
+         "pos" : [ 
+            "70", 
+            "0.1", 
+            "66"
+         ], 
+         "angles" : [ 
+            "0", 
+            "0", 
+            "0"
+         ]
+      }, 
+      "d2ef2265-f054-4488-a518-368635c220a8" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-100225", 
+            "y" : "-100743"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnName" : "oksanap", 
+         "pos" : [ 
+            "77", 
+            "0.1", 
+            "66"
+         ], 
+         "angles" : [ 
+            "0", 
+            "0", 
+            "0"
+         ]
+      }, 
+      "41bb18a1-eb77-450c-90ce-b7fb3301ec5a" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-100359", 
+            "y" : "-100744"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnName" : "dogp", 
+         "pos" : [ 
+            "80", 
+            "0.1", 
+            "65"
+         ], 
+         "angles" : [ 
+            "0", 
+            "0", 
+            "0"
+         ]
+      }, 
+      "f0aab089-83b4-4525-b9c0-efae938a2d00" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-100498", 
+            "y" : "-100745"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnName" : "alex", 
+         "pos" : [ 
+            "77", 
+            "0.1", 
+            "64"
+         ], 
+         "angles" : [ 
+            "0", 
+            "0", 
+            "0"
+         ]
+      }, 
+      "1387ce80-965d-4181-9c30-355e706013c6" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-100635", 
+            "y" : "-100744"
+         }, 
+         "child" : [ 
+         ], 
+         "spawnName" : "gexo", 
+         "pos" : [ 
+            "78", 
+            "0.1", 
+            "66"
+         ], 
+         "angles" : [ 
+            "0", 
+            "0", 
+            "0"
+         ]
+      }, 
       "26aee769-1640-4891-856f-12069f956957" : { 
          "class" : "AddSpawnPointNode", 
          "desc" : { 
-            "x" : "-101842", 
-            "y" : "-100906"
+            "x" : "-101806", 
+            "y" : "-100939"
          }, 
          "child" : [ 
          ], 
@@ -38,8 +227,8 @@
       "2342cabf-97e4-4bfb-88f5-d5d1193a0983" : { 
          "class" : "AddSpawnPointNode", 
          "desc" : { 
-            "x" : "-101646", 
-            "y" : "-100818"
+            "x" : "-101657", 
+            "y" : "-100684"
          }, 
          "child" : [ 
          ], 
@@ -58,16 +247,16 @@
       "6d643356-583d-44b1-93ea-4e0bfb17e429" : { 
          "class" : "AddSpawnPointNode", 
          "desc" : { 
-            "x" : "-101445", 
-            "y" : "-100725"
+            "x" : "-101458", 
+            "y" : "-100684"
          }, 
          "child" : [ 
          ], 
          "spawnName" : "end_cam", 
          "pos" : [ 
-            "70", 
+            "78", 
             "42", 
-            "135"
+            "110"
          ], 
          "angles" : [ 
             "50", 
@@ -90,8 +279,8 @@
       "178edb75-97ac-48fe-a603-abdbfda1aaa2" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-102216", 
-            "y" : "-100519"
+            "x" : "-102369", 
+            "y" : "-100516"
          }, 
          "child" : [ 
             "63e45194-ea34-490b-b6c6-3b5d01b55b3d", 
@@ -102,7 +291,8 @@
             "800517ad-b201-4ac7-9734-c469edbbc636", 
             "986f1286-43a9-4946-8fb6-d69e8d5b7d67", 
             "edb2c389-aa6c-4082-8b56-eba95078f2c0", 
-            "fb2b79b0-daa0-4496-b32d-c985fa6eb872"
+            "fb2b79b0-daa0-4496-b32d-c985fa6eb872", 
+            "5ceb7e62-a526-4fe9-b4c7-01cdb0727983"
          ]
       }, 
       "63e45194-ea34-490b-b6c6-3b5d01b55b3d" : { 
@@ -167,8 +357,8 @@
       "5c29e452-49d8-4996-8dd6-32d6f390fc00" : { 
          "class" : "AddSpawnPointNode", 
          "desc" : { 
-            "x" : "-102588", 
-            "y" : "-100061"
+            "x" : "-102622", 
+            "y" : "-100066"
          }, 
          "child" : [ 
             "32284597-ef6c-4e25-8374-dc466a371edd"
@@ -188,8 +378,8 @@
       "32284597-ef6c-4e25-8374-dc466a371edd" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-102642", 
-            "y" : "-99894"
+            "x" : "-102627", 
+            "y" : "-99905"
          }, 
          "child" : [ 
          ], 
@@ -207,20 +397,6 @@
             "inventory" : [ 
             ], 
             "mainItemIndex" : "0", 
-            "item1" : { 
-               "class" : "Weapon", 
-               "count" : "1", 
-               "proto" : "svt38", 
-               "ammo" : { 
-                  "count" : "10", 
-                  "proto" : "7mm_54r_craft"
-               }
-            }, 
-            "armor" : { 
-               "class" : "Uniform", 
-               "count" : "1", 
-               "proto" : "armor1black"
-            }, 
             "conditions" : { 
                "toxic" : "0", 
                "toxicTimer" : "-1", 
@@ -241,8 +417,8 @@
       "6c8605f7-3f79-4fa6-a0dd-4ebd48233771" : { 
          "class" : "AddSpawnPointNode", 
          "desc" : { 
-            "x" : "-102393", 
-            "y" : "-100009"
+            "x" : "-102429", 
+            "y" : "-100026"
          }, 
          "child" : [ 
             "39670db7-e24b-466c-85a5-c24287e50e2d"
@@ -262,8 +438,8 @@
       "39670db7-e24b-466c-85a5-c24287e50e2d" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-102388", 
-            "y" : "-99872"
+            "x" : "-102424", 
+            "y" : "-99889"
          }, 
          "child" : [ 
          ], 
@@ -281,20 +457,6 @@
             "inventory" : [ 
             ], 
             "mainItemIndex" : "0", 
-            "item1" : { 
-               "class" : "Weapon", 
-               "count" : "1", 
-               "proto" : "svt38", 
-               "ammo" : { 
-                  "count" : "10", 
-                  "proto" : "7mm_54r_craft"
-               }
-            }, 
-            "armor" : { 
-               "class" : "Uniform", 
-               "count" : "1", 
-               "proto" : "armor1black"
-            }, 
             "conditions" : { 
                "toxic" : "0", 
                "toxicTimer" : "-1", 
@@ -315,8 +477,8 @@
       "9afee072-9d44-4b61-a994-55f32fa288a0" : { 
          "class" : "AddSpawnPointNode", 
          "desc" : { 
-            "x" : "-102094", 
-            "y" : "-100404"
+            "x" : "-102082", 
+            "y" : "-100366"
          }, 
          "child" : [ 
             "bd46dc4e-d32d-48c4-b321-aa99034410c1"
@@ -336,8 +498,8 @@
       "bd46dc4e-d32d-48c4-b321-aa99034410c1" : { 
          "class" : "SpawnCharacterNode", 
          "desc" : { 
-            "x" : "-102093", 
-            "y" : "-100232"
+            "x" : "-102084", 
+            "y" : "-100230"
          }, 
          "child" : [ 
          ], 
@@ -355,20 +517,6 @@
             "inventory" : [ 
             ], 
             "mainItemIndex" : "0", 
-            "item1" : { 
-               "class" : "Weapon", 
-               "count" : "1", 
-               "proto" : "svt38", 
-               "ammo" : { 
-                  "count" : "10", 
-                  "proto" : "7mm_54r_craft"
-               }
-            }, 
-            "armor" : { 
-               "class" : "Uniform", 
-               "count" : "1", 
-               "proto" : "armor1black"
-            }, 
             "conditions" : { 
                "toxic" : "0", 
                "toxicTimer" : "-1", 
@@ -389,8 +537,8 @@
       "f4624e4f-2163-44c2-a1f7-0ff2b73dacf0" : { 
          "class" : "AddSpawnPointNode", 
          "desc" : { 
-            "x" : "-101946", 
-            "y" : "-100401"
+            "x" : "-101944", 
+            "y" : "-100372"
          }, 
          "child" : [ 
             "ce764f01-d8d9-4c60-8a08-97873918ab6e"
@@ -429,20 +577,6 @@
             "inventory" : [ 
             ], 
             "mainItemIndex" : "0", 
-            "item1" : { 
-               "class" : "Weapon", 
-               "count" : "1", 
-               "proto" : "svt38", 
-               "ammo" : { 
-                  "count" : "10", 
-                  "proto" : "7mm_54r_craft"
-               }
-            }, 
-            "armor" : { 
-               "class" : "Uniform", 
-               "count" : "1", 
-               "proto" : "armor1black"
-            }, 
             "conditions" : { 
                "toxic" : "0", 
                "toxicTimer" : "-1", 
@@ -463,8 +597,8 @@
       "800517ad-b201-4ac7-9734-c469edbbc636" : { 
          "class" : "AddSpawnPointNode", 
          "desc" : { 
-            "x" : "-101798", 
-            "y" : "-100396"
+            "x" : "-101795", 
+            "y" : "-100367"
          }, 
          "child" : [ 
             "768b28f2-cf6f-46d5-bd32-b14ceed4f6b4"
@@ -503,20 +637,6 @@
             "inventory" : [ 
             ], 
             "mainItemIndex" : "0", 
-            "item1" : { 
-               "class" : "Weapon", 
-               "count" : "1", 
-               "proto" : "svt38", 
-               "ammo" : { 
-                  "count" : "10", 
-                  "proto" : "7mm_54r_craft"
-               }
-            }, 
-            "armor" : { 
-               "class" : "Uniform", 
-               "count" : "1", 
-               "proto" : "armor1black"
-            }, 
             "conditions" : { 
                "toxic" : "0", 
                "toxicTimer" : "-1", 
@@ -537,8 +657,8 @@
       "986f1286-43a9-4946-8fb6-d69e8d5b7d67" : { 
          "class" : "AddSpawnPointNode", 
          "desc" : { 
-            "x" : "-101654", 
-            "y" : "-100396"
+            "x" : "-101650", 
+            "y" : "-100367"
          }, 
          "child" : [ 
             "66b56a13-74c4-4e6a-bd1b-79c23775b9ca"
@@ -577,20 +697,6 @@
             "inventory" : [ 
             ], 
             "mainItemIndex" : "0", 
-            "item1" : { 
-               "class" : "Weapon", 
-               "count" : "1", 
-               "proto" : "svt38", 
-               "ammo" : { 
-                  "count" : "10", 
-                  "proto" : "7mm_54r_craft"
-               }
-            }, 
-            "armor" : { 
-               "class" : "Uniform", 
-               "count" : "1", 
-               "proto" : "armor1black"
-            }, 
             "conditions" : { 
                "toxic" : "0", 
                "toxicTimer" : "-1", 
@@ -611,8 +717,8 @@
       "edb2c389-aa6c-4082-8b56-eba95078f2c0" : { 
          "class" : "AddSpawnPointNode", 
          "desc" : { 
-            "x" : "-101517", 
-            "y" : "-100398"
+            "x" : "-101510", 
+            "y" : "-100366"
          }, 
          "child" : [ 
             "09c429bc-2b4e-4214-8474-8538e2ce8089"
@@ -651,20 +757,6 @@
             "inventory" : [ 
             ], 
             "mainItemIndex" : "0", 
-            "item1" : { 
-               "class" : "Weapon", 
-               "count" : "1", 
-               "proto" : "svt38", 
-               "ammo" : { 
-                  "count" : "10", 
-                  "proto" : "7mm_54r_craft"
-               }
-            }, 
-            "armor" : { 
-               "class" : "Uniform", 
-               "count" : "1", 
-               "proto" : "armor1black"
-            }, 
             "conditions" : { 
                "toxic" : "0", 
                "toxicTimer" : "-1", 
@@ -685,8 +777,8 @@
       "fb2b79b0-daa0-4496-b32d-c985fa6eb872" : { 
          "class" : "AddSpawnPointNode", 
          "desc" : { 
-            "x" : "-101384", 
-            "y" : "-100398"
+            "x" : "-101375", 
+            "y" : "-100359"
          }, 
          "child" : [ 
             "4646b5d9-89c6-4021-a6af-19fff474d08e"
@@ -725,20 +817,6 @@
             "inventory" : [ 
             ], 
             "mainItemIndex" : "0", 
-            "item1" : { 
-               "class" : "Weapon", 
-               "count" : "1", 
-               "proto" : "svt38", 
-               "ammo" : { 
-                  "count" : "10", 
-                  "proto" : "7mm_54r_craft"
-               }
-            }, 
-            "armor" : { 
-               "class" : "Uniform", 
-               "count" : "1", 
-               "proto" : "armor1black"
-            }, 
             "conditions" : { 
                "toxic" : "0", 
                "toxicTimer" : "-1", 
@@ -756,16 +834,306 @@
             "hairColor" : "Blond_2"
          }
       }, 
-      "c62d4e67-95c9-4802-bd01-e62191ff0fc8" : { 
-         "class" : "CharacterTeleportNode", 
+      "5ceb7e62-a526-4fe9-b4c7-01cdb0727983" : { 
+         "class" : "AddSpawnPointNode", 
          "desc" : { 
-            "x" : "-101247", 
-            "y" : "-100580"
+            "x" : "-102184", 
+            "y" : "-100102"
+         }, 
+         "child" : [ 
+            "2e86bd22-aa51-4d5e-807b-4518ba77930c"
+         ], 
+         "spawnName" : "attack_point_1", 
+         "pos" : [ 
+            "95", 
+            "0.1", 
+            "59"
+         ], 
+         "angles" : [ 
+            "0", 
+            "0", 
+            "0"
+         ]
+      }, 
+      "2e86bd22-aa51-4d5e-807b-4518ba77930c" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-102183", 
+            "y" : "-99996"
+         }, 
+         "child" : [ 
+            "d7ec17cc-5588-4f0f-8a77-4cb55e7965e2"
+         ], 
+         "spawnName" : "attack_point_2", 
+         "pos" : [ 
+            "91", 
+            "0.1", 
+            "51"
+         ], 
+         "angles" : [ 
+            "0", 
+            "0", 
+            "0"
+         ]
+      }, 
+      "d7ec17cc-5588-4f0f-8a77-4cb55e7965e2" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-102184", 
+            "y" : "-99894"
+         }, 
+         "child" : [ 
+            "fe70cd0c-fbb2-487c-b1c1-49ec904d7379"
+         ], 
+         "spawnName" : "attack_point_3", 
+         "pos" : [ 
+            "75", 
+            "0.1", 
+            "55"
+         ], 
+         "angles" : [ 
+            "0", 
+            "0", 
+            "0"
+         ]
+      }, 
+      "fe70cd0c-fbb2-487c-b1c1-49ec904d7379" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-102186", 
+            "y" : "-99806"
+         }, 
+         "child" : [ 
+            "dd0c8dab-2420-46ec-be0d-481b8e4e8535"
+         ], 
+         "spawnName" : "attack_point_4", 
+         "pos" : [ 
+            "67", 
+            "0.1", 
+            "63"
+         ], 
+         "angles" : [ 
+            "0", 
+            "0", 
+            "0"
+         ]
+      }, 
+      "dd0c8dab-2420-46ec-be0d-481b8e4e8535" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-102185", 
+            "y" : "-99714"
+         }, 
+         "child" : [ 
+            "36ec8694-0a47-4c7d-97d4-4b00bc8d82e6"
+         ], 
+         "spawnName" : "attack_point_5", 
+         "pos" : [ 
+            "87", 
+            "0.1", 
+            "84"
+         ], 
+         "angles" : [ 
+            "0", 
+            "0", 
+            "0"
+         ]
+      }, 
+      "36ec8694-0a47-4c7d-97d4-4b00bc8d82e6" : { 
+         "class" : "AddSpawnPointNode", 
+         "desc" : { 
+            "x" : "-102182", 
+            "y" : "-99624"
          }, 
          "child" : [ 
          ], 
+         "spawnName" : "attack_point_6", 
+         "pos" : [ 
+            "69", 
+            "0.1", 
+            "84"
+         ], 
+         "angles" : [ 
+            "0", 
+            "0", 
+            "0"
+         ]
+      }, 
+      "c62d4e67-95c9-4802-bd01-e62191ff0fc8" : { 
+         "class" : "CharacterTeleportNode", 
+         "desc" : { 
+            "x" : "-99761", 
+            "y" : "-100657"
+         }, 
+         "child" : [ 
+            "0953557e-abf1-4346-937c-8bc639383e69", 
+            "bfeeef64-526f-48a0-8d5a-c59c4910d945", 
+            "8ad4a08f-df81-4b6b-bb01-f448044a8e90", 
+            "22e117de-a18b-4106-bba6-a54ede38c52f", 
+            "c059d8d7-d916-4296-b51a-3560c0cc9957"
+         ], 
          "objectName" : "Player", 
          "pointName" : "start_event"
+      }, 
+      "0953557e-abf1-4346-937c-8bc639383e69" : { 
+         "class" : "HasTeamMateNode", 
+         "desc" : { 
+            "x" : "-100346", 
+            "y" : "-100445"
+         }, 
+         "child" : [ 
+            "4e889da6-f38c-46a0-a961-b7c51764317e", 
+            "94b7bec0-25ba-4a8f-9e0e-cc247e15dcde"
+         ], 
+         "teammate" : "Fidel"
+      }, 
+      "4e889da6-f38c-46a0-a961-b7c51764317e" : { 
+         "class" : "CharacterTeleportNode", 
+         "desc" : { 
+            "x" : "-100421", 
+            "y" : "-100323"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Fidel", 
+         "pointName" : "fidelp"
+      }, 
+      "94b7bec0-25ba-4a8f-9e0e-cc247e15dcde" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100227", 
+            "y" : "-100316"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "bfeeef64-526f-48a0-8d5a-c59c4910d945" : { 
+         "class" : "HasTeamMateNode", 
+         "desc" : { 
+            "x" : "-100000", 
+            "y" : "-100422"
+         }, 
+         "child" : [ 
+            "0b9946d1-ff6a-41a4-9835-27f0ec6b6f46", 
+            "680ab90a-411c-401c-b34d-3ff366933de6"
+         ], 
+         "teammate" : "Gexogen"
+      }, 
+      "0b9946d1-ff6a-41a4-9835-27f0ec6b6f46" : { 
+         "class" : "CharacterTeleportNode", 
+         "desc" : { 
+            "x" : "-100076", 
+            "y" : "-100299"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Gexogen", 
+         "pointName" : "gexo"
+      }, 
+      "680ab90a-411c-401c-b34d-3ff366933de6" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99882", 
+            "y" : "-100292"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "8ad4a08f-df81-4b6b-bb01-f448044a8e90" : { 
+         "class" : "HasTeamMateNode", 
+         "desc" : { 
+            "x" : "-99612", 
+            "y" : "-100412"
+         }, 
+         "child" : [ 
+            "494b07f5-6ebb-4cbb-8d6c-bdf2278ece0a", 
+            "056fb95b-5a46-4ea7-aeca-3d9d19659917"
+         ], 
+         "teammate" : "Alexander"
+      }, 
+      "494b07f5-6ebb-4cbb-8d6c-bdf2278ece0a" : { 
+         "class" : "CharacterTeleportNode", 
+         "desc" : { 
+            "x" : "-99687", 
+            "y" : "-100290"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Alexander", 
+         "pointName" : "alex"
+      }, 
+      "056fb95b-5a46-4ea7-aeca-3d9d19659917" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99493", 
+            "y" : "-100283"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "22e117de-a18b-4106-bba6-a54ede38c52f" : { 
+         "class" : "HasTeamMateNode", 
+         "desc" : { 
+            "x" : "-99279", 
+            "y" : "-100398"
+         }, 
+         "child" : [ 
+            "51b35ced-65b3-4670-ba05-6a98bd85854e", 
+            "b8362098-e429-4fe4-94a1-0069223df66f"
+         ], 
+         "teammate" : "oksana"
+      }, 
+      "51b35ced-65b3-4670-ba05-6a98bd85854e" : { 
+         "class" : "CharacterTeleportNode", 
+         "desc" : { 
+            "x" : "-99354", 
+            "y" : "-100276"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "oksana", 
+         "pointName" : "oksanap"
+      }, 
+      "b8362098-e429-4fe4-94a1-0069223df66f" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99160", 
+            "y" : "-100269"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "c059d8d7-d916-4296-b51a-3560c0cc9957" : { 
+         "class" : "HasTeamMateNode", 
+         "desc" : { 
+            "x" : "-98960", 
+            "y" : "-100376"
+         }, 
+         "child" : [ 
+            "2c81b9cf-84c6-4f4f-8bbb-ede2906ae3c5", 
+            "fd294c2e-4c48-48c3-a093-e8db9c67909d"
+         ], 
+         "teammate" : "Wolfter"
+      }, 
+      "2c81b9cf-84c6-4f4f-8bbb-ede2906ae3c5" : { 
+         "class" : "CharacterTeleportNode", 
+         "desc" : { 
+            "x" : "-99034", 
+            "y" : "-100254"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Wolfter", 
+         "pointName" : "dogp"
+      }, 
+      "fd294c2e-4c48-48c3-a093-e8db9c67909d" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-98841", 
+            "y" : "-100247"
+         }, 
+         "child" : [ 
+         ]
       }, 
       "8a67156a-a9f3-4f48-8c0b-07913ad7bde5" : { 
          "class" : "HasKeywordNode", 
@@ -803,8 +1171,8 @@
       "9444d049-aed8-4156-a27e-c765b7495fc1" : { 
          "class" : "PlayerWaitNode", 
          "desc" : { 
-            "x" : "-100796", 
-            "y" : "-100230"
+            "x" : "-100811", 
+            "y" : "-100232"
          }, 
          "child" : [ 
             "6bccda81-67af-4461-8e77-d0f6dca7e658"
@@ -815,10 +1183,16 @@
       "6bccda81-67af-4461-8e77-d0f6dca7e658" : { 
          "class" : "CinematicBeginNode", 
          "desc" : { 
-            "x" : "-100797", 
-            "y" : "-100166"
+            "x" : "-100810", 
+            "y" : "-100179"
          }, 
          "child" : [ 
+            "1d5f12e1-0a27-4521-b7e8-2a5f58bdd73b", 
+            "8514b0ab-6a32-43af-9761-764ab144ef49", 
+            "b21e721c-afdf-410f-ad96-1655722e4b54", 
+            "6628d9a3-510d-4c16-b578-c2fb89397a3b", 
+            "eb1928fe-eeb9-480b-80f6-c802e537262a", 
+            "548104f1-b1b1-48b6-b766-61fbf649f900", 
             "fa8d28f8-9c88-42a0-b20e-bc4d318bac85", 
             "d4356e77-fe96-4b7e-bb89-303c63057273", 
             "8470f7c6-6209-4f7a-93db-290de4b158aa", 
@@ -826,11 +1200,101 @@
          ], 
          "immediately" : "true"
       }, 
+      "1d5f12e1-0a27-4521-b7e8-2a5f58bdd73b" : { 
+         "class" : "CharacterMoveToNode", 
+         "desc" : { 
+            "x" : "-102003", 
+            "y" : "-99586"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "point_dog_2", 
+         "pointName" : "attack_point_3", 
+         "waitEnd" : "false", 
+         "relative" : "false", 
+         "run" : "false", 
+         "keepCourse" : "false"
+      }, 
+      "8514b0ab-6a32-43af-9761-764ab144ef49" : { 
+         "class" : "CharacterMoveToNode", 
+         "desc" : { 
+            "x" : "-101367", 
+            "y" : "-99577"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "point_dog_4", 
+         "pointName" : "attack_point_6", 
+         "waitEnd" : "false", 
+         "relative" : "false", 
+         "run" : "false", 
+         "keepCourse" : "false"
+      }, 
+      "b21e721c-afdf-410f-ad96-1655722e4b54" : { 
+         "class" : "CharacterMoveToNode", 
+         "desc" : { 
+            "x" : "-101876", 
+            "y" : "-99586"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "point_dog_6", 
+         "pointName" : "attack_point_1", 
+         "waitEnd" : "false", 
+         "relative" : "false", 
+         "run" : "false", 
+         "keepCourse" : "false"
+      }, 
+      "6628d9a3-510d-4c16-b578-c2fb89397a3b" : { 
+         "class" : "CharacterMoveToNode", 
+         "desc" : { 
+            "x" : "-101751", 
+            "y" : "-99584"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "point_dog_7", 
+         "pointName" : "attack_point_2", 
+         "waitEnd" : "false", 
+         "relative" : "false", 
+         "run" : "false", 
+         "keepCourse" : "false"
+      }, 
+      "eb1928fe-eeb9-480b-80f6-c802e537262a" : { 
+         "class" : "CharacterMoveToNode", 
+         "desc" : { 
+            "x" : "-101626", 
+            "y" : "-99581"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "point_dog_3", 
+         "pointName" : "attack_point_4", 
+         "waitEnd" : "false", 
+         "relative" : "false", 
+         "run" : "false", 
+         "keepCourse" : "false"
+      }, 
+      "548104f1-b1b1-48b6-b766-61fbf649f900" : { 
+         "class" : "CharacterMoveToNode", 
+         "desc" : { 
+            "x" : "-101498", 
+            "y" : "-99579"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "point_dog_5", 
+         "pointName" : "attack_point_5", 
+         "waitEnd" : "false", 
+         "relative" : "false", 
+         "run" : "false", 
+         "keepCourse" : "false"
+      }, 
       "fa8d28f8-9c88-42a0-b20e-bc4d318bac85" : { 
          "class" : "CharacterMoveToNode", 
          "desc" : { 
-            "x" : "-101617", 
-            "y" : "-99882"
+            "x" : "-101398", 
+            "y" : "-99963"
          }, 
          "child" : [ 
          ], 
@@ -844,13 +1308,13 @@
       "d4356e77-fe96-4b7e-bb89-303c63057273" : { 
          "class" : "CharacterMoveToNode", 
          "desc" : { 
-            "x" : "-101468", 
-            "y" : "-99877"
+            "x" : "-101255", 
+            "y" : "-99962"
          }, 
          "child" : [ 
          ], 
          "objectName" : "dog_9", 
-         "pointName" : "start_event2", 
+         "pointName" : "start_dog_1", 
          "waitEnd" : "false", 
          "relative" : "false", 
          "run" : "false", 
@@ -859,13 +1323,13 @@
       "8470f7c6-6209-4f7a-93db-290de4b158aa" : { 
          "class" : "CharacterMoveToNode", 
          "desc" : { 
-            "x" : "-101287", 
-            "y" : "-99867"
+            "x" : "-101106", 
+            "y" : "-99958"
          }, 
          "child" : [ 
          ], 
          "objectName" : "dog_8", 
-         "pointName" : "start_event2", 
+         "pointName" : "start_dog_2", 
          "waitEnd" : "false", 
          "relative" : "false", 
          "run" : "false", 
@@ -889,9 +1353,10 @@
             "y" : "-99964"
          }, 
          "child" : [ 
-            "bc8a5a44-be37-4c11-940a-88a633be81bc"
+            "bc8a5a44-be37-4c11-940a-88a633be81bc", 
+            "49730a31-7961-47b9-bff2-ae5647e10ec7"
          ], 
-         "text" : "Мне это кажется или он в шляпе?", 
+         "text" : "Спокойно. Они идут к нам!", 
          "customObject" : "Player", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true"
@@ -899,8 +1364,8 @@
       "bc8a5a44-be37-4c11-940a-88a633be81bc" : { 
          "class" : "WaitNode", 
          "desc" : { 
-            "x" : "-100807", 
-            "y" : "-99860"
+            "x" : "-100827", 
+            "y" : "-99854"
          }, 
          "child" : [ 
             "ece2afe4-9ab9-4aad-9621-1e9f5b46a4e6"
@@ -910,8 +1375,8 @@
       "ece2afe4-9ab9-4aad-9621-1e9f5b46a4e6" : { 
          "class" : "HasTeamMateNode", 
          "desc" : { 
-            "x" : "-100809", 
-            "y" : "-99788"
+            "x" : "-100856", 
+            "y" : "-99784"
          }, 
          "child" : [ 
             "4d2f7943-2a7c-4159-9dec-f5dda96e5c09", 
@@ -936,19 +1401,19 @@
       "64e3aa82-7b0e-47a6-b21a-e4627c68ff6c" : { 
          "class" : "WaitNode", 
          "desc" : { 
-            "x" : "-101098", 
-            "y" : "-99522"
+            "x" : "-101007", 
+            "y" : "-99534"
          }, 
          "child" : [ 
             "1cf6f00b-ce8d-4297-96c7-e343876153cd"
          ], 
-         "waitTime" : "2"
+         "waitTime" : "3"
       }, 
       "1cf6f00b-ce8d-4297-96c7-e343876153cd" : { 
          "class" : "HasTeamMateNode", 
          "desc" : { 
-            "x" : "-100801", 
-            "y" : "-99402"
+            "x" : "-100807", 
+            "y" : "-99439"
          }, 
          "child" : [ 
             "9449b33f-d4e4-4e7e-8b4c-38f66df4ee02", 
@@ -959,13 +1424,13 @@
       "9449b33f-d4e4-4e7e-8b4c-38f66df4ee02" : { 
          "class" : "WhoopNode", 
          "desc" : { 
-            "x" : "-101099", 
-            "y" : "-99265"
+            "x" : "-101023", 
+            "y" : "-99319"
          }, 
          "child" : [ 
             "65fb4ce4-7ade-422e-ab49-3b3ff8e9febb"
          ], 
-         "text" : "Кто это? Пушкин?", 
+         "text" : "Интересный персонаж. И шляпа как у Пушкина.", 
          "customObject" : "Gexogen", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true"
@@ -973,13 +1438,13 @@
       "65fb4ce4-7ade-422e-ab49-3b3ff8e9febb" : { 
          "class" : "WaitNode", 
          "desc" : { 
-            "x" : "-100980", 
-            "y" : "-99139"
+            "x" : "-100971", 
+            "y" : "-99217"
          }, 
          "child" : [ 
             "851ee6ce-aa41-4778-997d-723b54828e14"
          ], 
-         "waitTime" : "1"
+         "waitTime" : "3"
       }, 
       "851ee6ce-aa41-4778-997d-723b54828e14" : { 
          "class" : "HasTeamMateNode", 
@@ -1002,7 +1467,7 @@
          "child" : [ 
             "c127a3ec-6469-4ea1-971d-7ef3115d291f"
          ], 
-         "text" : "Чуствую будет заварушка. Червяк говорит... беги.", 
+         "text" : "Чуствую будет заварушка.", 
          "customObject" : "Alexander", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true"
@@ -1016,13 +1481,13 @@
          "child" : [ 
             "de81a0bb-dce1-4566-a852-9d4b9e91d335"
          ], 
-         "waitTime" : "1"
+         "waitTime" : "3"
       }, 
       "de81a0bb-dce1-4566-a852-9d4b9e91d335" : { 
          "class" : "HasTeamMateNode", 
          "desc" : { 
-            "x" : "-100582", 
-            "y" : "-98662"
+            "x" : "-100589", 
+            "y" : "-98690"
          }, 
          "child" : [ 
             "e8983386-4765-4406-9278-ebc24861e8f9", 
@@ -1034,12 +1499,12 @@
          "class" : "WhoopNode", 
          "desc" : { 
             "x" : "-100957", 
-            "y" : "-98605"
+            "y" : "-98583"
          }, 
          "child" : [ 
             "2bdbbe94-96fd-4537-b554-20f12e3cc989"
          ], 
-         "text" : "Вот мы и встретились! Это видимо Оракул. Но откуда столько слепых псов?", 
+         "text" : "Вот мы и встретились!Но откуда столько слепых псов?", 
          "customObject" : "oksana", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true"
@@ -1047,13 +1512,13 @@
       "2bdbbe94-96fd-4537-b554-20f12e3cc989" : { 
          "class" : "WaitNode", 
          "desc" : { 
-            "x" : "-100911", 
-            "y" : "-98459"
+            "x" : "-100903", 
+            "y" : "-98471"
          }, 
          "child" : [ 
             "df7cbb19-a55d-4136-ad51-7595cd3b6a54"
          ], 
-         "waitTime" : "1"
+         "waitTime" : "3"
       }, 
       "df7cbb19-a55d-4136-ad51-7595cd3b6a54" : { 
          "class" : "CinematicEndNode", 
@@ -1069,8 +1534,8 @@
       "ca6997f4-472d-4996-9d3a-ca8b7acab19a" : { 
          "class" : "CharacterRotateToNode", 
          "desc" : { 
-            "x" : "-100834", 
-            "y" : "-98187"
+            "x" : "-100980", 
+            "y" : "-98196"
          }, 
          "child" : [ 
          ], 
@@ -1081,8 +1546,8 @@
       "91bd67c3-dd7f-4117-9810-4a530a9848f8" : { 
          "class" : "PlayerWaitNode", 
          "desc" : { 
-            "x" : "-100665", 
-            "y" : "-98096"
+            "x" : "-100642", 
+            "y" : "-98100"
          }, 
          "child" : [ 
             "a1e49072-2ea0-437f-965a-0bc0ed37c101"
@@ -1093,8 +1558,42 @@
       "a1e49072-2ea0-437f-965a-0bc0ed37c101" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100665", 
-            "y" : "-98033"
+            "x" : "-100640", 
+            "y" : "-98036"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "49730a31-7961-47b9-bff2-ae5647e10ec7" : { 
+         "class" : "HasTeamMateNode", 
+         "desc" : { 
+            "x" : "-100585", 
+            "y" : "-99832"
+         }, 
+         "child" : [ 
+            "1b0c56a9-ad82-4f53-a85f-7dd773d3bd81", 
+            "2ab515c9-8e6f-40b6-ac2f-612fc6b32226"
+         ], 
+         "teammate" : "Wolfter"
+      }, 
+      "1b0c56a9-ad82-4f53-a85f-7dd773d3bd81" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-100701", 
+            "y" : "-99722"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Гав-Гав. Ррррр", 
+         "customObject" : "Wolfter", 
+         "waitEnd" : "false", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "2ab515c9-8e6f-40b6-ac2f-612fc6b32226" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100375.4", 
+            "y" : "-99688.6"
          }, 
          "child" : [ 
          ]
@@ -1106,31 +1605,32 @@
             "y" : "-100186"
          }, 
          "child" : [ 
-            "7452593a-e2a2-4f81-89b1-cb9a0bd6eb0e"
+            "d633b2da-fb22-44a4-a2b6-bddec70024a2"
          ], 
          "pointName" : "end_cam", 
          "waitEnd" : "true", 
-         "time" : "5"
+         "time" : "9"
       }, 
-      "7452593a-e2a2-4f81-89b1-cb9a0bd6eb0e" : { 
+      "d633b2da-fb22-44a4-a2b6-bddec70024a2" : { 
+         "class" : "FlashSplashNode", 
+         "desc" : { 
+            "x" : "-100585", 
+            "y" : "-100124"
+         }, 
+         "child" : [ 
+            "2f347293-c740-494c-93fa-cc9003415316"
+         ], 
+         "waitEnd" : "false", 
+         "waitTime" : "1.5"
+      }, 
+      "2f347293-c740-494c-93fa-cc9003415316" : { 
          "class" : "CameraSnapNode", 
          "desc" : { 
-            "x" : "-100572", 
-            "y" : "-100111"
+            "x" : "-100575", 
+            "y" : "-100080"
          }, 
          "child" : [ 
-         ], 
-         "orientation" : "true"
-      }, 
-      "59b92852-d145-4fb1-8ee0-3547ff461782" : { 
-         "class" : "QuestBeginNode", 
-         "desc" : { 
-            "x" : "-103693", 
-            "y" : "-100723"
-         }, 
-         "child" : [ 
-         ], 
-         "quest_key" : "CITY.BOOK_END"
+         ]
       }
    }, 
    "entry" : "d8820f5f-ea1c-40c4-ad89-151da60bf624"

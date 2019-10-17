@@ -16,7 +16,7 @@ MonoBehaviour:
     path: Entities/Ammo/Ammo models/357_jhp
   m_Localization: ammo.357_jhp
   Takeable: 1
-  Cost: 3
+  Cost: 15
   Weight: 15
   Collectable: 1
   Modifiers: []
