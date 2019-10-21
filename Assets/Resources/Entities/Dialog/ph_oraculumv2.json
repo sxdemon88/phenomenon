@@ -38,7 +38,8 @@
             "y" : "-101432"
          }, 
          "child" : [ 
-            "128a4616-bfef-414b-ac70-accbf47232d9"
+            "128a4616-bfef-414b-ac70-accbf47232d9", 
+            "b5b889ab-ab22-4b2b-b463-52741146e1a0"
          ], 
          "key" : "INIT"
       }, 
@@ -154,8 +155,8 @@
       "4b999644-57db-4be8-bf13-62b17f335736" : { 
          "class" : "DialogPortraitNode", 
          "desc" : { 
-            "x" : "-103258", 
-            "y" : "-98119"
+            "x" : "-103336", 
+            "y" : "-98147"
          }, 
          "child" : [ 
          ], 
@@ -353,8 +354,8 @@
       "01d8fe96-a9d5-481e-b8ce-66078a0d4380" : { 
          "class" : "DialogPhraseNode", 
          "desc" : { 
-            "x" : "-102870", 
-            "y" : "-98267"
+            "x" : "-102908", 
+            "y" : "-98277"
          }, 
          "child" : [ 
             "4b999644-57db-4be8-bf13-62b17f335736", 
@@ -365,8 +366,8 @@
       "bbc57194-7659-4453-a4ea-be7f11fe059c" : { 
          "class" : "DialogAnswerNode", 
          "desc" : { 
-            "x" : "-102857", 
-            "y" : "-98056"
+            "x" : "-102875", 
+            "y" : "-98077"
          }, 
          "child" : [ 
             "77361dc4-65d3-459d-9473-d503a22b7ab4"
@@ -376,8 +377,8 @@
       "77361dc4-65d3-459d-9473-d503a22b7ab4" : { 
          "class" : "DialogPhraseNode", 
          "desc" : { 
-            "x" : "-102860", 
-            "y" : "-97977"
+            "x" : "-102874", 
+            "y" : "-97990"
          }, 
          "child" : [ 
             "43b947e9-55b5-40e5-aa79-42cb5e9c53d4", 
@@ -388,8 +389,8 @@
       "43b947e9-55b5-40e5-aa79-42cb5e9c53d4" : { 
          "class" : "DialogAnswerNode", 
          "desc" : { 
-            "x" : "-103048", 
-            "y" : "-97793"
+            "x" : "-103187", 
+            "y" : "-97747"
          }, 
          "child" : [ 
             "a45cee17-a756-46cc-8ac0-41cafc289df8"
@@ -410,8 +411,8 @@
       "21052c20-eb0e-435e-b2e6-93550342c84b" : { 
          "class" : "DialogContinueNode", 
          "desc" : { 
-            "x" : "-103195", 
-            "y" : "-97516"
+            "x" : "-103199", 
+            "y" : "-97508"
          }, 
          "child" : [ 
             "874a4fa5-3416-46ba-adc9-89eb523622f3"
@@ -420,8 +421,8 @@
       "874a4fa5-3416-46ba-adc9-89eb523622f3" : { 
          "class" : "DialogPhraseNode", 
          "desc" : { 
-            "x" : "-103215", 
-            "y" : "-97434"
+            "x" : "-103199", 
+            "y" : "-97456"
          }, 
          "child" : [ 
             "88d029b2-d981-4121-80a2-c513e16fdec0"
@@ -435,19 +436,64 @@
             "y" : "-97299"
          }, 
          "child" : [ 
+            "3a65f55b-3a2a-49ba-a994-65aa71d6445f", 
+            "352fcb26-7fe9-4e80-ac89-88d1d056999d", 
             "3a23a1f2-4c1d-4797-bf65-b6dc830deeb6", 
             "2bf164e8-6804-4ef4-8a1c-2cd4a7c374df", 
             "89ddc361-bf81-4b66-8f14-d0e8f144cb99", 
+            "918a82c3-18bf-4265-9510-ca5fd81a8a63", 
+            "f1529b08-954b-468f-981d-8c905a8e8983"
+         ]
+      }, 
+      "3a65f55b-3a2a-49ba-a994-65aa71d6445f" : { 
+         "class" : "PlayAnimNode", 
+         "desc" : { 
+            "x" : "-103510", 
+            "y" : "-97351"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "oraculumv2", 
+         "anim" : "UseConsumable", 
+         "fade" : "true"
+      }, 
+      "352fcb26-7fe9-4e80-ac89-88d1d056999d" : { 
+         "class" : "HasTeamMateNode", 
+         "desc" : { 
+            "x" : "-104206", 
+            "y" : "-97206"
+         }, 
+         "child" : [ 
             "09cab050-2db4-4027-98b1-854bf338b160", 
-            "0a439a84-a49b-474b-9bd0-299ed5afdbd0", 
-            "89f9dad6-f927-4518-8f8d-1c1239469d8b"
+            "6e814e37-be99-4ed3-b1a7-bc24ebdbc525"
+         ], 
+         "teammate" : "Gexogen"
+      }, 
+      "09cab050-2db4-4027-98b1-854bf338b160" : { 
+         "class" : "CharacterStunNode", 
+         "desc" : { 
+            "x" : "-104320", 
+            "y" : "-97079"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Gexogen", 
+         "stunMode" : "MoveToUnlimStun"
+      }, 
+      "6e814e37-be99-4ed3-b1a7-bc24ebdbc525" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-104061", 
+            "y" : "-97093"
+         }, 
+         "child" : [ 
          ]
       }, 
       "3a23a1f2-4c1d-4797-bf65-b6dc830deeb6" : { 
          "class" : "DialogPhraseNode", 
          "desc" : { 
-            "x" : "-103255", 
-            "y" : "-97155"
+            "x" : "-103281", 
+            "y" : "-97124"
          }, 
          "child" : [ 
             "cb44a97c-15c7-499e-a619-13594ce664fb"
@@ -457,8 +503,8 @@
       "cb44a97c-15c7-499e-a619-13594ce664fb" : { 
          "class" : "DialogContinueNode", 
          "desc" : { 
-            "x" : "-103244", 
-            "y" : "-97027"
+            "x" : "-103281", 
+            "y" : "-97001"
          }, 
          "child" : [ 
             "be1bb625-df01-4afe-a25a-6fec71bc838b"
@@ -467,8 +513,8 @@
       "be1bb625-df01-4afe-a25a-6fec71bc838b" : { 
          "class" : "DialogPhraseNode", 
          "desc" : { 
-            "x" : "-103269", 
-            "y" : "-96929"
+            "x" : "-103280", 
+            "y" : "-96942"
          }, 
          "child" : [ 
             "3e9dc31a-152f-49dd-81ae-89f5c6649f9d"
@@ -530,66 +576,158 @@
       "c9416e53-2d1b-4f5e-a914-c3228eba43b4" : { 
          "class" : "DialogEndNode", 
          "desc" : { 
-            "x" : "-103372", 
-            "y" : "-96381"
+            "x" : "-103305", 
+            "y" : "-96363"
          }, 
          "child" : [ 
+            "ff6599ee-d101-4ebd-b7f4-5b6fbfb82bf1", 
+            "8c347238-9dd4-4f62-9600-9ee80351e87e", 
+            "9668e36f-4bc9-45cb-9b32-d7c9ddd61908", 
             "01b09c91-4384-4709-ab58-85bbea85d2ad", 
             "9831d339-3d5f-4168-b59b-204532bcf97a", 
-            "0c8888b8-7316-46b2-bfdf-4bd601a38afc", 
-            "75472fe2-5b78-4920-bc1e-21010b4b688a", 
-            "53f30976-ef3e-4c6c-81de-80651370005e"
+            "53f30976-ef3e-4c6c-81de-80651370005e", 
+            "05f38250-89d6-45ad-90fc-f93f3671af10", 
+            "1d5846af-28c1-45f3-9e7c-87b81a5d9af2"
          ]
       }, 
-      "01b09c91-4384-4709-ab58-85bbea85d2ad" : { 
+      "ff6599ee-d101-4ebd-b7f4-5b6fbfb82bf1" : { 
+         "class" : "HasTeamMateNode", 
+         "desc" : { 
+            "x" : "-104729", 
+            "y" : "-96234"
+         }, 
+         "child" : [ 
+            "c89a271e-ff07-4304-a0d3-ddd821634e9d", 
+            "02dc9c9b-fd90-454d-bf5f-9985267ed1bb"
+         ], 
+         "teammate" : "Alexander"
+      }, 
+      "c89a271e-ff07-4304-a0d3-ddd821634e9d" : { 
          "class" : "CharacterStunNode", 
          "desc" : { 
-            "x" : "-103639", 
-            "y" : "-96223"
+            "x" : "-104787", 
+            "y" : "-96119"
          }, 
          "child" : [ 
          ], 
-         "objectName" : "oksana", 
+         "objectName" : "Alexander", 
          "stunMode" : "Wakeup"
       }, 
-      "9831d339-3d5f-4168-b59b-204532bcf97a" : { 
-         "class" : "CharacterStunNode", 
+      "02dc9c9b-fd90-454d-bf5f-9985267ed1bb" : { 
+         "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-103665", 
-            "y" : "-96329"
+            "x" : "-104644", 
+            "y" : "-96107"
          }, 
          "child" : [ 
+         ]
+      }, 
+      "8c347238-9dd4-4f62-9600-9ee80351e87e" : { 
+         "class" : "HasTeamMateNode", 
+         "desc" : { 
+            "x" : "-104224", 
+            "y" : "-96222"
+         }, 
+         "child" : [ 
+            "0c8888b8-7316-46b2-bfdf-4bd601a38afc", 
+            "b90c8aad-b01b-4349-89ad-d73a147e4811"
          ], 
-         "objectName" : "Player", 
-         "stunMode" : "Wakeup"
+         "teammate" : "Fidel"
       }, 
       "0c8888b8-7316-46b2-bfdf-4bd601a38afc" : { 
          "class" : "CharacterStunNode", 
          "desc" : { 
-            "x" : "-103566", 
-            "y" : "-96137"
+            "x" : "-104218", 
+            "y" : "-96111"
          }, 
          "child" : [ 
          ], 
          "objectName" : "Fidel", 
          "stunMode" : "Wakeup"
       }, 
-      "75472fe2-5b78-4920-bc1e-21010b4b688a" : { 
-         "class" : "FractionSetRelationshipNode", 
+      "b90c8aad-b01b-4349-89ad-d73a147e4811" : { 
+         "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-103388", 
-            "y" : "-96228"
+            "x" : "-104086", 
+            "y" : "-96099"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "9668e36f-4bc9-45cb-9b32-d7c9ddd61908" : { 
+         "class" : "HasTeamMateNode", 
+         "desc" : { 
+            "x" : "-104452", 
+            "y" : "-96227"
+         }, 
+         "child" : [ 
+            "927ba838-7ec0-4aab-8304-cf30245e17c7", 
+            "7aa0e77a-a0fd-4bb5-9567-9935006620ac"
+         ], 
+         "teammate" : "Gexogen"
+      }, 
+      "927ba838-7ec0-4aab-8304-cf30245e17c7" : { 
+         "class" : "CharacterStunNode", 
+         "desc" : { 
+            "x" : "-104464", 
+            "y" : "-96118"
          }, 
          "child" : [ 
          ], 
-         "fraction" : "~team2", 
-         "value" : "0"
+         "objectName" : "Gexogen", 
+         "stunMode" : "Wakeup"
+      }, 
+      "7aa0e77a-a0fd-4bb5-9567-9935006620ac" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-104347", 
+            "y" : "-96114"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "01b09c91-4384-4709-ab58-85bbea85d2ad" : { 
+         "class" : "CharacterStunNode", 
+         "desc" : { 
+            "x" : "-103655", 
+            "y" : "-96114"
+         }, 
+         "child" : [ 
+            "62fc05c1-44e3-43d7-bfe7-8ad78e47cb1e"
+         ], 
+         "objectName" : "oksana", 
+         "stunMode" : "Wakeup"
+      }, 
+      "62fc05c1-44e3-43d7-bfe7-8ad78e47cb1e" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-103792", 
+            "y" : "-95945"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Что происходит? Где я?", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "customColor" : "FF3B04", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "9831d339-3d5f-4168-b59b-204532bcf97a" : { 
+         "class" : "CharacterStunNode", 
+         "desc" : { 
+            "x" : "-103798", 
+            "y" : "-96114"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Player", 
+         "stunMode" : "Wakeup"
       }, 
       "53f30976-ef3e-4c6c-81de-80651370005e" : { 
          "class" : "FlashSplashNode", 
          "desc" : { 
-            "x" : "-103130", 
-            "y" : "-96127"
+            "x" : "-103423", 
+            "y" : "-96072"
          }, 
          "child" : [ 
             "610b2b06-80a5-4c34-b515-ac561e9b7cbe"
@@ -600,18 +738,39 @@
       "610b2b06-80a5-4c34-b515-ac561e9b7cbe" : { 
          "class" : "CharacterRemoveNode", 
          "desc" : { 
-            "x" : "-103135", 
-            "y" : "-96067"
+            "x" : "-103428", 
+            "y" : "-96012"
          }, 
          "child" : [ 
          ], 
          "objName" : "oraculumv2"
       }, 
+      "05f38250-89d6-45ad-90fc-f93f3671af10" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-103286", 
+            "y" : "-96110"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "OKSANA_QUEST_3_EVENT_FINISH"
+      }, 
+      "1d5846af-28c1-45f3-9e7c-87b81a5d9af2" : { 
+         "class" : "FractionSetRelationshipNode", 
+         "desc" : { 
+            "x" : "-103058", 
+            "y" : "-96109"
+         }, 
+         "child" : [ 
+         ], 
+         "fraction" : "~team2", 
+         "value" : "0"
+      }, 
       "2bf164e8-6804-4ef4-8a1c-2cd4a7c374df" : { 
          "class" : "CharacterStunNode", 
          "desc" : { 
-            "x" : "-104058", 
-            "y" : "-97173"
+            "x" : "-103612", 
+            "y" : "-97223"
          }, 
          "child" : [ 
          ], 
@@ -621,46 +780,77 @@
       "89ddc361-bf81-4b66-8f14-d0e8f144cb99" : { 
          "class" : "CharacterStunNode", 
          "desc" : { 
-            "x" : "-103906", 
-            "y" : "-97174"
+            "x" : "-103474", 
+            "y" : "-97221"
          }, 
          "child" : [ 
          ], 
          "objectName" : "oksana", 
          "stunMode" : "MoveToUnlimStun"
       }, 
-      "09cab050-2db4-4027-98b1-854bf338b160" : { 
-         "class" : "CharacterStunNode", 
+      "918a82c3-18bf-4265-9510-ca5fd81a8a63" : { 
+         "class" : "HasTeamMateNode", 
          "desc" : { 
-            "x" : "-103746", 
-            "y" : "-97174"
+            "x" : "-103744", 
+            "y" : "-96963"
          }, 
          "child" : [ 
+            "0a439a84-a49b-474b-9bd0-299ed5afdbd0", 
+            "2c3d399b-22a8-4d1e-99b9-b72efe423c44"
          ], 
-         "objectName" : "Gexogen", 
-         "stunMode" : "MoveToUnlimStun"
+         "teammate" : "Alexander"
       }, 
       "0a439a84-a49b-474b-9bd0-299ed5afdbd0" : { 
          "class" : "CharacterStunNode", 
          "desc" : { 
-            "x" : "-103597", 
-            "y" : "-97174"
+            "x" : "-103789", 
+            "y" : "-96810"
          }, 
          "child" : [ 
          ], 
          "objectName" : "Alexander", 
          "stunMode" : "MoveToUnlimStun"
       }, 
+      "2c3d399b-22a8-4d1e-99b9-b72efe423c44" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103629", 
+            "y" : "-96838"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "f1529b08-954b-468f-981d-8c905a8e8983" : { 
+         "class" : "HasTeamMateNode", 
+         "desc" : { 
+            "x" : "-104036", 
+            "y" : "-96971"
+         }, 
+         "child" : [ 
+            "89f9dad6-f927-4518-8f8d-1c1239469d8b", 
+            "f7cb405d-742e-494e-bb25-9dc1d8021902"
+         ], 
+         "teammate" : "Fidel"
+      }, 
       "89f9dad6-f927-4518-8f8d-1c1239469d8b" : { 
          "class" : "CharacterStunNode", 
          "desc" : { 
-            "x" : "-103447", 
-            "y" : "-97172"
+            "x" : "-104101", 
+            "y" : "-96841"
          }, 
          "child" : [ 
          ], 
          "objectName" : "Fidel", 
          "stunMode" : "MoveToUnlimStun"
+      }, 
+      "f7cb405d-742e-494e-bb25-9dc1d8021902" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103934", 
+            "y" : "-96833"
+         }, 
+         "child" : [ 
+         ]
       }, 
       "9ecd76d9-d6ce-42e4-a157-5c5f0f0a69d3" : { 
          "class" : "DialogAnswerNode", 
@@ -669,7 +859,8 @@
             "y" : "-97832"
          }, 
          "child" : [ 
-            "5dd39dcb-123e-4d1a-ae24-8f68bd4942af"
+            "5dd39dcb-123e-4d1a-ae24-8f68bd4942af", 
+            "05f38250-89d6-45ad-90fc-f93f3671af10"
          ], 
          "text" : "Отдать Оксану Оракулу! [Отпустить]"
       }, 
@@ -686,8 +877,8 @@
       "4230c94a-7445-41ae-8e37-f276c6ba48f1" : { 
          "class" : "CharacterCapsNode", 
          "desc" : { 
-            "x" : "-102593", 
-            "y" : "-97717"
+            "x" : "-102589", 
+            "y" : "-97707"
          }, 
          "child" : [ 
             "c990dff5-9cb2-48ec-849a-743d87ab90fd"
@@ -699,7 +890,7 @@
          "class" : "NotebookAddNoteNode", 
          "desc" : { 
             "x" : "-102600", 
-            "y" : "-97641"
+            "y" : "-97621"
          }, 
          "child" : [ 
             "dff78c9c-1f0a-40b1-b3db-9643551f9f29"
@@ -753,21 +944,29 @@
       "06faa733-52b4-416a-ba33-48c6f2980c2d" : { 
          "class" : "CinematicBeginNode", 
          "desc" : { 
-            "x" : "-102226", 
-            "y" : "-97156"
+            "x" : "-102240", 
+            "y" : "-97179"
          }, 
          "child" : [ 
             "da65fe26-ed04-437c-be05-2c869581abdc", 
             "6807ba09-ff76-4fb1-aec3-71131181eb69", 
-            "b2b9877f-32a7-499a-8a80-40c5813222c4"
+            "e2e170ed-95a2-4bdd-8578-86c047ddb538", 
+            "6c235381-57a6-46bf-91e1-884fb89cbc71", 
+            "b2b9877f-32a7-499a-8a80-40c5813222c4", 
+            "087b29c1-78a5-4008-957d-ea20d0f62dd1", 
+            "91c07f64-3062-4fb4-aee6-f09d9ce2146e", 
+            "1186d3b4-23df-4169-97cd-1d7bb825a4c5", 
+            "5bf1a386-7603-4ae7-995f-e034b872780f", 
+            "03f5bfcf-53ca-4e0a-96f6-e0e220803b42", 
+            "3401a4dd-16b1-442f-a53a-e6f261744e50"
          ], 
          "immediately" : "true"
       }, 
       "da65fe26-ed04-437c-be05-2c869581abdc" : { 
          "class" : "CharacterMoveToNode", 
          "desc" : { 
-            "x" : "-102545", 
-            "y" : "-97118"
+            "x" : "-102542", 
+            "y" : "-97108"
          }, 
          "child" : [ 
          ], 
@@ -781,13 +980,43 @@
       "6807ba09-ff76-4fb1-aec3-71131181eb69" : { 
          "class" : "CharacterMoveToNode", 
          "desc" : { 
-            "x" : "-102411", 
-            "y" : "-97118"
+            "x" : "-102400", 
+            "y" : "-97110"
          }, 
          "child" : [ 
          ], 
          "objectName" : "oksana", 
          "pointName" : "Exit_2", 
+         "waitEnd" : "false", 
+         "relative" : "false", 
+         "run" : "false", 
+         "keepCourse" : "false"
+      }, 
+      "e2e170ed-95a2-4bdd-8578-86c047ddb538" : { 
+         "class" : "CharacterMoveToNode", 
+         "desc" : { 
+            "x" : "-101926", 
+            "y" : "-97120"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "dog_9", 
+         "pointName" : "Exit_2", 
+         "waitEnd" : "false", 
+         "relative" : "false", 
+         "run" : "false", 
+         "keepCourse" : "false"
+      }, 
+      "6c235381-57a6-46bf-91e1-884fb89cbc71" : { 
+         "class" : "CharacterMoveToNode", 
+         "desc" : { 
+            "x" : "-102047", 
+            "y" : "-97120"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "dog_8", 
+         "pointName" : "Exit", 
          "waitEnd" : "false", 
          "relative" : "false", 
          "run" : "false", 
@@ -801,8 +1030,7 @@
          }, 
          "child" : [ 
             "4566b5db-bc58-4836-800d-aa632c3f2764", 
-            "06709d4b-0d46-4126-b338-8bc22d59c0f1", 
-            "51b14ac9-ff35-4bec-8b30-246027fae519"
+            "06709d4b-0d46-4126-b338-8bc22d59c0f1"
          ], 
          "key" : "INIT2"
       }, 
@@ -833,8 +1061,8 @@
       "053ffc6e-be4c-4898-8fc2-6e67141638f2" : { 
          "class" : "HasTeamMateNode", 
          "desc" : { 
-            "x" : "-102060", 
-            "y" : "-96910"
+            "x" : "-102121", 
+            "y" : "-96894"
          }, 
          "child" : [ 
             "6cbf532a-df92-4a18-9977-ee12e89a2ea5", 
@@ -927,7 +1155,7 @@
          "child" : [ 
             "8c6bd002-cf3f-4182-99d8-10b11b4dda90"
          ], 
-         "text" : "Бивень, червяк тебе спасибо передаёт. Говорит иначе бы нас порешали.", 
+         "text" : "Бивень, червяк тебе спасибо передаёт. Не ровня он нам.", 
          "customObject" : "Alexander", 
          "waitEnd" : "false", 
          "customColor" : "00F60D", 
@@ -962,7 +1190,15 @@
             "y" : "-95901"
          }, 
          "child" : [ 
-            "fca4d51b-4de8-4aae-a4df-f606c1942e2b"
+            "fca4d51b-4de8-4aae-a4df-f606c1942e2b", 
+            "0d0ed7ac-5175-4f94-98ae-972692f1b243", 
+            "ff2597ff-d254-4107-8a59-49c1bde2300a", 
+            "0890b15b-eeea-4fb0-9921-c0a3cbf4c39e", 
+            "94514625-2a2b-4135-a898-2bf4d0a6fac4", 
+            "891f2ec4-92b8-415c-9a1d-beeb5b42c9a2", 
+            "b4407e80-cb7d-4fe7-a6ba-8260f80b6ec2", 
+            "b3dfb265-4a15-4206-8bbf-d2403ad20756", 
+            "804a98a8-d5e1-4661-8d66-1bf3404b8020"
          ], 
          "waitEnd" : "false", 
          "waitTime" : "1.5"
@@ -970,8 +1206,8 @@
       "fca4d51b-4de8-4aae-a4df-f606c1942e2b" : { 
          "class" : "CharacterRemoveNode", 
          "desc" : { 
-            "x" : "-101805", 
-            "y" : "-95850"
+            "x" : "-101862", 
+            "y" : "-95848"
          }, 
          "child" : [ 
             "563df629-1e13-410e-8851-2c6f602868ea"
@@ -981,25 +1217,204 @@
       "563df629-1e13-410e-8851-2c6f602868ea" : { 
          "class" : "CharacterRemoveNode", 
          "desc" : { 
-            "x" : "-101805", 
-            "y" : "-95785"
+            "x" : "-101864", 
+            "y" : "-95786"
          }, 
          "child" : [ 
+            "caa0dadf-9325-4c47-ac18-984f810bb977"
          ], 
          "objName" : "oraculumv2"
       }, 
-      "51b14ac9-ff35-4bec-8b30-246027fae519" : { 
-         "class" : "WhoopNode", 
+      "caa0dadf-9325-4c47-ac18-984f810bb977" : { 
+         "class" : "QuestDoneNode", 
          "desc" : { 
-            "x" : "-101980", 
-            "y" : "-97011"
+            "x" : "-101867", 
+            "y" : "-95725"
+         }, 
+         "child" : [ 
+            "0d888c50-193b-4983-8b46-6d28e3ca6b31"
+         ], 
+         "quest_key" : "OKSANA_QUEST_3"
+      }, 
+      "0d888c50-193b-4983-8b46-6d28e3ca6b31" : { 
+         "class" : "AddExpNode", 
+         "desc" : { 
+            "x" : "-101858", 
+            "y" : "-95655"
          }, 
          "child" : [ 
          ], 
-         "text" : "...не надо", 
-         "customObject" : "oksana", 
+         "exp" : "10000"
+      }, 
+      "0d0ed7ac-5175-4f94-98ae-972692f1b243" : { 
+         "class" : "CharacterRemoveNode", 
+         "desc" : { 
+            "x" : "-101699", 
+            "y" : "-95814"
+         }, 
+         "child" : [ 
+         ], 
+         "objName" : "dog_8"
+      }, 
+      "ff2597ff-d254-4107-8a59-49c1bde2300a" : { 
+         "class" : "CharacterRemoveNode", 
+         "desc" : { 
+            "x" : "-101568", 
+            "y" : "-95814"
+         }, 
+         "child" : [ 
+         ], 
+         "objName" : "dog_9"
+      }, 
+      "0890b15b-eeea-4fb0-9921-c0a3cbf4c39e" : { 
+         "class" : "CharacterRemoveNode", 
+         "desc" : { 
+            "x" : "-101439", 
+            "y" : "-95811"
+         }, 
+         "child" : [ 
+         ], 
+         "objName" : "point_dog_2"
+      }, 
+      "94514625-2a2b-4135-a898-2bf4d0a6fac4" : { 
+         "class" : "CharacterRemoveNode", 
+         "desc" : { 
+            "x" : "-101309", 
+            "y" : "-95811"
+         }, 
+         "child" : [ 
+         ], 
+         "objName" : "point_dog_6"
+      }, 
+      "891f2ec4-92b8-415c-9a1d-beeb5b42c9a2" : { 
+         "class" : "CharacterRemoveNode", 
+         "desc" : { 
+            "x" : "-101182", 
+            "y" : "-95810"
+         }, 
+         "child" : [ 
+         ], 
+         "objName" : "point_dog_7"
+      }, 
+      "b4407e80-cb7d-4fe7-a6ba-8260f80b6ec2" : { 
+         "class" : "CharacterRemoveNode", 
+         "desc" : { 
+            "x" : "-101056", 
+            "y" : "-95809"
+         }, 
+         "child" : [ 
+         ], 
+         "objName" : "point_dog_3"
+      }, 
+      "b3dfb265-4a15-4206-8bbf-d2403ad20756" : { 
+         "class" : "CharacterRemoveNode", 
+         "desc" : { 
+            "x" : "-100931", 
+            "y" : "-95809"
+         }, 
+         "child" : [ 
+         ], 
+         "objName" : "point_dog_5"
+      }, 
+      "804a98a8-d5e1-4661-8d66-1bf3404b8020" : { 
+         "class" : "CharacterRemoveNode", 
+         "desc" : { 
+            "x" : "-100806", 
+            "y" : "-95810"
+         }, 
+         "child" : [ 
+         ], 
+         "objName" : "point_dog_4"
+      }, 
+      "087b29c1-78a5-4008-957d-ea20d0f62dd1" : { 
+         "class" : "CharacterMoveToNode", 
+         "desc" : { 
+            "x" : "-101783", 
+            "y" : "-97119"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "point_dog_2", 
+         "pointName" : "Exit_2", 
          "waitEnd" : "false", 
-         "onlyActiveAndAlive" : "true"
+         "relative" : "false", 
+         "run" : "false", 
+         "keepCourse" : "false"
+      }, 
+      "91c07f64-3062-4fb4-aee6-f09d9ce2146e" : { 
+         "class" : "CharacterMoveToNode", 
+         "desc" : { 
+            "x" : "-101656", 
+            "y" : "-97119"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "point_dog_6", 
+         "pointName" : "Exit", 
+         "waitEnd" : "false", 
+         "relative" : "false", 
+         "run" : "false", 
+         "keepCourse" : "false"
+      }, 
+      "1186d3b4-23df-4169-97cd-1d7bb825a4c5" : { 
+         "class" : "CharacterMoveToNode", 
+         "desc" : { 
+            "x" : "-101531", 
+            "y" : "-97117"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "point_dog_7", 
+         "pointName" : "Exit_2", 
+         "waitEnd" : "false", 
+         "relative" : "false", 
+         "run" : "false", 
+         "keepCourse" : "false"
+      }, 
+      "5bf1a386-7603-4ae7-995f-e034b872780f" : { 
+         "class" : "CharacterMoveToNode", 
+         "desc" : { 
+            "x" : "-101278", 
+            "y" : "-97112"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "point_dog_5", 
+         "pointName" : "Exit_2", 
+         "waitEnd" : "false", 
+         "relative" : "false", 
+         "run" : "false", 
+         "keepCourse" : "false"
+      }, 
+      "03f5bfcf-53ca-4e0a-96f6-e0e220803b42" : { 
+         "class" : "CharacterMoveToNode", 
+         "desc" : { 
+            "x" : "-101406", 
+            "y" : "-97114"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "point_dog_3", 
+         "pointName" : "Exit", 
+         "waitEnd" : "false", 
+         "relative" : "false", 
+         "run" : "false", 
+         "keepCourse" : "false"
+      }, 
+      "3401a4dd-16b1-442f-a53a-e6f261744e50" : { 
+         "class" : "CharacterMoveToNode", 
+         "desc" : { 
+            "x" : "-101155", 
+            "y" : "-97108"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "point_dog_4", 
+         "pointName" : "Exit", 
+         "waitEnd" : "false", 
+         "relative" : "false", 
+         "run" : "false", 
+         "keepCourse" : "false"
       }, 
       "5449ef8a-9509-4178-b32d-92abd3f1361a" : { 
          "class" : "DialogAnswerNode", 
@@ -1181,6 +1596,16 @@
             "bbc57194-7659-4453-a4ea-be7f11fe059c"
          ], 
          "text" : "Ну что же дальше?"
+      }, 
+      "b5b889ab-ab22-4b2b-b463-52741146e1a0" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-102275", 
+            "y" : "-101382"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "STOP_WHOOP"
       }
    }, 
    "entry" : "a42b3b5d-8dc0-426a-a872-47517fcc5781"

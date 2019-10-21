@@ -16,7 +16,7 @@ MonoBehaviour:
     path: Entities/Ammo/Ammo models/9mm_craft
   m_Localization: ammo.9mm_craft
   Takeable: 1
-  Cost: 3
+  Cost: 8
   Weight: 10
   Collectable: 1
   Modifiers: []

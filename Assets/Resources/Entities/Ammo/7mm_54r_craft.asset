@@ -16,7 +16,7 @@ MonoBehaviour:
     path: Entities/Ammo/Ammo models/754craft
   m_Localization: ammo.7mm_54r_craft
   Takeable: 1
-  Cost: 20
+  Cost: 15
   Weight: 17
   Collectable: 1
   Modifiers: []

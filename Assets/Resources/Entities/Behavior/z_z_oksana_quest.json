@@ -3,8 +3,8 @@
       "d8820f5f-ea1c-40c4-ad89-151da60bf624" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-101053", 
-            "y" : "-100970"
+            "x" : "-101037", 
+            "y" : "-101025"
          }, 
          "child" : [ 
             "4ccdce38-00bc-4b8b-8bad-9de0a3db99e2", 
@@ -1430,7 +1430,7 @@
          "child" : [ 
             "65fb4ce4-7ade-422e-ab49-3b3ff8e9febb"
          ], 
-         "text" : "Интересный персонаж. И шляпа как у Пушкина.", 
+         "text" : "Интересный персонаж. Зачем ему шляпа?", 
          "customObject" : "Gexogen", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true"
@@ -1504,7 +1504,7 @@
          "child" : [ 
             "2bdbbe94-96fd-4537-b554-20f12e3cc989"
          ], 
-         "text" : "Вот мы и встретились!Но откуда столько слепых псов?", 
+         "text" : "Вот мы и встретились!Откуда столько псов?", 
          "customObject" : "oksana", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true"

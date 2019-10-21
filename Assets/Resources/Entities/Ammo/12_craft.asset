@@ -16,7 +16,7 @@ MonoBehaviour:
     path: Entities/Ammo/Ammo models/12mmcraft
   m_Localization: ammo.12_craft
   Takeable: 1
-  Cost: 15
+  Cost: 17
   Weight: 40
   Collectable: 1
   Modifiers: []

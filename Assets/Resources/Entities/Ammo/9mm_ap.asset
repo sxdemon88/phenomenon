@@ -16,7 +16,7 @@ MonoBehaviour:
     path: Entities/Ammo/9mm_AP
   m_Localization: ammo.9mm_ap
   Takeable: 1
-  Cost: 5
+  Cost: 11
   Weight: 11
   Collectable: 1
   Modifiers: []

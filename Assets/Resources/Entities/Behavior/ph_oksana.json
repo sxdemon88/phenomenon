@@ -25,8 +25,8 @@
       "01b53493-e858-4fd4-a15d-39500d026876" : { 
          "class" : "CharacterInBattleNode", 
          "desc" : { 
-            "x" : "-102465", 
-            "y" : "-100682"
+            "x" : "-102466", 
+            "y" : "-100719"
          }, 
          "child" : [ 
             "0770054c-43c0-466a-b273-a5e8d3f95155", 
@@ -36,8 +36,8 @@
       "0770054c-43c0-466a-b273-a5e8d3f95155" : { 
          "class" : "HasKeywordNode", 
          "desc" : { 
-            "x" : "-102674", 
-            "y" : "-100484"
+            "x" : "-102683", 
+            "y" : "-100558"
          }, 
          "child" : [ 
             "1a06747b-19c8-4c8d-b6c7-9ff2487cc349", 
@@ -48,8 +48,8 @@
       "1a06747b-19c8-4c8d-b6c7-9ff2487cc349" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-102826", 
-            "y" : "-100353"
+            "x" : "-102878", 
+            "y" : "-100413"
          }, 
          "child" : [ 
          ]
@@ -57,19 +57,51 @@
       "794a9f73-b3e4-4135-aa3c-da855f80c4a0" : { 
          "class" : "AddKeywordNode", 
          "desc" : { 
-            "x" : "-102573", 
-            "y" : "-100351"
+            "x" : "-102650", 
+            "y" : "-100349"
          }, 
          "child" : [ 
-            "32abe99a-0fe2-4bc9-9df8-5e9cee21ffdf"
+            "a1c71589-850a-480f-afa7-5f0fe005ceee"
          ], 
          "key" : "FIGHT"
+      }, 
+      "a1c71589-850a-480f-afa7-5f0fe005ceee" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-102657", 
+            "y" : "-100286"
+         }, 
+         "child" : [ 
+            "9a9586e9-3e92-41c9-bfcb-0ace05a59e01", 
+            "32abe99a-0fe2-4bc9-9df8-5e9cee21ffdf"
+         ], 
+         "note_key" : "STOP_WHOOP"
+      }, 
+      "9a9586e9-3e92-41c9-bfcb-0ace05a59e01" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102940", 
+            "y" : "-100163"
+         }, 
+         "child" : [ 
+            "c9e3b23d-806e-43bf-8904-1f9b0539d593"
+         ]
+      }, 
+      "c9e3b23d-806e-43bf-8904-1f9b0539d593" : { 
+         "class" : "NotebookRemoveNoteNode", 
+         "desc" : { 
+            "x" : "-102964", 
+            "y" : "-100119"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "STOP_WHOOP"
       }, 
       "32abe99a-0fe2-4bc9-9df8-5e9cee21ffdf" : { 
          "class" : "RandomNode", 
          "desc" : { 
-            "x" : "-102583", 
-            "y" : "-100257"
+            "x" : "-102598", 
+            "y" : "-100120"
          }, 
          "child" : [ 
             "d4de58c8-6a1c-449f-8bc2-195af74e98d9", 
@@ -82,14 +114,15 @@
             "5b33dc7d-ca7b-4f23-9994-f59ce30e6872", 
             "b89fb7f6-b9f7-4c84-853c-cb063c0da903", 
             "23fa1bac-f678-47c5-9749-8a212b83fbb7", 
-            "c220f26f-c583-4f8d-9904-f07d9722ff7e"
+            "c220f26f-c583-4f8d-9904-f07d9722ff7e", 
+            "54f2d400-18fd-4e54-8bc7-18ea7b820e84"
          ]
       }, 
       "d4de58c8-6a1c-449f-8bc2-195af74e98d9" : { 
          "class" : "WhoopNode", 
          "desc" : { 
-            "x" : "-105212", 
-            "y" : "-99531"
+            "x" : "-104908", 
+            "y" : "-99808"
          }, 
          "child" : [ 
          ], 
@@ -100,8 +133,8 @@
       "3804aa00-a410-4078-b696-ad96fb464a12" : { 
          "class" : "WhoopNode", 
          "desc" : { 
-            "x" : "-104993", 
-            "y" : "-99532"
+            "x" : "-104689", 
+            "y" : "-99809"
          }, 
          "child" : [ 
          ], 
@@ -112,8 +145,8 @@
       "096a66d1-b1c8-43f2-a565-b8605b98777e" : { 
          "class" : "WhoopNode", 
          "desc" : { 
-            "x" : "-104774", 
-            "y" : "-99532"
+            "x" : "-104470", 
+            "y" : "-99809"
          }, 
          "child" : [ 
          ], 
@@ -124,8 +157,8 @@
       "bebe9865-deca-4177-a251-ad0d6bcf1666" : { 
          "class" : "WhoopNode", 
          "desc" : { 
-            "x" : "-104554", 
-            "y" : "-99532"
+            "x" : "-104250", 
+            "y" : "-99809"
          }, 
          "child" : [ 
          ], 
@@ -136,8 +169,8 @@
       "118ee69e-b538-4b28-856f-eb8b56cd9b9f" : { 
          "class" : "WhoopNode", 
          "desc" : { 
-            "x" : "-104338", 
-            "y" : "-99532"
+            "x" : "-104034", 
+            "y" : "-99809"
          }, 
          "child" : [ 
          ], 
@@ -148,8 +181,8 @@
       "55f00f87-ebf5-4444-85e5-5afaf90f3572" : { 
          "class" : "WhoopNode", 
          "desc" : { 
-            "x" : "-104122", 
-            "y" : "-99531"
+            "x" : "-103818", 
+            "y" : "-99808"
          }, 
          "child" : [ 
          ], 
@@ -160,8 +193,8 @@
       "83f755d7-ea16-4204-9031-756bb4704f1a" : { 
          "class" : "WhoopNode", 
          "desc" : { 
-            "x" : "-103904", 
-            "y" : "-99526"
+            "x" : "-103600", 
+            "y" : "-99803"
          }, 
          "child" : [ 
          ], 
@@ -172,8 +205,8 @@
       "5b33dc7d-ca7b-4f23-9994-f59ce30e6872" : { 
          "class" : "WhoopNode", 
          "desc" : { 
-            "x" : "-103687", 
-            "y" : "-99523"
+            "x" : "-103383", 
+            "y" : "-99800"
          }, 
          "child" : [ 
          ], 
@@ -184,8 +217,8 @@
       "b89fb7f6-b9f7-4c84-853c-cb063c0da903" : { 
          "class" : "WhoopNode", 
          "desc" : { 
-            "x" : "-103467", 
-            "y" : "-99520"
+            "x" : "-103163", 
+            "y" : "-99797"
          }, 
          "child" : [ 
          ], 
@@ -196,8 +229,8 @@
       "23fa1bac-f678-47c5-9749-8a212b83fbb7" : { 
          "class" : "WhoopNode", 
          "desc" : { 
-            "x" : "-103247", 
-            "y" : "-99519"
+            "x" : "-102943", 
+            "y" : "-99796"
          }, 
          "child" : [ 
          ], 
@@ -208,14 +241,23 @@
       "c220f26f-c583-4f8d-9904-f07d9722ff7e" : { 
          "class" : "WhoopNode", 
          "desc" : { 
-            "x" : "-103029", 
-            "y" : "-99518"
+            "x" : "-102725", 
+            "y" : "-99795"
          }, 
          "child" : [ 
          ], 
          "text" : "Ха! Это снова я и мое оружие. Лучше бегите.", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
+      }, 
+      "54f2d400-18fd-4e54-8bc7-18ea7b820e84" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102505", 
+            "y" : "-99790"
+         }, 
+         "child" : [ 
+         ]
       }, 
       "da8840c2-fa92-4b4a-aa6e-14bb03385159" : { 
          "class" : "HasKeywordNode", 
@@ -232,8 +274,8 @@
       "7b8e818f-221e-4ce3-8618-323b3d644884" : { 
          "class" : "RemoveKeywordNode", 
          "desc" : { 
-            "x" : "-102295", 
-            "y" : "-100449"
+            "x" : "-102300", 
+            "y" : "-100451"
          }, 
          "child" : [ 
          ], 
@@ -242,8 +284,8 @@
       "d326685e-b943-49a2-8e67-a82f8f66e8cb" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-102083", 
-            "y" : "-100452"
+            "x" : "-102081", 
+            "y" : "-100448"
          }, 
          "child" : [ 
          ]
@@ -406,8 +448,8 @@
       "74ad4439-047a-4e21-9e1a-6c88eb912971" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-93459", 
-            "y" : "-99234"
+            "x" : "-92415", 
+            "y" : "-99224"
          }, 
          "child" : [ 
             "8ce0d232-98ca-4fe5-8313-52da5d265c01", 
@@ -443,9 +485,13 @@
             "0ec6a992-39cc-4db9-9f91-114da93ad4e8", 
             "9266cfaa-08a5-462a-9a2e-c9d70bc8c17e", 
             "66eb170e-359e-40c9-a854-3e71dcaabe8a", 
+            "0da2ee74-23c5-4af8-9ac9-c6c49976fd1a", 
             "39250f11-91a4-4dc6-914f-7208017e17fc", 
             "45bdac1f-92b4-4637-aa0d-460fdd7ae288", 
-            "e7eb3f5d-b130-434c-a92d-56e1ca0b0cb6"
+            "e7eb3f5d-b130-434c-a92d-56e1ca0b0cb6", 
+            "fdde9de8-a5dc-40e6-b3ae-e3566f99e25f", 
+            "841c6247-578a-450b-9447-7407d02cba0e", 
+            "ce00af71-79bc-44d3-930c-8f39c89e0274"
          ]
       }, 
       "8ce0d232-98ca-4fe5-8313-52da5d265c01" : { 
@@ -3145,8 +3191,8 @@
       "66eb170e-359e-40c9-a854-3e71dcaabe8a" : { 
          "class" : "PlayerMapLocationNode", 
          "desc" : { 
-            "x" : "-92601", 
-            "y" : "-99097"
+            "x" : "-92579", 
+            "y" : "-99040"
          }, 
          "child" : [ 
             "b258ea93-78e6-4f68-9364-0839ccf4d5ff"
@@ -3205,6 +3251,98 @@
          "child" : [ 
          ], 
          "text" : "Ничего себе. Спустя столько лет и в таком хорошем состоянии. Удивительно! Раньше строили на века.", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "0da2ee74-23c5-4af8-9ac9-c6c49976fd1a" : { 
+         "class" : "PlayerMapLocationNode", 
+         "desc" : { 
+            "x" : "-92217", 
+            "y" : "-99037"
+         }, 
+         "child" : [ 
+            "a732f4e4-31e5-4601-b429-1c416b8c82df"
+         ], 
+         "mapName" : "DeadCity_Universam"
+      }, 
+      "a732f4e4-31e5-4601-b429-1c416b8c82df" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-92184", 
+            "y" : "-98935"
+         }, 
+         "child" : [ 
+            "5222163e-6fd1-4e9c-8b91-8a720bf09569", 
+            "a5c3e683-3398-46c6-aad7-9c851da74cde"
+         ], 
+         "key" : "DEADCITY_UNIVERSAM_WHOOP"
+      }, 
+      "5222163e-6fd1-4e9c-8b91-8a720bf09569" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-92316", 
+            "y" : "-98825"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "a5c3e683-3398-46c6-aad7-9c851da74cde" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-92156", 
+            "y" : "-98795"
+         }, 
+         "child" : [ 
+            "ecd28168-d0e7-4158-90aa-c436fc250da1"
+         ], 
+         "key" : "DEADCITY_UNIVERSAM_WHOOP"
+      }, 
+      "ecd28168-d0e7-4158-90aa-c436fc250da1" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-92096", 
+            "y" : "-98703"
+         }, 
+         "child" : [ 
+            "cfd7e961-b7a5-41b7-8a64-48cae6eea943"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "cfd7e961-b7a5-41b7-8a64-48cae6eea943" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-92149", 
+            "y" : "-98619"
+         }, 
+         "child" : [ 
+            "f27f1042-0591-4095-9d66-327f6a3af1e2"
+         ], 
+         "text" : "Эх, ностальгия. Тут много чего купить можно было!", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "f27f1042-0591-4095-9d66-327f6a3af1e2" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-92095", 
+            "y" : "-98478"
+         }, 
+         "child" : [ 
+            "0bbe9b53-aa61-4fce-acca-0675aa9ab877"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "0bbe9b53-aa61-4fce-acca-0675aa9ab877" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-92150", 
+            "y" : "-98412"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Вино, клубника и шампанское, да и другие вкусные продукты! ", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -3431,6 +3569,282 @@
          "child" : [ 
          ], 
          "text" : "Помню у костра сидели в одном заброшеном заводе, от дождя кислотного прятались. Так мы песни на гитаре играли. Классно было.", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "fdde9de8-a5dc-40e6-b3ae-e3566f99e25f" : { 
+         "class" : "PlayerMapLocationNode", 
+         "desc" : { 
+            "x" : "-90850", 
+            "y" : "-99046"
+         }, 
+         "child" : [ 
+            "c12c8bc8-68e7-45cb-a609-4a3b9ba160ca"
+         ], 
+         "mapName" : "DeadCity_Hospital"
+      }, 
+      "c12c8bc8-68e7-45cb-a609-4a3b9ba160ca" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-90770", 
+            "y" : "-98929"
+         }, 
+         "child" : [ 
+            "98429be2-b4e4-4a34-b591-54fdd66f6347", 
+            "812b54f7-9578-4a75-b4dc-3cff17feb4a1"
+         ], 
+         "key" : "DEADCITY_HOSPITAL_WHOOP"
+      }, 
+      "98429be2-b4e4-4a34-b591-54fdd66f6347" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-90902", 
+            "y" : "-98819"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "812b54f7-9578-4a75-b4dc-3cff17feb4a1" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-90742", 
+            "y" : "-98789"
+         }, 
+         "child" : [ 
+            "f3ebda26-d98c-4b7a-bce1-f88c560ad5d3"
+         ], 
+         "key" : "DEADCITY_HOSPITAL_WHOOP"
+      }, 
+      "f3ebda26-d98c-4b7a-bce1-f88c560ad5d3" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-90682", 
+            "y" : "-98697"
+         }, 
+         "child" : [ 
+            "2ac8a9e2-ba07-4193-985a-892397a69e71"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "2ac8a9e2-ba07-4193-985a-892397a69e71" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-90736", 
+            "y" : "-98613"
+         }, 
+         "child" : [ 
+            "b6f676e1-a3c7-4344-9953-2e165f6b9243"
+         ], 
+         "text" : "Хм. Состояние парковки лучше чем у больницы! Парковка делалась на века.", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "b6f676e1-a3c7-4344-9953-2e165f6b9243" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-90682", 
+            "y" : "-98473"
+         }, 
+         "child" : [ 
+            "2523708d-ca26-4b4d-a49d-7609da73cf3d"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "2523708d-ca26-4b4d-a49d-7609da73cf3d" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-90736", 
+            "y" : "-98407"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Интересно, а там внутри что нибудь сохранилось?", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "841c6247-578a-450b-9447-7407d02cba0e" : { 
+         "class" : "PlayerMapLocationNode", 
+         "desc" : { 
+            "x" : "-91342", 
+            "y" : "-99048"
+         }, 
+         "child" : [ 
+            "427e40f4-bb64-4c77-81ff-c8d60fc47a24"
+         ], 
+         "mapName" : "DeadCity_Krater"
+      }, 
+      "427e40f4-bb64-4c77-81ff-c8d60fc47a24" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-91219", 
+            "y" : "-98954"
+         }, 
+         "child" : [ 
+            "43ff7660-d1b5-45e6-a583-f724b284f7b0", 
+            "a95505b4-d9dd-4c8b-b8a4-f4d0cdb6bcc5"
+         ], 
+         "key" : "DEADCITY_KRATER_WHOOP"
+      }, 
+      "43ff7660-d1b5-45e6-a583-f724b284f7b0" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-91351", 
+            "y" : "-98844"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "a95505b4-d9dd-4c8b-b8a4-f4d0cdb6bcc5" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-91191", 
+            "y" : "-98814"
+         }, 
+         "child" : [ 
+            "dade059b-88a3-400c-8d35-d423a790255e"
+         ], 
+         "key" : "DEADCITY_KRATER_WHOOP"
+      }, 
+      "dade059b-88a3-400c-8d35-d423a790255e" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-91131", 
+            "y" : "-98722"
+         }, 
+         "child" : [ 
+            "210acdfe-e715-4b26-b4fb-1f67d4e214e7"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "210acdfe-e715-4b26-b4fb-1f67d4e214e7" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-91185", 
+            "y" : "-98638"
+         }, 
+         "child" : [ 
+            "a3b9a643-8e22-42ae-8246-5e127a849990"
+         ], 
+         "text" : "Вот это дыра!!!...", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "a3b9a643-8e22-42ae-8246-5e127a849990" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-91131", 
+            "y" : "-98498"
+         }, 
+         "child" : [ 
+            "227f851e-b529-411d-a122-0db33e8777bc"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "227f851e-b529-411d-a122-0db33e8777bc" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-91185", 
+            "y" : "-98432"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "По моему мнению, идти в эпицентр ядерного удара, не самая лучшая затея!", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "ce00af71-79bc-44d3-930c-8f39c89e0274" : { 
+         "class" : "PlayerMapLocationNode", 
+         "desc" : { 
+            "x" : "-91892", 
+            "y" : "-99040"
+         }, 
+         "child" : [ 
+            "4b9d4aac-37f9-4535-9d10-6b80fc9999bb"
+         ], 
+         "mapName" : "DeadCity_Vaxta_Metro"
+      }, 
+      "4b9d4aac-37f9-4535-9d10-6b80fc9999bb" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-91765", 
+            "y" : "-98961"
+         }, 
+         "child" : [ 
+            "6750ca71-42b2-43dc-b353-57c1313c8661", 
+            "0616063f-7dbd-4bb6-bb3e-b3b8ab73e81a"
+         ], 
+         "key" : "DEADCITY_VAXTA_METRO_WHOOP"
+      }, 
+      "6750ca71-42b2-43dc-b353-57c1313c8661" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-91897", 
+            "y" : "-98851"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "0616063f-7dbd-4bb6-bb3e-b3b8ab73e81a" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-91737", 
+            "y" : "-98821"
+         }, 
+         "child" : [ 
+            "b98ca0f3-0d43-4fa8-9f86-da30d196a2cd"
+         ], 
+         "key" : "DEADCITY_VAXTA_METRO_WHOOP"
+      }, 
+      "b98ca0f3-0d43-4fa8-9f86-da30d196a2cd" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-91677", 
+            "y" : "-98729"
+         }, 
+         "child" : [ 
+            "45113c51-9bdc-49fa-9775-78a0d2d14085"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "45113c51-9bdc-49fa-9775-78a0d2d14085" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-91731", 
+            "y" : "-98646"
+         }, 
+         "child" : [ 
+            "3744dc82-3cac-4a91-aee2-ea752d44ca86"
+         ], 
+         "text" : "И тут живут люди. Зачем? Тут грязно и пыльно,а главное не безопасно!", 
+         "customObject" : "oksana", 
+         "waitEnd" : "true", 
+         "onlyActiveAndAlive" : "true"
+      }, 
+      "3744dc82-3cac-4a91-aee2-ea752d44ca86" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-91677", 
+            "y" : "-98505"
+         }, 
+         "child" : [ 
+            "ac92813b-8780-43d7-8b63-2e63922f77bf"
+         ], 
+         "waitTime" : "2"
+      }, 
+      "ac92813b-8780-43d7-8b63-2e63922f77bf" : { 
+         "class" : "WhoopNode", 
+         "desc" : { 
+            "x" : "-91731", 
+            "y" : "-98439"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Возможно они прячутся от кого-то? ", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
