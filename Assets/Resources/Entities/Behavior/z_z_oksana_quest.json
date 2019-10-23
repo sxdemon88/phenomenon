@@ -507,7 +507,7 @@
          "item" : { 
             "class" : "Character", 
             "proto" : "Devourer", 
-            "character" : "devourer20", 
+            "character" : "Devourer", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -567,7 +567,7 @@
          "item" : { 
             "class" : "Character", 
             "proto" : "Devourer", 
-            "character" : "devourer20", 
+            "character" : "Devourer", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -627,7 +627,7 @@
          "item" : { 
             "class" : "Character", 
             "proto" : "Devourer", 
-            "character" : "devourer20", 
+            "character" : "Devourer", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -687,7 +687,7 @@
          "item" : { 
             "class" : "Character", 
             "proto" : "Devourer", 
-            "character" : "devourer20", 
+            "character" : "Devourer", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -747,7 +747,7 @@
          "item" : { 
             "class" : "Character", 
             "proto" : "Devourer", 
-            "character" : "devourer20", 
+            "character" : "Devourer", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -807,7 +807,7 @@
          "item" : { 
             "class" : "Character", 
             "proto" : "Devourer", 
-            "character" : "devourer20", 
+            "character" : "Devourer", 
             "damage" : "0", 
             "ap" : "0", 
             "bonusTurn" : "false", 
@@ -1430,7 +1430,7 @@
          "child" : [ 
             "65fb4ce4-7ade-422e-ab49-3b3ff8e9febb"
          ], 
-         "text" : "Интересный персонаж. Зачем ему шляпа?", 
+         "text" : "Зачем ему шляпа?", 
          "customObject" : "Gexogen", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true"
@@ -1504,7 +1504,7 @@
          "child" : [ 
             "2bdbbe94-96fd-4537-b554-20f12e3cc989"
          ], 
-         "text" : "Вот мы и встретились!Откуда столько псов?", 
+         "text" : "Вот мы и встретились!Откуда столько слепых псов?", 
          "customObject" : "oksana", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true"
@@ -1534,8 +1534,8 @@
       "ca6997f4-472d-4996-9d3a-ca8b7acab19a" : { 
          "class" : "CharacterRotateToNode", 
          "desc" : { 
-            "x" : "-100980", 
-            "y" : "-98196"
+            "x" : "-100867", 
+            "y" : "-98213"
          }, 
          "child" : [ 
          ], 
@@ -1546,11 +1546,12 @@
       "91bd67c3-dd7f-4117-9810-4a530a9848f8" : { 
          "class" : "PlayerWaitNode", 
          "desc" : { 
-            "x" : "-100642", 
-            "y" : "-98100"
+            "x" : "-100648", 
+            "y" : "-98206"
          }, 
          "child" : [ 
-            "a1e49072-2ea0-437f-965a-0bc0ed37c101"
+            "a1e49072-2ea0-437f-965a-0bc0ed37c101", 
+            "1b5e3d6a-5ef8-4732-8b5d-30aa797e41d9"
          ], 
          "lock" : "false", 
          "waitingState" : "false"
@@ -1558,11 +1559,22 @@
       "a1e49072-2ea0-437f-965a-0bc0ed37c101" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100640", 
-            "y" : "-98036"
+            "x" : "-100709", 
+            "y" : "-98092"
          }, 
          "child" : [ 
          ]
+      }, 
+      "1b5e3d6a-5ef8-4732-8b5d-30aa797e41d9" : { 
+         "class" : "PlayBehaviorNode", 
+         "desc" : { 
+            "x" : "-100561", 
+            "y" : "-98122"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "oraculumv2", 
+         "behavior" : "Entities/Behavior/oracul"
       }, 
       "49730a31-7961-47b9-bff2-ae5647e10ec7" : { 
          "class" : "HasTeamMateNode", 
@@ -1618,16 +1630,16 @@
             "y" : "-100124"
          }, 
          "child" : [ 
-            "2f347293-c740-494c-93fa-cc9003415316"
+            "0d937c5d-bf07-4bee-9325-91f746a10572"
          ], 
          "waitEnd" : "false", 
          "waitTime" : "1.5"
       }, 
-      "2f347293-c740-494c-93fa-cc9003415316" : { 
+      "0d937c5d-bf07-4bee-9325-91f746a10572" : { 
          "class" : "CameraSnapNode", 
          "desc" : { 
-            "x" : "-100575", 
-            "y" : "-100080"
+            "x" : "-100532", 
+            "y" : "-100070"
          }, 
          "child" : [ 
          ]

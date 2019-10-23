@@ -32,6 +32,8 @@ MonoBehaviour:
     Stun:
     - path: Sounds/SFX/Creatures/Man/Stun_1
     - path: Sounds/SFX/Creatures/Man/Stun_2
+    BurstHead: []
+    BurstLimb: []
     Steps:
     - Ground: 0
       Sounds:
@@ -114,6 +116,7 @@ MonoBehaviour:
   BloodSplash:
     path: Particles/BloodHeadSplash
   BloodBlobScale: 1
+  bloodType: 0
   RagdollSetup: {fileID: 4900000, guid: f8eaca35c4a3d774d80c6643c9b2593f, type: 3}
   Unarmed1:
   - path: entities/weapon/punch
@@ -142,3 +145,4 @@ MonoBehaviour:
   MachineGunAnimatorController:
     path: Models/Characters/Female/FemaleAnimTree_MachineGun
   Abilities: 0
+  StatisticsID: woman

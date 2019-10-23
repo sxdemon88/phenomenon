@@ -354,8 +354,8 @@
       "01d8fe96-a9d5-481e-b8ce-66078a0d4380" : { 
          "class" : "DialogPhraseNode", 
          "desc" : { 
-            "x" : "-102908", 
-            "y" : "-98277"
+            "x" : "-102893", 
+            "y" : "-98280"
          }, 
          "child" : [ 
             "4b999644-57db-4be8-bf13-62b17f335736", 
@@ -366,8 +366,8 @@
       "bbc57194-7659-4453-a4ea-be7f11fe059c" : { 
          "class" : "DialogAnswerNode", 
          "desc" : { 
-            "x" : "-102875", 
-            "y" : "-98077"
+            "x" : "-102867", 
+            "y" : "-98079"
          }, 
          "child" : [ 
             "77361dc4-65d3-459d-9473-d503a22b7ab4"
@@ -390,7 +390,7 @@
          "class" : "DialogAnswerNode", 
          "desc" : { 
             "x" : "-103187", 
-            "y" : "-97747"
+            "y" : "-97761"
          }, 
          "child" : [ 
             "a45cee17-a756-46cc-8ac0-41cafc289df8"
@@ -576,121 +576,148 @@
       "c9416e53-2d1b-4f5e-a914-c3228eba43b4" : { 
          "class" : "DialogEndNode", 
          "desc" : { 
-            "x" : "-103305", 
-            "y" : "-96363"
+            "x" : "-103276", 
+            "y" : "-96327"
          }, 
          "child" : [ 
-            "ff6599ee-d101-4ebd-b7f4-5b6fbfb82bf1", 
-            "8c347238-9dd4-4f62-9600-9ee80351e87e", 
-            "9668e36f-4bc9-45cb-9b32-d7c9ddd61908", 
-            "01b09c91-4384-4709-ab58-85bbea85d2ad", 
+            "4bc517b4-dae8-4209-b46c-26fd6a94f459"
+         ]
+      }, 
+      "4bc517b4-dae8-4209-b46c-26fd6a94f459" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-103475", 
+            "y" : "-96187"
+         }, 
+         "child" : [ 
+            "31b64646-3434-4323-87df-15a3a047db76"
+         ], 
+         "note_key" : "OKSANA_QUEST_3_EVENT_FINISH"
+      }, 
+      "31b64646-3434-4323-87df-15a3a047db76" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-103407", 
+            "y" : "-96044"
+         }, 
+         "child" : [ 
+            "e2db0cf7-322d-4324-b3d4-082806815408", 
+            "2aff74fd-036b-4c4d-b762-d5d12a8371b8"
+         ], 
+         "key" : "INIT3"
+      }, 
+      "e2db0cf7-322d-4324-b3d4-082806815408" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103587", 
+            "y" : "-95927"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "2aff74fd-036b-4c4d-b762-d5d12a8371b8" : { 
+         "class" : "HudCutSceneNode", 
+         "desc" : { 
+            "x" : "-103166", 
+            "y" : "-95843"
+         }, 
+         "child" : [ 
+            "48cdd901-b4cf-4a25-b891-a60a6530bb06"
+         ], 
+         "show" : "true"
+      }, 
+      "48cdd901-b4cf-4a25-b891-a60a6530bb06" : { 
+         "class" : "PlayerWaitNode", 
+         "desc" : { 
+            "x" : "-103168", 
+            "y" : "-95765"
+         }, 
+         "child" : [ 
+            "dedf81da-c5be-48fe-8024-70564c118d79"
+         ], 
+         "lock" : "true", 
+         "waitingState" : "true"
+      }, 
+      "dedf81da-c5be-48fe-8024-70564c118d79" : { 
+         "class" : "CinematicBeginNode", 
+         "desc" : { 
+            "x" : "-103166", 
+            "y" : "-95726"
+         }, 
+         "child" : [ 
+            "4b2c5b05-92bd-4c11-97a9-1d4e2eb1818a", 
+            "a4a77923-c571-4877-b572-eea5cf9d6357", 
+            "0371e119-ceda-4449-b7d5-afdf124d83a4", 
             "9831d339-3d5f-4168-b59b-204532bcf97a", 
-            "53f30976-ef3e-4c6c-81de-80651370005e", 
-            "05f38250-89d6-45ad-90fc-f93f3671af10", 
-            "1d5846af-28c1-45f3-9e7c-87b81a5d9af2"
-         ]
+            "01b09c91-4384-4709-ab58-85bbea85d2ad", 
+            "ff6599ee-d101-4ebd-b7f4-5b6fbfb82bf1", 
+            "9668e36f-4bc9-45cb-9b32-d7c9ddd61908", 
+            "8c347238-9dd4-4f62-9600-9ee80351e87e", 
+            "966a2f05-70ea-41f7-8625-b380df48d4e3"
+         ], 
+         "immediately" : "true"
       }, 
-      "ff6599ee-d101-4ebd-b7f4-5b6fbfb82bf1" : { 
-         "class" : "HasTeamMateNode", 
+      "4b2c5b05-92bd-4c11-97a9-1d4e2eb1818a" : { 
+         "class" : "CharacterMoveToNode", 
          "desc" : { 
-            "x" : "-104729", 
-            "y" : "-96234"
+            "x" : "-103777", 
+            "y" : "-95656"
          }, 
          "child" : [ 
-            "c89a271e-ff07-4304-a0d3-ddd821634e9d", 
-            "02dc9c9b-fd90-454d-bf5f-9985267ed1bb"
          ], 
-         "teammate" : "Alexander"
+         "objectName" : "$SELF$", 
+         "pointName" : "Exit", 
+         "waitEnd" : "false", 
+         "relative" : "false", 
+         "run" : "false", 
+         "keepCourse" : "false"
       }, 
-      "c89a271e-ff07-4304-a0d3-ddd821634e9d" : { 
+      "a4a77923-c571-4877-b572-eea5cf9d6357" : { 
+         "class" : "CharacterMoveToNode", 
+         "desc" : { 
+            "x" : "-103643", 
+            "y" : "-95650"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "dog_8", 
+         "pointName" : "Exit", 
+         "waitEnd" : "false", 
+         "relative" : "false", 
+         "run" : "false", 
+         "keepCourse" : "false"
+      }, 
+      "0371e119-ceda-4449-b7d5-afdf124d83a4" : { 
+         "class" : "CharacterMoveToNode", 
+         "desc" : { 
+            "x" : "-103501", 
+            "y" : "-95653"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "dog_9", 
+         "pointName" : "Exit_2", 
+         "waitEnd" : "false", 
+         "relative" : "false", 
+         "run" : "false", 
+         "keepCourse" : "false"
+      }, 
+      "9831d339-3d5f-4168-b59b-204532bcf97a" : { 
          "class" : "CharacterStunNode", 
          "desc" : { 
-            "x" : "-104787", 
-            "y" : "-96119"
+            "x" : "-103742", 
+            "y" : "-95458"
          }, 
          "child" : [ 
          ], 
-         "objectName" : "Alexander", 
+         "objectName" : "Player", 
          "stunMode" : "Wakeup"
-      }, 
-      "02dc9c9b-fd90-454d-bf5f-9985267ed1bb" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-104644", 
-            "y" : "-96107"
-         }, 
-         "child" : [ 
-         ]
-      }, 
-      "8c347238-9dd4-4f62-9600-9ee80351e87e" : { 
-         "class" : "HasTeamMateNode", 
-         "desc" : { 
-            "x" : "-104224", 
-            "y" : "-96222"
-         }, 
-         "child" : [ 
-            "0c8888b8-7316-46b2-bfdf-4bd601a38afc", 
-            "b90c8aad-b01b-4349-89ad-d73a147e4811"
-         ], 
-         "teammate" : "Fidel"
-      }, 
-      "0c8888b8-7316-46b2-bfdf-4bd601a38afc" : { 
-         "class" : "CharacterStunNode", 
-         "desc" : { 
-            "x" : "-104218", 
-            "y" : "-96111"
-         }, 
-         "child" : [ 
-         ], 
-         "objectName" : "Fidel", 
-         "stunMode" : "Wakeup"
-      }, 
-      "b90c8aad-b01b-4349-89ad-d73a147e4811" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-104086", 
-            "y" : "-96099"
-         }, 
-         "child" : [ 
-         ]
-      }, 
-      "9668e36f-4bc9-45cb-9b32-d7c9ddd61908" : { 
-         "class" : "HasTeamMateNode", 
-         "desc" : { 
-            "x" : "-104452", 
-            "y" : "-96227"
-         }, 
-         "child" : [ 
-            "927ba838-7ec0-4aab-8304-cf30245e17c7", 
-            "7aa0e77a-a0fd-4bb5-9567-9935006620ac"
-         ], 
-         "teammate" : "Gexogen"
-      }, 
-      "927ba838-7ec0-4aab-8304-cf30245e17c7" : { 
-         "class" : "CharacterStunNode", 
-         "desc" : { 
-            "x" : "-104464", 
-            "y" : "-96118"
-         }, 
-         "child" : [ 
-         ], 
-         "objectName" : "Gexogen", 
-         "stunMode" : "Wakeup"
-      }, 
-      "7aa0e77a-a0fd-4bb5-9567-9935006620ac" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-104347", 
-            "y" : "-96114"
-         }, 
-         "child" : [ 
-         ]
       }, 
       "01b09c91-4384-4709-ab58-85bbea85d2ad" : { 
          "class" : "CharacterStunNode", 
          "desc" : { 
-            "x" : "-103655", 
-            "y" : "-96114"
+            "x" : "-103634", 
+            "y" : "-95458"
          }, 
          "child" : [ 
             "62fc05c1-44e3-43d7-bfe7-8ad78e47cb1e"
@@ -701,8 +728,8 @@
       "62fc05c1-44e3-43d7-bfe7-8ad78e47cb1e" : { 
          "class" : "WhoopNode", 
          "desc" : { 
-            "x" : "-103792", 
-            "y" : "-95945"
+            "x" : "-103760", 
+            "y" : "-95292"
          }, 
          "child" : [ 
          ], 
@@ -712,22 +739,152 @@
          "customColor" : "FF3B04", 
          "onlyActiveAndAlive" : "true"
       }, 
-      "9831d339-3d5f-4168-b59b-204532bcf97a" : { 
+      "ff6599ee-d101-4ebd-b7f4-5b6fbfb82bf1" : { 
+         "class" : "HasTeamMateNode", 
+         "desc" : { 
+            "x" : "-103410", 
+            "y" : "-95426"
+         }, 
+         "child" : [ 
+            "c89a271e-ff07-4304-a0d3-ddd821634e9d", 
+            "02dc9c9b-fd90-454d-bf5f-9985267ed1bb"
+         ], 
+         "teammate" : "Alexander"
+      }, 
+      "c89a271e-ff07-4304-a0d3-ddd821634e9d" : { 
          "class" : "CharacterStunNode", 
          "desc" : { 
-            "x" : "-103798", 
-            "y" : "-96114"
+            "x" : "-103468", 
+            "y" : "-95310"
          }, 
          "child" : [ 
          ], 
-         "objectName" : "Player", 
+         "objectName" : "Alexander", 
          "stunMode" : "Wakeup"
       }, 
-      "53f30976-ef3e-4c6c-81de-80651370005e" : { 
+      "02dc9c9b-fd90-454d-bf5f-9985267ed1bb" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103326", 
+            "y" : "-95298"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "9668e36f-4bc9-45cb-9b32-d7c9ddd61908" : { 
+         "class" : "HasTeamMateNode", 
+         "desc" : { 
+            "x" : "-103186", 
+            "y" : "-95414"
+         }, 
+         "child" : [ 
+            "927ba838-7ec0-4aab-8304-cf30245e17c7", 
+            "7aa0e77a-a0fd-4bb5-9567-9935006620ac"
+         ], 
+         "teammate" : "Gexogen"
+      }, 
+      "927ba838-7ec0-4aab-8304-cf30245e17c7" : { 
+         "class" : "CharacterStunNode", 
+         "desc" : { 
+            "x" : "-103198", 
+            "y" : "-95306"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Gexogen", 
+         "stunMode" : "Wakeup"
+      }, 
+      "7aa0e77a-a0fd-4bb5-9567-9935006620ac" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103080", 
+            "y" : "-95302"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "8c347238-9dd4-4f62-9600-9ee80351e87e" : { 
+         "class" : "HasTeamMateNode", 
+         "desc" : { 
+            "x" : "-102970", 
+            "y" : "-95403"
+         }, 
+         "child" : [ 
+            "0c8888b8-7316-46b2-bfdf-4bd601a38afc", 
+            "b90c8aad-b01b-4349-89ad-d73a147e4811"
+         ], 
+         "teammate" : "Fidel"
+      }, 
+      "0c8888b8-7316-46b2-bfdf-4bd601a38afc" : { 
+         "class" : "CharacterStunNode", 
+         "desc" : { 
+            "x" : "-102964", 
+            "y" : "-95291"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Fidel", 
+         "stunMode" : "Wakeup"
+      }, 
+      "b90c8aad-b01b-4349-89ad-d73a147e4811" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-102832", 
+            "y" : "-95279"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "966a2f05-70ea-41f7-8625-b380df48d4e3" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-102656", 
+            "y" : "-95536"
+         }, 
+         "child" : [ 
+            "1d5846af-28c1-45f3-9e7c-87b81a5d9af2"
+         ], 
+         "waitTime" : "3"
+      }, 
+      "1d5846af-28c1-45f3-9e7c-87b81a5d9af2" : { 
+         "class" : "FractionSetRelationshipNode", 
+         "desc" : { 
+            "x" : "-102605", 
+            "y" : "-95376"
+         }, 
+         "child" : [ 
+            "cda39893-b9cb-4ec6-8c7d-536e872c8c19"
+         ], 
+         "fraction" : "~team2", 
+         "value" : "0"
+      }, 
+      "cda39893-b9cb-4ec6-8c7d-536e872c8c19" : { 
+         "class" : "CinematicEndNode", 
+         "desc" : { 
+            "x" : "-102576", 
+            "y" : "-95272"
+         }, 
+         "child" : [ 
+            "df8c8c42-4881-4882-9624-6f8ba90139f2"
+         ]
+      }, 
+      "df8c8c42-4881-4882-9624-6f8ba90139f2" : { 
+         "class" : "PlayerWaitNode", 
+         "desc" : { 
+            "x" : "-102582", 
+            "y" : "-95220"
+         }, 
+         "child" : [ 
+            "a96c5c16-4691-4d9b-9a8a-40190e4fad7a"
+         ], 
+         "lock" : "false", 
+         "waitingState" : "false"
+      }, 
+      "a96c5c16-4691-4d9b-9a8a-40190e4fad7a" : { 
          "class" : "FlashSplashNode", 
          "desc" : { 
-            "x" : "-103423", 
-            "y" : "-96072"
+            "x" : "-102576", 
+            "y" : "-95162"
          }, 
          "child" : [ 
             "610b2b06-80a5-4c34-b515-ac561e9b7cbe"
@@ -738,33 +895,34 @@
       "610b2b06-80a5-4c34-b515-ac561e9b7cbe" : { 
          "class" : "CharacterRemoveNode", 
          "desc" : { 
-            "x" : "-103428", 
-            "y" : "-96012"
+            "x" : "-102587", 
+            "y" : "-95114"
          }, 
          "child" : [ 
+            "763b894c-8e55-4d93-a352-226d81d58d46"
          ], 
          "objName" : "oraculumv2"
       }, 
-      "05f38250-89d6-45ad-90fc-f93f3671af10" : { 
-         "class" : "NotebookAddNoteNode", 
+      "763b894c-8e55-4d93-a352-226d81d58d46" : { 
+         "class" : "CharacterRemoveNode", 
          "desc" : { 
-            "x" : "-103286", 
-            "y" : "-96110"
+            "x" : "-102605", 
+            "y" : "-95047"
          }, 
          "child" : [ 
+            "fc3fbe63-e0fe-442f-a340-b00d82539085"
          ], 
-         "note_key" : "OKSANA_QUEST_3_EVENT_FINISH"
+         "objName" : "dog_9"
       }, 
-      "1d5846af-28c1-45f3-9e7c-87b81a5d9af2" : { 
-         "class" : "FractionSetRelationshipNode", 
+      "fc3fbe63-e0fe-442f-a340-b00d82539085" : { 
+         "class" : "CharacterRemoveNode", 
          "desc" : { 
-            "x" : "-103058", 
-            "y" : "-96109"
+            "x" : "-102625", 
+            "y" : "-94961"
          }, 
          "child" : [ 
          ], 
-         "fraction" : "~team2", 
-         "value" : "0"
+         "objName" : "dog_8"
       }, 
       "2bf164e8-6804-4ef4-8a1c-2cd4a7c374df" : { 
          "class" : "CharacterStunNode", 
@@ -855,23 +1013,23 @@
       "9ecd76d9-d6ce-42e4-a157-5c5f0f0a69d3" : { 
          "class" : "DialogAnswerNode", 
          "desc" : { 
-            "x" : "-102650", 
-            "y" : "-97832"
+            "x" : "-102608", 
+            "y" : "-97852"
          }, 
          "child" : [ 
-            "5dd39dcb-123e-4d1a-ae24-8f68bd4942af", 
-            "05f38250-89d6-45ad-90fc-f93f3671af10"
+            "5dd39dcb-123e-4d1a-ae24-8f68bd4942af"
          ], 
          "text" : "Отдать Оксану Оракулу! [Отпустить]"
       }, 
       "5dd39dcb-123e-4d1a-ae24-8f68bd4942af" : { 
          "class" : "DialogEndNode", 
          "desc" : { 
-            "x" : "-102593", 
-            "y" : "-97758"
+            "x" : "-102574", 
+            "y" : "-97769"
          }, 
          "child" : [ 
-            "4230c94a-7445-41ae-8e37-f276c6ba48f1"
+            "4230c94a-7445-41ae-8e37-f276c6ba48f1", 
+            "891a240c-2795-4627-b8cb-07d1f01a0545"
          ]
       }, 
       "4230c94a-7445-41ae-8e37-f276c6ba48f1" : { 
@@ -889,8 +1047,8 @@
       "c990dff5-9cb2-48ec-849a-743d87ab90fd" : { 
          "class" : "NotebookAddNoteNode", 
          "desc" : { 
-            "x" : "-102600", 
-            "y" : "-97621"
+            "x" : "-102598", 
+            "y" : "-97618"
          }, 
          "child" : [ 
             "dff78c9c-1f0a-40b1-b3db-9643551f9f29"
@@ -1037,8 +1195,8 @@
       "4566b5db-bc58-4836-800d-aa632c3f2764" : { 
          "class" : "WhoopNode", 
          "desc" : { 
-            "x" : "-102510", 
-            "y" : "-96984"
+            "x" : "-102427", 
+            "y" : "-96974"
          }, 
          "child" : [ 
          ], 
@@ -1050,8 +1208,8 @@
       "06709d4b-0d46-4126-b338-8bc22d59c0f1" : { 
          "class" : "WaitNode", 
          "desc" : { 
-            "x" : "-102197", 
-            "y" : "-97008"
+            "x" : "-102176", 
+            "y" : "-96996"
          }, 
          "child" : [ 
             "053ffc6e-be4c-4898-8fc2-6e67141638f2"
@@ -1061,8 +1219,8 @@
       "053ffc6e-be4c-4898-8fc2-6e67141638f2" : { 
          "class" : "HasTeamMateNode", 
          "desc" : { 
-            "x" : "-102121", 
-            "y" : "-96894"
+            "x" : "-102114", 
+            "y" : "-96919"
          }, 
          "child" : [ 
             "6cbf532a-df92-4a18-9977-ee12e89a2ea5", 
@@ -1074,7 +1232,7 @@
          "class" : "WhoopNode", 
          "desc" : { 
             "x" : "-102333", 
-            "y" : "-96780"
+            "y" : "-96845"
          }, 
          "child" : [ 
             "7db04400-936a-4356-8e17-cff28a8054c7"
@@ -1088,8 +1246,8 @@
       "7db04400-936a-4356-8e17-cff28a8054c7" : { 
          "class" : "WaitNode", 
          "desc" : { 
-            "x" : "-102258", 
-            "y" : "-96656"
+            "x" : "-102277", 
+            "y" : "-96737"
          }, 
          "child" : [ 
             "3c66e842-e460-49a6-b273-4cfe4339a710"
@@ -1099,8 +1257,8 @@
       "3c66e842-e460-49a6-b273-4cfe4339a710" : { 
          "class" : "HasTeamMateNode", 
          "desc" : { 
-            "x" : "-102026", 
-            "y" : "-96567"
+            "x" : "-102098", 
+            "y" : "-96683"
          }, 
          "child" : [ 
             "f2443801-d83e-40e3-aa2d-261b2faee126", 
@@ -1111,8 +1269,8 @@
       "f2443801-d83e-40e3-aa2d-261b2faee126" : { 
          "class" : "WhoopNode", 
          "desc" : { 
-            "x" : "-102311", 
-            "y" : "-96473"
+            "x" : "-102321", 
+            "y" : "-96605"
          }, 
          "child" : [ 
             "5b39bdba-c7ab-49cb-869e-c1463d435bc7"
@@ -1126,8 +1284,8 @@
       "5b39bdba-c7ab-49cb-869e-c1463d435bc7" : { 
          "class" : "WaitNode", 
          "desc" : { 
-            "x" : "-102237", 
-            "y" : "-96354"
+            "x" : "-102268", 
+            "y" : "-96499"
          }, 
          "child" : [ 
             "c83d994d-2a03-4ae6-a3a2-c07aef583b9c"
@@ -1137,8 +1295,8 @@
       "c83d994d-2a03-4ae6-a3a2-c07aef583b9c" : { 
          "class" : "HasTeamMateNode", 
          "desc" : { 
-            "x" : "-101916", 
-            "y" : "-96304"
+            "x" : "-102053", 
+            "y" : "-96509"
          }, 
          "child" : [ 
             "099de8bd-486f-401a-828b-4a57d568b9f3", 
@@ -1149,8 +1307,8 @@
       "099de8bd-486f-401a-828b-4a57d568b9f3" : { 
          "class" : "WhoopNode", 
          "desc" : { 
-            "x" : "-102171", 
-            "y" : "-96179"
+            "x" : "-102307", 
+            "y" : "-96406"
          }, 
          "child" : [ 
             "8c6bd002-cf3f-4182-99d8-10b11b4dda90"
@@ -1164,8 +1322,8 @@
       "8c6bd002-cf3f-4182-99d8-10b11b4dda90" : { 
          "class" : "CinematicEndNode", 
          "desc" : { 
-            "x" : "-101796", 
-            "y" : "-96010"
+            "x" : "-102044", 
+            "y" : "-96268"
          }, 
          "child" : [ 
             "d983b2f3-3f79-4cba-a8ed-56bb68152896"
@@ -1174,8 +1332,8 @@
       "d983b2f3-3f79-4cba-a8ed-56bb68152896" : { 
          "class" : "PlayerWaitNode", 
          "desc" : { 
-            "x" : "-101802", 
-            "y" : "-95958"
+            "x" : "-102050", 
+            "y" : "-96216"
          }, 
          "child" : [ 
             "209cba52-33de-4844-83bc-b6c280943144"
@@ -1186,8 +1344,8 @@
       "209cba52-33de-4844-83bc-b6c280943144" : { 
          "class" : "FlashSplashNode", 
          "desc" : { 
-            "x" : "-101796", 
-            "y" : "-95901"
+            "x" : "-102044", 
+            "y" : "-96159"
          }, 
          "child" : [ 
             "fca4d51b-4de8-4aae-a4df-f606c1942e2b", 
@@ -1206,8 +1364,8 @@
       "fca4d51b-4de8-4aae-a4df-f606c1942e2b" : { 
          "class" : "CharacterRemoveNode", 
          "desc" : { 
-            "x" : "-101862", 
-            "y" : "-95848"
+            "x" : "-102110", 
+            "y" : "-96106"
          }, 
          "child" : [ 
             "563df629-1e13-410e-8851-2c6f602868ea"
@@ -1217,8 +1375,8 @@
       "563df629-1e13-410e-8851-2c6f602868ea" : { 
          "class" : "CharacterRemoveNode", 
          "desc" : { 
-            "x" : "-101864", 
-            "y" : "-95786"
+            "x" : "-102112", 
+            "y" : "-96044"
          }, 
          "child" : [ 
             "caa0dadf-9325-4c47-ac18-984f810bb977"
@@ -1228,8 +1386,8 @@
       "caa0dadf-9325-4c47-ac18-984f810bb977" : { 
          "class" : "QuestDoneNode", 
          "desc" : { 
-            "x" : "-101867", 
-            "y" : "-95725"
+            "x" : "-102115", 
+            "y" : "-95983"
          }, 
          "child" : [ 
             "0d888c50-193b-4983-8b46-6d28e3ca6b31"
@@ -1239,8 +1397,8 @@
       "0d888c50-193b-4983-8b46-6d28e3ca6b31" : { 
          "class" : "AddExpNode", 
          "desc" : { 
-            "x" : "-101858", 
-            "y" : "-95655"
+            "x" : "-102106", 
+            "y" : "-95913"
          }, 
          "child" : [ 
          ], 
@@ -1249,8 +1407,8 @@
       "0d0ed7ac-5175-4f94-98ae-972692f1b243" : { 
          "class" : "CharacterRemoveNode", 
          "desc" : { 
-            "x" : "-101699", 
-            "y" : "-95814"
+            "x" : "-101947", 
+            "y" : "-96072"
          }, 
          "child" : [ 
          ], 
@@ -1259,8 +1417,8 @@
       "ff2597ff-d254-4107-8a59-49c1bde2300a" : { 
          "class" : "CharacterRemoveNode", 
          "desc" : { 
-            "x" : "-101568", 
-            "y" : "-95814"
+            "x" : "-101816", 
+            "y" : "-96072"
          }, 
          "child" : [ 
          ], 
@@ -1269,8 +1427,8 @@
       "0890b15b-eeea-4fb0-9921-c0a3cbf4c39e" : { 
          "class" : "CharacterRemoveNode", 
          "desc" : { 
-            "x" : "-101439", 
-            "y" : "-95811"
+            "x" : "-101687", 
+            "y" : "-96069"
          }, 
          "child" : [ 
          ], 
@@ -1279,8 +1437,8 @@
       "94514625-2a2b-4135-a898-2bf4d0a6fac4" : { 
          "class" : "CharacterRemoveNode", 
          "desc" : { 
-            "x" : "-101309", 
-            "y" : "-95811"
+            "x" : "-101557", 
+            "y" : "-96069"
          }, 
          "child" : [ 
          ], 
@@ -1289,8 +1447,8 @@
       "891f2ec4-92b8-415c-9a1d-beeb5b42c9a2" : { 
          "class" : "CharacterRemoveNode", 
          "desc" : { 
-            "x" : "-101182", 
-            "y" : "-95810"
+            "x" : "-101430", 
+            "y" : "-96068"
          }, 
          "child" : [ 
          ], 
@@ -1299,8 +1457,8 @@
       "b4407e80-cb7d-4fe7-a6ba-8260f80b6ec2" : { 
          "class" : "CharacterRemoveNode", 
          "desc" : { 
-            "x" : "-101056", 
-            "y" : "-95809"
+            "x" : "-101304", 
+            "y" : "-96067"
          }, 
          "child" : [ 
          ], 
@@ -1309,8 +1467,8 @@
       "b3dfb265-4a15-4206-8bbf-d2403ad20756" : { 
          "class" : "CharacterRemoveNode", 
          "desc" : { 
-            "x" : "-100931", 
-            "y" : "-95809"
+            "x" : "-101179", 
+            "y" : "-96067"
          }, 
          "child" : [ 
          ], 
@@ -1319,8 +1477,8 @@
       "804a98a8-d5e1-4661-8d66-1bf3404b8020" : { 
          "class" : "CharacterRemoveNode", 
          "desc" : { 
-            "x" : "-100806", 
-            "y" : "-95810"
+            "x" : "-101054", 
+            "y" : "-96068"
          }, 
          "child" : [ 
          ], 
@@ -1416,6 +1574,16 @@
          "run" : "false", 
          "keepCourse" : "false"
       }, 
+      "891a240c-2795-4627-b8cb-07d1f01a0545" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-102445", 
+            "y" : "-97686"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "OKSANA_QUEST_3_EVENT_FINISH"
+      }, 
       "5449ef8a-9509-4178-b32d-92abd3f1361a" : { 
          "class" : "DialogAnswerNode", 
          "desc" : { 
@@ -1433,8 +1601,8 @@
       "03d684c6-1fc7-4c21-9c0f-590398ed9520" : { 
          "class" : "WhoopNode", 
          "desc" : { 
-            "x" : "-102033", 
-            "y" : "-99203"
+            "x" : "-102334", 
+            "y" : "-99205"
          }, 
          "child" : [ 
          ], 
@@ -1446,8 +1614,8 @@
       "e3847326-2d85-4c9a-9889-6343989fc01d" : { 
          "class" : "CharacterShootToPointNode", 
          "desc" : { 
-            "x" : "-102088", 
-            "y" : "-99036"
+            "x" : "-102291", 
+            "y" : "-99102"
          }, 
          "child" : [ 
          ], 
@@ -1457,8 +1625,8 @@
       "6bfdbdec-b717-41b9-96e2-d3165720256b" : { 
          "class" : "CharacterShootToPointNode", 
          "desc" : { 
-            "x" : "-101983", 
-            "y" : "-98895"
+            "x" : "-102243", 
+            "y" : "-99010"
          }, 
          "child" : [ 
          ], 
@@ -1468,8 +1636,8 @@
       "652ba0df-9935-4592-9a61-f7c64e8309a6" : { 
          "class" : "DialogPhraseNode", 
          "desc" : { 
-            "x" : "-101818", 
-            "y" : "-98989"
+            "x" : "-101996", 
+            "y" : "-99155"
          }, 
          "child" : [ 
             "34557044-ec4e-4b66-b29b-134082ddca13"
@@ -1479,8 +1647,8 @@
       "34557044-ec4e-4b66-b29b-134082ddca13" : { 
          "class" : "HasTeamMateNode", 
          "desc" : { 
-            "x" : "-101734", 
-            "y" : "-98882"
+            "x" : "-101891", 
+            "y" : "-99028"
          }, 
          "child" : [ 
             "ffe60532-6dc4-43f3-984e-ee8760d04bcb", 
@@ -1491,8 +1659,8 @@
       "ffe60532-6dc4-43f3-984e-ee8760d04bcb" : { 
          "class" : "CharacterKillNode", 
          "desc" : { 
-            "x" : "-101810", 
-            "y" : "-98653"
+            "x" : "-101987", 
+            "y" : "-98757"
          }, 
          "child" : [ 
             "a7c24bce-7a06-493f-adba-a23d09cad966"
@@ -1502,8 +1670,8 @@
       "a7c24bce-7a06-493f-adba-a23d09cad966" : { 
          "class" : "DialogContinueNode", 
          "desc" : { 
-            "x" : "-101753", 
-            "y" : "-98436"
+            "x" : "-101849", 
+            "y" : "-98502"
          }, 
          "child" : [ 
             "918a47b1-20a8-46ca-89e0-52a4d41032a4"
@@ -1512,19 +1680,19 @@
       "918a47b1-20a8-46ca-89e0-52a4d41032a4" : { 
          "class" : "DialogPhraseNode", 
          "desc" : { 
-            "x" : "-101770", 
-            "y" : "-98346"
+            "x" : "-101849", 
+            "y" : "-98455"
          }, 
          "child" : [ 
             "bbc57194-7659-4453-a4ea-be7f11fe059c"
          ], 
-         "text" : "[Оракул что-то делает непонятное и один из ваших товарищей погибает]\\nЖаль конечно что так вышло и мне пришлось убить одного из вас, но это ваша вина. Давайте не будем усложнять ситуацию."
+         "text" : "Жаль конечно что так вышло и мне пришлось убить одного из вас, но это ваша вина. Давайте не будем усложнять ситуацию."
       }, 
       "736fdef7-c77a-438b-95c3-c5ed0715a905" : { 
          "class" : "HasTeamMateNode", 
          "desc" : { 
-            "x" : "-101576", 
-            "y" : "-98769"
+            "x" : "-101703", 
+            "y" : "-98901"
          }, 
          "child" : [ 
             "b7c63d30-ccac-4811-abd1-8bd991721749", 
@@ -1535,8 +1703,8 @@
       "b7c63d30-ccac-4811-abd1-8bd991721749" : { 
          "class" : "CharacterKillNode", 
          "desc" : { 
-            "x" : "-101617", 
-            "y" : "-98603"
+            "x" : "-101794", 
+            "y" : "-98707"
          }, 
          "child" : [ 
             "a7c24bce-7a06-493f-adba-a23d09cad966"
@@ -1546,8 +1714,8 @@
       "17d94deb-2b8a-4d33-ae09-de7c6615dcd1" : { 
          "class" : "HasTeamMateNode", 
          "desc" : { 
-            "x" : "-101440", 
-            "y" : "-98635"
+            "x" : "-101518", 
+            "y" : "-98774"
          }, 
          "child" : [ 
             "dc5a0585-9b9b-4968-a357-fbe2fdb7c062", 
@@ -1558,8 +1726,8 @@
       "dc5a0585-9b9b-4968-a357-fbe2fdb7c062" : { 
          "class" : "CharacterKillNode", 
          "desc" : { 
-            "x" : "-101478", 
-            "y" : "-98526"
+            "x" : "-101655", 
+            "y" : "-98630"
          }, 
          "child" : [ 
             "a7c24bce-7a06-493f-adba-a23d09cad966"
@@ -1569,8 +1737,8 @@
       "9573df32-d28b-430a-a09f-463f0d39b5b8" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-101276", 
-            "y" : "-98518"
+            "x" : "-101388", 
+            "y" : "-98655"
          }, 
          "child" : [ 
             "be099dad-eede-45c3-8a0e-3fa83f1bcf3a"
@@ -1579,8 +1747,8 @@
       "be099dad-eede-45c3-8a0e-3fa83f1bcf3a" : { 
          "class" : "DialogContinueNode", 
          "desc" : { 
-            "x" : "-101326", 
-            "y" : "-98335"
+            "x" : "-101442", 
+            "y" : "-98577"
          }, 
          "child" : [ 
             "896b28aa-4b0b-48c0-912e-f1797970b82b"
@@ -1589,8 +1757,8 @@
       "896b28aa-4b0b-48c0-912e-f1797970b82b" : { 
          "class" : "DialogPhraseNode", 
          "desc" : { 
-            "x" : "-101325", 
-            "y" : "-98277"
+            "x" : "-101442", 
+            "y" : "-98501"
          }, 
          "child" : [ 
             "bbc57194-7659-4453-a4ea-be7f11fe059c"

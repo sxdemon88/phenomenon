@@ -148,4 +148,4 @@ MonoBehaviour:
   MachineGunAnimatorController:
     path: Models/Characters/Male/MaleAnimTree_MachineGun
   Abilities: 0
-  StatisticsID: 
+  StatisticsID: man

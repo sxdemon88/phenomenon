@@ -27,43 +27,32 @@
       "0efa7fdf-44d6-4db3-a8c6-0625fe90a241" : { 
          "class" : "NotebookHasNoteNode", 
          "desc" : { 
-            "x" : "-101833", 
-            "y" : "-101201"
+            "x" : "-101771", 
+            "y" : "-101218"
          }, 
          "child" : [ 
-            "1cf94988-920b-4534-8140-fe6336965da0", 
+            "53e1f48b-8029-4d68-b7c4-f34ad3e95177", 
             "5ff9c74f-9f33-47f9-8fe9-a94107a109f2"
          ], 
          "note_key" : "WEAPON_OKSANA_ON"
       }, 
-      "1cf94988-920b-4534-8140-fe6336965da0" : { 
-         "class" : "QuestStatusNode", 
+      "53e1f48b-8029-4d68-b7c4-f34ad3e95177" : { 
+         "class" : "NotebookHasNoteNode", 
          "desc" : { 
-            "x" : "-101099", 
-            "y" : "-100988"
+            "x" : "-101463", 
+            "y" : "-101100"
          }, 
          "child" : [ 
-            "9d265938-6d2b-46e8-9978-b67a4b1efeec", 
-            "2c01876b-2ee6-4351-a295-ba14a5a66427", 
-            "3d22b12f-a575-4cbc-858a-327de2fd0021"
+            "3d22b12f-a575-4cbc-858a-327de2fd0021", 
+            "1cf94988-920b-4534-8140-fe6336965da0"
          ], 
-         "quest_key" : "OKSANA_QUEST_2"
-      }, 
-      "9d265938-6d2b-46e8-9978-b67a4b1efeec" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-101411", 
-            "y" : "-100904"
-         }, 
-         "child" : [ 
-            "3d22b12f-a575-4cbc-858a-327de2fd0021"
-         ]
+         "note_key" : "OKSANA_QUEST_DONE_1"
       }, 
       "3d22b12f-a575-4cbc-858a-327de2fd0021" : { 
          "class" : "NotebookHasNoteNode", 
          "desc" : { 
-            "x" : "-101839", 
-            "y" : "-100845"
+            "x" : "-101837", 
+            "y" : "-100966"
          }, 
          "child" : [ 
             "e89578b0-de3e-4009-83c8-d7ae18b31968", 
@@ -1365,8 +1354,8 @@
       "c285431f-36ef-4ec0-8e2b-c2ebe20c9c1d" : { 
          "class" : "NotebookAddNoteNode", 
          "desc" : { 
-            "x" : "-102051", 
-            "y" : "-100790"
+            "x" : "-102031", 
+            "y" : "-100816"
          }, 
          "child" : [ 
             "d52088fc-a317-4318-8bc5-1a93141fe71d"
@@ -1430,6 +1419,29 @@
             "dab31b92-97b1-499f-b9fb-5c8a0f27621c"
          ]
       }, 
+      "1cf94988-920b-4534-8140-fe6336965da0" : { 
+         "class" : "QuestStatusNode", 
+         "desc" : { 
+            "x" : "-100984", 
+            "y" : "-101071"
+         }, 
+         "child" : [ 
+            "9d265938-6d2b-46e8-9978-b67a4b1efeec", 
+            "2c01876b-2ee6-4351-a295-ba14a5a66427", 
+            "3d22b12f-a575-4cbc-858a-327de2fd0021"
+         ], 
+         "quest_key" : "OKSANA_QUEST_2"
+      }, 
+      "9d265938-6d2b-46e8-9978-b67a4b1efeec" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101403", 
+            "y" : "-100951"
+         }, 
+         "child" : [ 
+            "3d22b12f-a575-4cbc-858a-327de2fd0021"
+         ]
+      }, 
       "2c01876b-2ee6-4351-a295-ba14a5a66427" : { 
          "class" : "DialogPhraseNode", 
          "desc" : { 
@@ -1437,10 +1449,21 @@
             "y" : "-100780"
          }, 
          "child" : [ 
+            "4ada57e1-c1e0-4488-bd94-b3205124c9c7", 
             "f2f4905f-14db-421c-bbe0-20e6b7378d3d", 
             "9248f265-1430-4841-8702-95187c1aa858"
          ], 
          "text" : "Саш, у меня тут маленький для тебя подарок! Я помню как ты говорил что коллекционируешь марки и медали довоеннные. Вот, это тебе. Мой скромный подарок за твою помощь! Без тебя я бы пропала! Спасибо тебе большое за всё!"
+      }, 
+      "4ada57e1-c1e0-4488-bd94-b3205124c9c7" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-100761", 
+            "y" : "-100678"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "OKSANA_QUEST_DONE_1"
       }, 
       "f2f4905f-14db-421c-bbe0-20e6b7378d3d" : { 
          "class" : "DialogAnswerNode", 
@@ -1512,8 +1535,8 @@
       "5ff9c74f-9f33-47f9-8fe9-a94107a109f2" : { 
          "class" : "HasTeamMateNode", 
          "desc" : { 
-            "x" : "-102301", 
-            "y" : "-101066"
+            "x" : "-102228", 
+            "y" : "-101063"
          }, 
          "child" : [ 
             "500c19cf-2fab-403c-bdf5-510c3f17dbbf", 
@@ -1524,8 +1547,8 @@
       "500c19cf-2fab-403c-bdf5-510c3f17dbbf" : { 
          "class" : "DialogPhraseNode", 
          "desc" : { 
-            "x" : "-103393", 
-            "y" : "-103257"
+            "x" : "-103484", 
+            "y" : "-103280"
          }, 
          "child" : [ 
             "f9d7c875-544c-46d8-8b93-e3752dad2c0c", 
@@ -1845,8 +1868,8 @@
       "2d787ac6-a376-498d-810f-357345fb9e1d" : { 
          "class" : "PlayDialogNode", 
          "desc" : { 
-            "x" : "-101334", 
-            "y" : "-101123"
+            "x" : "-101423", 
+            "y" : "-101339"
          }, 
          "child" : [ 
          ], 

@@ -1,0 +1,68 @@
+{ 
+   "states" : { 
+      "7a91e538-4a60-4839-90c4-03ed8f8f5bcb" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-869", 
+            "y" : "-877"
+         }, 
+         "child" : [ 
+            "e4bf622f-d35c-444a-b358-8892de7db876"
+         ]
+      }, 
+      "e4bf622f-d35c-444a-b358-8892de7db876" : { 
+         "class" : "WaitNode", 
+         "desc" : { 
+            "x" : "-1083", 
+            "y" : "-789"
+         }, 
+         "child" : [ 
+            "0e558d08-8c64-4da0-8898-cf40d30aff5f"
+         ], 
+         "waitTime" : "1"
+      }, 
+      "0e558d08-8c64-4da0-8898-cf40d30aff5f" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-1083", 
+            "y" : "-727"
+         }, 
+         "child" : [ 
+            "c517bd56-52ef-4218-9dd9-09b9301d656a", 
+            "fff443b4-e126-4be1-b97d-65b3746bcf1e"
+         ], 
+         "key" : "INITBEH"
+      }, 
+      "c517bd56-52ef-4218-9dd9-09b9301d656a" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-1428", 
+            "y" : "-516"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "fff443b4-e126-4be1-b97d-65b3746bcf1e" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-1012", 
+            "y" : "-582"
+         }, 
+         "child" : [ 
+            "71cb5d7b-ddee-4dfe-bb48-5e9b83fbbd06"
+         ], 
+         "key" : "INITBEH"
+      }, 
+      "71cb5d7b-ddee-4dfe-bb48-5e9b83fbbd06" : { 
+         "class" : "PlayDialogNode", 
+         "desc" : { 
+            "x" : "-1052", 
+            "y" : "-508"
+         }, 
+         "child" : [ 
+         ], 
+         "dialog" : "Entities/Dialog/ph_oraculumv2"
+      }
+   }, 
+   "entry" : "7a91e538-4a60-4839-90c4-03ed8f8f5bcb"
+}
