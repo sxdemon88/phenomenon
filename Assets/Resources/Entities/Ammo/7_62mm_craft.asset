@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Icon:
     path: Entities/Ammo/Ammo models/ammo7_62craft
-  m_Localization: ammo.7_62_craft
+  m_Localization: ammo.7_62mm_craft
   Takeable: 1
   Cost: 6
   Weight: 16

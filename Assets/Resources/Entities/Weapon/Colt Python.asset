@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Icon:
     path: Entities/Weapon/weapon models/Colt Python/colt_icons
-  m_Localization: weapon.Colt_Python
+  m_Localization: weapon.colt python
   Takeable: 1
   Cost: 3000
   Weight: 1360

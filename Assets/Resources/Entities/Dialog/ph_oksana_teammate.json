@@ -77,7 +77,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Уже ухожу. Прощай.", 
+         "text" : "#ph_oksana_teammate.3c4d691d-ca85-4c88-9861-f4fafe0eab11", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -89,7 +89,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Может когда нибудь и увидимся.", 
+         "text" : "#ph_oksana_teammate.a1a38b4b-7db4-4a6e-b320-375753e56264", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -101,7 +101,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Глубоко вздыхает...", 
+         "text" : "#ph_oksana_teammate.4f45e02e-bed8-4e3a-a42a-cbce38c0cedc", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -114,7 +114,7 @@
          "child" : [ 
             "7775a527-8b42-45d5-b4f4-b5a973a6d65b"
          ], 
-         "text" : "[Оксана встречает вас удивленным взгядом.] И где мы шляемся столько времени?"
+         "text" : "#ph_oksana_teammate.be9eac62-b6bd-45c1-9110-6494a0d7672b"
       }, 
       "7775a527-8b42-45d5-b4f4-b5a973a6d65b" : { 
          "class" : "DialogContinueNode", 
@@ -136,7 +136,7 @@
             "ac36be43-d2c2-426a-b1ec-1efb1a7bc25d", 
             "76bc3305-bc3a-4031-bdf4-2db3d4a7b88e"
          ], 
-         "text" : "Еще немного и я бы ушла."
+         "text" : "#ph_oksana_teammate.985143a6-6770-4228-884d-ab2ec3c7441b"
       }, 
       "ac36be43-d2c2-426a-b1ec-1efb1a7bc25d" : { 
          "class" : "DialogAnswerNode", 
@@ -147,7 +147,7 @@
          "child" : [ 
             "50670a1f-ac44-4bc0-829b-0454bb680784"
          ], 
-         "text" : "Хорошо что ты не ушла. Пошли, нам без тебя никак."
+         "text" : "#ph_oksana_teammate.ac36be43-d2c2-426a-b1ec-1efb1a7bc25d"
       }, 
       "50670a1f-ac44-4bc0-829b-0454bb680784" : { 
          "class" : "DialogPhraseNode", 
@@ -158,7 +158,7 @@
          "child" : [ 
             "8c0a523e-2d99-4092-910a-1996211d555b"
          ], 
-         "text" : "[Оксана улыбается вам и собирается в путь]"
+         "text" : "#ph_oksana_teammate.50670a1f-ac44-4bc0-829b-0454bb680784"
       }, 
       "8c0a523e-2d99-4092-910a-1996211d555b" : { 
          "class" : "DialogAnswerNode", 
@@ -169,7 +169,7 @@
          "child" : [ 
             "27ef50cb-26e6-464b-a5b5-1c9ea53b2060"
          ], 
-         "text" : "Помочь собрать вещи."
+         "text" : "#ph_oksana_teammate.8c0a523e-2d99-4092-910a-1996211d555b"
       }, 
       "27ef50cb-26e6-464b-a5b5-1c9ea53b2060" : { 
          "class" : "RemoveKeywordNode", 
@@ -212,8 +212,7 @@
          }, 
          "child" : [ 
             "9811be5e-1f64-4fbc-88fd-56382cdeffe1"
-         ], 
-         "stateName" : ""
+         ]
       }, 
       "9811be5e-1f64-4fbc-88fd-56382cdeffe1" : { 
          "class" : "CharacterCapsNode", 
@@ -277,7 +276,7 @@
          "child" : [ 
             "ae0d2d89-0e37-4ee2-be7a-a0197ffd7168"
          ], 
-         "text" : "Надо еще немного подождать."
+         "text" : "#ph_oksana_teammate.76bc3305-bc3a-4031-bdf4-2db3d4a7b88e"
       }, 
       "ae0d2d89-0e37-4ee2-be7a-a0197ffd7168" : { 
          "class" : "DialogEndNode", 
@@ -349,7 +348,7 @@
          "child" : [ 
             "98493589-f70c-4a63-b589-d00a8fd7eaa7"
          ], 
-         "text" : "[У оксаны застывший взгляд, увидев что вы подходите к ней. она немного взбодрилась.]"
+         "text" : "#ph_oksana_teammate.7a36e55a-2547-4ac1-a587-a9a42295a0ed"
       }, 
       "98493589-f70c-4a63-b589-d00a8fd7eaa7" : { 
          "class" : "DialogContinueNode", 
@@ -374,7 +373,7 @@
             "420237d2-6f40-4923-97b5-219f0b6a51de", 
             "c362a663-0760-4a3d-858f-7857dec7ea4b"
          ], 
-         "text" : "Да $PLAYER.NAME$. Что-то случилось?"
+         "text" : "#ph_oksana_teammate.0908450e-05a1-4cd5-9e19-e802245b94db"
       }, 
       "8f6b5cca-68b1-4965-b536-d7a76313df37" : { 
          "class" : "DialogAnswerNode", 
@@ -429,7 +428,7 @@
             "58100871-299a-4800-bdef-c9144955e835", 
             "b58dd774-c0ec-452b-9b4e-9fc824f9f7e9"
          ], 
-         "text" : "Всё отлично. Не хватает только шампанского. [d]$CHARACTER.HP$/$CHARACTER.MAXHP$[/d]"
+         "text" : "#ph_oksana_teammate.124465d0-813e-4837-b9b7-f64d070c3b64"
       }, 
       "3c08c50b-07ad-4160-a0fb-e62394b4800d" : { 
          "class" : "CompareKeyValueNode", 
@@ -537,7 +536,7 @@
          "child" : [ 
             "a9d1fa28-3e1a-47d7-8a8e-9c4d23391524"
          ], 
-         "text" : "Спасибо тебе за волшебные таблеточки."
+         "text" : "#ph_oksana_teammate.c1edde82-6e1c-4f42-ad3b-d50e1a923922"
       }, 
       "a9d1fa28-3e1a-47d7-8a8e-9c4d23391524" : { 
          "class" : "CharacterAddEffectNode", 
@@ -621,7 +620,7 @@
             "60658627-c6df-4bcf-88c2-380324bc2a22", 
             "f69729fb-c484-415b-a25b-ba16695b7a26"
          ], 
-         "text" : "Что? опять? Какие  же мы любознательные."
+         "text" : "#ph_oksana_teammate.12ceae83-75b5-4d9a-bcdf-5cfd7b669b8b"
       }, 
       "fee52569-eb20-440c-b6ad-9ae1c652fcc4" : { 
          "class" : "DialogAnswerNode", 
@@ -632,7 +631,7 @@
          "child" : [ 
             "5f82a7c5-9424-4ead-9f74-78a21a5acd09"
          ], 
-         "text" : "Может поделишься информацией или задание какое подкинешь?"
+         "text" : "#ph_oksana_teammate.fee52569-eb20-440c-b6ad-9ae1c652fcc4"
       }, 
       "5f82a7c5-9424-4ead-9f74-78a21a5acd09" : { 
          "class" : "QuestStatusNode", 
@@ -669,7 +668,7 @@
             "e6a83737-9c26-4c4a-9c47-e9c69d499560", 
             "b40316fc-59fd-4d29-8b33-b0040158c301"
          ], 
-         "text" : "$PLAYER.NAME$  Мы на месте. Удалось собрать что я просила?"
+         "text" : "#ph_oksana_teammate.7ab4ef93-26d3-49b0-aa26-5a10bbcf7f9e"
       }, 
       "e6a83737-9c26-4c4a-9c47-e9c69d499560" : { 
          "class" : "InventoryHasItemNode", 
@@ -820,7 +819,7 @@
          "child" : [ 
             "49c0cfbc-9919-4050-a5b4-2a1cd66e3d8b"
          ], 
-         "text" : "Да, вот всё необходимое. Держи."
+         "text" : "#ph_oksana_teammate.000176d8-191b-4895-a1ab-6c97867b73c7"
       }, 
       "49c0cfbc-9919-4050-a5b4-2a1cd66e3d8b" : { 
          "class" : "QuestDoneNode", 
@@ -1009,7 +1008,7 @@
          "child" : [ 
             "211a290e-f41d-4c81-8e34-28428a3992c0"
          ], 
-         "text" : "Спасибо тебе большое, подруга!"
+         "text" : "#ph_oksana_teammate.be055a89-f8b5-4f7b-8dba-6b89c69693fc"
       }, 
       "211a290e-f41d-4c81-8e34-28428a3992c0" : { 
          "class" : "DialogAnswerNode", 
@@ -1020,7 +1019,7 @@
          "child" : [ 
             "d3f869ce-1949-417a-95ae-b57b3b241bd7"
          ], 
-         "text" : "Найдеюсь кто-то из твоей группы жив, и тайник им пригодится.[Уйти]"
+         "text" : "#ph_oksana_teammate.211a290e-f41d-4c81-8e34-28428a3992c0"
       }, 
       "d3f869ce-1949-417a-95ae-b57b3b241bd7" : { 
          "class" : "AddExpNode", 
@@ -1063,7 +1062,7 @@
          "child" : [ 
             "211a290e-f41d-4c81-8e34-28428a3992c0"
          ], 
-         "text" : "Спасибо тебе большое, друг!"
+         "text" : "#ph_oksana_teammate.d389f7dc-6c67-41fb-868f-349cd7ff32be"
       }, 
       "a20c9521-001c-4434-b1ce-d6a3eb104a60" : { 
          "class" : "DummyNode", 
@@ -1083,7 +1082,7 @@
          "child" : [ 
             "e3fb4b77-ee6d-4a30-9b43-96755117f823"
          ], 
-         "text" : "Нет ещё, но я найду, обещаю."
+         "text" : "#ph_oksana_teammate.b40316fc-59fd-4d29-8b33-b0040158c301"
       }, 
       "e3fb4b77-ee6d-4a30-9b43-96755117f823" : { 
          "class" : "DialogEndNode", 
@@ -1103,7 +1102,7 @@
          "child" : [ 
             "7e8ac806-aec6-4164-9fee-64ad93b06245"
          ], 
-         "text" : "$PLAYER.NAME$  Надо сделать тайник в КРЗ. Поговорим когда будем на месте."
+         "text" : "#ph_oksana_teammate.2cd88330-6bfc-4866-84d1-3afa09845470"
       }, 
       "7e8ac806-aec6-4164-9fee-64ad93b06245" : { 
          "class" : "DialogAnswerNode", 
@@ -1114,7 +1113,7 @@
          "child" : [ 
             "e3fb4b77-ee6d-4a30-9b43-96755117f823"
          ], 
-         "text" : "Хорошо."
+         "text" : "#ph_oksana_teammate.7e8ac806-aec6-4164-9fee-64ad93b06245"
       }, 
       "80fcdecf-7e6d-443e-8f1d-ac474e360cd9" : { 
          "class" : "NotebookHasNoteNode", 
@@ -1174,7 +1173,7 @@
          "child" : [ 
             "a37c2726-596a-4446-94f4-9ba884d6cc0c"
          ], 
-         "text" : "$PLAYER.NAME$. Тут я уже была."
+         "text" : "#ph_oksana_teammate.3eca2228-517f-48e1-87f5-a0288c7718ca"
       }, 
       "a37c2726-596a-4446-94f4-9ba884d6cc0c" : { 
          "class" : "DialogAnswerNode", 
@@ -1185,7 +1184,7 @@
          "child" : [ 
             "f8c91e06-5b06-4681-923b-8ab1f05233e0"
          ], 
-         "text" : "Выдвигаемся"
+         "text" : "#ph_oksana_teammate.a37c2726-596a-4446-94f4-9ba884d6cc0c"
       }, 
       "f8c91e06-5b06-4681-923b-8ab1f05233e0" : { 
          "class" : "DialogEndNode", 
@@ -1216,7 +1215,7 @@
          "child" : [ 
             "a141b713-852d-46b2-a63b-f098c83970d7"
          ], 
-         "text" : "Итак $PLAYER.NAME$. Вот мы и в КРЗ. Я быстро пробегусь по рынку. Может что найду интересное."
+         "text" : "#ph_oksana_teammate.cb74a884-d044-4dbf-ad46-440242f1655d"
       }, 
       "a141b713-852d-46b2-a63b-f098c83970d7" : { 
          "class" : "DialogAnswerNode", 
@@ -1229,7 +1228,7 @@
             "da9a4391-d2f1-4445-b76b-86d77e5f57cb", 
             "2cab1cfa-9305-4a32-a341-d2054929060e"
          ], 
-         "text" : "Хорошо, жду тебя."
+         "text" : "#ph_oksana_teammate.a141b713-852d-46b2-a63b-f098c83970d7"
       }, 
       "72980896-64f7-48bb-829c-3ea62e9aba13" : { 
          "class" : "ScrollTimeNode", 
@@ -1251,7 +1250,7 @@
          "child" : [ 
             "a7df863c-e5af-41d5-add1-2309a24cb741"
          ], 
-         "text" : "А вот и я. [Оксана довольно улыбается]. Всё купила что хотела."
+         "text" : "#ph_oksana_teammate.da9a4391-d2f1-4445-b76b-86d77e5f57cb"
       }, 
       "a7df863c-e5af-41d5-add1-2309a24cb741" : { 
          "class" : "HasKeywordNode", 
@@ -1322,7 +1321,7 @@
          "child" : [ 
             "91f01bcc-3fc6-4a60-8cc1-932a8b01f461"
          ], 
-         "text" : "Мы посетили все локации по твоему списку Оксана."
+         "text" : "#ph_oksana_teammate.4324c812-09e4-4157-9fc0-d92abc28ffae"
       }, 
       "91f01bcc-3fc6-4a60-8cc1-932a8b01f461" : { 
          "class" : "DialogPhraseNode", 
@@ -1333,7 +1332,7 @@
          "child" : [ 
             "beafea53-1b15-45b3-b83a-f5f35fbdbaf2"
          ], 
-         "text" : "Да да $PLAYER.NAME$. Спасибо тебе огромное. И человеческое спасибо! Как только увижусь с Сашей, отдам ему подарок."
+         "text" : "#ph_oksana_teammate.91f01bcc-3fc6-4a60-8cc1-932a8b01f461"
       }, 
       "beafea53-1b15-45b3-b83a-f5f35fbdbaf2" : { 
          "class" : "DialogAnswerNode", 
@@ -1344,7 +1343,7 @@
          "child" : [ 
             "f61a6b63-acb6-4c62-a374-bef8dfe2568a"
          ], 
-         "text" : "Всегда пожалуйста."
+         "text" : "#ph_oksana_teammate.beafea53-1b15-45b3-b83a-f5f35fbdbaf2"
       }, 
       "f61a6b63-acb6-4c62-a374-bef8dfe2568a" : { 
          "class" : "NotebookAddNoteNode", 
@@ -1410,7 +1409,7 @@
          "child" : [ 
             "08da3718-60a2-4e72-8306-75287fc7183c"
          ], 
-         "text" : "Пошли."
+         "text" : "#ph_oksana_teammate.3d0e635b-d6a7-4d29-8d16-d1f18c86333d"
       }, 
       "08da3718-60a2-4e72-8306-75287fc7183c" : { 
          "class" : "DialogEndNode", 
@@ -1476,7 +1475,7 @@
          "child" : [ 
             "a141b713-852d-46b2-a63b-f098c83970d7"
          ], 
-         "text" : "$PLAYER.NAME$ вот мы и в Перегоне. Тут много торговцев. Думаю за пару часов управлюсь. Я быстро!"
+         "text" : "#ph_oksana_teammate.5d97aa2e-7d9c-4b76-872d-cc5795a9c525"
       }, 
       "869d9c0f-4bdd-4dca-9f2f-fe693aa33dfc" : { 
          "class" : "PlayerWhereMapLocationNode", 
@@ -1522,7 +1521,7 @@
          "child" : [ 
             "a141b713-852d-46b2-a63b-f098c83970d7"
          ], 
-         "text" : "$PLAYER.NAME$ вот мы и в Отрадном. поселение не большое. Быстро управлюсь."
+         "text" : "#ph_oksana_teammate.309ec5db-a854-47ad-a1f4-dc1a9978f925"
       }, 
       "5200193b-c74f-4e4c-b385-2819f89def4a" : { 
          "class" : "PlayerWhereMapLocationNode", 
@@ -1568,7 +1567,7 @@
          "child" : [ 
             "a141b713-852d-46b2-a63b-f098c83970d7"
          ], 
-         "text" : "$PLAYER.NAME$ вот мы и в Фогелёвке. Приятная деревушка. Думаю я найду тут что нибудь ценное для коллекции."
+         "text" : "#ph_oksana_teammate.4f592967-0970-41a8-a492-f70bc0e884d2"
       }, 
       "5005eaac-033b-4fe8-814a-3269b400d5cc" : { 
          "class" : "PlayerWhereMapLocationNode", 
@@ -1614,7 +1613,7 @@
          "child" : [ 
             "a141b713-852d-46b2-a63b-f098c83970d7"
          ], 
-         "text" : "$PLAYER.NAME$ вот мы и в Караван-сарай. Тут часто останавливаются путники. Думаю я найду что-то уникальное тут."
+         "text" : "#ph_oksana_teammate.884bf57a-49ac-415c-909e-55badde86528"
       }, 
       "f3907631-e94b-4782-a568-e986a11ca8e7" : { 
          "class" : "DialogPhraseNode", 
@@ -1625,7 +1624,7 @@
          "child" : [ 
             "a37c2726-596a-4446-94f4-9ba884d6cc0c"
          ], 
-         "text" : "$PLAYER.NAME$ как будем на месте, тогда и поговорим. А сейчас в путь !"
+         "text" : "#ph_oksana_teammate.f3907631-e94b-4782-a568-e986a11ca8e7"
       }, 
       "40607160-4c31-4270-9c7c-8c7888b3fd0f" : { 
          "class" : "QuestStatusNode", 
@@ -1672,7 +1671,7 @@
          "child" : [ 
             "43d62886-4fe6-49a7-998a-4c93e9e538f5"
          ], 
-         "text" : "Я не помню что именно он хотел от меня и кто он. Что произошло, разум как в тумане. И голова сильно болит! Давай это обсудим позже? Сейчас мне нужно время восстановится."
+         "text" : "#ph_oksana_teammate.1cb6d999-e4aa-4a07-a82c-e981f3ceb0c3"
       }, 
       "43d62886-4fe6-49a7-998a-4c93e9e538f5" : { 
          "class" : "DialogAnswerNode", 
@@ -1683,7 +1682,7 @@
          "child" : [ 
             "42b3a848-7e96-48e9-b117-8011818d8f08"
          ], 
-         "text" : "Да, вопросов больше чем ответов."
+         "text" : "#ph_oksana_teammate.43d62886-4fe6-49a7-998a-4c93e9e538f5"
       }, 
       "42b3a848-7e96-48e9-b117-8011818d8f08" : { 
          "class" : "DialogPhraseNode", 
@@ -1694,7 +1693,7 @@
          "child" : [ 
             "dcc59d41-d4e5-4993-bb9a-a93ce5c7c847"
          ], 
-         "text" : "Убить вы его  не смогли, иг лавное, он получил что хотел. Но я абсолютно не помню, что именно он хотел от менять. Он стёр эту информацию из моей головы."
+         "text" : "#ph_oksana_teammate.42b3a848-7e96-48e9-b117-8011818d8f08"
       }, 
       "dcc59d41-d4e5-4993-bb9a-a93ce5c7c847" : { 
          "class" : "DialogAnswerNode", 
@@ -1705,7 +1704,7 @@
          "child" : [ 
             "f5d4130e-7bd1-4de4-946c-96e60af8bf38"
          ], 
-         "text" : "Мы что нибудь придумаем!"
+         "text" : "#ph_oksana_teammate.dcc59d41-d4e5-4993-bb9a-a93ce5c7c847"
       }, 
       "f5d4130e-7bd1-4de4-946c-96e60af8bf38" : { 
          "class" : "AddExpNode", 
@@ -1760,7 +1759,7 @@
          "child" : [ 
             "b265cc8e-d259-45fc-b227-b1876ee47e3e"
          ], 
-         "text" : "Они нас ждут в городе. Надо подготовится и выдвигаться к ним на встречу!"
+         "text" : "#ph_oksana_teammate.f21a3eae-20e9-4572-9134-a9c09ecd690c"
       }, 
       "b265cc8e-d259-45fc-b227-b1876ee47e3e" : { 
          "class" : "DialogAnswerNode", 
@@ -1771,7 +1770,7 @@
          "child" : [ 
             "565c1055-d654-435f-b865-aad04e313f61"
          ], 
-         "text" : "Хорошо!"
+         "text" : "#ph_oksana_teammate.b265cc8e-d259-45fc-b227-b1876ee47e3e"
       }, 
       "565c1055-d654-435f-b865-aad04e313f61" : { 
          "class" : "DialogEndNode", 
@@ -1803,7 +1802,7 @@
          "child" : [ 
             "935dbb25-945b-49b5-9d7e-e20826aa49bc"
          ], 
-         "text" : "Вот мы и тут. Дай мне немного времени, я быстро."
+         "text" : "#ph_oksana_teammate.6d3d4840-60f9-4ba1-8b38-954f21249bb1"
       }, 
       "935dbb25-945b-49b5-9d7e-e20826aa49bc" : { 
          "class" : "DialogAnswerNode", 
@@ -1816,7 +1815,7 @@
             "2d9ec06d-6ae7-47cf-b449-23601ac677c2", 
             "1f50fec1-15c3-4655-af89-83ee1eff6e70"
          ], 
-         "text" : "Хорошо! Жду."
+         "text" : "#ph_oksana_teammate.935dbb25-945b-49b5-9d7e-e20826aa49bc"
       }, 
       "183611c6-99b6-4b8a-9fa8-f88a3dd56c01" : { 
          "class" : "DialogPhraseNode", 
@@ -1827,7 +1826,7 @@
          "child" : [ 
             "c9c66492-b32a-45f7-8faf-9ee6782d6a2e"
          ], 
-         "text" : "Итак, я знаю где он. Точнее это они знают где мы. Я думаю если мы покинем это место, то они выйдут на нас. Походу они готовы устроить нам ловушку.  Сраный торгаш, походу сдал нас."
+         "text" : "#ph_oksana_teammate.183611c6-99b6-4b8a-9fa8-f88a3dd56c01"
       }, 
       "c9c66492-b32a-45f7-8faf-9ee6782d6a2e" : { 
          "class" : "DialogAnswerNode", 
@@ -1839,7 +1838,7 @@
             "a3a27a86-e716-43d1-bc03-b72d6e681887", 
             "1b01d3a5-2e8a-4c34-8a8f-8ca81e7fac90"
          ], 
-         "text" : "Ну и хорошо. Не надо будет их искать! Думаю разговор с ним будет короткий. Выдвигаемся!"
+         "text" : "#ph_oksana_teammate.c9c66492-b32a-45f7-8faf-9ee6782d6a2e"
       }, 
       "a3a27a86-e716-43d1-bc03-b72d6e681887" : { 
          "class" : "DialogEndNode", 
@@ -1891,7 +1890,7 @@
          "child" : [ 
             "2e1b33a1-e18a-4da7-838b-bf26e054349d"
          ], 
-         "text" : "Нам стоит начать поиски с базы сталкеров в Мёртвом городе!"
+         "text" : "#ph_oksana_teammate.67bf710f-9795-4560-a039-f9f8d0df4ae3"
       }, 
       "2e1b33a1-e18a-4da7-838b-bf26e054349d" : { 
          "class" : "DialogAnswerNode", 
@@ -1902,7 +1901,7 @@
          "child" : [ 
             "fb79f694-5d92-4a62-978c-3cf639e18c5a"
          ], 
-         "text" : "Хорошо!"
+         "text" : "#ph_oksana_teammate.2e1b33a1-e18a-4da7-838b-bf26e054349d"
       }, 
       "fb79f694-5d92-4a62-978c-3cf639e18c5a" : { 
          "class" : "DialogEndNode", 
@@ -1969,7 +1968,7 @@
          "child" : [ 
             "80268d19-dc58-42c3-97f6-273e6ef02b5f"
          ], 
-         "text" : "Я тут не местная. Поэтому с локациями не подскажу. Но как только адаптируюсь, сразу же поделюсь своим мнением."
+         "text" : "#ph_oksana_teammate.f94d85d3-6723-471e-b3a7-30e0513bec9b"
       }, 
       "80268d19-dc58-42c3-97f6-273e6ef02b5f" : { 
          "class" : "DialogAnswerNode", 
@@ -1980,7 +1979,7 @@
          "child" : [ 
             "12ceae83-75b5-4d9a-bcdf-5cfd7b669b8b"
          ], 
-         "text" : "Давай сменим тему тогда."
+         "text" : "#ph_oksana_teammate.80268d19-dc58-42c3-97f6-273e6ef02b5f"
       }, 
       "08ea9626-1bd8-43d4-80a1-086e7621ef0a" : { 
          "class" : "HasKeywordNode", 
@@ -2014,7 +2013,7 @@
          "child" : [ 
             "80268d19-dc58-42c3-97f6-273e6ef02b5f"
          ], 
-         "text" : "Думаю что нам стоит поискать в пустошах клубнику. Я помню ее вкус. Думаю это она будет основное наше задание. Как тебе? Ну и ладно. Пока идей и предложений нет.  Спроси позже как нибудь,  когда освоюсь."
+         "text" : "#ph_oksana_teammate.b257b472-3cee-4555-bd1d-cdc5989da93e"
       }, 
       "eaa5984a-5a2f-406b-963e-dff1cf95f603" : { 
          "class" : "HasKeywordNode", 
@@ -2048,7 +2047,7 @@
          "child" : [ 
             "80268d19-dc58-42c3-97f6-273e6ef02b5f"
          ], 
-         "text" : "Интересные интересности говоришь. Предложения мои таковы. Пойти на охоту, завалить кабана, нашинковать, сделать шашлык. Нужен хлеб. Еще ухи хочу и шампанского с шоколадкой. Вообщем потом поговорим, сейчас ничего дельного предложить не могу, как нибудь позже, когда освоюсь с местностью."
+         "text" : "#ph_oksana_teammate.7ace22c1-34de-434f-9c31-16e9604c57e0"
       }, 
       "58b54bde-459b-44ef-85df-e64453bcbc1e" : { 
          "class" : "HasKeywordNode", 
@@ -2083,7 +2082,7 @@
             "355ee510-d2dd-4e0f-a108-e70d423b8a0b", 
             "80268d19-dc58-42c3-97f6-273e6ef02b5f"
          ], 
-         "text" : "Что-то как то зябко в последнее время. Холодает видимо. Ты так не думаешь?"
+         "text" : "#ph_oksana_teammate.aef608b7-f5c9-47ca-b5cc-9b1c695f6f62"
       }, 
       "355ee510-d2dd-4e0f-a108-e70d423b8a0b" : { 
          "class" : "DialogAnswerNode", 
@@ -2094,7 +2093,7 @@
          "child" : [ 
             "2fbf1cb1-ce94-4dc3-bcef-b603a8f945cf"
          ], 
-         "text" : "Есть такое. Думаешь что-то глобальное? Ядерная зима спустя столько лет?"
+         "text" : "#ph_oksana_teammate.355ee510-d2dd-4e0f-a108-e70d423b8a0b"
       }, 
       "2fbf1cb1-ce94-4dc3-bcef-b603a8f945cf" : { 
          "class" : "DialogPhraseNode", 
@@ -2105,7 +2104,7 @@
          "child" : [ 
             "80268d19-dc58-42c3-97f6-273e6ef02b5f"
          ], 
-         "text" : "Я похожа на ученого? Цвет волос не смущает? Говорю как есть, холодно становится раньше, а время сколько идут холодные дни, дольше. Но мне почем знать, может просто лето плохое выдалось."
+         "text" : "#ph_oksana_teammate.2fbf1cb1-ce94-4dc3-bcef-b603a8f945cf"
       }, 
       "4410e02e-f870-4b6e-a38d-f329f7b6cec9" : { 
          "class" : "DialogPhraseNode", 
@@ -2116,7 +2115,7 @@
          "child" : [ 
             "80268d19-dc58-42c3-97f6-273e6ef02b5f"
          ], 
-         "text" : "Я бы могла придумать тебе невыполнимые задачи и великолепную награду. Но сейчас что-то не очень хочется. Может позже."
+         "text" : "#ph_oksana_teammate.4410e02e-f870-4b6e-a38d-f329f7b6cec9"
       }, 
       "5ab9016b-3a73-4d78-9f21-c535a1ce95b8" : { 
          "class" : "DialogPhraseNode", 
@@ -2127,7 +2126,7 @@
          "child" : [ 
             "4d302cd0-f454-49dd-a6ca-7096d6a6a1d3"
          ], 
-         "text" : "$PLAYER.NAME$ помнишь когда мы впервый встретились за мной гнались бандиты?"
+         "text" : "#ph_oksana_teammate.5ab9016b-3a73-4d78-9f21-c535a1ce95b8"
       }, 
       "4d302cd0-f454-49dd-a6ca-7096d6a6a1d3" : { 
          "class" : "DialogAnswerNode", 
@@ -2138,7 +2137,7 @@
          "child" : [ 
             "ae3a9d6a-1302-4c60-8910-0bc6487f305f"
          ], 
-         "text" : "Конечно помню, такое не забудешь."
+         "text" : "#ph_oksana_teammate.4d302cd0-f454-49dd-a6ca-7096d6a6a1d3"
       }, 
       "ae3a9d6a-1302-4c60-8910-0bc6487f305f" : { 
          "class" : "DialogPhraseNode", 
@@ -2149,7 +2148,7 @@
          "child" : [ 
             "c592cb01-7026-4210-b468-ba01e4a2059d"
          ], 
-         "text" : "Посетив разные местные поселения, и выполняя поручения с тобой, я успела узнать интересные подробности того случая."
+         "text" : "#ph_oksana_teammate.ae3a9d6a-1302-4c60-8910-0bc6487f305f"
       }, 
       "c592cb01-7026-4210-b468-ba01e4a2059d" : { 
          "class" : "DialogAnswerNode", 
@@ -2160,7 +2159,7 @@
          "child" : [ 
             "1cd678b7-a558-40d1-b15c-590ddd33954a"
          ], 
-         "text" : "Что стало известно?"
+         "text" : "#ph_oksana_teammate.c592cb01-7026-4210-b468-ba01e4a2059d"
       }, 
       "1cd678b7-a558-40d1-b15c-590ddd33954a" : { 
          "class" : "DialogPhraseNode", 
@@ -2171,7 +2170,7 @@
          "child" : [ 
             "964f04b4-1c6b-4227-8339-10696f3c28f8"
          ], 
-         "text" : "На меня охоту ведёт какой-то наемник, по кличке Оракул.Его в глаза никто не видел, он общался через посредников и что удивительно, через животных! Незнаю правда это или нет, но говорят он мутант. Местные его очень боятся. Даже среди местных банд. После того как я к тебе присоединилась он пропал. После нашей стычки, про него никто ничего не слышал, долгое время. Но, чудо! Про него стали пускать слухи в Мертвом городе. Мол видили его на базе сталкеров! Искал добровольцев для деликатного задания."
+         "text" : "#ph_oksana_teammate.1cd678b7-a558-40d1-b15c-590ddd33954a"
       }, 
       "964f04b4-1c6b-4227-8339-10696f3c28f8" : { 
          "class" : "DialogAnswerNode", 
@@ -2182,7 +2181,7 @@
          "child" : [ 
             "f5d9ae36-4df6-4d5b-807a-c1f0c6ca9dbf"
          ], 
-         "text" : "И что думаешь по этому поводу?"
+         "text" : "#ph_oksana_teammate.964f04b4-1c6b-4227-8339-10696f3c28f8"
       }, 
       "f5d9ae36-4df6-4d5b-807a-c1f0c6ca9dbf" : { 
          "class" : "DialogPhraseNode", 
@@ -2193,7 +2192,7 @@
          "child" : [ 
             "601bc322-3734-4cd3-a711-fce4edcd4552"
          ], 
-         "text" : "То что меня раскрыли, на том задании, это факт. Но они не могут знать на кого я работаюЯ замела следы, все следы ведут на разные  банды и группировки. Они ничего не могут знать, а вот я про них знаю многое, правда данные там спрятаны, и что на них я пока не знаю. Сейчас главное понять, что он знает и устранить его."
+         "text" : "#ph_oksana_teammate.f5d9ae36-4df6-4d5b-807a-c1f0c6ca9dbf"
       }, 
       "601bc322-3734-4cd3-a711-fce4edcd4552" : { 
          "class" : "DialogAnswerNode", 
@@ -2204,7 +2203,7 @@
          "child" : [ 
             "7fb16a8d-5cba-4c51-bce4-0895c0c6fae1"
          ], 
-         "text" : "Хорошо. Если он что-то знает, то лучше его найти быстрее и устранить!"
+         "text" : "#ph_oksana_teammate.601bc322-3734-4cd3-a711-fce4edcd4552"
       }, 
       "7fb16a8d-5cba-4c51-bce4-0895c0c6fae1" : { 
          "class" : "DialogPhraseNode", 
@@ -2215,7 +2214,7 @@
          "child" : [ 
             "d4fbf028-1fa4-4045-a5a9-5057d281cfd4"
          ], 
-         "text" : "Вот и отлично! Он прячется где-то в Мёртвом городе. Думаю я смогу его вычислить. Давай посетим базу сталкеров. Надо начать поиски от туда!"
+         "text" : "#ph_oksana_teammate.7fb16a8d-5cba-4c51-bce4-0895c0c6fae1"
       }, 
       "d4fbf028-1fa4-4045-a5a9-5057d281cfd4" : { 
          "class" : "DialogAnswerNode", 
@@ -2226,7 +2225,7 @@
          "child" : [ 
             "a5e4f38a-2eca-4050-82dd-27c293529cc3"
          ], 
-         "text" : "Хорошо. Если он что-то знает, то лучше его найти быстрее и устранить!"
+         "text" : "#ph_oksana_teammate.d4fbf028-1fa4-4045-a5a9-5057d281cfd4"
       }, 
       "a5e4f38a-2eca-4050-82dd-27c293529cc3" : { 
          "class" : "QuestBeginNode", 
@@ -2258,7 +2257,7 @@
             "3f6fa700-82c7-4a28-a225-25ed4e9d3c5a", 
             "3b42e39d-87f3-4c76-8349-756175e58e55"
          ], 
-         "text" : "Слушай $PLAYER.NAME$. Как то неудобно спрашивать, но может поможешь? Саша, торговец который, тот что мне винтовку французкую обещал. Выручил меня, сильно, а я в долгу оставаться не хочу. Хочу ему кое-что купить. Если будет время, давай наведаемся в несколько поселений, я ему для коллекции кое-что куплю."
+         "text" : "#ph_oksana_teammate.7a9f2b54-1cf5-4990-824c-df276b735436"
       }, 
       "3f6fa700-82c7-4a28-a225-25ed4e9d3c5a" : { 
          "class" : "DialogAnswerNode", 
@@ -2269,7 +2268,7 @@
          "child" : [ 
             "bed2f82d-2d8a-408c-ae47-80ba9d0c401e"
          ], 
-         "text" : "Хорошо, а что покупать то собралась?"
+         "text" : "#ph_oksana_teammate.3f6fa700-82c7-4a28-a225-25ed4e9d3c5a"
       }, 
       "bed2f82d-2d8a-408c-ae47-80ba9d0c401e" : { 
          "class" : "DialogPhraseNode", 
@@ -2280,7 +2279,7 @@
          "child" : [ 
             "0ccbdfb1-6558-4131-a86e-9a84e8c5a084"
          ], 
-         "text" : "Он коллекционирует марки и медали до военные. Денег мне не надо, у меня всё есть. Нам нужно  посетить пару населенных пунктов и я все сама куплю."
+         "text" : "#ph_oksana_teammate.bed2f82d-2d8a-408c-ae47-80ba9d0c401e"
       }, 
       "0ccbdfb1-6558-4131-a86e-9a84e8c5a084" : { 
          "class" : "DialogAnswerNode", 
@@ -2291,7 +2290,7 @@
          "child" : [ 
             "9a921808-31cc-47f8-83b8-96fe3be4d709"
          ], 
-         "text" : "Хорошо понял."
+         "text" : "#ph_oksana_teammate.0ccbdfb1-6558-4131-a86e-9a84e8c5a084"
       }, 
       "9a921808-31cc-47f8-83b8-96fe3be4d709" : { 
          "class" : "DialogPhraseNode", 
@@ -2302,7 +2301,7 @@
          "child" : [ 
             "8456c91d-4f48-42bd-b368-80be2b1cb05f"
          ], 
-         "text" : "Вот где я хочу пройтись по магазинам. Думаю где-то они есть. [Оксана протянула вам список]"
+         "text" : "#ph_oksana_teammate.9a921808-31cc-47f8-83b8-96fe3be4d709"
       }, 
       "8456c91d-4f48-42bd-b368-80be2b1cb05f" : { 
          "class" : "DialogAnswerNode", 
@@ -2313,7 +2312,7 @@
          "child" : [ 
             "3f893fe3-94a3-4a36-a938-238a23cab59b"
          ], 
-         "text" : "Выдвигаемся."
+         "text" : "#ph_oksana_teammate.8456c91d-4f48-42bd-b368-80be2b1cb05f"
       }, 
       "3f893fe3-94a3-4a36-a938-238a23cab59b" : { 
          "class" : "QuestBeginNode", 
@@ -2344,7 +2343,7 @@
          "child" : [ 
             "e3fb4b77-ee6d-4a30-9b43-96755117f823"
          ], 
-         "text" : "Давай в другой раз хорошо?"
+         "text" : "#ph_oksana_teammate.3b42e39d-87f3-4c76-8349-756175e58e55"
       }, 
       "a6cc428c-1310-4456-b12f-0eab4e4255da" : { 
          "class" : "DialogPhraseNode", 
@@ -2356,7 +2355,7 @@
             "b7523d71-8a10-4dc1-8699-6e5040587b45", 
             "3b42e39d-87f3-4c76-8349-756175e58e55"
          ], 
-         "text" : "$PLAYER.NAME$  Мне бы помощь не помешала, в одном деле. Но потребуется время и ресурсы на его выполнение. Ну как?"
+         "text" : "#ph_oksana_teammate.a6cc428c-1310-4456-b12f-0eab4e4255da"
       }, 
       "b7523d71-8a10-4dc1-8699-6e5040587b45" : { 
          "class" : "DialogAnswerNode", 
@@ -2367,7 +2366,7 @@
          "child" : [ 
             "96ec6304-ce9e-46cd-93db-39e292523817"
          ], 
-         "text" : "Я думаю мы сумеем найти на это время. С чем тебе помочь?"
+         "text" : "#ph_oksana_teammate.b7523d71-8a10-4dc1-8699-6e5040587b45"
       }, 
       "96ec6304-ce9e-46cd-93db-39e292523817" : { 
          "class" : "QuestBeginNode", 
@@ -2401,7 +2400,7 @@
          "child" : [ 
             "b297d0d6-b63c-463a-a409-53413d39c9e2"
          ], 
-         "text" : "Мне надо сделать тайник для моей группы, возможно кто-то остался в живых, и они смогут найти его меткам, которые я оставляю. У нас в группе имеются шифровальные знаки для идентификации возможного тайника и определенные места, где стоит искать в поселеленияхв первую очередь."
+         "text" : "#ph_oksana_teammate.c189da5c-ba55-4f12-ab3b-dbac2ecc766f"
       }, 
       "b297d0d6-b63c-463a-a409-53413d39c9e2" : { 
          "class" : "DialogAnswerNode", 
@@ -2412,7 +2411,7 @@
          "child" : [ 
             "411097cc-fc1f-46cb-b873-7a1df00731a8"
          ], 
-         "text" : "Тайники, хабар и сокровища - это я люблю."
+         "text" : "#ph_oksana_teammate.b297d0d6-b63c-463a-a409-53413d39c9e2"
       }, 
       "411097cc-fc1f-46cb-b873-7a1df00731a8" : { 
          "class" : "DialogPhraseNode", 
@@ -2423,7 +2422,7 @@
          "child" : [ 
             "581ab3a5-266c-4fb6-9a40-b4eaac922906"
          ], 
-         "text" : "Мне понадобится немного оружия, медикоментов, еды и патронов.  [Оксана дала вам список - вы его занесли в журнал.]"
+         "text" : "#ph_oksana_teammate.411097cc-fc1f-46cb-b873-7a1df00731a8"
       }, 
       "581ab3a5-266c-4fb6-9a40-b4eaac922906" : { 
          "class" : "DialogAnswerNode", 
@@ -2434,7 +2433,7 @@
          "child" : [ 
             "1173bcff-e6d2-46b5-bac5-3ffec26d8033"
          ], 
-         "text" : "Хорошо, а где его сделать хочешь?"
+         "text" : "#ph_oksana_teammate.581ab3a5-266c-4fb6-9a40-b4eaac922906"
       }, 
       "1173bcff-e6d2-46b5-bac5-3ffec26d8033" : { 
          "class" : "DialogPhraseNode", 
@@ -2445,7 +2444,7 @@
          "child" : [ 
             "f5e1bdc3-51e1-493f-bc51-9d20e92f071a"
          ], 
-         "text" : "Если с группы кто-то выжил, то они будут искать самые крупные поселения, где можно затерятся в толпе и переждать. Думаю в КРЗ самый оптимальный вариант."
+         "text" : "#ph_oksana_teammate.1173bcff-e6d2-46b5-bac5-3ffec26d8033"
       }, 
       "f5e1bdc3-51e1-493f-bc51-9d20e92f071a" : { 
          "class" : "DialogAnswerNode", 
@@ -2456,7 +2455,7 @@
          "child" : [ 
             "356679d0-14aa-4a57-bc6b-4ed8d15901d8"
          ], 
-         "text" : "Понятно, на месте разберемся."
+         "text" : "#ph_oksana_teammate.f5e1bdc3-51e1-493f-bc51-9d20e92f071a"
       }, 
       "356679d0-14aa-4a57-bc6b-4ed8d15901d8" : { 
          "class" : "DialogPhraseNode", 
@@ -2467,7 +2466,7 @@
          "child" : [ 
             "9db7f6ec-845d-4866-9c8d-21e71ae69fb2"
          ], 
-         "text" : "Спасибо тебе большое $PLAYER.NAME$ ."
+         "text" : "#ph_oksana_teammate.356679d0-14aa-4a57-bc6b-4ed8d15901d8"
       }, 
       "9db7f6ec-845d-4866-9c8d-21e71ae69fb2" : { 
          "class" : "DialogAnswerNode", 
@@ -2478,7 +2477,7 @@
          "child" : [ 
             "37bb3cec-3da6-4b2e-a891-463362ec2ab8"
          ], 
-         "text" : "Выдвигаемся."
+         "text" : "#ph_oksana_teammate.9db7f6ec-845d-4866-9c8d-21e71ae69fb2"
       }, 
       "37bb3cec-3da6-4b2e-a891-463362ec2ab8" : { 
          "class" : "DialogEndNode", 
@@ -2542,7 +2541,7 @@
             "a766fcfc-e509-49f5-bfe8-3934083bcd78", 
             "bc9bfc1f-0ab9-41d8-93e1-40164a2af7d2"
          ], 
-         "text" : "Да, внимательно слушаю тебя."
+         "text" : "#ph_oksana_teammate.519edacf-8dcb-4532-9d79-26ad3d4e679b"
       }, 
       "e36cc826-49fd-4256-a10e-3def1d915204" : { 
          "class" : "DialogAnswerNode", 
@@ -2554,7 +2553,7 @@
          "child" : [ 
             "de2adbc7-6a97-4312-8cb4-5fdd93dbf546"
          ], 
-         "text" : "Держись ближе."
+         "text" : "#ph_oksana_teammate.e36cc826-49fd-4256-a10e-3def1d915204"
       }, 
       "de2adbc7-6a97-4312-8cb4-5fdd93dbf546" : { 
          "class" : "AddKeyValueNode", 
@@ -2578,7 +2577,7 @@
          "child" : [ 
             "870ae823-ba3d-4bdc-88dd-56ce6a374468"
          ], 
-         "text" : "Это то что нужно. Могу ущепнуть если хочешь."
+         "text" : "#ph_oksana_teammate.3b957d27-d6d0-45a4-9693-66a76dd1a465"
       }, 
       "870ae823-ba3d-4bdc-88dd-56ce6a374468" : { 
          "class" : "DummyNode", 
@@ -2601,7 +2600,7 @@
          "child" : [ 
             "12ceae83-75b5-4d9a-bcdf-5cfd7b669b8b"
          ], 
-         "text" : "Сменим тему."
+         "text" : "#ph_oksana_teammate.ca0cac45-931b-443a-baab-375d6043efa8"
       }, 
       "d9f1729c-3bc3-4653-a1ec-d751ade25eba" : { 
          "class" : "DialogAnswerNode", 
@@ -2634,7 +2633,7 @@
          "child" : [ 
             "612ad239-4d8a-4882-9068-60b37104e134"
          ], 
-         "text" : "При следующей стычке, враг весь твой, до капельки"
+         "text" : "#ph_oksana_teammate.f77d24cb-2395-40f4-a664-145092923b02"
       }, 
       "612ad239-4d8a-4882-9068-60b37104e134" : { 
          "class" : "AddKeyValueNode", 
@@ -2658,7 +2657,7 @@
          "child" : [ 
             "870ae823-ba3d-4bdc-88dd-56ce6a374468"
          ], 
-         "text" : "Хорошая тактика, одобряю."
+         "text" : "#ph_oksana_teammate.8ad4cf70-efe8-4489-88d1-9d3afc98f527"
       }, 
       "288d7768-8882-4ac9-9467-8a244858aa0d" : { 
          "class" : "DialogAnswerNode", 
@@ -2721,7 +2720,7 @@
          "child" : [ 
          ], 
          "key" : "TACTIC_BURST", 
-         "text" : "стреляю,но я очень осторожна"
+         "text" : "#ph_oksana_teammate.5d236a2c-d029-4084-a1a1-63176eb20c24"
       }, 
       "a6fbb09d-6ca7-43df-a3bf-66367defa88f" : { 
          "class" : "DummyNode", 
@@ -2755,7 +2754,7 @@
          "child" : [ 
          ], 
          "key" : "TACTIC_BURST", 
-         "text" : "стреляю,но стараюсь быть осторожна"
+         "text" : "#ph_oksana_teammate.f7b34277-74e4-4521-84fa-11fd372d8759"
       }, 
       "e9bc427a-389d-4f23-b20c-41d9306c53f8" : { 
          "class" : "DummyNode", 
@@ -3168,7 +3167,7 @@
          "child" : [ 
          ], 
          "key" : "TACTIC_HEAL", 
-         "text" : "лечусь, если я ранена"
+         "text" : "#ph_oksana_teammate.4e274f83-75f6-445f-b664-c96693936362"
       }, 
       "5043f01f-e746-4642-be22-c29efa983124" : { 
          "class" : "DummyNode", 
@@ -3236,7 +3235,7 @@
          "child" : [ 
          ], 
          "key" : "TACTIC_HEAL", 
-         "text" : "лечусь,если легко ранена"
+         "text" : "#ph_oksana_teammate.fda51525-1172-4c70-96ee-ba6c8af0932e"
       }, 
       "84ee27e0-bc33-429c-9f8e-ac3c93811a84" : { 
          "class" : "DummyNode", 
@@ -3290,7 +3289,7 @@
          "child" : [ 
             "532e3a72-0e8a-4fed-8bd1-e06efd975a90"
          ], 
-         "text" : "Сейчас я $TACTIC_BURST$; $TACTIC_RETREAT$; $TACTIC_ATTACK$ и $TACTIC_HEAL$."
+         "text" : "#ph_oksana_teammate.ed6730d9-fdf8-4c94-8487-6a74805e33ac"
       }, 
       "532e3a72-0e8a-4fed-8bd1-e06efd975a90" : { 
          "class" : "DummyNode", 
@@ -3356,7 +3355,7 @@
          "child" : [ 
             "f52f849d-05b6-48b4-b938-9413e7bdd3cf"
          ], 
-         "text" : "Стреляй иногда и будь осторожна."
+         "text" : "#ph_oksana_teammate.acf72c78-88e1-4489-b1de-d78c9b53072a"
       }, 
       "f52f849d-05b6-48b4-b938-9413e7bdd3cf" : { 
          "class" : "AddKeyValueNode", 
@@ -3400,7 +3399,7 @@
          "child" : [ 
             "532e3a72-0e8a-4fed-8bd1-e06efd975a90"
          ], 
-         "text" : "Теперь я $TACTIC_BURST$; $TACTIC_RETREAT$; $TACTIC_ATTACK$ и $TACTIC_HEAL$."
+         "text" : "#ph_oksana_teammate.1ed52861-3c3b-4780-b823-45597158417b"
       }, 
       "614dee83-a222-49fb-9ba9-774305aadb9c" : { 
          "class" : "DummyNode", 
@@ -3686,7 +3685,7 @@
          "child" : [ 
             "8baa647d-95de-4880-aacd-eb6b2cb44e40"
          ], 
-         "text" : "Отступай если просто ранена."
+         "text" : "#ph_oksana_teammate.39cf5b66-251a-45bd-910b-8f849b65dbed"
       }, 
       "8baa647d-95de-4880-aacd-eb6b2cb44e40" : { 
          "class" : "AddKeyValueNode", 
@@ -3732,7 +3731,7 @@
          "child" : [ 
             "7033c21a-e11d-49ba-8ead-a79cbb02e4a0"
          ], 
-         "text" : "Отступай если сильно ранена."
+         "text" : "#ph_oksana_teammate.2b46b86f-9452-44f2-a290-42e570882ad7"
       }, 
       "7033c21a-e11d-49ba-8ead-a79cbb02e4a0" : { 
          "class" : "AddKeyValueNode", 
@@ -4124,7 +4123,7 @@
          "child" : [ 
             "45570c52-8045-4ae5-acc5-e2ce4dd2eeaa"
          ], 
-         "text" : "Лечись, если ты просто ранена."
+         "text" : "#ph_oksana_teammate.5323db06-31cc-4161-a896-5596ca76cbc4"
       }, 
       "45570c52-8045-4ae5-acc5-e2ce4dd2eeaa" : { 
          "class" : "AddKeyValueNode", 
@@ -4216,7 +4215,7 @@
          "child" : [ 
             "4fe3207c-2a06-4ab3-bc74-3e273b836825"
          ], 
-         "text" : "Лечись, если ты легко ранена."
+         "text" : "#ph_oksana_teammate.c802f1d5-f00d-4610-b104-ea8033a564ac"
       }, 
       "4fe3207c-2a06-4ab3-bc74-3e273b836825" : { 
          "class" : "AddKeyValueNode", 
@@ -4336,7 +4335,7 @@
          "child" : [ 
             "b474bf48-bc7b-4c4c-a9d2-6bec975b7eaa"
          ], 
-         "text" : "У меня есть предложение."
+         "text" : "#ph_oksana_teammate.a766fcfc-e509-49f5-bfe8-3934083bcd78"
       }, 
       "b474bf48-bc7b-4c4c-a9d2-6bec975b7eaa" : { 
          "class" : "DialogPhraseNode", 
@@ -4349,7 +4348,7 @@
             "c1d8a1df-8010-45bf-aafa-0f0d91e8f854", 
             "b94ade91-3711-482f-ab13-b6b8c5eb6bf9"
          ], 
-         "text" : "Что от меня требуется?"
+         "text" : "#ph_oksana_teammate.b474bf48-bc7b-4c4c-a9d2-6bec975b7eaa"
       }, 
       "0f0c7558-a63e-4eac-850e-d3d7be65ea36" : { 
          "class" : "DialogAnswerNode", 
@@ -4360,7 +4359,7 @@
          "child" : [ 
             "9c427bf5-869b-4658-ad5b-aab325d12164"
          ], 
-         "text" : "Оксана, постой пока тут, я на разведку."
+         "text" : "#ph_oksana_teammate.0f0c7558-a63e-4eac-850e-d3d7be65ea36"
       }, 
       "9c427bf5-869b-4658-ad5b-aab325d12164" : { 
          "class" : "DialogPhraseNode", 
@@ -4372,7 +4371,7 @@
             "fbc659d0-fb55-4090-867d-0a33fc611d98", 
             "e332320c-f7ff-4256-9ca0-d81b7cb7c24a"
          ], 
-         "text" : "Хорошо подожду, но только не долго. Не люблю сидеть на одном месте."
+         "text" : "#ph_oksana_teammate.9c427bf5-869b-4658-ad5b-aab325d12164"
       }, 
       "fbc659d0-fb55-4090-867d-0a33fc611d98" : { 
          "class" : "DialogAnswerNode", 
@@ -4383,7 +4382,7 @@
          "child" : [ 
             "b54ccbe7-e0cf-4656-adf2-12ab353d4ca8"
          ], 
-         "text" : "Хорошо, постараюсь побыстрее."
+         "text" : "#ph_oksana_teammate.fbc659d0-fb55-4090-867d-0a33fc611d98"
       }, 
       "b54ccbe7-e0cf-4656-adf2-12ab353d4ca8" : { 
          "class" : "AddKeywordNode", 
@@ -4414,7 +4413,7 @@
          "child" : [ 
             "8c7e4ea0-ad57-491b-934e-aa151b15e905"
          ], 
-         "text" : "Это была шутка, пошли."
+         "text" : "#ph_oksana_teammate.e332320c-f7ff-4256-9ca0-d81b7cb7c24a"
       }, 
       "8c7e4ea0-ad57-491b-934e-aa151b15e905" : { 
          "class" : "DialogPhraseNode", 
@@ -4426,7 +4425,7 @@
             "6f027c32-1f15-4a28-866f-69ab4893a882", 
             "d9264170-edf1-42cc-8142-2a76155d680c"
          ], 
-         "text" : "У тебя все хорошо? То подожди, то пошли. Долго думать будешь?"
+         "text" : "#ph_oksana_teammate.8c7e4ea0-ad57-491b-934e-aa151b15e905"
       }, 
       "6f027c32-1f15-4a28-866f-69ab4893a882" : { 
          "class" : "DialogAnswerNode", 
@@ -4437,7 +4436,7 @@
          "child" : [ 
             "12ceae83-75b5-4d9a-bcdf-5cfd7b669b8b"
          ], 
-         "text" : "Бывает. Сменим тему."
+         "text" : "#ph_oksana_teammate.6f027c32-1f15-4a28-866f-69ab4893a882"
       }, 
       "d9264170-edf1-42cc-8142-2a76155d680c" : { 
          "class" : "DialogAnswerNode", 
@@ -4448,7 +4447,7 @@
          "child" : [ 
             "5415beae-72d2-48d2-853b-1420e0a46557"
          ], 
-         "text" : "Нам пора. Пошли."
+         "text" : "#ph_oksana_teammate.d9264170-edf1-42cc-8142-2a76155d680c"
       }, 
       "5415beae-72d2-48d2-853b-1420e0a46557" : { 
          "class" : "DialogEndNode", 
@@ -4469,7 +4468,7 @@
          "child" : [ 
             "7f9e74e1-125c-432f-a15a-0cf74eee4254"
          ], 
-         "text" : "Думаю нам нужно разбежаться Оксана."
+         "text" : "#ph_oksana_teammate.c1d8a1df-8010-45bf-aafa-0f0d91e8f854"
       }, 
       "7f9e74e1-125c-432f-a15a-0cf74eee4254" : { 
          "class" : "QuestStatusNode", 
@@ -4494,7 +4493,7 @@
          "child" : [ 
             "aaf408eb-8a20-4f3b-9e99-bf9a6413098e"
          ], 
-         "text" : "Давай выполним задание с Оракулом, хорошо? А потом уже поговорим об моём уходе."
+         "text" : "#ph_oksana_teammate.69f605f6-e7f4-41cf-885c-55a4f4f8a84c"
       }, 
       "aaf408eb-8a20-4f3b-9e99-bf9a6413098e" : { 
          "class" : "DialogAnswerNode", 
@@ -4506,7 +4505,7 @@
          "child" : [ 
             "bf3e2d4f-fb7c-4154-8174-4b10aea2cc80"
          ], 
-         "text" : "Хорошо."
+         "text" : "#ph_oksana_teammate.aaf408eb-8a20-4f3b-9e99-bf9a6413098e"
       }, 
       "bf3e2d4f-fb7c-4154-8174-4b10aea2cc80" : { 
          "class" : "DialogEndNode", 
@@ -4528,7 +4527,7 @@
             "6265ea76-f618-408c-9ca4-ccb8f2cddeaf", 
             "4bccbe11-edb7-4d62-8c19-1a614af383ed"
          ], 
-         "text" : "Хорошо, я ухожу."
+         "text" : "#ph_oksana_teammate.99603d49-85df-40d1-af48-4c6649a37e5e"
       }, 
       "6265ea76-f618-408c-9ca4-ccb8f2cddeaf" : { 
          "class" : "DialogAnswerNode", 
@@ -4540,7 +4539,7 @@
          "child" : [ 
             "12ceae83-75b5-4d9a-bcdf-5cfd7b669b8b"
          ], 
-         "text" : "Думаю это будет ошибкой, если ты уйдешь. Давай сменим тему?"
+         "text" : "#ph_oksana_teammate.6265ea76-f618-408c-9ca4-ccb8f2cddeaf"
       }, 
       "4bccbe11-edb7-4d62-8c19-1a614af383ed" : { 
          "class" : "DialogAnswerNode", 
@@ -4552,7 +4551,7 @@
          "child" : [ 
             "8173bc92-2453-4651-b2b7-cee034c391a1"
          ], 
-         "text" : "Удачи тебе Оксана. Доброго пути."
+         "text" : "#ph_oksana_teammate.4bccbe11-edb7-4d62-8c19-1a614af383ed"
       }, 
       "8173bc92-2453-4651-b2b7-cee034c391a1" : { 
          "class" : "NotebookAddNoteNode", 
@@ -4689,7 +4688,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Прощай Оксана!", 
+         "text" : "#ph_oksana_teammate.ea671ee8-0e57-4ba2-ae3b-7b1161556d0e", 
          "customObject" : "Player", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true"
@@ -4726,7 +4725,7 @@
          "child" : [ 
             "e107cbb4-ca1c-4540-8c7e-3e8721c7cc5f"
          ], 
-         "text" : "Такую девушку отпускаем...", 
+         "text" : "#ph_oksana_teammate.b2f4433b-df2c-4dfe-a432-5b87648c944c", 
          "customObject" : "Fidel", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true"
@@ -4763,7 +4762,7 @@
          "child" : [ 
             "654df4d6-c960-446b-9b04-54c062446309"
          ], 
-         "text" : "Дочь! Ты там пиши старику, иногда.", 
+         "text" : "#ph_oksana_teammate.3bb3af27-494f-4e41-b245-84e1389ced80", 
          "customObject" : "Gexogen", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true"
@@ -4800,7 +4799,7 @@
          "child" : [ 
             "1a7ab3e4-81a2-4e49-b039-674d667ff7c4"
          ], 
-         "text" : "Ну и дела.", 
+         "text" : "#ph_oksana_teammate.3c8dc86e-8cf5-4cf3-b78c-8f59d09c2d5a", 
          "customObject" : "Alexander", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true"
@@ -4857,7 +4856,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "И вам удачи!", 
+         "text" : "#ph_oksana_teammate.78308896-4050-4566-9520-554837996f8f", 
          "customObject" : "oksana", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true"
@@ -4923,7 +4922,7 @@
             "a766fcfc-e509-49f5-bfe8-3934083bcd78", 
             "944c8111-c859-43d9-be15-bcaaec8519ea"
          ], 
-         "text" : "Хорошая такитика, люблю быть рядом. Как подушка прям."
+         "text" : "#ph_oksana_teammate.0fe38cac-087c-4c63-af71-fe1203a84594"
       }, 
       "8898eaba-25d2-4bd0-b43a-7aed286161c7" : { 
          "class" : "DialogAnswerNode", 
@@ -4935,7 +4934,7 @@
          "child" : [ 
             "612ad239-4d8a-4882-9068-60b37104e134"
          ], 
-         "text" : "Стой подальше от меня когда будем в бою."
+         "text" : "#ph_oksana_teammate.8898eaba-25d2-4bd0-b43a-7aed286161c7"
       }, 
       "4f22f3e0-58c9-44b7-9cb1-dd561ede6f49" : { 
          "class" : "DialogAnswerNode", 
@@ -4947,7 +4946,7 @@
          "child" : [ 
             "6e7085fa-faa7-4b05-9608-24aeff426152"
          ], 
-         "text" : "При встречи с врагом отступай."
+         "text" : "#ph_oksana_teammate.4f22f3e0-58c9-44b7-9cb1-dd561ede6f49"
       }, 
       "6e7085fa-faa7-4b05-9608-24aeff426152" : { 
          "class" : "AddKeyValueNode", 
@@ -4971,7 +4970,7 @@
          "child" : [ 
             "870ae823-ba3d-4bdc-88dd-56ce6a374468"
          ], 
-         "text" : "Скучно, ну и ладно. Убегу грибы собирать, может клубнику найду,тогда с тобой не поделюсь."
+         "text" : "#ph_oksana_teammate.0cc472a8-ddab-4519-95f5-24a238785382"
       }, 
       "944c8111-c859-43d9-be15-bcaaec8519ea" : { 
          "class" : "DialogAnswerNode", 
@@ -4999,7 +4998,7 @@
             "a766fcfc-e509-49f5-bfe8-3934083bcd78", 
             "61b4a194-5f23-4b2a-a893-ff9ddcd48e87"
          ], 
-         "text" : "Хорошо, поняла тебя, но это скучная тактика пенсионерки."
+         "text" : "#ph_oksana_teammate.26f4c9ac-9527-45e7-88da-9fe9ddb819a4"
       }, 
       "8a9bf774-9cc7-4e20-90c3-e83c2f1e7262" : { 
          "class" : "DialogAnswerNode", 
@@ -5011,7 +5010,7 @@
          "child" : [ 
             "de2adbc7-6a97-4312-8cb4-5fdd93dbf546"
          ], 
-         "text" : "Держись ближе."
+         "text" : "#ph_oksana_teammate.8a9bf774-9cc7-4e20-90c3-e83c2f1e7262"
       }, 
       "44a95874-cdd6-487c-a0f6-6ad91d201b3a" : { 
          "class" : "DialogAnswerNode", 
@@ -5023,7 +5022,7 @@
          "child" : [ 
             "6e7085fa-faa7-4b05-9608-24aeff426152"
          ], 
-         "text" : "При встрече с врагом отступай."
+         "text" : "#ph_oksana_teammate.44a95874-cdd6-487c-a0f6-6ad91d201b3a"
       }, 
       "61b4a194-5f23-4b2a-a893-ff9ddcd48e87" : { 
          "class" : "DialogAnswerNode", 
@@ -5096,7 +5095,7 @@
          "child" : [ 
             "f0f155e4-a561-4f9e-91c0-fad6de7d4fc8"
          ], 
-         "text" : "Хорошо $PLAYER.NAME$ задавай. Только не много. А то за сегодня  я что-то устала."
+         "text" : "#ph_oksana_teammate.22538266-fb25-4159-923d-cade9fbae9d3"
       }, 
       "f0f155e4-a561-4f9e-91c0-fad6de7d4fc8" : { 
          "class" : "DummyNode", 
@@ -5142,7 +5141,7 @@
          "child" : [ 
             "f341e72d-eccf-475c-8bb7-f70e15bf31db"
          ], 
-         "text" : "А как ты нас нашла?"
+         "text" : "#ph_oksana_teammate.9a42fd75-42ff-4d7c-9c30-529f7f608a89"
       }, 
       "f341e72d-eccf-475c-8bb7-f70e15bf31db" : { 
          "class" : "DialogPhraseNode", 
@@ -5153,7 +5152,7 @@
          "child" : [ 
             "ae27a618-fcf1-4509-be4b-41b3c6d59078"
          ], 
-         "text" : "При встрече я тебе все рассказала $PLAYER.NAME$. Я из самых первых отрядов отправленых на исследования прилегаемой территории. Являюсь действующим скрытым агентом АТОМ. Мою Позицию раскрыли и пришлось прибегнуть к варианту Б. Найти других Агентов для возвращения на базу и получения дальнейших указаний."
+         "text" : "#ph_oksana_teammate.f341e72d-eccf-475c-8bb7-f70e15bf31db"
       }, 
       "ae27a618-fcf1-4509-be4b-41b3c6d59078" : { 
          "class" : "DialogAnswerNode", 
@@ -5164,7 +5163,7 @@
          "child" : [ 
             "cdd977b5-3e8f-40d1-aac5-2a1758934d9c"
          ], 
-         "text" : "Это я помню, но как ты вышла именно на меня?"
+         "text" : "#ph_oksana_teammate.ae27a618-fcf1-4509-be4b-41b3c6d59078"
       }, 
       "cdd977b5-3e8f-40d1-aac5-2a1758934d9c" : { 
          "class" : "DialogPhraseNode", 
@@ -5175,7 +5174,7 @@
          "child" : [ 
             "ba1c13ca-3ffc-4fdf-8cf5-7a244b27aec5"
          ], 
-         "text" : "Хм. Хорошо. Я тебя поняла. Была я на востоке отсюда, примено 3 дня пути на машине, я провалила задание по слежке и подставила группу под удар, возможно в живых осталась только я. Действовала согласно уставу. После того как меня раскрыли, я ушла подальше от точки проведения операции. В одном из поселков остановилась на пару дней, помогала чем могла, охота в основном. После приехали торговцы я к ним забилась в охрану каравана. После приехали в отрадное и я остановилась там. Выйти на твой след мне помогли в Отрадном, . Бармен был болтлив, а сестра его явно та еще штучка, напоила меня чем-то, чуть не померла. Тут они и проговорились про тебя, кто любит выпить на халяву с незнакомцами. Таких как мы, в нынешнее время, осталось немного."
+         "text" : "#ph_oksana_teammate.cdd977b5-3e8f-40d1-aac5-2a1758934d9c"
       }, 
       "ba1c13ca-3ffc-4fdf-8cf5-7a244b27aec5" : { 
          "class" : "AddKeywordNode", 
@@ -5199,7 +5198,7 @@
          "child" : [ 
             "db7527f7-9d68-487d-8278-e37e0ff52133"
          ], 
-         "text" : "Можно еще вопрос?"
+         "text" : "#ph_oksana_teammate.8e16dd35-8564-4053-b194-ca60653262c1"
       }, 
       "a6058b85-cd9d-4cb0-9309-5cb3f141993a" : { 
          "class" : "DialogAnswerNode", 
@@ -5211,7 +5210,7 @@
          "child" : [ 
             "00fcfc40-4940-4285-8daf-9f9d9262bdd5"
          ], 
-         "text" : "Надо двигаться дальше. Пошли."
+         "text" : "#ph_oksana_teammate.a6058b85-cd9d-4cb0-9309-5cb3f141993a"
       }, 
       "00fcfc40-4940-4285-8daf-9f9d9262bdd5" : { 
          "class" : "DialogEndNode", 
@@ -5252,7 +5251,7 @@
          "child" : [ 
             "84f01703-f73a-4994-b135-27989e022b8f"
          ], 
-         "text" : "Откуда ты?"
+         "text" : "#ph_oksana_teammate.ec482799-1c16-4570-b598-ba2a43c0bd7a"
       }, 
       "84f01703-f73a-4994-b135-27989e022b8f" : { 
          "class" : "DialogPhraseNode", 
@@ -5263,7 +5262,7 @@
          "child" : [ 
             "a2ca1e65-b89c-49b9-94a2-d90d5ae76be3"
          ], 
-         "text" : "Вы $PLAYER.NAME$ хорошо осведомлены, что я не могу разглашать такую информацию. Вы проходили обучение и прекрасно знаете что можно говорить, а что нельзя. Но если так хотите, я могу что нибудь для Вас сочинить. Но врать и сочинять я не люблю."
+         "text" : "#ph_oksana_teammate.84f01703-f73a-4994-b135-27989e022b8f"
       }, 
       "a2ca1e65-b89c-49b9-94a2-d90d5ae76be3" : { 
          "class" : "DialogAnswerNode", 
@@ -5274,7 +5273,7 @@
          "child" : [ 
             "f3ae2cf4-eaca-4da3-92fd-b5999a9ca96a"
          ], 
-         "text" : "Но что-то же можешь рассказать?"
+         "text" : "#ph_oksana_teammate.a2ca1e65-b89c-49b9-94a2-d90d5ae76be3"
       }, 
       "f3ae2cf4-eaca-4da3-92fd-b5999a9ca96a" : { 
          "class" : "DialogPhraseNode", 
@@ -5285,7 +5284,7 @@
          "child" : [ 
             "49ab8df1-1fba-40f5-8d9a-6fa1e0b8f466"
          ], 
-         "text" : "Ну хорошо. ты же не отстанешь пока не задавишь меня своими \"почемучками\". Отвечу сразу на все вопросы которые могут появится у тебя.  Цветы люблю, а так же оружие, и машины. Могу пить за компанию, но могу и не пить, зависит от настроения."
+         "text" : "#ph_oksana_teammate.f3ae2cf4-eaca-4da3-92fd-b5999a9ca96a"
       }, 
       "49ab8df1-1fba-40f5-8d9a-6fa1e0b8f466" : { 
          "class" : "AddKeywordNode", 
@@ -5329,7 +5328,7 @@
          "child" : [ 
             "1121c1e4-1b0d-46fd-8469-f063ad76078a"
          ], 
-         "text" : "У тебя есть семья или родные?"
+         "text" : "#ph_oksana_teammate.c38cba2c-7e87-4262-b0a6-a8c1ccb819b5"
       }, 
       "1121c1e4-1b0d-46fd-8469-f063ad76078a" : { 
          "class" : "DialogPhraseNode", 
@@ -5340,7 +5339,7 @@
          "child" : [ 
             "90f14f93-3506-4a0e-9c23-337786035184"
          ], 
-         "text" : "А у тебя $PLAYER.NAME$ ?"
+         "text" : "#ph_oksana_teammate.1121c1e4-1b0d-46fd-8469-f063ad76078a"
       }, 
       "90f14f93-3506-4a0e-9c23-337786035184" : { 
          "class" : "DialogAnswerNode", 
@@ -5351,7 +5350,7 @@
          "child" : [ 
             "e126e163-2491-4732-979d-e294471456e7"
          ], 
-         "text" : "Хороший вопрос. Мы не можем разглашать информацию - это я помню. Но всё же."
+         "text" : "#ph_oksana_teammate.90f14f93-3506-4a0e-9c23-337786035184"
       }, 
       "e126e163-2491-4732-979d-e294471456e7" : { 
          "class" : "DialogPhraseNode", 
@@ -5362,7 +5361,7 @@
          "child" : [ 
             "8f19fdd1-b5b8-4aa3-a9c9-65c73dd58cca"
          ], 
-         "text" : "[Оксана вам улыбается. скрестила руки. и ожидает следующего вопроса]"
+         "text" : "#ph_oksana_teammate.e126e163-2491-4732-979d-e294471456e7"
       }, 
       "8f19fdd1-b5b8-4aa3-a9c9-65c73dd58cca" : { 
          "class" : "AddKeywordNode", 
@@ -5406,7 +5405,7 @@
          "child" : [ 
             "a039062d-d229-4354-85c3-094817f205f5"
          ], 
-         "text" : "Что будешь делать когда выполним задание?"
+         "text" : "#ph_oksana_teammate.c055eb2f-ff44-423d-8d02-2758e2a48364"
       }, 
       "a039062d-d229-4354-85c3-094817f205f5" : { 
          "class" : "DialogPhraseNode", 
@@ -5417,7 +5416,7 @@
          "child" : [ 
             "ba5ed1e3-3907-45d9-bcf7-1073bed115da"
          ], 
-         "text" : "Возьму новое задание $PLAYER.NAME$. Организую свой отряд и направлюсь глубоко на запад."
+         "text" : "#ph_oksana_teammate.a039062d-d229-4354-85c3-094817f205f5"
       }, 
       "ba5ed1e3-3907-45d9-bcf7-1073bed115da" : { 
          "class" : "DialogAnswerNode", 
@@ -5428,7 +5427,7 @@
          "child" : [ 
             "b1dfeee5-41bb-4ebb-9f95-8ea52077be4a"
          ], 
-         "text" : "А что там на западе?"
+         "text" : "#ph_oksana_teammate.ba5ed1e3-3907-45d9-bcf7-1073bed115da"
       }, 
       "b1dfeee5-41bb-4ebb-9f95-8ea52077be4a" : { 
          "class" : "DialogPhraseNode", 
@@ -5439,7 +5438,7 @@
          "child" : [ 
             "79fb6b5c-3451-4997-962c-4f90c10c973c"
          ], 
-         "text" : "Вот и мне интересно, что же там теперь. Может они сбили наши ракеты и выжили, а у нас тут такая разруха?"
+         "text" : "#ph_oksana_teammate.b1dfeee5-41bb-4ebb-9f95-8ea52077be4a"
       }, 
       "79fb6b5c-3451-4997-962c-4f90c10c973c" : { 
          "class" : "DialogAnswerNode", 
@@ -5450,7 +5449,7 @@
          "child" : [ 
             "d2f155bc-e6f7-4217-a205-6911c1a0cb0a"
          ], 
-         "text" : "Интересное предположение, но это значит Атом предоставляет ложную информацию."
+         "text" : "#ph_oksana_teammate.79fb6b5c-3451-4997-962c-4f90c10c973c"
       }, 
       "d2f155bc-e6f7-4217-a205-6911c1a0cb0a" : { 
          "class" : "DialogPhraseNode", 
@@ -5462,7 +5461,7 @@
             "51cd7a7a-8358-4f97-94df-74021fa6c1bb", 
             "a6058b85-cd9d-4cb0-9309-5cb3f141993a"
          ], 
-         "text" : "Никому нельзя верить $PLAYER.NAME$ никому. У каждого своя голова на плечах."
+         "text" : "#ph_oksana_teammate.d2f155bc-e6f7-4217-a205-6911c1a0cb0a"
       }, 
       "51cd7a7a-8358-4f97-94df-74021fa6c1bb" : { 
          "class" : "AddKeywordNode", 
@@ -5485,7 +5484,7 @@
          "child" : [ 
             "f0f155e4-a561-4f9e-91c0-fad6de7d4fc8"
          ], 
-         "text" : "Да $PLAYER.NAME$ задавай. Ток побыстрее, а то я сейчас немного занята."
+         "text" : "#ph_oksana_teammate.fc4ce147-036e-4b51-9a8b-904088b62922"
       }, 
       "b8cf80a1-a58f-4b10-9ffe-83e3a6857d81" : { 
          "class" : "DialogPhraseNode", 
@@ -5497,7 +5496,7 @@
          "child" : [ 
             "f0f155e4-a561-4f9e-91c0-fad6de7d4fc8"
          ], 
-         "text" : "Хм.. ну хорошо $PLAYER.NAME$ задавай. Хотя какой в этом смысл?"
+         "text" : "#ph_oksana_teammate.b8cf80a1-a58f-4b10-9ffe-83e3a6857d81"
       }, 
       "e2639cd0-e1b6-42f5-823a-3aeddeb321ef" : { 
          "class" : "DialogPhraseNode", 
@@ -5509,7 +5508,7 @@
          "child" : [ 
             "f0f155e4-a561-4f9e-91c0-fad6de7d4fc8"
          ], 
-         "text" : "Погода сегодня отличная $PLAYER.NAME$ так что задавай."
+         "text" : "#ph_oksana_teammate.e2639cd0-e1b6-42f5-823a-3aeddeb321ef"
       }, 
       "03639eb5-a642-4ffd-ab88-e66a808c8ad6" : { 
          "class" : "DialogPhraseNode", 
@@ -5521,7 +5520,7 @@
          "child" : [ 
             "f0f155e4-a561-4f9e-91c0-fad6de7d4fc8"
          ], 
-         "text" : "Сегодня меня что-то тянет на болтовню $PLAYER.NAME$. Слушаю"
+         "text" : "#ph_oksana_teammate.03639eb5-a642-4ffd-ab88-e66a808c8ad6"
       }, 
       "0a45ab1a-d1f0-4565-9e81-ac036510ee8e" : { 
          "class" : "DialogPhraseNode", 
@@ -5533,7 +5532,7 @@
          "child" : [ 
             "f0f155e4-a561-4f9e-91c0-fad6de7d4fc8"
          ], 
-         "text" : "Конечно задавай, ты же не отстанешь пока не задашь все свои вопросы."
+         "text" : "#ph_oksana_teammate.0a45ab1a-d1f0-4565-9e81-ac036510ee8e"
       }, 
       "61da69c4-74b9-45a3-9263-3d4b68d32fe9" : { 
          "class" : "HasKeywordNode", 
@@ -5571,7 +5570,7 @@
             "8e16dd35-8564-4053-b194-ca60653262c1", 
             "a6058b85-cd9d-4cb0-9309-5cb3f141993a"
          ], 
-         "text" : "Так музыки не хватает. Был бы плеер на ядерных батарейках или смартфон. Стало бы легче."
+         "text" : "#ph_oksana_teammate.38416549-ef92-4e6d-a0b7-49cb0ad798b9"
       }, 
       "974cfe68-742d-4775-ba63-1ae94074a321" : { 
          "class" : "DialogAnswerNode", 
@@ -5583,7 +5582,7 @@
          "child" : [ 
             "01685e94-30c0-45b1-843b-60921535d82f"
          ], 
-         "text" : "Ты про что говоришь? Что такое смартфон?"
+         "text" : "#ph_oksana_teammate.974cfe68-742d-4775-ba63-1ae94074a321"
       }, 
       "01685e94-30c0-45b1-843b-60921535d82f" : { 
          "class" : "DialogPhraseNode", 
@@ -5597,7 +5596,7 @@
             "8e16dd35-8564-4053-b194-ca60653262c1", 
             "a6058b85-cd9d-4cb0-9309-5cb3f141993a"
          ], 
-         "text" : "Я до войны была Агентом, зарубежом. У них много подобного оборудования было. Это персональное мобильное коммуникационное устройство с большим функционалом. Из примичательного, можно было слушать аудиозаписи и считать на калькуляторе. Удобное было. Не хватает его."
+         "text" : "#ph_oksana_teammate.01685e94-30c0-45b1-843b-60921535d82f"
       }, 
       "dc230c9f-77f7-493c-a7d1-e154f45a8999" : { 
          "class" : "DialogAnswerNode", 
@@ -5608,7 +5607,7 @@
          "child" : [ 
             "5e68fd55-b13d-4910-b876-d47236035bc1"
          ], 
-         "text" : "А плеер это что?"
+         "text" : "#ph_oksana_teammate.dc230c9f-77f7-493c-a7d1-e154f45a8999"
       }, 
       "5e68fd55-b13d-4910-b876-d47236035bc1" : { 
          "class" : "DialogPhraseNode", 
@@ -5622,7 +5621,7 @@
             "8e16dd35-8564-4053-b194-ca60653262c1", 
             "a6058b85-cd9d-4cb0-9309-5cb3f141993a"
          ], 
-         "text" : "Странный агент ты. Про кассетные плееры не вкурсе? Обучение лучше проходить надо было. Стандартное оборудование зарубежом, используемое для прослушки аудиокассет."
+         "text" : "#ph_oksana_teammate.5e68fd55-b13d-4910-b876-d47236035bc1"
       }, 
       "333949a3-00a5-4f74-867c-d50e030c1ebf" : { 
          "class" : "DialogAnswerNode", 
@@ -5633,7 +5632,7 @@
          "child" : [ 
             "01685e94-30c0-45b1-843b-60921535d82f"
          ], 
-         "text" : "Хорошо, а тогда что такое смартфон?"
+         "text" : "#ph_oksana_teammate.333949a3-00a5-4f74-867c-d50e030c1ebf"
       }, 
       "da14c025-0c59-4549-a7cc-87d4e325625c" : { 
          "class" : "DialogAnswerNode", 
@@ -5644,7 +5643,7 @@
          "child" : [ 
             "5e68fd55-b13d-4910-b876-d47236035bc1"
          ], 
-         "text" : "Что за иностранщина? Какой еще плеер?"
+         "text" : "#ph_oksana_teammate.da14c025-0c59-4549-a7cc-87d4e325625c"
       }, 
       "f69729fb-c484-415b-a25b-ba16695b7a26" : { 
          "class" : "DialogAnswerNode", 
@@ -5801,7 +5800,7 @@
          "child" : [ 
             "68675d0a-aff4-4fe8-aca7-71885215e7dd"
          ], 
-         "text" : "Целую аптечку на меня, вот это мило."
+         "text" : "#ph_oksana_teammate.31f37963-efae-4c37-be37-89e3c0f8e200"
       }, 
       "68675d0a-aff4-4fe8-aca7-71885215e7dd" : { 
          "class" : "CharacterAddEffectNode", 
@@ -5833,7 +5832,7 @@
          "child" : [ 
             "12ceae83-75b5-4d9a-bcdf-5cfd7b669b8b"
          ], 
-         "text" : "Сменим тему."
+         "text" : "#ph_oksana_teammate.58100871-299a-4800-bdef-c9144955e835"
       }, 
       "b58dd774-c0ec-452b-9b4e-9fc824f9f7e9" : { 
          "class" : "DialogAnswerNode", 
@@ -5845,7 +5844,7 @@
          "child" : [ 
             "e45929e9-3e7e-4170-8f4b-1f467ea02316"
          ], 
-         "text" : "Вот и славно. [уйти]"
+         "text" : "#ph_oksana_teammate.b58dd774-c0ec-452b-9b4e-9fc824f9f7e9"
       }, 
       "e45929e9-3e7e-4170-8f4b-1f467ea02316" : { 
          "class" : "DialogEndNode", 
@@ -5869,7 +5868,7 @@
             "d5ec2d6d-6ecd-4f3a-be84-13ff6ae2ffe9", 
             "729eabef-d3c5-42f6-894d-79dda2086c59"
          ], 
-         "text" : "Терпимо, но могло быть и лучше. [h]$CHARACTER.HP$/$CHARACTER.MAXHP$[/h]"
+         "text" : "#ph_oksana_teammate.e041c50a-0805-404b-86ac-0ec15897ebec"
       }, 
       "d5ec2d6d-6ecd-4f3a-be84-13ff6ae2ffe9" : { 
          "class" : "DialogAnswerNode", 
@@ -5896,7 +5895,7 @@
             "64fd6b65-4dfa-4bb7-b276-30f158d947dd", 
             "3ef23884-ef01-4f94-929c-9e2f0b398933"
          ], 
-         "text" : "Раны сильные, $PLAYER.NAME$!.. От медицинской помощи не откажусь. [f]$CHARACTER.HP$/$CHARACTER.MAXHP$[/f]"
+         "text" : "#ph_oksana_teammate.3bb71c32-7c33-4b78-a90a-3774a39bdff6"
       }, 
       "64fd6b65-4dfa-4bb7-b276-30f158d947dd" : { 
          "class" : "DialogAnswerNode", 
@@ -5985,7 +5984,7 @@
          "child" : [ 
             "dfc4e3e4-02a2-4ee7-af20-e395cfc4f48f"
          ], 
-         "text" : "[Вы заметили что Оксану  зацепили в последних стычках. Видны садины и порезы.]"
+         "text" : "#ph_oksana_teammate.ba4685e6-bad5-4ad8-a7d4-5d951b1a4459"
       }, 
       "dfc4e3e4-02a2-4ee7-af20-e395cfc4f48f" : { 
          "class" : "DialogContinueNode", 
@@ -6010,7 +6009,7 @@
             "648b2077-0e40-4157-8791-914eb8e9f217", 
             "6784e9ee-a8bf-4632-aedf-0399eb8722ac"
          ], 
-         "text" : "Да $PLAYER.NAME$, что такое. На царапины не обращай внимания, до свадьбы заживёт."
+         "text" : "#ph_oksana_teammate.2bad5c95-9ad0-4aa6-b099-551dee6b477a"
       }, 
       "74fd6e51-4971-4f42-9e90-c07b794bedb0" : { 
          "class" : "DialogAnswerNode", 
@@ -6078,7 +6077,7 @@
          "child" : [ 
             "300368cd-67d8-440b-830b-a7ae9596a6f2"
          ], 
-         "text" : "[Вы видите что Оксана сильно ранена и ей требуется медицинская помощь. Она  делает вид что всё хорошо.]"
+         "text" : "#ph_oksana_teammate.7b8761e9-4ef5-403f-bacb-3931346718d1"
       }, 
       "300368cd-67d8-440b-830b-a7ae9596a6f2" : { 
          "class" : "DialogContinueNode", 
@@ -6103,7 +6102,7 @@
             "60658627-c6df-4bcf-88c2-380324bc2a22", 
             "f69729fb-c484-415b-a25b-ba16695b7a26"
          ], 
-         "text" : "Чего тебе $PLAYER.NAME$? Я сейчас не в духе. Если есть лишний бинт, то не откажусь."
+         "text" : "#ph_oksana_teammate.85bade24-d0ac-46d1-968a-747be720c60d"
       }, 
       "73c68547-3a01-4ecb-90ff-16d009643a9e" : { 
          "class" : "AddKeyValueNode", 

@@ -170,7 +170,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Хватит болтовни. Гасите их по полной.", 
+         "text" : "#bandaoksanaglav.man.1509a591-1071-4922-a72b-c58c2065bc3a", 
          "waitEnd" : "true", 
          "customColor" : "FF6E0E", 
          "onlyActiveAndAlive" : "true"
@@ -196,7 +196,7 @@
             "99ca728d-e0e1-4899-905d-359abd7dac12", 
             "8fc891bf-627c-4143-a161-5ca10524ebc1"
          ], 
-         "text" : "Твои друзья возможно живы, хватит воевать, пошли с нами!", 
+         "text" : "#bandaoksanaglav.man.628dfa0c-da84-40d1-8e84-d190df7a0a28", 
          "waitEnd" : "true", 
          "customColor" : "FF6E0E", 
          "onlyActiveAndAlive" : "true"
@@ -219,7 +219,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Хер вам!", 
+         "text" : "#bandaoksanaglav.man.8fc891bf-627c-4143-a161-5ca10524ebc1", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "customColor" : "2DDB00", 
@@ -246,7 +246,7 @@
             "99ca728d-e0e1-4899-905d-359abd7dac12", 
             "480131db-4637-47ae-80c5-515260a495ee"
          ], 
-         "text" : "Ты наших троих тогда завалила. Может успокоишься?", 
+         "text" : "#bandaoksanaglav.man.4e299a0b-b396-46a7-972c-f4a4d000ce3c", 
          "waitEnd" : "true", 
          "customColor" : "FF6E0E", 
          "onlyActiveAndAlive" : "true"
@@ -259,7 +259,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Могу повторить!", 
+         "text" : "#bandaoksanaglav.man.480131db-4637-47ae-80c5-515260a495ee", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "customColor" : "2DDB00", 
@@ -286,7 +286,7 @@
             "99ca728d-e0e1-4899-905d-359abd7dac12", 
             "afc718d8-77c0-4fda-b439-51727f5a18b7"
          ], 
-         "text" : "За тебя живую больше дадут, но нам много не надо.", 
+         "text" : "#bandaoksanaglav.man.c51a29f7-854b-4193-8c10-6235fe1ac071", 
          "waitEnd" : "true", 
          "customColor" : "FF6E0E", 
          "onlyActiveAndAlive" : "true"
@@ -299,7 +299,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Смешно! Зато за вас, мешок картошки максимум.", 
+         "text" : "#bandaoksanaglav.man.afc718d8-77c0-4fda-b439-51727f5a18b7", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "customColor" : "2DDB00", 
@@ -325,7 +325,7 @@
          "child" : [ 
             "99ca728d-e0e1-4899-905d-359abd7dac12"
          ], 
-         "text" : "За тебя награду объявили, ничего личного.", 
+         "text" : "#bandaoksanaglav.man.be085f6d-b1c1-4c0e-98d6-ce085895e351", 
          "waitEnd" : "true", 
          "customColor" : "FF6E0E", 
          "onlyActiveAndAlive" : "true"
@@ -351,7 +351,7 @@
             "99ca728d-e0e1-4899-905d-359abd7dac12", 
             "c8393263-f00d-4234-8fc0-5edf0163447c"
          ], 
-         "text" : "Белобрысую нам отдайте и разойдемся по углам.", 
+         "text" : "#bandaoksanaglav.man.ad4428c2-68d2-48c2-bde9-e03f75f57ed3", 
          "waitEnd" : "true", 
          "customColor" : "FF6E0E", 
          "onlyActiveAndAlive" : "true"
@@ -364,7 +364,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Возьму ка я тебя на прицел!", 
+         "text" : "#bandaoksanaglav.man.c8393263-f00d-4234-8fc0-5edf0163447c", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "customColor" : "2DDB00", 
@@ -391,7 +391,7 @@
             "99ca728d-e0e1-4899-905d-359abd7dac12", 
             "f8dbb297-e3de-41e9-a911-f1083f4bb877"
          ], 
-         "text" : "Шавка, сюда иди!", 
+         "text" : "#bandaoksanaglav.man.6e47262b-250d-4274-a304-8c8fb884c6db", 
          "waitEnd" : "true", 
          "customColor" : "FF6E0E", 
          "onlyActiveAndAlive" : "true"
@@ -404,7 +404,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Не гавкай. щенок. На тебя патронов хватит.", 
+         "text" : "#bandaoksanaglav.man.f8dbb297-e3de-41e9-a911-f1083f4bb877", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "customColor" : "2DDB00", 
@@ -431,7 +431,7 @@
             "99ca728d-e0e1-4899-905d-359abd7dac12", 
             "01f6cb8f-adb3-4cdc-a69e-90ed8b747b8f"
          ], 
-         "text" : "Отдайте её нам и никто не пострадает!", 
+         "text" : "#bandaoksanaglav.man.75d29600-3841-4c54-a3e7-6b99502cbee4", 
          "waitEnd" : "true", 
          "customColor" : "FF6E0E", 
          "onlyActiveAndAlive" : "true"
@@ -444,7 +444,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Вы повторяетесь. Прошлый раз тоже самое говорили. ", 
+         "text" : "#bandaoksanaglav.man.01f6cb8f-adb3-4cdc-a69e-90ed8b747b8f", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "customColor" : "2DDB00", 
@@ -471,7 +471,7 @@
             "99ca728d-e0e1-4899-905d-359abd7dac12", 
             "baa033a1-dfb4-4aec-937f-ad97024a8a0e"
          ], 
-         "text" : "Малышка не брыкайся. Пошли тебя отведём куда надо.", 
+         "text" : "#bandaoksanaglav.man.6a4f1a7a-aeb4-44d0-a538-3fd4aac403e1", 
          "waitEnd" : "true", 
          "customColor" : "FF6E0E", 
          "onlyActiveAndAlive" : "true"
@@ -484,7 +484,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Я уже была там. Девочки.", 
+         "text" : "#bandaoksanaglav.man.baa033a1-dfb4-4aec-937f-ad97024a8a0e", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "customColor" : "2DDB00", 
@@ -511,7 +511,7 @@
             "99ca728d-e0e1-4899-905d-359abd7dac12", 
             "8f5b6760-59f0-47c6-99c2-4978e00e399b"
          ], 
-         "text" : "Тебя всё равно найдут!", 
+         "text" : "#bandaoksanaglav.man.b9a3a764-e454-4b73-8d02-09d0747d2ae5", 
          "waitEnd" : "true", 
          "customColor" : "FF6E0E", 
          "onlyActiveAndAlive" : "true"
@@ -524,7 +524,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Пусть ищут. Я патронов прикуплю.", 
+         "text" : "#bandaoksanaglav.man.8f5b6760-59f0-47c6-99c2-4978e00e399b", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "customColor" : "2DDB00", 
@@ -652,8 +652,7 @@
                "count" : "1", 
                "proto" : "Balaclava"
             }
-         ], 
-         "inventoryObject" : ""
+         ]
       }, 
       "35008633-210a-4b2e-ad80-634b1eced4fd" : { 
          "class" : "CharacterRegimentEquipNode", 
@@ -695,8 +694,7 @@
                "count" : "1", 
                "proto" : "ArmorTire"
             }
-         ], 
-         "inventoryObject" : ""
+         ]
       }, 
       "f2da6522-f503-4f8f-baf4-85ead46028d4" : { 
          "class" : "InventorySetNode", 
@@ -723,8 +721,7 @@
                "count" : "1", 
                "proto" : "ArmorTire"
             }
-         ], 
-         "inventoryObject" : ""
+         ]
       }, 
       "120b5caa-8bf7-4bec-9650-772dcf07f63d" : { 
          "class" : "InventorySetNode", 
@@ -756,8 +753,7 @@
                "count" : "1", 
                "proto" : "Hand_Bag"
             }
-         ], 
-         "inventoryObject" : ""
+         ]
       }, 
       "3ed2e9cb-c97e-49eb-b9fd-e2a69e7f5079" : { 
          "class" : "InventorySetNode", 
@@ -784,8 +780,7 @@
                "count" : "1", 
                "proto" : "ArmorTire"
             }
-         ], 
-         "inventoryObject" : ""
+         ]
       }, 
       "fa297140-0a8f-4994-bb72-86fd5e7ba8fc" : { 
          "class" : "InventorySetNode", 
@@ -807,8 +802,7 @@
                "count" : "1", 
                "proto" : "Balaclava"
             }
-         ], 
-         "inventoryObject" : ""
+         ]
       }, 
       "be4b1d7d-09f9-4807-bc10-2262e33aba43" : { 
          "class" : "InventorySetNode", 
@@ -835,8 +829,7 @@
                "count" : "1", 
                "proto" : "Armor_Home"
             }
-         ], 
-         "inventoryObject" : ""
+         ]
       }, 
       "fa3c5871-f394-485c-b5de-29a2da62d4ff" : { 
          "class" : "InventorySetNode", 
@@ -863,8 +856,7 @@
                "count" : "1", 
                "proto" : "ArmorLA"
             }
-         ], 
-         "inventoryObject" : ""
+         ]
       }, 
       "52e60125-cac0-4be6-84e6-4925dd1a0eb4" : { 
          "class" : "InventorySetNode", 
@@ -896,8 +888,7 @@
                "count" : "1", 
                "proto" : "Hand_Bag"
             }
-         ], 
-         "inventoryObject" : ""
+         ]
       }, 
       "45b83937-2be7-4c9c-80d6-12581b1843b0" : { 
          "class" : "InventorySetNode", 
@@ -924,8 +915,7 @@
                "count" : "1", 
                "proto" : "Balaclava"
             }
-         ], 
-         "inventoryObject" : ""
+         ]
       }, 
       "8ef61664-fc42-4ad0-8258-1958c32ff647" : { 
          "class" : "InventorySetNode", 
@@ -952,8 +942,7 @@
                "count" : "1", 
                "proto" : "Balaclava"
             }
-         ], 
-         "inventoryObject" : ""
+         ]
       }, 
       "1dabda36-1f4c-4e3b-ba25-e525d489b201" : { 
          "class" : "InventorySetNode", 
@@ -980,8 +969,7 @@
                "count" : "1", 
                "proto" : "Balaclava"
             }
-         ], 
-         "inventoryObject" : ""
+         ]
       }, 
       "063a1d29-6889-44ee-862c-f09805804ef2" : { 
          "class" : "InventorySetNode", 
@@ -1008,8 +996,7 @@
                "count" : "1", 
                "proto" : "ArmorTire"
             }
-         ], 
-         "inventoryObject" : ""
+         ]
       }, 
       "6ff716d3-5c2e-49fe-b40d-2db22e00b23d" : { 
          "class" : "InventorySetNode", 
@@ -1031,8 +1018,7 @@
                "count" : "1", 
                "proto" : "Armor_Home"
             }
-         ], 
-         "inventoryObject" : ""
+         ]
       }, 
       "6da19429-3563-4d71-b15b-31059ce432a1" : { 
          "class" : "InventorySetNode", 
@@ -1059,8 +1045,7 @@
                "count" : "1", 
                "proto" : "ArmorLJ"
             }
-         ], 
-         "inventoryObject" : ""
+         ]
       }, 
       "b118173e-8bc8-463f-894c-18a03db544ec" : { 
          "class" : "InventorySetNode", 
@@ -1087,8 +1072,7 @@
                "count" : "1", 
                "proto" : "Armor_Home"
             }
-         ], 
-         "inventoryObject" : ""
+         ]
       }, 
       "c3f82040-72e4-40f1-8f27-4a71633d28e2" : { 
          "class" : "InventorySetNode", 
@@ -1120,8 +1104,7 @@
                "count" : "1", 
                "proto" : "Hand_Bag"
             }
-         ], 
-         "inventoryObject" : ""
+         ]
       }, 
       "e453edbb-d0d0-4ac3-be1f-882ef0665db9" : { 
          "class" : "InventorySetNode", 
@@ -1153,8 +1136,7 @@
                "count" : "1", 
                "proto" : "Hand_Bag"
             }
-         ], 
-         "inventoryObject" : ""
+         ]
       }, 
       "fd68b0ca-b9a3-49a8-9a52-d65956ee5451" : { 
          "class" : "InventorySetNode", 
@@ -1186,8 +1168,7 @@
                "count" : "1", 
                "proto" : "Hand_Bag"
             }
-         ], 
-         "inventoryObject" : ""
+         ]
       }, 
       "2cf258f5-79f5-4e45-ab67-32c30996c087" : { 
          "class" : "RandomNode", 
@@ -1234,7 +1215,6 @@
                }
             }
          ], 
-         "inventoryObject" : "", 
          "random" : "true"
       }, 
       "60d6ec41-bb67-4fee-9d0b-58d09b2a8772" : { 
@@ -1257,7 +1237,6 @@
                }
             }
          ], 
-         "inventoryObject" : "", 
          "random" : "true"
       }, 
       "19c65b69-84f1-4f82-84d5-b24dbb3612b1" : { 
@@ -1279,8 +1258,7 @@
                   "proto" : "307cal_JHP"
                }
             }
-         ], 
-         "inventoryObject" : ""
+         ]
       }, 
       "c14f3b15-f525-4a6e-9994-ddb032f449c7" : { 
          "class" : "InventorySetNode", 
@@ -1306,8 +1284,7 @@
                "count" : "4", 
                "proto" : "12_JHP"
             }
-         ], 
-         "inventoryObject" : ""
+         ]
       }, 
       "92c1afbd-bf8c-4dc9-ad80-0065b837ee9f" : { 
          "class" : "InventorySetNode", 
@@ -1328,8 +1305,7 @@
                   "proto" : "5_45mm_JHP"
                }
             }
-         ], 
-         "inventoryObject" : ""
+         ]
       }, 
       "d317c87e-9b09-4459-8657-619c9f4271cc" : { 
          "class" : "InventorySetNode", 
@@ -1350,8 +1326,7 @@
                   "proto" : "307cal_JHP"
                }
             }
-         ], 
-         "inventoryObject" : ""
+         ]
       }, 
       "f220213d-6177-46cb-a4aa-3cc9b411e383" : { 
          "class" : "InventorySetNode", 
@@ -1372,8 +1347,7 @@
                   "proto" : "307cal_JHP"
                }
             }
-         ], 
-         "inventoryObject" : ""
+         ]
       }, 
       "e2ca4f06-c998-43d2-b812-1172171003eb" : { 
          "class" : "InventorySetNode", 
@@ -1399,8 +1373,7 @@
                "count" : "4", 
                "proto" : "Bolt"
             }
-         ], 
-         "inventoryObject" : ""
+         ]
       }, 
       "79541c76-3c91-4d48-8570-ffc89b986ee9" : { 
          "class" : "InventorySetNode", 
@@ -1426,8 +1399,7 @@
                "count" : "4", 
                "proto" : "Bolt"
             }
-         ], 
-         "inventoryObject" : ""
+         ]
       }, 
       "83031451-7482-47bf-8694-2b8ae0f296ed" : { 
          "class" : "InventorySetNode", 
@@ -1453,8 +1425,7 @@
                "count" : "6", 
                "proto" : "BB_AP"
             }
-         ], 
-         "inventoryObject" : ""
+         ]
       }, 
       "f155a79d-da59-4439-b7f6-a733ae66b986" : { 
          "class" : "InventorySetNode", 
@@ -1480,8 +1451,7 @@
                "count" : "5", 
                "proto" : "BB_AP"
             }
-         ], 
-         "inventoryObject" : ""
+         ]
       }, 
       "7fc78d35-3e62-49b6-8380-6ce8008838da" : { 
          "class" : "InventorySetNode", 
@@ -1503,7 +1473,6 @@
                }
             }
          ], 
-         "inventoryObject" : "", 
          "random" : "true"
       }, 
       "b3016f4a-ddd3-4502-b531-df842dba660e" : { 
@@ -1530,8 +1499,7 @@
                "count" : "5", 
                "proto" : "BB_AP"
             }
-         ], 
-         "inventoryObject" : ""
+         ]
       }, 
       "1ad3213a-39cc-4485-a6ad-65c3e0ece6ac" : { 
          "class" : "InventorySetNode", 
@@ -1553,7 +1521,6 @@
                }
             }
          ], 
-         "inventoryObject" : "", 
          "random" : "true"
       }, 
       "499199f5-c447-47d7-b833-e950e693f0cc" : { 
@@ -1602,7 +1569,6 @@
                }
             }
          ], 
-         "inventoryObject" : "", 
          "random" : "true"
       }, 
       "a95760f9-0753-417f-a601-b0e3aaa4ad81" : { 
@@ -1625,7 +1591,6 @@
                }
             }
          ], 
-         "inventoryObject" : "", 
          "random" : "true"
       }, 
       "1386cfaa-0b48-49b1-9e09-3739b9d343fd" : { 
@@ -1648,7 +1613,6 @@
                }
             }
          ], 
-         "inventoryObject" : "", 
          "random" : "true"
       }, 
       "cb3187bd-14f7-4c69-8ae7-bd6a428a1582" : { 
@@ -1671,7 +1635,6 @@
                }
             }
          ], 
-         "inventoryObject" : "", 
          "random" : "true"
       }, 
       "770060fd-d4a2-4e75-9d3c-6f4928895bbb" : { 
@@ -1724,7 +1687,6 @@
                "proto" : "Herbal"
             }
          ], 
-         "inventoryObject" : "", 
          "random" : "true"
       }, 
       "5f9570d3-3522-4706-aabc-d16c85e593f0" : { 
@@ -1762,7 +1724,6 @@
                "proto" : "Kaseta1"
             }
          ], 
-         "inventoryObject" : "", 
          "random" : "true"
       }, 
       "f01eb502-3ebb-4ecb-b702-a338b801d27a" : { 
@@ -1800,7 +1761,6 @@
                "proto" : "Onion"
             }
          ], 
-         "inventoryObject" : "", 
          "random" : "true"
       }, 
       "d286d358-c5e3-4a3e-9677-051c2cc5ada0" : { 
@@ -1838,7 +1798,6 @@
                "proto" : "Biscuit"
             }
          ], 
-         "inventoryObject" : "", 
          "random" : "true"
       }, 
       "22153e0e-3c4a-43fa-80be-9ddaf1911c63" : { 
@@ -1876,7 +1835,6 @@
                "proto" : "Meat"
             }
          ], 
-         "inventoryObject" : "", 
          "random" : "true"
       }, 
       "1a986187-2f55-44a2-8a84-5c0557d74d76" : { 
@@ -1906,7 +1864,6 @@
                "proto" : "Tin_Grenade"
             }
          ], 
-         "inventoryObject" : "", 
          "random" : "true"
       }, 
       "51d664ad-513c-4739-b6f4-06ccebed9c3a" : { 
@@ -1924,7 +1881,6 @@
                "proto" : "Molotov"
             }
          ], 
-         "inventoryObject" : "", 
          "random" : "true"
       }, 
       "552bfb48-9f5b-4d0c-a435-a849618df6cb" : { 
@@ -1954,8 +1910,7 @@
                "count" : "1", 
                "proto" : "Knife"
             }
-         ], 
-         "inventoryObject" : ""
+         ]
       }, 
       "a1abedf9-0a68-4afb-ae36-bc8fa2d7f37d" : { 
          "class" : "InventorySetNode", 
@@ -1971,8 +1926,7 @@
                "count" : "1", 
                "proto" : "Hatchet"
             }
-         ], 
-         "inventoryObject" : ""
+         ]
       }, 
       "69b72aa7-81dc-48c2-ab3b-39e07da4e189" : { 
          "class" : "InventorySetNode", 
@@ -1988,8 +1942,7 @@
                "count" : "1", 
                "proto" : "SpikedTruncheon"
             }
-         ], 
-         "inventoryObject" : ""
+         ]
       }
    }, 
    "entry" : "7a91e538-4a60-4839-90c4-03ed8f8f5bcb"

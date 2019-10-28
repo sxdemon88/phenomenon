@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Icon:
     path: Entities/Weapon/weapon models/thompson_M1928A1/M1928_icon
-  m_Localization: weapon.thompson_M1928A1
+  m_Localization: weapon.thompson_m1928a1
   Takeable: 1
   Cost: 3015
   Weight: 4900

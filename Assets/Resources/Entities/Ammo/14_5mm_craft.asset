@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Icon:
     path: Entities/Ammo/Ammo models/14mmcraft
-  m_Localization: ammo.14_5mm_jhp_craft
+  m_Localization: ammo.14_5mm_craft
   Takeable: 1
   Cost: 50
   Weight: 191

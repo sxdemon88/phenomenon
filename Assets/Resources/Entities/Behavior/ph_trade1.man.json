@@ -494,7 +494,7 @@
          "child" : [ 
             "f1a8006b-a18c-451d-a243-fc3a8801d84a"
          ], 
-         "text" : "О, кого я вижу! Оксана!", 
+         "text" : "#ph_trade1.man.713a8af9-f14f-4aa6-a00b-124029808aa9", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true", 
          "mode" : "CancelIfBattle"
@@ -519,7 +519,7 @@
          "child" : [ 
             "3a1a051f-e04e-4127-bc7d-8e3cb535f64d"
          ], 
-         "text" : "Саша? Это ты?", 
+         "text" : "#ph_trade1.man.2a157602-5a46-4560-bdd5-e825bd1e3085", 
          "customObject" : "oksana", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true", 

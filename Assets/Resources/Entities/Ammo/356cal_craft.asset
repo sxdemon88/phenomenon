@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Icon:
     path: Entities/Ammo/Ammo models/sp-5craft
-  m_Localization: ammo.356cal_jhp_craft
+  m_Localization: ammo.356cal_craft
   Takeable: 1
   Cost: 20
   Weight: 16

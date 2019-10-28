@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Icon:
     path: Entities/Ammo/Ammo models/45acp_jhp
-  m_Localization: ammo.45acp_jhp
+  m_Localization: ammo.45 acp_jhp
   Takeable: 1
   Cost: 8
   Weight: 15

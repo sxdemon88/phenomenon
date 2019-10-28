@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Icon:
     path: Entities/Ammo/Ammo models/5.45craft
-  m_Localization: ammo.5_45_craft
+  m_Localization: ammo.5_45craft
   Takeable: 1
   Cost: 5
   Weight: 10

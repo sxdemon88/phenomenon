@@ -963,7 +963,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "------------"
+         "text" : "#human.onpocket.283e84cf-36bc-4d84-99d8-f624a45887e5"
       }, 
       "5e59cd9f-40cb-461d-8001-c57379736b1a" : { 
          "class" : "CompareKeyValueNode", 
@@ -1113,7 +1113,7 @@
          "child" : [ 
             "05689929-bb88-45c0-b221-ddd96c30f991"
          ], 
-         "text" : "Маска уцелела."
+         "text" : "#human.onpocket.86cfe8f3-1a54-42e7-b42e-d07ff540276e"
       }, 
       "05689929-bb88-45c0-b221-ddd96c30f991" : { 
          "class" : "DummyNode", 
@@ -1157,7 +1157,7 @@
          "child" : [ 
             "05689929-bb88-45c0-b221-ddd96c30f991"
          ], 
-         "text" : "Броня уцелела."
+         "text" : "#human.onpocket.926c32ca-e4cb-470b-8a74-8cff633f866f"
       }, 
       "907bb3c9-ee0e-491c-a1e3-999ef0b7ce6b" : { 
          "class" : "AddKeywordNode", 
@@ -1191,7 +1191,7 @@
          "child" : [ 
             "05689929-bb88-45c0-b221-ddd96c30f991"
          ], 
-         "text" : "Головной убор уцелел."
+         "text" : "#human.onpocket.4b0838ed-dcb3-4538-a89d-be2b7e2e802f"
       }, 
       "63abfbe5-daa0-4cf3-83d1-fa196dfe8a13" : { 
          "class" : "DummyNode", 
@@ -1305,7 +1305,7 @@
          "child" : [ 
             "ee7b3e7e-b9bf-4f6b-ae96-0ae778c70616"
          ], 
-         "text" : "Удача! Маска уцелела."
+         "text" : "#human.onpocket.bdbb40cc-714c-4305-8c71-372f69745240"
       }, 
       "ee7b3e7e-b9bf-4f6b-ae96-0ae778c70616" : { 
          "class" : "DummyNode", 
@@ -1349,7 +1349,7 @@
          "child" : [ 
             "ee7b3e7e-b9bf-4f6b-ae96-0ae778c70616"
          ], 
-         "text" : "Удача! Броня уцелела."
+         "text" : "#human.onpocket.33fcc458-dcc6-494d-8e3a-35b57e199815"
       }, 
       "bab330df-1d67-4a11-b941-edffca48db80" : { 
          "class" : "AddKeywordNode", 
@@ -1383,7 +1383,7 @@
          "child" : [ 
             "ee7b3e7e-b9bf-4f6b-ae96-0ae778c70616"
          ], 
-         "text" : "Удача! Головной убор уцелел."
+         "text" : "#human.onpocket.f3454bde-bf4f-411e-aa65-1cfc97517a23"
       }, 
       "692c69aa-c8c7-4df5-a5d1-eaf2a37c27bc" : { 
          "class" : "HasKeywordNode", 
@@ -1473,7 +1473,7 @@
          "child" : [ 
             "538c51a7-71cd-44e7-a57e-3963c142a4f1"
          ], 
-         "text" : "Маска повреждена."
+         "text" : "#human.onpocket.5fd8e39b-5c97-4ef7-9383-92781a6881e8"
       }, 
       "538c51a7-71cd-44e7-a57e-3963c142a4f1" : { 
          "class" : "InventoryAddItemNode", 
@@ -1543,7 +1543,7 @@
          "child" : [ 
             "9e01be6f-9d04-4152-b37a-ba00de5db550"
          ], 
-         "text" : "Броня повреждена."
+         "text" : "#human.onpocket.ae9c1028-d168-4d88-b0ee-e2ab0ad3d818"
       }, 
       "9e01be6f-9d04-4152-b37a-ba00de5db550" : { 
          "class" : "RandomNode", 
@@ -1629,7 +1629,7 @@
          "child" : [ 
             "721d39b1-878a-4d21-953d-edc43ad121ff"
          ], 
-         "text" : "Головной убор поврежден."
+         "text" : "#human.onpocket.67575357-829c-425a-8613-37d53e957007"
       }, 
       "721d39b1-878a-4d21-953d-edc43ad121ff" : { 
          "class" : "InventoryAddItemNode", 
@@ -2026,7 +2026,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Оружие уцелело."
+         "text" : "#human.onpocket.8d0e0957-c234-41d4-ab66-eb6fd7d68ae3"
       }, 
       "a7ebffc4-81b2-4d86-85d7-941a68884f11" : { 
          "class" : "DummyNode", 
@@ -2072,7 +2072,7 @@
          "child" : [ 
             "b66ef845-4624-456c-885e-fb962020bdad"
          ], 
-         "text" : "Вам улыбнулась удача. Оружие уцелело."
+         "text" : "#human.onpocket.a145be4c-120d-4118-b530-d4e663811c11"
       }, 
       "b66ef845-4624-456c-885e-fb962020bdad" : { 
          "class" : "DummyNode", 
@@ -2092,7 +2092,7 @@
          "child" : [ 
             "315171cf-2aa1-4250-8c2f-cd840c7bdb95"
          ], 
-         "text" : "Оружие повреждено."
+         "text" : "#human.onpocket.88155eca-e6df-45f0-a14e-e52d2daaa584"
       }, 
       "315171cf-2aa1-4250-8c2f-cd840c7bdb95" : { 
          "class" : "HandWeaponTypeNode", 
@@ -3603,7 +3603,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "------------"
+         "text" : "#human.onpocket.c991b456-3257-4bb3-bbdd-e3a88cd21b34"
       }, 
       "5d52daed-638d-4a8a-a49a-7c6401234e16" : { 
          "class" : "DummyNode", 

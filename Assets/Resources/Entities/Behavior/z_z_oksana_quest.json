@@ -1356,7 +1356,7 @@
             "bc8a5a44-be37-4c11-940a-88a633be81bc", 
             "49730a31-7961-47b9-bff2-ae5647e10ec7"
          ], 
-         "text" : "Спокойно. Они идут к нам!", 
+         "text" : "#z_z_oksana_quest.f9d9d882-b4d8-4999-a2a6-ab0fe21cba6d", 
          "customObject" : "Player", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true"
@@ -1393,7 +1393,7 @@
          "child" : [ 
             "64e3aa82-7b0e-47a6-b21a-e4627c68ff6c"
          ], 
-         "text" : "Откуда их столько? И почему они не нападают?", 
+         "text" : "#z_z_oksana_quest.4d2f7943-2a7c-4159-9dec-f5dda96e5c09", 
          "customObject" : "Fidel", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true"
@@ -1430,7 +1430,7 @@
          "child" : [ 
             "65fb4ce4-7ade-422e-ab49-3b3ff8e9febb"
          ], 
-         "text" : "Зачем ему шляпа?", 
+         "text" : "#z_z_oksana_quest.9449b33f-d4e4-4e7e-8b4c-38f66df4ee02", 
          "customObject" : "Gexogen", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true"
@@ -1467,7 +1467,7 @@
          "child" : [ 
             "c127a3ec-6469-4ea1-971d-7ef3115d291f"
          ], 
-         "text" : "Чуствую будет заварушка.", 
+         "text" : "#z_z_oksana_quest.d6a84832-1753-4ab4-aef7-67847eef68f5", 
          "customObject" : "Alexander", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true"
@@ -1504,7 +1504,7 @@
          "child" : [ 
             "2bdbbe94-96fd-4537-b554-20f12e3cc989"
          ], 
-         "text" : "Вот мы и встретились!Откуда столько слепых псов?", 
+         "text" : "#z_z_oksana_quest.e8983386-4765-4406-9278-ebc24861e8f9", 
          "customObject" : "oksana", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true"
@@ -1596,7 +1596,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Гав-Гав. Ррррр", 
+         "text" : "#z_z_oksana_quest.1b0c56a9-ad82-4f53-a85f-7dd773d3bd81", 
          "customObject" : "Wolfter", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true"

@@ -199,7 +199,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Вы это видели? Кто-то бежал по обочине!", 
+         "text" : "#z_z_oksana.29e82274-6fa3-4afd-a98b-0d1f8b9ada0e", 
          "customObject" : "Player", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true"
@@ -212,7 +212,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Я слышал какой то крик!", 
+         "text" : "#z_z_oksana.f9d9d882-b4d8-4999-a2a6-ab0fe21cba6d", 
          "customObject" : "Player", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true"
@@ -249,7 +249,7 @@
          "child" : [ 
             "64e3aa82-7b0e-47a6-b21a-e4627c68ff6c"
          ], 
-         "text" : "Я слышал женский голос.", 
+         "text" : "#z_z_oksana.4d2f7943-2a7c-4159-9dec-f5dda96e5c09", 
          "customObject" : "Fidel", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true"
@@ -286,7 +286,7 @@
          "child" : [ 
             "65fb4ce4-7ade-422e-ab49-3b3ff8e9febb"
          ], 
-         "text" : "Может это моя внучка! Соскучилась по деду.", 
+         "text" : "#z_z_oksana.9449b33f-d4e4-4e7e-8b4c-38f66df4ee02", 
          "customObject" : "Gexogen", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true"
@@ -323,7 +323,7 @@
          "child" : [ 
             "df7cbb19-a55d-4136-ad51-7595cd3b6a54"
          ], 
-         "text" : "Я думал это у меня в голове.", 
+         "text" : "#z_z_oksana.d6a84832-1753-4ab4-aef7-67847eef68f5", 
          "customObject" : "Alexander", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true"

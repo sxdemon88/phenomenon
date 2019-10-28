@@ -126,7 +126,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Сейчас поиграем.", 
+         "text" : "#ph_oksana.d4de58c8-6a1c-449f-8bc2-195af74e98d9", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -138,7 +138,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Да начнётся битва!", 
+         "text" : "#ph_oksana.3804aa00-a410-4078-b696-ad96fb464a12", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -150,7 +150,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Веселуха!", 
+         "text" : "#ph_oksana.096a66d1-b1c8-43f2-a565-b8605b98777e", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -162,7 +162,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Можно я кого нибудь пристрелю?", 
+         "text" : "#ph_oksana.bebe9865-deca-4177-a251-ad0d6bcf1666", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -174,7 +174,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Не зря я сегодня оружие начистила.", 
+         "text" : "#ph_oksana.118ee69e-b538-4b28-856f-eb8b56cd9b9f", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -186,7 +186,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Ещё одна битва, патронов бы хватило!", 
+         "text" : "#ph_oksana.55f00f87-ebf5-4444-85e5-5afaf90f3572", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -198,7 +198,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Вижу цель!", 
+         "text" : "#ph_oksana.83f755d7-ea16-4204-9031-756bb4704f1a", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -210,7 +210,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Вы только посмотрите на их рожи, так и хочется выстрелить!", 
+         "text" : "#ph_oksana.5b33dc7d-ca7b-4f23-9994-f59ce30e6872", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -222,7 +222,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Один выстрел, один труп, это не про меня.", 
+         "text" : "#ph_oksana.b89fb7f6-b9f7-4c84-853c-cb063c0da903", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -234,7 +234,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Воу воу, да у нас тут битва намечается!", 
+         "text" : "#ph_oksana.23fa1bac-f678-47c5-9749-8a212b83fbb7", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -246,7 +246,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Ха! Это снова я и мое оружие. Лучше бегите.", 
+         "text" : "#ph_oksana.c220f26f-c583-4f8d-9904-f07d9722ff7e", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
       }, 
@@ -298,8 +298,7 @@
          }, 
          "child" : [ 
             "b3e6965b-eb1b-4218-a551-fdb967b6ace7"
-         ], 
-         "stateName" : ""
+         ]
       }, 
       "b3e6965b-eb1b-4218-a551-fdb967b6ace7" : { 
          "class" : "HasKeywordNode", 
@@ -557,7 +556,7 @@
          "child" : [ 
             "617e25f2-9cb9-47cd-b882-ce8724ab03f6"
          ], 
-         "text" : "Интересное поселение. Видимо тут меня опознали и вышли на мой след.", 
+         "text" : "#ph_oksana.264329e7-51bf-482e-a877-c041cdcd8cfa", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -582,7 +581,7 @@
          "child" : [ 
             "97d5e372-25af-49ea-8fb8-0d46f1ed7d85"
          ], 
-         "text" : "И тут лучше не пить. Проверила. Ужасные напитки!", 
+         "text" : "#ph_oksana.473a318e-507b-4fca-8174-941f39d74374", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -606,7 +605,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Что это за круг из камней возле города?", 
+         "text" : "#ph_oksana.6f1c6b2f-0f1a-422c-be2b-9230a5bb0747", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -674,7 +673,7 @@
          "child" : [ 
             "21db02e1-0679-47d7-90d7-6175a1e6f223"
          ], 
-         "text" : "Ух ты! Знала бы я раньше, что тут есть бункер!", 
+         "text" : "#ph_oksana.45bb741f-dba1-4eab-905d-a2cfddc0e7aa", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -698,7 +697,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Помечу для себя на будущее. Мало ли пригодится.", 
+         "text" : "#ph_oksana.c4e5f86f-cfd2-4760-a8b4-3f27b5518130", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -766,7 +765,7 @@
          "child" : [ 
             "10fd7f81-3705-4bb0-9679-09e3cfb6ab8f"
          ], 
-         "text" : "Милая деревушка! Почти как новая. Хочу по магазинам тут пройтись.", 
+         "text" : "#ph_oksana.54f4309e-3ca7-4307-8eb2-55261604c650", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -790,7 +789,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Интересно, а тут есть бункер как в Отрадном?", 
+         "text" : "#ph_oksana.f5bd1376-12f4-4faf-9d0e-8c20aea17fcc", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -858,7 +857,7 @@
          "child" : [ 
             "b7292144-529c-482c-b86e-8b12748c0391"
          ], 
-         "text" : "Крупное поселение, по меркам пустоши. И рабства наверное нет, удивительно.", 
+         "text" : "#ph_oksana.8b6a70d6-a679-499b-8ab8-1eec0ea24c19", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -883,7 +882,7 @@
          "child" : [ 
             "7a3ba367-692b-458e-ac33-d4dc130c25cf"
          ], 
-         "text" : "Идеальное место для тайников.", 
+         "text" : "#ph_oksana.ba7e8bc1-c3d9-44ac-8f54-b94b97a77e95", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -907,7 +906,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Слышала тут магазин брони есть! Давай зайдем, купим может чего, для меня.", 
+         "text" : "#ph_oksana.621f27e7-0464-4ab4-ae10-ba621f5d4d35", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -975,7 +974,7 @@
          "child" : [ 
             "1ba4881f-ca47-48c1-96fd-e2cd12a230f1"
          ], 
-         "text" : "Тут где то магазин оружия имеется. Может мне что нибудь купим?", 
+         "text" : "#ph_oksana.18dd6e71-811f-440b-ac1c-6477707814d2", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -1000,7 +999,7 @@
          "child" : [ 
             "5c311d35-fec8-4e83-a0e6-1f057f98ceea"
          ], 
-         "text" : "Слышала тут есть судно, которое может доставить нас в Мёртвый город.", 
+         "text" : "#ph_oksana.51f8b223-78ec-4052-a43d-695d11b92e86", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -1024,7 +1023,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Тут наверное и криминала много. Полиция почти на каждом шагу. Кого они так боятся?", 
+         "text" : "#ph_oksana.58b1498a-b942-4965-a8fd-eef4a98cdf51", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -1092,7 +1091,7 @@
          "child" : [ 
             "5a8ed322-59b4-42fc-8cfc-b9ffc258f2f1"
          ], 
-         "text" : "Ух ты! Где-то я уже это видела. Заправка, аванпост.", 
+         "text" : "#ph_oksana.57d23ab5-a3f4-4472-828b-a476e48ad141", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -1116,7 +1115,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Мне показалось или где-то лаяла собака?", 
+         "text" : "#ph_oksana.c9a3dd9e-6d94-4930-a735-dc6a5f9fab3d", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -1184,7 +1183,7 @@
          "child" : [ 
             "aae7f5df-2b2c-4741-a889-8064651916f3"
          ], 
-         "text" : "Про пергон и его правление я наслышана от торговцев.", 
+         "text" : "#ph_oksana.c864edc1-2b33-4508-8c7c-ee65eb4e1737", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -1208,7 +1207,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Тут можно встретить некоторых торговцев, с которыми я хорошо знакома!", 
+         "text" : "#ph_oksana.ad836e88-4cab-48f0-af11-8d83f185194d", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -1276,7 +1275,7 @@
          "child" : [ 
             "3205144d-ec43-4a66-b6ae-ef2a8b12c777"
          ], 
-         "text" : "Сыровато тут и прохладно. Неужели тут кто то станет жить?", 
+         "text" : "#ph_oksana.8085ce64-2466-44ee-9089-379faefe8701", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -1300,7 +1299,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Ржавчина повсюду. Состояние не утешительное. Думаю он скоро утонет. Надо отсюда выбиратся поскорее.", 
+         "text" : "#ph_oksana.8d527313-0f2e-4d89-839f-4a2cce3fa0be", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -1368,7 +1367,7 @@
          "child" : [ 
             "cdc50d20-d616-4d3e-9c84-800bfcf6a6c4"
          ], 
-         "text" : "Разрушененый город ядерной войной. Как тут можно жить еще?", 
+         "text" : "#ph_oksana.1c85cdb6-b845-4de6-b034-cc2caa87cdff", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -1393,7 +1392,7 @@
          "child" : [ 
             "27e2621e-ab16-4452-bf49-9b027fed839e"
          ], 
-         "text" : "Странный привкус появился. Думаю стоит поторопится и одеть что-то против радиации.", 
+         "text" : "#ph_oksana.516dda1c-03eb-4ee2-be76-74dd4cac588a", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -1417,7 +1416,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Не хочу быть лысой! Давай делай дела побыстрее и сваливаем.", 
+         "text" : "#ph_oksana.c657b08a-0456-4069-8084-7a92e5366d07", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -1485,7 +1484,7 @@
          "child" : [ 
             "6d36a568-bcb6-44de-a1bf-53380abf3349"
          ], 
-         "text" : "Бункер в институте. Умно, очень умно.", 
+         "text" : "#ph_oksana.46f6dc97-e764-43bb-8496-18d339273ed6", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -1509,7 +1508,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Тут возможно имеются отличные прототипы чего либо. Хотя...", 
+         "text" : "#ph_oksana.e3961a04-9c23-4ae7-8753-78b685fee61b", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -1577,7 +1576,7 @@
          "child" : [ 
             "51c741f2-f958-4906-9e39-7bb4a8a6b053"
          ], 
-         "text" : "Приятный дачный поселок. Почти целый. Удивительно. И никто за 20 лет в нём не поселился?", 
+         "text" : "#ph_oksana.60f35428-e027-4a97-8325-d502cc77aa76", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -1601,7 +1600,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "До КРЗ несколько часов пути пешком. Но я бы тут жить не хотела. Слишком видное место. ", 
+         "text" : "#ph_oksana.e0511eac-ff86-4b53-8f91-75868fe9c6cb", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -1669,7 +1668,7 @@
          "child" : [ 
             "fb0109cd-2ae6-4828-abdc-744ad524c3c1"
          ], 
-         "text" : "Какое приятное и уютное место.", 
+         "text" : "#ph_oksana.e7c82974-ce7f-4781-a924-428c99214a11", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -1693,7 +1692,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "В воздухе витает приятных запах каких то приготовлений!", 
+         "text" : "#ph_oksana.fc828aac-d6f3-4728-80f2-011476efb385", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -1761,7 +1760,7 @@
          "child" : [ 
             "b9aa2cf1-d690-4e5c-b590-41dbf28301c2"
          ], 
-         "text" : "Вот это я понимаю, база так база.", 
+         "text" : "#ph_oksana.54e1d45f-9b37-4ec1-93d4-169f8fd4d6a6", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -1785,7 +1784,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Сделаю себе пометки. Вдруг пригодится.", 
+         "text" : "#ph_oksana.a3232401-05c4-43b6-ba24-dcf016f05a0c", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -1853,7 +1852,7 @@
          "child" : [ 
             "4f9ec09f-f0f3-4a35-b45e-1aa9d2368b18"
          ], 
-         "text" : "Еще один подвал. Мило.", 
+         "text" : "#ph_oksana.d6c7136f-2721-4c9d-b20c-ba452bfa526e", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -1877,7 +1876,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Ты подвалы, бункеры и прочие так любишь. А я нет.", 
+         "text" : "#ph_oksana.55619494-d520-4296-8583-523cb8cf198c", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -1945,7 +1944,7 @@
          "child" : [ 
             "3d1d9e81-4e60-4c83-a558-bcf823f4e8ec"
          ], 
-         "text" : "Вот это да! Настоящий замок!", 
+         "text" : "#ph_oksana.11b9d801-9636-453a-ae89-86344adc4729", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -1969,7 +1968,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Идеальное место для убежища и основания своей базы для партизанской войны.", 
+         "text" : "#ph_oksana.07fccf5f-0134-4278-93fd-52a05650667f", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -2037,7 +2036,7 @@
          "child" : [ 
             "c979e282-7a9d-4d36-9a91-c9dc7db2bff0"
          ], 
-         "text" : "Вот это да. Самолёт частично цел. И это спустя 20 лет. Удивительно!", 
+         "text" : "#ph_oksana.336938c9-2e21-4492-a0be-f58fb5648ecc", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -2061,7 +2060,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Что-то мне в дали клоуны мерещатся. Не к добру это.", 
+         "text" : "#ph_oksana.387fd210-bd2f-4f8a-9559-9c42668b20c9", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -2128,7 +2127,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Да тут можно было базу основать! Идеальное расположение.", 
+         "text" : "#ph_oksana.dfc2746e-e70f-4294-ac49-66ba314c42aa", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -2195,7 +2194,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Нам сейчас такая вертушка  пригодилась бы для путешествий.", 
+         "text" : "#ph_oksana.bd9390d3-5a09-44ce-a180-61df4bc16560", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -2263,7 +2262,7 @@
          "child" : [ 
             "0c3fae4d-23e2-4341-a6fc-afabcba82ac0"
          ], 
-         "text" : "Как тут красиво!", 
+         "text" : "#ph_oksana.9df2acd2-1cb6-4d26-bec2-698ccdee3d0b", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -2287,7 +2286,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Прекрасное место для отдыха. Отмечу его для себя.", 
+         "text" : "#ph_oksana.bc1fe027-2c0a-42cd-a953-9995cbf1e600", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -2354,7 +2353,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Я не думаю что с ними стоит разговаривать. Можно я их всех перестреляю?", 
+         "text" : "#ph_oksana.9559cfe3-7696-4e8b-86c9-d2905a20cebc", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -2421,7 +2420,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Опасное местоположение для Хутора. Как они тут выживают?", 
+         "text" : "#ph_oksana.3599afdb-071e-4eb2-9d09-9956ecdb3d2c", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -2488,7 +2487,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Хороший аванпост, удобное расположение. Но мало охраны. Почему?", 
+         "text" : "#ph_oksana.6594fd3e-b800-449f-ac46-a2955bbf14d1", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -2555,7 +2554,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Приятное место для отдыха. Тихо, спокойно. Романтика.", 
+         "text" : "#ph_oksana.e32f636b-0ff3-451e-8c2f-be463c7b070d", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -2622,7 +2621,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Нам обязательно посещать каждую развалину которую мы встречаем в пустоши?", 
+         "text" : "#ph_oksana.44dc2f82-cbfe-4c5b-b467-48b6d6acbcc8", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -2690,7 +2689,7 @@
          "child" : [ 
             "865463aa-5dbd-4db9-900a-dc8ebde4b20f"
          ], 
-         "text" : "Да тут землю что-то изрядно потряхивает. Вон мелкие камушки порой двигаются.", 
+         "text" : "#ph_oksana.1336f226-4c15-465e-8298-05231746b2d0", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -2714,7 +2713,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Интересное место конечно. Мистическое!", 
+         "text" : "#ph_oksana.ea9ebba4-85ae-40e9-85d1-43a25ac2c84b", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -2781,7 +2780,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Любишь ты по пещерам ползать. Сыро, грязно, темно. Ну вот зачем? Я бы могла тебя и на верху подождать!", 
+         "text" : "#ph_oksana.863763a4-e6f6-488b-86c3-3f45bbce7702", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -2848,7 +2847,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "О! Еще один бункер. Почти целый! Да тут можно базу сделать или перевалочный пункт. ", 
+         "text" : "#ph_oksana.b84fa005-a3cc-464a-a655-f9c26d8781aa", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -2915,7 +2914,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Класс! Красивое место. Чуствуется какое-то спокойствие.", 
+         "text" : "#ph_oksana.f35538f9-ad16-4ca1-af96-2bc853aec8ac", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -2982,7 +2981,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Вот это постройка! Вот это я понимаю стена для обороны. Ха, да тут должен был быть населенный пункт!", 
+         "text" : "#ph_oksana.0d41f53c-f8e5-4ff9-8b0a-0bc31783e132", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -3049,7 +3048,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "В такой глуши, в столь опасном месте, где живность бродит. И такой домик. Как они тут выживают?", 
+         "text" : "#ph_oksana.a6c32825-ae86-475a-bee9-7e7e8ad7e145", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -3116,7 +3115,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Отличный бункер. Есть даже площадка и вертолёт. Почему никто не присвоил себе эту базу? Те же бандиты?", 
+         "text" : "#ph_oksana.201a7de8-7f42-4820-be20-dc9460fa8ceb", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -3183,7 +3182,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Киевская станция метро. А город то большой оказывается.", 
+         "text" : "#ph_oksana.228c74cf-1552-4c72-85f2-666ac9081606", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -3250,7 +3249,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Ничего себе. Спустя столько лет и в таком хорошем состоянии. Удивительно! Раньше строили на века.", 
+         "text" : "#ph_oksana.f3b705ce-94f2-41a5-91c8-4dd26b6facb1", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -3318,7 +3317,7 @@
          "child" : [ 
             "f27f1042-0591-4095-9d66-327f6a3af1e2"
          ], 
-         "text" : "Эх, ностальгия. Тут много чего купить можно было!", 
+         "text" : "#ph_oksana.cfd7e961-b7a5-41b7-8a64-48cae6eea943", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -3342,7 +3341,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Вино, клубника и шампанское, да и другие вкусные продукты! ", 
+         "text" : "#ph_oksana.0bbe9b53-aa61-4fce-acca-0675aa9ab877", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -3409,7 +3408,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Станция метро в городе призраке. Нам нужно обязательно спуститься вниз, угадала? Вдруг там клад или бункер.", 
+         "text" : "#ph_oksana.7e00b04f-aac6-435f-ba0d-adc0ff0d1c86", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -3476,7 +3475,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Тут ещё и люди живут! Спустя 20 лет после войны. Зачем? В пустошах теперь столько свободного места, всем места хватит.", 
+         "text" : "#ph_oksana.ac4f6deb-41fe-4c67-8e83-51d4226d305f", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -3544,7 +3543,7 @@
          "child" : [ 
             "78b2b51e-e69c-4bde-92f4-b04d0e704c70"
          ], 
-         "text" : "Заброшеный завод! Я таких на своём пути столько встречала. Некоторые были полностью восстановленны и работали.", 
+         "text" : "#ph_oksana.be03d6a3-1b5c-4f62-86e2-ecc55c857d3e", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -3568,7 +3567,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Помню у костра сидели в одном заброшеном заводе, от дождя кислотного прятались. Так мы песни на гитаре играли. Классно было.", 
+         "text" : "#ph_oksana.3fb6bca6-62c2-46db-8f1c-2ec2f39cb1a0", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -3636,7 +3635,7 @@
          "child" : [ 
             "b6f676e1-a3c7-4344-9953-2e165f6b9243"
          ], 
-         "text" : "Хм. Состояние парковки лучше чем у больницы! Парковка делалась на века.", 
+         "text" : "#ph_oksana.2ac8a9e2-ba07-4193-985a-892397a69e71", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -3660,7 +3659,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Интересно, а там внутри что нибудь сохранилось?", 
+         "text" : "#ph_oksana.2523708d-ca26-4b4d-a49d-7609da73cf3d", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -3728,7 +3727,7 @@
          "child" : [ 
             "a3b9a643-8e22-42ae-8246-5e127a849990"
          ], 
-         "text" : "Вот это дыра!!!...", 
+         "text" : "#ph_oksana.210acdfe-e715-4b26-b4fb-1f67d4e214e7", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -3752,7 +3751,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "По моему мнению, идти в эпицентр ядерного удара, не самая лучшая затея!", 
+         "text" : "#ph_oksana.227f851e-b529-411d-a122-0db33e8777bc", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -3820,7 +3819,7 @@
          "child" : [ 
             "3744dc82-3cac-4a91-aee2-ea752d44ca86"
          ], 
-         "text" : "И тут живут люди. Зачем? Тут грязно и пыльно,а главное не безопасно!", 
+         "text" : "#ph_oksana.45113c51-9bdc-49fa-9775-78a0d2d14085", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"
@@ -3844,7 +3843,7 @@
          }, 
          "child" : [ 
          ], 
-         "text" : "Возможно они прячутся от кого-то? ", 
+         "text" : "#ph_oksana.ac92813b-8780-43d7-8b63-2e63922f77bf", 
          "customObject" : "oksana", 
          "waitEnd" : "true", 
          "onlyActiveAndAlive" : "true"

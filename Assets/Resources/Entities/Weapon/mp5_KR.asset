@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Icon:
     path: Entities/Weapon/weapon models/mp5k/mp5k-icon
-  m_Localization: weapon.mp5kr
+  m_Localization: weapon.mp5_kr
   Takeable: 1
   Cost: 10080
   Weight: 2050

@@ -492,7 +492,7 @@
          "child" : [ 
             "9ccb26d4-ac24-4632-b5a4-e2d1f3c85889"
          ], 
-         "text" : "Какая милая девушка у вас в отряде!", 
+         "text" : "#ph_trade2.man.3aa283ef-ced3-4012-99c1-1daff723e01f", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true", 
          "mode" : "CancelIfBattle"
@@ -517,7 +517,7 @@
          "child" : [ 
             "bde148be-41e3-4969-be3a-b61a75ad3972"
          ], 
-         "text" : "Я где-то её уже встречал.", 
+         "text" : "#ph_trade2.man.ccf04be2-45e3-4c4e-a0a2-328c74c1b692", 
          "waitEnd" : "false", 
          "onlyActiveAndAlive" : "true", 
          "mode" : "CancelIfBattle"

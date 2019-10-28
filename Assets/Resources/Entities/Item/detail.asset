@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Icon:
     path: Entities/Item/icons/LotS_Scrap_Metal
-  m_Localization: item.wastemetal
+  m_Localization: item.detail
   Takeable: 1
   Cost: 8
   Weight: 50
