@@ -2745,7 +2745,7 @@ MonoBehaviour:
     chances: []
     _requirements:
     - _type: 39
-      _value: 5
+      _value: 8
     _requirementsEx: []
     _weatherCondition: 0
   camping:

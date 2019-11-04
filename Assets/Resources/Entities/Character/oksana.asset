@@ -50,22 +50,22 @@ MonoBehaviour:
     Luck: 5
     skillsBonus:
       SmallGuns: 30
-      BigGuns: 50
+      BigGuns: 40
       AutomaticFirearms: 20
       Unarmed: 30
       MeleeWeapons: 20
       Throwing: 20
-      FirstAid: 30
-      Crafting: 5
-      Sneak: 16
-      Lockpick: 24
-      Steal: 54
-      Alertness: 27
-      Science: 31
-      Speech: 64
-      Barter: 41
-      Gambling: 31
-      Outdoorsman: 36
+      FirstAid: 25
+      Crafting: 0
+      Sneak: 0
+      Lockpick: 0
+      Steal: 0
+      Alertness: 30
+      Science: 0
+      Speech: 0
+      Barter: 0
+      Gambling: 0
+      Outdoorsman: 30
     Perks: 
     FreeSkillPoints: 10
     FreeStatPoints: 0

@@ -4,169 +4,75 @@
          "short" : "Shot", 
          "full" : "Shot"
       }, 
-      "10mm_ap" : { 
-         "short" : ".ammo.10mm_ap.short", 
-         "full" : ".ammo.10mm_ap.full"
-      }, 
-      "10mm_jhp" : { 
-         "short" : ".ammo.10mm_jhp.short", 
-         "full" : ".ammo.10mm_jhp.full"
-      }, 
-      "12_ap" : { 
-         "short" : ".ammo.12_ap.short", 
-         "full" : ".ammo.12_ap.full"
-      }, 
       "12_craft" : { 
-         "short" : ".ammo.12_craft.short", 
-         "full" : ".ammo.12_craft.full"
-      }, 
-      "12_jhp" : { 
-         "short" : ".ammo.12_jhp.short", 
-         "full" : ".ammo.12_jhp.full"
-      }, 
-      "14_5mm_ap" : { 
-         "short" : ".ammo.14_5mm_ap.short", 
-         "full" : ".ammo.14_5mm_ap.full"
+         "short" : "12g rounds (shot)", 
+         "label" : "12g (shot)", 
+         "full" : "Cartridges of local production.\n[Damage multiplier x 0.4.]"
       }, 
       "14_5mm_craft" : { 
-         "short" : ".ammo.14_5mm_craft.short", 
-         "full" : ".ammo.14_5mm_craft.full"
-      }, 
-      "14_5mm_jhp" : { 
-         "short" : ".ammo.14_5mm_jhp.short", 
-         "full" : ".ammo.14_5mm_jhp.full"
-      }, 
-      "307cal_ap" : { 
-         "short" : ".ammo.307cal_ap.short", 
-         "full" : ".ammo.307cal_ap.full"
+         "short" : "14.5mm rounds", 
+         "label" : "14.5mm",
+		 "full" : "Cartridges of local production.\n[Damage multiplier x 1.4.]"
       }, 
       "307cal_craft" : { 
-         "short" : ".ammo.307cal_craft.short", 
-         "full" : ".ammo.307cal_craft.full"
-      }, 
-      "307cal_jhp" : { 
-         "short" : ".ammo.307cal_jhp.short", 
-         "full" : ".ammo.307cal_jhp.full"
-      }, 
-      "356cal_ap" : { 
-         "short" : ".ammo.356cal_ap.short", 
-         "full" : ".ammo.356cal_ap.full"
+         "short" : ".30 rounds", 
+         "label" : ".30",
+		 "full" : "Local ammo.\n[Damage Multiplier x 1.3.]"
       }, 
       "356cal_craft" : { 
-         "short" : ".ammo.356cal_craft.short", 
-         "full" : ".ammo.356cal_craft.full"
-      }, 
-      "356cal_jhp" : { 
-         "short" : ".ammo.356cal_jhp.short", 
-         "full" : ".ammo.356cal_jhp.full"
+         "short" : "9x39mm ammo", 
+         "label" : "9x39mm",
+		 "full" : "Cartridges of local production.\n[Damage multiplier x 1.5.]"
       }, 
       "357_ap" : { 
-         "short" : ".ammo.357_ap.short", 
-         "full" : ".ammo.357_ap.full"
+         "short" : ".357 Magnum ammo (AP)",
+		 "label" : "9x33 mm R (AP)",
+         "full" : "The American high-powered revolving cartridge, created by Smith & Wesson in 1934."
       }, 
       "357_jhp" : { 
-         "short" : ".ammo.357_jhp.short", 
-         "full" : ".ammo.357_jhp.full"
+         "short" : ".357 Magnum ammo",
+		 "label" : "9x33 mm R",
+         "full" : "The American high-powered revolving cartridge, created by Smith & Wesson in 1934."
       }, 
       "45 acp_ap" : { 
-         "short" : ".ammo.45 acp_ap.short", 
-         "full" : ".ammo.45 acp_ap.full"
+         "short" : ".45 ACP ammo (AP)",
+		 "label" : "11,43x23 mm (AP)",
+         "full" : "An American pistol unitary cartridge with a cylindrical wafer sleeve, developed in 1904."
       }, 
       "45 acp_jhp" : { 
-         "short" : ".ammo.45 acp_jhp.short", 
-         "full" : ".ammo.45 acp_jhp.full"
-      }, 
+         "short" : ".45 ACP ammo",
+		 "label" : "11,43x23 mm ",
+         "full" : "An American pistol unitary cartridge with a cylindrical wafer sleeve, developed in 1904."
+      },
       "5_45craft" : { 
-         "short" : ".ammo.5_45craft.short", 
-         "full" : ".ammo.5_45craft.full"
-      }, 
-      "5_45mm_ap" : { 
-         "short" : ".ammo.5_45mm_ap.short", 
-         "full" : ".ammo.5_45mm_ap.full"
-      }, 
-      "5_45mm_jhp" : { 
-         "short" : ".ammo.5_45mm_jhp.short", 
-         "full" : ".ammo.5_45mm_jhp.full"
+         "short" : "5.45mm rounds", 
+         "label" : "5.45mm",
+		 "full" : "Cartridges of local production.\n[Damage multiplier x 1.4]"
       }, 
       "5_56mm_ap" : { 
-         "short" : ".ammo.5_56mm_ap.short", 
-         "full" : ".ammo.5_56mm_ap.full"
+         "short" : "5.56 mm ammo (AP)",
+		 "label" : "5,56 mm (AP)",
+         "full" : "A low-pulse intermediate cartridge with a flangeless bottle sleeve adopted by NATO countries in the 1980s."
       }, 
       "5_56mm_jhp" : { 
-         "short" : ".ammo.5_56mm_jhp.short", 
-         "full" : ".ammo.5_56mm_jhp.full"
-      }, 
-      "6_49mm_ap" : { 
-         "short" : ".ammo.6_49mm_ap.short", 
-         "full" : ".ammo.6_49mm_ap.full"
-      }, 
-      "6_49mm_jhp" : { 
-         "short" : ".ammo.6_49mm_jhp.short", 
-         "full" : ".ammo.6_49mm_jhp.full"
-      }, 
-      "7_62mm_ap" : { 
-         "short" : ".ammo.7_62mm_ap.short", 
-         "full" : ".ammo.7_62mm_ap.full"
-      }, 
+         "short" : "5.56 mm ammo (AP)",
+		 "label" : "5,56 mm (AP)",
+         "full" : "A low-pulse intermediate cartridge with a flangeless bottle sleeve adopted by NATO countries in the 1980s."
+      },
       "7_62mm_craft" : { 
-         "short" : ".ammo.7_62mm_craft.short", 
-         "full" : ".ammo.7_62mm_craft.full"
-      }, 
-      "7_62mm_jhp" : { 
-         "short" : ".ammo.7_62mm_jhp.short", 
-         "full" : ".ammo.7_62mm_jhp.full"
-      }, 
-      "7mm_54r" : { 
-         "short" : ".ammo.7mm_54r.short", 
-         "full" : ".ammo.7mm_54r.full"
-      }, 
-      "7mm_54r_ap" : { 
-         "short" : ".ammo.7mm_54r_ap.short", 
-         "full" : ".ammo.7mm_54r_ap.full"
-      }, 
+         "short" : "7.62×39mm rounds", 
+         "label" : "7.62×39mm",
+		 "full" : "Cartridges of local production.\n[Damage multiplier x 1.4]"
+      },
       "7mm_54r_craft" : { 
-         "short" : ".ammo.7mm_54r_craft.short", 
-         "full" : ".ammo.7mm_54r_craft.full"
-      }, 
-      "9mm_ap" : { 
-         "short" : ".ammo.9mm_ap.short", 
-         "full" : ".ammo.9mm_ap.full"
-      }, 
+         "short" : "7.62×54mmR rounds", 
+         "label" : "7.62×54mmR",
+		 "full" : "Cartridges of local production.\n[Damage multiplier x 1.5]"
+      },
       "9mm_craft" : { 
-         "short" : ".ammo.9mm_craft.short", 
-         "full" : ".ammo.9mm_craft.full"
-      }, 
-      "9mm_jhp" : { 
-         "short" : ".ammo.9mm_jhp.short", 
-         "full" : ".ammo.9mm_jhp.full"
-      }, 
-      "bb_ap" : { 
-         "short" : ".ammo.bb_ap.short", 
-         "full" : ".ammo.bb_ap.full"
-      }, 
-      "bb_jhp" : { 
-         "short" : ".ammo.bb_jhp.short", 
-         "full" : ".ammo.bb_jhp.full"
-      }, 
-      "bolt" : { 
-         "short" : ".ammo.bolt.short", 
-         "full" : ".ammo.bolt.full"
-      }, 
-      "bolt_ap" : { 
-         "short" : ".ammo.bolt_ap.short", 
-         "full" : ".ammo.bolt_ap.full"
-      }, 
-      "fuel" : { 
-         "short" : ".ammo.fuel.short", 
-         "full" : ".ammo.fuel.full"
-      }, 
-      "pb" : { 
-         "short" : ".ammo.pb.short", 
-         "full" : ".ammo.pb.full"
-      }, 
-      "rubber_bp" : { 
-         "short" : ".ammo.rubber_bp.short", 
-         "full" : ".ammo.rubber_bp.full"
+         "short" : "9mm rounds", 
+         "label" : "9mm",
+		 "full" : "Cartridges of local production.\n[Damage multiplier х 1.3]"
       }
    }, 
    "character" : { 
@@ -309,37 +215,28 @@
       "oraculumv2" : { 
          "short" : "Oracle", 
          "full" : "Oracle"
-      }, 
-      "village_trader" : { 
-         "short" : ".character.village_trader.short", 
-         "full" : ".character.village_trader.full"
       }
    }, 
    "weapon" : { 
       "ak47tactic" : { 
-         "         short" : "AKM", 
-         "full" : "Modernized variant of the AK-47. The case is made of steel and impact-resistant plastic. Introduced into service with the Soviet Army in 1959", 
-         "short" : ".weapon.ak47tactic.short"
-      }, 
+         "short" : "AKM", 
+         "full" : "Modernized variant of the AK-47. The case is made of steel and impact-resistant plastic. Introduced into service with the Soviet Army in 1959" 
+       }, 
       "beretta" : { 
-         "         short" : "Beretta 92", 
-         "full" : "The model 92 was designed in 1972 by Carlo Beretta, Giuseppe Mazetti and Vittorio Valle - final design in 1975. A 9 mm Beretta 92F pistol replaced a 45-caliber M1911 pistol as a standard US Army pistol with the designation M9.", 
-         "short" : ".weapon.beretta.short"
+         "short" : "Beretta 92", 
+         "full" : "The model 92 was designed in 1972 by Carlo Beretta, Giuseppe Mazetti and Vittorio Valle - final design in 1975. A 9 mm Beretta 92F pistol replaced a 45-caliber M1911 pistol as a standard US Army pistol with the designation M9." 
       }, 
       "crossbow1" : { 
-         "         short" : "Military Crossbow", 
-         "full" : "The Crossbow was designed for military special forces. Delivered by traders from Europe.", 
-         "short" : ".weapon.crossbow1.short"
+         "short" : "Military Crossbow", 
+         "full" : "The Crossbow was designed for military special forces. Delivered by traders from Europe." 
       }, 
       "crossbow2" : { 
-         "         short" : "Hunting crossbow", 
-         "full" : "This crossbow is for hunting all kinds of animals. Manufacturer is unknown.", 
-         "short" : ".weapon.crossbow2.short"
+         "short" : "Hunting crossbow", 
+         "full" : "This crossbow is for hunting all kinds of animals. Manufacturer is unknown." 
       }, 
       "dp_28" : { 
-         "         short" : "DP-28", 
-         "full" : "The Degtyaryov machine gun was accepted for Red Army service in 1927 with the official designation DP-27. For reasons that are unclear, it is often called the DP-28. It is possible, since the Soviets generally named equipment referring to the first year of use", 
-         "short" : ".weapon.dp_28.short"
+         "short" : "DP-28", 
+         "full" : "The Degtyaryov machine gun was accepted for Red Army service in 1927 with the official designation DP-27. For reasons that are unclear, it is often called the DP-28. It is possible, since the Soviets generally named equipment referring to the first year of use" 
       }, 
       "mg3" : { 
          "short" : "MG 3", 
@@ -426,76 +323,76 @@
          "full" : "Rusty echo of World War II."
       }, 
       "ak74" : { 
-         "short" : ".weapon.ak74.short", 
-         "full" : ".weapon.ak74.full"
+         "short" : "AK-74", 
+         "full" : "Kalashnikov assault rifle, caliber 5.45 mm arr. 1974 (GRAU Index - 6P20) - a 5.45 mm automatic rifle, developed in 1970 by designer M.T. Kalashnikov and adopted by the USSR armed forces in 1974. It is a further development of AKM. The development of the AK-74 is associated with the transition to a new low-pulse cartridge 5.45 × 39 mm."
       }, 
       "ak74m" : { 
-         "short" : ".weapon.ak74m.short", 
-         "full" : ".weapon.ak74m.full"
+         "short" : "AK-74M", 
+         "full" : "AK-74 modernized. It is equipped with a folding plastic buttstock on the left side and a universal mount (dovetail bar) for mounting sights, both optical and night, on the left side of the receiver. Thus, the AK-74M replaced four models at once: AK-74, AKS-74, AK-74N and AKS-74N."
       }, 
       "akm" : { 
-         "short" : ".weapon.akm.short", 
-         "full" : ".weapon.akm.full"
+         "short" : "AKM", 
+         "full" : "AKM (Modernized Kalashnikov assault rifle, GRAU Index - 6P1) - AK modernization, adopted for service in 1959. The AKM sighting range has been increased to 1000 m, changes have been made to increase reliability and ease of use."
       }, 
       "aks74" : { 
-         "short" : ".weapon.aks74.short", 
-         "full" : ".weapon.aks74.full"
+         "short" : "AKS-74", 
+         "full" : "Modification of the AKS 74 (index 6P21) was adopted at the same time as the AK 74 and was intended primarily for the Airborne Troops. The machine is distinguished by a lightweight metal butt of a triangular shape, folding to the left and a locking protrusion on the left side of the receiver. The triangular shape of the stock, consisting of two rods and a shoulder rest, provides it with sufficient rigidity. Folded butt does not interfere with fire"
       }, 
       "bren" : { 
-         "short" : ".weapon.bren.short", 
-         "full" : ".weapon.bren.full"
+         "short" : "Bren", 
+         "full" : "The Bren light machine gun was developed in the early 1930s and was used by the British Army in various roles until 1992."
       }, 
       "colt python" : { 
-         "short" : ".weapon.colt python.short", 
-         "full" : ".weapon.colt python.full"
+         "short" : "Colt Python", 
+         "full" : "Six-shot .357 Magnum revolver manufactured by the Colt’s Manufacturing Company in Hartford, Connecticut. It was first introduced in 1955 with Smith & Wesson’s M29 .44 Magnum."
       }, 
       "crossbow3" : { 
-         "short" : ".weapon.crossbow3.short", 
-         "full" : ".weapon.crossbow3.full"
+         "short" : "Crossbow", 
+         "full" : "Manufacturer unknown. Supplied by merchants from Europe."
       }, 
       "frf2" : { 
-         "short" : ".weapon.frf2.short", 
-         "full" : ".weapon.frf2.full"
+         "short" : "FR F2", 
+         "full" : "The FR F2 sniper rifle was developed by order of the French army by the GIAT concern in the mid-1980s."
       }, 
       "mp5_kr" : { 
-         "short" : ".weapon.mp5_kr.short", 
-         "full" : ".weapon.mp5_kr.full"
+         "short" : "MP-5K", 
+         "full" : "MP-5K Designed specifically as a hidden-carrying weapon, suitable for close combat, and providing short fire with great firepower."
       }, 
       "mp5a3" : { 
-         "short" : ".weapon.mp5a3.short", 
-         "full" : ".weapon.mp5a3.full"
+         "short" : "MP5-A3", 
+         "full" : "MP-5 with retractable telescopic butt. An early model, with a grooved forend and a steel-stamped housing of the USM module."
       }, 
       "mp5sd" : { 
-         "short" : ".weapon.mp5sd.short", 
-         "full" : ".weapon.mp5sd.full"
+         "short" : "MP-5SD", 
+         "full" : "The MP5SD submachine gun was developed based on the MP5A2 design for use by special army and police units. The MP5SD submachine gun is manufactured in versions with a permanent stock - MP5SD2 and folding - MP5SD3, or even without a stock - MP5SD4. This weapon differs from conventional MP5 in the presence of an integrated silencer."
       }, 
       "ppsh41" : { 
-         "short" : ".weapon.ppsh41.short", 
-         "full" : ".weapon.ppsh41.full"
+         "short" : "PPS-41", 
+         "full" : "Soviet submachine gun, developed in 1940 by designer G. S. Shpagin."
       }, 
       "svt38" : { 
-         "short" : ".weapon.svt38.short", 
-         "full" : ".weapon.svt38.full"
+        "short" : "SVT-38", 
+         "full" : "SVT-38 was developed as a replacement for Simonov’s automatic rifle and on February 26, 1939 adopted by the Red Army."
       }, 
       "svt38_scope" : { 
-         "short" : ".weapon.svt38_scope.short", 
-         "full" : ".weapon.svt38_scope.full"
+         "short" : "SVT-38 with scope", 
+         "full" : "SVT-38 was developed as a replacement for Simonov’s automatic rifle and on February 26, 1939 adopted by the Red Army."
       }, 
       "thompson_m1928a1" : { 
-         "short" : ".weapon.thompson_m1928a1.short", 
-         "full" : ".weapon.thompson_m1928a1.full"
+         "short" : "Thompson M1928", 
+         "full" : "The 1928 model was supplied to the U.S. Navy and the U.S. Marine Corps in the 1930s. The basis was the modified 1921 models with a weighted trigger mechanism that significantly reduced the rate of fire."
       }, 
       "thompson_m1a1" : { 
-         "short" : ".weapon.thompson_m1a1.short", 
-         "full" : ".weapon.thompson_m1a1.full"
+         "short" : "Thompson М1А1", 
+         "full" : "In October 1942, the release of the M1A1 model began. A similar version of the Thompson was produced twice as fast as the M1928A1, and cheaper. The difference from M1 was the shutter: in M1 there was a moving drummer, in M1A1 it was already firmly fixed. The standard weapons were a reinforced stock, a V-shaped rear sight and a 30-round magazine, the fire mode was automatic."
       }, 
       "toz34" : { 
-         "short" : ".weapon.toz34.short", 
-         "full" : ".weapon.toz34.full"
+         "short" : "TOZ-34", 
+         "full" : "TOZ-34 developed by the designer-gunsmith N. I. Korovyakov. The gun has been manufactured in pieces since 1964 at the Tula Arms Plant. In 1965, TOZ-34 was awarded the gold medal of the Leipzig Fair."
       }, 
       "toz66" : { 
-         "short" : ".weapon.toz66.short", 
-         "full" : ".weapon.toz66.full"
+         "short" : "TOZ-66", 
+         "full" : "In 1968, the Tula Arms Plant pleased Soviet hunters with the release of the long-awaited 12-gauge trigger. The new model, called TOZ-66, was produced in 1974, and managed to gain fame as the most powerful gun among Tula double-barreled shotguns."
       }
    }, 
    "chest" : { 
@@ -513,10 +410,7 @@
          "short" : "Gasoline", 
          "full" : "This classical fuel appeared in the Wastes thanks to Central Asian Gas barons. It is considered rare.", 
          "fail" : "You managed to damage a plastic bottle and invaluable gas poured on the ground and your boots..."
-      }, 
-      "moment" : { 
-         "fail" : ".consumable.moment.fail"
-      }
+      } 
    }, 
    "interactive" : { 
       "mymod_level" : { 
@@ -535,17 +429,10 @@
          "full" : "The skin of a dead animal. Can be sold or used in craft.", 
          "fail" : "Damaged"
       }, 
-      "bottle_empty2" : { 
-         "short" : ".item.bottle_empty2.short", 
-         "full" : ".item.bottle_empty2.full"
-      }, 
       "detail" : { 
-         "short" : ".item.detail.short", 
-         "full" : ".item.detail.full"
-      }, 
-      "wires" : { 
-         "fail" : ".item.wires.fail"
-      }
+         "short" : "Firearm Parts", 
+         "full" : "Rubbish from broken weapons. You can sell it."
+      } 
    }, 
    "encounter" : { 
       "wolfsnights" : "You fell into the trap of a wolf pack. A huge pack of wolves is now approaching you.", 
@@ -579,155 +466,8 @@
       "lizardshiftnights" : "You hear firing and shouts. Probably someone has run into terrible monsters.", 
       "Mutanights" : "The pack of hungry wolves attacks.", 
       "bigratshiftnights" : "You see as the pack of huge rats attacks shift workers.", 
-      "wolves" : ".encounter.wolves", 
-      "attack" : ".encounter.attack", 
-      "try_skip1" : ".encounter.try_skip1", 
-      "success_skip1" : ".encounter.success_skip1", 
-      "gotravel" : ".encounter.gotravel", 
-      "fail_skip_wolfes" : ".encounter.fail_skip_wolfes", 
-      "gobattle" : ".encounter.gobattle", 
-      "rats" : ".encounter.rats", 
-      "fail_skip_rats" : ".encounter.fail_skip_rats", 
-      "rats_2" : ".encounter.rats_2", 
-      "fail_skip_rats2" : ".encounter.fail_skip_rats2", 
-      "ants" : { 
-         "title" : ".encounter.ants.title", 
-         "success_skip" : ".encounter.ants.success_skip", 
-         "fail_skip" : ".encounter.ants.fail_skip"
-      }, 
-      "spiders" : { 
-         "title" : ".encounter.spiders.title", 
-         "success_skip" : ".encounter.spiders.success_skip", 
-         "fail_skip" : ".encounter.spiders.fail_skip"
-      }, 
-      "spiders_2" : { 
-         "title" : ".encounter.spiders_2.title", 
-         "success_skip" : ".encounter.spiders_2.success_skip", 
-         "fail_skip" : ".encounter.spiders_2.fail_skip"
-      }, 
-      "monster" : { 
-         "title" : ".encounter.monster.title", 
-         "success_skip" : ".encounter.monster.success_skip", 
-         "fail_skip" : ".encounter.monster.fail_skip"
-      }, 
-      "bandits" : ".encounter.bandits", 
-      "fail_skip_bandits1" : ".encounter.fail_skip_bandits1", 
-      "try_skip2" : ".encounter.try_skip2", 
-      "success_skip2" : ".encounter.success_skip2", 
-      "fail_skip_bandits2" : ".encounter.fail_skip_bandits2", 
-      "ment_bandits" : ".encounter.ment_bandits", 
-      "fanatics" : ".encounter.fanatics", 
-      "bookhaters" : ".encounter.bookhaters", 
-      "opg_1" : ".encounter.opg_1", 
-      "opg_2" : ".encounter.opg_2", 
-      "opg_3" : ".encounter.opg_3", 
-      "red_baron" : ".encounter.red_baron", 
-      "gopniks" : ".encounter.gopniks", 
-      "slavers" : { 
-         "title" : ".encounter.slavers.title", 
-         "success_skip1" : ".encounter.slavers.success_skip1", 
-         "fail_skip2" : ".encounter.slavers.fail_skip2", 
-         "success_skip2" : ".encounter.slavers.success_skip2"
-      }, 
-      "caravan" : ".encounter.caravan", 
-      "meet_caravan" : ".encounter.meet_caravan", 
-      "hunt" : ".encounter.hunt", 
-      "hunt_enter" : ".encounter.hunt_enter", 
-      "hunt_success" : ".encounter.hunt_success", 
-      "hunt_try" : ".encounter.hunt_try", 
-      "hunt_fail" : ".encounter.hunt_fail", 
-      "scavenger" : ".encounter.scavenger", 
-      "meet_scavenger" : ".encounter.meet_scavenger", 
-      "raid" : ".encounter.raid", 
-      "enter_raid" : ".encounter.enter_raid", 
-      "sos" : ".encounter.sos", 
-      "enter_sos" : ".encounter.enter_sos", 
-      "crazy" : ".encounter.crazy", 
-      "check" : ".encounter.check", 
-      "z_8" : ".encounter.z_8", 
-      "cave" : ".encounter.cave", 
-      "kovalev" : ".encounter.kovalev", 
-      "kovalev_check" : ".encounter.kovalev_check", 
-      "zman" : ".encounter.zman", 
-      "wolfter" : ".encounter.wolfter", 
-      "mirage" : ".encounter.mirage", 
-      "meet" : ".encounter.meet", 
-      "traveler" : ".encounter.traveler", 
-      "semka" : { 
-         "title" : ".encounter.semka.title", 
-         "try_skip3" : ".encounter.semka.try_skip3", 
-         "success_skip3" : ".encounter.semka.success_skip3", 
-         "fail_skip3" : ".encounter.semka.fail_skip3", 
-         "try_skip2" : ".encounter.semka.try_skip2", 
-         "success_skip2" : ".encounter.semka.success_skip2", 
-         "fail_skip2" : ".encounter.semka.fail_skip2", 
-         "try_skip1" : ".encounter.semka.try_skip1", 
-         "success_skip1" : ".encounter.semka.success_skip1", 
-         "fail_skip1" : ".encounter.semka.fail_skip1"
-      }, 
-      "drug" : { 
-         "title" : ".encounter.drug.title", 
-         "try_skip2" : ".encounter.drug.try_skip2", 
-         "success_skip2" : ".encounter.drug.success_skip2", 
-         "fail_skip2" : ".encounter.drug.fail_skip2", 
-         "try_skip1" : ".encounter.drug.try_skip1", 
-         "success_skip1" : ".encounter.drug.success_skip1", 
-         "fail_skip1" : ".encounter.drug.fail_skip1"
-      }, 
-      "racket" : { 
-         "title" : ".encounter.racket.title", 
-         "try_skip2" : ".encounter.racket.try_skip2", 
-         "success_skip2" : ".encounter.racket.success_skip2", 
-         "fail_skip2" : ".encounter.racket.fail_skip2", 
-         "try_skip1" : ".encounter.racket.try_skip1", 
-         "success_skip1" : ".encounter.racket.success_skip1", 
-         "fail_skip1" : ".encounter.racket.fail_skip1"
-      }, 
-      "americanwarrior" : { 
-         "title" : ".encounter.americanwarrior.title"
-      }, 
-      "zolotoy" : { 
-         "title" : ".encounter.zolotoy.title"
-      }, 
-      "headhunter" : { 
-         "special" : ".encounter.headhunter.special", 
-         "title" : ".encounter.headhunter.title", 
-         "success_skip2" : ".encounter.headhunter.success_skip2", 
-         "fail_skip2" : ".encounter.headhunter.fail_skip2", 
-         "success_skip1" : ".encounter.headhunter.success_skip1", 
-         "fail_skip1" : ".encounter.headhunter.fail_skip1"
-      }, 
-      "headhunter2" : { 
-         "title" : ".encounter.headhunter2.title", 
-         "success_skip1" : ".encounter.headhunter2.success_skip1", 
-         "fail_skip1" : ".encounter.headhunter2.fail_skip1", 
-         "success_skip2" : ".encounter.headhunter2.success_skip2", 
-         "fail_skip2" : ".encounter.headhunter2.fail_skip2"
-      }, 
-      "try_skip3" : ".encounter.try_skip3", 
-      "headhunter3" : { 
-         "title" : ".encounter.headhunter3.title", 
-         "success_skip1" : ".encounter.headhunter3.success_skip1", 
-         "fail_skip1" : ".encounter.headhunter3.fail_skip1", 
-         "success_skip2" : ".encounter.headhunter3.success_skip2", 
-         "fail_skip2" : ".encounter.headhunter3.fail_skip2"
-      }, 
-      "slavers_fort" : ".encounter.slavers_fort", 
-      "bandits_fort" : ".encounter.bandits_fort", 
-      "oksana" : ".encounter.oksana", 
-      "pirates" : ".encounter.pirates", 
-      "z_4_2" : ".encounter.z_4_2", 
-      "medveka" : ".encounter.medveka", 
-      "shift" : ".encounter.shift", 
-      "muta" : ".encounter.muta", 
-      "fail_skip_muta" : ".encounter.fail_skip_muta", 
-      "mutashift" : ".encounter.mutashift", 
-      "gubert" : ".encounter.gubert", 
-      "hallucinating" : { 
-         "title" : ".encounter.hallucinating.title", 
-         "enter" : ".encounter.hallucinating.enter"
-      }, 
-      "oksana_quest_3" : ".encounter.oksana_quest_3"
+      "oksana" : "You've noticed someone!", 
+	  "oksana_quest_3" : "A stranger comes to see you."
    }, 
    "door" : { 
    }, 
@@ -874,154 +614,37 @@
       "m42_rust" : { 
          "short" : "Rusty M42 steel helmet", 
          "full" : "Rusty M42 steel helmet. Rusty German steel helmet created in 1942."
-      }, 
-      "gasmask" : { 
-         "short" : ".uniform.gasmask.short", 
-         "full" : ".uniform.gasmask.full"
-      }, 
-      "gasmask_2" : { 
-         "short" : ".uniform.gasmask_2.short", 
-         "full" : ".uniform.gasmask_2.full"
       }
    }, 
    "explosive" : { 
    }, 
    "location" : { 
       "1" : ".1"
-   }, 
+   },
+      "skills" : {
+	  "oksana_speech_info" : "I hope so.", 
+      "oksana_barter_info" : "I don't need that. Trading is your concern.", 
+      "oksana_gambling_info" : "I don't play and I don't advise you.", 
+      "oksana_steal_info" : "I don't like thieves.", 
+      "oksana_crafting_info" : "I can draw camouflage for you, but I can't make anything, it's not for me." 
+   },
+   "params" : { 
+      "criticalchance" : "Critical Chance (Basic Value)"
+   },
+   "giveway" : { 
+      "oksana" : [ 
+         "I'm interfering?", 
+         "Now, now", 
+         "Already i'm leaving", 
+         "Don't get caught up in it!", 
+         "OK, okay, I'm on my way away."
+      ]
+   },    
    "quests" : { 
       "ph_trade1_quest" : "[Phenomenon] Alexander, the trader, asked you to bring him fuel. 50 liters should be enough.", 
       "ph_trade2_quest" : "[Phenomenon] Bogdan, the trader, asked you for crafting resources, 50 leather and 30 furs. He has many buyers for these products.", 
-      "oksana_quest_1" : ".quests.oksana_quest_1", 
-      "oksana_quest_2" : ".quests.oksana_quest_2", 
-      "oksana_quest_3" : ".quests.oksana_quest_3", 
-      "quest.antman.wife.find" : ".quests.quest.antman.wife.find", 
-      "baza_visit_godgin" : ".quests.baza_visit_godgin", 
-      "factory.report" : ".quests.factory.report", 
-      "moonshiners.samson.end" : ".quests.moonshiners.samson.end", 
-      "quest.antman.wife" : ".quests.quest.antman.wife", 
-      "baze_kill_mutants" : ".quests.baze_kill_mutants", 
-      "baza_monsters_go_back" : ".quests.baza_monsters_go_back", 
-      "lab.grishka.debt" : ".quests.lab.grishka.debt", 
-      "citysub.quest.simon.skin.end.out" : ".quests.citysub.quest.simon.skin.end.out", 
-      "citysub.quest.simon.skin.end.tatoo" : ".quests.citysub.quest.simon.skin.end.tatoo", 
-      "yriy.zhuk" : ".quests.yriy.zhuk", 
-      "city.strateg.end" : ".quests.city.strateg.end", 
-      "city.strateg1" : ".quests.city.strateg1", 
-      "city.strateg2" : ".quests.city.strateg2", 
-      "city.strateg3" : ".quests.city.strateg3", 
-      "harbor.karavan" : ".quests.harbor.karavan", 
-      "citysub.wife" : ".quests.citysub.wife", 
-      "citysub.quest.tofik" : ".quests.citysub.quest.tofik", 
-      "citysub.quest.tofik.died" : ".quests.citysub.quest.tofik.died", 
-      "fogelevka.s1.end" : ".quests.fogelevka.s1.end", 
-      "fogelevka.s2.end" : ".quests.fogelevka.s2.end", 
-      "fogelevka.s3.end" : ".quests.fogelevka.s3.end", 
-      "fogelevka.tofik.quest.zolotoy" : ".quests.fogelevka.tofik.quest.zolotoy", 
-      "fogelevka.tofik.quest.zolotoy.dead" : ".quests.fogelevka.tofik.quest.zolotoy.dead", 
-      "fogelevka.tofik.quest.fight2.begin" : ".quests.fogelevka.tofik.quest.fight2.begin", 
-      "fogelevka.tofik.quest.decapitation.begin" : ".quests.fogelevka.tofik.quest.decapitation.begin", 
-      "fogelevka.tofik.quest.decapitation.end.good" : ".quests.fogelevka.tofik.quest.decapitation.end.good", 
-      "fogelevka.tofik.quest.decapitation.end.bad" : ".quests.fogelevka.tofik.quest.decapitation.end.bad", 
-      "gasstation_1.head" : ".quests.gasstation_1.head", 
-      "harbor.trade.guard_kill" : ".quests.harbor.trade.guard_kill", 
-      "harbor.guard.side_kill" : ".quests.harbor.guard.side_kill", 
-      "harbor.guard.trade_kill" : ".quests.harbor.guard.trade_kill", 
-      "harbor.guard.kill_end" : ".quests.harbor.guard.kill_end", 
-      "harbor.trade.kill_end" : ".quests.harbor.trade.kill_end", 
-      "harbor.side.guard" : ".quests.harbor.side.guard", 
-      "harbor.trade.side_kill" : ".quests.harbor.trade.side_kill", 
-      "harbor.side.trade" : ".quests.harbor.side.trade", 
-      "harbor.side.end" : ".quests.harbor.side.end", 
-      "factory.ivan" : ".quests.factory.ivan", 
-      "city.sick" : ".quests.city.sick", 
-      "harbor.car" : ".quests.harbor.car", 
-      "city.protivnoff" : ".quests.city.protivnoff", 
-      "il.rat" : ".quests.il.rat", 
-      "il.rat.end" : ".quests.il.rat.end", 
-      "city.p603" : ".quests.city.p603", 
-      "city.p603.break" : ".quests.city.p603.break", 
-      "city.p603.fail" : ".quests.city.p603.fail", 
-      "city.p603.end" : ".quests.city.p603.end", 
-      "city.il" : ".quests.city.il", 
-      "city.il.end3" : ".quests.city.il.end3", 
-      "city.protivnoff1" : ".quests.city.protivnoff1", 
-      "city.protivnoff2" : ".quests.city.protivnoff2", 
-      "city.protivnoff3" : ".quests.city.protivnoff3", 
-      "il.ivan" : ".quests.il.ivan", 
-      "il.egg" : ".quests.il.egg", 
-      "il.row" : ".quests.il.row", 
-      "il.drug" : ".quests.il.drug", 
-      "city.book_end" : ".quests.city.book_end", 
-      "koval.petrol" : ".quests.koval.petrol", 
-      "koval.move" : ".quests.koval.move", 
-      "village.pump.engine" : ".quests.village.pump.engine", 
-      "factory.ivan2" : ".quests.factory.ivan2", 
-      "koval.avto" : ".quests.koval.avto", 
-      "koval.wires" : ".quests.koval.wires", 
-      "koval.wastemetal" : ".quests.koval.wastemetal", 
-      "koval.carb" : ".quests.koval.carb", 
-      "koval.starter" : ".quests.koval.starter", 
-      "factory.kill.head" : ".quests.factory.kill.head", 
-      "factory.prison.help" : ".quests.factory.prison.help", 
-      "factory.ivan3" : ".quests.factory.ivan3", 
-      "cult_observer_fail" : ".quests.cult_observer_fail", 
-      "cult_observer" : ".quests.cult_observer", 
-      "village.trader.alex.end" : ".quests.village.trader.alex.end", 
-      "village.trader.alex" : ".quests.village.trader.alex", 
-      "village.barman.book_end" : ".quests.village.barman.book_end", 
-      "village.barman.book" : ".quests.village.barman.book", 
-      "harbor.redbaron" : ".quests.harbor.redbaron", 
-      "harbor.redbaron_end" : ".quests.harbor.redbaron_end", 
-      "city.book" : ".quests.city.book", 
-      "harbor.clean" : ".quests.harbor.clean", 
-      "harbor.clean_end" : ".quests.harbor.clean_end", 
-      "deadcity.gubert" : ".quests.deadcity.gubert", 
-      "deadcity.gubert.end" : ".quests.deadcity.gubert.end"
-   }, 
-   "weaponperk" : { 
-      "skinning" : ".weaponperk.skinning", 
-      "scope" : ".weaponperk.scope", 
-      "pierce10" : ".weaponperk.pierce10", 
-      "pierce20" : ".weaponperk.pierce20", 
-      "stun5" : ".weaponperk.stun5", 
-      "stun10" : ".weaponperk.stun10", 
-      "stun20" : ".weaponperk.stun20", 
-      "poisoning100_2" : ".weaponperk.poisoning100_2", 
-      "poisoning100_5" : ".weaponperk.poisoning100_5", 
-      "poisoning100_10" : ".weaponperk.poisoning100_10", 
-      "longweapon" : ".weaponperk.longweapon", 
-      "rustweapon" : ".weaponperk.rustweapon", 
-      "rustblade" : ".weaponperk.rustblade", 
-      "stun40" : ".weaponperk.stun40", 
-      "stun60" : ".weaponperk.stun60", 
-      "midweapon" : ".weaponperk.midweapon", 
-      "effectpoison" : ".weaponperk.effectpoison", 
-      "crit10" : ".weaponperk.crit10", 
-      "crit15" : ".weaponperk.crit15", 
-      "crit20" : ".weaponperk.crit20", 
-      "crit50" : ".weaponperk.crit50", 
-      "craftable" : ".weaponperk.craftable", 
-      "fuel" : ".weaponperk.fuel", 
-      "panic10" : ".weaponperk.panic10", 
-      "nightvision" : ".weaponperk.nightvision", 
-      "woodweapon" : ".weaponperk.woodweapon", 
-      "stun8" : ".weaponperk.stun8", 
-      "crit2" : ".weaponperk.crit2", 
-      "crit4" : ".weaponperk.crit4", 
-      "stun2" : ".weaponperk.stun2", 
-      "crit6" : ".weaponperk.crit6", 
-      "ghostbuster30" : ".weaponperk.ghostbuster30", 
-      "ghostbuster70" : ".weaponperk.ghostbuster70", 
-      "rustblade5" : ".weaponperk.rustblade5", 
-      "stun15" : ".weaponperk.stun15", 
-      "stun25" : ".weaponperk.stun25", 
-      "pierce15" : ".weaponperk.pierce15", 
-      "crit5" : ".weaponperk.crit5", 
-      "panic25" : ".weaponperk.panic25", 
-      "poisoning100_50" : ".weaponperk.poisoning100_50", 
-      "kms" : ".weaponperk.kms", 
-      "ms" : ".weaponperk.ms", 
-      "pierce50" : ".weaponperk.pierce50"
+      "oksana_quest_1" : "[Phenomenon] Needs to help Oksana make a cache in the KRZ. To do this, it will need PM 1pc, 30 rounds of 9mm, vodka 3 pieces, first aid kits 2 pieces, Stimulant 5 pieces, Conservative 10 pieces, Casparamid 10 pieces and 1000 rubles.", 
+      "oksana_quest_2" : "[Phenomenon] Oksana wants to make a gift for her friend. To do this, we need to visit settlements where there are traders. We need to visit the KRZ, Peregon, Otradnoye , Fogelevka and Caravanserai", 
+      "oksana_quest_3" : "[Phenomenon] Oksana came out to the customer, nicknamed the Oracle. We need to clarify its location on the basis of stalkers, in the Dead City, and then find it and eliminate it." 
    }
 }

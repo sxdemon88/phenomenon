@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: oraculumv2
   m_EditorClassIdentifier: 
   Icon:
-    path: 
+    path: Entities/Character/oraculumv2
   m_Localization: character.oraculumv2
   Takeable: 1
   AIDontUseCover: 0

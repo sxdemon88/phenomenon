@@ -51,7 +51,8 @@
          }, 
          "child" : [ 
             "0c4b557c-fce2-448b-8914-09e5f2c13eec"
-         ]
+         ], 
+         "stateName" : ""
       }, 
       "0c4b557c-fce2-448b-8914-09e5f2c13eec" : { 
          "class" : "DialogBeginNode", 
@@ -154,8 +155,8 @@
       "4b999644-57db-4be8-bf13-62b17f335736" : { 
          "class" : "DialogPortraitNode", 
          "desc" : { 
-            "x" : "-103336", 
-            "y" : "-98147"
+            "x" : "-103838", 
+            "y" : "-99077"
          }, 
          "child" : [ 
          ], 
@@ -166,8 +167,8 @@
       "b2e948d1-d16f-4589-88d1-dedfe747b767" : { 
          "class" : "DialogContinueNode", 
          "desc" : { 
-            "x" : "-102564", 
-            "y" : "-100368"
+            "x" : "-102541", 
+            "y" : "-100370"
          }, 
          "child" : [ 
             "2ba919e3-be00-4b05-b093-f98bb14937dd"
@@ -180,9 +181,22 @@
             "y" : "-100308"
          }, 
          "child" : [ 
+            "5289ff2f-857b-474e-b3bd-4a42eb350332", 
             "1487e6da-c774-474a-b47d-4e0d02c58e17"
          ], 
          "text" : "#ph_oraculumv2.2ba919e3-be00-4b05-b093-f98bb14937dd"
+      }, 
+      "5289ff2f-857b-474e-b3bd-4a42eb350332" : { 
+         "class" : "DialogPortraitNode", 
+         "desc" : { 
+            "x" : "-103819", 
+            "y" : "-98554"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "oraculumv2", 
+         "portrait" : "Character/oraculumv2", 
+         "mode" : "AutoName"
       }, 
       "1487e6da-c774-474a-b47d-4e0d02c58e17" : { 
          "class" : "DialogContinueNode", 
@@ -223,6 +237,7 @@
             "y" : "-99896"
          }, 
          "child" : [ 
+            "5289ff2f-857b-474e-b3bd-4a42eb350332", 
             "99ffe4d1-0743-4ac7-aefd-944f27608e0f"
          ], 
          "text" : "#ph_oraculumv2.1073547a-3b77-434a-9639-9fe79e8e0e49"
@@ -267,6 +282,7 @@
             "y" : "-99401"
          }, 
          "child" : [ 
+            "5289ff2f-857b-474e-b3bd-4a42eb350332", 
             "fc209783-51ff-46d6-b2ae-e21f61d6ea66", 
             "5449ef8a-9509-4178-b32d-92abd3f1361a"
          ], 
@@ -313,6 +329,7 @@
             "y" : "-98837"
          }, 
          "child" : [ 
+            "5289ff2f-857b-474e-b3bd-4a42eb350332", 
             "c205590a-50cf-4332-9d7b-39777832fb58"
          ], 
          "text" : "#ph_oraculumv2.c654d41a-3c07-42fd-82c0-00a100dec457"
@@ -380,6 +397,7 @@
             "y" : "-97990"
          }, 
          "child" : [ 
+            "5289ff2f-857b-474e-b3bd-4a42eb350332", 
             "43b947e9-55b5-40e5-aa79-42cb5e9c53d4", 
             "9ecd76d9-d6ce-42e4-a157-5c5f0f0a69d3"
          ], 
@@ -403,6 +421,7 @@
             "y" : "-97661"
          }, 
          "child" : [ 
+            "5289ff2f-857b-474e-b3bd-4a42eb350332", 
             "21052c20-eb0e-435e-b2e6-93550342c84b"
          ], 
          "text" : "#ph_oraculumv2.a45cee17-a756-46cc-8ac0-41cafc289df8"
@@ -424,6 +443,7 @@
             "y" : "-97456"
          }, 
          "child" : [ 
+            "5289ff2f-857b-474e-b3bd-4a42eb350332", 
             "88d029b2-d981-4121-80a2-c513e16fdec0"
          ], 
          "text" : "#ph_oraculumv2.874a4fa5-3416-46ba-adc9-89eb523622f3"
@@ -495,6 +515,7 @@
             "y" : "-97124"
          }, 
          "child" : [ 
+            "5289ff2f-857b-474e-b3bd-4a42eb350332", 
             "cb44a97c-15c7-499e-a619-13594ce664fb"
          ], 
          "text" : "#ph_oraculumv2.3a23a1f2-4c1d-4797-bf65-b6dc830deeb6"
@@ -516,6 +537,7 @@
             "y" : "-96942"
          }, 
          "child" : [ 
+            "5289ff2f-857b-474e-b3bd-4a42eb350332", 
             "3e9dc31a-152f-49dd-81ae-89f5c6649f9d"
          ], 
          "text" : "#ph_oraculumv2.be1bb625-df01-4afe-a25a-6fec71bc838b"
@@ -537,6 +559,7 @@
             "y" : "-96718"
          }, 
          "child" : [ 
+            "5289ff2f-857b-474e-b3bd-4a42eb350332", 
             "3b6cf556-b36b-40d5-ad9b-243190506c6d"
          ], 
          "text" : "#ph_oraculumv2.0e73e030-0793-4b29-b96e-ba1a5925990b"
@@ -558,6 +581,7 @@
             "y" : "-96530"
          }, 
          "child" : [ 
+            "5289ff2f-857b-474e-b3bd-4a42eb350332", 
             "848fdf45-df2f-410d-a97f-e7ac07a38165"
          ], 
          "text" : "#ph_oraculumv2.667505e2-d82f-477b-b736-623caba4a022"
@@ -1639,6 +1663,7 @@
             "y" : "-99155"
          }, 
          "child" : [ 
+            "5289ff2f-857b-474e-b3bd-4a42eb350332", 
             "34557044-ec4e-4b66-b29b-134082ddca13"
          ], 
          "text" : "#ph_oraculumv2.652ba0df-9935-4592-9a61-f7c64e8309a6"
@@ -1683,6 +1708,7 @@
             "y" : "-98455"
          }, 
          "child" : [ 
+            "5289ff2f-857b-474e-b3bd-4a42eb350332", 
             "bbc57194-7659-4453-a4ea-be7f11fe059c"
          ], 
          "text" : "#ph_oraculumv2.918a47b1-20a8-46ca-89e0-52a4d41032a4"
@@ -1757,9 +1783,10 @@
          "class" : "DialogPhraseNode", 
          "desc" : { 
             "x" : "-101442", 
-            "y" : "-98501"
+            "y" : "-98450"
          }, 
          "child" : [ 
+            "5289ff2f-857b-474e-b3bd-4a42eb350332", 
             "bbc57194-7659-4453-a4ea-be7f11fe059c"
          ], 
          "text" : "#ph_oraculumv2.896b28aa-4b0b-48c0-912e-f1797970b82b"
