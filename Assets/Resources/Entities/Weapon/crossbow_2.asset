@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1397509372, guid: ba80931603c2dbc40ab113c533efa2ed, type: 3}
+  m_Name: crossbow_2
+  m_EditorClassIdentifier: 
+  Icon:
+    path: Entities/Weapon/Crossbow_2
+  m_Localization: weapon.crossbow_2
+  Takeable: 1
+  Cost: 95
+  Weight: 2240
+  Collectable: 0
+  Modifiers: []
+  HasModel: 1
+  weaponType: 7
+  Ammo:
+    path: entities/ammo/bolt
+  AmmoCapacity: 1
+  BothHands: 1
+  Stack: 0
+  DamageMin: 6
+  DamageMax: 12
+  DamageRadius: 1
+  Fatality: 10
+  Perks: 2129920
+  PerksEx: 0
+  DamageType: 0
+  Single:
+    AP: 3
+    Range: 9
+    Shots: 1
+    Dispersion: 0
+    ModeType: 0
+    Sounds:
+    - path: Sounds/SFX/Weapons/Crossbow/crossbow_shoot2
+  Aimed:
+    AP: 4
+    Range: 9
+    Shots: 1
+    Dispersion: 0
+    ModeType: 0
+    Sounds:
+    - path: Sounds/SFX/Weapons/Crossbow/crossbow_shoot2
+  Burst:
+    AP: 0
+    Range: 0
+    Shots: 0
+    Dispersion: 0
+    ModeType: 0
+    Sounds: []
+  Reload:
+    AP: 3
+    Range: 0
+    Shots: 0
+    Dispersion: 0
+    ModeType: 0
+    Sounds:
+    - path: Sounds/SFX/Weapons/Crossbow/crossbow_reload
+  Effects: []
+  Requirements:
+  - _type: 1
+    _value: 4
+  - _type: 13
+    _value: 40
+  NoAmmoSounds:
+  - path: Sounds/SFX/Weapons/Crossbow/crossbow_empty
+  PreAttackSounds: []
+  MissSounds: []
