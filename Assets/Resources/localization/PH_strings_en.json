@@ -283,32 +283,32 @@
          "full" : "Hunter Lead"
       }, 
       "bandit" : { 
-         "short" : ".character.bandit.short", 
-         "full" : ".character.bandit.full"
+         "short" : "bandit", 
+         "full" : "bandit"
       }, 
       "bandit_14" : { 
-         "short" : ".character.bandit_14.short", 
-         "full" : ".character.bandit_14.full"
+         "short" : "bandit", 
+         "full" : "bandit"
       }, 
       "bandit_21" : { 
-         "short" : ".character.bandit_21.short", 
-         "full" : ".character.bandit_21.full"
+         "short" : "bandit", 
+         "full" : "bandit"
       }, 
       "bandit_3" : { 
-         "short" : ".character.bandit_3.short", 
-         "full" : ".character.bandit_3.full"
+         "short" : "bandit", 
+         "full" : "bandit"
       }, 
       "bandit_7" : { 
-         "short" : ".character.bandit_7.short", 
-         "full" : ".character.bandit_7.full"
+         "short" : "bandit", 
+         "full" : "bandit"
       }, 
       "oksana" : { 
-         "short" : ".character.oksana.short", 
-         "full" : ".character.oksana.full"
+         "short" : "Oksana", 
+         "full" : "Oksana"
       }, 
       "oraculumv2" : { 
-         "short" : ".character.oraculumv2.short", 
-         "full" : ".character.oraculumv2.full"
+         "short" : "Oracle", 
+         "full" : "Oracle"
       }, 
       "village_trader" : { 
          "short" : ".character.village_trader.short", 

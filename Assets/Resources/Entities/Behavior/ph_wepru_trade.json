@@ -99,14 +99,16 @@
             "03fa3962-6b01-4f54-b307-c0aa80b4acc2", 
             "b317a2c4-2dda-44e5-b430-b0bc14a33009", 
             "db7b9f1a-6ec9-4b55-9c5e-fdf3150a4ca6", 
-            "2c3c0511-8550-4c5f-97fe-5bf1971bf40f"
+            "00094cc1-c961-4311-af68-b76b735134d9", 
+            "2c3c0511-8550-4c5f-97fe-5bf1971bf40f", 
+            "301a841a-0441-481b-a23e-8a4573615a6d"
          ]
       }, 
       "b983c396-7867-46b3-9d46-a1cbb6543bd6" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-101668", 
-            "y" : "-101374"
+            "x" : "-101902", 
+            "y" : "-101284"
          }, 
          "child" : [ 
          ], 
@@ -136,8 +138,8 @@
       "03fa3962-6b01-4f54-b307-c0aa80b4acc2" : { 
          "class" : "RandomNode", 
          "desc" : { 
-            "x" : "-101768", 
-            "y" : "-101242"
+            "x" : "-101813", 
+            "y" : "-101170"
          }, 
          "child" : [ 
             "31152253-0e69-4055-b2c0-99fcb8a5b420", 
@@ -435,7 +437,7 @@
       "b317a2c4-2dda-44e5-b430-b0bc14a33009" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-101400", 
+            "x" : "-101399", 
             "y" : "-100967"
          }, 
          "child" : [ 
@@ -783,6 +785,172 @@
          "inventoryObject" : "Spawn.Karavan.Trader", 
          "random" : "true"
       }, 
+      "00094cc1-c961-4311-af68-b76b735134d9" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-101078", 
+            "y" : "-100966"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "ak74", 
+               "ammo" : { 
+                  "count" : "30", 
+                  "proto" : "5_45mm_JHP"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "ak74m", 
+               "ammo" : { 
+                  "count" : "30", 
+                  "proto" : "5_45mm_JHP"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "akm", 
+               "ammo" : { 
+                  "count" : "30", 
+                  "proto" : "7_62mm_JHP"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "aks74", 
+               "ammo" : { 
+                  "count" : "30", 
+                  "proto" : "5_45mm_JHP"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "bren", 
+               "ammo" : { 
+                  "count" : "30", 
+                  "proto" : "7mm_54R"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "Colt Python", 
+               "ammo" : { 
+                  "count" : "6", 
+                  "proto" : "357_jhp"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "svt38", 
+               "ammo" : { 
+                  "count" : "10", 
+                  "proto" : "7mm_54R"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "svt38_scope", 
+               "ammo" : { 
+                  "count" : "10", 
+                  "proto" : "7mm_54R"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "mp5_KR", 
+               "ammo" : { 
+                  "count" : "30", 
+                  "proto" : "9mm_JHP"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "mp5a3", 
+               "ammo" : { 
+                  "count" : "30", 
+                  "proto" : "9mm_JHP"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "mp5sd", 
+               "ammo" : { 
+                  "count" : "30", 
+                  "proto" : "9mm_JHP"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "toz34", 
+               "ammo" : { 
+                  "count" : "2", 
+                  "proto" : "12_JHP"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "toz66", 
+               "ammo" : { 
+                  "count" : "2", 
+                  "proto" : "12_JHP"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "thompson_m1a1", 
+               "ammo" : { 
+                  "count" : "30", 
+                  "proto" : "45 ACP_jhp"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "thompson_M1928A1", 
+               "ammo" : { 
+                  "count" : "50", 
+                  "proto" : "45 ACP_jhp"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "ppsh41", 
+               "ammo" : { 
+                  "count" : "71", 
+                  "proto" : "307cal_JHP"
+               }
+            }, 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "crossbow3", 
+               "ammo" : { 
+                  "count" : "1", 
+                  "proto" : "Bolt"
+               }
+            }
+         ], 
+         "inventoryObject" : "Spawn.Karavan.Trader", 
+         "random" : "true"
+      }, 
       "2c3c0511-8550-4c5f-97fe-5bf1971bf40f" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
@@ -894,6 +1062,48 @@
             }
          ], 
          "inventoryObject" : "Spawn.Karavan.Trader"
+      }, 
+      "301a841a-0441-481b-a23e-8a4573615a6d" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-100851", 
+            "y" : "-101094"
+         }, 
+         "child" : [ 
+            "4d4948a9-d53d-4a79-a85c-f81d9a77bd80", 
+            "e8e8b341-7cff-433f-bac7-4610900fda70"
+         ], 
+         "note_key" : "WEAPON_OKSANA_ON"
+      }, 
+      "4d4948a9-d53d-4a79-a85c-f81d9a77bd80" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100876", 
+            "y" : "-100974"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "frf2", 
+               "ammo" : { 
+                  "count" : "10", 
+                  "proto" : "7mm_54R"
+               }
+            }
+         ], 
+         "inventoryObject" : "Spawn.Karavan.Trader"
+      }, 
+      "e8e8b341-7cff-433f-bac7-4610900fda70" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100648", 
+            "y" : "-100967"
+         }, 
+         "child" : [ 
+         ]
       }, 
       "c1943a21-107f-48e4-89f6-3ea2b0a2c4c1" : { 
          "class" : "HasRandomDiceNode", 

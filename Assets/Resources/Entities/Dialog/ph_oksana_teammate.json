@@ -212,7 +212,8 @@
          }, 
          "child" : [ 
             "9811be5e-1f64-4fbc-88fd-56382cdeffe1"
-         ]
+         ], 
+         "stateName" : ""
       }, 
       "9811be5e-1f64-4fbc-88fd-56382cdeffe1" : { 
          "class" : "CharacterCapsNode", 
@@ -1130,8 +1131,8 @@
       "eb25cba0-e3e8-4766-a1e0-835bb0f59c3f" : { 
          "class" : "QuestStatusNode", 
          "desc" : { 
-            "x" : "-93249", 
-            "y" : "-99646"
+            "x" : "-93441", 
+            "y" : "-99674"
          }, 
          "child" : [ 
             "d9d19217-69f0-45a3-a4c9-4f0b416e6d73", 
@@ -1642,8 +1643,8 @@
       "23a9211b-c3b6-468e-bd24-448abb6d36a8" : { 
          "class" : "NotebookHasNoteNode", 
          "desc" : { 
-            "x" : "-90696", 
-            "y" : "-99190"
+            "x" : "-90774", 
+            "y" : "-99185"
          }, 
          "child" : [ 
             "69529896-86fb-4171-9cfc-64d5ab8ea068", 
@@ -1741,8 +1742,8 @@
       "1ee2eddf-386f-497b-818f-056591c9a575" : { 
          "class" : "NotebookHasNoteNode", 
          "desc" : { 
-            "x" : "-90640", 
-            "y" : "-98826"
+            "x" : "-90626", 
+            "y" : "-98880"
          }, 
          "child" : [ 
             "f21a3eae-20e9-4572-9134-a9c09ecd690c", 
@@ -1753,8 +1754,8 @@
       "f21a3eae-20e9-4572-9134-a9c09ecd690c" : { 
          "class" : "DialogPhraseNode", 
          "desc" : { 
-            "x" : "-90948", 
-            "y" : "-98626"
+            "x" : "-90984", 
+            "y" : "-98628"
          }, 
          "child" : [ 
             "b265cc8e-d259-45fc-b227-b1876ee47e3e"
@@ -1784,8 +1785,8 @@
       "05cb30e4-0e9c-44dd-bb6e-bd371f85d73f" : { 
          "class" : "PlayerWhereMapLocationNode", 
          "desc" : { 
-            "x" : "-90609", 
-            "y" : "-98650"
+            "x" : "-90533", 
+            "y" : "-98719"
          }, 
          "child" : [ 
             "6d3d4840-60f9-4ba1-8b38-954f21249bb1", 
@@ -2241,8 +2242,8 @@
       "c93d42f0-19c1-4035-98e2-fea2c44e9b78" : { 
          "class" : "DialogEndNode", 
          "desc" : { 
-            "x" : "-89882", 
-            "y" : "-97981"
+            "x" : "-89895", 
+            "y" : "-97987"
          }, 
          "child" : [ 
          ]

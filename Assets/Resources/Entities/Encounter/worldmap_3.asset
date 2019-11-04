@@ -383,7 +383,7 @@ MonoBehaviour:
   - _chance: 1000
     _type: oksana_quest_3
     _period: 0
-    _trigger: 
+    _trigger: OKSANA_QUEST_3_EVENT
     _triggerInvert: 0
     _triggerReset: 0
     _canSkip: 0

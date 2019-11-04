@@ -16,7 +16,7 @@ MonoBehaviour:
     path: Entities/Item/icons/LotS_Scrap_Metal
   m_Localization: item.detail
   Takeable: 1
-  Cost: 8
+  Cost: 7
   Weight: 50
   Collectable: 1
   Modifiers: []
