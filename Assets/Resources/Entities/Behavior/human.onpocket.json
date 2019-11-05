@@ -13,8 +13,8 @@
       "5931d529-3cf3-4a97-aca9-b7fd8ebf180b" : { 
          "class" : "CharacterIsDeadNode", 
          "desc" : { 
-            "x" : "-100885", 
-            "y" : "-100889"
+            "x" : "-100882", 
+            "y" : "-100925"
          }, 
          "child" : [ 
             "05d864e6-204d-499e-8e11-1734bcffd7ac", 
@@ -45,8 +45,8 @@
       "08e107f1-a88a-4297-9306-241e47a862c2" : { 
          "class" : "NotebookHasNoteNode", 
          "desc" : { 
-            "x" : "-100840", 
-            "y" : "-100563"
+            "x" : "-100956", 
+            "y" : "-100551"
          }, 
          "child" : [ 
             "2ab6ba0e-b585-4553-aff8-ad0742ea2197", 
@@ -57,8 +57,8 @@
       "2ab6ba0e-b585-4553-aff8-ad0742ea2197" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100923", 
-            "y" : "-100426"
+            "x" : "-101192", 
+            "y" : "-100432"
          }, 
          "child" : [ 
          ]
@@ -66,8 +66,8 @@
       "c8989161-8580-43c5-8060-c4414a32e700" : { 
          "class" : "AddKeywordNode", 
          "desc" : { 
-            "x" : "-100756", 
-            "y" : "-100233"
+            "x" : "-100767", 
+            "y" : "-100333"
          }, 
          "child" : [ 
             "90bf4d22-f35c-4dbc-b0d9-fef5239e1412", 
@@ -81,8 +81,8 @@
       "90bf4d22-f35c-4dbc-b0d9-fef5239e1412" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-102960", 
-            "y" : "-99976"
+            "x" : "-103056", 
+            "y" : "-100332"
          }, 
          "child" : [ 
             "7415f5d6-2377-41d4-b028-ce72795a049b", 
@@ -100,8 +100,8 @@
       "7415f5d6-2377-41d4-b028-ce72795a049b" : { 
          "class" : "InventoryHasItemNode", 
          "desc" : { 
-            "x" : "-103663", 
-            "y" : "-100436"
+            "x" : "-103725", 
+            "y" : "-100454"
          }, 
          "child" : [ 
             "9231b07e-64f2-495a-a125-7d24e5374547", 
@@ -120,21 +120,19 @@
             "y" : "-100294"
          }, 
          "child" : [ 
-            "375017b8-6cea-440d-ae22-45a0da999bf5", 
-            "5ca97818-4f0b-40fc-820f-910356512da1"
+            "375017b8-6cea-440d-ae22-45a0da999bf5"
          ], 
          "item" : { 
             "class" : "Ammo", 
             "count" : "1", 
             "proto" : "5_45mm_AP"
-         }, 
-         "invalidateItemsInHands" : "true"
+         }
       }, 
       "375017b8-6cea-440d-ae22-45a0da999bf5" : { 
          "class" : "InventoryAddItemNode", 
          "desc" : { 
-            "x" : "-103994", 
-            "y" : "-99918"
+            "x" : "-103962", 
+            "y" : "-99981"
          }, 
          "child" : [ 
             "7415f5d6-2377-41d4-b028-ce72795a049b"
@@ -148,8 +146,8 @@
       "5ca97818-4f0b-40fc-820f-910356512da1" : { 
          "class" : "InventoryHasItemNode", 
          "desc" : { 
-            "x" : "-103494", 
-            "y" : "-100167"
+            "x" : "-103519", 
+            "y" : "-100275"
          }, 
          "child" : [ 
             "2c324045-9e0f-4686-a7d9-580220ab6d8d", 
@@ -164,8 +162,8 @@
       "2c324045-9e0f-4686-a7d9-580220ab6d8d" : { 
          "class" : "InventoryRemoveItemNode", 
          "desc" : { 
-            "x" : "-103704", 
-            "y" : "-100059"
+            "x" : "-103737", 
+            "y" : "-100115"
          }, 
          "child" : [ 
             "375017b8-6cea-440d-ae22-45a0da999bf5"
@@ -174,8 +172,7 @@
             "class" : "Ammo", 
             "count" : "1", 
             "proto" : "5_45mm_JHP"
-         }, 
-         "invalidateItemsInHands" : "true"
+         }
       }, 
       "610b9b96-793a-4a55-857c-ae44a726f7fe" : { 
          "class" : "DummyNode", 
@@ -209,21 +206,19 @@
             "y" : "-100089"
          }, 
          "child" : [ 
-            "ef1516ba-ba31-408e-8647-9cb72b2320d5", 
-            "ae8530c1-9a18-4fe1-bc33-51d51e4a0bf5"
+            "ef1516ba-ba31-408e-8647-9cb72b2320d5"
          ], 
          "item" : { 
             "class" : "Ammo", 
             "count" : "1", 
             "proto" : "14_5mm_AP"
-         }, 
-         "invalidateItemsInHands" : "true"
+         }
       }, 
       "ef1516ba-ba31-408e-8647-9cb72b2320d5" : { 
          "class" : "InventoryAddItemNode", 
          "desc" : { 
-            "x" : "-104798", 
-            "y" : "-99725"
+            "x" : "-104830", 
+            "y" : "-99744"
          }, 
          "child" : [ 
             "401e5d9b-e356-4f80-a0f2-0f8daa91e7ab"
@@ -237,8 +232,8 @@
       "ae8530c1-9a18-4fe1-bc33-51d51e4a0bf5" : { 
          "class" : "InventoryHasItemNode", 
          "desc" : { 
-            "x" : "-104385", 
-            "y" : "-100045"
+            "x" : "-104415", 
+            "y" : "-100054"
          }, 
          "child" : [ 
             "f70a28e4-26a1-4312-b5ee-b5ce46290f06", 
@@ -253,8 +248,8 @@
       "f70a28e4-26a1-4312-b5ee-b5ce46290f06" : { 
          "class" : "InventoryRemoveItemNode", 
          "desc" : { 
-            "x" : "-104619", 
-            "y" : "-99898"
+            "x" : "-104613", 
+            "y" : "-99915"
          }, 
          "child" : [ 
             "ef1516ba-ba31-408e-8647-9cb72b2320d5"
@@ -263,8 +258,7 @@
             "class" : "Ammo", 
             "count" : "1", 
             "proto" : "14_5mm_JHP"
-         }, 
-         "invalidateItemsInHands" : "true"
+         }
       }, 
       "1c5f2409-a2f5-44f2-abad-e4d27c42828a" : { 
          "class" : "DummyNode", 
@@ -278,8 +272,8 @@
       "0eb51336-32ab-486a-b565-945055a298e2" : { 
          "class" : "InventoryHasItemNode", 
          "desc" : { 
-            "x" : "-104179", 
-            "y" : "-99694"
+            "x" : "-104127", 
+            "y" : "-99631"
          }, 
          "child" : [ 
             "635c5f01-ade3-4201-bf49-4788885f81bf", 
@@ -294,24 +288,23 @@
       "635c5f01-ade3-4201-bf49-4788885f81bf" : { 
          "class" : "InventoryRemoveItemNode", 
          "desc" : { 
-            "x" : "-104443", 
-            "y" : "-99570"
+            "x" : "-104457", 
+            "y" : "-99440"
          }, 
          "child" : [ 
-            "8332668c-75a6-4229-ad9d-03704fd65ec0"
+            "0eb51336-32ab-486a-b565-945055a298e2"
          ], 
          "item" : { 
             "class" : "Ammo", 
             "count" : "1", 
             "proto" : "6_49mm_AP"
-         }, 
-         "invalidateItemsInHands" : "true"
+         }
       }, 
       "8332668c-75a6-4229-ad9d-03704fd65ec0" : { 
          "class" : "InventoryHasItemNode", 
          "desc" : { 
-            "x" : "-104035", 
-            "y" : "-99449"
+            "x" : "-103949", 
+            "y" : "-99479"
          }, 
          "child" : [ 
             "a096e884-2bf3-49e3-9889-e564580aec5b", 
@@ -326,8 +319,8 @@
       "a096e884-2bf3-49e3-9889-e564580aec5b" : { 
          "class" : "InventoryRemoveItemNode", 
          "desc" : { 
-            "x" : "-104330", 
-            "y" : "-99302"
+            "x" : "-104350", 
+            "y" : "-99288"
          }, 
          "child" : [ 
             "0eb51336-32ab-486a-b565-945055a298e2"
@@ -336,14 +329,13 @@
             "class" : "Ammo", 
             "count" : "1", 
             "proto" : "6_49mm_JHP"
-         }, 
-         "invalidateItemsInHands" : "true"
+         }
       }, 
       "ae49efeb-152b-4911-b142-1658e0d38f15" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-103790", 
-            "y" : "-99314"
+            "x" : "-103805", 
+            "y" : "-99271"
          }, 
          "child" : [ 
          ]
@@ -351,8 +343,8 @@
       "404ab08b-a98e-4bd1-9c35-0cb4451dcebf" : { 
          "class" : "InventoryHasItemNode", 
          "desc" : { 
-            "x" : "-103279", 
-            "y" : "-99647"
+            "x" : "-103348", 
+            "y" : "-99667"
          }, 
          "child" : [ 
             "00ed1530-5ab5-45b4-b3f5-32c15cd3e913", 
@@ -371,20 +363,18 @@
             "y" : "-99497"
          }, 
          "child" : [ 
-            "36ebbd60-4712-4ad4-9798-71152cf81ea6", 
-            "1f432e8c-0407-4a7c-88f9-a7eb7de2310a"
+            "36ebbd60-4712-4ad4-9798-71152cf81ea6"
          ], 
          "item" : { 
             "class" : "Ammo", 
             "count" : "1", 
             "proto" : "7_62mm_AP"
-         }, 
-         "invalidateItemsInHands" : "true"
+         }
       }, 
       "36ebbd60-4712-4ad4-9798-71152cf81ea6" : { 
          "class" : "InventoryAddItemNode", 
          "desc" : { 
-            "x" : "-103574", 
+            "x" : "-103565", 
             "y" : "-99111"
          }, 
          "child" : [ 
@@ -425,8 +415,7 @@
             "class" : "Ammo", 
             "count" : "1", 
             "proto" : "7_62mm_JHP"
-         }, 
-         "invalidateItemsInHands" : "true"
+         }
       }, 
       "b718565b-efe1-428b-9208-b2a36f9e0a68" : { 
          "class" : "DummyNode", 
@@ -456,19 +445,17 @@
       "44520010-0f8c-4eba-8821-57f1f07f297f" : { 
          "class" : "InventoryRemoveItemNode", 
          "desc" : { 
-            "x" : "-102748", 
-            "y" : "-99535"
+            "x" : "-102790", 
+            "y" : "-99471"
          }, 
          "child" : [ 
-            "7563c466-c5df-47fd-8cca-485f54976230", 
-            "99205298-d9fc-4331-a0b7-3571db2e5172"
+            "7563c466-c5df-47fd-8cca-485f54976230"
          ], 
          "item" : { 
             "class" : "Ammo", 
             "count" : "1", 
             "proto" : "7mm_54R"
-         }, 
-         "invalidateItemsInHands" : "true"
+         }
       }, 
       "7563c466-c5df-47fd-8cca-485f54976230" : { 
          "class" : "InventoryAddItemNode", 
@@ -488,8 +475,8 @@
       "99205298-d9fc-4331-a0b7-3571db2e5172" : { 
          "class" : "InventoryHasItemNode", 
          "desc" : { 
-            "x" : "-102351", 
-            "y" : "-99430"
+            "x" : "-102394", 
+            "y" : "-99436"
          }, 
          "child" : [ 
             "aab9741d-10b5-486d-8f4c-37dd0bafa00f", 
@@ -514,8 +501,7 @@
             "class" : "Ammo", 
             "count" : "1", 
             "proto" : "7mm_54R_AP"
-         }, 
-         "invalidateItemsInHands" : "true"
+         }
       }, 
       "883712e9-201e-46a3-82b6-88b88711631d" : { 
          "class" : "DummyNode", 
@@ -529,8 +515,8 @@
       "84846a9a-f027-4873-8fc6-74e42c3610a9" : { 
          "class" : "InventoryHasItemNode", 
          "desc" : { 
-            "x" : "-101999", 
-            "y" : "-100161"
+            "x" : "-102022", 
+            "y" : "-100149"
          }, 
          "child" : [ 
             "99e107ca-3edb-4191-9a1b-76290e6a3073", 
@@ -545,25 +531,23 @@
       "99e107ca-3edb-4191-9a1b-76290e6a3073" : { 
          "class" : "InventoryRemoveItemNode", 
          "desc" : { 
-            "x" : "-102265", 
-            "y" : "-100028"
+            "x" : "-102243", 
+            "y" : "-99978"
          }, 
          "child" : [ 
-            "80f35f1f-41f8-49bf-bbaa-3ad4534b6050", 
-            "6997e8d9-4b9d-4cf1-80d7-9808c197ea63"
+            "80f35f1f-41f8-49bf-bbaa-3ad4534b6050"
          ], 
          "item" : { 
             "class" : "Ammo", 
-            "count" : "100", 
+            "count" : "1", 
             "proto" : "9mm_AP"
-         }, 
-         "invalidateItemsInHands" : "true"
+         }
       }, 
       "80f35f1f-41f8-49bf-bbaa-3ad4534b6050" : { 
          "class" : "InventoryAddItemNode", 
          "desc" : { 
-            "x" : "-102270", 
-            "y" : "-99624"
+            "x" : "-102203", 
+            "y" : "-99635"
          }, 
          "child" : [ 
             "84846a9a-f027-4873-8fc6-74e42c3610a9"
@@ -577,8 +561,8 @@
       "6997e8d9-4b9d-4cf1-80d7-9808c197ea63" : { 
          "class" : "InventoryHasItemNode", 
          "desc" : { 
-            "x" : "-101831", 
-            "y" : "-99935"
+            "x" : "-101865", 
+            "y" : "-99895"
          }, 
          "child" : [ 
             "0b5150cd-f687-4d55-8ad0-3a940529c34c", 
@@ -593,24 +577,23 @@
       "0b5150cd-f687-4d55-8ad0-3a940529c34c" : { 
          "class" : "InventoryRemoveItemNode", 
          "desc" : { 
-            "x" : "-102098", 
-            "y" : "-99787"
+            "x" : "-102000", 
+            "y" : "-99766"
          }, 
          "child" : [ 
             "80f35f1f-41f8-49bf-bbaa-3ad4534b6050"
          ], 
          "item" : { 
             "class" : "Ammo", 
-            "count" : "100", 
+            "count" : "1", 
             "proto" : "9mm_JHP"
-         }, 
-         "invalidateItemsInHands" : "true"
+         }
       }, 
       "1083ea8d-d832-4136-a6df-a6f5aa9bbde0" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-101665", 
-            "y" : "-99718"
+            "x" : "-101623", 
+            "y" : "-99716"
          }, 
          "child" : [ 
          ]
@@ -618,8 +601,8 @@
       "5f7409c5-4c25-4ed1-9076-ac77f2dfd7d3" : { 
          "class" : "InventoryHasItemNode", 
          "desc" : { 
-            "x" : "-103170", 
-            "y" : "-100725"
+            "x" : "-103233", 
+            "y" : "-101126"
          }, 
          "child" : [ 
             "0f5f1725-a3a3-4b93-a3e5-e4daf1f067a6", 
@@ -634,24 +617,23 @@
       "0f5f1725-a3a3-4b93-a3e5-e4daf1f067a6" : { 
          "class" : "InventoryRemoveItemNode", 
          "desc" : { 
-            "x" : "-103453", 
-            "y" : "-100553"
+            "x" : "-103470", 
+            "y" : "-100946"
          }, 
          "child" : [ 
-            "bc5b3cde-d5ba-4dc9-9fd2-c6fe6513d3b9"
+            "5f7409c5-4c25-4ed1-9076-ac77f2dfd7d3"
          ], 
          "item" : { 
             "class" : "Ammo", 
             "count" : "1", 
             "proto" : "10mm_AP"
-         }, 
-         "invalidateItemsInHands" : "true"
+         }
       }, 
       "bc5b3cde-d5ba-4dc9-9fd2-c6fe6513d3b9" : { 
          "class" : "InventoryHasItemNode", 
          "desc" : { 
-            "x" : "-102972", 
-            "y" : "-100502"
+            "x" : "-103041", 
+            "y" : "-100947"
          }, 
          "child" : [ 
             "72233f78-1613-4fa0-94cd-d5360a048de6", 
@@ -666,8 +648,8 @@
       "72233f78-1613-4fa0-94cd-d5360a048de6" : { 
          "class" : "InventoryRemoveItemNode", 
          "desc" : { 
-            "x" : "-103213", 
-            "y" : "-100353"
+            "x" : "-103304", 
+            "y" : "-100763"
          }, 
          "child" : [ 
             "5f7409c5-4c25-4ed1-9076-ac77f2dfd7d3"
@@ -676,14 +658,13 @@
             "class" : "Ammo", 
             "count" : "1", 
             "proto" : "10mm_JHP"
-         }, 
-         "invalidateItemsInHands" : "true"
+         }
       }, 
       "c733013d-e0de-4aae-81a6-8d662112e38a" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-102772", 
-            "y" : "-100297"
+            "x" : "-102947", 
+            "y" : "-100654"
          }, 
          "child" : [ 
          ]
@@ -691,8 +672,8 @@
       "5a328fc6-51b5-47c7-9778-aee4210502a4" : { 
          "class" : "InventoryHasItemNode", 
          "desc" : { 
-            "x" : "-104848", 
-            "y" : "-99133"
+            "x" : "-104924", 
+            "y" : "-99187"
          }, 
          "child" : [ 
             "c7a281b4-49a6-488f-ab8c-34fd50ed5b2a", 
@@ -707,25 +688,23 @@
       "c7a281b4-49a6-488f-ab8c-34fd50ed5b2a" : { 
          "class" : "InventoryRemoveItemNode", 
          "desc" : { 
-            "x" : "-105102", 
-            "y" : "-98966"
+            "x" : "-105160", 
+            "y" : "-98921"
          }, 
          "child" : [ 
-            "b39af110-e645-4d52-b705-694d277e6675", 
-            "502baafc-0d25-454d-8044-fa4543ed2876"
+            "b39af110-e645-4d52-b705-694d277e6675"
          ], 
          "item" : { 
             "class" : "Ammo", 
-            "count" : "100", 
+            "count" : "1", 
             "proto" : "307cal_AP"
-         }, 
-         "invalidateItemsInHands" : "true"
+         }
       }, 
       "b39af110-e645-4d52-b705-694d277e6675" : { 
          "class" : "InventoryAddItemNode", 
          "desc" : { 
-            "x" : "-105168", 
-            "y" : "-98533"
+            "x" : "-105213", 
+            "y" : "-98616"
          }, 
          "child" : [ 
             "5a328fc6-51b5-47c7-9778-aee4210502a4"
@@ -739,8 +718,8 @@
       "502baafc-0d25-454d-8044-fa4543ed2876" : { 
          "class" : "InventoryHasItemNode", 
          "desc" : { 
-            "x" : "-104748", 
-            "y" : "-98857"
+            "x" : "-104765", 
+            "y" : "-98884"
          }, 
          "child" : [ 
             "d6bf3fef-be26-4fab-b1b9-b992535d7866", 
@@ -756,17 +735,16 @@
          "class" : "InventoryRemoveItemNode", 
          "desc" : { 
             "x" : "-104956", 
-            "y" : "-98698"
+            "y" : "-98741"
          }, 
          "child" : [ 
             "b39af110-e645-4d52-b705-694d277e6675"
          ], 
          "item" : { 
             "class" : "Ammo", 
-            "count" : "100", 
+            "count" : "1", 
             "proto" : "307cal_JHP"
-         }, 
-         "invalidateItemsInHands" : "true"
+         }
       }, 
       "d5a286a5-91e9-462c-a030-5cc893abf8c0" : { 
          "class" : "DummyNode", 
@@ -797,24 +775,22 @@
          "class" : "InventoryRemoveItemNode", 
          "desc" : { 
             "x" : "-104343", 
-            "y" : "-98892"
+            "y" : "-98893"
          }, 
          "child" : [ 
-            "cdac760d-2ba7-4587-b33a-efa8c165132e", 
-            "c064a8ba-8a74-4dac-8ab2-2faf0500f5e7"
+            "cdac760d-2ba7-4587-b33a-efa8c165132e"
          ], 
          "item" : { 
             "class" : "Ammo", 
-            "count" : "100", 
+            "count" : "1", 
             "proto" : "356cal_AP"
-         }, 
-         "invalidateItemsInHands" : "true"
+         }
       }, 
       "cdac760d-2ba7-4587-b33a-efa8c165132e" : { 
          "class" : "InventoryAddItemNode", 
          "desc" : { 
-            "x" : "-104482", 
-            "y" : "-98522"
+            "x" : "-104324", 
+            "y" : "-98508"
          }, 
          "child" : [ 
             "b0a4324e-87db-44c2-b629-1d1a38e42aac"
@@ -828,8 +804,8 @@
       "c064a8ba-8a74-4dac-8ab2-2faf0500f5e7" : { 
          "class" : "InventoryHasItemNode", 
          "desc" : { 
-            "x" : "-103975", 
-            "y" : "-98880"
+            "x" : "-103994", 
+            "y" : "-98833"
          }, 
          "child" : [ 
             "3d49ec55-0105-4253-91b5-99873fc9d3e2", 
@@ -844,18 +820,17 @@
       "3d49ec55-0105-4253-91b5-99873fc9d3e2" : { 
          "class" : "InventoryRemoveItemNode", 
          "desc" : { 
-            "x" : "-104240", 
-            "y" : "-98697"
+            "x" : "-104132", 
+            "y" : "-98695"
          }, 
          "child" : [ 
             "cdac760d-2ba7-4587-b33a-efa8c165132e"
          ], 
          "item" : { 
             "class" : "Ammo", 
-            "count" : "100", 
+            "count" : "1", 
             "proto" : "356cal_JHP"
-         }, 
-         "invalidateItemsInHands" : "true"
+         }
       }, 
       "5f8f54ad-5de6-4755-93ae-1fd361ae4a68" : { 
          "class" : "DummyNode", 
@@ -869,8 +844,8 @@
       "39b27877-e2bd-4f33-b290-f5316c8981fd" : { 
          "class" : "InventoryHasItemNode", 
          "desc" : { 
-            "x" : "-102331", 
-            "y" : "-100741"
+            "x" : "-102134", 
+            "y" : "-101207"
          }, 
          "child" : [ 
             "0552583e-e244-4541-8204-1c2274bcb47e", 
@@ -885,25 +860,23 @@
       "0552583e-e244-4541-8204-1c2274bcb47e" : { 
          "class" : "InventoryRemoveItemNode", 
          "desc" : { 
-            "x" : "-102516", 
-            "y" : "-100562"
+            "x" : "-102315", 
+            "y" : "-100990"
          }, 
          "child" : [ 
-            "e73c1e70-d965-4e4e-95e0-9459047e02fb", 
-            "de51c53c-5b95-423a-a561-1b28a0ced350"
+            "e73c1e70-d965-4e4e-95e0-9459047e02fb"
          ], 
          "item" : { 
             "class" : "Ammo", 
             "count" : "1", 
             "proto" : "12_AP"
-         }, 
-         "invalidateItemsInHands" : "true"
+         }
       }, 
       "e73c1e70-d965-4e4e-95e0-9459047e02fb" : { 
          "class" : "InventoryAddItemNode", 
          "desc" : { 
-            "x" : "-102599", 
-            "y" : "-100120"
+            "x" : "-102322", 
+            "y" : "-100728"
          }, 
          "child" : [ 
             "39b27877-e2bd-4f33-b290-f5316c8981fd"
@@ -917,8 +890,8 @@
       "de51c53c-5b95-423a-a561-1b28a0ced350" : { 
          "class" : "InventoryHasItemNode", 
          "desc" : { 
-            "x" : "-102174", 
-            "y" : "-100441"
+            "x" : "-101922", 
+            "y" : "-101003"
          }, 
          "child" : [ 
             "a36ea65b-53cc-491c-8217-fc78ab356644", 
@@ -933,8 +906,8 @@
       "a36ea65b-53cc-491c-8217-fc78ab356644" : { 
          "class" : "InventoryRemoveItemNode", 
          "desc" : { 
-            "x" : "-102369", 
-            "y" : "-100294"
+            "x" : "-102028", 
+            "y" : "-100852"
          }, 
          "child" : [ 
             "e73c1e70-d965-4e4e-95e0-9459047e02fb"
@@ -943,14 +916,13 @@
             "class" : "Ammo", 
             "count" : "1", 
             "proto" : "12_JHP"
-         }, 
-         "invalidateItemsInHands" : "true"
+         }
       }, 
       "5a9edd23-9f73-4056-ab3a-cf1d7337b9ae" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-101804", 
-            "y" : "-100235"
+            "x" : "-101727", 
+            "y" : "-100812"
          }, 
          "child" : [ 
          ]
@@ -976,7 +948,7 @@
             "6f604abd-530c-4cd5-8bbb-fd15f7778c72"
          ], 
          "key" : "BEGIN", 
-         "value" : "4", 
+         "value" : "3", 
          "opp" : "GreaterEqual"
       }, 
       "95ac2c64-5d9b-4055-8ae1-0f19debb991a" : { 
