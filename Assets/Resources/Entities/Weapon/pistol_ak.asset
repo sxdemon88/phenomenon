@@ -72,6 +72,8 @@ MonoBehaviour:
     _value: 3
   - _type: 2
     _value: 7
+  - _type: 20
+    _value: 51
   - _type: 8
     _value: 68
   NoAmmoSounds:

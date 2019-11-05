@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1397509372, guid: ba80931603c2dbc40ab113c533efa2ed, type: 3}
+  m_Name: rpd_rust
+  m_EditorClassIdentifier: 
+  Icon:
+    path: Entities/Weapon/RPD_Rust
+  m_Localization: weapon.rpd_rust
+  Takeable: 1
+  Cost: 1420
+  Weight: 7400
+  Collectable: 0
+  Modifiers: []
+  HasModel: 1
+  weaponType: 9
+  Ammo:
+    path: entities/ammo/7_62mm_jhp
+  AmmoCapacity: 100
+  BothHands: 1
+  Stack: 0
+  DamageMin: 4
+  DamageMax: 10
+  DamageRadius: 1
+  Fatality: 20
+  Perks: 2048
+  PerksEx: 0
+  DamageType: 0
+  Single:
+    AP: 6
+    Range: 15
+    Shots: 7
+    Dispersion: 4
+    ModeType: 10
+    Sounds:
+    - path: Sounds/SFX/Weapons/RPD_44/rpd44_fp
+    - path: Sounds/SFX/Weapons/RPD_44/rpd44_tp
+  Aimed:
+    AP: 0
+    Range: 0
+    Shots: 0
+    Dispersion: 0
+    ModeType: 0
+    Sounds: []
+  Burst:
+    AP: 7
+    Range: 15
+    Shots: 15
+    Dispersion: 5
+    ModeType: 10
+    Sounds:
+    - path: Sounds/SFX/Weapons/RPD_44/rpd44_fp
+    - path: Sounds/SFX/Weapons/RPD_44/rpd44_tp
+  Reload:
+    AP: 4
+    Range: 0
+    Shots: 0
+    Dispersion: 0
+    ModeType: 0
+    Sounds:
+    - path: Sounds/SFX/Weapons/RPD_44/rpd44_reload
+  Effects: []
+  Requirements:
+  - _type: 1
+    _value: 7
+  - _type: 3
+    _value: 5
+  - _type: 10
+    _value: 73
+  NoAmmoSounds:
+  - path: Sounds/SFX/Weapons/RPD_44/rpd44_empty
+  PreAttackSounds: []
+  MissSounds:
+  - path: Sounds/SFX/Weapons/Miss/shoot_missing1
+  - path: Sounds/SFX/Weapons/Miss/shoot_missing2
+  - path: Sounds/SFX/Weapons/Miss/shoot_missing3
+  - path: Sounds/SFX/Weapons/Miss/shoot_missing4
+  - path: Sounds/SFX/Weapons/Miss/shoot_missing5
+  - path: Sounds/SFX/Weapons/Miss/shoot_missing6

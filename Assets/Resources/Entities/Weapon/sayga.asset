@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1397509372, guid: ba80931603c2dbc40ab113c533efa2ed, type: 3}
+  m_Name: sayga
+  m_EditorClassIdentifier: 
+  Icon:
+    path: Entities/Weapon/Sayga
+  m_Localization: weapon.sayga
+  Takeable: 1
+  Cost: 6180
+  Weight: 3870
+  Collectable: 0
+  Modifiers: []
+  HasModel: 1
+  weaponType: 2
+  Ammo:
+    path: entities/ammo/12_jhp
+  AmmoCapacity: 9
+  BothHands: 1
+  Stack: 0
+  DamageMin: 13
+  DamageMax: 22
+  DamageRadius: 1
+  Fatality: 20
+  Perks: 32
+  PerksEx: 0
+  DamageType: 0
+  Single:
+    AP: 4
+    Range: 17
+    Shots: 1
+    Dispersion: 0
+    ModeType: 0
+    Sounds:
+    - path: Sounds/SFX/Weapons/Sayga/sayga_fp
+    - path: Sounds/SFX/Weapons/Sayga/sayga_tp
+  Aimed:
+    AP: 5
+    Range: 17
+    Shots: 1
+    Dispersion: 0
+    ModeType: 0
+    Sounds:
+    - path: Sounds/SFX/Weapons/Sayga/sayga_fp
+    - path: Sounds/SFX/Weapons/Sayga/sayga_tp
+  Burst:
+    AP: 6
+    Range: 9
+    Shots: 3
+    Dispersion: 3
+    ModeType: 0
+    Sounds:
+    - path: Sounds/SFX/Weapons/Sayga/sayga_fp
+    - path: Sounds/SFX/Weapons/Sayga/sayga_tp
+  Reload:
+    AP: 3
+    Range: 0
+    Shots: 0
+    Dispersion: 0
+    ModeType: 0
+    Sounds:
+    - path: Sounds/SFX/Weapons/Sayga/sayga_reload
+  Effects: []
+  Requirements:
+  - _type: 1
+    _value: 4
+  - _type: 9
+    _value: 77
+  NoAmmoSounds:
+  - path: Sounds/SFX/Weapons/Sayga/sayga_empty
+  PreAttackSounds: []
+  MissSounds:
+  - path: Sounds/SFX/Weapons/Miss/shoot_missing1
+  - path: Sounds/SFX/Weapons/Miss/shoot_missing2
+  - path: Sounds/SFX/Weapons/Miss/shoot_missing3
+  - path: Sounds/SFX/Weapons/Miss/shoot_missing4
+  - path: Sounds/SFX/Weapons/Miss/shoot_missing5
+  - path: Sounds/SFX/Weapons/Miss/shoot_missing6

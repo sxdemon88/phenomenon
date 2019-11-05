@@ -68,9 +68,9 @@ MonoBehaviour:
   Effects: []
   Requirements:
   - _type: 1
-    _value: 6
+    _value: 5
   - _type: 9
-    _value: 78
+    _value: 62
   NoAmmoSounds:
   - path: Sounds/SFX/Weapons/Rifle/rifle_empty
   PreAttackSounds: []

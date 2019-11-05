@@ -70,7 +70,7 @@ MonoBehaviour:
   - _type: 1
     _value: 3
   - _type: 8
-    _value: 90
+    _value: 47
   NoAmmoSounds:
   - path: Sounds/SFX/Weapons/Tokarev/tt_empty
   PreAttackSounds: []

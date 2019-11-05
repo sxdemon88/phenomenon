@@ -16,7 +16,7 @@ MonoBehaviour:
     path: Entities/Weapon/weapon models/toz34/toz34_icon
   m_Localization: weapon.toz34
   Takeable: 1
-  Cost: 7320
+  Cost: 5490
   Weight: 3200
   Collectable: 0
   Modifiers: []
@@ -69,9 +69,9 @@ MonoBehaviour:
   Effects: []
   Requirements:
   - _type: 1
-    _value: 6
+    _value: 4
   - _type: 9
-    _value: 45
+    _value: 77
   NoAmmoSounds:
   - path: Entities/Weapon/weapon models/toz34/toz34_empty
   PreAttackSounds: []

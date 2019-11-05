@@ -65,7 +65,13 @@ MonoBehaviour:
     ModeType: 0
     Sounds: []
   Effects: []
-  Requirements: []
+  Requirements:
+  - _type: 1
+    _value: 9
+  - _type: 3
+    _value: 7
+  - _type: 10
+    _value: 82
   NoAmmoSounds: []
   PreAttackSounds: []
   MissSounds:

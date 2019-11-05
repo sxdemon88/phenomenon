@@ -70,7 +70,9 @@ MonoBehaviour:
   - _type: 1
     _value: 5
   - _type: 8
-    _value: 50
+    _value: 54
+  - _type: 10
+    _value: 27
   NoAmmoSounds:
   - path: Sounds/SFX/Weapons/PPS/pps_empty
   PreAttackSounds: []

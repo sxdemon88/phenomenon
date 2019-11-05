@@ -16,7 +16,7 @@ MonoBehaviour:
     path: Entities/Weapon/weapon models/Crossbow3/crossbow3_icon
   m_Localization: weapon.crossbow3
   Takeable: 1
-  Cost: 12960
+  Cost: 11745
   Weight: 5123
   Collectable: 0
   Modifiers: []
@@ -67,10 +67,12 @@ MonoBehaviour:
     - path: Sounds/SFX/Weapons/Crossbow/crossbow_reload
   Effects: []
   Requirements:
-  - _type: 34
-    _value: 7
+  - _type: 1
+    _value: 5
   - _type: 13
-    _value: 120
+    _value: 111
+  - _type: 20
+    _value: 70
   NoAmmoSounds: []
   PreAttackSounds: []
   MissSounds: []

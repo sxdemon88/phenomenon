@@ -16,7 +16,7 @@ MonoBehaviour:
     path: Entities/Weapon/weapon models/G-43/g43_icon
   m_Localization: weapon.g43s
   Takeable: 1
-  Cost: 9390
+  Cost: 4695
   Weight: 4500
   Collectable: 0
   Modifiers: []
@@ -70,7 +70,9 @@ MonoBehaviour:
   - _type: 1
     _value: 5
   - _type: 9
-    _value: 87
+    _value: 73
+  - _type: 20
+    _value: 57
   NoAmmoSounds:
   - path: Sounds/SFX/Weapons/Rifle/rifle_empty
   PreAttackSounds: []

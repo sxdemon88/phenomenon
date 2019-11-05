@@ -23,7 +23,7 @@ MonoBehaviour:
   HasModel: 1
   weaponType: 1
   Ammo:
-    path: Entities/Ammo/BB_AP
+    path: entities/ammo/bb_ap
   AmmoCapacity: 2
   BothHands: 0
   Stack: 0

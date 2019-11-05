@@ -16,7 +16,7 @@ MonoBehaviour:
     path: Entities/Weapon/weapon models/svt-38/svt-38_scope_icon
   m_Localization: weapon.svt38_scope
   Takeable: 1
-  Cost: 8970
+  Cost: 5980
   Weight: 5100
   Collectable: 0
   Modifiers: []
@@ -68,9 +68,13 @@ MonoBehaviour:
   Effects: []
   Requirements:
   - _type: 1
-    _value: 6
+    _value: 5
+  - _type: 3
+    _value: 4
   - _type: 9
-    _value: 78
+    _value: 70
+  - _type: 20
+    _value: 55
   NoAmmoSounds:
   - path: Sounds/SFX/Weapons/Rifle/rifle_empty
   PreAttackSounds: []

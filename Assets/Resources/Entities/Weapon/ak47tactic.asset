@@ -71,7 +71,7 @@ MonoBehaviour:
   - _type: 1
     _value: 4
   - _type: 10
-    _value: 80
+    _value: 83
   NoAmmoSounds:
   - path: Sounds/SFX/Weapons/AK47/ak47_empty
   PreAttackSounds: []

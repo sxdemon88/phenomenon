@@ -16,7 +16,7 @@ MonoBehaviour:
     path: Entities/Weapon/weapon models/Colt Python/colt_icons
   m_Localization: weapon.colt python
   Takeable: 1
-  Cost: 3000
+  Cost: 6050
   Weight: 1360
   Collectable: 0
   Modifiers: []
@@ -66,7 +66,15 @@ MonoBehaviour:
     Sounds:
     - path: Sounds/SFX/Weapons/Nagan/Nagan_reload
   Effects: []
-  Requirements: []
+  Requirements:
+  - _type: 1
+    _value: 3
+  - _type: 2
+    _value: 5
+  - _type: 8
+    _value: 89
+  - _type: 20
+    _value: 77
   NoAmmoSounds: []
   PreAttackSounds: []
   MissSounds:

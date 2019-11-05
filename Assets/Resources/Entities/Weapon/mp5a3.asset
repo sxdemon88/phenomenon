@@ -68,9 +68,15 @@ MonoBehaviour:
   Effects: []
   Requirements:
   - _type: 1
+    _value: 4
+  - _type: 2
     _value: 5
   - _type: 8
-    _value: 75
+    _value: 70
+  - _type: 10
+    _value: 35
+  - _type: 20
+    _value: 53
   NoAmmoSounds:
   - path: Entities/Weapon/weapon models/mp5a3/mp5_empty
   PreAttackSounds: []

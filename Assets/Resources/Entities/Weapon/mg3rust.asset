@@ -70,7 +70,7 @@ MonoBehaviour:
   - _type: 1
     _value: 9
   - _type: 10
-    _value: 60
+    _value: 85
   - _type: 3
     _value: 7
   NoAmmoSounds:

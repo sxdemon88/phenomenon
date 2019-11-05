@@ -70,7 +70,7 @@ MonoBehaviour:
   - _type: 1
     _value: 4
   - _type: 13
-    _value: 55
+    _value: 56
   NoAmmoSounds:
   - path: Sounds/SFX/Weapons/Crossbow/crossbow_empty4
   PreAttackSounds: []
