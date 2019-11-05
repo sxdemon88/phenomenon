@@ -101,7 +101,12 @@
             "db7b9f1a-6ec9-4b55-9c5e-fdf3150a4ca6", 
             "00094cc1-c961-4311-af68-b76b735134d9", 
             "2c3c0511-8550-4c5f-97fe-5bf1971bf40f", 
-            "301a841a-0441-481b-a23e-8a4573615a6d"
+            "301a841a-0441-481b-a23e-8a4573615a6d", 
+            "f73abf41-6d3b-4845-a724-817e5ea27e45", 
+            "d93c97f7-c7a7-4d80-86a3-cf611f420e26", 
+            "229635bf-1aae-4a1c-a259-1a8b3301ae71", 
+            "8216771e-1b19-46ce-92c3-110ef541b772", 
+            "8f3e7557-feba-4aed-a03f-d050d9e64eca"
          ]
       }, 
       "b983c396-7867-46b3-9d46-a1cbb6543bd6" : { 
@@ -1104,6 +1109,248 @@
          }, 
          "child" : [ 
          ]
+      }, 
+      "f73abf41-6d3b-4845-a724-817e5ea27e45" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100385", 
+            "y" : "-101174"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Ammo", 
+               "count" : "15", 
+               "proto" : "5_56mm_ap"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "30", 
+               "proto" : "5_56mm_jhp"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "15", 
+               "proto" : "357_ap"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "30", 
+               "proto" : "357_jhp"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "15", 
+               "proto" : "45 ACP_ap"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "30", 
+               "proto" : "45 ACP_jhp"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "d93c97f7-c7a7-4d80-86a3-cf611f420e26" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100274", 
+            "y" : "-101173"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Ammo", 
+               "count" : "15", 
+               "proto" : "5_56mm_ap"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "30", 
+               "proto" : "5_56mm_jhp"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "15", 
+               "proto" : "357_ap"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "30", 
+               "proto" : "357_jhp"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "15", 
+               "proto" : "45 ACP_ap"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "30", 
+               "proto" : "45 ACP_jhp"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "229635bf-1aae-4a1c-a259-1a8b3301ae71" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100624", 
+            "y" : "-101327"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Ammo", 
+               "count" : "15", 
+               "proto" : "5_45craft"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "15", 
+               "proto" : "7_62mm_craft"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "5", 
+               "proto" : "7mm_54r_craft"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "20", 
+               "proto" : "9mm_craft"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "5", 
+               "proto" : "12_craft"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "5", 
+               "proto" : "14_5mm_craft"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "20", 
+               "proto" : "307cal_craft"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "5", 
+               "proto" : "356cal_craft"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "8216771e-1b19-46ce-92c3-110ef541b772" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100513", 
+            "y" : "-101326"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Ammo", 
+               "count" : "45", 
+               "proto" : "5_45craft"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "45", 
+               "proto" : "7_62mm_craft"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "25", 
+               "proto" : "7mm_54r_craft"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "60", 
+               "proto" : "9mm_craft"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "25", 
+               "proto" : "12_craft"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "25", 
+               "proto" : "14_5mm_craft"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "70", 
+               "proto" : "307cal_craft"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "20", 
+               "proto" : "356cal_craft"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "8f3e7557-feba-4aed-a03f-d050d9e64eca" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100404", 
+            "y" : "-101326"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Ammo", 
+               "count" : "15", 
+               "proto" : "5_45craft"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "15", 
+               "proto" : "7_62mm_craft"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "5", 
+               "proto" : "7mm_54r_craft"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "20", 
+               "proto" : "9mm_craft"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "5", 
+               "proto" : "12_craft"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "5", 
+               "proto" : "14_5mm_craft"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "20", 
+               "proto" : "307cal_craft"
+            }, 
+            { 
+               "class" : "Ammo", 
+               "count" : "5", 
+               "proto" : "356cal_craft"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
       }, 
       "c1943a21-107f-48e4-89f6-3ea2b0a2c4c1" : { 
          "class" : "HasRandomDiceNode", 
