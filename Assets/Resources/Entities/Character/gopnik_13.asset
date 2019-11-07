@@ -51,9 +51,9 @@ MonoBehaviour:
     Agility: 7
     Luck: 6
     skillsBonus:
-      SmallGuns: 17
-      BigGuns: 27
-      AutomaticFirearms: 25
+      SmallGuns: 60
+      BigGuns: 60
+      AutomaticFirearms: 60
       Unarmed: 11
       MeleeWeapons: 14
       Throwing: 22
@@ -63,7 +63,7 @@ MonoBehaviour:
       Lockpick: 0
       Steal: 0
       Alertness: 21
-      Science: 0
+      Science: 60
       Speech: 0
       Barter: 0
       Gambling: 0

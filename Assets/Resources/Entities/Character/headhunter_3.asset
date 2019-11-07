@@ -53,9 +53,9 @@ MonoBehaviour:
     Agility: 10
     Luck: 10
     skillsBonus:
-      SmallGuns: 54
-      BigGuns: 54
-      AutomaticFirearms: 54
+      SmallGuns: 80
+      BigGuns: 80
+      AutomaticFirearms: 80
       Unarmed: 40
       MeleeWeapons: 40
       Throwing: 40

@@ -45,7 +45,7 @@ MonoBehaviour:
       _value: 2
     Level: 7
     ExperiencePoints: 90
-    Strength: 7
+    Strength: 9
     Perception: 6
     Endurance: 8
     Charisma: 4
@@ -65,7 +65,7 @@ MonoBehaviour:
       Lockpick: 0
       Steal: 0
       Alertness: 21
-      Science: 0
+      Science: 66
       Speech: 0
       Barter: 0
       Gambling: 0

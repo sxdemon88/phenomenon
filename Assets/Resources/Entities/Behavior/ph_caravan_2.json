@@ -452,29 +452,18 @@
             "y" : "-98819"
          }, 
          "child" : [ 
-            "74f3f448-bed4-4f35-8bcf-fd89cf9c9466", 
-            "c19e66b4-0f9c-4751-8ecd-b632ec31b75a"
+            "74f3f448-bed4-4f35-8bcf-fd89cf9c9466"
          ]
       }, 
       "74f3f448-bed4-4f35-8bcf-fd89cf9c9466" : { 
          "class" : "PlayStateNode", 
          "desc" : { 
-            "x" : "-101412", 
-            "y" : "-98729"
+            "x" : "-101359", 
+            "y" : "-98733"
          }, 
          "child" : [ 
          ], 
          "script" : "Entities/Behavior/ph_armor_trade"
-      }, 
-      "c19e66b4-0f9c-4751-8ecd-b632ec31b75a" : { 
-         "class" : "PlayStateNode", 
-         "desc" : { 
-            "x" : "-101174", 
-            "y" : "-98728"
-         }, 
-         "child" : [ 
-         ], 
-         "script" : "Entities/Behavior/ph_recipe"
       }, 
       "75b1d711-a9a3-4677-ba06-8a636098f685" : { 
          "class" : "AddKeywordNode", 

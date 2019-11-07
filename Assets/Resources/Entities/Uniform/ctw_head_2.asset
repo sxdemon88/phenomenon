@@ -25,8 +25,16 @@ MonoBehaviour:
   - _type: 22
     _value: 5
   UniformType: 0
-  HideMask: -1
+  HideMask: 1
   ArmorDurability: 0
   rules: []
   rulesEx: 0
   Perks: 0
+  ClothesForMale:
+    path: 
+  ClothesForFemale:
+    path: 
+  EquipIcon:
+    path: 
+  soundFit:
+    path: 

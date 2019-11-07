@@ -52,9 +52,9 @@ MonoBehaviour:
   Burst:
     AP: 6
     Range: 10
-    Shots: 7
+    Shots: 6
     Dispersion: 2
-    ModeType: 9
+    ModeType: 10
     Sounds:
     - path: Entities/Weapon/weapon models/thompson_M1928A1/Thompson_fire1928
   Reload:

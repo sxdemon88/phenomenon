@@ -61,7 +61,7 @@ MonoBehaviour:
       Lockpick: 0
       Steal: 0
       Alertness: 9
-      Science: 0
+      Science: 80
       Speech: 0
       Barter: 0
       Gambling: 0

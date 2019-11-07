@@ -45,7 +45,7 @@ MonoBehaviour:
       _value: 25
     Level: 6
     ExperiencePoints: 220
-    Strength: 8
+    Strength: 9
     Perception: 7
     Endurance: 8
     Charisma: 5
@@ -53,9 +53,9 @@ MonoBehaviour:
     Agility: 8
     Luck: 7
     skillsBonus:
-      SmallGuns: 35
-      BigGuns: 35
-      AutomaticFirearms: 35
+      SmallGuns: 55
+      BigGuns: 55
+      AutomaticFirearms: 55
       Unarmed: 26
       MeleeWeapons: 26
       Throwing: 26

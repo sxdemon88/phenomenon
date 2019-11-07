@@ -959,7 +959,7 @@
       "2c3c0511-8550-4c5f-97fe-5bf1971bf40f" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-100591", 
+            "x" : "-100625", 
             "y" : "-101126"
          }, 
          "child" : [ 
@@ -1150,12 +1150,12 @@
                "proto" : "45 ACP_jhp"
             }
          ], 
-         "inventoryObject" : ""
+         "inventoryObject" : "Spawn.Karavan.Trader"
       }, 
       "d93c97f7-c7a7-4d80-86a3-cf611f420e26" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-100274", 
+            "x" : "-100214", 
             "y" : "-101173"
          }, 
          "child" : [ 
@@ -1192,7 +1192,7 @@
                "proto" : "45 ACP_jhp"
             }
          ], 
-         "inventoryObject" : "", 
+         "inventoryObject" : "Spawn.Karavan.Trader", 
          "random" : "true"
       }, 
       "229635bf-1aae-4a1c-a259-1a8b3301ae71" : { 
@@ -1245,7 +1245,7 @@
                "proto" : "356cal_craft"
             }
          ], 
-         "inventoryObject" : ""
+         "inventoryObject" : "Spawn.Karavan.Trader"
       }, 
       "8216771e-1b19-46ce-92c3-110ef541b772" : { 
          "class" : "InventorySetNode", 
@@ -1297,7 +1297,7 @@
                "proto" : "356cal_craft"
             }
          ], 
-         "inventoryObject" : ""
+         "inventoryObject" : "Spawn.Karavan.Trader"
       }, 
       "8f3e7557-feba-4aed-a03f-d050d9e64eca" : { 
          "class" : "InventorySetNode", 
@@ -1349,7 +1349,7 @@
                "proto" : "356cal_craft"
             }
          ], 
-         "inventoryObject" : "", 
+         "inventoryObject" : "Spawn.Karavan.Trader", 
          "random" : "true"
       }, 
       "c1943a21-107f-48e4-89f6-3ea2b0a2c4c1" : { 

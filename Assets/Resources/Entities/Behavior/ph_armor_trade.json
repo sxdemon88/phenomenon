@@ -9,7 +9,9 @@
          "child" : [ 
             "56d1c14f-831e-4282-a14a-de6dc9593535", 
             "161da581-3ea1-47f6-84a0-bd2b9360a551", 
-            "c1943a21-107f-48e4-89f6-3ea2b0a2c4c1"
+            "c1943a21-107f-48e4-89f6-3ea2b0a2c4c1", 
+            "a2a8f0e5-c4ed-4213-a363-098cdb604a31", 
+            "fd2903f3-ad3b-4f0a-8326-e6cd35daef29"
          ]
       }, 
       "56d1c14f-831e-4282-a14a-de6dc9593535" : { 
@@ -26,8 +28,8 @@
       "80eea733-47bf-49a5-836e-0dfc63d4aaed" : { 
          "class" : "InventorySetNode", 
          "desc" : { 
-            "x" : "-100657", 
-            "y" : "-101968"
+            "x" : "-100793", 
+            "y" : "-101943"
          }, 
          "child" : [ 
          ], 
@@ -666,6 +668,73 @@
          }, 
          "child" : [ 
          ]
+      }, 
+      "a2a8f0e5-c4ed-4213-a363-098cdb604a31" : { 
+         "class" : "PlayerHasRecipeNode", 
+         "desc" : { 
+            "x" : "-100589", 
+            "y" : "-102233"
+         }, 
+         "child" : [ 
+            "22bd9b84-b714-47a5-a6fe-3ad4722d6625", 
+            "e0ddac04-2b38-416b-b548-ffee5e72be03"
+         ], 
+         "recipe" : "backpack5"
+      }, 
+      "22bd9b84-b714-47a5-a6fe-3ad4722d6625" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100234", 
+            "y" : "-102083"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "e0ddac04-2b38-416b-b548-ffee5e72be03" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100594", 
+            "y" : "-102074"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Memo", 
+               "count" : "1", 
+               "proto" : "ph_craft_book2"
+            }
+         ], 
+         "inventoryObject" : "Spawn.Karavan.Trader"
+      }, 
+      "fd2903f3-ad3b-4f0a-8326-e6cd35daef29" : { 
+         "class" : "PlayerHasRecipeNode", 
+         "desc" : { 
+            "x" : "-100346", 
+            "y" : "-102243"
+         }, 
+         "child" : [ 
+            "22bd9b84-b714-47a5-a6fe-3ad4722d6625", 
+            "2a6dad6a-dd86-4437-8816-189efa7d492b"
+         ], 
+         "recipe" : "backpack3"
+      }, 
+      "2a6dad6a-dd86-4437-8816-189efa7d492b" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100421", 
+            "y" : "-102070"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Memo", 
+               "count" : "1", 
+               "proto" : "ph_craft_book3"
+            }
+         ], 
+         "inventoryObject" : "Spawn.Karavan.Trader"
       }
    }, 
    "entry" : "b053a210-ea7d-439d-8783-489e55db23b7"
