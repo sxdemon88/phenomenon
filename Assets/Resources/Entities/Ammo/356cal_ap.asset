@@ -16,7 +16,7 @@ MonoBehaviour:
     path: Entities/Ammo/356cal_AP
   m_Localization: ammo.356cal_ap
   Takeable: 1
-  Cost: 35
+  Cost: 53
   Weight: 17
   Collectable: 1
   Modifiers: []

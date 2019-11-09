@@ -16,7 +16,7 @@ MonoBehaviour:
     path: Entities/Ammo/Ammo models/307craft
   m_Localization: ammo.307cal_craft
   Takeable: 1
-  Cost: 5
+  Cost: 3
   Weight: 10
   Collectable: 1
   Modifiers: []

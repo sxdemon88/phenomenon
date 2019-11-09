@@ -16,7 +16,7 @@ MonoBehaviour:
     path: Entities/Ammo/Bolt_AP
   m_Localization: ammo.bolt_ap
   Takeable: 1
-  Cost: 15
+  Cost: 23
   Weight: 80
   Collectable: 1
   Modifiers: []

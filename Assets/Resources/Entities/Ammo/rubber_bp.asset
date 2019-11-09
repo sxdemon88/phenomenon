@@ -16,7 +16,7 @@ MonoBehaviour:
     path: Entities/Ammo/Rubber_BP
   m_Localization: ammo.rubber_bp
   Takeable: 1
-  Cost: 1
+  Cost: 2
   Weight: 10
   Collectable: 1
   Modifiers: []

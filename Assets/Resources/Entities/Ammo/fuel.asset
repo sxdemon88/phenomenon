@@ -16,7 +16,7 @@ MonoBehaviour:
     path: Entities/Ammo/Fuel
   m_Localization: ammo.fuel
   Takeable: 1
-  Cost: 3
+  Cost: 5
   Weight: 75
   Collectable: 1
   Modifiers: []

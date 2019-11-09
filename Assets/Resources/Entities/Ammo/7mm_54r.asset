@@ -16,7 +16,7 @@ MonoBehaviour:
     path: Entities/Ammo/7mm_54R
   m_Localization: ammo.7mm_54r
   Takeable: 1
-  Cost: 20
+  Cost: 30
   Weight: 17
   Collectable: 1
   Modifiers: []

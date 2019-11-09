@@ -16,7 +16,7 @@ MonoBehaviour:
     path: Entities/Ammo/PB
   m_Localization: ammo.pb
   Takeable: 1
-  Cost: 1
+  Cost: 2
   Weight: 5
   Collectable: 1
   Modifiers: []

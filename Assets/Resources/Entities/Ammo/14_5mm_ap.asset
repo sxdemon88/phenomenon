@@ -16,7 +16,7 @@ MonoBehaviour:
     path: Entities/Ammo/14_5mm_AP
   m_Localization: ammo.14_5mm_ap
   Takeable: 1
-  Cost: 200
+  Cost: 300
   Weight: 199
   Collectable: 1
   Modifiers: []

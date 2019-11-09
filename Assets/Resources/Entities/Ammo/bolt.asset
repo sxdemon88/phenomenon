@@ -16,7 +16,7 @@ MonoBehaviour:
     path: Entities/Ammo/Bolt
   m_Localization: ammo.bolt
   Takeable: 1
-  Cost: 5
+  Cost: 8
   Weight: 40
   Collectable: 1
   Modifiers: []

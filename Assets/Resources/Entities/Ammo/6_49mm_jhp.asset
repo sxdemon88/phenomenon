@@ -16,7 +16,7 @@ MonoBehaviour:
     path: Entities/Ammo/6_49mm_JHP
   m_Localization: ammo.6_49mm_jhp
   Takeable: 1
-  Cost: 20
+  Cost: 30
   Weight: 20
   Collectable: 1
   Modifiers: []
