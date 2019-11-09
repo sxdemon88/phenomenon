@@ -7,22 +7,22 @@
       "12_craft" : { 
          "short" : "12g rounds (shot)", 
          "label" : "12g (shot)", 
-         "full" : "Cartridges of local production.\n[Damage multiplier x 0.4.]"
+         "full" : "Cartridges of local production.\n[Weapon Damage Penalty 30%]"
       }, 
       "14_5mm_craft" : { 
          "short" : "14.5mm rounds", 
          "label" : "14.5mm",
-		 "full" : "Cartridges of local production.\n[Damage multiplier x 1.4.]"
+		 "full" : "Cartridges of local production.\n[Weapon Damage Penalty 30%]"
       }, 
       "307cal_craft" : { 
          "short" : ".30 rounds", 
          "label" : ".30",
-		 "full" : "Local ammo.\n[Damage Multiplier x 1.3.]"
+		 "full" : "Local ammo.\n[Weapon Damage Penalty 30%]"
       }, 
       "356cal_craft" : { 
          "short" : "9x39mm ammo", 
          "label" : "9x39mm",
-		 "full" : "Cartridges of local production.\n[Damage multiplier x 1.5.]"
+		 "full" : "Cartridges of local production.\n[Weapon Damage Penalty 30%]"
       }, 
       "357_ap" : { 
          "short" : ".357 Magnum ammo (AP)",
@@ -47,7 +47,7 @@
       "5_45craft" : { 
          "short" : "5.45mm rounds", 
          "label" : "5.45mm",
-		 "full" : "Cartridges of local production.\n[Damage multiplier x 1.4]"
+		 "full" : "Cartridges of local production.\n[Weapon Damage Penalty 30%]"
       }, 
       "5_56mm_ap" : { 
          "short" : "5.56 mm ammo (AP)",
@@ -62,17 +62,17 @@
       "7_62mm_craft" : { 
          "short" : "7.62×39mm rounds", 
          "label" : "7.62×39mm",
-		 "full" : "Cartridges of local production.\n[Damage multiplier x 1.4]"
+		 "full" : "Cartridges of local production.\n[Weapon Damage Penalty 30%]"
       },
       "7mm_54r_craft" : { 
          "short" : "7.62×54mmR rounds", 
          "label" : "7.62×54mmR",
-		 "full" : "Cartridges of local production.\n[Damage multiplier x 1.5]"
+		 "full" : "Cartridges of local production.\n[Weapon Damage Penalty 30%]"
       },
       "9mm_craft" : { 
          "short" : "9mm rounds", 
          "label" : "9mm",
-		 "full" : "Cartridges of local production.\n[Damage multiplier х 1.3]"
+		 "full" : "Cartridges of local production.\n[Weapon Damage Penalty 30%]"
       }
    }, 
    "character" : { 

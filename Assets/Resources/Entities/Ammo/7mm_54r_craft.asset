@@ -23,6 +23,6 @@ MonoBehaviour:
   Type: 8
   ArmorMod: 0
   ResistanceMod: 10
-  DamageMod: 1.5
+  DamageMod: 1.7
   Bullet: 1
   Dispersion: 0
