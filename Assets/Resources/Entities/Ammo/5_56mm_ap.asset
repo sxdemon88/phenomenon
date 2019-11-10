@@ -20,7 +20,7 @@ MonoBehaviour:
   Weight: 13
   Collectable: 1
   Modifiers: []
-  Type: 2
+  Type: 101
   ArmorMod: 0
   ResistanceMod: -15
   DamageMod: 2

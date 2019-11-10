@@ -68,7 +68,7 @@ MonoBehaviour:
     - path: Sounds/SFX/Weapons/AK47/ak47_reload
   Effects: []
   Requirements:
-  - _type: 22
+  - _type: 1
     _value: 4
   - _type: 10
     _value: 88
