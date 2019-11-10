@@ -16,7 +16,7 @@ MonoBehaviour:
     path: Entities/Weapon/weapon models/m76/m76
   m_Localization: weapon.m76
   Takeable: 1
-  Cost: 11760
+  Cost: 7840
   Weight: 4400
   Collectable: 0
   Modifiers: []
