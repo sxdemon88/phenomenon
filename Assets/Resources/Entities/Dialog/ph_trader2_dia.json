@@ -898,7 +898,7 @@
          "item" : { 
             "class" : "Memo", 
             "count" : "1", 
-            "proto" : "ph_craft_book2"
+            "proto" : "ph_craft_book2_dog"
          }, 
          "objectName" : "Player"
       }, 

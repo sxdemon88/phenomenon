@@ -10,53 +10,55 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1397509372, guid: ba80931603c2dbc40ab113c533efa2ed, type: 3}
-  m_Name: thompson_m1a1
+  m_Name: rifle_m
   m_EditorClassIdentifier: 
   Icon:
-    path: Entities/Weapon/weapon models/thompson_m1a1/thompson_m1a1_icon
-  m_Localization: weapon.thompson_m1a1
+    path: Entities/Weapon/Rifle_M
+  m_Localization: weapon.rifle_m
   Takeable: 1
   Cost: 3240
-  Weight: 4500
+  Weight: 4729
   Collectable: 0
   Modifiers: []
   HasModel: 1
-  weaponType: 1
+  weaponType: 2
   Ammo:
-    path: Entities/Ammo/45 ACP_jhp
-  AmmoCapacity: 30
+    path: entities/ammo/5_45mm_jhp
+  AmmoCapacity: 5
   BothHands: 1
   Stack: 0
-  DamageMin: 5
-  DamageMax: 16
+  DamageMin: 7
+  DamageMax: 13
   DamageRadius: 1
   Fatality: 10
-  Perks: 0
+  Perks: 134218752
   PerksEx: 0
   DamageType: 0
   Single:
-    AP: 5
-    Range: 12
-    Shots: 3
-    Dispersion: 1
-    ModeType: 9
+    AP: 4
+    Range: 18
+    Shots: 1
+    Dispersion: 0
+    ModeType: 0
     Sounds:
-    - path: Entities/Weapon/weapon models/thompson_m1a1/Thompson_40
+    - path: Sounds/SFX/Weapons/Rifle/rifle_tp
+    - path: Sounds/SFX/Weapons/Rifle/rifle_tp
   Aimed:
+    AP: 5
+    Range: 18
+    Shots: 1
+    Dispersion: 0
+    ModeType: 0
+    Sounds:
+    - path: Sounds/SFX/Weapons/Rifle/rifle_tp
+    - path: Sounds/SFX/Weapons/Rifle/rifle_tp
+  Burst:
     AP: 0
     Range: 0
     Shots: 0
     Dispersion: 0
     ModeType: 0
     Sounds: []
-  Burst:
-    AP: 6
-    Range: 11
-    Shots: 6
-    Dispersion: 1
-    ModeType: 9
-    Sounds:
-    - path: Entities/Weapon/weapon models/thompson_m1a1/Thompson_40
   Reload:
     AP: 3
     Range: 0
@@ -64,17 +66,15 @@ MonoBehaviour:
     Dispersion: 0
     ModeType: 0
     Sounds:
-    - path: Sounds/SFX/Weapons/PPS/pps_reload
+    - path: Sounds/SFX/Weapons/Rifle/rifle_reload
   Effects: []
   Requirements:
   - _type: 1
-    _value: 5
-  - _type: 8
-    _value: 64
-  - _type: 10
-    _value: 32
+    _value: 6
+  - _type: 9
+    _value: 52
   NoAmmoSounds:
-  - path: Sounds/SFX/Weapons/PPS/pps_empty
+  - path: Sounds/SFX/Weapons/Rifle/rifle_empty
   PreAttackSounds: []
   MissSounds:
   - path: Sounds/SFX/Weapons/Miss/shoot_missing1
