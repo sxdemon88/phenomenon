@@ -1074,8 +1074,8 @@
             "y" : "-100485"
          }, 
          "child" : [ 
-            "7cfd85c9-c8de-4e20-8411-04ae79ba9bae", 
-            "5c14ff49-0a53-4b66-ab7c-6d7e85f77e90", 
+            "7bee8db5-e900-4ab9-a9c3-c6702a723670", 
+            "6b4369c2-92d6-4dd5-907a-546a8b70abaa", 
             "f0ce46a1-f417-418b-8e30-cfc0f1c8d822", 
             "320a172f-b7dc-49e4-a147-d1ab3370c7cb", 
             "c7bc8fc5-8066-46f8-bbbd-2c7f8e31e05b", 
@@ -1088,21 +1088,21 @@
             "288eacfb-39c8-49be-aab7-b63a4a39a2db"
          ]
       }, 
-      "7cfd85c9-c8de-4e20-8411-04ae79ba9bae" : { 
+      "7bee8db5-e900-4ab9-a9c3-c6702a723670" : { 
          "class" : "PlayStateNode", 
          "desc" : { 
-            "x" : "-101089", 
-            "y" : "-100330"
+            "x" : "-101063", 
+            "y" : "-100358"
          }, 
          "child" : [ 
          ], 
          "script" : "Entities/Behavior/ph_trap_event"
       }, 
-      "5c14ff49-0a53-4b66-ab7c-6d7e85f77e90" : { 
+      "6b4369c2-92d6-4dd5-907a-546a8b70abaa" : { 
          "class" : "PlayStateNode", 
          "desc" : { 
-            "x" : "-101087", 
-            "y" : "-100384"
+            "x" : "-101065", 
+            "y" : "-100416"
          }, 
          "child" : [ 
          ], 

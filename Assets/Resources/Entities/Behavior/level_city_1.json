@@ -2245,33 +2245,33 @@
             "y" : "-101134"
          }, 
          "child" : [ 
-            "f94edb5f-43a3-4796-b7e8-eb75f3053aed", 
-            "3eee5395-88ed-40f9-be51-d7aa0f841acb", 
+            "73b5c5bd-ddaa-4f72-8ce4-b2c11792596a", 
+            "41e1ce65-2da6-4816-aec9-715430641282", 
             "568d4bad-14c5-4d03-b5e4-f5c4300efe40", 
             "c1051324-4f28-4dda-8ecd-3954da4ca06d", 
             "951a73c0-7d69-40aa-9902-d8870034c35a", 
             "a3cbec52-de18-4066-9bef-eb3fd9dd803d"
          ]
       }, 
-      "f94edb5f-43a3-4796-b7e8-eb75f3053aed" : { 
+      "73b5c5bd-ddaa-4f72-8ce4-b2c11792596a" : { 
          "class" : "PlayStateNode", 
          "desc" : { 
-            "x" : "-102742", 
-            "y" : "-101098"
-         }, 
-         "child" : [ 
-         ], 
-         "script" : "Entities/Behavior/ph_trap_event"
-      }, 
-      "3eee5395-88ed-40f9-be51-d7aa0f841acb" : { 
-         "class" : "PlayStateNode", 
-         "desc" : { 
-            "x" : "-102832", 
-            "y" : "-101193"
+            "x" : "-102755", 
+            "y" : "-101217"
          }, 
          "child" : [ 
          ], 
          "script" : "Entities/Behavior/ph_trade_event"
+      }, 
+      "41e1ce65-2da6-4816-aec9-715430641282" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-102748", 
+            "y" : "-101152"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/ph_trap_event"
       }, 
       "568d4bad-14c5-4d03-b5e4-f5c4300efe40" : { 
          "class" : "NotebookHasNoteNode", 
@@ -4164,7 +4164,7 @@
             "item1" : { 
                "class" : "Weapon", 
                "count" : "1", 
-               "proto" : "AK47", 
+               "proto" : "AK47_M", 
                "ammo" : { 
                   "count" : "30", 
                   "proto" : "7_62mm_AP"

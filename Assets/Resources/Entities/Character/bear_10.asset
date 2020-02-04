@@ -19,7 +19,7 @@ MonoBehaviour:
   AIDontUseCover: 0
   aiBehavior: 0
   aiBehaviorTree:
-    path: 
+    path: entities/ai/bear
   Dialog:
     path: 
   OnPocket:

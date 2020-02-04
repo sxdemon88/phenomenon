@@ -2273,14 +2273,36 @@
       "0e1ea216-e146-46a2-86ac-98f140a8c217" : { 
          "class" : "HasKeywordNode", 
          "desc" : { 
-            "x" : "-101109", 
-            "y" : "-100005"
+            "x" : "-101096", 
+            "y" : "-100080"
          }, 
          "child" : [ 
-            "3fe5b0ac-f0d3-43af-a5f4-75ef7e9c4c2a", 
-            "37628f8f-e17d-40a9-bceb-cd069ba6b57e"
+            "beb4bc81-3e3c-4bc8-b4df-2b170ef6064a", 
+            "be020417-088e-449c-aa53-90925de4e068"
          ], 
          "key" : "ALEX_TIME"
+      }, 
+      "beb4bc81-3e3c-4bc8-b4df-2b170ef6064a" : { 
+         "class" : "FractionIsEnemyRelationshipNode", 
+         "desc" : { 
+            "x" : "-101224", 
+            "y" : "-99982"
+         }, 
+         "child" : [ 
+            "1548940c-f642-40f0-bb62-328346760412", 
+            "3fe5b0ac-f0d3-43af-a5f4-75ef7e9c4c2a"
+         ], 
+         "fractionA" : "player", 
+         "fractionB" : "village"
+      }, 
+      "1548940c-f642-40f0-bb62-328346760412" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101299", 
+            "y" : "-99890"
+         }, 
+         "child" : [ 
+         ]
       }, 
       "3fe5b0ac-f0d3-43af-a5f4-75ef7e9c4c2a" : { 
          "class" : "HasKeywordNode", 
@@ -2514,11 +2536,33 @@
             "06948d13-d838-46b4-bd5d-10ec531d52ff"
          ]
       }, 
+      "be020417-088e-449c-aa53-90925de4e068" : { 
+         "class" : "FractionIsEnemyRelationshipNode", 
+         "desc" : { 
+            "x" : "-101023", 
+            "y" : "-99977"
+         }, 
+         "child" : [ 
+            "3e2e27cf-6e57-4501-9690-8f19c7099e80", 
+            "37628f8f-e17d-40a9-bceb-cd069ba6b57e"
+         ], 
+         "fractionA" : "player", 
+         "fractionB" : "village"
+      }, 
+      "3e2e27cf-6e57-4501-9690-8f19c7099e80" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101070", 
+            "y" : "-99785"
+         }, 
+         "child" : [ 
+         ]
+      }, 
       "37628f8f-e17d-40a9-bceb-cd069ba6b57e" : { 
          "class" : "AddKeyValueNode", 
          "desc" : { 
-            "x" : "-101048", 
-            "y" : "-99864"
+            "x" : "-100956", 
+            "y" : "-99851"
          }, 
          "child" : [ 
             "56715612-115c-438e-9d75-48ac458301bf"
@@ -3199,8 +3243,8 @@
             "y" : "-100900"
          }, 
          "child" : [ 
-            "64d67d6f-8c8f-49bc-aad8-8ce846a375f4", 
-            "497ac307-965b-49c1-9d59-2d4f5db0be3e", 
+            "98e97f5c-92af-4815-a8dd-a094b1fffe5f", 
+            "c32eddb6-a7e7-4948-9489-4bd540ed542d", 
             "0a1049e4-a632-4bd3-8d06-2864320a1b23", 
             "bb449446-a675-462b-9757-6e3aec41c191", 
             "55ed73a9-3bfb-4361-a096-0b66605a6036", 
@@ -3212,25 +3256,25 @@
             "776a101c-26e3-4eda-9ebe-1b3fda631145"
          ]
       }, 
-      "64d67d6f-8c8f-49bc-aad8-8ce846a375f4" : { 
+      "98e97f5c-92af-4815-a8dd-a094b1fffe5f" : { 
          "class" : "PlayStateNode", 
          "desc" : { 
-            "x" : "-102359", 
-            "y" : "-100806"
-         }, 
-         "child" : [ 
-         ], 
-         "script" : "Entities/Behavior/ph_trap_event"
-      }, 
-      "497ac307-965b-49c1-9d59-2d4f5db0be3e" : { 
-         "class" : "PlayStateNode", 
-         "desc" : { 
-            "x" : "-102369", 
-            "y" : "-100888"
+            "x" : "-102389", 
+            "y" : "-100935"
          }, 
          "child" : [ 
          ], 
          "script" : "Entities/Behavior/ph_trade_event"
+      }, 
+      "c32eddb6-a7e7-4948-9489-4bd540ed542d" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-102379", 
+            "y" : "-100853"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/ph_trap_event"
       }, 
       "0a1049e4-a632-4bd3-8d06-2864320a1b23" : { 
          "class" : "PlayStateNode", 
@@ -3975,20 +4019,42 @@
       "bc3aa966-4913-4550-871f-7f29520945d2" : { 
          "class" : "CharacterIsDeadNode", 
          "desc" : { 
-            "x" : "-101664", 
-            "y" : "-100460"
+            "x" : "-101591", 
+            "y" : "-100516"
          }, 
          "child" : [ 
             "626eaf48-b8a5-47ee-967b-9670ec2b4c0c", 
-            "68a0b7b0-f58a-4042-861a-f330c54d53e6"
+            "bd5fb6a0-4c5f-40fa-af27-e95b352385b4"
          ], 
          "objectName" : "Village_Postman"
       }, 
       "626eaf48-b8a5-47ee-967b-9670ec2b4c0c" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-101673", 
-            "y" : "-100361"
+            "x" : "-101705", 
+            "y" : "-100415"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "bd5fb6a0-4c5f-40fa-af27-e95b352385b4" : { 
+         "class" : "FractionIsEnemyRelationshipNode", 
+         "desc" : { 
+            "x" : "-101565", 
+            "y" : "-100419"
+         }, 
+         "child" : [ 
+            "1665bcf1-ca68-4ea8-ae8c-ce60e874ad8f", 
+            "68a0b7b0-f58a-4042-861a-f330c54d53e6"
+         ], 
+         "fractionA" : "player", 
+         "fractionB" : "village"
+      }, 
+      "1665bcf1-ca68-4ea8-ae8c-ce60e874ad8f" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101631", 
+            "y" : "-100313"
          }, 
          "child" : [ 
          ]

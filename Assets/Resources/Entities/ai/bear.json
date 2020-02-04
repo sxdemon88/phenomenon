@@ -1,0 +1,562 @@
+{ 
+   "states" : { 
+      "6aca588b-d693-44b0-9ab0-a8a6dce40181" : { 
+         "class" : "BehaviorStateNode", 
+         "desc" : { 
+            "x" : "-101074", 
+            "y" : "-100641"
+         }, 
+         "child" : [ 
+            "7e697ab3-1786-42e1-ab2a-6e3b8157994a"
+         ]
+      }, 
+      "7e697ab3-1786-42e1-ab2a-6e3b8157994a" : { 
+         "class" : "SelectorNode", 
+         "desc" : { 
+            "x" : "-101088", 
+            "y" : "-100509"
+         }, 
+         "child" : [ 
+            "e0507b3e-4281-4aae-b142-5658a9b5bb4f", 
+            "5d44e94b-8a57-4a94-98e5-75a66732240f"
+         ]
+      }, 
+      "e0507b3e-4281-4aae-b142-5658a9b5bb4f" : { 
+         "class" : "SequenceNode", 
+         "desc" : { 
+            "x" : "-101307", 
+            "y" : "-100400"
+         }, 
+         "child" : [ 
+            "afb0cb84-3fc3-44c2-bcb6-5a3e89cd9e21", 
+            "decaf0d0-28a6-48aa-a888-cc406c6932ef", 
+            "09e7cc0c-eb39-4fa4-9512-897272f2f5e1"
+         ]
+      }, 
+      "afb0cb84-3fc3-44c2-bcb6-5a3e89cd9e21" : { 
+         "class" : "WaitTurnNode", 
+         "desc" : { 
+            "x" : "-101682", 
+            "y" : "-100275"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "decaf0d0-28a6-48aa-a888-cc406c6932ef" : { 
+         "class" : "FindBestTargetNode", 
+         "desc" : { 
+            "x" : "-101552", 
+            "y" : "-100255"
+         }, 
+         "child" : [ 
+         ], 
+         "dist" : "120", 
+         "check_sneak" : "false", 
+         "around_player" : "false", 
+         "result" : "_bestTarget"
+      }, 
+      "09e7cc0c-eb39-4fa4-9512-897272f2f5e1" : { 
+         "class" : "SelectorNode", 
+         "desc" : { 
+            "x" : "-100910", 
+            "y" : "-100216"
+         }, 
+         "child" : [ 
+            "fa8e9ca6-3f58-403c-b53a-4df8c2db0382"
+         ]
+      }, 
+      "fa8e9ca6-3f58-403c-b53a-4df8c2db0382" : { 
+         "class" : "SelectorNode", 
+         "desc" : { 
+            "x" : "-100855", 
+            "y" : "-100125"
+         }, 
+         "child" : [ 
+            "270d8f8a-e116-43a8-ba50-e448a9294404", 
+            "f30d4e50-6c4e-412a-89a6-a09e10a8b85a", 
+            "42358c53-c428-4598-b012-59a4e4e017b9"
+         ]
+      }, 
+      "270d8f8a-e116-43a8-ba50-e448a9294404" : { 
+         "class" : "HasPanicNode", 
+         "desc" : { 
+            "x" : "-101068", 
+            "y" : "-99960"
+         }, 
+         "child" : [ 
+            "41fc9ca0-be49-4487-b68e-709ac545792b"
+         ]
+      }, 
+      "41fc9ca0-be49-4487-b68e-709ac545792b" : { 
+         "class" : "ProcessPanicNode", 
+         "desc" : { 
+            "x" : "-101104", 
+            "y" : "-99888"
+         }, 
+         "child" : [ 
+         ], 
+         "target" : "$_bestTarget$"
+      }, 
+      "f30d4e50-6c4e-412a-89a6-a09e10a8b85a" : { 
+         "class" : "CanAttackNode", 
+         "desc" : { 
+            "x" : "-100910", 
+            "y" : "-99923"
+         }, 
+         "child" : [ 
+            "8848384c-c153-4473-8a0c-164d977e9db3"
+         ], 
+         "target" : "$_bestTarget$", 
+         "min_cth" : "35", 
+         "slot" : "Secondary", 
+         "shotmode" : "Single"
+      }, 
+      "8848384c-c153-4473-8a0c-164d977e9db3" : { 
+         "class" : "SequenceNode", 
+         "desc" : { 
+            "x" : "-100915", 
+            "y" : "-99684"
+         }, 
+         "child" : [ 
+            "55773887-38a7-4ed5-a5db-468dde193b61", 
+            "8c7f50e7-6c17-494a-ad7f-2c0af5ba4949", 
+            "4b2b5839-87ee-48e8-9ffe-20c41f47588e"
+         ]
+      }, 
+      "55773887-38a7-4ed5-a5db-468dde193b61" : { 
+         "class" : "AttackNode", 
+         "desc" : { 
+            "x" : "-101097", 
+            "y" : "-99518"
+         }, 
+         "child" : [ 
+         ], 
+         "target" : "$_bestTarget$", 
+         "slot" : "Secondary"
+      }, 
+      "8c7f50e7-6c17-494a-ad7f-2c0af5ba4949" : { 
+         "class" : "WaitTurnNode", 
+         "desc" : { 
+            "x" : "-100940", 
+            "y" : "-99493"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "4b2b5839-87ee-48e8-9ffe-20c41f47588e" : { 
+         "class" : "SucceederNode", 
+         "desc" : { 
+            "x" : "-100821", 
+            "y" : "-99574"
+         }, 
+         "child" : [ 
+            "919abde5-13f2-4067-a129-2604fc1c2d14"
+         ]
+      }, 
+      "919abde5-13f2-4067-a129-2604fc1c2d14" : { 
+         "class" : "SequenceNode", 
+         "desc" : { 
+            "x" : "-100779", 
+            "y" : "-99499"
+         }, 
+         "child" : [ 
+            "e62e87c8-b93f-410c-a251-13165e91622a", 
+            "85631a09-ab4a-449f-8e50-6387869803b1", 
+            "4b35ad98-be0d-4cfa-acfe-d7a118713e89", 
+            "1279ef29-3eb5-46da-892d-c2202dd5d2aa", 
+            "99fddef4-e03d-4c23-97ca-e701e3bbdc60"
+         ]
+      }, 
+      "e62e87c8-b93f-410c-a251-13165e91622a" : { 
+         "class" : "InverterNode", 
+         "desc" : { 
+            "x" : "-100871", 
+            "y" : "-99423"
+         }, 
+         "child" : [ 
+            "fddebe17-6499-426b-b559-656d35f9835a"
+         ]
+      }, 
+      "fddebe17-6499-426b-b559-656d35f9835a" : { 
+         "class" : "HasKeyNode", 
+         "desc" : { 
+            "x" : "-100877", 
+            "y" : "-99364"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "AI_UP"
+      }, 
+      "85631a09-ab4a-449f-8e50-6387869803b1" : { 
+         "class" : "SetAnimTriggerNode", 
+         "desc" : { 
+            "x" : "-100730", 
+            "y" : "-99365"
+         }, 
+         "child" : [ 
+         ], 
+         "triger" : "Up"
+      }, 
+      "4b35ad98-be0d-4cfa-acfe-d7a118713e89" : { 
+         "class" : "AddKeyNode", 
+         "desc" : { 
+            "x" : "-100599", 
+            "y" : "-99361"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "AI_UP"
+      }, 
+      "1279ef29-3eb5-46da-892d-c2202dd5d2aa" : { 
+         "class" : "PlayStateFromBehaviorNode", 
+         "desc" : { 
+            "x" : "-100500", 
+            "y" : "-99412"
+         }, 
+         "child" : [ 
+            "e8175606-bca7-41ac-93c1-5c9b5231d6f8"
+         ]
+      }, 
+      "e8175606-bca7-41ac-93c1-5c9b5231d6f8" : { 
+         "class" : "CharacterHasEffectNode", 
+         "desc" : { 
+            "x" : "-100419", 
+            "y" : "-99306"
+         }, 
+         "child" : [ 
+            "269fd7b6-19b1-43bf-9c8a-eccc8465a281", 
+            "3436c9f7-0ff8-44ca-ae90-5be90d08b4c6"
+         ], 
+         "proto" : "BearUp"
+      }, 
+      "269fd7b6-19b1-43bf-9c8a-eccc8465a281" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100474", 
+            "y" : "-99186"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "3436c9f7-0ff8-44ca-ae90-5be90d08b4c6" : { 
+         "class" : "CharacterAddEffectNode", 
+         "desc" : { 
+            "x" : "-100343", 
+            "y" : "-99182"
+         }, 
+         "child" : [ 
+         ], 
+         "proto" : "BearUp"
+      }, 
+      "99fddef4-e03d-4c23-97ca-e701e3bbdc60" : { 
+         "class" : "WaitTimeNode", 
+         "desc" : { 
+            "x" : "-100310", 
+            "y" : "-99438"
+         }, 
+         "child" : [ 
+         ], 
+         "seconds" : "0.1"
+      }, 
+      "42358c53-c428-4598-b012-59a4e4e017b9" : { 
+         "class" : "SequenceNode", 
+         "desc" : { 
+            "x" : "-100641", 
+            "y" : "-99994"
+         }, 
+         "child" : [ 
+            "2a109b24-8010-4ed5-9f58-2721b7c2f5ab", 
+            "47edad53-a7e2-432d-929c-9e474a17bf5f", 
+            "ee89eb16-868b-4c73-bd29-612b97a09a80", 
+            "52532ec2-ebf5-4d88-a280-626c05c97ea5", 
+            "dbc1936b-24b6-47cf-b1ba-0a1244cc611c"
+         ]
+      }, 
+      "2a109b24-8010-4ed5-9f58-2721b7c2f5ab" : { 
+         "class" : "FindAttackPositionNode", 
+         "desc" : { 
+            "x" : "-100740", 
+            "y" : "-99887"
+         }, 
+         "child" : [ 
+         ], 
+         "target" : "$_bestTarget$", 
+         "result" : "_movePosition", 
+         "minCTH" : "35", 
+         "maxFF" : "0.5", 
+         "shotmode" : "Single", 
+         "slot" : "Secondary"
+      }, 
+      "47edad53-a7e2-432d-929c-9e474a17bf5f" : { 
+         "class" : "SucceederNode", 
+         "desc" : { 
+            "x" : "-100559", 
+            "y" : "-99835"
+         }, 
+         "child" : [ 
+            "28c82145-29f7-450e-8de1-abcadd803356"
+         ]
+      }, 
+      "28c82145-29f7-450e-8de1-abcadd803356" : { 
+         "class" : "SequenceNode", 
+         "desc" : { 
+            "x" : "-100561", 
+            "y" : "-99759"
+         }, 
+         "child" : [ 
+            "f979a440-8303-4bdd-bad3-56770fecea99", 
+            "f9c93116-1237-4801-8d6b-fd8e10ef341e", 
+            "b900fb36-52ce-4129-ab8d-8ae12c713fdf", 
+            "2bfc0941-bd38-42bd-8b0b-219b24b67ebe", 
+            "6f39f3e9-53d7-4bd6-b16b-0fdd01eb5099"
+         ]
+      }, 
+      "f979a440-8303-4bdd-bad3-56770fecea99" : { 
+         "class" : "HasKeyNode", 
+         "desc" : { 
+            "x" : "-100652", 
+            "y" : "-99638"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "AI_UP"
+      }, 
+      "f9c93116-1237-4801-8d6b-fd8e10ef341e" : { 
+         "class" : "SetAnimTriggerNode", 
+         "desc" : { 
+            "x" : "-100530", 
+            "y" : "-99635"
+         }, 
+         "child" : [ 
+         ], 
+         "triger" : "Down"
+      }, 
+      "b900fb36-52ce-4129-ab8d-8ae12c713fdf" : { 
+         "class" : "RemoveKeyNode", 
+         "desc" : { 
+            "x" : "-100379", 
+            "y" : "-99640"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "AI_UP"
+      }, 
+      "2bfc0941-bd38-42bd-8b0b-219b24b67ebe" : { 
+         "class" : "PlayStateFromBehaviorNode", 
+         "desc" : { 
+            "x" : "-100259", 
+            "y" : "-99633"
+         }, 
+         "child" : [ 
+            "005b4c78-936f-4a2c-85d8-632a7323cef6"
+         ]
+      }, 
+      "005b4c78-936f-4a2c-85d8-632a7323cef6" : { 
+         "class" : "CharacterRemoveEffectNode", 
+         "desc" : { 
+            "x" : "-100267", 
+            "y" : "-99572"
+         }, 
+         "child" : [ 
+         ], 
+         "proto" : "BearUp"
+      }, 
+      "6f39f3e9-53d7-4bd6-b16b-0fdd01eb5099" : { 
+         "class" : "WaitTimeNode", 
+         "desc" : { 
+            "x" : "-100179", 
+            "y" : "-99694"
+         }, 
+         "child" : [ 
+         ], 
+         "seconds" : "0.1"
+      }, 
+      "ee89eb16-868b-4c73-bd29-612b97a09a80" : { 
+         "class" : "WaitTurnNode", 
+         "desc" : { 
+            "x" : "-100354", 
+            "y" : "-99859"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "52532ec2-ebf5-4d88-a280-626c05c97ea5" : { 
+         "class" : "MoveToTargetNode", 
+         "desc" : { 
+            "x" : "-100222", 
+            "y" : "-99879"
+         }, 
+         "child" : [ 
+         ], 
+         "target" : "$_movePosition$"
+      }, 
+      "dbc1936b-24b6-47cf-b1ba-0a1244cc611c" : { 
+         "class" : "WaitTurnNode", 
+         "desc" : { 
+            "x" : "-99814", 
+            "y" : "-99937"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "5d44e94b-8a57-4a94-98e5-75a66732240f" : { 
+         "class" : "TurnEndNode", 
+         "desc" : { 
+            "x" : "-100966", 
+            "y" : "-100400"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "2b2d8123-aaed-4726-925f-3ae9b8505d29" : { 
+         "class" : "AddKeyNode", 
+         "desc" : { 
+            "x" : "-99781", 
+            "y" : "-99736"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "AI_UP"
+      }, 
+      "8f05c834-42ec-4d31-87fd-26382ff4f786" : { 
+         "class" : "SetAnimTriggerNode", 
+         "desc" : { 
+            "x" : "-99943", 
+            "y" : "-99750"
+         }, 
+         "child" : [ 
+         ], 
+         "triger" : "Up"
+      }, 
+      "70b44bef-d337-4394-aa88-cbbb0fb09dfb" : { 
+         "class" : "AttackNode", 
+         "desc" : { 
+            "x" : "-101484", 
+            "y" : "-99825"
+         }, 
+         "child" : [ 
+         ], 
+         "target" : "$_bestTarget$", 
+         "slot" : "Secondary"
+      }, 
+      "ae1a546e-ed9d-477d-a9db-72d3d9910538" : { 
+         "class" : "SelectorNode", 
+         "desc" : { 
+            "x" : "-102035", 
+            "y" : "-100128"
+         }, 
+         "child" : [ 
+            "d26ff9bf-0ca3-4c05-8886-f7ef03850750", 
+            "ed415be7-2c32-4613-848f-6566ad0fc305", 
+            "528b4568-391e-45c5-a9ea-cd55a0b78d82", 
+            "3a8c6feb-186d-4753-aaf5-2d48250435cc"
+         ]
+      }, 
+      "d26ff9bf-0ca3-4c05-8886-f7ef03850750" : { 
+         "class" : "HasKeyNode", 
+         "desc" : { 
+            "x" : "-102210", 
+            "y" : "-99995"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "AI_UP"
+      }, 
+      "ed415be7-2c32-4613-848f-6566ad0fc305" : { 
+         "class" : "HasPanicNode", 
+         "desc" : { 
+            "x" : "-102092", 
+            "y" : "-99969"
+         }, 
+         "child" : [ 
+            "9808c8f6-e128-4c9c-8b89-590ec6f6ad89"
+         ]
+      }, 
+      "9808c8f6-e128-4c9c-8b89-590ec6f6ad89" : { 
+         "class" : "RemoveKeyNode", 
+         "desc" : { 
+            "x" : "-102097", 
+            "y" : "-99900"
+         }, 
+         "child" : [ 
+            "04eab100-ae1c-41bd-83c1-66add7724bb1"
+         ], 
+         "key" : "AI_UP"
+      }, 
+      "04eab100-ae1c-41bd-83c1-66add7724bb1" : { 
+         "class" : "FailerNode", 
+         "desc" : { 
+            "x" : "-102101", 
+            "y" : "-99818"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "528b4568-391e-45c5-a9ea-cd55a0b78d82" : { 
+         "class" : "SelectorNode", 
+         "desc" : { 
+            "x" : "-102018", 
+            "y" : "-100015"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "3a8c6feb-186d-4753-aaf5-2d48250435cc" : { 
+         "class" : "SequenceNode", 
+         "desc" : { 
+            "x" : "-101862", 
+            "y" : "-100085"
+         }, 
+         "child" : [ 
+            "87f6bd2f-0eab-4ef4-842f-553aa3d99d8a", 
+            "d24ae0dc-6c67-4bf1-8f3d-d564fa2a6489"
+         ]
+      }, 
+      "87f6bd2f-0eab-4ef4-842f-553aa3d99d8a" : { 
+         "class" : "SetAnimTriggerNode", 
+         "desc" : { 
+            "x" : "-101919", 
+            "y" : "-100028"
+         }, 
+         "child" : [ 
+         ], 
+         "triger" : "Down"
+      }, 
+      "d24ae0dc-6c67-4bf1-8f3d-d564fa2a6489" : { 
+         "class" : "RemoveKeyNode", 
+         "desc" : { 
+            "x" : "-101805", 
+            "y" : "-100021"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "AI_UP"
+      }, 
+      "17c723b8-6aea-4ecc-bb29-6f99abc47280" : { 
+         "class" : "CanAttackNode", 
+         "desc" : { 
+            "x" : "-101299", 
+            "y" : "-99694"
+         }, 
+         "child" : [ 
+            "7b5bce79-ae28-4098-99d9-c3f3ab84ce6b"
+         ], 
+         "target" : "$_bestTarget$", 
+         "min_cth" : "1", 
+         "slot" : "Primary", 
+         "shotmode" : "Single"
+      }, 
+      "7b5bce79-ae28-4098-99d9-c3f3ab84ce6b" : { 
+         "class" : "AttackNode", 
+         "desc" : { 
+            "x" : "-101331", 
+            "y" : "-99551"
+         }, 
+         "child" : [ 
+         ], 
+         "target" : "$_bestTarget$", 
+         "slot" : "Primary"
+      }
+   }, 
+   "entry" : "6aca588b-d693-44b0-9ab0-a8a6dce40181"
+}

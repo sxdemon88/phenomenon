@@ -419,7 +419,8 @@
          }, 
          "child" : [ 
             "a60d82d0-4e1a-402a-a6f3-f42f0b91ae34"
-         ]
+         ], 
+         "immediately" : "true"
       }, 
       "a60d82d0-4e1a-402a-a6f3-f42f0b91ae34" : { 
          "class" : "CameraMoveToNode", 
@@ -929,9 +930,31 @@
             "y" : "-99829"
          }, 
          "child" : [ 
+            "eaeaf684-1be9-4f58-a06f-71aecde6e5b7", 
             "47096c99-3caa-44b0-b7c7-d8e88bf9ca17"
          ], 
          "note_key" : "IL_KILLED"
+      }, 
+      "eaeaf684-1be9-4f58-a06f-71aecde6e5b7" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-100322", 
+            "y" : "-99734"
+         }, 
+         "child" : [ 
+            "36eddf79-034b-4dd0-b7ea-4dd0134ed2b5"
+         ], 
+         "quest_key" : "IL.RAT"
+      }, 
+      "36eddf79-034b-4dd0-b7ea-4dd0134ed2b5" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-100322", 
+            "y" : "-99680"
+         }, 
+         "child" : [ 
+         ], 
+         "quest_key" : "IL.RAT.END"
       }, 
       "06ecd6b6-decf-4c9f-8cc7-1f9240dfd87d" : { 
          "class" : "DummyNode", 
@@ -956,32 +979,33 @@
       "12a97387-d9ab-4102-9d43-83ec249c37ea" : { 
          "class" : "PlayerLevelOutNode", 
          "desc" : { 
-            "x" : "-99968", 
-            "y" : "-100794"
+            "x" : "-99893", 
+            "y" : "-100792"
          }, 
          "child" : [ 
-            "7f2c6f19-7dcd-421c-b9dd-c2a5cecae4ad", 
-            "99602da9-0d9d-427a-8283-75103339f130", 
+            "3148206f-9ff4-407f-9633-89009bc71406", 
+            "6a54e233-36c3-48ef-b281-94d65bee243a", 
             "443261c8-bdc2-433a-ae4d-2be49ffb23ba", 
             "168c7d3e-c306-4b12-897e-f0551d5b350e", 
-            "84fb51f4-0882-46c3-87ed-1b3f55a30ec1"
+            "84fb51f4-0882-46c3-87ed-1b3f55a30ec1", 
+            "f719cd1c-4fc2-4da8-9346-80c0a157cfa0"
          ]
       }, 
-      "7f2c6f19-7dcd-421c-b9dd-c2a5cecae4ad" : { 
+      "3148206f-9ff4-407f-9633-89009bc71406" : { 
          "class" : "PlayStateNode", 
          "desc" : { 
-            "x" : "-100167", 
-            "y" : "-100719"
+            "x" : "-100186", 
+            "y" : "-100793"
          }, 
          "child" : [ 
          ], 
          "script" : "Entities/Behavior/ph_trap_event"
       }, 
-      "99602da9-0d9d-427a-8283-75103339f130" : { 
+      "6a54e233-36c3-48ef-b281-94d65bee243a" : { 
          "class" : "PlayStateNode", 
          "desc" : { 
-            "x" : "-100220", 
-            "y" : "-100818"
+            "x" : "-100192", 
+            "y" : "-100848"
          }, 
          "child" : [ 
          ], 
@@ -1064,6 +1088,49 @@
             "6361a61a-6733-4645-aa46-24fde2e7b584"
          ], 
          "objectName" : "BaseMale15"
+      }, 
+      "f719cd1c-4fc2-4da8-9346-80c0a157cfa0" : { 
+         "class" : "FractionIsEnemyRelationshipNode", 
+         "desc" : { 
+            "x" : "-99616", 
+            "y" : "-100688"
+         }, 
+         "child" : [ 
+            "988cbf44-c27e-4386-bb0d-b56993b1b406", 
+            "d0d7cab6-2c79-4d4d-a1b1-f7d0c3805725"
+         ], 
+         "fractionA" : "player", 
+         "fractionB" : "il"
+      }, 
+      "988cbf44-c27e-4386-bb0d-b56993b1b406" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-99642", 
+            "y" : "-100570"
+         }, 
+         "child" : [ 
+            "d6c506ff-d91a-4c6c-b248-b319454115df"
+         ], 
+         "quest_key" : "IL.RAT"
+      }, 
+      "d6c506ff-d91a-4c6c-b248-b319454115df" : { 
+         "class" : "QuestDoneNode", 
+         "desc" : { 
+            "x" : "-99642", 
+            "y" : "-100516"
+         }, 
+         "child" : [ 
+         ], 
+         "quest_key" : "IL.RAT.END"
+      }, 
+      "d0d7cab6-2c79-4d4d-a1b1-f7d0c3805725" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99503", 
+            "y" : "-100566"
+         }, 
+         "child" : [ 
+         ]
       }
    }, 
    "entry" : "665d16af-6cd1-408d-83f4-65bf5003d79d"
