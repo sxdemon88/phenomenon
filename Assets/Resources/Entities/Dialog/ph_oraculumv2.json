@@ -713,8 +713,8 @@
       "0371e119-ceda-4449-b7d5-afdf124d83a4" : { 
          "class" : "CharacterMoveToNode", 
          "desc" : { 
-            "x" : "-103501", 
-            "y" : "-95653"
+            "x" : "-103500", 
+            "y" : "-95652"
          }, 
          "child" : [ 
          ], 

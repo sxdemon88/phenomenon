@@ -16,8 +16,8 @@
       "99212b36-57dc-495c-8a43-995daac47499" : { 
          "class" : "DialogBeginNode", 
          "desc" : { 
-            "x" : "-101802", 
-            "y" : "-101281"
+            "x" : "-101831", 
+            "y" : "-101272"
          }, 
          "child" : [ 
             "0efa7fdf-44d6-4db3-a8c6-0625fe90a241"
@@ -27,8 +27,8 @@
       "0efa7fdf-44d6-4db3-a8c6-0625fe90a241" : { 
          "class" : "NotebookHasNoteNode", 
          "desc" : { 
-            "x" : "-101771", 
-            "y" : "-101218"
+            "x" : "-101839", 
+            "y" : "-101209"
          }, 
          "child" : [ 
             "53e1f48b-8029-4d68-b7c4-f34ad3e95177", 
@@ -39,8 +39,8 @@
       "53e1f48b-8029-4d68-b7c4-f34ad3e95177" : { 
          "class" : "NotebookHasNoteNode", 
          "desc" : { 
-            "x" : "-101463", 
-            "y" : "-101100"
+            "x" : "-101548", 
+            "y" : "-101086"
          }, 
          "child" : [ 
             "3d22b12f-a575-4cbc-858a-327de2fd0021", 
@@ -51,8 +51,8 @@
       "3d22b12f-a575-4cbc-858a-327de2fd0021" : { 
          "class" : "NotebookHasNoteNode", 
          "desc" : { 
-            "x" : "-101837", 
-            "y" : "-100966"
+            "x" : "-101863", 
+            "y" : "-100916"
          }, 
          "child" : [ 
             "e89578b0-de3e-4009-83c8-d7ae18b31968", 
@@ -63,8 +63,8 @@
       "e89578b0-de3e-4009-83c8-d7ae18b31968" : { 
          "class" : "DialogPhraseNode", 
          "desc" : { 
-            "x" : "-101539", 
-            "y" : "-100714"
+            "x" : "-101654", 
+            "y" : "-100764"
          }, 
          "child" : [ 
             "e354994e-cb00-482d-96a2-12c7b1ce8d36", 
@@ -925,12 +925,12 @@
       "05963227-9d06-4e34-b797-b844e020b6c2" : { 
          "class" : "QuestStatusNode", 
          "desc" : { 
-            "x" : "-104437", 
-            "y" : "-94936"
+            "x" : "-104897", 
+            "y" : "-94930"
          }, 
          "child" : [ 
             "3e72c85c-6196-4db2-8f7e-5ff6b70eb85a", 
-            "67cff1d0-a6fc-4e08-936a-d07528ec9c26", 
+            "0d70f88c-c597-4a48-ac5b-cd56cbc00b83", 
             "6dc7d666-03e7-4de9-a0a7-61cf54f63f85"
          ], 
          "quest_key" : "PH_TRADE1_QUEST"
@@ -939,7 +939,7 @@
          "class" : "DialogAnswerNode", 
          "desc" : { 
             "x" : "-105322", 
-            "y" : "-94800"
+            "y" : "-94616"
          }, 
          "child" : [ 
             "9572c7cf-071d-44a6-b6ac-3e1285e78cae"
@@ -1144,11 +1144,22 @@
          "child" : [ 
          ]
       }, 
+      "0d70f88c-c597-4a48-ac5b-cd56cbc00b83" : { 
+         "class" : "DialogAnswerNode", 
+         "desc" : { 
+            "x" : "-103915", 
+            "y" : "-94748"
+         }, 
+         "child" : [ 
+            "67cff1d0-a6fc-4e08-936a-d07528ec9c26"
+         ], 
+         "text" : "#ph_trader1_dia.6dc7d666-03e7-4de9-a0a7-61cf54f63f85"
+      }, 
       "67cff1d0-a6fc-4e08-936a-d07528ec9c26" : { 
          "class" : "DialogPhraseNode", 
          "desc" : { 
-            "x" : "-103042", 
-            "y" : "-94734"
+            "x" : "-102963", 
+            "y" : "-94550"
          }, 
          "child" : [ 
             "e0cfa909-bf97-4bc6-82b6-cdccf728f364", 
@@ -1224,8 +1235,8 @@
       "6dc7d666-03e7-4de9-a0a7-61cf54f63f85" : { 
          "class" : "DialogAnswerNode", 
          "desc" : { 
-            "x" : "-104129", 
-            "y" : "-94534"
+            "x" : "-104121", 
+            "y" : "-94502"
          }, 
          "child" : [ 
             "7dcb4049-be6b-4d9d-89ff-1f0c77dc3045"
@@ -1422,8 +1433,8 @@
       "1cf94988-920b-4534-8140-fe6336965da0" : { 
          "class" : "QuestStatusNode", 
          "desc" : { 
-            "x" : "-100984", 
-            "y" : "-101071"
+            "x" : "-101101", 
+            "y" : "-101136"
          }, 
          "child" : [ 
             "9d265938-6d2b-46e8-9978-b67a4b1efeec", 
@@ -1435,8 +1446,8 @@
       "9d265938-6d2b-46e8-9978-b67a4b1efeec" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-101403", 
-            "y" : "-100951"
+            "x" : "-101398", 
+            "y" : "-100970"
          }, 
          "child" : [ 
             "3d22b12f-a575-4cbc-858a-327de2fd0021"
@@ -1868,8 +1879,8 @@
       "2d787ac6-a376-498d-810f-357345fb9e1d" : { 
          "class" : "PlayDialogNode", 
          "desc" : { 
-            "x" : "-101423", 
-            "y" : "-101339"
+            "x" : "-101472", 
+            "y" : "-101226"
          }, 
          "child" : [ 
          ], 
