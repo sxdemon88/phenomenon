@@ -643,7 +643,7 @@
    "quests" : { 
       "ph_trade1_quest" : "[Phenomenon] Alexander, the trader, asked you to bring him fuel. 50 liters should be enough.", 
       "ph_trade2_quest" : "[Phenomenon] Bogdan, the trader, asked you for crafting resources, 50 leather and 30 furs. He has many buyers for these products.", 
-      "oksana_quest_1" : "[Phenomenon] Needs to help Oksana make a cache in the KRZ. To do this, it will need Makarov pistol 1pc, 30 rounds of 9mm, vodka 3 pieces, first aid kits 2 pieces, Stimulant 5 pieces, Conservative 10 pieces, Casparamid 10 pieces and 1000 rubles.", 
+      "oksana_quest_1" : "[Phenomenon] Needs to help Oksana make a cache in the KRZ. To do this, it will need Makarov pistol 1pc, 30 rounds of 9mm, vodka 3 pieces, first aid kits 2 pieces, Stimulant 5 pieces, Stew 10 pieces, Casparamid 10 pieces and 1000 rubles.", 
       "oksana_quest_2" : "[Phenomenon] Oksana wants to make a gift for her friend. To do this, we need to visit settlements where there are traders. We need to visit the KRZ, Peregon, Otradnoye , Fogelevka and Caravanserai", 
       "oksana_quest_3" : "[Phenomenon] Oksana came out to the customer, nicknamed the Oracle. We need to clarify its location on the basis of stalkers, in the Dead City, and then find it and eliminate it." 
    }

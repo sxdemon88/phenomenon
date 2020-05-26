@@ -8,8 +8,7 @@
          }, 
          "child" : [ 
             "254e6ec4-74b9-4596-ae55-be292928d32f", 
-            "fae27bf3-4181-45bf-b101-cabf704ca195", 
-            "f33baea5-7bd0-4c4c-b102-0a797d271f01"
+            "fae27bf3-4181-45bf-b101-cabf704ca195"
          ]
       }, 
       "254e6ec4-74b9-4596-ae55-be292928d32f" : { 
@@ -107,7 +106,8 @@
          }, 
          "child" : [ 
             "4c2b9e55-e9da-4b96-8cf2-edd1b69bf41e", 
-            "1102e0c6-0a5f-4ca0-ae64-6edc0d118280"
+            "1102e0c6-0a5f-4ca0-ae64-6edc0d118280", 
+            "f33baea5-7bd0-4c4c-b102-0a797d271f01"
          ], 
          "maxMoney" : "2000", 
          "maxGoodsToMoney" : "100", 
@@ -1901,6 +1901,73 @@
             "85ae1335-700b-4899-b35a-729773399be5"
          ]
       }, 
+      "f33baea5-7bd0-4c4c-b102-0a797d271f01" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-100057", 
+            "y" : "-100363"
+         }, 
+         "child" : [ 
+            "6205fbf6-c0ce-4c6a-8113-5db1135d7ccf", 
+            "388f2df7-e1e7-4b2f-a0c5-c4bfb84893b7"
+         ], 
+         "note_key" : "PH_MONEY_MORE_ON"
+      }, 
+      "6205fbf6-c0ce-4c6a-8113-5db1135d7ccf" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100111", 
+            "y" : "-100151"
+         }, 
+         "child" : [ 
+            "ff91202a-2c04-4d8e-aaf7-a1e8e51f2f17", 
+            "150aa66e-358c-4331-8189-75631a9375e1"
+         ]
+      }, 
+      "ff91202a-2c04-4d8e-aaf7-a1e8e51f2f17" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100174", 
+            "y" : "-100077"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Item", 
+               "count" : "5410", 
+               "proto" : "Money"
+            }
+         ], 
+         "inventoryObject" : ""
+      }, 
+      "150aa66e-358c-4331-8189-75631a9375e1" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100057", 
+            "y" : "-100077"
+         }, 
+         "child" : [ 
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Item", 
+               "count" : "11265", 
+               "proto" : "Money"
+            }
+         ], 
+         "inventoryObject" : "", 
+         "random" : "true"
+      }, 
+      "388f2df7-e1e7-4b2f-a0c5-c4bfb84893b7" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99851", 
+            "y" : "-100205"
+         }, 
+         "child" : [ 
+         ]
+      }, 
       "fae27bf3-4181-45bf-b101-cabf704ca195" : { 
          "class" : "NotebookHasNoteNode", 
          "desc" : { 
@@ -1928,73 +1995,6 @@
          "desc" : { 
             "x" : "-100411", 
             "y" : "-100588"
-         }, 
-         "child" : [ 
-         ]
-      }, 
-      "f33baea5-7bd0-4c4c-b102-0a797d271f01" : { 
-         "class" : "NotebookHasNoteNode", 
-         "desc" : { 
-            "x" : "-100177", 
-            "y" : "-100714"
-         }, 
-         "child" : [ 
-            "6205fbf6-c0ce-4c6a-8113-5db1135d7ccf", 
-            "388f2df7-e1e7-4b2f-a0c5-c4bfb84893b7"
-         ], 
-         "note_key" : "PH_MONEY_MORE_ON"
-      }, 
-      "6205fbf6-c0ce-4c6a-8113-5db1135d7ccf" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-100231", 
-            "y" : "-100502"
-         }, 
-         "child" : [ 
-            "ff91202a-2c04-4d8e-aaf7-a1e8e51f2f17", 
-            "150aa66e-358c-4331-8189-75631a9375e1"
-         ]
-      }, 
-      "ff91202a-2c04-4d8e-aaf7-a1e8e51f2f17" : { 
-         "class" : "InventorySetNode", 
-         "desc" : { 
-            "x" : "-100294", 
-            "y" : "-100428"
-         }, 
-         "child" : [ 
-         ], 
-         "inventory" : [ 
-            { 
-               "class" : "Item", 
-               "count" : "5410", 
-               "proto" : "Money"
-            }
-         ], 
-         "inventoryObject" : ""
-      }, 
-      "150aa66e-358c-4331-8189-75631a9375e1" : { 
-         "class" : "InventorySetNode", 
-         "desc" : { 
-            "x" : "-100177", 
-            "y" : "-100428"
-         }, 
-         "child" : [ 
-         ], 
-         "inventory" : [ 
-            { 
-               "class" : "Item", 
-               "count" : "11265", 
-               "proto" : "Money"
-            }
-         ], 
-         "inventoryObject" : "", 
-         "random" : "true"
-      }, 
-      "388f2df7-e1e7-4b2f-a0c5-c4bfb84893b7" : { 
-         "class" : "DummyNode", 
-         "desc" : { 
-            "x" : "-99971", 
-            "y" : "-100556"
          }, 
          "child" : [ 
          ]

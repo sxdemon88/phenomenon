@@ -1544,7 +1544,7 @@
          }, 
          "child" : [ 
             "ca8adfde-231c-4f75-821a-453d5e11a45a", 
-            "9f8eba3a-c9da-4116-965f-5db47ab3f568"
+            "714cc17f-ca35-4bdb-8984-13c60c6580b6"
          ], 
          "text" : "#ph_trader2_dia.6a965601-a1f2-45d4-8c2f-7beb79e25fda"
       }, 
@@ -1579,6 +1579,18 @@
          ], 
          "note_key" : "BOGDAN_OKSANA_DIALOG_END"
       }, 
+      "714cc17f-ca35-4bdb-8984-13c60c6580b6" : { 
+         "class" : "DialogPortraitNode", 
+         "desc" : { 
+            "x" : "-100187", 
+            "y" : "-101626"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "$SELF$", 
+         "portrait" : "Character/oksana", 
+         "mode" : "AutoName"
+      }, 
       "9f8eba3a-c9da-4116-965f-5db47ab3f568" : { 
          "class" : "DialogPortraitNode", 
          "desc" : { 
@@ -1589,18 +1601,6 @@
          ], 
          "objectName" : "$SELF$", 
          "portrait" : "Character/Ph_caravan_2", 
-         "mode" : "AutoName"
-      }, 
-      "714cc17f-ca35-4bdb-8984-13c60c6580b6" : { 
-         "class" : "DialogPortraitNode", 
-         "desc" : { 
-            "x" : "-100181", 
-            "y" : "-101663"
-         }, 
-         "child" : [ 
-         ], 
-         "objectName" : "$SELF$", 
-         "portrait" : "Character/oksana", 
          "mode" : "AutoName"
       }, 
       "6fc4b7f8-83cf-424b-bb62-a3449e11d9c5" : { 
