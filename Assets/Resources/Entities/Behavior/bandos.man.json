@@ -2009,8 +2009,8 @@
       "1a986187-2f55-44a2-8a84-5c0557d74d76" : { 
          "class" : "RandomNode", 
          "desc" : { 
-            "x" : "5762", 
-            "y" : "271", 
+            "x" : "5813", 
+            "y" : "281", 
             "comment" : "alt weapons"
          }, 
          "child" : [ 

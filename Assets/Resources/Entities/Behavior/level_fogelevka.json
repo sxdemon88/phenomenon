@@ -657,19 +657,41 @@
             "y" : "-99103"
          }, 
          "child" : [ 
-            "b24b075b-776a-4978-8e43-948e25a2cbf6"
+            "d90ec3ab-59c8-4f35-afeb-6c58d2f0645f"
          ], 
          "quest_key" : "CITYSUB.QUEST.TOFIK"
+      }, 
+      "d90ec3ab-59c8-4f35-afeb-6c58d2f0645f" : { 
+         "class" : "CharacterIsDeadNode", 
+         "desc" : { 
+            "x" : "-102050", 
+            "y" : "-99043"
+         }, 
+         "child" : [ 
+            "b24b075b-776a-4978-8e43-948e25a2cbf6", 
+            "1431d35a-86f2-457f-913a-6370d2408f9e"
+         ], 
+         "objectName" : "Fogelevka_Tofik"
       }, 
       "b24b075b-776a-4978-8e43-948e25a2cbf6" : { 
          "class" : "QuestBeginNode", 
          "desc" : { 
-            "x" : "-102034", 
-            "y" : "-99048"
+            "x" : "-102164", 
+            "y" : "-98938"
          }, 
          "child" : [ 
          ], 
          "quest_key" : "CITYSUB.QUEST.TOFIK.DIED"
+      }, 
+      "1431d35a-86f2-457f-913a-6370d2408f9e" : { 
+         "class" : "QuestBeginNode", 
+         "desc" : { 
+            "x" : "-101961", 
+            "y" : "-98939"
+         }, 
+         "child" : [ 
+         ], 
+         "quest_key" : "CITYSUB.QUEST.TOFIK.OUT"
       }, 
       "c9296c90-edf2-4e94-91f0-3697dcda23a6" : { 
          "class" : "DummyNode", 
@@ -693,11 +715,11 @@
          "class" : "PlayerLevelOutNode", 
          "desc" : { 
             "x" : "-101758", 
-            "y" : "-100448"
+            "y" : "-100447"
          }, 
          "child" : [ 
-            "c985f873-6632-44fe-8f4b-05dafc350230", 
-            "9b85fca6-33ba-45e4-a1cc-9bdd47640b1f", 
+            "22594afe-9ef0-4ac6-a741-70de3d34b1b8", 
+            "7fd4cb6b-57a9-4330-bc06-7b02a09b0fd7", 
             "59d6b7ee-a438-48f6-acb7-c80a5a42ba87", 
             "49a59da6-2c77-458a-9087-37ddebaf16de", 
             "d8b13638-637f-4c67-863f-61164a007ff8", 
@@ -706,21 +728,21 @@
             "b33e8053-a235-461a-916b-322041730dc0"
          ]
       }, 
-      "c985f873-6632-44fe-8f4b-05dafc350230" : { 
+      "22594afe-9ef0-4ac6-a741-70de3d34b1b8" : { 
          "class" : "PlayStateNode", 
          "desc" : { 
-            "x" : "-102080", 
-            "y" : "-100361"
+            "x" : "-102058", 
+            "y" : "-100431"
          }, 
          "child" : [ 
          ], 
          "script" : "Entities/Behavior/ph_trade_event"
       }, 
-      "9b85fca6-33ba-45e4-a1cc-9bdd47640b1f" : { 
+      "7fd4cb6b-57a9-4330-bc06-7b02a09b0fd7" : { 
          "class" : "PlayStateNode", 
          "desc" : { 
-            "x" : "-102075", 
-            "y" : "-100429"
+            "x" : "-102051", 
+            "y" : "-100357"
          }, 
          "child" : [ 
          ], 

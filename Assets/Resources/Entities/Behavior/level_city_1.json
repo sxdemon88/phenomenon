@@ -2245,33 +2245,23 @@
             "y" : "-101134"
          }, 
          "child" : [ 
-            "73b5c5bd-ddaa-4f72-8ce4-b2c11792596a", 
-            "41e1ce65-2da6-4816-aec9-715430641282", 
+            "3eec5e9f-2b64-4cd6-92e7-f6ce3a708a87", 
             "568d4bad-14c5-4d03-b5e4-f5c4300efe40", 
+            "cf72dd1d-7627-44b2-b383-e25c4cea6dea", 
             "c1051324-4f28-4dda-8ecd-3954da4ca06d", 
             "951a73c0-7d69-40aa-9902-d8870034c35a", 
             "a3cbec52-de18-4066-9bef-eb3fd9dd803d"
          ]
       }, 
-      "73b5c5bd-ddaa-4f72-8ce4-b2c11792596a" : { 
+      "3eec5e9f-2b64-4cd6-92e7-f6ce3a708a87" : { 
          "class" : "PlayStateNode", 
          "desc" : { 
-            "x" : "-102755", 
-            "y" : "-101217"
+            "x" : "-102694", 
+            "y" : "-101112"
          }, 
          "child" : [ 
          ], 
          "script" : "Entities/Behavior/ph_trade_event"
-      }, 
-      "41e1ce65-2da6-4816-aec9-715430641282" : { 
-         "class" : "PlayStateNode", 
-         "desc" : { 
-            "x" : "-102748", 
-            "y" : "-101152"
-         }, 
-         "child" : [ 
-         ], 
-         "script" : "Entities/Behavior/ph_trap_event"
       }, 
       "568d4bad-14c5-4d03-b5e4-f5c4300efe40" : { 
          "class" : "NotebookHasNoteNode", 
@@ -2370,6 +2360,16 @@
          }, 
          "child" : [ 
          ]
+      }, 
+      "cf72dd1d-7627-44b2-b383-e25c4cea6dea" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-102692", 
+            "y" : "-101054"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/ph_trap_event"
       }, 
       "c1051324-4f28-4dda-8ecd-3954da4ca06d" : { 
          "class" : "HasKeywordNode", 
