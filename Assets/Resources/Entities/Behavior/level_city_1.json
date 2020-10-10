@@ -254,11 +254,89 @@
             "y" : "-100174"
          }, 
          "child" : [ 
+            "616af3e2-eec6-442d-a797-9083b406a972", 
             "1aa6c358-0c09-4811-8854-7193a1b5ae59", 
             "adf9e9da-2244-4ddb-b2be-de094b1bbfb4", 
             "8215b241-afcc-4e40-b831-86241451c143", 
             "bce33aec-46bc-4bf0-ae31-a4862b4f35e4", 
             "5cf487fd-b5f1-4312-8d3f-25845db1861c"
+         ]
+      }, 
+      "616af3e2-eec6-442d-a797-9083b406a972" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-103527", 
+            "y" : "-99914", 
+            "comment" : "дубликат"
+         }, 
+         "child" : [ 
+            "062db177-7909-4485-8189-e50b15424be3", 
+            "f6125f8f-7c7b-4c99-8756-37ae52393019"
+         ], 
+         "key" : "AVRAM_FIX"
+      }, 
+      "062db177-7909-4485-8189-e50b15424be3" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103592", 
+            "y" : "-99798"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "f6125f8f-7c7b-4c99-8756-37ae52393019" : { 
+         "class" : "HasModifierNode", 
+         "desc" : { 
+            "x" : "-103471", 
+            "y" : "-99817"
+         }, 
+         "child" : [ 
+            "7cef7949-a26f-4daf-8e55-ad23216acb45", 
+            "033cf79f-63f4-4cf7-a9bc-998b34f3bfc2"
+         ], 
+         "value" : "5", 
+         "modifier" : "Level"
+      }, 
+      "7cef7949-a26f-4daf-8e55-ad23216acb45" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-103544", 
+            "y" : "-99725"
+         }, 
+         "child" : [ 
+            "0690d097-d555-4cb2-a2e5-684c39bf3214"
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Memo", 
+               "count" : "1", 
+               "proto" : "Book_2"
+            }, 
+            { 
+               "class" : "Memo", 
+               "count" : "1", 
+               "proto" : "Book_3"
+            }
+         ], 
+         "inventoryObject" : "Avram"
+      }, 
+      "0690d097-d555-4cb2-a2e5-684c39bf3214" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-103542", 
+            "y" : "-99660"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "AVRAM_FIX"
+      }, 
+      "033cf79f-63f4-4cf7-a9bc-998b34f3bfc2" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-103408", 
+            "y" : "-99724"
+         }, 
+         "child" : [ 
          ]
       }, 
       "1aa6c358-0c09-4811-8854-7193a1b5ae59" : { 
@@ -2245,23 +2323,11 @@
             "y" : "-101134"
          }, 
          "child" : [ 
-            "3eec5e9f-2b64-4cd6-92e7-f6ce3a708a87", 
             "568d4bad-14c5-4d03-b5e4-f5c4300efe40", 
-            "cf72dd1d-7627-44b2-b383-e25c4cea6dea", 
             "c1051324-4f28-4dda-8ecd-3954da4ca06d", 
             "951a73c0-7d69-40aa-9902-d8870034c35a", 
             "a3cbec52-de18-4066-9bef-eb3fd9dd803d"
          ]
-      }, 
-      "3eec5e9f-2b64-4cd6-92e7-f6ce3a708a87" : { 
-         "class" : "PlayStateNode", 
-         "desc" : { 
-            "x" : "-102694", 
-            "y" : "-101112"
-         }, 
-         "child" : [ 
-         ], 
-         "script" : "Entities/Behavior/ph_trade_event"
       }, 
       "568d4bad-14c5-4d03-b5e4-f5c4300efe40" : { 
          "class" : "NotebookHasNoteNode", 
@@ -2360,16 +2426,6 @@
          }, 
          "child" : [ 
          ]
-      }, 
-      "cf72dd1d-7627-44b2-b383-e25c4cea6dea" : { 
-         "class" : "PlayStateNode", 
-         "desc" : { 
-            "x" : "-102692", 
-            "y" : "-101054"
-         }, 
-         "child" : [ 
-         ], 
-         "script" : "Entities/Behavior/ph_trap_event"
       }, 
       "c1051324-4f28-4dda-8ecd-3954da4ca06d" : { 
          "class" : "HasKeywordNode", 

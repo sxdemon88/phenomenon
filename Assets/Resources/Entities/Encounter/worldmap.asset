@@ -27,12 +27,16 @@ MonoBehaviour:
     _enter: encounter.attack
     _showIntro: 0
     _levels:
+    - Z_1_E
     - Z_1
+    - Z_2_E
     - Z_2
+    - Z_3_E
     - Z_3
     - Z_1_Cave
     - Z_1_Mine
     - Z_1_Bunker
+    - Z_4_E
     - Z_4
     - Z_5
     - Z_6
@@ -69,12 +73,16 @@ MonoBehaviour:
     _enter: encounter.attack
     _showIntro: 0
     _levels:
+    - Z_1_E
     - Z_1
+    - Z_2_E
     - Z_2
+    - Z_3_E
     - Z_3
     - Z_1_Cave
     - Z_1_Mine
     - Z_1_Bunker
+    - Z_4_E
     - Z_4
     - Z_5
     - Z_6
@@ -111,12 +119,21 @@ MonoBehaviour:
     _enter: encounter.attack
     _showIntro: 0
     _levels:
+    - Z_1_E
     - Z_1
+    - Z_2_E
     - Z_2
+    - Z_3_E
     - Z_3
+    - Z_1_Cave
+    - Z_1_Mine
+    - Z_1_Bunker
+    - Z_4_E
     - Z_4
     - Z_5
     - Z_6
+    - Z_7
+    - Z_10
     chances:
     - _skill: 17
       _skillModify: 40
@@ -150,12 +167,16 @@ MonoBehaviour:
     _enter: encounter.attack
     _showIntro: 0
     _levels:
+    - Z_1_E
     - Z_1
+    - Z_2_E
     - Z_2
+    - Z_3_E
     - Z_3
     - Z_1_Cave
     - Z_1_Mine
     - Z_1_Bunker
+    - Z_4_E
     - Z_4
     - Z_5
     - Z_6
@@ -192,8 +213,21 @@ MonoBehaviour:
     _enter: encounter.attack
     _showIntro: 0
     _levels:
+    - Z_1_E
     - Z_1
+    - Z_2_E
+    - Z_2
+    - Z_3_E
     - Z_3
+    - Z_1_Cave
+    - Z_1_Mine
+    - Z_1_Bunker
+    - Z_4_E
+    - Z_4
+    - Z_5
+    - Z_6
+    - Z_7
+    - Z_10
     chances:
     - _skill: 17
       _skillModify: 20
@@ -225,17 +259,21 @@ MonoBehaviour:
     _enter: encounter.attack
     _showIntro: 0
     _levels:
+    - Z_1_E
     - Z_1
+    - Z_2_E
     - Z_2
+    - Z_3_E
     - Z_3
+    - Z_1_Cave
+    - Z_1_Mine
+    - Z_1_Bunker
+    - Z_4_E
     - Z_4
     - Z_5
     - Z_6
     - Z_7
     - Z_10
-    - Z_1_Cave
-    - Z_1_Mine
-    - Z_1_Bunker
     chances:
     - _skill: 17
       _skillModify: 40
@@ -267,12 +305,16 @@ MonoBehaviour:
     _enter: encounter.attack
     _showIntro: 0
     _levels:
+    - Z_1_E
     - Z_1
+    - Z_2_E
     - Z_2
+    - Z_3_E
     - Z_3
     - Z_1_Cave
     - Z_1_Mine
     - Z_1_Bunker
+    - Z_4_E
     - Z_4
     - Z_5
     - Z_6
@@ -309,13 +351,18 @@ MonoBehaviour:
     _enter: encounter.attack
     _showIntro: 0
     _levels:
+    - Z_1_E
     - Z_1
+    - Z_2_E
     - Z_2
+    - Z_3_E
     - Z_3
     - Z_1_Cave
     - Z_1_Mine
     - Z_1_Bunker
+    - Z_4_E
     - Z_4
+    - Z_5_E
     - Z_5
     - Z_6
     - Z_7
@@ -364,13 +411,18 @@ MonoBehaviour:
     _enter: encounter.attack
     _showIntro: 0
     _levels:
+    - Z_1_E
     - Z_1
+    - Z_2_E
     - Z_2
+    - Z_3_E
     - Z_3
     - Z_1_Cave
     - Z_1_Mine
     - Z_1_Bunker
+    - Z_4_E
     - Z_4
+    - Z_5_E
     - Z_5
     - Z_6
     - Z_7
@@ -419,13 +471,18 @@ MonoBehaviour:
     _enter: encounter.attack
     _showIntro: 0
     _levels:
+    - Z_1_E
     - Z_1
+    - Z_2_E
     - Z_2
+    - Z_3_E
     - Z_3
     - Z_1_Cave
     - Z_1_Mine
     - Z_1_Bunker
+    - Z_4_E
     - Z_4
+    - Z_5_E
     - Z_5
     - Z_6
     - Z_7
@@ -474,13 +531,18 @@ MonoBehaviour:
     _enter: encounter.attack
     _showIntro: 0
     _levels:
+    - Z_1_E
     - Z_1
+    - Z_2_E
     - Z_2
+    - Z_3_E
     - Z_3
     - Z_1_Cave
     - Z_1_Mine
     - Z_1_Bunker
+    - Z_4_E
     - Z_4
+    - Z_5_E
     - Z_5
     - Z_6
     - Z_7
@@ -529,13 +591,18 @@ MonoBehaviour:
     _enter: encounter.attack
     _showIntro: 0
     _levels:
+    - Z_1_E
     - Z_1
+    - Z_2_E
     - Z_2
+    - Z_3_E
     - Z_3
     - Z_1_Cave
     - Z_1_Mine
     - Z_1_Bunker
+    - Z_4_E
     - Z_4
+    - Z_5_E
     - Z_5
     - Z_6
     - Z_7
@@ -584,12 +651,16 @@ MonoBehaviour:
     _enter: encounter.attack
     _showIntro: 0
     _levels:
+    - Z_1_E
     - Z_1
+    - Z_2_E
     - Z_2
+    - Z_3_E
     - Z_3
     - Z_1_Cave
     - Z_1_Mine
     - Z_1_Bunker
+    - Z_4_E
     - Z_4
     - Z_5
     - Z_6
@@ -639,9 +710,13 @@ MonoBehaviour:
     _enter: encounter.attack
     _showIntro: 0
     _levels:
+    - Z_1_E
     - Z_1
+    - Z_2_E
     - Z_2
+    - Z_3_E
     - Z_3
+    - Z_4_E
     - Z_4
     - Z_5
     - Z_6
@@ -787,12 +862,16 @@ MonoBehaviour:
     _enter: encounter.attack
     _showIntro: 0
     _levels:
+    - Z_1_E
     - Z_1
+    - Z_2_E
     - Z_2
+    - Z_3_E
     - Z_3
     - Z_1_Cave
     - Z_1_Mine
     - Z_1_Bunker
+    - Z_4_E
     - Z_4
     - Z_5
     - Z_6
@@ -842,12 +921,16 @@ MonoBehaviour:
     _enter: encounter.attack
     _showIntro: 0
     _levels:
+    - Z_1_E
     - Z_1
+    - Z_2_E
     - Z_2
+    - Z_3_E
     - Z_3
     - Z_1_Cave
     - Z_1_Mine
     - Z_1_Bunker
+    - Z_4_E
     - Z_4
     - Z_5
     - Z_6
@@ -897,12 +980,16 @@ MonoBehaviour:
     _enter: encounter.attack
     _showIntro: 0
     _levels:
+    - Z_1_E
     - Z_1
+    - Z_2_E
     - Z_2
+    - Z_3_E
     - Z_3
     - Z_1_Cave
     - Z_1_Mine
     - Z_1_Bunker
+    - Z_4_E
     - Z_4
     - Z_5
     - Z_6
@@ -953,13 +1040,18 @@ MonoBehaviour:
     _enter: encounter.attack
     _showIntro: 0
     _levels:
+    - Z_1_E
     - Z_1
+    - Z_2_E
     - Z_2
+    - Z_3_E
     - Z_3
     - Z_1_Cave
     - Z_1_Mine
     - Z_1_Bunker
+    - Z_4_E
     - Z_4
+    - Z_5_E
     - Z_5
     - Z_6
     - Z_7
@@ -1008,13 +1100,18 @@ MonoBehaviour:
     _enter: encounter.attack
     _showIntro: 0
     _levels:
+    - Z_1_E
     - Z_1
+    - Z_2_E
     - Z_2
+    - Z_3_E
     - Z_3
     - Z_1_Cave
     - Z_1_Mine
     - Z_1_Bunker
+    - Z_4_E
     - Z_4
+    - Z_5_E
     - Z_5
     - Z_6
     - Z_7
@@ -1063,12 +1160,16 @@ MonoBehaviour:
     _enter: encounter.meet_caravan
     _showIntro: 0
     _levels:
+    - Z_1_E
     - Z_1
+    - Z_2_E
     - Z_2
+    - Z_3_E
     - Z_3
     - Z_1_Cave
     - Z_1_Mine
     - Z_1_Bunker
+    - Z_4_E
     - Z_4
     - Z_5
     - Z_6
@@ -1092,12 +1193,16 @@ MonoBehaviour:
     _enter: encounter.meet_caravan
     _showIntro: 0
     _levels:
+    - Z_1_E
     - Z_1
+    - Z_2_E
     - Z_2
+    - Z_3_E
     - Z_3
     - Z_1_Cave
     - Z_1_Mine
     - Z_1_Bunker
+    - Z_4_E
     - Z_4
     - Z_5
     - Z_6
@@ -1153,13 +1258,18 @@ MonoBehaviour:
     _enter: encounter.meet_scavenger
     _showIntro: 0
     _levels:
+    - Z_1_E
     - Z_1
+    - Z_2_E
     - Z_2
+    - Z_3_E
     - Z_3
     - Z_1_Cave
     - Z_1_Mine
     - Z_1_Bunker
+    - Z_4_E
     - Z_4
+    - Z_5_E
     - Z_5
     - Z_6
     - Z_7
@@ -1182,13 +1292,18 @@ MonoBehaviour:
     _enter: encounter.enter_raid
     _showIntro: 0
     _levels:
+    - Z_1_E
     - Z_1
+    - Z_2_E
     - Z_2
+    - Z_3_E
     - Z_3
     - Z_1_Cave
     - Z_1_Mine
     - Z_1_Bunker
+    - Z_4_E
     - Z_4
+    - Z_5_E
     - Z_5
     - Z_6
     - Z_7
@@ -1213,10 +1328,15 @@ MonoBehaviour:
     _enter: encounter.enter_sos
     _showIntro: 0
     _levels:
+    - Z_1_E
     - Z_1
+    - Z_2_E
     - Z_2
+    - Z_3_E
     - Z_3
+    - Z_4_E
     - Z_4
+    - Z_5_E
     - Z_5
     - Z_6
     - Z_7
@@ -1239,10 +1359,15 @@ MonoBehaviour:
     _enter: encounter.enter_sos
     _showIntro: 0
     _levels:
+    - Z_1_E
     - Z_1
+    - Z_2_E
     - Z_2
+    - Z_3_E
     - Z_3
+    - Z_4_E
     - Z_4
+    - Z_5_E
     - Z_5
     - Z_6
     - Z_7
@@ -1443,10 +1568,15 @@ MonoBehaviour:
     _enter: encounter.attack
     _showIntro: 0
     _levels:
+    - Z_1_E
     - Z_1
+    - Z_2_E
     - Z_2
+    - Z_3_E
     - Z_3
+    - Z_4_E
     - Z_4
+    - Z_5_E
     - Z_5
     - Z_5
     - Z_1_Cave
@@ -1511,9 +1641,13 @@ MonoBehaviour:
     _enter: encounter.attack
     _showIntro: 0
     _levels:
+    - Z_1_E
     - Z_1
+    - Z_2_E
     - Z_2
+    - Z_3_E
     - Z_3
+    - Z_4_E
     - Z_4
     - Z_5
     - Z_5
@@ -1564,9 +1698,13 @@ MonoBehaviour:
     _enter: encounter.attack
     _showIntro: 0
     _levels:
+    - Z_1_E
     - Z_1
+    - Z_2_E
     - Z_2
+    - Z_3_E
     - Z_3
+    - Z_4_E
     - Z_4
     - Z_5
     - Z_5
@@ -1636,6 +1774,7 @@ MonoBehaviour:
     _enter: encounter.check
     _showIntro: 0
     _levels:
+    - Z_3_E
     - Z_3
     chances: []
     _requirements: []
@@ -1674,10 +1813,15 @@ MonoBehaviour:
     _enter: encounter.attack
     _showIntro: 0
     _levels:
+    - Z_1_E
     - Z_1
+    - Z_2_E
     - Z_2
+    - Z_3_E
     - Z_3
+    - Z_4_E
     - Z_4
+    - Z_5_E
     - Z_5
     - Z_5
     - Z_1_Cave
@@ -1727,10 +1871,15 @@ MonoBehaviour:
     _enter: encounter.attack
     _showIntro: 0
     _levels:
+    - Z_1_E
     - Z_1
+    - Z_2_E
     - Z_2
+    - Z_3_E
     - Z_3
+    - Z_4_E
     - Z_4
+    - Z_5_E
     - Z_5
     - Z_6
     - Z_7
@@ -1782,10 +1931,15 @@ MonoBehaviour:
     _enter: encounter.attack
     _showIntro: 0
     _levels:
+    - Z_1_E
     - Z_1
+    - Z_2_E
     - Z_2
+    - Z_3_E
     - Z_3
+    - Z_4_E
     - Z_4
+    - Z_5_E
     - Z_5
     - Z_6
     - Z_7
@@ -1837,17 +1991,21 @@ MonoBehaviour:
     _enter: encounter.attack
     _showIntro: 0
     _levels:
+    - Z_1_E
     - Z_1
+    - Z_2_E
     - Z_2
+    - Z_3_E
     - Z_3
+    - Z_1_Cave
+    - Z_1_Mine
+    - Z_1_Bunker
+    - Z_4_E
     - Z_4
     - Z_5
     - Z_6
     - Z_7
     - Z_10
-    - Z_1_Cave
-    - Z_1_Mine
-    - Z_1_Bunker
     chances:
     - _skill: 17
       _skillModify: -40
@@ -1879,17 +2037,21 @@ MonoBehaviour:
     _enter: encounter.attack
     _showIntro: 0
     _levels:
+    - Z_1_E
     - Z_1
+    - Z_2_E
     - Z_2
+    - Z_3_E
     - Z_3
+    - Z_1_Cave
+    - Z_1_Mine
+    - Z_1_Bunker
+    - Z_4_E
     - Z_4
     - Z_5
     - Z_6
     - Z_7
     - Z_10
-    - Z_1_Cave
-    - Z_1_Mine
-    - Z_1_Bunker
     chances:
     - _skill: 17
       _skillModify: -40
@@ -1921,17 +2083,21 @@ MonoBehaviour:
     _enter: encounter.attack
     _showIntro: 0
     _levels:
+    - Z_1_E
     - Z_1
+    - Z_2_E
     - Z_2
+    - Z_3_E
     - Z_3
+    - Z_1_Cave
+    - Z_1_Mine
+    - Z_1_Bunker
+    - Z_4_E
     - Z_4
     - Z_5
     - Z_6
     - Z_7
     - Z_10
-    - Z_1_Cave
-    - Z_1_Mine
-    - Z_1_Bunker
     chances:
     - _skill: 17
       _skillModify: -40
@@ -1963,17 +2129,21 @@ MonoBehaviour:
     _enter: encounter.attack
     _showIntro: 0
     _levels:
+    - Z_1_E
     - Z_1
+    - Z_2_E
     - Z_2
+    - Z_3_E
     - Z_3
+    - Z_1_Cave
+    - Z_1_Mine
+    - Z_1_Bunker
+    - Z_4_E
     - Z_4
     - Z_5
     - Z_6
     - Z_7
     - Z_10
-    - Z_1_Cave
-    - Z_1_Mine
-    - Z_1_Bunker
     chances:
     - _skill: 17
       _skillModify: -50
@@ -2101,17 +2271,21 @@ MonoBehaviour:
     _enter: encounter.enter_raid
     _showIntro: 0
     _levels:
-    - Z_7
+    - Z_1_E
     - Z_1
+    - Z_2_E
     - Z_2
+    - Z_3_E
     - Z_3
-    - Z_4
-    - Z_5
-    - Z_6
-    - Z_10
     - Z_1_Cave
     - Z_1_Mine
     - Z_1_Bunker
+    - Z_4_E
+    - Z_4
+    - Z_5
+    - Z_6
+    - Z_7
+    - Z_10
     chances: []
     _requirements: []
     _requirementsEx: []
@@ -2130,17 +2304,21 @@ MonoBehaviour:
     _enter: encounter.enter_raid
     _showIntro: 0
     _levels:
-    - Z_7
+    - Z_1_E
     - Z_1
+    - Z_2_E
     - Z_2
+    - Z_3_E
     - Z_3
-    - Z_4
-    - Z_5
-    - Z_6
-    - Z_10
     - Z_1_Cave
     - Z_1_Mine
     - Z_1_Bunker
+    - Z_4_E
+    - Z_4
+    - Z_5
+    - Z_6
+    - Z_7
+    - Z_10
     chances: []
     _requirements: []
     _requirementsEx: []
@@ -2159,17 +2337,21 @@ MonoBehaviour:
     _enter: encounter.enter_raid
     _showIntro: 0
     _levels:
-    - Z_7
+    - Z_1_E
     - Z_1
+    - Z_2_E
     - Z_2
+    - Z_3_E
     - Z_3
-    - Z_4
-    - Z_5
-    - Z_6
-    - Z_10
     - Z_1_Cave
     - Z_1_Mine
     - Z_1_Bunker
+    - Z_4_E
+    - Z_4
+    - Z_5
+    - Z_6
+    - Z_7
+    - Z_10
     chances: []
     _requirements: []
     _requirementsEx: []
@@ -2188,17 +2370,21 @@ MonoBehaviour:
     _enter: encounter.enter_raid
     _showIntro: 0
     _levels:
-    - Z_7
+    - Z_1_E
     - Z_1
+    - Z_2_E
     - Z_2
+    - Z_3_E
     - Z_3
-    - Z_4
-    - Z_5
-    - Z_6
-    - Z_10
     - Z_1_Cave
     - Z_1_Mine
     - Z_1_Bunker
+    - Z_4_E
+    - Z_4
+    - Z_5
+    - Z_6
+    - Z_7
+    - Z_10
     chances: []
     _requirements: []
     _requirementsEx: []
@@ -2217,17 +2403,21 @@ MonoBehaviour:
     _enter: encounter.enter_help
     _showIntro: 0
     _levels:
-    - Z_7
+    - Z_1_E
     - Z_1
+    - Z_2_E
     - Z_2
+    - Z_3_E
     - Z_3
-    - Z_4
-    - Z_5
-    - Z_6
-    - Z_10
     - Z_1_Cave
     - Z_1_Mine
     - Z_1_Bunker
+    - Z_4_E
+    - Z_4
+    - Z_5
+    - Z_6
+    - Z_7
+    - Z_10
     chances: []
     _requirements: []
     _requirementsEx: []
@@ -2246,17 +2436,21 @@ MonoBehaviour:
     _enter: encounter.enter_raid
     _showIntro: 0
     _levels:
-    - Z_7
+    - Z_1_E
     - Z_1
+    - Z_2_E
     - Z_2
+    - Z_3_E
     - Z_3
-    - Z_4
-    - Z_5
-    - Z_6
-    - Z_10
     - Z_1_Cave
     - Z_1_Mine
     - Z_1_Bunker
+    - Z_4_E
+    - Z_4
+    - Z_5
+    - Z_6
+    - Z_7
+    - Z_10
     chances: []
     _requirements: []
     _requirementsEx: []
@@ -2275,17 +2469,21 @@ MonoBehaviour:
     _enter: encounter.enter_raid
     _showIntro: 0
     _levels:
-    - Z_7
+    - Z_1_E
     - Z_1
+    - Z_2_E
     - Z_2
+    - Z_3_E
     - Z_3
-    - Z_4
-    - Z_5
-    - Z_6
-    - Z_10
     - Z_1_Cave
     - Z_1_Mine
     - Z_1_Bunker
+    - Z_4_E
+    - Z_4
+    - Z_5
+    - Z_6
+    - Z_7
+    - Z_10
     chances: []
     _requirements: []
     _requirementsEx: []
@@ -2304,17 +2502,21 @@ MonoBehaviour:
     _enter: encounter.enter_help
     _showIntro: 0
     _levels:
-    - Z_7
+    - Z_1_E
     - Z_1
+    - Z_2_E
     - Z_2
+    - Z_3_E
     - Z_3
-    - Z_4
-    - Z_5
-    - Z_6
-    - Z_10
     - Z_1_Cave
     - Z_1_Mine
     - Z_1_Bunker
+    - Z_4_E
+    - Z_4
+    - Z_5
+    - Z_6
+    - Z_7
+    - Z_10
     chances: []
     _requirements: []
     _requirementsEx: []
@@ -2333,17 +2535,21 @@ MonoBehaviour:
     _enter: encounter.attack
     _showIntro: 0
     _levels:
-    - Z_7
+    - Z_1_E
     - Z_1
+    - Z_2_E
     - Z_2
+    - Z_3_E
     - Z_3
-    - Z_4
-    - Z_5
-    - Z_6
-    - Z_10
     - Z_1_Cave
     - Z_1_Mine
     - Z_1_Bunker
+    - Z_4_E
+    - Z_4
+    - Z_5
+    - Z_6
+    - Z_7
+    - Z_10
     chances:
     - _skill: 17
       _skillModify: -80
@@ -2377,17 +2583,21 @@ MonoBehaviour:
     _enter: encounter.enter_raid
     _showIntro: 0
     _levels:
-    - Z_7
+    - Z_1_E
     - Z_1
+    - Z_2_E
     - Z_2
+    - Z_3_E
     - Z_3
-    - Z_4
-    - Z_5
-    - Z_6
-    - Z_10
     - Z_1_Cave
     - Z_1_Mine
     - Z_1_Bunker
+    - Z_4_E
+    - Z_4
+    - Z_5
+    - Z_6
+    - Z_7
+    - Z_10
     chances:
     - _skill: 17
       _skillModify: -80
@@ -2421,17 +2631,21 @@ MonoBehaviour:
     _enter: encounter.attack
     _showIntro: 0
     _levels:
-    - Z_7
+    - Z_1_E
     - Z_1
+    - Z_2_E
     - Z_2
+    - Z_3_E
     - Z_3
-    - Z_4
-    - Z_5
-    - Z_6
-    - Z_10
     - Z_1_Cave
     - Z_1_Mine
     - Z_1_Bunker
+    - Z_4_E
+    - Z_4
+    - Z_5
+    - Z_6
+    - Z_7
+    - Z_10
     chances:
     - _skill: 17
       _skillModify: -70
@@ -2465,17 +2679,21 @@ MonoBehaviour:
     _enter: encounter.attack
     _showIntro: 0
     _levels:
-    - Z_7
+    - Z_1_E
     - Z_1
+    - Z_2_E
     - Z_2
+    - Z_3_E
     - Z_3
-    - Z_4
-    - Z_5
-    - Z_6
-    - Z_10
     - Z_1_Cave
     - Z_1_Mine
     - Z_1_Bunker
+    - Z_4_E
+    - Z_4
+    - Z_5
+    - Z_6
+    - Z_7
+    - Z_10
     chances:
     - _skill: 17
       _skillModify: -50
@@ -2563,17 +2781,21 @@ MonoBehaviour:
     _enter: encounter.enter_help
     _showIntro: 0
     _levels:
-    - Z_7
+    - Z_1_E
     - Z_1
+    - Z_2_E
     - Z_2
+    - Z_3_E
     - Z_3
-    - Z_4
-    - Z_5
-    - Z_6
-    - Z_10
     - Z_1_Cave
     - Z_1_Mine
     - Z_1_Bunker
+    - Z_4_E
+    - Z_4
+    - Z_5
+    - Z_6
+    - Z_7
+    - Z_10
     chances: []
     _requirements: []
     _requirementsEx: []
@@ -2592,17 +2814,21 @@ MonoBehaviour:
     _enter: encounter.attack
     _showIntro: 0
     _levels:
-    - Z_7
+    - Z_1_E
     - Z_1
+    - Z_2_E
     - Z_2
+    - Z_3_E
     - Z_3
-    - Z_4
-    - Z_5
-    - Z_6
-    - Z_10
     - Z_1_Cave
     - Z_1_Mine
     - Z_1_Bunker
+    - Z_4_E
+    - Z_4
+    - Z_5
+    - Z_6
+    - Z_7
+    - Z_10
     chances:
     - _skill: 17
       _skillModify: -50
@@ -2680,17 +2906,21 @@ MonoBehaviour:
     _enter: encounter.enter_help
     _showIntro: 0
     _levels:
-    - Z_7
+    - Z_1_E
     - Z_1
+    - Z_2_E
     - Z_2
+    - Z_3_E
     - Z_3
-    - Z_4
-    - Z_5
-    - Z_6
-    - Z_10
     - Z_1_Cave
     - Z_1_Mine
     - Z_1_Bunker
+    - Z_4_E
+    - Z_4
+    - Z_5
+    - Z_6
+    - Z_7
+    - Z_10
     chances: []
     _requirements: []
     _requirementsEx: []
@@ -2753,6 +2983,29 @@ MonoBehaviour:
     - _type: 39
       _value: 8
     _requirementsEx: []
+    _weatherCondition: 0
+  - _chance: 250
+    _type: PumpkinHead2020
+    _period: 0
+    _trigger: 
+    _triggerInvert: 0
+    _triggerReset: 0
+    _canSkip: 1
+    _canAttack: 0
+    _once: 1
+    _icon: {fileID: 21300000, guid: 46367f1b80f4d4446869b25479685f12, type: 3}
+    _desc: encounter.pumpkin
+    _enter: encounter.gobattle
+    _showIntro: 0
+    _levels:
+    - Z_Pumpkin
+    chances: []
+    _requirements:
+    - _type: 39
+      _value: 10
+    _requirementsEx:
+    - _type: 2
+      value: Pumpkin
     _weatherCondition: 0
   camping:
     _levels:

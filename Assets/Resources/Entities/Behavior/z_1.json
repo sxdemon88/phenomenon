@@ -52,19 +52,20 @@
             "y" : "-101676"
          }, 
          "child" : [ 
-            "ce82aca2-2078-4cff-a39f-9e294b3a57e8", 
+            "3d2895d9-8a90-4a71-a929-59261c4dc3c1", 
             "17954121-7c31-4c6a-b239-accc1623eb8c", 
             "775f50c5-7275-4871-bca2-057474ff38ad", 
             "0b83ae8a-e579-49af-a7cb-918135f1e072", 
             "fe443c50-6282-4826-8022-e8c5750c90eb", 
-            "96c2c3c4-513a-4522-9355-f7839270374e"
+            "96c2c3c4-513a-4522-9355-f7839270374e", 
+            "fcdb1b19-d591-4d35-bac8-39c363da75b1"
          ]
       }, 
-      "ce82aca2-2078-4cff-a39f-9e294b3a57e8" : { 
+      "3d2895d9-8a90-4a71-a929-59261c4dc3c1" : { 
          "class" : "PlayStateNode", 
          "desc" : { 
-            "x" : "-102666", 
-            "y" : "-101604"
+            "x" : "-102650", 
+            "y" : "-101565"
          }, 
          "child" : [ 
          ], 
@@ -557,6 +558,60 @@
          "child" : [ 
          ]
       }, 
+      "fcdb1b19-d591-4d35-bac8-39c363da75b1" : { 
+         "class" : "NotebookRemoveNoteNode", 
+         "desc" : { 
+            "x" : "-101823", 
+            "y" : "-101596"
+         }, 
+         "child" : [ 
+            "1bb8775c-428a-4d0c-bd19-b21a7f5f67de"
+         ], 
+         "note_key" : "ENCOUNTER.PATROL"
+      }, 
+      "1bb8775c-428a-4d0c-bd19-b21a7f5f67de" : { 
+         "class" : "NotebookRemoveNoteNode", 
+         "desc" : { 
+            "x" : "-101829", 
+            "y" : "-101461"
+         }, 
+         "child" : [ 
+            "2e8eeb38-b7f4-48fc-ac67-ade7744d9f33"
+         ], 
+         "note_key" : "ENCOUNTER.PATROL.1"
+      }, 
+      "2e8eeb38-b7f4-48fc-ac67-ade7744d9f33" : { 
+         "class" : "NotebookRemoveNoteNode", 
+         "desc" : { 
+            "x" : "-101822", 
+            "y" : "-101393"
+         }, 
+         "child" : [ 
+            "11d17f89-8ebd-420d-a183-cc2e9e50dec1"
+         ], 
+         "note_key" : "ENCOUNTER.PATROL.2"
+      }, 
+      "11d17f89-8ebd-420d-a183-cc2e9e50dec1" : { 
+         "class" : "NotebookRemoveNoteNode", 
+         "desc" : { 
+            "x" : "-101822", 
+            "y" : "-101323"
+         }, 
+         "child" : [ 
+            "02788da9-20ec-4bbd-addb-caf9167d5a75"
+         ], 
+         "note_key" : "ENCOUNTER.PATROL.3"
+      }, 
+      "02788da9-20ec-4bbd-addb-caf9167d5a75" : { 
+         "class" : "NotebookRemoveNoteNode", 
+         "desc" : { 
+            "x" : "-101820", 
+            "y" : "-101263"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "ENCOUNTER.PATROL.4"
+      }, 
       "a6d7efc1-33a4-484d-804c-b7b9e8bbf4f0" : { 
          "class" : "HasKeywordNode", 
          "desc" : { 
@@ -807,12 +862,12 @@
       "2b3e79be-aff2-4f4b-8816-23f6121d0d6f" : { 
          "class" : "PlayStateNode", 
          "desc" : { 
-            "x" : "-100914", 
-            "y" : "-100103"
+            "x" : "-100908", 
+            "y" : "-100112"
          }, 
          "child" : [ 
          ], 
-         "script" : "entities/behavior/z_z_rats"
+         "script" : "Entities/Behavior/Z_Z_Rats"
       }, 
       "370385de-beb0-432c-938c-f5133c8fc879" : { 
          "class" : "RandomNode", 
@@ -2270,7 +2325,8 @@
             "97166265-1118-4fa8-8c91-bea3064f4de4", 
             "a313f832-e9a0-401c-a845-c9b916e15c6c", 
             "b9596793-38d9-410e-bea5-e584f341718d", 
-            "e6335ef3-2dc3-4014-92fe-9711eb468c08"
+            "e6335ef3-2dc3-4014-92fe-9711eb468c08", 
+            "6ba21cf4-7f88-4adb-96fd-fa03ad72dab2"
          ]
       }, 
       "9d6b4c6c-d2fd-432f-97e2-acd7656ed9dd" : { 
@@ -2546,11 +2602,11 @@
       "d8820f5f-ea1c-40c4-ad89-151da60bf624" : { 
          "class" : "DummyNode", 
          "desc" : { 
-            "x" : "-100618", 
-            "y" : "-100441"
+            "x" : "-100661", 
+            "y" : "-100472"
          }, 
          "child" : [ 
-            "2d497fc4-f8d1-402d-9ad6-eba8d6c41619", 
+            "a5e72fb3-e527-4b64-8974-3a230d872f37", 
             "1d39fdb0-e88c-4614-9fc1-01673172a09c", 
             "f195cdac-0db8-485e-bdde-e812510c3b59", 
             "acf9068e-5600-49a8-8d30-17ea0ee544d8", 
@@ -2595,11 +2651,11 @@
             "9d5c8004-57e0-4430-8695-2fa68ad2a847"
          ]
       }, 
-      "2d497fc4-f8d1-402d-9ad6-eba8d6c41619" : { 
+      "a5e72fb3-e527-4b64-8974-3a230d872f37" : { 
          "class" : "PlayStateNode", 
          "desc" : { 
-            "x" : "-100808", 
-            "y" : "-100284"
+            "x" : "-100789", 
+            "y" : "-100345"
          }, 
          "child" : [ 
          ], 
@@ -4406,9 +4462,20 @@
             "y" : "-100358"
          }, 
          "child" : [ 
+            "1350ecd3-ae0b-4a28-be40-023689d5b596", 
             "4addb208-fe90-4a0b-b326-221fbbb1d0db"
          ], 
          "encType" : "Scavenger"
+      }, 
+      "1350ecd3-ae0b-4a28-be40-023689d5b596" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-100809", 
+            "y" : "-100030"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "GEN_LEVEL_LOOT_MIN"
       }, 
       "4addb208-fe90-4a0b-b326-221fbbb1d0db" : { 
          "class" : "PlayStateNode", 
@@ -5829,10 +5896,21 @@
             "y" : "-100359"
          }, 
          "child" : [ 
+            "15a820e5-8e98-4bad-8e69-5dd141eab56e", 
             "9448fa43-89e4-41c8-9c56-0b43ec130514", 
             "62c9cc16-d0a8-4b04-9c32-f7c7abd5a147"
          ], 
          "encType" : "Wolfs"
+      }, 
+      "15a820e5-8e98-4bad-8e69-5dd141eab56e" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-100281", 
+            "y" : "-100298"
+         }, 
+         "child" : [ 
+         ], 
+         "key" : "GEN_LEVEL_LOOT_CORPSES"
       }, 
       "c215305d-2758-4e28-b961-20da1ce7baff" : { 
          "class" : "EncounterTypeNode", 
@@ -6011,6 +6089,7 @@
             "y" : "-100129"
          }, 
          "child" : [ 
+            "1350ecd3-ae0b-4a28-be40-023689d5b596", 
             "dfa805a4-db08-4e56-bda2-fd71822475c3"
          ], 
          "encType" : "Caravan"
@@ -6032,6 +6111,7 @@
             "y" : "-100148"
          }, 
          "child" : [ 
+            "1350ecd3-ae0b-4a28-be40-023689d5b596", 
             "4a14ce7e-6d17-4660-a93c-1e8a04e4261d"
          ], 
          "encType" : "Caravan_2"
@@ -6468,8 +6548,8 @@
       "ff228082-6196-4149-809b-5028a294616b" : { 
          "class" : "EncounterTypeNode", 
          "desc" : { 
-            "x" : "-98839", 
-            "y" : "-100189"
+            "x" : "-98840", 
+            "y" : "-100190"
          }, 
          "child" : [ 
             "d0552034-ea5f-401f-a4ca-cfa9ddc0176c"
@@ -7447,6 +7527,37 @@
          "child" : [ 
          ], 
          "key" : "Random_seed_levelgen"
+      }, 
+      "6ba21cf4-7f88-4adb-96fd-fa03ad72dab2" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100188", 
+            "y" : "-101044"
+         }, 
+         "child" : [ 
+            "f30129fc-b1a3-470f-ac2d-9bcc58549b85", 
+            "3f02cd19-17c4-4c83-b59f-4c1808b70461"
+         ], 
+         "key" : "LOOT_GENERATOR"
+      }, 
+      "f30129fc-b1a3-470f-ac2d-9bcc58549b85" : { 
+         "class" : "PlayStateNode", 
+         "desc" : { 
+            "x" : "-100280", 
+            "y" : "-100925"
+         }, 
+         "child" : [ 
+         ], 
+         "script" : "Entities/Behavior/Level_loot"
+      }, 
+      "3f02cd19-17c4-4c83-b59f-4c1808b70461" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100023", 
+            "y" : "-100911"
+         }, 
+         "child" : [ 
+         ]
       }, 
       "1ae1b538-3c51-48ed-9fb8-938151024ab4" : { 
          "class" : "HasKeywordNode", 
