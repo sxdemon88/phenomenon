@@ -93,7 +93,7 @@
       "d4cc61f6-f15c-4c94-8f51-f2287c40f936" : "Listening", 
       "0ecd2098-72b0-4015-8ba1-e5ac515bcef0" : "And then where are you planning to go?", 
       "1fd8c589-604a-448e-8956-fd5944ff25fc" : "We plan to visit local large settlements. And then, with whom the union plans transactions are planned, there will be a meeting with those.", 
-      "29088504-d129-4a47-bb4a-b275de6f6ed9" : "Wow! Where did they get such a device? Nowadays, you rarely see a "shishiga", pre-war, and even on the go. [Nod at /\"Gaz-66/\"]", 
+      "29088504-d129-4a47-bb4a-b275de6f6ed9" : "Wow! Where did they get such a device? Nowadays, you rarely see a shishiga, pre-war, and even on the go. [Nod at /\"Gaz-66/\"]", 
       "0b079f03-fcc4-4c26-b2ef-4af0d72d7dcc" : "Where he took, there is no longer. [Smirks, lighting a cigarette]", 
       "34c9be08-9d2b-4756-8fe9-bd4ce372b0fe" : "Come on already, tell me at least something. Interestingly, such a device is rarely seen.", 
       "51dd2e17-343a-4130-af44-c87e31a0bb5e" : "Aw, okay. Why pull a cat for a causal place? The union drove. There, their restored equipment is well worth it.", 
@@ -472,7 +472,9 @@
     "bdfcf689-4d05-4592-aa8a-d866542c0b21": "Oh, that cloud is like a... Hmm...",
     "9e6fa57b-1933-4b6e-a5bd-f4cfa38f2a76": "Ha-ha-ha, funny story",
     "2b00bc89-b186-40f8-b473-5bb7b6934564": "And here's another joke about your mom...",
-    "f20848e5-c7d9-4b84-8270-39e2861ed365": "Boys, look around."
+    "f20848e5-c7d9-4b84-8270-39e2861ed365": "Boys, look around.",
+"713a8af9-f14f-4aa6-a00b-124029808aa9" : "О, кого я вижу! Оксана!", 
+      "2a157602-5a46-4560-bdd5-e825bd1e3085" : "Саша? Это ты?"
    }, 
    "ph_trade1_diss" : { 
    }, 
@@ -494,7 +496,9 @@
     "c1fa7c3f-0230-48e6-8faa-7e1084c687df": "*sings* There is a house in New Orleans... They call the Rising Sun...",
     "bdfcf689-4d05-4592-aa8a-d866542c0b21": "*sings* It's been the ruin of many a poor girl... And me, O God, for one.",
     "9e6fa57b-1933-4b6e-a5bd-f4cfa38f2a76": "I gotta pee...",
-    "2b00bc89-b186-40f8-b473-5bb7b6934564": "*writes down something in the old yellow notebook*"
+    "2b00bc89-b186-40f8-b473-5bb7b6934564": "*writes down something in the old yellow notebook*",
+"3aa283ef-ced3-4012-99c1-1daff723e01f" : "Какая милая девушка у вас в отряде!", 
+      "ccf04be2-45e3-4c4e-a0a2-328c74c1b692" : "Я где-то её уже встречал..."
    }, 
    "ph_trade_dead" : { 
    }, 
