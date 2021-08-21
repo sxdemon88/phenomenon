@@ -24,5 +24,5 @@ MonoBehaviour:
   ArmorMod: 0
   ResistanceMod: 45
   DamageMod: 0.45
-  Bullet: 5
-  Dispersion: 3
+  Bullet: 6
+  Dispersion: 2
