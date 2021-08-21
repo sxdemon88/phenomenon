@@ -1,0 +1,650 @@
+{ 
+   "ammo" : { 
+      "energy" : { 
+         "short" : "Disparo", 
+         "full" : "Disparo"
+      }, 
+      "12_craft" : { 
+         "short" : "12g balas (Disparo)", 
+         "label" : "12g (Disparo)", 
+         "full" : "Cartuchos de producción local.\n[Penalización por daño de arma 30%]"
+      }, 
+      "14_5mm_craft" : { 
+         "short" : "14.5mm balas", 
+         "label" : "14.5mm",
+		 "full" : "Cartuchos de producción local.\n[Penalización por daño de arma 30%]"
+      }, 
+      "307cal_craft" : { 
+         "short" : ".30 balas", 
+         "label" : ".30",
+		 "full" : "Munición local.\n[Penalización por daño de arma 30%]"
+      }, 
+      "356cal_craft" : { 
+         "short" : "9x39mm Munición", 
+         "label" : "9x39mm",
+		 "full" : "Cartuchos de producción local.\n[Penalización por daño de arma 30%]"
+      }, 
+      "357_ap" : { 
+         "short" : ".357 Magnum Munición (AP)",
+		 "label" : "9x33 mm R (AP)",
+         "full" : "El cartucho giratorio americano de alta potencia, creada por Smith & Wesson en 1934."
+      }, 
+      "357_jhp" : { 
+         "short" : ".357 Magnum Munición",
+		 "label" : "9x33 mm R",
+         "full" : "El cartucho giratorio americano de alta potencia, creada por Smith & Wesson en 1934."
+      }, 
+      "45 acp_ap" : { 
+         "short" : ".45 ACP Munición (AP)",
+		 "label" : "11,43x23 mm (AP)",
+         "full" : "Un cartucho unitario de pistola americana con un casquillo cilíndrico, desarrollado en 1904."
+      }, 
+      "45 acp_jhp" : { 
+         "short" : ".45 ACP Munición",
+		 "label" : "11,43x23 mm ",
+         "full" : "Un cartucho unitario de pistola americana con un casquillo cilíndrico, desarrollado en 1904."
+      },
+      "5_45craft" : { 
+         "short" : "5.45mm balas", 
+         "label" : "5.45mm",
+		 "full" : "Cartuchos de producción local.\n[Penalización por daño de arma 30%]"
+      }, 
+      "5_56mm_ap" : { 
+         "short" : "5.56 mm Munición(AP)",
+		 "label" : "5,56 mm (AP)",
+         "full" : "Un cartucho intermedio de bajo pulso con un casquillo de botella sin rebordes adoptado por los países de la OTAN en la década de 1980."
+      }, 
+      "5_56mm_jhp" : { 
+         "short" : "5.56 mm Munición(AP)",
+		 "label" : "5,56 mm (AP)",
+         "full" : "Un cartucho intermedio de bajo pulso con un casquillo de botella sin rebordes adoptado por los países de la OTAN en la década de 1980."
+      },
+      "7_62mm_craft" : { 
+         "short" : "7.62×39mm balas", 
+         "label" : "7.62×39mm",
+		 "full" : "Cartuchos de producción local.\n[Penalización por daño de arma 30%]"
+      },
+      "7mm_54r_craft" : { 
+         "short" : "7.62×54mmR balas", 
+         "label" : "7.62×54mmR",
+		 "full" : "Cartuchos de producción local.\n[Penalización por daño de arma 30%]"
+      },
+      "9mm_craft" : { 
+         "short" : "9mm balas", 
+         "label" : "9mm",
+		 "full" : "Cartuchos de producción local.\n[Penalización por daño de arma 30%]"
+      }
+   }, 
+   "character" : { 
+      "ant10" : { 
+         "short" : "Myrmica Soldado", 
+         "full" : "Myrmica Soldado "
+      }, 
+      "ant5" : { 
+         "short" : "Trabajador de Myrmica ", 
+         "full" : "Trabajador de Myrmica "
+      }, 
+      "bear_10" : { 
+         "short" : "Oso mutante", 
+         "full" : "Oso mutante"
+      }, 
+      "bear_20" : { 
+         "short" : "Oso adulto", 
+         "full" : "Oso adulto"
+      }, 
+      "bear_5" : { 
+         "short" : "Oso joven", 
+         "full" : "Oso joven"
+      }, 
+      "bumblebee10" : { 
+         "short" : "Soldado Scoliidae", 
+         "full" : "Soldado Scoliidae"
+      }, 
+      "bumblebee5" : { 
+         "short" : "Scoliidae mutados", 
+         "full" : "Scoliidae mutados"
+      }, 
+      "deinodonte20" : { 
+         "short" : "Morlock adulto", 
+         "full" : "Morlock adulto"
+      }, 
+      "devourer20" : { 
+         "short" : "Horror a ciegas", 
+         "full" : "Horror a ciegas"
+      }, 
+      "spider_big5" : { 
+         "short" : "Araña ágil", 
+         "full" : "Araña ágil"
+      }, 
+      "farmer1" : { 
+         "short" : "Agricultor", 
+         "full" : "Agricultor"
+      }, 
+      "big_giantrat_rad" : { 
+         "short" : "Enorme rata mutante", 
+         "full" : "Enorme rata mutante"
+      }, 
+      "lacodon10" : { 
+         "short" : "Malvada Raíz de Sangre", 
+         "full" : "Malvada Raíz de Sangre"
+      }, 
+      "lacodon5" : { 
+         "short" : "Raíz de sangre rápida", 
+         "full" : "Raíz de sangre rápida"
+      }, 
+      "lizard20" : { 
+         "short" : "Demonio peligroso", 
+         "full" : "Demonio peligroso"
+      }, 
+      "lizard_small20" : { 
+         "short" : "Demonio mutante", 
+         "full" : "Demonio mutante"
+      }, 
+      "mole_10" : { 
+         "short" : "Bicho mutante", 
+         "full" : "Bicho mutante"
+      }, 
+      "moleking_20" : { 
+         "short" : "Reina Mutante", 
+         "full" : "Reina Mutante"
+      }, 
+      "ph_bandit" : { 
+         "short" : "Bandido", 
+         "full" : "Bandido"
+      }, 
+      "ph_bandit_14" : { 
+         "short" : "Brigand", 
+         "full" : "Brigand"
+      }, 
+      "ph_bandit_21" : { 
+         "short" : "Bandido", 
+         "full" : "Bandido"
+      }, 
+      "ph_bandit_3" : { 
+         "short" : "Gangster", 
+         "full" : "Gangster"
+      }, 
+      "ph_bandit_7" : { 
+         "short" : "Fuera de la ley", 
+         "full" : "Fuera de la ley"
+      }, 
+      "ph_caravan_1" : { 
+         "short" : "Comerciante", 
+         "full" : "Alexander"
+      }, 
+      "ph_caravan_2" : { 
+         "short" : "Comerciante", 
+         "full" : "Bogdan"
+      }, 
+      "ph_caravan_guard" : { 
+         "short" : "Guardia de caravanas", 
+         "full" : "Guardia de caravanas"
+      }, 
+      "stalker1" : { 
+         "short" : "Cazador", 
+         "full" : "Cazador"
+      }, 
+      "stalkertrader" : { 
+         "short" : "Cazador de plomo", 
+         "full" : "Cazador de plomo"
+      }, 
+      "bandit" : { 
+         "short" : "Bandido", 
+         "full" : "Bandido"
+      }, 
+      "bandit_14" : { 
+         "short" : "Bandido", 
+         "full" : "Bandido"
+      }, 
+      "bandit_21" : { 
+         "short" : "Bandido", 
+         "full" : "Bandido"
+      }, 
+      "bandit_3" : { 
+         "short" : "Bandido", 
+         "full" : "Bandido"
+      }, 
+      "bandit_7" : { 
+         "short" : "Bandido", 
+         "full" : "Bandido"
+      }, 
+      "oksana" : { 
+         "short" : "Oksana", 
+         "full" : "Oksana"
+      }, 
+      "oraculumv2" : { 
+         "short" : "Oráculo", 
+         "full" : "Oráculo"
+      }
+   }, 
+   "weapon" : { 
+      "ak47tactic" : { 
+         "short" : "AKM", 
+         "full" : "Variante modernizada del AK-47. La carcasa está hecha de acero y plástico resistente a los impactos. Entró en servicio en el ejército soviético en 1959" 
+       }, 
+      "beretta" : { 
+         "short" : "Beretta 92", 
+         "full" : "El modelo 92 fue diseñado en 1972 por Carlo Beretta, Giuseppe Mazetti y Vittorio Valle - diseño final en 1975. La pistola Beretta 92F de 9 mm sustituyó a la pistola M1911 de calibre 45 como pistola estándar del ejército estadounidense con la denominación M9." 
+      }, 
+      "crossbow1" : { 
+         "short" : "Ballesta militar", 
+         "full" : "La ballesta fue diseñada para las fuerzas especiales militares. Entregada por comerciantes de Europa." 
+      }, 
+      "crossbow2" : { 
+         "short" : "Ballesta de caza", 
+         "full" : "Esta ballesta sirve para cazar todo tipo de animales. El fabricante es desconocido." 
+      }, 
+      "dp_28" : { 
+         "short" : "DP-28", 
+         "full" : "La ametralladora Degtyaryov fue aceptada para el servicio del Ejército Rojo en 1927 con la designación oficial DP-27. Por razones que no están claras, a menudo se la llama DP-28. Es posible, ya que los soviéticos generalmente nombraban los equipos refiriéndose al primer año de uso" 
+      }, 
+      "mg3" : { 
+         "short" : "MG 3", 
+         "full" : "La MG 3 es una ametralladora alemana de uso general. La MG 3 fue estandarizada a finales de la década de 1950 y adoptada en servicio con la recién formada Bundeswehr. Los expertos artesanos la fabricaron para utilizar el popular calibre."
+      }, 
+      "mg34_lmg" : { 
+         "short" : "MG 34", 
+         "full" : "La Maschinengewehr 34, o MG 34, es una ametralladora alemana de retroceso refrigerada por aire, probada por primera vez en 1929, introducida en 1934 y entregada a las unidades en 1936. Apareció en la URSS después de la Segunda Guerra Mundial. Los expertos artesanos la fabricaron para utilizar el popular calibre."
+      }, 
+      "mp40" : { 
+         "short" : "MP 40", 
+         "full" : "El MP 40 (Maschinenpistole 40) es un subfusil desarrollado en la Alemania nazi y utilizado ampliamente por las potencias del Eje contra la URSS durante la Segunda Guerra Mundial."
+      }, 
+      "svu" : { 
+         "short" : "SVU (OTs-03)", 
+         "full" : "El OTs-03 SVU (rifle de francotirador acortado) es una configuración bullpup del rifle de francotirador SVD. El SVU fue desarrollado para satisfacer las necesidades de las fuerzas de seguridad del Ministerio del Interior ruso, como OMON"
+      }, 
+      "amd65" : { 
+         "short" : "Artesania de la Amd-65", 
+         "full" : "El AMD-65 es una variante licenciada de fabricación húngara del venerable rifle AKM. Los hábiles artesanos le quitaron la culata plegable y el modo de disparo único, y lo convirtieron en la herramienta de muerte para el combate cuerpo a cuerpo. Está adaptado para 5,45."
+      }, 
+      "amd65n" : { 
+         "short" : "Amd-65", 
+         "full" : "El AMD-65 es una variante licenciada de fabricación húngara del venerable rifle AKM. La empuñadura delantera está instalada para facilitar el disparo de ráfagas cortas y largas."
+      }, 
+      "dp_28rust" : { 
+         "short" : "DP-28 Oxidada", 
+         "full" : "Ametralladora oxidada. Tal vez sólo un desperdicio de munición, pero en manos hábiles esto puede matar a un elefante."
+      }, 
+      "fg42" : { 
+         "short" : "FG-42", 
+         "full" : "El FG 42 - fusil paracaidista 42 es un fusil automático de tiro selectivo producido en la Alemania nazi durante la Segunda Guerra Mundial. Después de la Segunda Guerra Mundial miles de FG-42 recuperados fueron llevados a la URSS. Después de la Tercera Guerra Mundial las armas fueron saqueadas por los acosadores y los Handymen rehicieron los rifles para disparar munición soviética."
+      }, 
+      "g43" : { 
+         "short" : "G-43 (Gewehr 43)", 
+         "full" : "El Gewehr 43 es un fusil semiautomático desarrollado por Alemania durante la Segunda Guerra Mundial. El G-43 es una modificación del anterior fusil Gewehr 41 con el sistema de escape cambiado, similar al del fusil soviético SVT-40. Está adaptado para el tipo de munición común."
+      }, 
+      "g43s" : { 
+         "short" : "G-43 (Gewehr 43) with a sight", 
+         "full" : "El Gewehr 43 es un rifle semiautomático con un desarrollado por Alemania durante la Segunda Guerra Mundial. Este modelo en particular tiene una mira adjunta y adaptada para el tipo de munición común."
+      }, 
+      "luger08" : { 
+         "short" : "Luger", 
+         "full" : "La Pistola Parabellum, comúnmente conocida como Luger a secas, es una pistola semiautomática con mecanismo de retroceso producida en varios modelos y por varias naciones desde 1898 hasta 1948. Después de la Tercera Guerra fue adaptada para el tipo de munición común."
+      }, 
+      "luger08rust" : { 
+         "short" : "Luger Oxidada", 
+         "full" : "Pistola alemana oxidada de la Segunda Guerra Mundial. Fue adaptada para el tipo de munición común."
+      }, 
+      "m76" : { 
+         "short" : "Zastava M76", 
+         "full" : "El Zastava M76 es un fusil militar semiautomático de francotirador/tirador designado desarrollado y fabricado por Zastava Arms en Yugoslavia."
+      }, 
+      "mg34_lmgrust" : { 
+         "short" : "MG-34 Oxidado", 
+         "full" : "Una ametralladora MG-34 oxidada. Tal vez sea un desperdicio de munición, pero en manos hábiles puede matar a un elefante."
+      }, 
+      "mg3rust" : { 
+         "short" : "MG-3 Oxidada", 
+         "full" : "Una ametralladora MG-3 oxidada. Tal vez sea un desperdicio de munición, pero en manos hábiles puede matar a un elefante."
+      }, 
+      "mp40rust" : { 
+         "short" : "MP-40 oxidada", 
+         "full" : "Un subfusil oxidado de la Segunda Guerra Mundial."
+      }, 
+      "oc2" : { 
+         "short" : "OTs-02 Kiparis", 
+         "full" : "El subfusil OTS-02 Kiparis (ОЦ-02 Кипарис, ciprés en ruso) fue diseñado por la oficina de diseño TsKIB SOO de Tula a principios de la década de 1970, pero no entró en servicio hasta 1972. Está destinado principalmente a las unidades de seguridad interna y de la policía."
+      }, 
+      "pmmd63" : { 
+         "short" : "PM md. 63", 
+         "full" : "La Pistola Mitraliera modelo 1963 (abreviada PM md. 63 o simplemente md. 63) es un fusil de asalto rumano que sigue el modelo del AKM, y que tiene la recámara del cartucho 7,62×39mm. "
+      }, 
+      "pmmd65" : { 
+         "short" : "PM md. 65", 
+         "full" : "La Pistola Mitraliera rumana modelo 1965 (abreviada PM md. 65 o simplemente md. 65) es un fusil de asalto que sigue el modelo del AKM.  Se trata de la versión con culata inferior del md. 63."
+      }, 
+      "stg44" : { 
+         "short" : "StG 44 (Sturmgewehr 44)", 
+         "full" : "Un fusil de la Segunda Guerra Mundial en las postrimerías de la Tercera Guerra. El StG 44 es un fusil alemán de tiro selectivo desarrollado durante la Segunda Guerra Mundial. También se le conoce como MP 43 y MP 44. Rehecho para la munición común soviética. Los fanáticos de las teorías de la conspiración lo llaman el primogénito del AK, sin embargo, su esquema de construcción corresponde completamente al M16 americano"
+      }, 
+      "stg44rust" : { 
+         "short" : "STG-44 Oxidado", 
+         "full" : "El fusil oxidado de la Segunda Guerra Mundial."
+      }, 
+      "ak74" : { 
+         "short" : "AK-74", 
+         "full" : "Fusil de asalto Kalashnikov, calibre 5,45 mm arr. 1974 (Índice GRAU - 6P20) - un fusil automático de 5,45 mm, desarrollado en 1970 por el diseñador M.T. Kalashnikov y adoptado por las fuerzas armadas de la URSS en 1974. Es una evolución del AKM. El desarrollo del AK-74 está asociado a la transición a un nuevo cartucho de bajo impulso de 5,45 × 39 mm."
+      }, 
+      "ak74m" : { 
+         "short" : "AK-74M", 
+         "full" : "AK-74 modernizado. Está equipado con una culata de plástico plegable en el lado izquierdo y una montura universal (barra de cola de milano) para montar miras, tanto ópticas como nocturnas, en el lado izquierdo del receptor. Así, el AK-74M sustituyó a cuatro modelos a la vez: AK-74, AKS-74, AK-74N y AKS-74N."
+      }, 
+      "akm" : { 
+         "short" : "AKM", 
+         "full" : "AKM (rifle de asalto Kalashnikov modernizado, índice GRAU - 6P1): modernización del AK, adoptado para el servicio en 1959. El rango de visión del AKM se ha aumentado a 1000 m, se han realizado cambios para aumentar la fiabilidad y la facilidad de uso."
+      }, 
+      "aks74" : { 
+         "short" : "AKS-74", 
+         "full" : "La modificación del AKS 74 (índice 6P21) fue adoptada al mismo tiempo que el AK 74 y estaba destinada principalmente a las tropas aerotransportadas. Se distingue por una culata metálica ligera de forma triangular, abatible hacia la izquierda y un saliente de bloqueo en el lado izquierdo del receptor. La forma triangular de la culata, compuesta por dos varillas y un apoyo para el hombro, le proporciona suficiente rigidez. La culata plegada no interfiere con el fuego"
+      }, 
+      "bren" : { 
+         "short" : "Bren", 
+         "full" : "La ametralladora ligera Bren se desarrolló a principios de la década de 1930 y fue utilizada por el ejército británico en diversas funciones hasta 1992."
+      }, 
+      "colt python" : { 
+         "short" : "Colt Python", 
+         "full" : "Revólver de seis tiros .357 Magnum fabricado por la Colt's Manufacturing Company en Hartford, Connecticut. Se introdujo por primera vez en 1955 con el M29 .44 Magnum de Smith & Wesson."
+      }, 
+      "crossbow3" : { 
+         "short" : "Ballesta", 
+         "full" : "Fabricante desconocido. Suministrado por comerciantes de Europa."
+      }, 
+      "frf2" : { 
+         "short" : "FR F2", 
+         "full" : "El fusil de francotirador FR F2 fue desarrollado por orden del ejército francés por la empresa GIAT a mediados de los años 80."
+      }, 
+      "mp5_kr" : { 
+         "short" : "MP-5K", 
+         "full" : "MP-5K Diseñada específicamente como arma de porte oculto, adecuada para el combate cuerpo a cuerpo, y que proporciona fuego corto con gran potencia de fuego."
+      }, 
+      "mp5a3" : { 
+         "short" : "MP5-A3", 
+         "full" : "MP-5 con culata telescópica retráctil. Un modelo temprano, con una culata acanalada y una carcasa de acero estampada del módulo USM."
+      }, 
+      "mp5sd" : { 
+         "short" : "MP-5SD", 
+         "full" : "El subfusil MP5SD fue desarrollado sobre la base del diseño del MP5A2 para ser utilizado por unidades especiales del ejército y de la policía. El subfusil MP5SD se fabrica en versiones con culata permanente - MP5SD2 y plegable - MP5SD3, o incluso sin culata - MP5SD4. Esta arma se diferencia del MP5 convencional por la presencia de un silenciador integrado."
+      }, 
+      "ppsh41" : { 
+         "short" : "PPS-41", 
+         "full" : "Subfusil soviético, desarrollado en 1940 por el diseñador G. S. Shpagin."
+      }, 
+      "svt38" : { 
+        "short" : "SVT-38", 
+         "full" : "El SVT-38 fue desarrollado como sustituto del fusil automático de Simonov y el 26 de febrero de 1939 fue adoptado por el Ejército Rojo."
+      }, 
+      "svt38_scope" : { 
+         "short" : "SVT-38 with scope", 
+         "full" : "El SVT-38 fue desarrollado como sustituto del fusil automático de Simonov y el 26 de febrero de 1939 fue adoptado por el Ejército Rojo."
+      }, 
+      "thompson_m1928a1" : { 
+         "short" : "Thompson M1928", 
+         "full" : "El modelo de 1928 se suministró a la Marina y al Cuerpo de Marines de los Estados Unidos en la década de 1930. La base eran los modelos modificados de 1921 con un mecanismo de disparo ponderado que reducía significativamente la cadencia de fuego."
+      }, 
+      "thompson_m1a1" : { 
+         "short" : "Thompson М1А1", 
+         "full" : "En octubre de 1942, comenzó el lanzamiento del modelo M1A1. Una versión similar de la Thompson se producía el doble de rápido que la M1928A1, y era más barata. La diferencia con el M1 era el obturador: en el M1 había un tambor móvil, en el M1A1 ya estaba firmemente fijado. Las armas estándar eran una culata reforzada, una mira trasera en forma de V y un cargador de 30 balas, el modo de disparo era automático."
+      }, 
+      "toz34" : { 
+         "short" : "TOZ-34", 
+         "full" : "TOZ-34 desarrollado por el diseñador-armero N. I. Korovyakov. El arma se fabricó por piezas desde 1964 en la Fábrica de Armas de Tula. En 1965, el TOZ-34 fue galardonado con la medalla de oro de la Feria de Leipzig."
+      }, 
+      "toz66" : { 
+         "short" : "TOZ-66", 
+         "full" : "En 1968, la Fábrica de Armas de Tula complació a los cazadores soviéticos con el lanzamiento del tan esperado gatillo de calibre 12. El nuevo modelo, llamado TOZ-66, fue producido en 1974, y logró ganar fama como el arma más potente entre las escopetas de doble cañón de Tula."
+      }
+   }, 
+   "chest" : { 
+      "citroe_ type45" : { 
+         "short" : "Citroen tipo 45", 
+         "full" : "Citroen tipo 45"
+      }, 
+      "gaz66back" : { 
+         "short" : "Gas-66", 
+         "full" : "Gas-66"
+      }
+   }, 
+   "consumable" : { 
+      "petrol" : { 
+         "short" : "Gasolina", 
+         "full" : "Este combustible clásico apareció en los Páramos gracias a los barones del gas de Asia Central. Se considera raro.", 
+         "fail" : "Conseguiste dañar una botella de plástico y un gas inapreciable vertido en el suelo y tus botas..."
+      } 
+   }, 
+   "interactive" : { 
+      "mymod_level" : { 
+         "short" : "-", 
+         "full" : "-"
+      }
+   }, 
+   "item" : { 
+      "koja" : { 
+         "short" : "Piel", 
+         "full" : "Piezas de cuero bien cortadas. Se pueden vender o utilizar en la artesanía.", 
+         "fail" : "Estropeado"
+      }, 
+      "shkurs" : { 
+         "short" : "Pelo", 
+         "full" : "La piel de un animal muerto. Se puede vender o utilizar en manualidades..", 
+         "fail" : "Estropeada"
+      }, 
+      "detail" : { 
+         "short" : "Piezas de armas de fuego", 
+         "full" : "Basura de armas rotas. Puedes venderlo."
+      } 
+   }, 
+   "encounter" : { 
+      "wolfsnights" : "Has caído en la trampa de una manada de lobos Una enorme manada de lobos se acerca ahora a ti", 
+      "spidernights" : "Has caído en la guarida de la araña. ¡Las arañas se acercan!", 
+      "bearhigh" : "Oyes el fuerte rugido de un oso cerca. Finalmente te das cuenta de que los osos se acercan a ti,", 
+      "wolflider" : "Una manada de lobos te rodea, entre ellos notas un extraño Líder.", 
+      "deidont" : "Algo o alguien se está acercando a ti, emitiendo sonidos muy fuertes mientras se mueve.", 
+      "devourer" : "Oíste los terribles sonidos de un animal desconocido, y notaste que algo se acercaba a ti desde la espesura.", 
+      "defence_1" : "A lo lejos, se oyen ruidos de disparos y combates. Tras escuchar, se oyen los claros gritos de la gente que pide ayuda", 
+      "fight_6" : "Se oyen los gemidos de algunos animales y el terrible rugido de un monstruo", 
+      "fight_5" : "Oyes los sonidos de la lucha. Tras escuchar, oyes un fuerte aullido y un chillido de ratones.", 
+      "fight_4" : "Sorprendentemente, ha sido testigo de cómo los lobos cazan a su presa.", 
+      "fight_3" : "Sorprendentemente, ha sido testigo de cómo los lobos cazan a su presa.", 
+      "fight_2" : "Sorprendentemente, ha sido testigo de cómo los lobos cazan a su presa.", 
+      "fight_1" : "Oísteis los sonidos de una pelea, especialmente el fuerte aullido de los lobos y el rugido del oso.", 
+      "ratsnights" : "Has caído en una trampa para ratas. Un gran número de ratas se acerca rápidamente a ti.", 
+      "roi" : "Has notado la rápida aproximación de pequeñas sombras desde el bosque.", 
+      "Ants_2" : "Has caído en el hormiguero Myrmica. Un gran número de Myrmicas se están acercando a ti.", 
+      "enter_help" : "Ayuda!", 
+      "fail_skip_ph" : "No lograste evitar la batalla!", 
+      "ph_caravan_1" : "Usted ha notado el coche con el grupo bien armado.", 
+      "mole" : "Oyes como la tierra debajo de ti empieza a temblar. Los insectos agresivos llegan a la superficie desde todas las direcciones.", 
+      "defence2" : "El cañonazo se oye en la distancia. Al acercarte un poco más, te has dado cuenta de que los cazadores luchan por su vida con la fauna local.", 
+      "lacodon" : "Observas unos extraños montículos en la tierra. De repente, los montículos cobran vida, parecidos a enormes iguanas con bocas llenas de dientes venenosos.", 
+      "trap_1" : "Después de salir de la ciudad has notado que alguien te observa. Se trata de bandidos locales y rápidamente se acercan a ti.", 
+      "ph_caravan_2" : "Ha visto un coche viejo con un grupo de hombres armados.", 
+      "defence_2night" : "Se oye el cañonazo en la distancia. Habiéndose acercado un poco más, has notado que la gente lucha por su vida con monstruos horribles.", 
+      "Mutashiftnights" : "Se oyen disparos, gritos y aullidos. Probablemente alguien ha tropezado con una manada de lobos", 
+      "lizardnights" : "Por la noche hace demasiado calor en la Ciudad Muerta. Los monstruos salen de la oscuridad y se acercan.", 
+      "bigratsnights" : "La manada de ratas enormes te ataca.", 
+      "lizardshiftnights" : "Se oyen disparos y gritos. Probablemente alguien se ha topado con monstruos terribles.", 
+      "Mutanights" : "La manada de lobos hambrientos ataca.", 
+      "bigratshiftnights" : "Ves como la manada de ratas enormes ataca a los trabajadores por turnos.", 
+      "oksana" : "Has notado a alguien!", 
+	  "oksana_quest_3" : "Un extraño viene a verte."
+   }, 
+   "door" : { 
+   }, 
+   "memo" : { 
+      "ph_craft_book1" : { 
+         "short" : "Esquema de la mochila del acosador", 
+         "full" : "Patrón detallado de la mochila stalker."
+      }, 
+      "ph_craft_book2" : { 
+         "short" : "Esquema de la mochila polivalente", 
+         "full" : "Patrón detallado de la mochila multiusos."
+      }, 
+      "ph_craft_book2_dog" : { 
+         "short" : "Esquema de la mochila para perros", 
+         "full" : "Patrón detallado de mochila para perros con armadura para la mascota"
+      }, 
+      "ph_craft_book3" : { 
+         "short" : "Esquema de la mochila de marcha", 
+         "full" : "Patrón detallado de la mochila de marcha."
+      }
+   }, 
+   "uniform" : { 
+      "armor1" : { 
+         "short" : "Chaleco antibalas para civiles", 
+         "full" : "Armadura civil de producción extranjera. Entregadas por comerciantes de Europa."
+      }, 
+      "armor1black" : { 
+         "short" : "Chaleco antibalas civil (negro)", 
+         "full" : "La versión en color negro del chaleco antibalas para civiles."
+      }, 
+      "armor1green" : { 
+         "short" : "Chaleco antibalas civil (verde)", 
+         "full" : "Versión de caza de un chaleco antibalas civil."
+      }, 
+      "ctw_armor2" : { 
+         "short" : "Police Vest", 
+         "full" : "Police bulletproof vest. In a good condition."
+      }, 
+      "ctw_head_1" : { 
+         "short" : "Casco de piloto soviético", 
+         "full" : "Casco de piloto soviético."
+      }, 
+      "ctw_head_1rust" : { 
+         "short" : "Casco de piloto oxidado", 
+         "full" : "Casco soviético oxidado del piloto."
+      }, 
+      "ctw_head_2" : { 
+         "short" : "Gorra militar", 
+         "full" : "Gorra militar"
+      }, 
+      "ctw_head_3" : { 
+         "short" : "Sombrero viejo", 
+         "full" : "Gorra militar muy antigua"
+      }, 
+      "ctw_head_4" : { 
+         "short" : "Sombrero con estilo", 
+         "full" : "Sombrero clásico"
+      }, 
+      "ctw_light_1" : { 
+         "short" : "Chaleco táctico mediano", 
+         "full" : "Chaleco táctico con elementos de blindaje. Su buena capacidad y facilidad de uso lo hacen popular."
+      }, 
+      "ctw_light_2" : { 
+         "short" : "Chaleco táctico mediano", 
+         "full" : "Chaleco militar de alta tecnología. La producción está en algún lugar de Oriente Medio."
+      }, 
+      "ctw_light_2amer" : { 
+         "short" : "Chaleco táctico medio camuflado", 
+         "full" : "Capturado como trofeo la bandera americana se utiliza en este chaleco."
+      }, 
+      "ctw_light_2digital" : { 
+         "short" : "Chaleco táctico medio camuflado", 
+         "full" : "El chaleco utiliza un camuflaje digital creado en 1984. Su alta eficacia y su bajo perfil lo hacen popular entre los acechadores."
+      }, 
+      "ctw_light_2snake" : { 
+         "short" : "Chaleco táctico medio camuflado", 
+         "full" : "El chaleco utiliza un camuflaje digital gris creado en 1984. Su alta eficacia y su bajo perfil lo hacen popular entre los acechadores."
+      }, 
+      "ctw_light_3" : { 
+         "short" : "Chaleco táctico mediano", 
+         "full" : "Chaleco de producción extranjera de excelente calidad. Hay una protección básica."
+      }, 
+      "ctw_light_4" : { 
+         "short" : "Chaleco táctico ligero", 
+         "full" : "Chaleco ligero de alta calidad. Muy cómodo y ergonómico."
+      }, 
+      "ctw_light_5" : { 
+         "short" : "Armadura experimental", 
+         "full" : "El origen de esta armadura es desconocido. Por primera vez fue entregada por un comerciante de Oriente Medio. La calidad de los materiales y el rendimiento de la armadura es fascinante."
+      }, 
+      "ctw_light_6" : { 
+         "short" : "Chaleco táctico pesado", 
+         "full" : "Muy versátil, se completa con una armadura básica."
+      }, 
+      "ctw_light_7" : { 
+         "short" : "Chaleco táctico ligero", 
+         "full" : "Tiene una gran demanda entre cazadores y pescadores. Buena capacidad y bolsillos cómodos, qué más se necesita?"
+      }, 
+      "gasmass" : { 
+         "short" : "Máscara de protección facial", 
+         "full" : "Máscara de protección con gafas en buen estado, entregada por comerciantes de Oriente Medio."
+      }, 
+      "tacticshield" : { 
+         "short" : "Escudo metálico", 
+         "full" : "Antiguo escudo antigolpes en buen estado, diseñado para ser utilizado por las fuerzas especiales de diversos cuerpos de seguridad."
+      }, 
+      "backpack2" : { 
+         "short" : "Mochila Stalker", 
+         "full" : "Modelo popular entre los acosadores de los páramos. Dicen que trae buena suerte."
+      }, 
+      "backpack3" : { 
+         "short" : "Mochila de marcha", 
+         "full" : "Mochila de buena capacidad."
+      }, 
+      "backpack5" : { 
+         "short" : "Mochila universal", 
+         "full" : "Una excelente mochila para viajes lejanos", 
+         "fail" : "La mochila se rompió"
+      }, 
+      "dog_backpack" : { 
+         "short" : "Armadura con mochila", 
+         "full" : "Armadura con mochila para su mascota. Está hecha a mano."
+      }, 
+      "gasmass1" : { 
+         "short" : "Máscara de gas M17", 
+         "full" : "La máscara antigás M17 americana se estrenó en 1958. Pasó por la selva de Vietnam y todavía, aparentemente, huele a napalm. El invitado raro en Wastelands como fue entregado en pequeñas cantidades por los distribuidores de Europa, o se mantuvo como un trofeo aquí."
+      }, 
+      "gasmass2" : { 
+         "short" : "PMK-2", 
+         "full" : "La última máscara antigás soviética que llegó al ejército en vísperas de la guerra. En comparación con los análogos civiles tiene mayor grado de protección y el ángulo de visión aumentado que permite disparar fácilmente con miras de armas."
+      }, 
+      "gasmass3" : { 
+         "short" : "Máscara de gas GP-5", 
+         "full" : "La máscara antigás civil soviética, el mejor amigo de todos los pioneros y trabajadores. Se fabricó desde 1961 en volúmenes tan enormes, y ahora, muchos años después de la guerra, todavía se puede encontrar en todas partes."
+      }, 
+      "headpanama" : { 
+         "short" : "Sombrero Afghan del ejército", 
+         "full" : "Se suponía que se utilizaba combinado con un casco de acero. Entonces se generalizó el nombre de Panamá. Sin embargo, es más preferible hablar de casco subtropical porque este producto se desarrolló sobre una muestra del casco subtropical de algodón del NKVD de 1935."
+      }, 
+      "m42" : { 
+         "short" : "Casco de acero M42", 
+         "full" : "Un casco de acero alemán creado en 1942 (Stahlhelm Modell 42) - el casco de infantería aprobado como casco general estándar para las fuerzas armadas del Tercer Reich en el verano de 1942."
+      }, 
+      "m42_rust" : { 
+         "short" : "Casco de acero M42 oxidado", 
+         "full" : "Casco de acero M42 oxidado. Casco de acero alemán oxidado creado en 1942."
+      }
+   }, 
+   "explosive" : { 
+   }, 
+   "location" : { 
+      "1" : ".1"
+   },
+      "skills" : {
+	  "oksana_speech_info" : "Eso espero.", 
+      "oksana_barter_info" : "No necesito eso. El comercio es su preocupación.", 
+      "oksana_gambling_info" : "Yo no juego y no te aconsejo.", 
+      "oksana_steal_info" : "No me gustan los ladrones.", 
+      "oksana_crafting_info" : "Puedo dibujar camuflaje para ti, pero no puedo hacer nada, no es para mí." 
+   },
+   "params" : { 
+      "criticalchance" : "Probabilidad crítica (valor básico)"
+   },
+   "giveway" : { 
+      "oksana" : [ 
+         "¿Estoy interfiriendo?", 
+         "Ahora, ahora", 
+         "Ya me voy", 
+         "No te dejes atrapar por ello.", 
+         "Vale, vale, me voy."
+      ]
+   },    
+   "quests" : { 
+      "ph_trade1_quest" : "[Phenomenon] Alexander, el comerciante, le pidió que le llevara combustible. 50 litros deberían ser suficientes.", 
+      "ph_trade2_quest" : "[Phenomenon] Bogdan, el comerciante, te ha pedido recursos de artesanía, 50 cueros y 30 pieles. Tiene muchos compradores para estos productos.", 
+      "oksana_quest_1" : "[Phenomenon] Necesita ayudar a Oksana a hacer un caché en la KRZ. Para ello, necesitará la pistola Makarov 1pc, 30 balas de 9mm, vodka 3 piezas, botiquines 2 piezas, Estimulante 5 piezas, Estofado 10 piezas, Casparamid 10 piezas y 1000 rublos.", 
+      "oksana_quest_2" : "[Phenomenon] Oksana quiere hacer un regalo para su amiga. Para ello, tenemos que visitar los asentamientos donde hay comerciantes. Tenemos que visitar el KRZ, Peregon, Otradnoye , Fogelevka y Caravanserai", 
+      "oksana_quest_3" : "[Phenomenon] Oksana salió al cliente, apodado el Oráculo. Tenemos que aclarar su ubicación sobre la base de los acosadores, en la Ciudad Muerta, y luego encontrarlo y eliminarlo." 
+   }
+}
