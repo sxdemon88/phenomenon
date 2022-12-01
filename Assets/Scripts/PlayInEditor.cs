@@ -17,6 +17,7 @@ public class PlayInEditor : MonoBehaviour
     public Light _sunTestLight = null;
 
     public string spawnScene = null;
+    public bool useModEntryPoint = true;
 
     List<GameObject> tempSceneObj = new List<GameObject>();
 
@@ -92,11 +93,27 @@ public class PlayInEditor : MonoBehaviour
         }
     }
 
+    void CreateEntryPoint()
+    {
+        GameObject enterPoint = new GameObject("ModEntryPoint");
+        enterPoint.AddComponent<ModEntryPoint>();
+    }
 
     void Awake()
     {
         if (EditorApplication.isPlaying)
         {
+            // disable main camera 
+            var defaultCamera = GameObject.Find("Main Camera");
+            if (defaultCamera)
+            {
+                defaultCamera.SetActive(false);
+            }
+
+            if (useModEntryPoint)
+            {
+                CreateEntryPoint();
+            }
 
             Lightmapping.giWorkflowMode = Lightmapping.GIWorkflowMode.OnDemand;
 
@@ -106,9 +123,6 @@ public class PlayInEditor : MonoBehaviour
             ResourceManager.Reset();
             ResourceManager.SetAssetGetPathCallback(null);
 
-
-            AssetBundle gameBundle = null;
-
             ResourceManager.AddBundle("resources", new ResourcesBundle());
 
             LoadBundles(Application.streamingAssetsPath);
@@ -116,20 +130,26 @@ public class PlayInEditor : MonoBehaviour
             var gdir = PlayerPrefs.GetString("GAME_CONTENT_DIR", "");
             LoadBundles(gdir);
 
+            GameObject game = null;
+
             foreach (var f in AssetBundle.GetAllLoadedAssetBundles())
             {
                 if (f != null)
                 {
-                    //ResourceManager.AddBundle(f.name, f);
+                    game = f.LoadAsset<GameObject>("Game");
 
-                    if (f.name.IndexOf("editor") >= 0) //TODO
+                    if(game != null)
                     {
-                        gameBundle = f;
+                        break;
                     }
                 }
             }
 
-            GameObject game = gameBundle.LoadAsset<GameObject>("Game");
+            if(game == null)
+            {
+                Debug.Log("Game prefab not found from bundles");
+            }
+
             Instantiate(game);
 
             GameStorage.SetInt("PostImageEffects", 0);
